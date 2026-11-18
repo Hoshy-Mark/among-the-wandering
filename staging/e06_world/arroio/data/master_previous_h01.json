@@ -1,0 +1,128 @@
+{
+  "enabled": true,
+  "decision_id": "ARROIO-H01-ART-REV04",
+  "revision": "H01-ART-REV04",
+  "base_snapshot": "4802e8c233f66a4ad377bcc7",
+  "direction_approved": true,
+  "visual_homologation": false,
+  "main_promotion_authorized": false,
+  "visual_path": "res://staging/e06_world/arroio/assets/h01_art_rev04/H01_REV04.gltf",
+  "source_asset": "HAB_222",
+  "bounds_xyz_m": [
+    [
+      -4.859999999999999,
+      0.0,
+      -6.015000000000001
+    ],
+    [
+      4.859999999999999,
+      4.76,
+      4.405
+    ]
+  ],
+  "porch": {
+    "width_m": 2.9,
+    "depth_m": 1.35,
+    "outer_column_local_xz": [
+      -1.85,
+      -5.77
+    ],
+    "wall_pilaster_local_xz": [
+      0.95,
+      -4.52
+    ],
+    "reason": "two outer pillars conflict with the original 1.9m route; right support recessed to facade"
+  },
+  "leaf_fill_factor": 2.4,
+  "gate_open_pose": "folded_against_inside_front_wall",
+  "low_shrub_positions": [
+    [
+      22.2,
+      181.3
+    ],
+    [
+      40.5,
+      181.6
+    ],
+    [
+      42.1,
+      173.4
+    ]
+  ],
+  "preserve": {
+    "parcel": [
+      [
+        44.0,
+        147.82973125419332
+      ],
+      [
+        44.0,
+        185.33333333333331
+      ],
+      [
+        20.0,
+        185.33333333333331
+      ],
+      [
+        20.0,
+        147.82973125419332
+      ],
+      [
+        44.0,
+        147.82973125419332
+      ]
+    ],
+    "gate": {
+      "center": [
+        27.768644163033038,
+        147.82973125419332
+      ],
+      "along": [
+        1.0,
+        0.0
+      ],
+      "inward": [
+        -0.0,
+        1.0
+      ],
+      "opening_width_m": 3.6,
+      "leaf_state": "open; no interaction script"
+    },
+    "access_path": [
+      [
+        25.56333320935567,
+        155.61333330651124
+      ],
+      [
+        25.663333209355667,
+        149.39333354314164
+      ],
+      [
+        27.768644163033038,
+        147.82973125419332
+      ]
+    ],
+    "wall_132": {
+      "id": "WALL_132",
+      "a": [
+        44.0,
+        148.035965
+      ],
+      "b": [
+        44.0,
+        185.333333
+      ],
+      "owners": [
+        {
+          "building_id": "H01",
+          "sector": "S01"
+        },
+        {
+          "building_id": "H02",
+          "sector": "S01"
+        }
+      ],
+      "height_m": 1.15
+    }
+  }
+}

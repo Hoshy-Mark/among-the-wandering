@@ -1,0 +1,40 @@
+{
+  "injured_idle": {
+    "duration": 1.6,
+    "label": "Repouso ferido",
+    "source": "idle",
+    "speed": 0.0
+  },
+  "limp_left": {
+    "duration": 0.96,
+    "label": "Mancar · perna esquerda",
+    "side": "L",
+    "source": "walk",
+    "speed": 0.528125020985802
+  },
+  "limp_right": {
+    "duration": 0.96,
+    "label": "Mancar · perna direita",
+    "side": "R",
+    "source": "walk",
+    "speed": 0.528125020985802
+  },
+  "tired_idle": {
+    "duration": 1.4,
+    "label": "Recuperar o fôlego",
+    "source": "idle",
+    "speed": 0.0
+  },
+  "tired_run": {
+    "duration": 0.72,
+    "label": "Corrida cansada",
+    "source": "run",
+    "speed": 2.83333337555329
+  },
+  "tired_walk": {
+    "duration": 1.0,
+    "label": "Caminhada cansada",
+    "source": "walk",
+    "speed": 0.585000023245811
+  }
+}

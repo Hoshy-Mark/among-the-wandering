@@ -1,0 +1,421 @@
+[
+  {
+    "type": "Feature",
+    "id": "V01",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          0.0,
+          142.0
+        ],
+        [
+          16.666666666666664,
+          141.66666666666666
+        ],
+        [
+          31.333333333333332,
+          142.79269421715628
+        ],
+        [
+          32.0,
+          142.803311323699
+        ],
+        [
+          57.83333333333333,
+          142.9989280493827
+        ],
+        [
+          59.166666666666664,
+          142.99516666666665
+        ],
+        [
+          114.33333333333333,
+          142.38037786782047
+        ],
+        [
+          121.5,
+          142.49949192660222
+        ],
+        [
+          134.33333333333331,
+          142.84940823363627
+        ],
+        [
+          161.33333333333331,
+          143.8666008038187
+        ],
+        [
+          178.0,
+          144.8695278785484
+        ],
+        [
+          209.0,
+          146.82803820638242
+        ],
+        [
+          253.83333333333331,
+          149.32669028277613
+        ],
+        [
+          278.3333333333333,
+          151.0219730396483
+        ],
+        [
+          369.16666666666663,
+          158.20313565389475
+        ],
+        [
+          390.8333333333333,
+          158.88110745157962
+        ],
+        [
+          410.0,
+          159.0
+        ]
+      ]
+    },
+    "properties": {
+      "class": "road_centerline",
+      "setor": "S01",
+      "road_width_m_proposed": 4.666666666666666,
+      "sidewalk_width_m_proposed": 1.5999999999999999,
+      "source": "S01 road_y em cadastro e extremidades de contexto S05",
+      "metric_status": "PROPOSTA"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "V02",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          84.0,
+          142.0
+        ],
+        [
+          84.0,
+          194.66666666666666
+        ],
+        [
+          85.66666666666666,
+          234.0
+        ]
+      ]
+    },
+    "properties": {
+      "class": "road_centerline",
+      "setor": "S03",
+      "road_width_m_proposed": 4.5,
+      "sidewalk_width_m_proposed": 1.2,
+      "source": "S03 Estudo04 (nó V01 ancorado, extensão de ligação)",
+      "metric_status": "PROPOSTA"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "V04",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          192.33333333333331,
+          145.66666666666666
+        ],
+        [
+          192.66666666666666,
+          196.66666666666666
+        ],
+        [
+          192.66666666666666,
+          237.0
+        ]
+      ]
+    },
+    "properties": {
+      "class": "road_centerline",
+      "setor": "S03",
+      "road_width_m_proposed": 4.5,
+      "sidewalk_width_m_proposed": 1.2,
+      "source": "S03 Estudo04 (nó V01 ancorado, extensão de ligação)",
+      "metric_status": "PROPOSTA"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "V05",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          310.0,
+          154.0
+        ],
+        [
+          309.66666666666663,
+          201.0
+        ],
+        [
+          310.0,
+          236.66666666666666
+        ]
+      ]
+    },
+    "properties": {
+      "class": "road_centerline",
+      "setor": "S03",
+      "road_width_m_proposed": 4.5,
+      "sidewalk_width_m_proposed": 1.2,
+      "source": "S03 Estudo04 (nó V01 ancorado, extensão de ligação)",
+      "metric_status": "PROPOSTA"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "V03",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          84.0,
+          234.0
+        ],
+        [
+          129.33333333333331,
+          235.0
+        ],
+        [
+          184.0,
+          236.33333333333331
+        ],
+        [
+          236.66666666666666,
+          238.66666666666666
+        ],
+        [
+          310.0,
+          236.66666666666666
+        ]
+      ]
+    },
+    "properties": {
+      "class": "road_centerline",
+      "setor": "S03",
+      "road_width_m_proposed": 4.5,
+      "sidewalk_width_m_proposed": 1.2,
+      "source": "S03 Estudo04 translated dy+30",
+      "metric_status": "PROPOSTA"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "V07",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          18.333333333333332,
+          66.0
+        ],
+        [
+          73.33333333333333,
+          65.66666666666666
+        ],
+        [
+          130.66666666666666,
+          64.66666666666666
+        ],
+        [
+          193.33333333333331,
+          67.0
+        ],
+        [
+          224.66666666666666,
+          71.66666666666666
+        ]
+      ]
+    },
+    "properties": {
+      "class": "road_centerline",
+      "setor": "S04",
+      "road_width_m_proposed": 4.5,
+      "sidewalk_width_m_proposed": 1.2,
+      "source": "S04 Estudo05 translated dy-45",
+      "metric_status": "PROPOSTA"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "V06",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          85.33333333333333,
+          142.66666666666666
+        ],
+        [
+          85.33333333333333,
+          105.16666666666666
+        ],
+        [
+          85.33333333333333,
+          66.33333333333333
+        ]
+      ]
+    },
+    "properties": {
+      "class": "road_centerline",
+      "setor": "S04",
+      "road_width_m_proposed": 4.5,
+      "sidewalk_width_m_proposed": 1.2,
+      "source": "S04 V06 prolongamento: ancoragem em V01 e ponta no V07 transformado",
+      "metric_status": "PROPOSTA"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "V08",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          150.66666666666666,
+          143.33333333333331
+        ],
+        [
+          151.66666666666666,
+          126.66666666666666
+        ],
+        [
+          152.0,
+          100.0
+        ],
+        [
+          152.33333333333331,
+          80.33333333333333
+        ],
+        [
+          152.33333333333331,
+          65.47333333333333
+        ]
+      ]
+    },
+    "properties": {
+      "class": "road_centerline",
+      "setor": "S02",
+      "road_width_m_proposed": 4.5,
+      "sidewalk_width_m_proposed": 1.2,
+      "source": "S02 V08 inalterada até y241; extensão final para V07 transformada",
+      "metric_status": "PROPOSTA"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "V09",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          228.0,
+          148.66666666666666
+        ],
+        [
+          227.66666666666666,
+          115.0
+        ],
+        [
+          245.66666666666666,
+          103.0
+        ],
+        [
+          272.66666666666663,
+          102.66666666666666
+        ],
+        [
+          299.0,
+          106.0
+        ],
+        [
+          316.66666666666663,
+          112.33333333333333
+        ]
+      ]
+    },
+    "properties": {
+      "class": "road_centerline",
+      "setor": "S05",
+      "road_width_m_proposed": 4.5,
+      "sidewalk_width_m_proposed": 1.2,
+      "source": "S05 Estudo06 V09",
+      "metric_status": "PROPOSTA"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "V10",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          310.0,
+          236.66666666666666
+        ],
+        [
+          338.3333333333333,
+          238.66666666666666
+        ],
+        [
+          366.66666666666663,
+          240.0
+        ],
+        [
+          409.3333333333333,
+          241.0
+        ]
+      ]
+    },
+    "properties": {
+      "class": "road_centerline",
+      "setor": "S06",
+      "road_width_m_proposed": 4.5,
+      "sidewalk_width_m_proposed": 1.2,
+      "source": "S06 Estudo07 translated dy+30",
+      "metric_status": "PROPOSTA"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "V11",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          366.66666666666663,
+          240.0
+        ],
+        [
+          367.3333333333333,
+          218.33333333333331
+        ],
+        [
+          369.0,
+          196.66666666666666
+        ],
+        [
+          369.3333333333333,
+          182.66666666666666
+        ]
+      ]
+    },
+    "properties": {
+      "class": "road_centerline",
+      "setor": "S06",
+      "road_width_m_proposed": 4.5,
+      "sidewalk_width_m_proposed": 1.2,
+      "source": "S06 Estudo07 translated dy+30",
+      "metric_status": "PROPOSTA"
+    }
+  }
+]

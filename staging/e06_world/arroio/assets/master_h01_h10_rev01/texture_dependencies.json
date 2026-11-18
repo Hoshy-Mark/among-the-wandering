@@ -1,0 +1,428 @@
+{
+  "files": [
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_masters/glass_neutro_5129cd3bb71f.png",
+      "sha256": "8ffc2a4e5277687dcc0affade36697581af2f1f355429a148c28d833adfe543d"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_new/1788b2a3fa8229afda5a.png",
+      "sha256": "1788b2a3fa8229afda5a422761ebcd809862621fa18751792635912e9c747ef5"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_new/1e11ac67f86b83c392e6.png",
+      "sha256": "1e11ac67f86b83c392e627421617e8478a7141d726348b69469211806d433ad3"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_new/4293d7ab894d751efd61.png",
+      "sha256": "4293d7ab894d751efd615e0b87dc4205f85294991b096770f10e7bf9e44f6e13"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_new/44122ad9191c6b70faff.png",
+      "sha256": "44122ad9191c6b70faff748f8c212514ca0f2e3d0e0892ba525e39b05bff0064"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_new/87c604aa21eda666a427.png",
+      "sha256": "87c604aa21eda666a427b748e3f4376c3c549d6890c3a40b2a5d045b65e058e7"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_new/891459ec51ba07041bc2.png",
+      "sha256": "891459ec51ba07041bc2e30a971eb9d38a1d134b34014a1ca37944eaabafa754"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_new/ec3c70e7de5ba76efd53.png",
+      "sha256": "ec3c70e7de5ba76efd5324d72ae0034081d4fd7ab7704e4246a6281a9284233f"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_new/f5abf3de712b0af7ae9a.png",
+      "sha256": "f5abf3de712b0af7ae9a59d2fd4129d5d1d10b2f9e8a43a114d508d62a2b633e"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_new/f901b4032cdf2ab79abd.png",
+      "sha256": "f901b4032cdf2ab79abd40748575cb998520ad3b1ac478b387fc65fbfdcb064b"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/00a164cb53ada9c5b911.png",
+      "sha256": "00a164cb53ada9c5b911ccd08a172501da2001b78009c87525e7795e3b4b1f39"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/00d420fa074c34bd76ca.png",
+      "sha256": "00d420fa074c34bd76ca9f126ac231fb2cfc97e56eb3e097d58195ca10350d6f"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/04409e50827a3d3d2372.png",
+      "sha256": "04409e50827a3d3d237201cfd11823aa0cddfac2fab2799a50551d13d48ae726"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/0c3adef7a1bd0fb65639.png",
+      "sha256": "0c3adef7a1bd0fb656394923037d404d4a1c599f6d19420dd897c440305f92df"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/14fdac2bea4121dd33c7.png",
+      "sha256": "14fdac2bea4121dd33c71a0987842e8dacb23fee85ae09d560baac193d0ef365"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/1f9d0b581266e6efb0a8.png",
+      "sha256": "1f9d0b581266e6efb0a8a5bde8da304efb17ce1aa25c3faf71dbec72dbcba593"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/24498d3caabbd83a8bd3.png",
+      "sha256": "24498d3caabbd83a8bd3c7e7cc7ac755ee91c1b5e2d5d42070154905c25cbece"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/27483a63366d6bc10ca9.png",
+      "sha256": "27483a63366d6bc10ca9eda9f3080bf50d98478c427c01d7ed1ceb093832597f"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/27c6a7b12f1c27cf5a4a.png",
+      "sha256": "27c6a7b12f1c27cf5a4a3cfa030d3752f5327e38463053165a67e5a56d619d96"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/2d71800c8025ab525e50.png",
+      "sha256": "2d71800c8025ab525e50b9b5059ad758ddf7f2660233187339679ed0061d2cc9"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/2dc57cc793797a875e08.png",
+      "sha256": "2dc57cc793797a875e08b90af372552d5ca682b488d1d19ddac6e090a45e5ec9"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/2e30244717f849e5b4f0.png",
+      "sha256": "2e30244717f849e5b4f0e61d5fd53dc1e3e97ce6e62544ff81fb1d675658163c"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/2ff910a6160727d9ec03.png",
+      "sha256": "2ff910a6160727d9ec03a938e6faea3821702a7b8874651756bda4f2ea7fbfe1"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/311933f7f06710315e88.png",
+      "sha256": "311933f7f06710315e88b13f46c3d5760a65203159108e381f020ae88be2d9e3"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/35c7336102658d905be4.png",
+      "sha256": "35c7336102658d905be447227cb43a9c93e54cdd2a9b3318efdc5bbf0a0ca6a6"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/3e8c1a317500ee360f66.png",
+      "sha256": "3e8c1a317500ee360f66a0e62b57226cb88c9d61f72704b6025274c948551bce"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/3ef807b29089c9a68da7.png",
+      "sha256": "3ef807b29089c9a68da7b2b5bf4734624cc5e1b321c72d005533f8e88b4a02b0"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/461a1450f5abc77efac0.png",
+      "sha256": "461a1450f5abc77efac0a593e2b17541c088b6e4c785edbb0b5b3c54c61ecc50"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/49a01fc5d6f1bc5983b9.png",
+      "sha256": "49a01fc5d6f1bc5983b99f7814228714fdfbb94b4ed0bc9436b1be5ac32578f0"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/4a9632a4a464d8cbcb75.png",
+      "sha256": "4a9632a4a464d8cbcb750797e5c9e46dee02960c2d764d0ff96a05d277266ef4"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/4e731b6ce58fc8e81271.png",
+      "sha256": "4e731b6ce58fc8e8127181b42635e6a2330a170a3e58819a86bd87790b7fd032"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/50dd17b52df0b2206a23.png",
+      "sha256": "50dd17b52df0b2206a23829ef77c5b81e36881f486777d42b53f3e6ac905a4f2"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/550be5972fe6f25255e4.png",
+      "sha256": "550be5972fe6f25255e46bcd43723b2ae3bc9746d5dcbcc595f55e538301c6ee"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/62e78fc9a51a435a0411.png",
+      "sha256": "62e78fc9a51a435a04113e0c0627026b38a3f32460178cb4e42258ebfa4104f1"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/65f5cacb8840e8cd0669.png",
+      "sha256": "65f5cacb8840e8cd066990fbde4b7a5ff9ee5445a7c452d2e2b8833caab81175"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/676df6f162546817fb6b.png",
+      "sha256": "676df6f162546817fb6b9fee3d1762d50ae1da3f52b0451cb81caa4303f52d31"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/6cbb0d721bde503756d2.png",
+      "sha256": "6cbb0d721bde503756d242f7a8a0546ba014d5be6e17b433026bd1fcd60601bd"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/70fe4042767b82bd6051.png",
+      "sha256": "70fe4042767b82bd6051e78666b5af803931493e2cd9285738208ae246981e4c"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/7164628c6956d607d298.png",
+      "sha256": "7164628c6956d607d298ec8121c1e0c19759376354861ca124a534bf7be7967b"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/725c74304e05256320b1.png",
+      "sha256": "725c74304e05256320b1de0df852e3128681b0b5100cdd4dfca51c6422bdb48d"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/738c3a44d27087e7c301.png",
+      "sha256": "738c3a44d27087e7c301b5678c89a7faf4019a379b79d61be0a0b26e0b92ec66"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/765577f756a9a6bd1e7f.png",
+      "sha256": "765577f756a9a6bd1e7fa828728c723610cbedf91e5fc0504f89a88fa17bc84d"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/79212880382757d10ee5.png",
+      "sha256": "79212880382757d10ee588924a677bd7fca439744b46697d1d91f0a17862729c"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/7bc5a38481d0f652575c.png",
+      "sha256": "7bc5a38481d0f652575c5650f238c1cb0ce3597f8a76922704aa0680e806ec7f"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/80093f04d0edb43de824.png",
+      "sha256": "80093f04d0edb43de824742402b97a2baee4a762be78d888b3511a678d71de5c"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/8982a0c2b4ee07b45d64.png",
+      "sha256": "8982a0c2b4ee07b45d6493b742d3d44a3835d7a9f463124b7a0eb4c4c09b38d9"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/8b6b1f912c5a2a689fed.png",
+      "sha256": "8b6b1f912c5a2a689fedcc64c62d87c8f427e2293c018f480f216fbde0053d3e"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/8c51b637d691487226fb.png",
+      "sha256": "8c51b637d691487226fb1c901c2f703dd1beba82e5e02e63b725c28338c68816"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/8d0318373667fa559783.png",
+      "sha256": "8d0318373667fa55978328ee14bb725be4e1c4472cb2b617bd08d76a28d83960"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/9098984bb0d6d150f4fb.png",
+      "sha256": "9098984bb0d6d150f4fbc43f5a6ec9bc68732788095454f0d78f988b635073d5"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/92dcc9c89c06ea445d91.png",
+      "sha256": "92dcc9c89c06ea445d91638adea7371a09689b1c445b64f3e4d91dc769e8b6d9"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/9413e369ea230674d7fe.png",
+      "sha256": "9413e369ea230674d7feebd006c93d206199b145ffb587ba1a034edf7a391ff6"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/95331b846f5e98d568e3.png",
+      "sha256": "95331b846f5e98d568e39a45f5477ed45398d2b4e16f17d20f29d74c27c4848e"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/96e78791d8b72c48d062.png",
+      "sha256": "96e78791d8b72c48d062c5b4bc5d5b604012a81a35eed008cd6999d8752b7a2d"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/978d2c1e98c9e3bdb929.png",
+      "sha256": "978d2c1e98c9e3bdb92959ef741bd415183218470a910494b1f356b105c9051f"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/987c0000f558bff7a3cb.png",
+      "sha256": "987c0000f558bff7a3cbb71e5d532006312d5e025f5f06c377815f23fa2e29e7"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/9fd28d8da5c23c0eecca.png",
+      "sha256": "9fd28d8da5c23c0eecca81023587dd02eca64aab37b6a44bf67665b55053d175"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/a4de088a68f8cabaed17.png",
+      "sha256": "a4de088a68f8cabaed171767442a0e984316376c280f13be97975dd766316aae"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/a8658dc2b989da3726d5.png",
+      "sha256": "a8658dc2b989da3726d52dddfbdc082be8131d4e239d7c1338936d87955eedee"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/a8a2f377a06e961f03e8.png",
+      "sha256": "a8a2f377a06e961f03e841d53a72c0b96dc8cc3a6482f7a44a711b0aba45e0c7"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/aad7ff6b9bf593cc3ae4.png",
+      "sha256": "aad7ff6b9bf593cc3ae43fe13f25ac7a610833c3569582d6cd4b4713c6756dc2"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/af91ee1c9daf9f0e2271.png",
+      "sha256": "af91ee1c9daf9f0e22716a672e991e5233e9e8fe3cd1fedc3dbf5af0601b73cf"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/b11afd90e0d513ecfee1.png",
+      "sha256": "b11afd90e0d513ecfee1df6dfa1968386f1400a135cf679a9ea1905fad533b62"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/b4b5d2d340d5af7e8fed.png",
+      "sha256": "b4b5d2d340d5af7e8fed801659b93b8a2bfe39c4a81e3e255e4a5a6a568a1dc1"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/b5b342483aac168897b5.png",
+      "sha256": "b5b342483aac168897b5424a6c56d1a77d84a000f1d2934dfa341b750a394959"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/b75ec81ecec343efc012.png",
+      "sha256": "b75ec81ecec343efc0126cb4022cb2e4e26ea27bc4ea05781644eaa300d9a8f4"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/b8fa9b21df3a22bdbf27.png",
+      "sha256": "b8fa9b21df3a22bdbf27f9b7c8a3ec49c1f5742365eaa74bf517a2a8617fe5e1"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/bf9037fe5d5720690be2.png",
+      "sha256": "bf9037fe5d5720690be22adb99fd5d5f245cad384af38717d4e6effb016a83f2"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/c04f4fe1fd72c33cc81d.png",
+      "sha256": "c04f4fe1fd72c33cc81d8e525e6c67e867f3e3c3d43422dd614b84f7220a4146"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/c2482adec0c82877cd06.png",
+      "sha256": "c2482adec0c82877cd0689324eaa2e7a2d5ce8297063d5dc99f6b7f82c9b92fd"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/c2d9112522a4e6f4a81b.png",
+      "sha256": "c2d9112522a4e6f4a81b84ee605b34120fc695a43b5d1c7413845109f4fd5d53"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/c839bebf338538e05ddf.png",
+      "sha256": "c839bebf338538e05ddfdd81cf74bf283cb6f27987f1e707056aab36dc4c671e"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/c84164737a07882450bb.png",
+      "sha256": "c84164737a07882450bbd1972ae22e4cf13c81e42b9881a11626ce4ddae61034"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/cccd4a5756dcbff37183.png",
+      "sha256": "cccd4a5756dcbff371836ba8251f26d2b47c9b467454ef859b5bfd7f8db119c0"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/cd293facbcd432751b96.png",
+      "sha256": "cd293facbcd432751b965960158b6331eac9850642a7a5cb0a1b04b006b01757"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/d30ed746835462dae249.png",
+      "sha256": "d30ed746835462dae2495d4e7e1a3e94372e0b6fb1d8e527c7a631b464f3b25f"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/d640bf4d8983dd144e2a.png",
+      "sha256": "d640bf4d8983dd144e2a96648febbe7b42916f6bffea042f11b627fd2e43a77c"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/d8f94765bfdaabf83483.png",
+      "sha256": "d8f94765bfdaabf834830df8638e9e02f797857b1633ee03a51e54306324de1e"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/d9231f259e6e7e4e4605.png",
+      "sha256": "d9231f259e6e7e4e46051585f3c1bcf9502f31f16569c6f21b4d0b1f67c2173b"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/dc5f9f877e8ce93b0002.png",
+      "sha256": "dc5f9f877e8ce93b00021777e01866ba1ad17a8ce7c45e0ffb33b6459dca21b3"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/e1a73e294c339651ac60.png",
+      "sha256": "e1a73e294c339651ac600bcc1ff3adb870bada46168d71803a92777a0addc339"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/e3531334afc274eec22e.png",
+      "sha256": "e3531334afc274eec22eebc98b50db28659c3b98a862622152ec354aefbaf828"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/e3a83f4b5961e544bdba.png",
+      "sha256": "e3a83f4b5961e544bdba5dd8ef5197c97dc8bc652be9e511007faf8ab240ae1a"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/eb51b97840cd139a0968.png",
+      "sha256": "eb51b97840cd139a096845b367731cc88ee5094b592b0f4f72f61173bf2908a6"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/f05cfda09c8a6e794467.png",
+      "sha256": "f05cfda09c8a6e79446733a304928b05ed2721aed7df0fb4ae10b97f75b35710"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/f107f7c9f9bf2fcb6bda.png",
+      "sha256": "f107f7c9f9bf2fcb6bda452c0209f343be171f9b4211f6d8e358908871e3cfbe"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/f24a34ab4600fb1e6bf3.png",
+      "sha256": "f24a34ab4600fb1e6bf3ed4f96d752b9ee182d49b75c9dad595da05339ea8869"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/f4908c9b5cdec36eda24.png",
+      "sha256": "f4908c9b5cdec36eda243167deae05fe9e750ca0487ce01ff1e036c63f0f59de"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/f6845b2110257260257a.png",
+      "sha256": "f6845b2110257260257a68469f74f07e7d5e4a36c2da833082a21d3646e1999a"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/f782239142d3d6e65efd.png",
+      "sha256": "f782239142d3d6e65efd91ccfb0ee6af28702be913e10baa9830b0ab540a581c"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/brick_normal_60695dc96254.png",
+      "sha256": "60695dc96254d969c1de063dfd4b28ad9f14a23987a51119ed614cca1271eac3"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/brick_roughness_613f52ead6a6.png",
+      "sha256": "613f52ead6a617ee795593e0824f96e4d53eaae35d28af9b8c6fc33791855bff"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/ceramic_normal_fe8cbdf13700.png",
+      "sha256": "fe8cbdf13700c771b27ba31e33ffaa97ee1e9a480baee7908d71415f0d468198"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/ceramic_roughness_4c090fe21151.png",
+      "sha256": "4c090fe21151c2fe29eb005f6cb1a8be6776b58e759497f92dd49d18ad118136"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/concrete_normal_95942dd65a66.png",
+      "sha256": "95942dd65a6670d8b249e7ebc0a533c69cc9334ab39cc0f316959765671a7af5"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/concrete_roughness_b2e211bdfdba.png",
+      "sha256": "b2e211bdfdbaab47a5f420961fe4a45732b4cc3b8b54d0592dd3cf2b8fdb91f3"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/fibro_normal_32878131887f.png",
+      "sha256": "32878131887fba7b1cb0929b890dab0a885690f3e46216d6bd108597a20b4fe6"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/fibro_roughness_64e6f8b8d5f9.png",
+      "sha256": "64e6f8b8d5f91748a406d13e1aa9bc78b673e974303de72d7a4ccbc6d53cdf34"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/glass_normal_9e2027b1629f.png",
+      "sha256": "9e2027b1629f69117bb0650fc8efb5a11344e0f8c8ab1cfd14404e70cdf8df4e"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/glass_roughness_131b42e45865.png",
+      "sha256": "131b42e4586556f39830766db3c02285d3703137186aa78f9113133af883b522"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/metal_normal_b04a6e15d899.png",
+      "sha256": "b04a6e15d8991a264485f9c2aec9636176776a314d47a48223a7e8044a80e479"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/metal_roughness_28a249d502f6.png",
+      "sha256": "28a249d502f60f8ccead72af50d46743925916ae80c7f0e36e5390dbc209e0ee"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/plaster_normal_743052b79ad1.png",
+      "sha256": "743052b79ad14e5693a58ec34a6e685f276d276686a8a155850fccbdb3fe7e8d"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/plaster_roughness_d30522446739.png",
+      "sha256": "d30522446739f7475c28a81fb011f73f78893f5b0a729e5d6c43b7112b1274b6"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/timber_normal_0d410cc1a672.png",
+      "sha256": "0d410cc1a672134766f5e448eccf76ae34bf1069b87b4a769d5e6dd204c9ccc2"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/timber_roughness_bd8f78259573.png",
+      "sha256": "bd8f782595731c27333421d75120451527b908fbe7f1fbf12ba626929bd4c589"
+    }
+  ]
+}

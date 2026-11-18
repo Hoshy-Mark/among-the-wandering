@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "id": "E06-CODEX-MAP-01",
+  "status": "compact_layout_variant_requested_by_user",
+  "coordinate_system": {
+    "unit": "metre",
+    "mapping": "GeoJSON[x,y] -> Godot[x,0,y]; B2 center_m -> [x,0,z]",
+    "scale_applied": 0.6666666666666666,
+    "origin_offset": [
+      0,
+      0,
+      0
+    ],
+    "yaw": "B2 degrees around Godot +Y, unchanged; facade correction pending",
+    "warning": "meters_per_U=0.5 belongs to prior source-to-master conversion; do not apply again",
+    "reference_scale_applied": 1
+  },
+  "extent_xz": [
+    -13.333333333333332,
+    -13.333333333333332,
+    426.0,
+    307.0
+  ],
+  "baseline_residences": 40,
+  "expansion_residences": 60,
+  "expansion_enabled": false,
+  "sources": [
+    {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b1_superficies_metricas.json",
+      "sha256": "00e279eebe931bf8af5aff9d00e45ef14ae552c6701c4d9d5979e49a3ebe1834"
+    },
+    {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b21_adensamento.json",
+      "sha256": "ac6febbac12dce32547854e92774cf02c6be5f3b76bcabead01711b691535c8e"
+    },
+    {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "sha256": "87dc15a2197cf0836640fae69b89749532ac03c62450dc14bebc90126f876921"
+    },
+    {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "sha256": "5cd3b451fbf9036907ff4f2c4f392c05db6a4686a0cb9e88e926e869f1275a6d"
+    },
+    {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "sha256": "352dced077eeb6c71126d1b0942173a299d30f7d6a0cacc3ae2094c569acf015"
+    },
+    {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_expansao.geojson",
+      "sha256": "7cedb7ba472f9fb3d38e7191ad4c2719c09aa1681140aff158fa07c7f5b64b48"
+    },
+    {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b33_checkpoint_211.json",
+      "sha256": "96e4576a1ae7fe716c8c505beff182e9be6fa4b175ffcfe9d8309f1a7de49f60"
+    },
+    {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b3_paisagem.json",
+      "sha256": "691807fe851975c4ddda7f5aa9b9792238c2a48c7fe87388a7ba9f9efb79de52"
+    },
+    {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b41_layouts.json",
+      "sha256": "34fd3d938a0e08f1f94b839adc9ae833ff59e68be1b3b8b0255710db862ebbe1"
+    },
+    {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b42_fachadas_interiores.json",
+      "sha256": "ef20f3a2de518642463003678aceb7a5fe9881d08d024837ca65b098f3aeed93"
+    },
+    {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b43_hab307.json",
+      "sha256": "151011bf9607bca8f1be4d1ea1ccb9060f2c45756d107c2cfc8c9b9762417560"
+    },
+    {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b44_qualificacao.json",
+      "sha256": "a22713ee852880b151c33f83a228373700d703fbc2ac840ba319f3562f079c14"
+    },
+    {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b45_encaixes_candidatos.json",
+      "sha256": "8863535ad8c1520497c7416ffbca149820fe6c20688b3405e35b13d404dc3e77"
+    },
+    {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b481_s03_bairro_completo.json",
+      "sha256": "c958e7893f59a74d1c6f37c00838157f4d34cac43d22ff6ee1fa54ed73cc5c47"
+    },
+    {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b48_z2_seletivo.json",
+      "sha256": "5e153c087933d648f102a0522cef089eb70c696b0567c749220095c33205843a"
+    },
+    {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b4_exploracao.json",
+      "sha256": "5a8d2d9535841b276d497be51673331a3f9b429cf9545e2d35e8d97ec5472acd"
+    },
+    {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_costuras_b0.json",
+      "sha256": "c42d018bde11e0e4c09b0b76035cafc983797bb0f9d1c42bcdc0b8e21fb2f25e"
+    },
+    {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_master_metric_rev414.geojson",
+      "sha256": "f3994f35ebc0af302f4f813e89b7447992cb7dd036a365aa6c5ce513e3ac485d"
+    },
+    {
+      "path": "staging/e06_world/arroio_reference/data/arroio/b45c_cadastro_lotes.csv",
+      "sha256": "f81c9f442dab03e6aa227bb04b2045d8f2ab680fdeda128823b6ff8be37eba7f"
+    },
+    {
+      "path": "staging/e06_world/arroio_reference/data/arroio/b45c_revisao_cercamentos.json",
+      "sha256": "337125c6362752f4ae73e1e87e76a2990ec235f1c78897e2fc5d4609bc8e2605"
+    },
+    {
+      "path": "staging/e06_world/arroio_reference/data/arroio/b47_cercamentos_corrigidos.json",
+      "sha256": "205faa8e447e928816677223a10c25fab86434d0fa79acb5a1ba0f41786eff63"
+    },
+    {
+      "path": "staging/e06_world/arroio_reference/data/arroio/B481_S03_IMOVEIS.csv",
+      "sha256": "3c88b4fb50e6e24250055a20c84b8101268eb476e0f311a63b8d0c84592f8abb"
+    },
+    {
+      "path": "staging/e06_world/arroio_reference/data/arroio/B48_ASSETS_SELECIONADOS.csv",
+      "sha256": "305be9c65421128b3780fafa2fbe438e7095a862439394c4e99b4ba621662cb2"
+    },
+    {
+      "path": "staging/e06_world/arroio_reference/data/arroio/B48_IMPLANTACAO.csv",
+      "sha256": "a503e4b6a998060af320b544287d5bd5a0042b20f9a101dc3142899987ce53c5"
+    }
+  ],
+  "catalogs": [
+    "sectors",
+    "roads",
+    "parcels",
+    "buildings",
+    "public_spaces",
+    "asset_mapping",
+    "environment",
+    "urban_dressing",
+    "yard_details",
+    "ground_cover",
+    "landscape",
+    "civic_infrastructure"
+  ],
+  "layout_compaction": {
+    "baseline_commit": "4150135",
+    "distance_factor": 0.6666666666666666,
+    "area_factor": 0.4444444444444444,
+    "asset_scale": 1,
+    "fit_adjustments": [
+      {
+        "building_id": "H02",
+        "scaled_position": [
+          57.83333333333333,
+          0,
+          155.36933333333332
+        ],
+        "fitted_position": [
+          57.83333333333333,
+          0,
+          155.4359649433686
+        ]
+      },
+      {
+        "building_id": "H13",
+        "scaled_position": [
+          211.83333333333331,
+          0,
+          247.76666666666665
+        ],
+        "fitted_position": [
+          213.34999990463257,
+          0,
+          248.1200001335144
+        ]
+      },
+      {
+        "building_id": "H16",
+        "scaled_position": [
+          107.16666666666666,
+          0,
+          222.36666666666667
+        ],
+        "fitted_position": [
+          106.60000014305115,
+          0,
+          222.36666666666667
+        ]
+      },
+      {
+        "building_id": "H20",
+        "scaled_position": [
+          214.0,
+          0,
+          227.09999999999997
+        ],
+        "fitted_position": [
+          214.4966665903727,
+          0,
+          227.09999999999997
+        ]
+      },
+      {
+        "building_id": "H25",
+        "scaled_position": [
+          108.16666666666666,
+          0,
+          75.18866666666666
+        ],
+        "fitted_position": [
+          108.16666666666666,
+          0,
+          75.42899988555908
+        ]
+      },
+      {
+        "building_id": "H30",
+        "scaled_position": [
+          108.66666666666666,
+          0,
+          54.757999999999996
+        ],
+        "fitted_position": [
+          108.66666666666666,
+          0,
+          54.06600020980835
+        ]
+      },
+      {
+        "building_id": "H31",
+        "scaled_position": [
+          139.16666666666666,
+          0,
+          52.772666666666666
+        ],
+        "fitted_position": [
+          137.65000009536743,
+          0,
+          52.772666666666666
+        ]
+      }
+    ],
+    "policy": "User-requested compact variant; original reference files retain provenance."
+  }
+}

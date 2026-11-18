@@ -1,0 +1,62 @@
+[
+  {
+    "id": "base",
+    "name": "Base aprovada",
+    "selection": {
+      "hair_id": "medio_blocado",
+      "beard_id": "curta_ajustada",
+      "mustache_id": "labial_blocado",
+      "hair_color": "castanho",
+      "beard_color": "castanho",
+      "mustache_color": "castanho",
+      "skin_id": "original",
+      "iris_id": "original",
+      "brows_id": "original"
+    }
+  },
+  {
+    "id": "curto",
+    "name": "Curto e barba média",
+    "selection": {
+      "hair_id": "curto_blocado",
+      "beard_id": "media_blocada",
+      "mustache_id": "labial_blocado",
+      "hair_color": "castanho",
+      "beard_color": "castanho",
+      "mustache_color": "castanho",
+      "skin_id": "oliva",
+      "iris_id": "avela",
+      "brows_id": "original"
+    }
+  },
+  {
+    "id": "lateral",
+    "name": "Lateral e costeletas",
+    "selection": {
+      "hair_id": "lateral_blocado",
+      "beard_id": "costeletas_blocadas",
+      "mustache_id": "labial_blocado",
+      "hair_color": "castanho",
+      "beard_color": "castanho",
+      "mustache_color": "castanho",
+      "skin_id": "escura_quente",
+      "iris_id": "verde",
+      "brows_id": "finas"
+    }
+  },
+  {
+    "id": "grisalho",
+    "name": "Grisalho de barba longa",
+    "selection": {
+      "hair_id": "medio_blocado",
+      "beard_id": "longa_blocada",
+      "mustache_id": "labial_blocado",
+      "hair_color": "grisalho",
+      "beard_color": "grisalho",
+      "mustache_color": "grisalho",
+      "skin_id": "escura_neutra",
+      "iris_id": "azul",
+      "brows_id": "cheias"
+    }
+  }
+]

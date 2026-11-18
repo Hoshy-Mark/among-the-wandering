@@ -1,0 +1,38 @@
+{
+  "Expr_Sorriso": {
+    "label": "Sorriso leve",
+    "blink": 0.13,
+    "corner": 0.0024,
+    "spread": 0.0012,
+    "cheek": 0.0009,
+    "inner": 0.0004,
+    "outer": 0.0004
+  },
+  "Expr_Preocupacao": {
+    "label": "Preocupação",
+    "blink": -0.015,
+    "corner": -0.0012,
+    "spread": -0.00015,
+    "cheek": 0,
+    "inner": 0.003,
+    "outer": -0.0002
+  },
+  "Expr_Raiva": {
+    "label": "Raiva contida",
+    "blink": 0.18,
+    "corner": -0.0003,
+    "spread": -0.0003,
+    "cheek": 0,
+    "inner": -0.0017,
+    "outer": 0.0004
+  },
+  "Expr_Surpresa": {
+    "label": "Surpresa",
+    "blink": -0.045,
+    "corner": 0,
+    "spread": 0,
+    "cheek": 0,
+    "inner": 0.0028,
+    "outer": 0.0033
+  }
+}

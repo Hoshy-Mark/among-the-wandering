@@ -1,0 +1,1177 @@
+{
+  "schema": "e02.speech.clip.r24.v1",
+  "text": "Bom dia. Eu vou para a vila. Vamos juntos?",
+  "audio": "audio/frase_teste.wav",
+  "audio_sha256": "ded58a50d2663b57e38e7fe4f2ba3f6a16b9c19760db646105e9fd50994bb1e4",
+  "synthetic_voice": true,
+  "voice": "Microsoft Maria Desktop",
+  "language": "pt-BR",
+  "fps": 24,
+  "frames": 182,
+  "duration": 7.583333333333333,
+  "prefix": 0.35,
+  "source_duration": 6.77375,
+  "controls": [
+    "Mandibula_Abrir",
+    "Selar_Labios",
+    "Fala_MBP",
+    "Fala_FV",
+    "Fala_A",
+    "Fala_E",
+    "Fala_I",
+    "Fala_O",
+    "Fala_U"
+  ],
+  "cues": [
+    {
+      "start": 0.35,
+      "end": 0.4555625,
+      "source_viseme": 0,
+      "pose": "neutro",
+      "intensity": 1,
+      "rms": 0.00018359436887271544,
+      "weights": {
+        "Selar_Labios": 1
+      }
+    },
+    {
+      "start": 0.4555625,
+      "end": 0.54,
+      "source_viseme": 21,
+      "pose": "MBP",
+      "intensity": 1,
+      "rms": 0.029949409574933552,
+      "weights": {
+        "Fala_MBP": 1,
+        "Selar_Labios": 0
+      }
+    },
+    {
+      "start": 0.54,
+      "end": 0.6703749999999999,
+      "source_viseme": 8,
+      "pose": "O",
+      "intensity": 0.93,
+      "rms": 0.13554109011695215,
+      "weights": {
+        "Fala_O": 0.93,
+        "Selar_Labios": 0.06999999999999995
+      }
+    },
+    {
+      "start": 0.6703749999999999,
+      "end": 0.7759375,
+      "source_viseme": 7,
+      "pose": "U",
+      "intensity": 0.95,
+      "rms": 0.10494325386279613,
+      "weights": {
+        "Fala_U": 0.95,
+        "Selar_Labios": 0.050000000000000044
+      }
+    },
+    {
+      "start": 0.7759375,
+      "end": 0.9374374999999999,
+      "source_viseme": 16,
+      "pose": "I",
+      "intensity": 0.55,
+      "rms": 0.02147031136814416,
+      "weights": {
+        "Fala_I": 0.55,
+        "Selar_Labios": 0.44999999999999996
+      }
+    },
+    {
+      "start": 0.9374374999999999,
+      "end": 1.1299375,
+      "source_viseme": 6,
+      "pose": "I",
+      "intensity": 0.8974527998866236,
+      "rms": 0.0932287340040652,
+      "weights": {
+        "Fala_I": 0.8974527998866236,
+        "Selar_Labios": 0.10254720011337637
+      }
+    },
+    {
+      "start": 1.1299375,
+      "end": 1.31,
+      "source_viseme": 2,
+      "pose": "A",
+      "intensity": 0.7012775347340269,
+      "rms": 0.04417454547695676,
+      "weights": {
+        "Fala_A": 0.7012775347340269,
+        "Selar_Labios": 0.2987224652659731
+      }
+    },
+    {
+      "start": 1.31,
+      "end": 2.2545625,
+      "source_viseme": 0,
+      "pose": "neutro",
+      "intensity": 1,
+      "rms": 0.0,
+      "weights": {
+        "Selar_Labios": 1
+      }
+    },
+    {
+      "start": 2.2545625,
+      "end": 2.363125,
+      "source_viseme": 0,
+      "pose": "neutro",
+      "intensity": 1,
+      "rms": 0.0002699469111710451,
+      "weights": {
+        "Selar_Labios": 1
+      }
+    },
+    {
+      "start": 2.363125,
+      "end": 2.4445625,
+      "source_viseme": 4,
+      "pose": "E",
+      "intensity": 0.82,
+      "rms": 0.1551208238453443,
+      "weights": {
+        "Fala_E": 0.82,
+        "Selar_Labios": 0.18000000000000005
+      }
+    },
+    {
+      "start": 2.4445625,
+      "end": 2.5314375,
+      "source_viseme": 7,
+      "pose": "U",
+      "intensity": 0.95,
+      "rms": 0.12030397387272546,
+      "weights": {
+        "Fala_U": 0.95,
+        "Selar_Labios": 0.050000000000000044
+      }
+    },
+    {
+      "start": 2.5314375,
+      "end": 2.6245625,
+      "source_viseme": 18,
+      "pose": "FV",
+      "intensity": 1,
+      "rms": 0.025207539805480343,
+      "weights": {
+        "Fala_FV": 1,
+        "Selar_Labios": 0
+      }
+    },
+    {
+      "start": 2.6245625,
+      "end": 2.722625,
+      "source_viseme": 8,
+      "pose": "O",
+      "intensity": 0.93,
+      "rms": 0.11831737471844114,
+      "weights": {
+        "Fala_O": 0.93,
+        "Selar_Labios": 0.06999999999999995
+      }
+    },
+    {
+      "start": 2.722625,
+      "end": 2.8145625,
+      "source_viseme": 7,
+      "pose": "U",
+      "intensity": 0.95,
+      "rms": 0.10715823316534566,
+      "weights": {
+        "Fala_U": 0.95,
+        "Selar_Labios": 0.050000000000000044
+      }
+    },
+    {
+      "start": 2.8145625,
+      "end": 2.9260625,
+      "source_viseme": 21,
+      "pose": "MBP",
+      "intensity": 1,
+      "rms": 0.004681937573134067,
+      "weights": {
+        "Fala_MBP": 1,
+        "Selar_Labios": 0
+      }
+    },
+    {
+      "start": 2.9260625,
+      "end": 3.006625,
+      "source_viseme": 2,
+      "pose": "A",
+      "intensity": 0.7255560061928366,
+      "rms": 0.08811708073434535,
+      "weights": {
+        "Fala_A": 0.7255560061928366,
+        "Selar_Labios": 0.27444399380716344
+      }
+    },
+    {
+      "start": 3.006625,
+      "end": 3.062375,
+      "source_viseme": 13,
+      "pose": "E",
+      "intensity": 0.3,
+      "rms": 0.0633057343191661,
+      "weights": {
+        "Fala_E": 0.3,
+        "Selar_Labios": 0.7
+      }
+    },
+    {
+      "start": 3.062375,
+      "end": 3.124375,
+      "source_viseme": 2,
+      "pose": "A",
+      "intensity": 0.7276312327730571,
+      "rms": 0.09257002800252376,
+      "weights": {
+        "Fala_A": 0.7276312327730571,
+        "Selar_Labios": 0.2723687672269429
+      }
+    },
+    {
+      "start": 3.124375,
+      "end": 3.2296875,
+      "source_viseme": 2,
+      "pose": "A",
+      "intensity": 0.7236365308302012,
+      "rms": 0.08409604905242031,
+      "weights": {
+        "Fala_A": 0.7236365308302012,
+        "Selar_Labios": 0.2763634691697988
+      }
+    },
+    {
+      "start": 3.2296875,
+      "end": 3.3845625,
+      "source_viseme": 18,
+      "pose": "FV",
+      "intensity": 1,
+      "rms": 0.018407937352768786,
+      "weights": {
+        "Fala_FV": 1,
+        "Selar_Labios": 0
+      }
+    },
+    {
+      "start": 3.3845625,
+      "end": 3.5393125,
+      "source_viseme": 6,
+      "pose": "I",
+      "intensity": 0.8999029576863037,
+      "rms": 0.09761133546316074,
+      "weights": {
+        "Fala_I": 0.8999029576863037,
+        "Selar_Labios": 0.10009704231369632
+      }
+    },
+    {
+      "start": 3.5393125,
+      "end": 3.6445625,
+      "source_viseme": 14,
+      "pose": "E",
+      "intensity": 0.36,
+      "rms": 0.06858715479117108,
+      "weights": {
+        "Fala_E": 0.36,
+        "Selar_Labios": 0.64
+      }
+    },
+    {
+      "start": 3.6445625,
+      "end": 3.8145625,
+      "source_viseme": 2,
+      "pose": "A",
+      "intensity": 0.6884873725461306,
+      "rms": 0.027066790043143673,
+      "weights": {
+        "Fala_A": 0.6884873725461306,
+        "Selar_Labios": 0.31151262745386943
+      }
+    },
+    {
+      "start": 3.8145625,
+      "end": 4.7700625,
+      "source_viseme": 0,
+      "pose": "neutro",
+      "intensity": 1,
+      "rms": 0.0,
+      "weights": {
+        "Selar_Labios": 1
+      }
+    },
+    {
+      "start": 4.7700625,
+      "end": 4.883125,
+      "source_viseme": 0,
+      "pose": "neutro",
+      "intensity": 1,
+      "rms": 0.0003453310402687188,
+      "weights": {
+        "Selar_Labios": 1
+      }
+    },
+    {
+      "start": 4.883125,
+      "end": 5.0300625,
+      "source_viseme": 18,
+      "pose": "FV",
+      "intensity": 1,
+      "rms": 0.012507077119163412,
+      "weights": {
+        "Fala_FV": 1,
+        "Selar_Labios": 0
+      }
+    },
+    {
+      "start": 5.0300625,
+      "end": 5.130062499999999,
+      "source_viseme": 2,
+      "pose": "A",
+      "intensity": 0.73,
+      "rms": 0.15139554855157966,
+      "weights": {
+        "Fala_A": 0.73,
+        "Selar_Labios": 0.27
+      }
+    },
+    {
+      "start": 5.130062499999999,
+      "end": 5.232937499999999,
+      "source_viseme": 21,
+      "pose": "MBP",
+      "intensity": 1,
+      "rms": 0.1372817256461612,
+      "weights": {
+        "Fala_MBP": 1,
+        "Selar_Labios": 0
+      }
+    },
+    {
+      "start": 5.232937499999999,
+      "end": 5.310062499999999,
+      "source_viseme": 7,
+      "pose": "U",
+      "intensity": 0.95,
+      "rms": 0.16097832007343676,
+      "weights": {
+        "Fala_U": 0.95,
+        "Selar_Labios": 0.050000000000000044
+      }
+    },
+    {
+      "start": 5.310062499999999,
+      "end": 5.402625,
+      "source_viseme": 15,
+      "pose": "I",
+      "intensity": 0.43,
+      "rms": 0.04724832878952569,
+      "weights": {
+        "Fala_I": 0.43,
+        "Selar_Labios": 0.5700000000000001
+      }
+    },
+    {
+      "start": 5.402625,
+      "end": 5.5136875,
+      "source_viseme": 16,
+      "pose": "I",
+      "intensity": 0.55,
+      "rms": 0.022041275433299062,
+      "weights": {
+        "Fala_I": 0.55,
+        "Selar_Labios": 0.44999999999999996
+      }
+    },
+    {
+      "start": 5.5136875,
+      "end": 5.717312499999999,
+      "source_viseme": 7,
+      "pose": "U",
+      "intensity": 0.948366935466046,
+      "rms": 0.09500543221078933,
+      "weights": {
+        "Fala_U": 0.948366935466046,
+        "Selar_Labios": 0.051633064533954
+      }
+    },
+    {
+      "start": 5.717312499999999,
+      "end": 5.834499999999999,
+      "source_viseme": 19,
+      "pose": "I",
+      "intensity": 0.33,
+      "rms": 0.004739377794922358,
+      "weights": {
+        "Fala_I": 0.33,
+        "Selar_Labios": 0.6699999999999999
+      }
+    },
+    {
+      "start": 5.834499999999999,
+      "end": 5.933249999999999,
+      "source_viseme": 7,
+      "pose": "U",
+      "intensity": 0.9170916115601716,
+      "rms": 0.049479263599932405,
+      "weights": {
+        "Fala_U": 0.9170916115601716,
+        "Selar_Labios": 0.0829083884398284
+      }
+    },
+    {
+      "start": 5.933249999999999,
+      "end": 6.180062499999999,
+      "source_viseme": 15,
+      "pose": "I",
+      "intensity": 0.43,
+      "rms": 0.010416477649930828,
+      "weights": {
+        "Fala_I": 0.43,
+        "Selar_Labios": 0.5700000000000001
+      }
+    },
+    {
+      "start": 6.180062499999999,
+      "end": 7.123749999999999,
+      "source_viseme": 0,
+      "pose": "neutro",
+      "intensity": 1,
+      "rms": 0.0,
+      "weights": {
+        "Selar_Labios": 1
+      }
+    }
+  ],
+  "words": [
+    {
+      "text": "Bom",
+      "start": 0.4555625,
+      "end": 0.7759375
+    },
+    {
+      "text": "dia",
+      "start": 0.7759375,
+      "end": 1.31
+    },
+    {
+      "text": "Eu",
+      "start": 2.363125,
+      "end": 2.5314375
+    },
+    {
+      "text": "vou",
+      "start": 2.5314375,
+      "end": 2.8145625
+    },
+    {
+      "text": "para",
+      "start": 2.8145625,
+      "end": 3.124375
+    },
+    {
+      "text": "a",
+      "start": 3.124375,
+      "end": 3.2296875
+    },
+    {
+      "text": "vila",
+      "start": 3.2296875,
+      "end": 3.8145625
+    },
+    {
+      "text": "Vamos",
+      "start": 4.883125,
+      "end": 5.402625
+    },
+    {
+      "text": "juntos",
+      "start": 5.402625,
+      "end": 6.180062499999999
+    }
+  ],
+  "knots": [
+    {
+      "time": 0.0,
+      "weights": {
+        "Selar_Labios": 1
+      },
+      "cue": -1
+    },
+    {
+      "time": 0.34583437499999997,
+      "weights": {
+        "Selar_Labios": 1
+      },
+      "cue": 0
+    },
+    {
+      "time": 0.41445,
+      "weights": {
+        "Selar_Labios": 1
+      },
+      "cue": 0
+    },
+    {
+      "time": 0.448228125,
+      "weights": {
+        "Fala_MBP": 1,
+        "Selar_Labios": 0
+      },
+      "cue": 1
+    },
+    {
+      "time": 0.5031125,
+      "weights": {
+        "Fala_MBP": 1,
+        "Selar_Labios": 0
+      },
+      "cue": 1
+    },
+    {
+      "time": 0.538,
+      "weights": {
+        "Fala_O": 0.93,
+        "Selar_Labios": 0.06999999999999995
+      },
+      "cue": 2
+    },
+    {
+      "time": 0.6283749999999999,
+      "weights": {
+        "Fala_O": 0.93,
+        "Selar_Labios": 0.06999999999999995
+      },
+      "cue": 2
+    },
+    {
+      "time": 0.6662093749999999,
+      "weights": {
+        "Fala_U": 0.95,
+        "Selar_Labios": 0.050000000000000044
+      },
+      "cue": 3
+    },
+    {
+      "time": 0.734825,
+      "weights": {
+        "Fala_U": 0.95,
+        "Selar_Labios": 0.050000000000000044
+      },
+      "cue": 3
+    },
+    {
+      "time": 0.7739375,
+      "weights": {
+        "Fala_I": 0.55,
+        "Selar_Labios": 0.44999999999999996
+      },
+      "cue": 4
+    },
+    {
+      "time": 0.8954374999999999,
+      "weights": {
+        "Fala_I": 0.55,
+        "Selar_Labios": 0.44999999999999996
+      },
+      "cue": 4
+    },
+    {
+      "time": 0.9354374999999999,
+      "weights": {
+        "Fala_I": 0.8974527998866236,
+        "Selar_Labios": 0.10254720011337637
+      },
+      "cue": 5
+    },
+    {
+      "time": 1.0879375,
+      "weights": {
+        "Fala_I": 0.8974527998866236,
+        "Selar_Labios": 0.10254720011337637
+      },
+      "cue": 5
+    },
+    {
+      "time": 1.1279375,
+      "weights": {
+        "Fala_A": 0.7012775347340269,
+        "Selar_Labios": 0.2987224652659731
+      },
+      "cue": 6
+    },
+    {
+      "time": 1.268,
+      "weights": {
+        "Fala_A": 0.7012775347340269,
+        "Selar_Labios": 0.2987224652659731
+      },
+      "cue": 6
+    },
+    {
+      "time": 1.308,
+      "weights": {
+        "Selar_Labios": 1
+      },
+      "cue": 7
+    },
+    {
+      "time": 2.2125625,
+      "weights": {
+        "Selar_Labios": 1
+      },
+      "cue": 7
+    },
+    {
+      "time": 2.250846875,
+      "weights": {
+        "Selar_Labios": 1
+      },
+      "cue": 8
+    },
+    {
+      "time": 2.3214125,
+      "weights": {
+        "Selar_Labios": 1
+      },
+      "cue": 8
+    },
+    {
+      "time": 2.355340625,
+      "weights": {
+        "Fala_E": 0.82,
+        "Selar_Labios": 0.18000000000000005
+      },
+      "cue": 9
+    },
+    {
+      "time": 2.408275,
+      "weights": {
+        "Fala_E": 0.82,
+        "Selar_Labios": 0.18000000000000005
+      },
+      "cue": 9
+    },
+    {
+      "time": 2.43759375,
+      "weights": {
+        "Fala_U": 0.95,
+        "Selar_Labios": 0.050000000000000044
+      },
+      "cue": 10
+    },
+    {
+      "time": 2.4940625,
+      "weights": {
+        "Fala_U": 0.95,
+        "Selar_Labios": 0.050000000000000044
+      },
+      "cue": 10
+    },
+    {
+      "time": 2.52540625,
+      "weights": {
+        "Fala_FV": 1,
+        "Selar_Labios": 0
+      },
+      "cue": 11
+    },
+    {
+      "time": 2.5859375,
+      "weights": {
+        "Fala_FV": 1,
+        "Selar_Labios": 0
+      },
+      "cue": 11
+    },
+    {
+      "time": 2.619271875,
+      "weights": {
+        "Fala_O": 0.93,
+        "Selar_Labios": 0.06999999999999995
+      },
+      "cue": 12
+    },
+    {
+      "time": 2.6830125,
+      "weights": {
+        "Fala_O": 0.93,
+        "Selar_Labios": 0.06999999999999995
+      },
+      "cue": 12
+    },
+    {
+      "time": 2.716415625,
+      "weights": {
+        "Fala_U": 0.95,
+        "Selar_Labios": 0.050000000000000044
+      },
+      "cue": 13
+    },
+    {
+      "time": 2.776175,
+      "weights": {
+        "Fala_U": 0.95,
+        "Selar_Labios": 0.050000000000000044
+      },
+      "cue": 13
+    },
+    {
+      "time": 2.8112875,
+      "weights": {
+        "Fala_MBP": 1,
+        "Selar_Labios": 0
+      },
+      "cue": 14
+    },
+    {
+      "time": 2.8840625,
+      "weights": {
+        "Fala_MBP": 1,
+        "Selar_Labios": 0
+      },
+      "cue": 14
+    },
+    {
+      "time": 2.918146875,
+      "weights": {
+        "Fala_A": 0.7255560061928366,
+        "Selar_Labios": 0.27444399380716344
+      },
+      "cue": 15
+    },
+    {
+      "time": 2.9705125,
+      "weights": {
+        "Fala_A": 0.7255560061928366,
+        "Selar_Labios": 0.27444399380716344
+      },
+      "cue": 15
+    },
+    {
+      "time": 2.9949875,
+      "weights": {
+        "Fala_E": 0.3,
+        "Selar_Labios": 0.7
+      },
+      "cue": 16
+    },
+    {
+      "time": 3.031225,
+      "weights": {
+        "Fala_E": 0.3,
+        "Selar_Labios": 0.7
+      },
+      "cue": 16
+    },
+    {
+      "time": 3.051675,
+      "weights": {
+        "Fala_A": 0.7276312327730571,
+        "Selar_Labios": 0.2723687672269429
+      },
+      "cue": 17
+    },
+    {
+      "time": 3.091975,
+      "weights": {
+        "Fala_A": 0.7276312327730571,
+        "Selar_Labios": 0.2723687672269429
+      },
+      "cue": 17
+    },
+    {
+      "time": 3.120171875,
+      "weights": {
+        "Fala_A": 0.7236365308302012,
+        "Selar_Labios": 0.2763634691697988
+      },
+      "cue": 18
+    },
+    {
+      "time": 3.188625,
+      "weights": {
+        "Fala_A": 0.7236365308302012,
+        "Selar_Labios": 0.2763634691697988
+      },
+      "cue": 18
+    },
+    {
+      "time": 3.2276874999999996,
+      "weights": {
+        "Fala_FV": 1,
+        "Selar_Labios": 0
+      },
+      "cue": 19
+    },
+    {
+      "time": 3.3425625,
+      "weights": {
+        "Fala_FV": 1,
+        "Selar_Labios": 0
+      },
+      "cue": 19
+    },
+    {
+      "time": 3.3825624999999997,
+      "weights": {
+        "Fala_I": 0.8999029576863037,
+        "Selar_Labios": 0.10009704231369632
+      },
+      "cue": 20
+    },
+    {
+      "time": 3.4973125,
+      "weights": {
+        "Fala_I": 0.8999029576863037,
+        "Selar_Labios": 0.10009704231369632
+      },
+      "cue": 20
+    },
+    {
+      "time": 3.5351,
+      "weights": {
+        "Fala_E": 0.36,
+        "Selar_Labios": 0.64
+      },
+      "cue": 21
+    },
+    {
+      "time": 3.6035125,
+      "weights": {
+        "Fala_E": 0.36,
+        "Selar_Labios": 0.64
+      },
+      "cue": 21
+    },
+    {
+      "time": 3.6425625,
+      "weights": {
+        "Fala_A": 0.6884873725461306,
+        "Selar_Labios": 0.31151262745386943
+      },
+      "cue": 22
+    },
+    {
+      "time": 3.7725625000000003,
+      "weights": {
+        "Fala_A": 0.6884873725461306,
+        "Selar_Labios": 0.31151262745386943
+      },
+      "cue": 22
+    },
+    {
+      "time": 3.8125625,
+      "weights": {
+        "Selar_Labios": 1
+      },
+      "cue": 23
+    },
+    {
+      "time": 4.7280625,
+      "weights": {
+        "Selar_Labios": 1
+      },
+      "cue": 23
+    },
+    {
+      "time": 4.767021875,
+      "weights": {
+        "Selar_Labios": 1
+      },
+      "cue": 24
+    },
+    {
+      "time": 4.841125,
+      "weights": {
+        "Selar_Labios": 1
+      },
+      "cue": 24
+    },
+    {
+      "time": 4.881125,
+      "weights": {
+        "Fala_FV": 1,
+        "Selar_Labios": 0
+      },
+      "cue": 25
+    },
+    {
+      "time": 4.9880625,
+      "weights": {
+        "Fala_FV": 1,
+        "Selar_Labios": 0
+      },
+      "cue": 25
+    },
+    {
+      "time": 5.0250625,
+      "weights": {
+        "Fala_A": 0.73,
+        "Selar_Labios": 0.27
+      },
+      "cue": 26
+    },
+    {
+      "time": 5.0900625,
+      "weights": {
+        "Fala_A": 0.73,
+        "Selar_Labios": 0.27
+      },
+      "cue": 26
+    },
+    {
+      "time": 5.1254937499999995,
+      "weights": {
+        "Fala_MBP": 1,
+        "Selar_Labios": 0
+      },
+      "cue": 27
+    },
+    {
+      "time": 5.1923625,
+      "weights": {
+        "Fala_MBP": 1,
+        "Selar_Labios": 0
+      },
+      "cue": 27
+    },
+    {
+      "time": 5.22450625,
+      "weights": {
+        "Fala_U": 0.95,
+        "Selar_Labios": 0.050000000000000044
+      },
+      "cue": 28
+    },
+    {
+      "time": 5.2746375,
+      "weights": {
+        "Fala_U": 0.95,
+        "Selar_Labios": 0.050000000000000044
+      },
+      "cue": 28
+    },
+    {
+      "time": 5.303946874999999,
+      "weights": {
+        "Fala_I": 0.43,
+        "Selar_Labios": 0.5700000000000001
+      },
+      "cue": 29
+    },
+    {
+      "time": 5.3641125,
+      "weights": {
+        "Fala_I": 0.43,
+        "Selar_Labios": 0.5700000000000001
+      },
+      "cue": 29
+    },
+    {
+      "time": 5.399284375,
+      "weights": {
+        "Fala_I": 0.55,
+        "Selar_Labios": 0.44999999999999996
+      },
+      "cue": 30
+    },
+    {
+      "time": 5.4716875,
+      "weights": {
+        "Fala_I": 0.55,
+        "Selar_Labios": 0.44999999999999996
+      },
+      "cue": 30
+    },
+    {
+      "time": 5.5116875,
+      "weights": {
+        "Fala_U": 0.948366935466046,
+        "Selar_Labios": 0.051633064533954
+      },
+      "cue": 31
+    },
+    {
+      "time": 5.6753124999999995,
+      "weights": {
+        "Fala_U": 0.948366935466046,
+        "Selar_Labios": 0.051633064533954
+      },
+      "cue": 31
+    },
+    {
+      "time": 5.714890625,
+      "weights": {
+        "Fala_I": 0.33,
+        "Selar_Labios": 0.6699999999999999
+      },
+      "cue": 32
+    },
+    {
+      "time": 5.7924999999999995,
+      "weights": {
+        "Fala_I": 0.33,
+        "Selar_Labios": 0.6699999999999999
+      },
+      "cue": 32
+    },
+    {
+      "time": 5.8293124999999995,
+      "weights": {
+        "Fala_U": 0.9170916115601716,
+        "Selar_Labios": 0.0829083884398284
+      },
+      "cue": 33
+    },
+    {
+      "time": 5.8934999999999995,
+      "weights": {
+        "Fala_U": 0.9170916115601716,
+        "Selar_Labios": 0.0829083884398284
+      },
+      "cue": 33
+    },
+    {
+      "time": 5.9312499999999995,
+      "weights": {
+        "Fala_I": 0.43,
+        "Selar_Labios": 0.5700000000000001
+      },
+      "cue": 34
+    },
+    {
+      "time": 6.138062499999999,
+      "weights": {
+        "Fala_I": 0.43,
+        "Selar_Labios": 0.5700000000000001
+      },
+      "cue": 34
+    },
+    {
+      "time": 6.178062499999999,
+      "weights": {
+        "Selar_Labios": 1
+      },
+      "cue": 35
+    },
+    {
+      "time": 7.0817499999999995,
+      "weights": {
+        "Selar_Labios": 1
+      },
+      "cue": 35
+    },
+    {
+      "time": 7.583333333333333,
+      "weights": {
+        "Selar_Labios": 1
+      },
+      "cue": 36
+    }
+  ],
+  "mapping": {
+    "0": {
+      "pose": "neutro",
+      "max_intensity": 1
+    },
+    "1": {
+      "pose": "A",
+      "max_intensity": 0.73
+    },
+    "2": {
+      "pose": "A",
+      "max_intensity": 0.73
+    },
+    "3": {
+      "pose": "O",
+      "max_intensity": 0.93
+    },
+    "4": {
+      "pose": "E",
+      "max_intensity": 0.82
+    },
+    "5": {
+      "pose": "E",
+      "max_intensity": 0.4
+    },
+    "6": {
+      "pose": "I",
+      "max_intensity": 0.9
+    },
+    "7": {
+      "pose": "U",
+      "max_intensity": 0.95
+    },
+    "8": {
+      "pose": "O",
+      "max_intensity": 0.93
+    },
+    "9": {
+      "pose": "A",
+      "max_intensity": 0.72
+    },
+    "10": {
+      "pose": "O",
+      "max_intensity": 0.9
+    },
+    "11": {
+      "pose": "A",
+      "max_intensity": 0.72
+    },
+    "12": {
+      "pose": "A",
+      "max_intensity": 0.3
+    },
+    "13": {
+      "pose": "E",
+      "max_intensity": 0.3
+    },
+    "14": {
+      "pose": "E",
+      "max_intensity": 0.36
+    },
+    "15": {
+      "pose": "I",
+      "max_intensity": 0.43
+    },
+    "16": {
+      "pose": "I",
+      "max_intensity": 0.55
+    },
+    "17": {
+      "pose": "E",
+      "max_intensity": 0.38
+    },
+    "18": {
+      "pose": "FV",
+      "max_intensity": 1
+    },
+    "19": {
+      "pose": "I",
+      "max_intensity": 0.33
+    },
+    "20": {
+      "pose": "E",
+      "max_intensity": 0.35
+    },
+    "21": {
+      "pose": "MBP",
+      "max_intensity": 1
+    }
+  },
+  "anticipation_seconds": 0.02,
+  "source_events": "audio/eventos_voz.json",
+  "limits": [
+    "Ensaio com voz sintetica local; nao e a voz definitiva do personagem.",
+    "Adaptacao visual aproximada das familias SAPI as sete poses R23.",
+    "Nao reconhece nem alinha automaticamente outros arquivos de voz."
+  ]
+}

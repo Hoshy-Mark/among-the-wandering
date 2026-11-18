@@ -1,0 +1,2876 @@
+[
+  {
+    "building_id": "H01",
+    "asset_id": "HAB_222",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H01"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_222/HAB_222_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -4.96999979019165,
+        0.0,
+        -4.900000095367432
+      ],
+      [
+        4.96999979019165,
+        4.355000019073486,
+        4.840000152587891
+      ]
+    ],
+    "dimensions": [
+      9.9399995803833,
+      4.355000019073486,
+      9.740000247955322
+    ],
+    "sha256": "b0fe6536506f685df7011b92e26fcf92fbe5168e0ed9567e09e1308c433db394",
+    "facade_verified": false,
+    "selection_score": 0.8806713649391217,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.029999971389770508
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        26.463333209355667,
+        160.13333312352495
+      ],
+      [
+        26.463333209355667,
+        150.19333354314165
+      ],
+      [
+        36.20333345731099,
+        150.19333354314165
+      ],
+      [
+        36.20333345731099,
+        160.13333312352495
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H02",
+    "asset_id": "HAB_351",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H02"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_351/HAB_351_Z2_R15_SHARED_PBR_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -4.099999904632568,
+        0.0,
+        -6.199999809265137
+      ],
+      [
+        4.099999904632568,
+        3.8949999809265137,
+        6.599999904632568
+      ]
+    ],
+    "dimensions": [
+      8.199999809265137,
+      3.8949999809265137,
+      12.799999713897705
+    ],
+    "sha256": "214ffd13dba51bfe30f46871e9fbf151ec1d99b04980d8caa7b8ea0339b7e194",
+    "facade_verified": false,
+    "selection_score": 1.0348293764629464,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      -0.20000004768371582
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        61.93333323796588,
+        161.83596480031744
+      ],
+      [
+        53.733333428700746,
+        161.83596480031744
+      ],
+      [
+        53.733333428700746,
+        149.03596508641974
+      ],
+      [
+        61.93333323796588,
+        149.03596508641974
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H03",
+    "asset_id": "HAB_191",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H03"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_191/HAB_191_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -3.815000057220459,
+        0.0,
+        -7.340000152587891
+      ],
+      [
+        3.815000057220459,
+        4.489999771118164,
+        6.099999904632568
+      ]
+    ],
+    "dimensions": [
+      7.630000114440918,
+      4.489999771118164,
+      13.440000057220459
+    ],
+    "sha256": "643f783bfeb6da3b91ff1379b922226e06fc506067e2dbe8685e9aab3c0a391b",
+    "facade_verified": false,
+    "selection_score": 1.1296425700442265,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.6200001239776611
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        247.11333330472303,
+        165.5123333905538
+      ],
+      [
+        247.11333330472303,
+        157.8823332761129
+      ],
+      [
+        260.5533333619435,
+        157.8823332761129
+      ],
+      [
+        260.5533333619435,
+        165.5123333905538
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H04",
+    "asset_id": "HAB_249",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H04"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_249/HAB_249_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -4.369999885559082,
+        0.0,
+        -6.619999885559082
+      ],
+      [
+        4.369999885559082,
+        4.230000019073486,
+        5.380000114440918
+      ]
+    ],
+    "dimensions": [
+      8.739999771118164,
+      4.230000019073486,
+      12.0
+    ],
+    "sha256": "5b089abc010e8bace30056eee95ae47ff7ca95670bbfe3b35e3cfa04b65ba6fb",
+    "facade_verified": false,
+    "selection_score": 1.0971575585137185,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.619999885559082
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        272.33333333333326,
+        167.76266655222577
+      ],
+      [
+        272.33333333333326,
+        159.0226667811076
+      ],
+      [
+        284.33333333333326,
+        159.0226667811076
+      ],
+      [
+        284.33333333333326,
+        167.76266655222577
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H05",
+    "asset_id": "HAB_189",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H05"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_189/HAB_189_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -4.045000076293945,
+        0.0,
+        -6.920000076293945
+      ],
+      [
+        4.045000076293945,
+        4.230000019073486,
+        5.679999828338623
+      ]
+    ],
+    "dimensions": [
+      8.09000015258789,
+      4.230000019073486,
+      12.599999904632568
+    ],
+    "sha256": "1f3ba4b544b759897bd3188b663b1cf64f02c48b7f1bb045d658a8ad55f12b1d",
+    "facade_verified": false,
+    "selection_score": 0.9101458269692111,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.6200001239776611
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        38.299999952316284,
+        126.3876665903727
+      ],
+      [
+        38.299999952316284,
+        134.4776667429606
+      ],
+      [
+        25.700000047683716,
+        134.4776667429606
+      ],
+      [
+        25.700000047683716,
+        126.3876665903727
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H06",
+    "asset_id": "HAB_213",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H06"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_213/HAB_213_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -5.09499979019165,
+        0.0,
+        -5.389999866485596
+      ],
+      [
+        5.09499979019165,
+        4.53000020980835,
+        5.329999923706055
+      ]
+    ],
+    "dimensions": [
+      10.1899995803833,
+      4.53000020980835,
+      10.71999979019165
+    ],
+    "sha256": "14f077f19ca2960a3989954c8ebdeafd1f3083ec6f17040397392dcede056bf1",
+    "facade_verified": false,
+    "selection_score": 1.0407785566261898,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.029999971389770508
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        53.80666677157083,
+        135.7196664568583
+      ],
+      [
+        53.80666677157083,
+        125.529666876475
+      ],
+      [
+        64.52666656176248,
+        125.529666876475
+      ],
+      [
+        64.52666656176248,
+        135.7196664568583
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H07",
+    "asset_id": "HAB_250",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H07"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_250/HAB_250_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -4.659999847412109,
+        0.0,
+        -6.809999942779541
+      ],
+      [
+        4.824999809265137,
+        4.355000019073486,
+        6.849999904632568
+      ]
+    ],
+    "dimensions": [
+      9.484999656677246,
+      4.355000019073486,
+      13.65999984741211
+    ],
+    "sha256": "8ac34681a44f3c4adc840e20dbb811eeecf1b2b2a67edd0768d4d7308ad51e93",
+    "facade_verified": false,
+    "selection_score": 0.47430403752500594,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.08249998092651367,
+      -0.0,
+      -0.019999980926513672
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        375.9966665903727,
+        141.09016683832803
+      ],
+      [
+        375.9966665903727,
+        150.57516649500528
+      ],
+      [
+        362.3366667429606,
+        150.57516649500528
+      ],
+      [
+        362.3366667429606,
+        141.09016683832803
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H08",
+    "asset_id": "HAB_351",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H08"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_351/HAB_351_Z2_R15_SHARED_PBR_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -4.099999904632568,
+        0.0,
+        -6.199999809265137
+      ],
+      [
+        4.099999904632568,
+        3.8949999809265137,
+        6.599999904632568
+      ]
+    ],
+    "dimensions": [
+      8.199999809265137,
+      3.8949999809265137,
+      12.799999713897705
+    ],
+    "sha256": "214ffd13dba51bfe30f46871e9fbf151ec1d99b04980d8caa7b8ea0339b7e194",
+    "facade_verified": false,
+    "selection_score": 1.2548293764629463,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      -0.20000004768371582
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        397.2333331902821,
+        142.41066676203408
+      ],
+      [
+        397.2333331902821,
+        150.61066657129922
+      ],
+      [
+        384.4333334763844,
+        150.61066657129922
+      ],
+      [
+        384.4333334763844,
+        142.41066676203408
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H09",
+    "asset_id": "HAB_222",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H09"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_222/HAB_222_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -4.96999979019165,
+        0.0,
+        -4.900000095367432
+      ],
+      [
+        4.96999979019165,
+        4.355000019073486,
+        4.840000152587891
+      ]
+    ],
+    "dimensions": [
+      9.9399995803833,
+      4.355000019073486,
+      9.740000247955322
+    ],
+    "sha256": "b0fe6536506f685df7011b92e26fcf92fbe5168e0ed9567e09e1308c433db394",
+    "facade_verified": false,
+    "selection_score": 1.2662714839283746,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.029999971389770508
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        99.62999987602234,
+        250.2366664568583
+      ],
+      [
+        99.62999987602234,
+        240.296666876475
+      ],
+      [
+        109.37000012397766,
+        240.296666876475
+      ],
+      [
+        109.37000012397766,
+        250.2366664568583
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H10",
+    "asset_id": "HAB_189",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H10"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_189/HAB_189_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -4.045000076293945,
+        0.0,
+        -6.920000076293945
+      ],
+      [
+        4.045000076293945,
+        4.230000019073486,
+        5.679999828338623
+      ]
+    ],
+    "dimensions": [
+      8.09000015258789,
+      4.230000019073486,
+      12.599999904632568
+    ],
+    "sha256": "1f3ba4b544b759897bd3188b663b1cf64f02c48b7f1bb045d658a8ad55f12b1d",
+    "facade_verified": false,
+    "selection_score": 1.130145826969211,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.6200001239776611
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        115.36666671435034,
+        248.91166674296068
+      ],
+      [
+        115.36666671435034,
+        240.82166659037279
+      ],
+      [
+        127.96666661898291,
+        240.82166659037279
+      ],
+      [
+        127.96666661898291,
+        248.91166674296068
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H11",
+    "asset_id": "HAB_249",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H11"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_249/HAB_249_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -4.369999885559082,
+        0.0,
+        -6.619999885559082
+      ],
+      [
+        4.369999885559082,
+        4.230000019073486,
+        5.380000114440918
+      ]
+    ],
+    "dimensions": [
+      8.739999771118164,
+      4.230000019073486,
+      12.0
+    ],
+    "sha256": "5b089abc010e8bace30056eee95ae47ff7ca95670bbfe3b35e3cfa04b65ba6fb",
+    "facade_verified": false,
+    "selection_score": 1.3171575585137185,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.619999885559082
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        139.66666666666663,
+        251.83666655222572
+      ],
+      [
+        139.66666666666663,
+        243.09666678110756
+      ],
+      [
+        151.66666666666663,
+        243.09666678110756
+      ],
+      [
+        151.66666666666663,
+        251.83666655222572
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H12",
+    "asset_id": "HAB_191",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H12"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_191/HAB_191_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -3.815000057220459,
+        0.0,
+        -7.340000152587891
+      ],
+      [
+        3.815000057220459,
+        4.489999771118164,
+        6.099999904632568
+      ]
+    ],
+    "dimensions": [
+      7.630000114440918,
+      4.489999771118164,
+      13.440000057220459
+    ],
+    "sha256": "643f783bfeb6da3b91ff1379b922226e06fc506067e2dbe8685e9aab3c0a391b",
+    "facade_verified": false,
+    "selection_score": 1.2245642205031915,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.6200001239776611
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        161.4466666380564,
+        252.38166672388718
+      ],
+      [
+        161.4466666380564,
+        244.75166660944626
+      ],
+      [
+        174.88666669527686,
+        244.75166660944626
+      ],
+      [
+        174.88666669527686,
+        252.38166672388718
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H13",
+    "asset_id": "HAB_450",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H13"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_450/HAB_450_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -5.110000133514404,
+        0.0,
+        -7.329999923706055
+      ],
+      [
+        5.110000133514404,
+        4.065000057220459,
+        7.369999885559082
+      ]
+    ],
+    "dimensions": [
+      10.220000267028809,
+      4.065000057220459,
+      14.699999809265137
+    ],
+    "sha256": "0c4d37413a33ab89f012fa194c81e2d165f104405019c15446bfa135ffacf4de",
+    "facade_verified": false,
+    "selection_score": 1.4167465964681412,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      -0.019999980926513672
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        206.0,
+        253.2300002670288
+      ],
+      [
+        206.0,
+        243.01
+      ],
+      [
+        220.69999980926514,
+        243.01
+      ],
+      [
+        220.69999980926514,
+        253.2300002670288
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H14",
+    "asset_id": "HAB_213",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H14"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_213/HAB_213_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -5.09499979019165,
+        0.0,
+        -5.389999866485596
+      ],
+      [
+        5.09499979019165,
+        4.53000020980835,
+        5.329999923706055
+      ]
+    ],
+    "dimensions": [
+      10.1899995803833,
+      4.53000020980835,
+      10.71999979019165
+    ],
+    "sha256": "14f077f19ca2960a3989954c8ebdeafd1f3083ec6f17040397392dcede056bf1",
+    "facade_verified": false,
+    "selection_score": 0.4842411983624322,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.029999971389770508
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        244.59499979019165,
+        255.9933332284291
+      ],
+      [
+        234.40500020980835,
+        255.9933332284291
+      ],
+      [
+        234.40500020980835,
+        245.27333343823744
+      ],
+      [
+        244.59499979019165,
+        245.27333343823744
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H15",
+    "asset_id": "HAB_222",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H15"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_222/HAB_222_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -4.96999979019165,
+        0.0,
+        -4.900000095367432
+      ],
+      [
+        4.96999979019165,
+        4.355000019073486,
+        4.840000152587891
+      ]
+    ],
+    "dimensions": [
+      9.9399995803833,
+      4.355000019073486,
+      9.740000247955322
+    ],
+    "sha256": "b0fe6536506f685df7011b92e26fcf92fbe5168e0ed9567e09e1308c433db394",
+    "facade_verified": false,
+    "selection_score": 1.3206713649391217,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.029999971389770508
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        272.1366664568583,
+        252.93666679064438
+      ],
+      [
+        262.196666876475,
+        252.93666679064438
+      ],
+      [
+        262.196666876475,
+        243.19666654268906
+      ],
+      [
+        272.1366664568583,
+        243.19666654268906
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H16",
+    "asset_id": "HAB_351",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H16"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_351/HAB_351_Z2_R15_SHARED_PBR_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -4.099999904632568,
+        0.0,
+        -6.199999809265137
+      ],
+      [
+        4.099999904632568,
+        3.8949999809265137,
+        6.599999904632568
+      ]
+    ],
+    "dimensions": [
+      8.199999809265137,
+      3.8949999809265137,
+      12.799999713897705
+    ],
+    "sha256": "214ffd13dba51bfe30f46871e9fbf151ec1d99b04980d8caa7b8ea0339b7e194",
+    "facade_verified": false,
+    "selection_score": 1.4748293764629463,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      -0.20000004768371582
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        113.0,
+        218.26666676203416
+      ],
+      [
+        113.0,
+        226.4666665712993
+      ],
+      [
+        100.2000002861023,
+        226.4666665712993
+      ],
+      [
+        100.2000002861023,
+        218.26666676203416
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H17",
+    "asset_id": "HAB_249",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H17"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_249/HAB_249_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -4.369999885559082,
+        0.0,
+        -6.619999885559082
+      ],
+      [
+        4.369999885559082,
+        4.230000019073486,
+        5.380000114440918
+      ]
+    ],
+    "dimensions": [
+      8.739999771118164,
+      4.230000019073486,
+      12.0
+    ],
+    "sha256": "5b089abc010e8bace30056eee95ae47ff7ca95670bbfe3b35e3cfa04b65ba6fb",
+    "facade_verified": false,
+    "selection_score": 1.5371575585137185,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.619999885559082
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        132.0,
+        220.5300001144409
+      ],
+      [
+        132.0,
+        229.26999988555906
+      ],
+      [
+        120.0,
+        229.26999988555906
+      ],
+      [
+        120.0,
+        220.5300001144409
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H18",
+    "asset_id": "HAB_189",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H18"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_189/HAB_189_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -4.045000076293945,
+        0.0,
+        -6.920000076293945
+      ],
+      [
+        4.045000076293945,
+        4.230000019073486,
+        5.679999828338623
+      ]
+    ],
+    "dimensions": [
+      8.09000015258789,
+      4.230000019073486,
+      12.599999904632568
+    ],
+    "sha256": "1f3ba4b544b759897bd3188b663b1cf64f02c48b7f1bb045d658a8ad55f12b1d",
+    "facade_verified": false,
+    "selection_score": 1.350145826969211,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.6200001239776611
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        150.6333332856496,
+        219.4216665903727
+      ],
+      [
+        150.6333332856496,
+        227.51166674296059
+      ],
+      [
+        138.03333338101703,
+        227.51166674296059
+      ],
+      [
+        138.03333338101703,
+        219.4216665903727
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H19",
+    "asset_id": "HAB_191",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H19"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_191/HAB_191_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -3.815000057220459,
+        0.0,
+        -7.340000152587891
+      ],
+      [
+        3.815000057220459,
+        4.489999771118164,
+        6.099999904632568
+      ]
+    ],
+    "dimensions": [
+      7.630000114440918,
+      4.489999771118164,
+      13.440000057220459
+    ],
+    "sha256": "643f783bfeb6da3b91ff1379b922226e06fc506067e2dbe8685e9aab3c0a391b",
+    "facade_verified": false,
+    "selection_score": 1.5696425700442265,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.6200001239776611
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        178.38666669527686,
+        221.4183332761129
+      ],
+      [
+        178.38666669527686,
+        229.0483333905538
+      ],
+      [
+        164.9466666380564,
+        229.0483333905538
+      ],
+      [
+        164.9466666380564,
+        221.4183332761129
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H20",
+    "asset_id": "HAB_250",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H20"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_250/HAB_250_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -4.659999847412109,
+        0.0,
+        -6.809999942779541
+      ],
+      [
+        4.824999809265137,
+        4.355000019073486,
+        6.849999904632568
+      ]
+    ],
+    "dimensions": [
+      9.484999656677246,
+      4.355000019073486,
+      13.65999984741211
+    ],
+    "sha256": "8ac34681a44f3c4adc840e20dbb811eeecf1b2b2a67edd0768d4d7308ad51e93",
+    "facade_verified": false,
+    "selection_score": 1.3920466535365457,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.08249998092651367,
+      -0.0,
+      -0.019999980926513672
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        221.32666651407874,
+        222.3575001716614
+      ],
+      [
+        221.32666651407874,
+        231.84249982833865
+      ],
+      [
+        207.66666666666663,
+        231.84249982833865
+      ],
+      [
+        207.66666666666663,
+        222.3575001716614
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H21",
+    "asset_id": "HAB_213",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H21"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_213/HAB_213_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -5.09499979019165,
+        0.0,
+        -5.389999866485596
+      ],
+      [
+        5.09499979019165,
+        4.53000020980835,
+        5.329999923706055
+      ]
+    ],
+    "dimensions": [
+      10.1899995803833,
+      4.53000020980835,
+      10.71999979019165
+    ],
+    "sha256": "14f077f19ca2960a3989954c8ebdeafd1f3083ec6f17040397392dcede056bf1",
+    "facade_verified": false,
+    "selection_score": 0.7042411983624322,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.029999971389770508
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        245.85999989509583,
+        221.83833354314163
+      ],
+      [
+        245.85999989509583,
+        232.02833312352493
+      ],
+      [
+        235.14000010490417,
+        232.02833312352493
+      ],
+      [
+        235.14000010490417,
+        221.83833354314163
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H22",
+    "asset_id": "HAB_222",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H22"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_222/HAB_222_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -4.96999979019165,
+        0.0,
+        -4.900000095367432
+      ],
+      [
+        4.96999979019165,
+        4.355000019073486,
+        4.840000152587891
+      ]
+    ],
+    "dimensions": [
+      9.9399995803833,
+      4.355000019073486,
+      9.740000247955322
+    ],
+    "sha256": "b0fe6536506f685df7011b92e26fcf92fbe5168e0ed9567e09e1308c433db394",
+    "facade_verified": false,
+    "selection_score": 1.5406713649391217,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.029999971389770508
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        259.79666654268897,
+        231.26999979019166
+      ],
+      [
+        259.79666654268897,
+        221.33000020980836
+      ],
+      [
+        269.5366667906443,
+        221.33000020980836
+      ],
+      [
+        269.5366667906443,
+        231.26999979019166
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H23",
+    "asset_id": "HAB_450",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H23"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_450/HAB_450_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -5.110000133514404,
+        0.0,
+        -7.329999923706055
+      ],
+      [
+        5.110000133514404,
+        4.065000057220459,
+        7.369999885559082
+      ]
+    ],
+    "dimensions": [
+      10.220000267028809,
+      4.065000057220459,
+      14.699999809265137
+    ],
+    "sha256": "0c4d37413a33ab89f012fa194c81e2d165f104405019c15446bfa135ffacf4de",
+    "facade_verified": false,
+    "selection_score": 1.5578026028532144,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      -0.019999980926513672
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        44.84999990463257,
+        73.32333319981893
+      ],
+      [
+        44.84999990463257,
+        83.54333346684774
+      ],
+      [
+        30.15000009536743,
+        83.54333346684774
+      ],
+      [
+        30.15000009536743,
+        73.32333319981893
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H24",
+    "asset_id": "HAB_189",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H24"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_189/HAB_189_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -4.045000076293945,
+        0.0,
+        -6.920000076293945
+      ],
+      [
+        4.045000076293945,
+        4.230000019073486,
+        5.679999828338623
+      ]
+    ],
+    "dimensions": [
+      8.09000015258789,
+      4.230000019073486,
+      12.599999904632568
+    ],
+    "sha256": "1f3ba4b544b759897bd3188b663b1cf64f02c48b7f1bb045d658a8ad55f12b1d",
+    "facade_verified": false,
+    "selection_score": 1.570145826969211,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.6200001239776611
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        71.29999995231628,
+        72.74766659037272
+      ],
+      [
+        71.29999995231628,
+        80.83766674296061
+      ],
+      [
+        58.700000047683716,
+        80.83766674296061
+      ],
+      [
+        58.700000047683716,
+        72.74766659037272
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H25",
+    "asset_id": "HAB_249",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H25"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_249/HAB_249_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -4.369999885559082,
+        0.0,
+        -6.619999885559082
+      ],
+      [
+        4.369999885559082,
+        4.230000019073486,
+        5.380000114440918
+      ]
+    ],
+    "dimensions": [
+      8.739999771118164,
+      4.230000019073486,
+      12.0
+    ],
+    "sha256": "5b089abc010e8bace30056eee95ae47ff7ca95670bbfe3b35e3cfa04b65ba6fb",
+    "facade_verified": false,
+    "selection_score": 1.598637083916517,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.619999885559082
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        114.16666666666663,
+        71.05899999999998
+      ],
+      [
+        114.16666666666663,
+        79.79899977111815
+      ],
+      [
+        102.16666666666663,
+        79.79899977111815
+      ],
+      [
+        102.16666666666663,
+        71.05899999999998
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H26",
+    "asset_id": "HAB_351",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H26"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_351/HAB_351_Z2_R15_SHARED_PBR_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -4.099999904632568,
+        0.0,
+        -6.199999809265137
+      ],
+      [
+        4.099999904632568,
+        3.8949999809265137,
+        6.599999904632568
+      ]
+    ],
+    "dimensions": [
+      8.199999809265137,
+      3.8949999809265137,
+      12.799999713897705
+    ],
+    "sha256": "214ffd13dba51bfe30f46871e9fbf151ec1d99b04980d8caa7b8ea0339b7e194",
+    "facade_verified": false,
+    "selection_score": 1.6948293764629465,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      -0.20000004768371582
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        140.09999990463257,
+        83.80799985694884
+      ],
+      [
+        131.90000009536743,
+        83.80799985694884
+      ],
+      [
+        131.90000009536743,
+        71.00800014305113
+      ],
+      [
+        140.09999990463257,
+        71.00800014305113
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H27",
+    "asset_id": "HAB_250",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H27"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_250/HAB_250_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -4.659999847412109,
+        0.0,
+        -6.809999942779541
+      ],
+      [
+        4.824999809265137,
+        4.355000019073486,
+        6.849999904632568
+      ]
+    ],
+    "dimensions": [
+      9.484999656677246,
+      4.355000019073486,
+      13.65999984741211
+    ],
+    "sha256": "8ac34681a44f3c4adc840e20dbb811eeecf1b2b2a67edd0768d4d7308ad51e93",
+    "facade_verified": false,
+    "selection_score": 1.7776467725257985,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.08249998092651367,
+      -0.0,
+      -0.019999980926513672
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        207.67000007629395,
+        87.86383316167196
+      ],
+      [
+        207.67000007629395,
+        78.37883350499472
+      ],
+      [
+        221.32999992370605,
+        78.37883350499472
+      ],
+      [
+        221.32999992370605,
+        87.86383316167196
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H28",
+    "asset_id": "HAB_213",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H28"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_213/HAB_213_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -5.09499979019165,
+        0.0,
+        -5.389999866485596
+      ],
+      [
+        5.09499979019165,
+        4.53000020980835,
+        5.329999923706055
+      ]
+    ],
+    "dimensions": [
+      10.1899995803833,
+      4.53000020980835,
+      10.71999979019165
+    ],
+    "sha256": "14f077f19ca2960a3989954c8ebdeafd1f3083ec6f17040397392dcede056bf1",
+    "facade_verified": false,
+    "selection_score": 0.9242411983624322,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.029999971389770508
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        33.140000104904175,
+        58.064333123524975
+      ],
+      [
+        33.140000104904175,
+        47.874333543141674
+      ],
+      [
+        43.859999895095825,
+        47.874333543141674
+      ],
+      [
+        43.859999895095825,
+        58.064333123524975
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H29",
+    "asset_id": "HAB_191",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H29"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_191/HAB_191_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -3.815000057220459,
+        0.0,
+        -7.340000152587891
+      ],
+      [
+        3.815000057220459,
+        4.489999771118164,
+        6.099999904632568
+      ]
+    ],
+    "dimensions": [
+      7.630000114440918,
+      4.489999771118164,
+      13.440000057220459
+    ],
+    "sha256": "643f783bfeb6da3b91ff1379b922226e06fc506067e2dbe8685e9aab3c0a391b",
+    "facade_verified": false,
+    "selection_score": 1.6645642205031916,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.6200001239776611
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        54.77999997138977,
+        58.881000057220476
+      ],
+      [
+        54.77999997138977,
+        51.25099994277956
+      ],
+      [
+        68.22000002861023,
+        51.25099994277956
+      ],
+      [
+        68.22000002861023,
+        58.881000057220476
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H30",
+    "asset_id": "HAB_222",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H30"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_222/HAB_222_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -4.96999979019165,
+        0.0,
+        -4.900000095367432
+      ],
+      [
+        4.96999979019165,
+        4.355000019073486,
+        4.840000152587891
+      ]
+    ],
+    "dimensions": [
+      9.9399995803833,
+      4.355000019073486,
+      9.740000247955322
+    ],
+    "sha256": "b0fe6536506f685df7011b92e26fcf92fbe5168e0ed9567e09e1308c433db394",
+    "facade_verified": false,
+    "selection_score": 1.7606713649391217,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.029999971389770508
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        103.79666654268897,
+        59.036
+      ],
+      [
+        103.79666654268897,
+        49.0960004196167
+      ],
+      [
+        113.53666679064429,
+        49.0960004196167
+      ],
+      [
+        113.53666679064429,
+        59.036
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H31",
+    "asset_id": "HAB_450",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H31"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_450/HAB_450_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -5.110000133514404,
+        0.0,
+        -7.329999923706055
+      ],
+      [
+        5.110000133514404,
+        4.065000057220459,
+        7.369999885559082
+      ]
+    ],
+    "dimensions": [
+      10.220000267028809,
+      4.065000057220459,
+      14.699999809265137
+    ],
+    "sha256": "0c4d37413a33ab89f012fa194c81e2d165f104405019c15446bfa135ffacf4de",
+    "facade_verified": false,
+    "selection_score": 1.856746596468141,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      -0.019999980926513672
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        145.0,
+        47.66266653315226
+      ],
+      [
+        145.0,
+        57.88266680018107
+      ],
+      [
+        130.30000019073486,
+        57.88266680018107
+      ],
+      [
+        130.30000019073486,
+        47.66266653315226
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H32",
+    "asset_id": "HAB_189",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H32"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_189/HAB_189_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -4.045000076293945,
+        0.0,
+        -6.920000076293945
+      ],
+      [
+        4.045000076293945,
+        4.230000019073486,
+        5.679999828338623
+      ]
+    ],
+    "dimensions": [
+      8.09000015258789,
+      4.230000019073486,
+      12.599999904632568
+    ],
+    "sha256": "1f3ba4b544b759897bd3188b663b1cf64f02c48b7f1bb045d658a8ad55f12b1d",
+    "facade_verified": false,
+    "selection_score": 1.7901458269692112,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.6200001239776611
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        211.29999995231628,
+        51.54966659037271
+      ],
+      [
+        211.29999995231628,
+        59.6396667429606
+      ],
+      [
+        198.70000004768372,
+        59.6396667429606
+      ],
+      [
+        198.70000004768372,
+        51.54966659037271
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H33",
+    "asset_id": "HAB_351",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H33"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_351/HAB_351_Z2_R15_SHARED_PBR_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -4.099999904632568,
+        0.0,
+        -6.199999809265137
+      ],
+      [
+        4.099999904632568,
+        3.8949999809265137,
+        6.599999904632568
+      ]
+    ],
+    "dimensions": [
+      8.199999809265137,
+      3.8949999809265137,
+      12.799999713897705
+    ],
+    "sha256": "214ffd13dba51bfe30f46871e9fbf151ec1d99b04980d8caa7b8ea0339b7e194",
+    "facade_verified": false,
+    "selection_score": 1.9148293764629463,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      -0.20000004768371582
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        247.06666652361548,
+        122.06666676203406
+      ],
+      [
+        247.06666652361548,
+        130.2666665712992
+      ],
+      [
+        234.26666680971778,
+        130.2666665712992
+      ],
+      [
+        234.26666680971778,
+        122.06666676203406
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H34",
+    "asset_id": "HAB_249",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H34"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_249/HAB_249_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -4.369999885559082,
+        0.0,
+        -6.619999885559082
+      ],
+      [
+        4.369999885559082,
+        4.230000019073486,
+        5.380000114440918
+      ]
+    ],
+    "dimensions": [
+      8.739999771118164,
+      4.230000019073486,
+      12.0
+    ],
+    "sha256": "5b089abc010e8bace30056eee95ae47ff7ca95670bbfe3b35e3cfa04b65ba6fb",
+    "facade_verified": false,
+    "selection_score": 1.818637083916517,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.619999885559082
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        265.16666666666663,
+        121.96333344777423
+      ],
+      [
+        265.16666666666663,
+        130.7033332188924
+      ],
+      [
+        253.16666666666663,
+        130.7033332188924
+      ],
+      [
+        253.16666666666663,
+        121.96333344777423
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H35",
+    "asset_id": "HAB_250",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H35"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_250/HAB_250_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -4.659999847412109,
+        0.0,
+        -6.809999942779541
+      ],
+      [
+        4.824999809265137,
+        4.355000019073486,
+        6.849999904632568
+      ]
+    ],
+    "dimensions": [
+      9.484999656677246,
+      4.355000019073486,
+      13.65999984741211
+    ],
+    "sha256": "8ac34681a44f3c4adc840e20dbb811eeecf1b2b2a67edd0768d4d7308ad51e93",
+    "facade_verified": false,
+    "selection_score": 1.134304037525006,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.08249998092651367,
+      -0.0,
+      -0.019999980926513672
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        272.17000007629395,
+        133.40916649500525
+      ],
+      [
+        272.17000007629395,
+        123.924166838328
+      ],
+      [
+        285.82999992370605,
+        123.924166838328
+      ],
+      [
+        285.82999992370605,
+        133.40916649500525
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H36",
+    "asset_id": "HAB_191",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H36"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_191/HAB_191_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -3.815000057220459,
+        0.0,
+        -7.340000152587891
+      ],
+      [
+        3.815000057220459,
+        4.489999771118164,
+        6.099999904632568
+      ]
+    ],
+    "dimensions": [
+      7.630000114440918,
+      4.489999771118164,
+      13.440000057220459
+    ],
+    "sha256": "643f783bfeb6da3b91ff1379b922226e06fc506067e2dbe8685e9aab3c0a391b",
+    "facade_verified": false,
+    "selection_score": 1.8845642205031914,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.6200001239776611
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        294.9466666380564,
+        134.81500005722046
+      ],
+      [
+        294.9466666380564,
+        127.18499994277954
+      ],
+      [
+        308.38666669527686,
+        127.18499994277954
+      ],
+      [
+        308.38666669527686,
+        134.81500005722046
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H37",
+    "asset_id": "HAB_213",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H37"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_213/HAB_213_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -5.09499979019165,
+        0.0,
+        -5.389999866485596
+      ],
+      [
+        5.09499979019165,
+        4.53000020980835,
+        5.329999923706055
+      ]
+    ],
+    "dimensions": [
+      10.1899995803833,
+      4.53000020980835,
+      10.71999979019165
+    ],
+    "sha256": "14f077f19ca2960a3989954c8ebdeafd1f3083ec6f17040397392dcede056bf1",
+    "facade_verified": false,
+    "selection_score": 1.92077855662619,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.029999971389770508
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        320.8066667715708,
+        269.59499979019165
+      ],
+      [
+        320.8066667715708,
+        259.40500020980835
+      ],
+      [
+        331.52666656176245,
+        259.40500020980835
+      ],
+      [
+        331.52666656176245,
+        269.59499979019165
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H38",
+    "asset_id": "HAB_222",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H38"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_222/HAB_222_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -4.96999979019165,
+        0.0,
+        -4.900000095367432
+      ],
+      [
+        4.96999979019165,
+        4.355000019073486,
+        4.840000152587891
+      ]
+    ],
+    "dimensions": [
+      9.9399995803833,
+      4.355000019073486,
+      9.740000247955322
+    ],
+    "sha256": "b0fe6536506f685df7011b92e26fcf92fbe5168e0ed9567e09e1308c433db394",
+    "facade_verified": false,
+    "selection_score": 1.9806713649391217,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.029999971389770508
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        344.9633332093556,
+        268.8033331235249
+      ],
+      [
+        344.9633332093556,
+        258.8633335431416
+      ],
+      [
+        354.7033334573109,
+        258.8633335431416
+      ],
+      [
+        354.7033334573109,
+        268.8033331235249
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H39",
+    "asset_id": "HAB_450",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H39"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_450/HAB_450_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -5.110000133514404,
+        0.0,
+        -7.329999923706055
+      ],
+      [
+        5.110000133514404,
+        4.065000057220459,
+        7.369999885559082
+      ]
+    ],
+    "dimensions": [
+      10.220000267028809,
+      4.065000057220459,
+      14.699999809265137
+    ],
+    "sha256": "0c4d37413a33ab89f012fa194c81e2d165f104405019c15446bfa135ffacf4de",
+    "facade_verified": false,
+    "selection_score": 2.076746596468141,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      -0.019999980926513672
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        382.4833334287007,
+        269.6100001335144
+      ],
+      [
+        382.4833334287007,
+        259.3899998664856
+      ],
+      [
+        397.1833332379658,
+        259.3899998664856
+      ],
+      [
+        397.1833332379658,
+        269.6100001335144
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "H40",
+    "asset_id": "HAB_189",
+    "asset_status": "candidate_requires_facade_and_visual_approval",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "H40"
+    },
+    "path": "res://main/world/structures/residential/houses/z2_candidates/HAB_189/HAB_189_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf",
+    "bounds": [
+      [
+        -4.045000076293945,
+        0.0,
+        -6.920000076293945
+      ],
+      [
+        4.045000076293945,
+        4.230000019073486,
+        5.679999828338623
+      ]
+    ],
+    "dimensions": [
+      8.09000015258789,
+      4.230000019073486,
+      12.599999904632568
+    ],
+    "sha256": "1f3ba4b544b759897bd3188b663b1cf64f02c48b7f1bb045d658a8ad55f12b1d",
+    "facade_verified": false,
+    "selection_score": 2.010145826969211,
+    "selection_policy": "reviewed_two_slope_palette; min_sum_abs_log_dimension_ratio + 0.22*prior_use_count; ties asset_id; rotated AABB inside original parcel; scale 1",
+    "visual_offset": [
+      -0.0,
+      -0.0,
+      0.6200001239776611
+    ],
+    "rotation_correction_degrees": 0,
+    "footprint_m": [
+      [
+        401.13333328564954,
+        196.45499992370605
+      ],
+      [
+        401.13333328564954,
+        204.54500007629395
+      ],
+      [
+        388.533333381017,
+        204.54500007629395
+      ],
+      [
+        388.533333381017,
+        196.45499992370605
+      ]
+    ],
+    "envelope_fit_verified": false,
+    "door_access_verified": false
+  },
+  {
+    "building_id": "C01",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "C01"
+    }
+  },
+  {
+    "building_id": "C02",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "C02"
+    }
+  },
+  {
+    "building_id": "C03",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "C03"
+    }
+  },
+  {
+    "building_id": "C04",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "C04"
+    }
+  },
+  {
+    "building_id": "C05",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "C05"
+    }
+  },
+  {
+    "building_id": "C06",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b2_implantacao.json",
+      "record_id": "C06"
+    }
+  },
+  {
+    "building_id": "H41",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H41"
+    }
+  },
+  {
+    "building_id": "H42",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H42"
+    }
+  },
+  {
+    "building_id": "H43",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H43"
+    }
+  },
+  {
+    "building_id": "H44",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H44"
+    }
+  },
+  {
+    "building_id": "H45",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H45"
+    }
+  },
+  {
+    "building_id": "H46",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H46"
+    }
+  },
+  {
+    "building_id": "H47",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H47"
+    }
+  },
+  {
+    "building_id": "H48",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H48"
+    }
+  },
+  {
+    "building_id": "H49",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H49"
+    }
+  },
+  {
+    "building_id": "H50",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H50"
+    }
+  },
+  {
+    "building_id": "H51",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H51"
+    }
+  },
+  {
+    "building_id": "H52",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H52"
+    }
+  },
+  {
+    "building_id": "H53",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H53"
+    }
+  },
+  {
+    "building_id": "H54",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H54"
+    }
+  },
+  {
+    "building_id": "H55",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H55"
+    }
+  },
+  {
+    "building_id": "H56",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H56"
+    }
+  },
+  {
+    "building_id": "H57",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H57"
+    }
+  },
+  {
+    "building_id": "H58",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H58"
+    }
+  },
+  {
+    "building_id": "H59",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H59"
+    }
+  },
+  {
+    "building_id": "H60",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H60"
+    }
+  },
+  {
+    "building_id": "H61",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H61"
+    }
+  },
+  {
+    "building_id": "H62",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H62"
+    }
+  },
+  {
+    "building_id": "H63",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H63"
+    }
+  },
+  {
+    "building_id": "H64",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H64"
+    }
+  },
+  {
+    "building_id": "H65",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H65"
+    }
+  },
+  {
+    "building_id": "H66",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H66"
+    }
+  },
+  {
+    "building_id": "H67",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H67"
+    }
+  },
+  {
+    "building_id": "H68",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H68"
+    }
+  },
+  {
+    "building_id": "H69",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H69"
+    }
+  },
+  {
+    "building_id": "H70",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b31_70_casas_candidata.json",
+      "record_id": "H70"
+    }
+  },
+  {
+    "building_id": "H71",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H71"
+    }
+  },
+  {
+    "building_id": "H72",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H72"
+    }
+  },
+  {
+    "building_id": "H73",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H73"
+    }
+  },
+  {
+    "building_id": "H74",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H74"
+    }
+  },
+  {
+    "building_id": "H75",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H75"
+    }
+  },
+  {
+    "building_id": "H76",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H76"
+    }
+  },
+  {
+    "building_id": "H77",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H77"
+    }
+  },
+  {
+    "building_id": "H78",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H78"
+    }
+  },
+  {
+    "building_id": "H79",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H79"
+    }
+  },
+  {
+    "building_id": "H80",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H80"
+    }
+  },
+  {
+    "building_id": "H81",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H81"
+    }
+  },
+  {
+    "building_id": "H82",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H82"
+    }
+  },
+  {
+    "building_id": "H83",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H83"
+    }
+  },
+  {
+    "building_id": "H84",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H84"
+    }
+  },
+  {
+    "building_id": "H85",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H85"
+    }
+  },
+  {
+    "building_id": "H86",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H86"
+    }
+  },
+  {
+    "building_id": "H87",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H87"
+    }
+  },
+  {
+    "building_id": "H88",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H88"
+    }
+  },
+  {
+    "building_id": "H89",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H89"
+    }
+  },
+  {
+    "building_id": "H90",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H90"
+    }
+  },
+  {
+    "building_id": "H91",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H91"
+    }
+  },
+  {
+    "building_id": "H92",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H92"
+    }
+  },
+  {
+    "building_id": "H93",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H93"
+    }
+  },
+  {
+    "building_id": "H94",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H94"
+    }
+  },
+  {
+    "building_id": "H95",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H95"
+    }
+  },
+  {
+    "building_id": "H96",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H96"
+    }
+  },
+  {
+    "building_id": "H97",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H97"
+    }
+  },
+  {
+    "building_id": "H98",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H98"
+    }
+  },
+  {
+    "building_id": "H99",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H99"
+    }
+  },
+  {
+    "building_id": "H100",
+    "asset_id": null,
+    "asset_status": "pending_visual_selection",
+    "source": {
+      "path": "staging/e06_world/arroio_reference/data/arroio/arroio_b32_100_casas_pois.json",
+      "record_id": "H100"
+    }
+  }
+]

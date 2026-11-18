@@ -1,0 +1,64 @@
+{
+  "models": [
+    {
+      "id": "reboco",
+      "name": "Muro rebocado",
+      "height": 1.0,
+      "thickness": 0.18,
+      "high": false,
+      "stamina_cost": 3,
+      "zombies_can_cross": true,
+      "player_can_cross": true
+    },
+    {
+      "id": "tijolo",
+      "name": "Tijolo aparente",
+      "height": 1.1,
+      "thickness": 0.2,
+      "high": false,
+      "stamina_cost": 3,
+      "zombies_can_cross": true,
+      "player_can_cross": true
+    },
+    {
+      "id": "ripas",
+      "name": "Cerca de ripas",
+      "height": 1.15,
+      "thickness": 0.12,
+      "high": false,
+      "stamina_cost": 3,
+      "zombies_can_cross": true,
+      "player_can_cross": true
+    },
+    {
+      "id": "tela",
+      "name": "Tela metálica",
+      "height": 1.05,
+      "thickness": 0.08,
+      "high": false,
+      "stamina_cost": 3,
+      "zombies_can_cross": true,
+      "player_can_cross": true
+    },
+    {
+      "id": "muro_alto",
+      "name": "Muro alto",
+      "height": 1.85,
+      "thickness": 0.2,
+      "high": true,
+      "stamina_cost": 12,
+      "zombies_can_cross": false,
+      "player_can_cross": true
+    },
+    {
+      "id": "madeira_alta",
+      "name": "Madeira alta",
+      "height": 1.85,
+      "thickness": 0.14,
+      "high": true,
+      "stamina_cost": 12,
+      "zombies_can_cross": false,
+      "player_can_cross": true
+    }
+  ]
+}

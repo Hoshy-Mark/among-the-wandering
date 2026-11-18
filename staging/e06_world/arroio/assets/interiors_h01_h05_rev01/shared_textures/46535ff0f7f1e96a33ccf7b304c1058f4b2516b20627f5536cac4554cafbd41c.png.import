@@ -1,0 +1,35 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://fdfrgy3jlhmm"
+path.s3tc="res://.godot/imported/46535ff0f7f1e96a33ccf7b304c1058f4b2516b20627f5536cac4554cafbd41c.png-8e8b8d741a0cb19a7154ffe34fcca68a.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+
+[deps]
+
+source_file="res://staging/e06_world/arroio/assets/interiors_h01_h05_rev01/shared_textures/46535ff0f7f1e96a33ccf7b304c1058f4b2516b20627f5536cac4554cafbd41c.png"
+dest_files=["res://.godot/imported/46535ff0f7f1e96a33ccf7b304c1058f4b2516b20627f5536cac4554cafbd41c.png-8e8b8d741a0cb19a7154ffe34fcca68a.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=1
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=1
+roughness/src_normal="res://staging/e06_world/arroio/assets/interiors_h01_h05_rev01/shared_textures/46535ff0f7f1e96a33ccf7b304c1058f4b2516b20627f5536cac4554cafbd41c.png"
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

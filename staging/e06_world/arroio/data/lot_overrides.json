@@ -1,0 +1,1262 @@
+{
+  "schema_version": 1,
+  "lots": {
+    "H01": {
+      "enabled": true,
+      "master_candidate": true,
+      "revision": "H01-ACESSO-REV05",
+      "decision_id": "H01-ACESSO-REV05",
+      "direction_approved": true,
+      "prototype_execution_authorized": true,
+      "visual_homologation": false,
+      "main_promotion_authorized": false,
+      "source_asset": "HAB_222",
+      "visual_path": "res://staging/e06_world/arroio/assets/master_h01_h10_rev01/H01.gltf",
+      "base_snapshot": "4802e8c233f66a4ad377bcc7",
+      "sector": "S01",
+      "building_position": [
+        31.333333333333332,
+        0,
+        155.16333333333333
+      ],
+      "building_yaw": 90,
+      "visual_offset": [
+        -0.0,
+        -0.0,
+        0.029999971389770508
+      ],
+      "gate_original": {
+        "center": [
+          27.768644163033038,
+          147.82973125419332
+        ],
+        "along": [
+          1.0,
+          0.0
+        ],
+        "inward": [
+          -0.0,
+          1.0
+        ],
+        "opening_width_m": 3.6,
+        "leaf_state": "open; no interaction script"
+      },
+      "gate_center": [
+        27.768644163033038,
+        147.82973125419332
+      ],
+      "gate_width_m": 3.6,
+      "door_xz": [
+        27.768644163033038,
+        150.1933
+      ],
+      "front_direction": -1,
+      "floor_m": 0.24,
+      "eave_m": 3.12,
+      "ridge_m": 4.5,
+      "body_center_xz": [
+        31.33333333333333,
+        154.98831656176247
+      ],
+      "body_width_m": 9.140000247955323,
+      "body_depth_m": 9.590033123524961,
+      "body_bounds_xz": [
+        26.763333209355668,
+        150.1933,
+        35.90333345731099,
+        159.78333312352495
+      ],
+      "candidate_translation_xyz": [
+        0,
+        0,
+        0
+      ],
+      "front_walls_to_recompose": [],
+      "access_path": [
+        [
+          27.768644163033038,
+          147.82973125419332
+        ],
+        [
+          27.768644163033038,
+          150.1933
+        ]
+      ],
+      "access_width_m": 1.9,
+      "wall_color": [
+        0.91,
+        0.86,
+        0.73
+      ],
+      "wood_house": false,
+      "hip_roof": false,
+      "gray_roof": false,
+      "porch_depth_m": 1.1,
+      "porch_width_m": 2.9,
+      "object_moves": [],
+      "extra_structures": [],
+      "geometry_adjustments": [
+        "Porch supports recessed to the facade to clear the gate-leaf sweep; original REV04 model remains archived.",
+        "Continuous ramp/landing above the threshold edge; no vertical walking lip."
+      ],
+      "triangles": 10126,
+      "preserve": {
+        "parcel": [
+          [
+            44.0,
+            147.82973125419332
+          ],
+          [
+            44.0,
+            185.33333333333331
+          ],
+          [
+            20.0,
+            185.33333333333331
+          ],
+          [
+            20.0,
+            147.82973125419332
+          ],
+          [
+            44.0,
+            147.82973125419332
+          ]
+        ],
+        "gate": {
+          "center": [
+            27.768644163033038,
+            147.82973125419332
+          ],
+          "along": [
+            1.0,
+            0.0
+          ],
+          "inward": [
+            -0.0,
+            1.0
+          ],
+          "opening_width_m": 3.6,
+          "leaf_state": "open; no interaction script"
+        },
+        "access_path": [
+          [
+            25.56333320935567,
+            155.61333330651124
+          ],
+          [
+            25.663333209355667,
+            149.39333354314164
+          ],
+          [
+            27.768644163033038,
+            147.82973125419332
+          ]
+        ],
+        "wall_132": {
+          "id": "WALL_132",
+          "a": [
+            44.0,
+            148.035965
+          ],
+          "b": [
+            44.0,
+            185.333333
+          ],
+          "owners": [
+            {
+              "building_id": "H01",
+              "sector": "S01"
+            },
+            {
+              "building_id": "H02",
+              "sector": "S01"
+            }
+          ],
+          "height_m": 1.15
+        }
+      },
+      "leaf_fill_factor": 2.4,
+      "low_shrub_positions": [
+        [
+          22.2,
+          181.3
+        ],
+        [
+          40.5,
+          181.6
+        ],
+        [
+          42.1,
+          173.4
+        ]
+      ],
+      "gate_open_pose": "folded_against_inside_front_wall"
+    },
+    "H02": {
+      "enabled": true,
+      "master_candidate": true,
+      "revision": "H02-ACESSO-REV02",
+      "decision_id": "H02-ACESSO-REV02",
+      "direction_approved": true,
+      "prototype_execution_authorized": true,
+      "visual_homologation": false,
+      "main_promotion_authorized": false,
+      "source_asset": "HAB_351",
+      "visual_path": "res://staging/e06_world/arroio/assets/master_h01_h10_rev01/H02.gltf",
+      "base_snapshot": "4802e8c233f66a4ad377bcc7",
+      "sector": "S01",
+      "building_position": [
+        57.83333333333333,
+        0,
+        155.4359649433686
+      ],
+      "building_yaw": 180,
+      "visual_offset": [
+        -0.0,
+        -0.0,
+        -0.20000004768371582
+      ],
+      "gate_original": {
+        "center": [
+          58.20226386776276,
+          148.03596508641974
+        ],
+        "along": [
+          1.0,
+          0.0
+        ],
+        "inward": [
+          -0.0,
+          1.0
+        ],
+        "opening_width_m": 3.6,
+        "leaf_state": "open; no interaction script"
+      },
+      "gate_center": [
+        58.20226386776276,
+        148.03596508641974
+      ],
+      "gate_width_m": 3.6,
+      "door_xz": [
+        58.20226386776276,
+        150.5359650864
+      ],
+      "front_direction": -1,
+      "floor_m": 0.28,
+      "eave_m": 2.9,
+      "ridge_m": 4.2,
+      "body_center_xz": [
+        57.833333333333314,
+        156.76098240015872
+      ],
+      "body_width_m": 7.599999809265137,
+      "body_depth_m": 12.449964800317446,
+      "body_bounds_xz": [
+        54.03333342870074,
+        150.5359650864,
+        61.633333237965886,
+        162.98596480031745
+      ],
+      "candidate_translation_xyz": [
+        0,
+        0,
+        1.5
+      ],
+      "front_walls_to_recompose": [],
+      "access_path": [
+        [
+          58.20226386776276,
+          148.03596508641974
+        ],
+        [
+          58.20226386776276,
+          150.5359650864
+        ]
+      ],
+      "access_width_m": 1.9,
+      "wall_color": [
+        0.85,
+        0.77,
+        0.65
+      ],
+      "wood_house": false,
+      "hip_roof": false,
+      "gray_roof": false,
+      "porch_depth_m": 0.65,
+      "porch_width_m": 1.7,
+      "object_moves": [
+        {
+          "id": "RAIN_BARREL_H02",
+          "from_xz": [
+            58,
+            155
+          ],
+          "candidate_xz": [
+            64.8,
+            164.0
+          ],
+          "reason": "Source origin inside house volume; access addendum permits correction after collision and safe-position checks.",
+          "candidate_only": true
+        }
+      ],
+      "extra_structures": [],
+      "alternatives": {
+        "A": {
+          "translation_z_m": 0,
+          "door_z": 149.0359650864
+        },
+        "B": {
+          "translation_z_m": 1.5,
+          "door_z": 150.5359650864
+        },
+        "selected_for_prototype": "B",
+        "final_decision_pending": true
+      },
+      "triangles": 8520
+    },
+    "H03": {
+      "enabled": true,
+      "master_candidate": true,
+      "revision": "H03-ACESSO-REV02",
+      "decision_id": "H03-ACESSO-REV02",
+      "direction_approved": true,
+      "prototype_execution_authorized": true,
+      "visual_homologation": false,
+      "main_promotion_authorized": false,
+      "source_asset": "HAB_191",
+      "visual_path": "res://staging/e06_world/arroio/assets/master_h01_h10_rev01/H03.gltf",
+      "base_snapshot": "4802e8c233f66a4ad377bcc7",
+      "sector": "S01",
+      "building_position": [
+        253.83333333333331,
+        0,
+        161.69733333333332
+      ],
+      "building_yaw": 90,
+      "visual_offset": [
+        -0.0,
+        -0.0,
+        0.6200001239776611
+      ],
+      "gate_original": {
+        "center": [
+          249.43798597473472,
+          154.36372731981317
+        ],
+        "along": [
+          1.0,
+          0.0
+        ],
+        "inward": [
+          -0.0,
+          1.0
+        ],
+        "opening_width_m": 3.6,
+        "leaf_state": "open; no interaction script"
+      },
+      "gate_center": [
+        249.43798597473472,
+        154.36372731981317
+      ],
+      "gate_width_m": 3.6,
+      "door_xz": [
+        249.43798597473472,
+        157.8823
+      ],
+      "front_direction": -1,
+      "floor_m": 0.43,
+      "eave_m": 3.05,
+      "ridge_m": 4.2,
+      "body_center_xz": [
+        253.83333333333326,
+        161.5223166952769
+      ],
+      "body_width_m": 12.84000005722046,
+      "body_depth_m": 7.280033390553825,
+      "body_bounds_xz": [
+        247.41333330472304,
+        157.8823,
+        260.2533333619435,
+        165.1623333905538
+      ],
+      "candidate_translation_xyz": [
+        0,
+        0,
+        0
+      ],
+      "front_walls_to_recompose": [],
+      "access_path": [
+        [
+          249.43798597473472,
+          154.36372731981317
+        ],
+        [
+          249.43798597473472,
+          157.8823
+        ]
+      ],
+      "access_width_m": 1.9,
+      "wall_color": [
+        0.48,
+        0.36,
+        0.25
+      ],
+      "wood_house": true,
+      "hip_roof": false,
+      "gray_roof": true,
+      "porch_depth_m": 1.2,
+      "porch_width_m": 1.6,
+      "object_moves": [],
+      "extra_structures": [],
+      "geometry_adjustments": [
+        "Narrow 1.6m entry cover uses wall brackets, without front posts obstructing the 1.9m approach."
+      ],
+      "triangles": 4702
+    },
+    "H04": {
+      "enabled": true,
+      "master_candidate": true,
+      "revision": "H04-ART-REV02",
+      "decision_id": "H04-ART-REV02",
+      "direction_approved": false,
+      "prototype_execution_authorized": true,
+      "visual_homologation": false,
+      "main_promotion_authorized": false,
+      "source_asset": "HAB_249",
+      "visual_path": "res://staging/e06_world/arroio/assets/master_h01_h10_rev01/H04.gltf",
+      "base_snapshot": "4802e8c233f66a4ad377bcc7",
+      "sector": "S01",
+      "building_position": [
+        278.3333333333333,
+        0,
+        163.39266666666666
+      ],
+      "building_yaw": 90,
+      "visual_offset": [
+        -0.0,
+        -0.0,
+        0.619999885559082
+      ],
+      "gate_original": {
+        "center": [
+          274.71777497141954,
+          156.0590100766853
+        ],
+        "along": [
+          1.0,
+          0.0
+        ],
+        "inward": [
+          -0.0,
+          1.0
+        ],
+        "opening_width_m": 3.6,
+        "leaf_state": "open; no interaction script"
+      },
+      "gate_center": [
+        274.71777497141954,
+        156.0590100766853
+      ],
+      "gate_width_m": 3.6,
+      "door_xz": [
+        274.71777497141954,
+        159.0226667811076
+      ],
+      "front_direction": -1,
+      "floor_m": 0.28,
+      "eave_m": 2.9,
+      "ridge_m": 4.2,
+      "body_center_xz": [
+        278.33333333333326,
+        163.21766666666667
+      ],
+      "body_width_m": 11.4,
+      "body_depth_m": 8.38999977111817,
+      "body_bounds_xz": [
+        272.63333333333327,
+        159.0226667811076,
+        284.03333333333325,
+        167.41266655222577
+      ],
+      "candidate_translation_xyz": [
+        0,
+        0,
+        0
+      ],
+      "front_walls_to_recompose": [],
+      "access_path": [
+        [
+          274.71777497141954,
+          156.0590100766853
+        ],
+        [
+          274.71777497141954,
+          159.0226667811076
+        ]
+      ],
+      "access_width_m": 1.9,
+      "wall_color": [
+        0.76,
+        0.59,
+        0.32
+      ],
+      "wood_house": false,
+      "hip_roof": false,
+      "gray_roof": false,
+      "porch_depth_m": 0.65,
+      "porch_width_m": 1.7,
+      "object_moves": [],
+      "extra_structures": [],
+      "triangles": 7212
+    },
+    "H05": {
+      "enabled": true,
+      "master_candidate": true,
+      "revision": "H05-ART-REV01",
+      "decision_id": "H05-ART-REV01",
+      "direction_approved": false,
+      "prototype_execution_authorized": true,
+      "visual_homologation": false,
+      "main_promotion_authorized": false,
+      "source_asset": "HAB_189",
+      "visual_path": "res://staging/e06_world/arroio/assets/master_h01_h10_rev01/H05.gltf",
+      "base_snapshot": "4802e8c233f66a4ad377bcc7",
+      "sector": "S01",
+      "building_position": [
+        32.0,
+        0,
+        130.43266666666665
+      ],
+      "building_yaw": 270,
+      "visual_offset": [
+        -0.0,
+        -0.0,
+        0.6200001239776611
+      ],
+      "gate_original": {
+        "center": [
+          36.722647881754554,
+          137.766274286662
+        ],
+        "along": [
+          -1.0,
+          0.0
+        ],
+        "inward": [
+          -0.0,
+          -1.0
+        ],
+        "opening_width_m": 3.6,
+        "leaf_state": "open; no interaction script"
+      },
+      "gate_center": [
+        36.722647881754554,
+        137.766274286662
+      ],
+      "gate_width_m": 3.6,
+      "door_xz": [
+        36.722647881754554,
+        134.4777
+      ],
+      "front_direction": 1,
+      "floor_m": 0.28,
+      "eave_m": 2.9,
+      "ridge_m": 4.2,
+      "body_center_xz": [
+        32.0,
+        130.60768329518635
+      ],
+      "body_width_m": 11.999999904632569,
+      "body_depth_m": 7.740033409627301,
+      "body_bounds_xz": [
+        26.000000047683717,
+        126.7376665903727,
+        37.99999995231629,
+        134.4777
+      ],
+      "candidate_translation_xyz": [
+        0,
+        0,
+        0
+      ],
+      "front_walls_to_recompose": [],
+      "access_path": [
+        [
+          36.722647881754554,
+          137.766274286662
+        ],
+        [
+          36.722647881754554,
+          134.4777
+        ]
+      ],
+      "access_width_m": 1.9,
+      "wall_color": [
+        0.88,
+        0.87,
+        0.8
+      ],
+      "wood_house": false,
+      "hip_roof": true,
+      "gray_roof": false,
+      "porch_depth_m": 0.65,
+      "porch_width_m": 1.7,
+      "object_moves": [],
+      "extra_structures": [],
+      "triangles": 7258
+    },
+    "H06": {
+      "enabled": true,
+      "master_candidate": true,
+      "revision": "H06-ART-REV01",
+      "decision_id": "H06-ART-REV01",
+      "direction_approved": false,
+      "prototype_execution_authorized": true,
+      "visual_homologation": false,
+      "main_promotion_authorized": false,
+      "source_asset": "HAB_213",
+      "visual_path": "res://staging/e06_world/arroio/assets/master_h01_h10_rev01/H06.gltf",
+      "base_snapshot": "4802e8c233f66a4ad377bcc7",
+      "sector": "S01",
+      "building_position": [
+        59.166666666666664,
+        0,
+        130.62466666666666
+      ],
+      "building_yaw": 90,
+      "visual_offset": [
+        -0.0,
+        -0.0,
+        0.029999971389770508
+      ],
+      "gate_original": {
+        "center": [
+          54.01659196064152,
+          137.95812962962964
+        ],
+        "along": [
+          -1.0,
+          0.0
+        ],
+        "inward": [
+          -0.0,
+          -1.0
+        ],
+        "opening_width_m": 3.6,
+        "leaf_state": "open; no interaction script"
+      },
+      "gate_center": [
+        59.166667,
+        137.95812962962964
+      ],
+      "gate_width_m": 3.6,
+      "door_xz": [
+        59.166667,
+        135.7196664568583
+      ],
+      "front_direction": 1,
+      "floor_m": 0.28,
+      "eave_m": 2.9,
+      "ridge_m": 4.2,
+      "body_center_xz": [
+        59.16666666666666,
+        130.79966666666667
+      ],
+      "body_width_m": 10.11999979019165,
+      "body_depth_m": 9.839999580383306,
+      "body_bounds_xz": [
+        54.10666677157083,
+        125.879666876475,
+        64.22666656176249,
+        135.7196664568583
+      ],
+      "candidate_translation_xyz": [
+        0,
+        0,
+        0
+      ],
+      "front_walls_to_recompose": [
+        "WALL_047",
+        "WALL_048"
+      ],
+      "access_path": [
+        [
+          59.166667,
+          137.95812962962964
+        ],
+        [
+          59.166667,
+          135.7196664568583
+        ]
+      ],
+      "access_width_m": 1.9,
+      "wall_color": [
+        0.88,
+        0.83,
+        0.71
+      ],
+      "wood_house": false,
+      "hip_roof": false,
+      "gray_roof": false,
+      "porch_depth_m": 0.65,
+      "porch_width_m": 1.7,
+      "object_moves": [],
+      "extra_structures": [],
+      "triangles": 8028
+    },
+    "H07": {
+      "enabled": true,
+      "master_candidate": true,
+      "revision": "H07-ART-REV01",
+      "decision_id": "H07-ART-REV01",
+      "direction_approved": false,
+      "prototype_execution_authorized": true,
+      "visual_homologation": false,
+      "main_promotion_authorized": false,
+      "source_asset": "HAB_250",
+      "visual_path": "res://staging/e06_world/arroio/assets/master_h01_h10_rev01/H07.gltf",
+      "base_snapshot": "4802e8c233f66a4ad377bcc7",
+      "sector": "S01",
+      "building_position": [
+        369.16666666666663,
+        0,
+        145.83266666666665
+      ],
+      "building_yaw": 270,
+      "visual_offset": [
+        -0.08249998092651367,
+        -0.0,
+        -0.019999980926513672
+      ],
+      "gate_original": {
+        "center": [
+          374.12214859756256,
+          153.1660986168577
+        ],
+        "along": [
+          -1.0,
+          0.0
+        ],
+        "inward": [
+          -0.0,
+          -1.0
+        ],
+        "opening_width_m": 3.6,
+        "leaf_state": "open; no interaction script"
+      },
+      "gate_center": [
+        369.16666666666663,
+        153.1660986168577
+      ],
+      "gate_width_m": 3.6,
+      "door_xz": [
+        369.16666666666663,
+        150.57516649500528
+      ],
+      "front_direction": 1,
+      "floor_m": 0.28,
+      "eave_m": 3.05,
+      "ridge_m": 4.2,
+      "body_center_xz": [
+        369.16666666666663,
+        146.00766666666664
+      ],
+      "body_width_m": 13.05999984741211,
+      "body_depth_m": 9.134999656677252,
+      "body_bounds_xz": [
+        362.6366667429606,
+        141.44016683832803,
+        375.6966665903727,
+        150.57516649500528
+      ],
+      "candidate_translation_xyz": [
+        0,
+        0,
+        0
+      ],
+      "front_walls_to_recompose": [
+        "WALL_057",
+        "WALL_058"
+      ],
+      "access_path": [
+        [
+          369.16666666666663,
+          153.1660986168577
+        ],
+        [
+          369.16666666666663,
+          150.57516649500528
+        ]
+      ],
+      "access_width_m": 1.9,
+      "wall_color": [
+        0.48,
+        0.58,
+        0.46
+      ],
+      "wood_house": true,
+      "hip_roof": false,
+      "gray_roof": true,
+      "porch_depth_m": 0.75,
+      "porch_width_m": 2.2,
+      "object_moves": [
+        {
+          "id": "RAIN_BARREL_H07",
+          "from_xz": [
+            369,
+            141
+          ],
+          "candidate_xz": [
+            369,
+            139.5
+          ],
+          "reason": "Godot shape query confirmed intersection with the new rear foundation; candidate tested within the same yard.",
+          "candidate_only": true
+        }
+      ],
+      "extra_structures": [],
+      "triangles": 16912
+    },
+    "H08": {
+      "enabled": true,
+      "master_candidate": true,
+      "revision": "H08-ART-REV01",
+      "decision_id": "H08-ART-REV01",
+      "direction_approved": false,
+      "prototype_execution_authorized": true,
+      "visual_homologation": false,
+      "main_promotion_authorized": false,
+      "source_asset": "HAB_351",
+      "visual_path": "res://staging/e06_world/arroio/assets/master_h01_h10_rev01/H08.gltf",
+      "base_snapshot": "4802e8c233f66a4ad377bcc7",
+      "sector": "S01",
+      "building_position": [
+        390.8333333333333,
+        0,
+        146.51066666666665
+      ],
+      "building_yaw": 270,
+      "visual_offset": [
+        -0.0,
+        -0.0,
+        -0.20000004768371582
+      ],
+      "gate_original": {
+        "center": [
+          396.4187781280271,
+          153.84407041454259
+        ],
+        "along": [
+          -1.0,
+          0.0
+        ],
+        "inward": [
+          -0.0,
+          -1.0
+        ],
+        "opening_width_m": 3.6,
+        "leaf_state": "open; no interaction script"
+      },
+      "gate_center": [
+        390.8333333333333,
+        153.84407041454259
+      ],
+      "gate_width_m": 3.6,
+      "door_xz": [
+        390.8333333333333,
+        150.61066657129922
+      ],
+      "front_direction": 1,
+      "floor_m": 0.28,
+      "eave_m": 2.9,
+      "ridge_m": 4.2,
+      "body_center_xz": [
+        390.83333333333326,
+        146.68566666666663
+      ],
+      "body_width_m": 12.199999713897705,
+      "body_depth_m": 7.849999809265142,
+      "body_bounds_xz": [
+        384.7333334763844,
+        142.76066676203408,
+        396.9333331902821,
+        150.61066657129922
+      ],
+      "candidate_translation_xyz": [
+        0,
+        0,
+        0
+      ],
+      "front_walls_to_recompose": [
+        "WALL_059",
+        "WALL_060"
+      ],
+      "access_path": [
+        [
+          390.8333333333333,
+          153.84407041454259
+        ],
+        [
+          390.8333333333333,
+          150.61066657129922
+        ]
+      ],
+      "access_width_m": 1.9,
+      "wall_color": [
+        0.3,
+        0.48,
+        0.62
+      ],
+      "wood_house": false,
+      "hip_roof": false,
+      "gray_roof": false,
+      "porch_depth_m": 0.65,
+      "porch_width_m": 1.7,
+      "object_moves": [],
+      "extra_structures": [],
+      "triangles": 7428
+    },
+    "H09": {
+      "enabled": true,
+      "master_candidate": true,
+      "revision": "H09-ART-REV02",
+      "decision_id": "H09-ART-REV02",
+      "direction_approved": false,
+      "prototype_execution_authorized": true,
+      "visual_homologation": false,
+      "main_promotion_authorized": false,
+      "source_asset": "HAB_222",
+      "visual_path": "res://staging/e06_world/arroio/assets/master_h01_h10_rev01/H09.gltf",
+      "base_snapshot": "4802e8c233f66a4ad377bcc7",
+      "sector": "S03",
+      "building_position": [
+        104.5,
+        0,
+        245.26666666666665
+      ],
+      "building_yaw": 90,
+      "visual_offset": [
+        -0.0,
+        -0.0,
+        0.029999971389770508
+      ],
+      "gate_original": {
+        "center": [
+          100.18058237308877,
+          238.64666666666668
+        ],
+        "along": [
+          1.0,
+          0.0
+        ],
+        "inward": [
+          -0.0,
+          1.0
+        ],
+        "opening_width_m": 3.6,
+        "leaf_state": "open; no interaction script"
+      },
+      "gate_center": [
+        104.25,
+        238.64666666666668
+      ],
+      "gate_width_m": 3.6,
+      "door_xz": [
+        104.25,
+        242.096666876475
+      ],
+      "front_direction": -1,
+      "floor_m": 0.28,
+      "eave_m": 2.9,
+      "ridge_m": 4.2,
+      "body_center_xz": [
+        104.5,
+        246.89166666666665
+      ],
+      "body_width_m": 9.140000247955323,
+      "body_depth_m": 9.589999580383306,
+      "body_bounds_xz": [
+        99.92999987602234,
+        242.096666876475,
+        109.07000012397766,
+        251.68666645685832
+      ],
+      "candidate_translation_xyz": [
+        0,
+        0,
+        1.8
+      ],
+      "front_walls_to_recompose": [
+        "WALL_097",
+        "WALL_098"
+      ],
+      "access_path": [
+        [
+          104.25,
+          238.64666666666668
+        ],
+        [
+          104.25,
+          242.096666876475
+        ]
+      ],
+      "access_width_m": 1.9,
+      "wall_color": [
+        0.72,
+        0.46,
+        0.39
+      ],
+      "wood_house": false,
+      "hip_roof": false,
+      "gray_roof": false,
+      "porch_depth_m": 1.0,
+      "porch_width_m": 2.2,
+      "object_moves": [],
+      "extra_structures": [
+        {
+          "id": "H09_GALPAO",
+          "bounds": [
+            95.5,
+            274,
+            100.5,
+            280
+          ],
+          "wood": true,
+          "gray": true,
+          "ridge": 3.35,
+          "eave": 2.35,
+          "lean_to": 1.5
+        }
+      ],
+      "service_path": [
+        [
+          95.0,
+          252.5
+        ],
+        [
+          94.5,
+          260.5
+        ],
+        [
+          95.0,
+          265.5
+        ],
+        [
+          97.5,
+          270.0
+        ],
+        [
+          98.0,
+          272.5
+        ]
+      ],
+      "triangles": 13592
+    },
+    "H10": {
+      "enabled": true,
+      "master_candidate": true,
+      "revision": "H10-ART-REV03",
+      "decision_id": "H10-ART-REV03",
+      "direction_approved": false,
+      "prototype_execution_authorized": true,
+      "visual_homologation": false,
+      "main_promotion_authorized": false,
+      "source_asset": "HAB_189",
+      "visual_path": "res://staging/e06_world/arroio/assets/master_h01_h10_rev01/H10.gltf",
+      "base_snapshot": "4802e8c233f66a4ad377bcc7",
+      "sector": "S03",
+      "building_position": [
+        121.66666666666666,
+        0,
+        244.86666666666667
+      ],
+      "building_yaw": 90,
+      "visual_offset": [
+        -0.0,
+        -0.0,
+        0.6200001239776611
+      ],
+      "gate_original": {
+        "center": [
+          117.08020253393485,
+          239.08333333333331
+        ],
+        "along": [
+          1.0,
+          0.0
+        ],
+        "inward": [
+          -0.0,
+          1.0
+        ],
+        "opening_width_m": 3.6,
+        "leaf_state": "open; no interaction script"
+      },
+      "gate_center": [
+        121.667,
+        239.08333333333331
+      ],
+      "gate_width_m": 3.6,
+      "door_xz": [
+        121.667,
+        242.82166659037279
+      ],
+      "front_direction": -1,
+      "floor_m": 0.28,
+      "eave_m": 2.9,
+      "ridge_m": 4.2,
+      "body_center_xz": [
+        121.66666666666663,
+        246.69166666666672
+      ],
+      "body_width_m": 11.999999904632569,
+      "body_depth_m": 7.740000152587896,
+      "body_bounds_xz": [
+        115.66666671435034,
+        242.82166659037279,
+        127.66666661898292,
+        250.56166674296068
+      ],
+      "candidate_translation_xyz": [
+        0,
+        0,
+        2
+      ],
+      "front_walls_to_recompose": [
+        "WALL_099",
+        "WALL_100"
+      ],
+      "access_path": [
+        [
+          121.667,
+          239.08333333333331
+        ],
+        [
+          121.667,
+          242.82166659037279
+        ]
+      ],
+      "access_width_m": 1.9,
+      "wall_color": [
+        0.68,
+        0.65,
+        0.57
+      ],
+      "wood_house": false,
+      "hip_roof": false,
+      "gray_roof": false,
+      "porch_depth_m": 0.65,
+      "porch_width_m": 1.7,
+      "object_moves": [
+        {
+          "id": "SEATING_H10",
+          "from_xz": [
+            126.0,
+            256.0
+          ],
+          "candidate_xz": [
+            117.0,
+            264.5
+          ],
+          "reason": "liberar área da nova ala e manter área de trabalho próxima ao pátio interno"
+        },
+        {
+          "id": "FLOWER_BORDER_H10",
+          "from_xz": [
+            124.0,
+            262.0
+          ],
+          "candidate_xz": [
+            129.8,
+            265.0
+          ],
+          "reason": "evitar colisão com circulação entre ala e oficina"
+        },
+        {
+          "id": "YARD_H10_decor_011",
+          "from_xz": [
+            122.462,
+            250.14066666666668
+          ],
+          "candidate_xz": [
+            116.9,
+            253.0
+          ],
+          "reason": "conflito com recuo e com encontro das alas"
+        },
+        {
+          "id": "RAIN_BARREL_H10",
+          "from_xz": [
+            130.0,
+            242.0
+          ],
+          "candidate_xz": [
+            130.3,
+            252.1
+          ],
+          "reason": "associar à área de serviço da casa ampliada"
+        }
+      ],
+      "extra_structures": [
+        {
+          "id": "H10_ALA_L",
+          "bounds": [
+            121.8,
+            250.45,
+            129.0,
+            261.0
+          ],
+          "wood": false,
+          "gray": false,
+          "ridge": 3.95,
+          "eave": 2.9,
+          "lean_to": 0
+        },
+        {
+          "id": "H10_OFICINA",
+          "bounds": [
+            115.7,
+            273.0,
+            121.7,
+            280.0
+          ],
+          "wood": true,
+          "gray": true,
+          "ridge": 3.4,
+          "eave": 2.55,
+          "lean_to": 0.8
+        }
+      ],
+      "service_porch_bounds": [
+        119.6,
+        252.8,
+        121.8,
+        257.8
+      ],
+      "service_path": [
+        [
+          114.9,
+          252
+        ],
+        [
+          114.9,
+          261.5
+        ],
+        [
+          114.9,
+          267
+        ],
+        [
+          118.7,
+          270
+        ],
+        [
+          118.7,
+          272.0
+        ]
+      ],
+      "triangles": 24582
+    }
+  }
+}

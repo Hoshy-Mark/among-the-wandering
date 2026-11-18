@@ -1,0 +1,42 @@
+{
+  "push": {
+    "label": "Empurr\u00c3\u00a3o",
+    "duration": 1.15,
+    "impact_time": 0.45,
+    "reach": 0.82,
+    "cone_degrees": 45,
+    "right_pose": "Open",
+    "left_pose": "Open",
+    "effect_id": "push"
+  },
+  "push_armed": {
+    "label": "Empurr\u00c3\u00a3o com arma",
+    "duration": 1.15,
+    "impact_time": 0.45,
+    "reach": 0.82,
+    "cone_degrees": 45,
+    "right_pose": "Cylinder",
+    "left_pose": "Open",
+    "effect_id": "push"
+  },
+  "punch": {
+    "label": "Soco",
+    "duration": 0.95,
+    "impact_time": 0.38,
+    "reach": 0.9,
+    "cone_degrees": 40,
+    "right_pose": "Fist",
+    "left_pose": "Fist",
+    "effect_id": "punch"
+  },
+  "strike_onehand": {
+    "label": "Golpe com bast\u00c3\u00a3o",
+    "duration": 1.25,
+    "impact_time": 0.53,
+    "reach": 1.05,
+    "cone_degrees": 45,
+    "right_pose": "Cylinder",
+    "left_pose": "Fist",
+    "effect_id": "strike_onehand"
+  }
+}

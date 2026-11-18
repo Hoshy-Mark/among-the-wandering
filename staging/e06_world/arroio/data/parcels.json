@@ -1,0 +1,1842 @@
+[
+  {
+    "type": "Feature",
+    "id": "H01",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            44.0,
+            147.82973125419332
+          ],
+          [
+            44.0,
+            185.33333333333331
+          ],
+          [
+            20.0,
+            185.33333333333331
+          ],
+          [
+            20.0,
+            147.82973125419332
+          ],
+          [
+            44.0,
+            147.82973125419332
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S01",
+      "kind": "residencia",
+      "via": "V01",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H02",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            70.33333333333333,
+            148.03596508641974
+          ],
+          [
+            70.33333333333333,
+            185.33333333333331
+          ],
+          [
+            44.0,
+            185.33333333333331
+          ],
+          [
+            44.0,
+            148.03596508641974
+          ],
+          [
+            70.33333333333333,
+            148.03596508641974
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S01",
+      "kind": "residencia",
+      "via": "V01",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "C01",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            124.33333333333333,
+            147.4174149048575
+          ],
+          [
+            124.33333333333333,
+            189.0
+          ],
+          [
+            106.0,
+            189.0
+          ],
+          [
+            106.0,
+            147.4174149048575
+          ],
+          [
+            124.33333333333333,
+            147.4174149048575
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S01",
+      "kind": "comercio_reserva",
+      "via": "V01",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "C02",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            148.83333333333331,
+            147.8864452706733
+          ],
+          [
+            148.83333333333331,
+            189.0
+          ],
+          [
+            124.33333333333333,
+            189.0
+          ],
+          [
+            124.33333333333333,
+            147.8864452706733
+          ],
+          [
+            148.83333333333331,
+            147.8864452706733
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S01",
+      "kind": "comercio_reserva",
+      "via": "V01",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "C03",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            169.0,
+            148.9036378408557
+          ],
+          [
+            169.0,
+            189.0
+          ],
+          [
+            148.83333333333331,
+            189.0
+          ],
+          [
+            148.83333333333331,
+            148.9036378408557
+          ],
+          [
+            169.0,
+            148.9036378408557
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S01",
+      "kind": "comercio_reserva",
+      "via": "V01",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "C04",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            185.66666666666666,
+            149.90656491558542
+          ],
+          [
+            185.66666666666666,
+            189.0
+          ],
+          [
+            169.0,
+            189.0
+          ],
+          [
+            169.0,
+            149.90656491558542
+          ],
+          [
+            185.66666666666666,
+            149.90656491558542
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S01",
+      "kind": "comercio_reserva",
+      "via": "V01",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H03",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            266.16666666666663,
+            154.36372731981317
+          ],
+          [
+            266.16666666666663,
+            194.33333333333331
+          ],
+          [
+            242.66666666666666,
+            194.33333333333331
+          ],
+          [
+            242.66666666666666,
+            154.36372731981317
+          ],
+          [
+            266.16666666666663,
+            154.36372731981317
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S01",
+      "kind": "residencia",
+      "via": "V01",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H04",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            289.3333333333333,
+            156.0590100766853
+          ],
+          [
+            289.3333333333333,
+            194.33333333333331
+          ],
+          [
+            266.16666666666663,
+            194.33333333333331
+          ],
+          [
+            266.16666666666663,
+            156.0590100766853
+          ],
+          [
+            289.3333333333333,
+            156.0590100766853
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S01",
+      "kind": "residencia",
+      "via": "V01",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H05",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            45.5,
+            103.5
+          ],
+          [
+            45.5,
+            137.766274286662
+          ],
+          [
+            20.0,
+            137.766274286662
+          ],
+          [
+            20.0,
+            103.5
+          ],
+          [
+            45.5,
+            103.5
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S01",
+      "kind": "residencia",
+      "via": "V01",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H06",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            71.33333333333333,
+            103.5
+          ],
+          [
+            71.33333333333333,
+            137.95812962962964
+          ],
+          [
+            45.5,
+            137.95812962962964
+          ],
+          [
+            45.5,
+            103.5
+          ],
+          [
+            71.33333333333333,
+            103.5
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S01",
+      "kind": "residencia",
+      "via": "V01",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "C05",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            134.0,
+            104.5
+          ],
+          [
+            134.0,
+            137.46245488956518
+          ],
+          [
+            109.0,
+            137.46245488956518
+          ],
+          [
+            109.0,
+            104.5
+          ],
+          [
+            134.0,
+            104.5
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S01",
+      "kind": "comercio_reserva",
+      "via": "V01",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "C06",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            220.0,
+            109.33333333333333
+          ],
+          [
+            220.0,
+            141.79100116934538
+          ],
+          [
+            198.0,
+            141.79100116934538
+          ],
+          [
+            198.0,
+            109.33333333333333
+          ],
+          [
+            220.0,
+            109.33333333333333
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S01",
+      "kind": "comercio_reserva",
+      "via": "V01",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H07",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            380.8333333333333,
+            116.33333333333333
+          ],
+          [
+            380.8333333333333,
+            153.1660986168577
+          ],
+          [
+            358.66666666666663,
+            153.1660986168577
+          ],
+          [
+            358.66666666666663,
+            116.33333333333333
+          ],
+          [
+            380.8333333333333,
+            116.33333333333333
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S01",
+      "kind": "residencia",
+      "via": "V01",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H08",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            399.66666666666663,
+            116.33333333333333
+          ],
+          [
+            399.66666666666663,
+            153.84407041454259
+          ],
+          [
+            380.8333333333333,
+            153.84407041454259
+          ],
+          [
+            380.8333333333333,
+            116.33333333333333
+          ],
+          [
+            399.66666666666663,
+            116.33333333333333
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S01",
+      "kind": "residencia",
+      "via": "V01",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H09",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.66666666666666,
+            238.64666666666668
+          ],
+          [
+            113.66666666666666,
+            293.66666666666663
+          ],
+          [
+            92.66666666666666,
+            293.66666666666663
+          ],
+          [
+            92.66666666666666,
+            238.64666666666668
+          ],
+          [
+            113.66666666666666,
+            238.64666666666668
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S03",
+      "kind": "residencia",
+      "via": "V03",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H10",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            132.33333333333331,
+            239.08333333333331
+          ],
+          [
+            132.33333333333331,
+            293.66666666666663
+          ],
+          [
+            113.66666666666666,
+            293.66666666666663
+          ],
+          [
+            113.66666666666666,
+            239.08333333333331
+          ],
+          [
+            132.33333333333331,
+            239.08333333333331
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S03",
+      "kind": "residencia",
+      "via": "V03",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H11",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            156.33333333333331,
+            239.58666666666664
+          ],
+          [
+            156.33333333333331,
+            293.66666666666663
+          ],
+          [
+            132.33333333333331,
+            293.66666666666663
+          ],
+          [
+            132.33333333333331,
+            239.58666666666664
+          ],
+          [
+            156.33333333333331,
+            239.58666666666664
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S03",
+      "kind": "residencia",
+      "via": "V03",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H12",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            193.83333333333331,
+            240.20333333333332
+          ],
+          [
+            193.83333333333331,
+            293.66666666666663
+          ],
+          [
+            156.33333333333331,
+            293.66666666666663
+          ],
+          [
+            156.33333333333331,
+            240.20333333333332
+          ],
+          [
+            193.83333333333331,
+            240.20333333333332
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S03",
+      "kind": "residencia",
+      "via": "V03",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H13",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            228.66666666666666,
+            242.01
+          ],
+          [
+            228.66666666666666,
+            293.66666666666663
+          ],
+          [
+            193.83333333333331,
+            293.66666666666663
+          ],
+          [
+            193.83333333333331,
+            242.01
+          ],
+          [
+            228.66666666666666,
+            242.01
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S03",
+      "kind": "residencia",
+      "via": "V03",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H14",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            255.0,
+            242.77666666666667
+          ],
+          [
+            255.0,
+            293.66666666666663
+          ],
+          [
+            228.66666666666666,
+            293.66666666666663
+          ],
+          [
+            228.66666666666666,
+            242.77666666666667
+          ],
+          [
+            255.0,
+            242.77666666666667
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S03",
+      "kind": "residencia",
+      "via": "V03",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H15",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            296.3333333333333,
+            242.0933333333333
+          ],
+          [
+            296.3333333333333,
+            293.66666666666663
+          ],
+          [
+            255.0,
+            293.66666666666663
+          ],
+          [
+            255.0,
+            242.0933333333333
+          ],
+          [
+            296.3333333333333,
+            242.0933333333333
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S03",
+      "kind": "residencia",
+      "via": "V03",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H16",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            114.0,
+            189.0
+          ],
+          [
+            114.0,
+            230.20333333333332
+          ],
+          [
+            92.66666666666666,
+            230.20333333333332
+          ],
+          [
+            92.66666666666666,
+            189.0
+          ],
+          [
+            114.0,
+            189.0
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S03",
+      "kind": "residencia",
+      "via": "V03",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H17",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            133.33333333333331,
+            189.0
+          ],
+          [
+            133.33333333333331,
+            230.65333333333334
+          ],
+          [
+            114.0,
+            230.65333333333334
+          ],
+          [
+            114.0,
+            189.0
+          ],
+          [
+            133.33333333333331,
+            189.0
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S03",
+      "kind": "residencia",
+      "via": "V03",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H18",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            158.0,
+            189.0
+          ],
+          [
+            158.0,
+            231.17666666666665
+          ],
+          [
+            133.33333333333331,
+            231.17666666666665
+          ],
+          [
+            133.33333333333331,
+            189.0
+          ],
+          [
+            158.0,
+            189.0
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S03",
+      "kind": "residencia",
+      "via": "V03",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H19",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            182.66666666666666,
+            189.0
+          ],
+          [
+            182.66666666666666,
+            231.77666666666667
+          ],
+          [
+            158.0,
+            231.77666666666667
+          ],
+          [
+            158.0,
+            189.0
+          ],
+          [
+            182.66666666666666,
+            189.0
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S03",
+      "kind": "residencia",
+      "via": "V03",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H20",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            224.33333333333331,
+            194.33333333333331
+          ],
+          [
+            224.33333333333331,
+            233.47666666666663
+          ],
+          [
+            206.66666666666666,
+            233.47666666666663
+          ],
+          [
+            206.66666666666666,
+            194.33333333333331
+          ],
+          [
+            224.33333333333331,
+            194.33333333333331
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S03",
+      "kind": "residencia",
+      "via": "V03",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H21",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            252.66666666666666,
+            194.33333333333331
+          ],
+          [
+            252.66666666666666,
+            234.37666666666667
+          ],
+          [
+            224.33333333333331,
+            234.37666666666667
+          ],
+          [
+            224.33333333333331,
+            194.33333333333331
+          ],
+          [
+            252.66666666666666,
+            194.33333333333331
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S03",
+      "kind": "residencia",
+      "via": "V03",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H22",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            279.3333333333333,
+            194.33333333333331
+          ],
+          [
+            279.3333333333333,
+            233.64333333333332
+          ],
+          [
+            252.66666666666666,
+            233.64333333333332
+          ],
+          [
+            252.66666666666666,
+            194.33333333333331
+          ],
+          [
+            279.3333333333333,
+            194.33333333333331
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S03",
+      "kind": "residencia",
+      "via": "V03",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H23",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            52.0,
+            70.87766666666666
+          ],
+          [
+            52.0,
+            103.5
+          ],
+          [
+            26.666666666666664,
+            103.5
+          ],
+          [
+            26.666666666666664,
+            70.87766666666666
+          ],
+          [
+            52.0,
+            70.87766666666666
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S04",
+      "kind": "residencia",
+      "via": "V07",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H24",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            76.0,
+            70.71833333333332
+          ],
+          [
+            76.0,
+            103.5
+          ],
+          [
+            52.0,
+            103.5
+          ],
+          [
+            52.0,
+            70.71833333333332
+          ],
+          [
+            76.0,
+            70.71833333333332
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S04",
+      "kind": "residencia",
+      "via": "V07",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H25",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            120.5,
+            70.059
+          ],
+          [
+            120.5,
+            104.5
+          ],
+          [
+            97.66666666666666,
+            104.5
+          ],
+          [
+            97.66666666666666,
+            70.059
+          ],
+          [
+            120.5,
+            70.059
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S04",
+      "kind": "residencia",
+      "via": "V07",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H26",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            144.0,
+            69.75966666666666
+          ],
+          [
+            144.0,
+            104.5
+          ],
+          [
+            120.5,
+            104.5
+          ],
+          [
+            120.5,
+            69.75966666666666
+          ],
+          [
+            144.0,
+            69.75966666666666
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S04",
+      "kind": "residencia",
+      "via": "V07",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H27",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            226.66666666666666,
+            75.10300000000001
+          ],
+          [
+            226.66666666666666,
+            109.33333333333333
+          ],
+          [
+            201.66666666666666,
+            109.33333333333333
+          ],
+          [
+            201.66666666666666,
+            75.10300000000001
+          ],
+          [
+            226.66666666666666,
+            75.10300000000001
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S04",
+      "kind": "residencia",
+      "via": "V07",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H28",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            52.0,
+            29.0
+          ],
+          [
+            52.0,
+            60.876666666666665
+          ],
+          [
+            27.0,
+            60.876666666666665
+          ],
+          [
+            27.0,
+            29.0
+          ],
+          [
+            52.0,
+            29.0
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S04",
+      "kind": "residencia",
+      "via": "V07",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H29",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            88.0,
+            29.0
+          ],
+          [
+            88.0,
+            60.714
+          ],
+          [
+            52.0,
+            60.714
+          ],
+          [
+            52.0,
+            29.0
+          ],
+          [
+            88.0,
+            29.0
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S04",
+      "kind": "residencia",
+      "via": "V07",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H30",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            122.66666666666666,
+            29.0
+          ],
+          [
+            122.66666666666666,
+            60.036
+          ],
+          [
+            88.0,
+            60.036
+          ],
+          [
+            88.0,
+            29.0
+          ],
+          [
+            122.66666666666666,
+            29.0
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S04",
+      "kind": "residencia",
+      "via": "V07",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H31",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            168.33333333333331,
+            29.0
+          ],
+          [
+            168.33333333333331,
+            59.846666666666664
+          ],
+          [
+            122.66666666666666,
+            59.846666666666664
+          ],
+          [
+            122.66666666666666,
+            29.0
+          ],
+          [
+            168.33333333333331,
+            29.0
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S04",
+      "kind": "residencia",
+      "via": "V07",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H32",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            216.66666666666666,
+            29.0
+          ],
+          [
+            216.66666666666666,
+            63.538999999999994
+          ],
+          [
+            168.33333333333331,
+            63.538999999999994
+          ],
+          [
+            168.33333333333331,
+            29.0
+          ],
+          [
+            216.66666666666666,
+            29.0
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S04",
+      "kind": "residencia",
+      "via": "V07",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H33",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            248.83333333333331,
+            115.0
+          ],
+          [
+            248.83333333333331,
+            142.0
+          ],
+          [
+            232.0,
+            142.0
+          ],
+          [
+            232.0,
+            115.0
+          ],
+          [
+            248.83333333333331,
+            115.0
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S05",
+      "kind": "residencia",
+      "via": "V09",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H34",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            269.5,
+            110.66666666666666
+          ],
+          [
+            269.5,
+            147.66666666666666
+          ],
+          [
+            248.83333333333331,
+            147.66666666666666
+          ],
+          [
+            248.83333333333331,
+            110.66666666666666
+          ],
+          [
+            269.5,
+            110.66666666666666
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S05",
+      "kind": "residencia",
+      "via": "V09",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H35",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            290.8333333333333,
+            112.66666666666666
+          ],
+          [
+            290.8333333333333,
+            147.66666666666666
+          ],
+          [
+            269.5,
+            147.66666666666666
+          ],
+          [
+            269.5,
+            112.66666666666666
+          ],
+          [
+            290.8333333333333,
+            112.66666666666666
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S05",
+      "kind": "residencia",
+      "via": "V09",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H36",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            313.3333333333333,
+            116.66666666666666
+          ],
+          [
+            313.3333333333333,
+            147.66666666666666
+          ],
+          [
+            290.8333333333333,
+            147.66666666666666
+          ],
+          [
+            290.8333333333333,
+            116.66666666666666
+          ],
+          [
+            313.3333333333333,
+            116.66666666666666
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S05",
+      "kind": "residencia",
+      "via": "V09",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H37",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            339.0,
+            248.33333333333331
+          ],
+          [
+            339.0,
+            293.66666666666663
+          ],
+          [
+            296.3333333333333,
+            293.66666666666663
+          ],
+          [
+            296.3333333333333,
+            248.33333333333331
+          ],
+          [
+            339.0,
+            248.33333333333331
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S06",
+      "kind": "residencia",
+      "via": "V10",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H38",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            368.66666666666663,
+            248.66666666666666
+          ],
+          [
+            368.66666666666663,
+            293.66666666666663
+          ],
+          [
+            339.0,
+            293.66666666666663
+          ],
+          [
+            339.0,
+            248.66666666666666
+          ],
+          [
+            368.66666666666663,
+            248.66666666666666
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S06",
+      "kind": "residencia",
+      "via": "V10",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H39",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            404.66666666666663,
+            248.0
+          ],
+          [
+            404.66666666666663,
+            293.66666666666663
+          ],
+          [
+            368.66666666666663,
+            293.66666666666663
+          ],
+          [
+            368.66666666666663,
+            248.0
+          ],
+          [
+            404.66666666666663,
+            248.0
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S06",
+      "kind": "residencia",
+      "via": "V10",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "H40",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            412.66666666666663,
+            177.33333333333331
+          ],
+          [
+            412.66666666666663,
+            222.33333333333331
+          ],
+          [
+            374.0,
+            222.33333333333331
+          ],
+          [
+            374.0,
+            177.33333333333331
+          ],
+          [
+            412.66666666666663,
+            177.33333333333331
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "class": "parcel",
+      "setor": "S06",
+      "kind": "residencia",
+      "via": "V11",
+      "approved_concept": true,
+      "metric_status": "PROPOSTA",
+      "boundary_status": "shared-boundary layout requested by user"
+    }
+  }
+]

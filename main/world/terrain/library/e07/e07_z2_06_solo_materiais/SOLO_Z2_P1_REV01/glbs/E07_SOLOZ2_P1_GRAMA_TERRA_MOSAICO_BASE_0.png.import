@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bdr5ow7ogrfxn"
+path.s3tc="res://.godot/imported/E07_SOLOZ2_P1_GRAMA_TERRA_MOSAICO_BASE_0.png-124563154158e6bf515b2e55f91b6c25.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "61119eee380d9c8e81d2e23ea202daab"
+}
+
+[deps]
+
+source_file="res://main/world/terrain/library/e07/e07_z2_06_solo_materiais/SOLO_Z2_P1_REV01/glbs/E07_SOLOZ2_P1_GRAMA_TERRA_MOSAICO_BASE_0.png"
+dest_files=["res://.godot/imported/E07_SOLOZ2_P1_GRAMA_TERRA_MOSAICO_BASE_0.png-124563154158e6bf515b2e55f91b6c25.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

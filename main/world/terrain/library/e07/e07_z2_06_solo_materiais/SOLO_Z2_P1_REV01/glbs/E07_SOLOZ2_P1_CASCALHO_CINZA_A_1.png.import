@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://br3hxt4l6igpa"
+path.s3tc="res://.godot/imported/E07_SOLOZ2_P1_CASCALHO_CINZA_A_1.png-0138ad415f2ba843ce006f9c43959194.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "c9d8187f236a5a5e92d05c311b3ab3c6"
+}
+
+[deps]
+
+source_file="res://main/world/terrain/library/e07/e07_z2_06_solo_materiais/SOLO_Z2_P1_REV01/glbs/E07_SOLOZ2_P1_CASCALHO_CINZA_A_1.png"
+dest_files=["res://.godot/imported/E07_SOLOZ2_P1_CASCALHO_CINZA_A_1.png-0138ad415f2ba843ce006f9c43959194.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=1
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=1
+roughness/src_normal="res://main/world/terrain/library/e07/e07_z2_06_solo_materiais/SOLO_Z2_P1_REV01/glbs/E07_SOLOZ2_P1_CASCALHO_CINZA_A_1.png"
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

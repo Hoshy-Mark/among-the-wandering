@@ -1,0 +1,6 @@
+{
+  "eat": {"label": "Comer", "duration": 3.2, "effect_time": 1.45, "grip": "Box"},
+  "drink": {"label": "Beber", "duration": 3.5, "effect_time": 1.8, "grip": "Cylinder"},
+  "medicine": {"label": "Tomar remédio", "duration": 3.0, "effect_time": 1.3, "grip": "Pinch"},
+  "bandage": {"label": "Curativo no braço", "duration": 4.0, "effect_time": 2.35, "grip": "Pinch"}
+}

@@ -1,0 +1,84 @@
+{
+  "schema": "e02.visemes.r23.v1",
+  "poses": [
+    {
+      "id": "neutro",
+      "label": "Repouso",
+      "weights": {
+        "Selar_Labios": 1
+      }
+    },
+    {
+      "id": "MBP",
+      "label": "M / B / P",
+      "weights": {
+        "Fala_MBP": 1
+      }
+    },
+    {
+      "id": "FV",
+      "label": "F / V",
+      "weights": {
+        "Fala_FV": 1
+      }
+    },
+    {
+      "id": "A",
+      "label": "A",
+      "weights": {
+        "Fala_A": 1
+      }
+    },
+    {
+      "id": "E",
+      "label": "E",
+      "weights": {
+        "Fala_E": 1
+      }
+    },
+    {
+      "id": "I",
+      "label": "I",
+      "weights": {
+        "Fala_I": 1
+      }
+    },
+    {
+      "id": "O",
+      "label": "O",
+      "weights": {
+        "Fala_O": 1
+      }
+    },
+    {
+      "id": "U",
+      "label": "U",
+      "weights": {
+        "Fala_U": 1
+      }
+    }
+  ],
+  "sequence": [
+    "neutro",
+    "MBP",
+    "A",
+    "FV",
+    "E",
+    "I",
+    "O",
+    "U",
+    "neutro"
+  ],
+  "controls": [
+    "Mandibula_Abrir",
+    "Selar_Labios",
+    "Fala_MBP",
+    "Fala_FV",
+    "Fala_A",
+    "Fala_E",
+    "Fala_I",
+    "Fala_O",
+    "Fala_U"
+  ],
+  "mixing": "Alvos completos; misturar pesos normalizados de poses, sem somar mandibula por fora."
+}

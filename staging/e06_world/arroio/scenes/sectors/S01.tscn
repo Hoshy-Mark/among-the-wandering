@@ -1,0 +1,191 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://staging/e06_world/arroio/scripts/building.gd" id="1"]
+[ext_resource type="PackedScene" path="res://main/world/structures/residential/houses/z2_candidates/HAB_222/HAB_222_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf" id="2"]
+[ext_resource type="PackedScene" path="res://main/world/structures/residential/houses/z2_candidates/HAB_351/HAB_351_Z2_R15_SHARED_PBR_CANDIDATO.gltf" id="3"]
+[ext_resource type="PackedScene" path="res://main/world/structures/residential/houses/z2_candidates/HAB_191/HAB_191_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf" id="4"]
+[ext_resource type="PackedScene" path="res://main/world/structures/residential/houses/z2_candidates/HAB_249/HAB_249_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf" id="5"]
+[ext_resource type="PackedScene" path="res://main/world/structures/residential/houses/z2_candidates/HAB_189/HAB_189_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf" id="6"]
+[ext_resource type="PackedScene" path="res://main/world/structures/residential/houses/z2_candidates/HAB_213/HAB_213_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf" id="7"]
+[ext_resource type="PackedScene" path="res://main/world/structures/residential/houses/z2_candidates/HAB_250/HAB_250_Z2_R14_ALBEDO_OTIM_CANDIDATO.gltf" id="8"]
+
+[node name="S01" type="Node3D"]
+metadata/sector_id = "S01"
+
+[node name="H01" type="Node3D" parent="."]
+position = Vector3(31.3333333333, 0, 155.163333333)
+rotation_degrees = Vector3(0, 90, 0)
+script = ExtResource("1")
+building_id = "H01"
+metadata/urban_status = "approved_concept_metric_proposed"
+metadata/asset_status = "candidate_requires_facade_and_visual_approval"
+
+[node name="Visual" parent="H01" instance=ExtResource("2")]
+position = Vector3(-0, -0, 0.0299999714)
+
+[node name="IntegrationAnchors" type="Node3D" parent="H01"]
+metadata/status = "Door, loot and interior anchors pending authored integration; no inferred entrance"
+
+[node name="H02" type="Node3D" parent="."]
+position = Vector3(57.8333333333, 0, 155.435964943)
+rotation_degrees = Vector3(0, 180, 0)
+script = ExtResource("1")
+building_id = "H02"
+metadata/urban_status = "approved_concept_metric_proposed"
+metadata/asset_status = "candidate_requires_facade_and_visual_approval"
+
+[node name="Visual" parent="H02" instance=ExtResource("3")]
+position = Vector3(-0, -0, -0.200000048)
+
+[node name="IntegrationAnchors" type="Node3D" parent="H02"]
+metadata/status = "Door, loot and interior anchors pending authored integration; no inferred entrance"
+
+[node name="H03" type="Node3D" parent="."]
+position = Vector3(253.833333333, 0, 161.697333333)
+rotation_degrees = Vector3(0, 90, 0)
+script = ExtResource("1")
+building_id = "H03"
+metadata/urban_status = "approved_concept_metric_proposed"
+metadata/asset_status = "candidate_requires_facade_and_visual_approval"
+
+[node name="Visual" parent="H03" instance=ExtResource("4")]
+position = Vector3(-0, -0, 0.620000124)
+
+[node name="IntegrationAnchors" type="Node3D" parent="H03"]
+metadata/status = "Door, loot and interior anchors pending authored integration; no inferred entrance"
+
+[node name="H04" type="Node3D" parent="."]
+position = Vector3(278.333333333, 0, 163.392666667)
+rotation_degrees = Vector3(0, 90, 0)
+script = ExtResource("1")
+building_id = "H04"
+metadata/urban_status = "approved_concept_metric_proposed"
+metadata/asset_status = "candidate_requires_facade_and_visual_approval"
+
+[node name="Visual" parent="H04" instance=ExtResource("5")]
+position = Vector3(-0, -0, 0.619999886)
+
+[node name="IntegrationAnchors" type="Node3D" parent="H04"]
+metadata/status = "Door, loot and interior anchors pending authored integration; no inferred entrance"
+
+[node name="H05" type="Node3D" parent="."]
+position = Vector3(32, 0, 130.432666667)
+rotation_degrees = Vector3(0, 270, 0)
+script = ExtResource("1")
+building_id = "H05"
+metadata/urban_status = "approved_concept_metric_proposed"
+metadata/asset_status = "candidate_requires_facade_and_visual_approval"
+
+[node name="Visual" parent="H05" instance=ExtResource("6")]
+position = Vector3(-0, -0, 0.620000124)
+
+[node name="IntegrationAnchors" type="Node3D" parent="H05"]
+metadata/status = "Door, loot and interior anchors pending authored integration; no inferred entrance"
+
+[node name="H06" type="Node3D" parent="."]
+position = Vector3(59.1666666667, 0, 130.624666667)
+rotation_degrees = Vector3(0, 90, 0)
+script = ExtResource("1")
+building_id = "H06"
+metadata/urban_status = "approved_concept_metric_proposed"
+metadata/asset_status = "candidate_requires_facade_and_visual_approval"
+
+[node name="Visual" parent="H06" instance=ExtResource("7")]
+position = Vector3(-0, -0, 0.0299999714)
+
+[node name="IntegrationAnchors" type="Node3D" parent="H06"]
+metadata/status = "Door, loot and interior anchors pending authored integration; no inferred entrance"
+
+[node name="H07" type="Node3D" parent="."]
+position = Vector3(369.166666667, 0, 145.832666667)
+rotation_degrees = Vector3(0, 270, 0)
+script = ExtResource("1")
+building_id = "H07"
+metadata/urban_status = "approved_concept_metric_proposed"
+metadata/asset_status = "candidate_requires_facade_and_visual_approval"
+
+[node name="Visual" parent="H07" instance=ExtResource("8")]
+position = Vector3(-0.0824999809, -0, -0.0199999809)
+
+[node name="IntegrationAnchors" type="Node3D" parent="H07"]
+metadata/status = "Door, loot and interior anchors pending authored integration; no inferred entrance"
+
+[node name="H08" type="Node3D" parent="."]
+position = Vector3(390.833333333, 0, 146.510666667)
+rotation_degrees = Vector3(0, 270, 0)
+script = ExtResource("1")
+building_id = "H08"
+metadata/urban_status = "approved_concept_metric_proposed"
+metadata/asset_status = "candidate_requires_facade_and_visual_approval"
+
+[node name="Visual" parent="H08" instance=ExtResource("3")]
+position = Vector3(-0, -0, -0.200000048)
+
+[node name="IntegrationAnchors" type="Node3D" parent="H08"]
+metadata/status = "Door, loot and interior anchors pending authored integration; no inferred entrance"
+
+[node name="C01" type="Node3D" parent="."]
+position = Vector3(114.333333333, 0, 153.417333333)
+rotation_degrees = Vector3(0, 90, 0)
+script = ExtResource("1")
+building_id = "C01"
+metadata/urban_status = "approved_concept_metric_proposed"
+metadata/asset_status = "pending_visual_selection"
+
+[node name="IntegrationAnchors" type="Node3D" parent="C01"]
+metadata/status = "Door, loot and interior anchors pending authored integration; no inferred entrance"
+
+[node name="C02" type="Node3D" parent="."]
+position = Vector3(134.333333333, 0, 153.886666667)
+rotation_degrees = Vector3(0, 90, 0)
+script = ExtResource("1")
+building_id = "C02"
+metadata/urban_status = "approved_concept_metric_proposed"
+metadata/asset_status = "pending_visual_selection"
+
+[node name="IntegrationAnchors" type="Node3D" parent="C02"]
+metadata/status = "Door, loot and interior anchors pending authored integration; no inferred entrance"
+
+[node name="C03" type="Node3D" parent="."]
+position = Vector3(161.333333333, 0, 154.903333333)
+rotation_degrees = Vector3(0, 90, 0)
+script = ExtResource("1")
+building_id = "C03"
+metadata/urban_status = "approved_concept_metric_proposed"
+metadata/asset_status = "pending_visual_selection"
+
+[node name="IntegrationAnchors" type="Node3D" parent="C03"]
+metadata/status = "Door, loot and interior anchors pending authored integration; no inferred entrance"
+
+[node name="C04" type="Node3D" parent="."]
+position = Vector3(178, 0, 155.906666667)
+rotation_degrees = Vector3(0, 90, 0)
+script = ExtResource("1")
+building_id = "C04"
+metadata/urban_status = "approved_concept_metric_proposed"
+metadata/asset_status = "pending_visual_selection"
+
+[node name="IntegrationAnchors" type="Node3D" parent="C04"]
+metadata/status = "Door, loot and interior anchors pending authored integration; no inferred entrance"
+
+[node name="C05" type="Node3D" parent="."]
+position = Vector3(121.5, 0, 131.462666667)
+rotation_degrees = Vector3(0, 270, 0)
+script = ExtResource("1")
+building_id = "C05"
+metadata/urban_status = "approved_concept_metric_proposed"
+metadata/asset_status = "pending_visual_selection"
+
+[node name="IntegrationAnchors" type="Node3D" parent="C05"]
+metadata/status = "Door, loot and interior anchors pending authored integration; no inferred entrance"
+
+[node name="C06" type="Node3D" parent="."]
+position = Vector3(209, 0, 135.791333333)
+rotation_degrees = Vector3(0, 270, 0)
+script = ExtResource("1")
+building_id = "C06"
+metadata/urban_status = "approved_concept_metric_proposed"
+metadata/asset_status = "pending_visual_selection"
+
+[node name="IntegrationAnchors" type="Node3D" parent="C06"]
+metadata/status = "Door, loot and interior anchors pending authored integration; no inferred entrance"

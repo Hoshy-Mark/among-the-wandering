@@ -1,0 +1,1284 @@
+{
+  "lots": {
+    "H01": {
+      "revision": "REV04B_ESCOPADA",
+      "source_glb_sha256": "c89b7fda1a28d004a8b9783c60dc8c8215982ee36157af02b58d3e7d5fd8699e",
+      "exterior_sha256": "76037dc858f1e229cef9cc21ccf1d6163ba68ec12d3f952cc9efcbdd9e9af123",
+      "scene": "res://staging/e06_world/arroio/scenes/interiors/H01.tscn",
+      "model": "res://staging/e06_world/arroio/assets/interiors_h01_h05_rev01/H01.gltf",
+      "floor_local_y": 0.2549999952316284,
+      "interior_bounds": [
+        [
+          -4.519999980926514,
+          0.24300000071525574,
+          -4.5
+        ],
+        [
+          4.869999885559082,
+          2.7119998931884766,
+          4.539999961853027
+        ]
+      ],
+      "rooms": [
+        {
+          "id": "H01_ROOM_01",
+          "source_name": "BASE_FLOOR_SALA_A__001",
+          "polygon_xz": [
+            [
+              1.0499999523162842,
+              -4.5
+            ],
+            [
+              1.0499999523162842,
+              -0.5600000023841858
+            ],
+            [
+              4.869999885559082,
+              -0.5600000023841858
+            ],
+            [
+              4.869999885559082,
+              -4.5
+            ]
+          ],
+          "area_m2": 15.050799727869034,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H01_ROOM_02",
+          "source_name": "BASE_FLOOR_SALA_B__002",
+          "polygon_xz": [
+            [
+              2.319999933242798,
+              -0.5600000023841858
+            ],
+            [
+              2.319999933242798,
+              0.5799999833106995
+            ],
+            [
+              4.869999885559082,
+              0.5799999833106995
+            ],
+            [
+              4.869999885559082,
+              -0.5600000023841858
+            ]
+          ],
+          "area_m2": 2.906999909162522,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H01_ROOM_03",
+          "source_name": "BASE_FLOOR_Q1__003",
+          "polygon_xz": [
+            [
+              1.0499999523162842,
+              0.6899999976158142
+            ],
+            [
+              1.0499999523162842,
+              4.440000057220459
+            ],
+            [
+              4.869999885559082,
+              4.440000057220459
+            ],
+            [
+              4.869999885559082,
+              0.6899999976158142
+            ]
+          ],
+          "area_m2": 14.324999977350231,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H01_ROOM_04",
+          "source_name": "BASE_FLOOR_COZINHA__004",
+          "polygon_xz": [
+            [
+              -4.519999980926514,
+              -4.5
+            ],
+            [
+              -4.519999980926514,
+              -0.6399999856948853
+            ],
+            [
+              0.9300000071525574,
+              -0.6399999856948853
+            ],
+            [
+              0.9300000071525574,
+              -4.5
+            ]
+          ],
+          "area_m2": 21.03700003194809,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H01_ROOM_05",
+          "source_name": "BASE_FLOOR_HALL__005",
+          "polygon_xz": [
+            [
+              -3.109999895095825,
+              -0.5299999713897705
+            ],
+            [
+              -3.109999895095825,
+              0.5699999928474426
+            ],
+            [
+              2.319999933242798,
+              0.5699999928474426
+            ],
+            [
+              2.319999933242798,
+              -0.5299999713897705
+            ]
+          ],
+          "area_m2": 5.972999616980559,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H01_ROOM_06",
+          "source_name": "BASE_FLOOR_ANTECAMARA__006",
+          "polygon_xz": [
+            [
+              -1.600000023841858,
+              0.6800000071525574
+            ],
+            [
+              -1.600000023841858,
+              2.299999952316284
+            ],
+            [
+              0.9300000071525574,
+              2.299999952316284
+            ],
+            [
+              0.9300000071525574,
+              0.6800000071525574
+            ]
+          ],
+          "area_m2": 4.09859991147518,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H01_ROOM_07",
+          "source_name": "BASE_FLOOR_BANHEIRO__007",
+          "polygon_xz": [
+            [
+              -1.600000023841858,
+              2.4100000858306885
+            ],
+            [
+              -1.600000023841858,
+              4.440000057220459
+            ],
+            [
+              0.9300000071525574,
+              4.440000057220459
+            ],
+            [
+              0.9300000071525574,
+              2.4100000858306885
+            ]
+          ],
+          "area_m2": 5.1358999905347815,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H01_ROOM_08",
+          "source_name": "BASE_FLOOR_Q2__008",
+          "polygon_xz": [
+            [
+              -4.519999980926514,
+              0.5199999809265137
+            ],
+            [
+              -4.519999980926514,
+              4.440000057220459
+            ],
+            [
+              -1.7200000286102295,
+              4.440000057220459
+            ],
+            [
+              -1.7200000286102295,
+              0.5199999809265137
+            ]
+          ],
+          "area_m2": 10.976000026702877,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H01_ROOM_09",
+          "source_name": "BASE_FLOOR_DESPENSA__009",
+          "polygon_xz": [
+            [
+              -4.519999980926514,
+              -0.5299999713897705
+            ],
+            [
+              -4.519999980926514,
+              0.4000000059604645
+            ],
+            [
+              -3.2300000190734863,
+              0.4000000059604645
+            ],
+            [
+              -3.2300000190734863,
+              -0.5299999713897705
+            ]
+          ],
+          "area_m2": 1.1996999353051194,
+          "access_mode": "storage_front"
+        }
+      ],
+      "doors": [
+        {
+          "mesh_name": "BASE_PORTAL_D_Q1_LEAF_PIVOT",
+          "hinge": [
+            2.14,
+            0.0,
+            0.6699999999999999
+          ],
+          "source_to_closed_degrees": 0,
+          "open_degrees": 90,
+          "source_bounds": [
+            [
+              1.3424999856948854,
+              0.2460000067949295,
+              0.6474999991059303
+            ],
+            [
+              2.1174999991059305,
+              2.321000099182129,
+              0.6925000008940696
+            ]
+          ],
+          "width_m": 0.7750000134110451,
+          "axis": 0
+        },
+        {
+          "mesh_name": "BASE_PORTAL_D_WC_LEAF_PIVOT",
+          "hinge": [
+            0.20000000000000018,
+            0.0,
+            2.3600000000000003
+          ],
+          "source_to_closed_degrees": 0,
+          "open_degrees": 90,
+          "source_bounds": [
+            [
+              -0.5574999928474424,
+              0.2460000067949295,
+              2.3374999991059306
+            ],
+            [
+              0.1774999991059305,
+              2.321000099182129,
+              2.38250000089407
+            ]
+          ],
+          "width_m": 0.734999991953373,
+          "axis": 0
+        },
+        {
+          "mesh_name": "BASE_PORTAL_D_Q2_LEAF_PIVOT",
+          "hinge": [
+            -2.08,
+            0.0,
+            0.5
+          ],
+          "source_to_closed_degrees": 0,
+          "open_degrees": 90,
+          "source_bounds": [
+            [
+              -2.8974999952316285,
+              0.2460000067949295,
+              0.47749999910593033
+            ],
+            [
+              -2.1025000008940697,
+              2.321000099182129,
+              0.5225000008940697
+            ]
+          ],
+          "width_m": 0.7949999943375587,
+          "axis": 0
+        }
+      ],
+      "technical_adjustments": [],
+      "exterior_open_degrees": 90,
+      "material_keys": [
+        "d00821dab225312b5838cd77126871f44a768c59e840d3ca9e18a2c45677d6b9",
+        "6badd895aee3bac9eaa2d26405c7f6309879366e9f8524de0c7088a62a90cd75",
+        "8b96f063321265f0053a1d5859866bd890b4924b71b87c3e995a8f7a9c9ddb3e",
+        "373762e954b6e1ac077c34ae159b6ade5e37780d03b3244bdc089ea65c5337c9",
+        "96229f4517518451de062dd540e78831a1d23b386e22a90ce099c84dbe29cdab",
+        "cb72f4ad9aba8cc5ad0a7a112e1689c9608c9821209288584368b94223787488",
+        "ac4b4f2d941e4eb2b95aaebbccb24d08916c48a0e7ed3d822dc61c719a6e699b",
+        "4925c579b1ca5f75ed9fe93e8910da06b1489070aa21cb471e787dc4de2248b8",
+        "d29d8c072e4c76eb18ff8d50e03e3102d05c2750557029ece7dd757ded2ebdb2",
+        "9c307166909b68eb00f101087ce46248dc1daf4d1a8afc261f42974811de32df",
+        "2f60efea9f03a298bb250de8e63f892ef25868e32bcce48860cadd27cedc6d3a",
+        "8f1b08317458b17126041f588e8a8ceff965b07b47ddbd92daf5ebf54bbfb32c",
+        "6219952012ac5a02f490523421e27ed1339ea97ba895e6d648ff1c7aa04c390e",
+        "3c41c4aef795b459d2a1b376d306a7ff465f0768427c83866412f6682c944740",
+        "1763db97c3b1f83413d8a786de84d9ffb06415b22d3de9eeca63ddc910ef73dc",
+        "1e2457e1f5f621d628fa47e478ed655998da3fa8f656c4a6249dd579e9f0d432",
+        "7ff23f001c2f2780e740e311b482b6093d50dde743a7828ecc06b786dd641229",
+        "92bdb2d40cf2cebd2c177faec07668352ea26797ad69664c0ae46befefab0d92",
+        "69a131b452b056221ee0b66aa3a5cb5c73d48eeb95db227c0ed676f38d5bc646",
+        "c12029ea207ef77c3ab5c737a58ff7fc787e6295c3cbd5091b76140274f78ebd",
+        "6d5d631b70b5b768bef7aaba6ee48ef0ebfc437180692ab5ef38811fc36ad4b4",
+        "a5cea98f806dd4bfb82b595d6e91d731fe0bd2514088b49370a938c6067d06e7",
+        "18d4518d3c0a6c2e7fcaacf03a4ef559c1cf5bc4d3df437f5c7b02f93af1f959",
+        "5ae5d31bbcdf6f4de01769126742b6eef5b61d8584fc3449ce33d14c17c83a8a",
+        "7094e99ddae1c4829582631cfcfec647e46b1f91fc29f370c6f9e5c1dcaf76a8"
+      ],
+      "exterior_rule": {
+        "enabled": true,
+        "master_candidate": true,
+        "revision": "H01-ART-REV06-RETROATIVA",
+        "decision_id": "H01-ACESSO-REV05",
+        "direction_approved": null,
+        "prototype_execution_authorized": true,
+        "visual_homologation": false,
+        "main_promotion_authorized": false,
+        "source_asset": "HAB_222",
+        "visual_path": "res://staging/e06_world/arroio/assets/current_h01_h20_rev01/H01.gltf",
+        "base_snapshot": "4802e8c233f66a4ad377bcc7",
+        "sector": "S01",
+        "building_position": [
+          31.333333333333332,
+          0,
+          155.16333333333333
+        ],
+        "building_yaw": 90,
+        "visual_offset": [
+          -0.0,
+          -0.0,
+          0.029999971389770508
+        ],
+        "gate_original": {
+          "center": [
+            27.768644163033038,
+            147.82973125419332
+          ],
+          "along": [
+            1.0,
+            0.0
+          ],
+          "inward": [
+            -0.0,
+            1.0
+          ],
+          "opening_width_m": 3.6,
+          "leaf_state": "open; no interaction script"
+        },
+        "gate_center": [
+          27.768644163033038,
+          147.82973125419332
+        ],
+        "gate_width_m": 3.6,
+        "door_xz": [
+          27.768644163033038,
+          150.1933
+        ],
+        "front_direction": -1,
+        "floor_m": 0.24,
+        "eave_m": 3.12,
+        "ridge_m": 4.5,
+        "body_center_xz": [
+          31.33333333333333,
+          154.98831656176247
+        ],
+        "body_width_m": 9.140000247955323,
+        "body_depth_m": 9.590033123524961,
+        "body_bounds_xz": [
+          26.763333209355668,
+          150.1933,
+          35.90333345731099,
+          159.78333312352495
+        ],
+        "candidate_translation_xyz": [
+          0,
+          0,
+          0
+        ],
+        "front_walls_to_recompose": [],
+        "access_path": [
+          [
+            27.768644163033038,
+            147.82973125419332
+          ],
+          [
+            27.768644163033038,
+            150.1933
+          ]
+        ],
+        "access_width_m": 1.9,
+        "wall_color": [
+          0.91,
+          0.86,
+          0.73
+        ],
+        "wood_house": false,
+        "hip_roof": false,
+        "gray_roof": false,
+        "porch_depth_m": 1.1,
+        "porch_width_m": 2.1,
+        "object_moves": [],
+        "extra_structures": [
+          {
+            "id": "H01_FORNO",
+            "bounds": [
+              26.6,
+              171,
+              30.2,
+              174.8
+            ],
+            "kind": "forno",
+            "front_direction": -1,
+            "front_vector": [
+              0,
+              -1
+            ],
+            "front_view": -1,
+            "door_xz": [
+              28.4,
+              171
+            ],
+            "floor": 0.12,
+            "eave": 2.35,
+            "ridge": 2.8,
+            "new_current_structure": true
+          },
+          {
+            "id": "H01_LENHEIRO",
+            "bounds": [
+              21.8,
+              165.8,
+              24.6,
+              169.1
+            ],
+            "kind": "lenheiro",
+            "front_direction": -1,
+            "front_vector": [
+              0,
+              -1
+            ],
+            "front_view": -1,
+            "door_xz": [
+              24.0,
+              165.8
+            ],
+            "floor": 0.12,
+            "eave": 2.35,
+            "ridge": 2.8,
+            "new_current_structure": true
+          }
+        ],
+        "geometry_adjustments": [
+          "Porch supports recessed to the facade to clear the gate-leaf sweep; original REV04 model remains archived.",
+          "Continuous ramp/landing above the threshold edge; no vertical walking lip."
+        ],
+        "triangles": 16660,
+        "preserve": {
+          "parcel": [
+            [
+              44.0,
+              147.82973125419332
+            ],
+            [
+              44.0,
+              185.33333333333331
+            ],
+            [
+              20.0,
+              185.33333333333331
+            ],
+            [
+              20.0,
+              147.82973125419332
+            ],
+            [
+              44.0,
+              147.82973125419332
+            ]
+          ],
+          "gate": {
+            "center": [
+              27.768644163033038,
+              147.82973125419332
+            ],
+            "along": [
+              1.0,
+              0.0
+            ],
+            "inward": [
+              -0.0,
+              1.0
+            ],
+            "opening_width_m": 3.6,
+            "leaf_state": "open; no interaction script"
+          },
+          "access_path": [
+            [
+              25.56333320935567,
+              155.61333330651124
+            ],
+            [
+              25.663333209355667,
+              149.39333354314164
+            ],
+            [
+              27.768644163033038,
+              147.82973125419332
+            ]
+          ],
+          "wall_132": {
+            "id": "WALL_132",
+            "a": [
+              44.0,
+              148.035965
+            ],
+            "b": [
+              44.0,
+              185.333333
+            ],
+            "owners": [
+              {
+                "building_id": "H01",
+                "sector": "S01"
+              },
+              {
+                "building_id": "H02",
+                "sector": "S01"
+              }
+            ],
+            "height_m": 1.15
+          }
+        },
+        "leaf_fill_factor": 2.4,
+        "low_shrub_positions": [
+          [
+            22.2,
+            181.3
+          ],
+          [
+            40.5,
+            181.6
+          ],
+          [
+            42.1,
+            173.4
+          ]
+        ],
+        "gate_open_pose": "folded_against_inside_front_wall",
+        "id": "H01",
+        "identity": "Casa do Forno de Pão",
+        "source_visual_path": "res://staging/e06_world/arroio/assets/master_h01_h10_rev01/H01.gltf",
+        "current_revision_candidate": true,
+        "front_axis": 1,
+        "front_vector": [
+          0,
+          -1
+        ],
+        "front_view": -1,
+        "service_branches": [],
+        "new_props": [
+          {
+            "id": "H01_P01",
+            "description": "Forno de pão de alvenaria, frio e inativo",
+            "position_xz_m": [
+              28.2,
+              173.3
+            ],
+            "zone": "forno",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Forno de pão de alvenaria, frio e inativo",
+            "kind": "bread_oven",
+            "source_position_xz_m": [
+              28.2,
+              173.3
+            ],
+            "realized_position_xyz_m": [
+              28.2,
+              0,
+              173.3
+            ]
+          },
+          {
+            "id": "H01_P02",
+            "description": "Bancada de madeira para apoio do forno",
+            "position_xz_m": [
+              29.5,
+              172.0
+            ],
+            "zone": "forno",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Bancada de madeira para apoio do forno",
+            "placement_adjustment": "Lot-local clearance adjustment for the measured utility entrance.",
+            "realized_yaw_degrees": 90,
+            "kind": "workbench",
+            "source_position_xz_m": [
+              29.2,
+              172.0
+            ],
+            "realized_position_xyz_m": [
+              29.5,
+              0,
+              172.0
+            ]
+          },
+          {
+            "id": "H01_P03",
+            "description": "Pá longa de forno apoiada no suporte",
+            "position_xz_m": [
+              26.9,
+              172.1
+            ],
+            "zone": "forno",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Pá longa de forno apoiada no suporte",
+            "kind": "stored_hand_tool",
+            "source_position_xz_m": [
+              26.9,
+              172.1
+            ],
+            "realized_position_xyz_m": [
+              26.9,
+              0,
+              172.1
+            ]
+          },
+          {
+            "id": "H01_P04",
+            "description": "Cesto de vime com restos de palha",
+            "position_xz_m": [
+              29.4,
+              174.0
+            ],
+            "zone": "forno",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Cesto de vime com restos de palha",
+            "kind": "vessels",
+            "source_position_xz_m": [
+              29.4,
+              174.0
+            ],
+            "realized_position_xyz_m": [
+              29.4,
+              0,
+              174.0
+            ]
+          },
+          {
+            "id": "H01_P05",
+            "description": "Prateleira com formas antigas",
+            "position_xz_m": [
+              29.5,
+              173.8
+            ],
+            "zone": "forno",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Prateleira com formas antigas",
+            "placement_adjustment": "Lot-local clearance adjustment for the measured utility entrance.",
+            "kind": "shelf",
+            "source_position_xz_m": [
+              29.9,
+              172.9
+            ],
+            "realized_position_xyz_m": [
+              29.5,
+              0,
+              173.8
+            ]
+          },
+          {
+            "id": "H01_P06",
+            "description": "Pote cerâmico vazio",
+            "position_xz_m": [
+              27.1,
+              173.8
+            ],
+            "zone": "forno",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Pote cerâmico vazio",
+            "kind": "vessels",
+            "source_position_xz_m": [
+              27.1,
+              173.8
+            ],
+            "realized_position_xyz_m": [
+              27.1,
+              0,
+              173.8
+            ]
+          },
+          {
+            "id": "H01_P07",
+            "description": "Telhas sobressalentes sob o beiral",
+            "position_xz_m": [
+              30.0,
+              174.1
+            ],
+            "zone": "forno",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Telhas sobressalentes sob o beiral",
+            "kind": "storage",
+            "source_position_xz_m": [
+              30.0,
+              174.1
+            ],
+            "realized_position_xyz_m": [
+              30.0,
+              0,
+              174.1
+            ]
+          },
+          {
+            "id": "H01_P08",
+            "description": "Bacia de metal vazia",
+            "position_xz_m": [
+              30.4,
+              170.2
+            ],
+            "zone": "terreiro",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Bacia de metal vazia",
+            "placement_adjustment": "Lot-local clearance adjustment for the measured utility entrance.",
+            "kind": "basin",
+            "source_position_xz_m": [
+              28.9,
+              169.3
+            ],
+            "realized_position_xyz_m": [
+              30.4,
+              0,
+              170.2
+            ]
+          },
+          {
+            "id": "H01_P09",
+            "description": "Caixa de madeira para cestos",
+            "position_xz_m": [
+              30.0,
+              169.5
+            ],
+            "zone": "terreiro",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Caixa de madeira para cestos",
+            "kind": "vessels",
+            "source_position_xz_m": [
+              30.0,
+              169.5
+            ],
+            "realized_position_xyz_m": [
+              30.0,
+              0,
+              169.5
+            ]
+          },
+          {
+            "id": "H01_P10",
+            "description": "Bancada portátil antiga",
+            "position_xz_m": [
+              31.2,
+              170.1
+            ],
+            "zone": "terreiro",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Bancada portátil antiga",
+            "kind": "workbench",
+            "source_position_xz_m": [
+              31.2,
+              170.1
+            ],
+            "realized_position_xyz_m": [
+              31.2,
+              0,
+              170.1
+            ]
+          },
+          {
+            "id": "H01_P11",
+            "description": "Estrado de tábuas parcialmente coberto pelo mato",
+            "position_xz_m": [
+              27.5,
+              169.6
+            ],
+            "zone": "terreiro",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Estrado de tábuas parcialmente coberto pelo mato",
+            "kind": "stored_bundles",
+            "source_position_xz_m": [
+              27.5,
+              169.6
+            ],
+            "realized_position_xyz_m": [
+              27.5,
+              0,
+              169.6
+            ]
+          },
+          {
+            "id": "H01_P12",
+            "description": "Cavalete de trabalho dobrado",
+            "position_xz_m": [
+              31.0,
+              169.2
+            ],
+            "zone": "terreiro",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Cavalete de trabalho dobrado",
+            "kind": "sawhorse",
+            "source_position_xz_m": [
+              31.0,
+              169.2
+            ],
+            "realized_position_xyz_m": [
+              31.0,
+              0,
+              169.2
+            ]
+          },
+          {
+            "id": "H01_P13",
+            "description": "Lenha empilhada sob cobertura",
+            "position_xz_m": [
+              22.8,
+              167.2
+            ],
+            "zone": "lenheiro",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Lenha empilhada sob cobertura",
+            "kind": "stored_bundles",
+            "source_position_xz_m": [
+              22.8,
+              167.2
+            ],
+            "realized_position_xyz_m": [
+              22.8,
+              0,
+              167.2
+            ]
+          },
+          {
+            "id": "H01_P14",
+            "description": "Machado sem função jogável, guardado no suporte",
+            "position_xz_m": [
+              23.35,
+              166.5
+            ],
+            "zone": "lenheiro",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Machado sem função jogável, guardado no suporte",
+            "placement_adjustment": "Lot-local clearance adjustment for the measured utility entrance.",
+            "kind": "stored_hand_tool",
+            "source_position_xz_m": [
+              23.9,
+              166.5
+            ],
+            "realized_position_xyz_m": [
+              23.35,
+              0,
+              166.5
+            ]
+          },
+          {
+            "id": "H01_P15",
+            "description": "Caixote de madeira com talhas de lenha",
+            "position_xz_m": [
+              22.2,
+              168.3
+            ],
+            "zone": "lenheiro",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Caixote de madeira com talhas de lenha",
+            "kind": "stored_bundles",
+            "source_position_xz_m": [
+              22.2,
+              168.3
+            ],
+            "realized_position_xyz_m": [
+              22.2,
+              0,
+              168.3
+            ]
+          },
+          {
+            "id": "H01_P16",
+            "description": "Vara de limpeza do forno apoiada",
+            "position_xz_m": [
+              23.9,
+              168.1
+            ],
+            "zone": "lenheiro",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Vara de limpeza do forno apoiada",
+            "kind": "stored_hand_tool",
+            "source_position_xz_m": [
+              23.9,
+              168.1
+            ],
+            "realized_position_xyz_m": [
+              23.9,
+              0,
+              168.1
+            ]
+          },
+          {
+            "id": "H01_P17",
+            "description": "Latas metálicas vazias",
+            "position_xz_m": [
+              28.0,
+              165.5
+            ],
+            "zone": "pátio",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Latas metálicas vazias",
+            "kind": "small_metal_can",
+            "source_position_xz_m": [
+              28.0,
+              165.5
+            ],
+            "realized_position_xyz_m": [
+              28.0,
+              0,
+              165.5
+            ]
+          },
+          {
+            "id": "H01_P18",
+            "description": "Banco baixo de madeira",
+            "position_xz_m": [
+              31.9,
+              166.5
+            ],
+            "zone": "pátio",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Banco baixo de madeira",
+            "kind": "seating",
+            "source_position_xz_m": [
+              31.9,
+              166.5
+            ],
+            "realized_position_xyz_m": [
+              31.9,
+              0,
+              166.5
+            ]
+          },
+          {
+            "id": "H01_P19",
+            "description": "Jarro esmaltado envelhecido",
+            "position_xz_m": [
+              31.1,
+              166.1
+            ],
+            "zone": "pátio",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Jarro esmaltado envelhecido",
+            "kind": "vessels",
+            "source_position_xz_m": [
+              31.1,
+              166.1
+            ],
+            "realized_position_xyz_m": [
+              31.1,
+              0,
+              166.1
+            ]
+          },
+          {
+            "id": "H01_P20",
+            "description": "Carrinho de mão antigo",
+            "position_xz_m": [
+              25.8,
+              176.7
+            ],
+            "zone": "fundos",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Carrinho de mão antigo",
+            "kind": "cart",
+            "source_position_xz_m": [
+              25.8,
+              176.7
+            ],
+            "realized_position_xyz_m": [
+              25.8,
+              0,
+              176.7
+            ]
+          },
+          {
+            "id": "H01_P21",
+            "description": "Vaso rachado sob a sombra",
+            "position_xz_m": [
+              31.6,
+              179.3
+            ],
+            "zone": "sombra",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Vaso rachado sob a sombra",
+            "kind": "vessels",
+            "source_position_xz_m": [
+              31.6,
+              179.3
+            ],
+            "realized_position_xyz_m": [
+              31.6,
+              0,
+              179.3
+            ]
+          },
+          {
+            "id": "H01_P22",
+            "description": "Caixote de colheita da pitangueira",
+            "position_xz_m": [
+              35.0,
+              169.4
+            ],
+            "zone": "pomar",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Caixote de colheita da pitangueira",
+            "kind": "storage",
+            "source_position_xz_m": [
+              35.0,
+              169.4
+            ],
+            "realized_position_xyz_m": [
+              35.0,
+              0,
+              169.4
+            ]
+          },
+          {
+            "id": "H01_P23",
+            "description": "Latas de armazenamento vazias",
+            "position_xz_m": [
+              33.5,
+              169.6
+            ],
+            "zone": "pomar",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Latas de armazenamento vazias",
+            "kind": "small_metal_can",
+            "source_position_xz_m": [
+              33.5,
+              169.6
+            ],
+            "realized_position_xyz_m": [
+              33.5,
+              0,
+              169.6
+            ]
+          },
+          {
+            "id": "H01_P24",
+            "description": "Tábua usada como apoio de cestos",
+            "position_xz_m": [
+              32.5,
+              171.1
+            ],
+            "zone": "pomar",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Tábua usada como apoio de cestos",
+            "kind": "vessels",
+            "source_position_xz_m": [
+              32.5,
+              171.1
+            ],
+            "realized_position_xyz_m": [
+              32.5,
+              0,
+              171.1
+            ]
+          },
+          {
+            "id": "H01_P25",
+            "description": "Varal doméstico envelhecido",
+            "position_xz_m": [
+              23.0,
+              176.0
+            ],
+            "zone": "fundos",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Varal doméstico envelhecido",
+            "kind": "clothesline_remnant",
+            "source_position_xz_m": [
+              23.0,
+              176.0
+            ],
+            "realized_position_xyz_m": [
+              23.0,
+              0,
+              176.0
+            ]
+          },
+          {
+            "id": "H01_P26",
+            "description": "Banco de conversa desgastado",
+            "position_xz_m": [
+              26.3,
+              178.7
+            ],
+            "zone": "fundos",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Banco de conversa desgastado",
+            "kind": "seating",
+            "source_position_xz_m": [
+              26.3,
+              178.7
+            ],
+            "realized_position_xyz_m": [
+              26.3,
+              0,
+              178.7
+            ]
+          },
+          {
+            "id": "H01_P27",
+            "description": "Peneira de madeira antiga",
+            "position_xz_m": [
+              27.5,
+              172.3
+            ],
+            "zone": "forno",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Peneira de madeira antiga",
+            "kind": "rack",
+            "source_position_xz_m": [
+              27.5,
+              172.3
+            ],
+            "realized_position_xyz_m": [
+              27.5,
+              0,
+              172.3
+            ]
+          },
+          {
+            "id": "H01_P28",
+            "description": "Rolo e tábua de preparo vazios",
+            "position_xz_m": [
+              28.1,
+              172.5
+            ],
+            "zone": "forno",
+            "origin": "novo",
+            "status": "CANDIDATO_CENOGRAFICO_SEM_GLB",
+            "label": "Rolo e tábua de preparo vazios",
+            "kind": "spare_wheel",
+            "source_position_xz_m": [
+              28.1,
+              172.5
+            ],
+            "realized_position_xyz_m": [
+              28.1,
+              0,
+              172.5
+            ]
+          }
+        ],
+        "deferred_props": [],
+        "site_features": [
+          {
+            "id": "H01_TERREIRO_FORNO",
+            "bounds": [
+              26.7,
+              168.7,
+              32.1,
+              170.7
+            ],
+            "zone": 3,
+            "kind": "terreiro_forno"
+          }
+        ],
+        "vehicle_gates": [],
+        "preserve_side_entry_reference": false,
+        "service_path": [
+          [
+            27.76864,
+            148.96
+          ],
+          [
+            24.5,
+            148.96
+          ],
+          [
+            24.5,
+            162.75
+          ],
+          [
+            26.6,
+            164.75
+          ],
+          [
+            28.1,
+            166.2
+          ],
+          [
+            29.6,
+            168.4
+          ],
+          [
+            28.5,
+            170.75
+          ]
+        ],
+        "service_width_m": 1.2,
+        "new_prop_families": [
+          "basin",
+          "bread_oven",
+          "cart",
+          "clothesline_remnant",
+          "rack",
+          "sawhorse",
+          "seating",
+          "shelf",
+          "small_metal_can",
+          "spare_wheel",
+          "storage",
+          "stored_bundles",
+          "stored_hand_tool",
+          "vessels",
+          "workbench"
+        ]
+      }
+    }
+  }
+}

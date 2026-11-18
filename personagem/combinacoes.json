@@ -1,0 +1,46 @@
+{
+  "Expr_Sorriso": {
+    "Mandibula_Abrir": "Comb_Sorriso_Mandibula_Abrir",
+    "Selar_Labios": "Comb_Sorriso_Selar_Labios",
+    "Fala_MBP": "Comb_Sorriso_Fala_MBP",
+    "Fala_FV": "Comb_Sorriso_Fala_FV",
+    "Fala_A": "Comb_Sorriso_Fala_A",
+    "Fala_E": "Comb_Sorriso_Fala_E",
+    "Fala_I": "Comb_Sorriso_Fala_I",
+    "Fala_O": "Comb_Sorriso_Fala_O",
+    "Fala_U": "Comb_Sorriso_Fala_U"
+  },
+  "Expr_Preocupacao": {
+    "Mandibula_Abrir": "Comb_Preocupacao_Mandibula_Abrir",
+    "Selar_Labios": "Comb_Preocupacao_Selar_Labios",
+    "Fala_MBP": "Comb_Preocupacao_Fala_MBP",
+    "Fala_FV": "Comb_Preocupacao_Fala_FV",
+    "Fala_A": "Comb_Preocupacao_Fala_A",
+    "Fala_E": "Comb_Preocupacao_Fala_E",
+    "Fala_I": "Comb_Preocupacao_Fala_I",
+    "Fala_O": "Comb_Preocupacao_Fala_O",
+    "Fala_U": "Comb_Preocupacao_Fala_U"
+  },
+  "Expr_Raiva": {
+    "Mandibula_Abrir": "Comb_Raiva_Mandibula_Abrir",
+    "Selar_Labios": "Comb_Raiva_Selar_Labios",
+    "Fala_MBP": "Comb_Raiva_Fala_MBP",
+    "Fala_FV": "Comb_Raiva_Fala_FV",
+    "Fala_A": "Comb_Raiva_Fala_A",
+    "Fala_E": "Comb_Raiva_Fala_E",
+    "Fala_I": "Comb_Raiva_Fala_I",
+    "Fala_O": "Comb_Raiva_Fala_O",
+    "Fala_U": "Comb_Raiva_Fala_U"
+  },
+  "Expr_Surpresa": {
+    "Mandibula_Abrir": "Comb_Surpresa_Mandibula_Abrir",
+    "Selar_Labios": "Comb_Surpresa_Selar_Labios",
+    "Fala_MBP": "Comb_Surpresa_Fala_MBP",
+    "Fala_FV": "Comb_Surpresa_Fala_FV",
+    "Fala_A": "Comb_Surpresa_Fala_A",
+    "Fala_E": "Comb_Surpresa_Fala_E",
+    "Fala_I": "Comb_Surpresa_Fala_I",
+    "Fala_O": "Comb_Surpresa_Fala_O",
+    "Fala_U": "Comb_Surpresa_Fala_U"
+  }
+}

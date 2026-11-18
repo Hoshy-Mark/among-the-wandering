@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bcp8x6ax06ivr"]
+
+[ext_resource type="Script" uid="uid://boaealmrqxhw8" path="res://isometric_test.gd" id="1"]
+
+[node name="ArroioAnimationSandbox" type="Node3D"]
+script = ExtResource("1")

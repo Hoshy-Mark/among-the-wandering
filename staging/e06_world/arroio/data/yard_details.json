@@ -1,0 +1,836 @@
+{
+  "schema_version": 1,
+  "pilot_buildings": [
+    "H03",
+    "H04",
+    "H25",
+    "H26",
+    "H27",
+    "H30",
+    "H31",
+    "H32"
+  ],
+  "catalog": {
+    "wash_station": {
+      "radius_m": 1.35,
+      "height_m": 1.45
+    },
+    "clothesline": {
+      "radius_m": 2.9,
+      "height_m": 2.25
+    },
+    "kitchen_garden": {
+      "radius_m": 2.7,
+      "height_m": 1.25
+    },
+    "compost_bin": {
+      "radius_m": 1.25,
+      "height_m": 1.0
+    },
+    "log_stack": {
+      "radius_m": 1.5,
+      "height_m": 1.3
+    },
+    "pot_cluster": {
+      "radius_m": 1.2,
+      "height_m": 1.15
+    },
+    "trellis": {
+      "radius_m": 2.0,
+      "height_m": 2.4
+    },
+    "chicken_coop": {
+      "radius_m": 2.45,
+      "height_m": 2.4
+    }
+  },
+  "items": [
+    {
+      "id": "DETAIL_H03_wash_station",
+      "building_id": "H03",
+      "sector": "S01",
+      "kind": "wash_station",
+      "position": [
+        259,
+        169
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 1.35,
+      "height_m": 1.45,
+      "variant": 0
+    },
+    {
+      "id": "DETAIL_H03_clothesline",
+      "building_id": "H03",
+      "sector": "S01",
+      "kind": "clothesline",
+      "position": [
+        261,
+        177
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 2.9,
+      "height_m": 2.25,
+      "variant": 0
+    },
+    {
+      "id": "DETAIL_H03_pot_cluster",
+      "building_id": "H03",
+      "sector": "S01",
+      "kind": "pot_cluster",
+      "position": [
+        255,
+        171
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 1.2,
+      "height_m": 1.15,
+      "variant": 0
+    },
+    {
+      "id": "DETAIL_H03_log_stack",
+      "building_id": "H03",
+      "sector": "S01",
+      "kind": "log_stack",
+      "position": [
+        263,
+        163
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 1.5,
+      "height_m": 1.3,
+      "variant": 0
+    },
+    {
+      "id": "DETAIL_H03_compost_bin",
+      "building_id": "H03",
+      "sector": "S01",
+      "kind": "compost_bin",
+      "position": [
+        255,
+        179
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 1.25,
+      "height_m": 1.0,
+      "variant": 0
+    },
+    {
+      "id": "DETAIL_H03_kitchen_garden",
+      "building_id": "H03",
+      "sector": "S01",
+      "kind": "kitchen_garden",
+      "position": [
+        247,
+        177
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 2.7,
+      "height_m": 1.25,
+      "variant": 0
+    },
+    {
+      "id": "DETAIL_H03_trellis",
+      "building_id": "H03",
+      "sector": "S01",
+      "kind": "trellis",
+      "position": [
+        251,
+        181
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 2.0,
+      "height_m": 2.4,
+      "variant": 0
+    },
+    {
+      "id": "DETAIL_H04_wash_station",
+      "building_id": "H04",
+      "sector": "S01",
+      "kind": "wash_station",
+      "position": [
+        283,
+        171
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 1.35,
+      "height_m": 1.45,
+      "variant": 1
+    },
+    {
+      "id": "DETAIL_H04_clothesline",
+      "building_id": "H04",
+      "sector": "S01",
+      "kind": "clothesline",
+      "position": [
+        285,
+        179
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 2.9,
+      "height_m": 2.25,
+      "variant": 1
+    },
+    {
+      "id": "DETAIL_H04_pot_cluster",
+      "building_id": "H04",
+      "sector": "S01",
+      "kind": "pot_cluster",
+      "position": [
+        287,
+        165
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 1.2,
+      "height_m": 1.15,
+      "variant": 1
+    },
+    {
+      "id": "DETAIL_H04_log_stack",
+      "building_id": "H04",
+      "sector": "S01",
+      "kind": "log_stack",
+      "position": [
+        287,
+        161
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 1.5,
+      "height_m": 1.3,
+      "variant": 1
+    },
+    {
+      "id": "DETAIL_H04_compost_bin",
+      "building_id": "H04",
+      "sector": "S01",
+      "kind": "compost_bin",
+      "position": [
+        271,
+        179
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 1.25,
+      "height_m": 1.0,
+      "variant": 1
+    },
+    {
+      "id": "DETAIL_H04_kitchen_garden",
+      "building_id": "H04",
+      "sector": "S01",
+      "kind": "kitchen_garden",
+      "position": [
+        279,
+        181
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 2.7,
+      "height_m": 1.25,
+      "variant": 1
+    },
+    {
+      "id": "DETAIL_H04_chicken_coop",
+      "building_id": "H04",
+      "sector": "S01",
+      "kind": "chicken_coop",
+      "position": [
+        273,
+        175
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 2.45,
+      "height_m": 2.4,
+      "variant": 1
+    },
+    {
+      "id": "DETAIL_H25_wash_station",
+      "building_id": "H25",
+      "sector": "S04",
+      "kind": "wash_station",
+      "position": [
+        108,
+        85
+      ],
+      "rotation_degrees": 270,
+      "clearance_radius_m": 1.35,
+      "height_m": 1.45,
+      "variant": 2
+    },
+    {
+      "id": "DETAIL_H25_clothesline",
+      "building_id": "H25",
+      "sector": "S04",
+      "kind": "clothesline",
+      "position": [
+        112,
+        91
+      ],
+      "rotation_degrees": 270,
+      "clearance_radius_m": 2.9,
+      "height_m": 2.25,
+      "variant": 2
+    },
+    {
+      "id": "DETAIL_H25_pot_cluster",
+      "building_id": "H25",
+      "sector": "S04",
+      "kind": "pot_cluster",
+      "position": [
+        104,
+        85
+      ],
+      "rotation_degrees": 270,
+      "clearance_radius_m": 1.2,
+      "height_m": 1.15,
+      "variant": 2
+    },
+    {
+      "id": "DETAIL_H25_log_stack",
+      "building_id": "H25",
+      "sector": "S04",
+      "kind": "log_stack",
+      "position": [
+        112,
+        85
+      ],
+      "rotation_degrees": 270,
+      "clearance_radius_m": 1.5,
+      "height_m": 1.3,
+      "variant": 2
+    },
+    {
+      "id": "DETAIL_H25_compost_bin",
+      "building_id": "H25",
+      "sector": "S04",
+      "kind": "compost_bin",
+      "position": [
+        118,
+        89
+      ],
+      "rotation_degrees": 270,
+      "clearance_radius_m": 1.25,
+      "height_m": 1.0,
+      "variant": 2
+    },
+    {
+      "id": "DETAIL_H25_kitchen_garden",
+      "building_id": "H25",
+      "sector": "S04",
+      "kind": "kitchen_garden",
+      "position": [
+        114,
+        97
+      ],
+      "rotation_degrees": 270,
+      "clearance_radius_m": 2.7,
+      "height_m": 1.25,
+      "variant": 2
+    },
+    {
+      "id": "DETAIL_H25_trellis",
+      "building_id": "H25",
+      "sector": "S04",
+      "kind": "trellis",
+      "position": [
+        110,
+        101
+      ],
+      "rotation_degrees": 270,
+      "clearance_radius_m": 2.0,
+      "height_m": 2.4,
+      "variant": 2
+    },
+    {
+      "id": "DETAIL_H26_wash_station",
+      "building_id": "H26",
+      "sector": "S04",
+      "kind": "wash_station",
+      "position": [
+        129,
+        84
+      ],
+      "rotation_degrees": 180,
+      "clearance_radius_m": 1.35,
+      "height_m": 1.45,
+      "variant": 0
+    },
+    {
+      "id": "DETAIL_H26_clothesline",
+      "building_id": "H26",
+      "sector": "S04",
+      "kind": "clothesline",
+      "position": [
+        125,
+        88
+      ],
+      "rotation_degrees": 180,
+      "clearance_radius_m": 2.9,
+      "height_m": 2.25,
+      "variant": 0
+    },
+    {
+      "id": "DETAIL_H26_pot_cluster",
+      "building_id": "H26",
+      "sector": "S04",
+      "kind": "pot_cluster",
+      "position": [
+        133,
+        86
+      ],
+      "rotation_degrees": 180,
+      "clearance_radius_m": 1.2,
+      "height_m": 1.15,
+      "variant": 0
+    },
+    {
+      "id": "DETAIL_H26_log_stack",
+      "building_id": "H26",
+      "sector": "S04",
+      "kind": "log_stack",
+      "position": [
+        137,
+        88
+      ],
+      "rotation_degrees": 180,
+      "clearance_radius_m": 1.5,
+      "height_m": 1.3,
+      "variant": 0
+    },
+    {
+      "id": "DETAIL_H26_compost_bin",
+      "building_id": "H26",
+      "sector": "S04",
+      "kind": "compost_bin",
+      "position": [
+        139,
+        94
+      ],
+      "rotation_degrees": 180,
+      "clearance_radius_m": 1.25,
+      "height_m": 1.0,
+      "variant": 0
+    },
+    {
+      "id": "DETAIL_H26_kitchen_garden",
+      "building_id": "H26",
+      "sector": "S04",
+      "kind": "kitchen_garden",
+      "position": [
+        137,
+        100
+      ],
+      "rotation_degrees": 180,
+      "clearance_radius_m": 2.7,
+      "height_m": 1.25,
+      "variant": 0
+    },
+    {
+      "id": "DETAIL_H26_chicken_coop",
+      "building_id": "H26",
+      "sector": "S04",
+      "kind": "chicken_coop",
+      "position": [
+        137,
+        76
+      ],
+      "rotation_degrees": 180,
+      "clearance_radius_m": 2.45,
+      "height_m": 2.4,
+      "variant": 0
+    },
+    {
+      "id": "DETAIL_H27_wash_station",
+      "building_id": "H27",
+      "sector": "S04",
+      "kind": "wash_station",
+      "position": [
+        216,
+        92
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 1.35,
+      "height_m": 1.45,
+      "variant": 1
+    },
+    {
+      "id": "DETAIL_H27_clothesline",
+      "building_id": "H27",
+      "sector": "S04",
+      "kind": "clothesline",
+      "position": [
+        216,
+        100
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 2.9,
+      "height_m": 2.25,
+      "variant": 1
+    },
+    {
+      "id": "DETAIL_H27_pot_cluster",
+      "building_id": "H27",
+      "sector": "S04",
+      "kind": "pot_cluster",
+      "position": [
+        220,
+        90
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 1.2,
+      "height_m": 1.15,
+      "variant": 1
+    },
+    {
+      "id": "DETAIL_H27_log_stack",
+      "building_id": "H27",
+      "sector": "S04",
+      "kind": "log_stack",
+      "position": [
+        212,
+        92
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 1.5,
+      "height_m": 1.3,
+      "variant": 1
+    },
+    {
+      "id": "DETAIL_H27_compost_bin",
+      "building_id": "H27",
+      "sector": "S04",
+      "kind": "compost_bin",
+      "position": [
+        222,
+        98
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 1.25,
+      "height_m": 1.0,
+      "variant": 1
+    },
+    {
+      "id": "DETAIL_H27_kitchen_garden",
+      "building_id": "H27",
+      "sector": "S04",
+      "kind": "kitchen_garden",
+      "position": [
+        206,
+        94
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 2.7,
+      "height_m": 1.25,
+      "variant": 1
+    },
+    {
+      "id": "DETAIL_H27_trellis",
+      "building_id": "H27",
+      "sector": "S04",
+      "kind": "trellis",
+      "position": [
+        224,
+        94
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 2.0,
+      "height_m": 2.4,
+      "variant": 1
+    },
+    {
+      "id": "DETAIL_H30_wash_station",
+      "building_id": "H30",
+      "sector": "S04",
+      "kind": "wash_station",
+      "position": [
+        116,
+        49
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 1.35,
+      "height_m": 1.45,
+      "variant": 2
+    },
+    {
+      "id": "DETAIL_H30_clothesline",
+      "building_id": "H30",
+      "sector": "S04",
+      "kind": "clothesline",
+      "position": [
+        118,
+        41
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 2.9,
+      "height_m": 2.25,
+      "variant": 2
+    },
+    {
+      "id": "DETAIL_H30_pot_cluster",
+      "building_id": "H30",
+      "sector": "S04",
+      "kind": "pot_cluster",
+      "position": [
+        108,
+        45
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 1.2,
+      "height_m": 1.15,
+      "variant": 2
+    },
+    {
+      "id": "DETAIL_H30_log_stack",
+      "building_id": "H30",
+      "sector": "S04",
+      "kind": "log_stack",
+      "position": [
+        118,
+        53
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 1.5,
+      "height_m": 1.3,
+      "variant": 2
+    },
+    {
+      "id": "DETAIL_H30_compost_bin",
+      "building_id": "H30",
+      "sector": "S04",
+      "kind": "compost_bin",
+      "position": [
+        110,
+        37
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 1.25,
+      "height_m": 1.0,
+      "variant": 2
+    },
+    {
+      "id": "DETAIL_H30_kitchen_garden",
+      "building_id": "H30",
+      "sector": "S04",
+      "kind": "kitchen_garden",
+      "position": [
+        94,
+        45
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 2.7,
+      "height_m": 1.25,
+      "variant": 2
+    },
+    {
+      "id": "DETAIL_H30_chicken_coop",
+      "building_id": "H30",
+      "sector": "S04",
+      "kind": "chicken_coop",
+      "position": [
+        104,
+        37
+      ],
+      "rotation_degrees": 90,
+      "clearance_radius_m": 2.45,
+      "height_m": 2.4,
+      "variant": 2
+    },
+    {
+      "id": "DETAIL_H31_wash_station",
+      "building_id": "H31",
+      "sector": "S04",
+      "kind": "wash_station",
+      "position": [
+        133,
+        45
+      ],
+      "rotation_degrees": 270,
+      "clearance_radius_m": 1.35,
+      "height_m": 1.45,
+      "variant": 0
+    },
+    {
+      "id": "DETAIL_H31_clothesline",
+      "building_id": "H31",
+      "sector": "S04",
+      "kind": "clothesline",
+      "position": [
+        131,
+        37
+      ],
+      "rotation_degrees": 270,
+      "clearance_radius_m": 2.9,
+      "height_m": 2.25,
+      "variant": 0
+    },
+    {
+      "id": "DETAIL_H31_pot_cluster",
+      "building_id": "H31",
+      "sector": "S04",
+      "kind": "pot_cluster",
+      "position": [
+        143,
+        45
+      ],
+      "rotation_degrees": 270,
+      "clearance_radius_m": 1.2,
+      "height_m": 1.15,
+      "variant": 0
+    },
+    {
+      "id": "DETAIL_H31_log_stack",
+      "building_id": "H31",
+      "sector": "S04",
+      "kind": "log_stack",
+      "position": [
+        137,
+        43
+      ],
+      "rotation_degrees": 270,
+      "clearance_radius_m": 1.5,
+      "height_m": 1.3,
+      "variant": 0
+    },
+    {
+      "id": "DETAIL_H31_compost_bin",
+      "building_id": "H31",
+      "sector": "S04",
+      "kind": "compost_bin",
+      "position": [
+        125,
+        41
+      ],
+      "rotation_degrees": 270,
+      "clearance_radius_m": 1.25,
+      "height_m": 1.0,
+      "variant": 0
+    },
+    {
+      "id": "DETAIL_H31_kitchen_garden",
+      "building_id": "H31",
+      "sector": "S04",
+      "kind": "kitchen_garden",
+      "position": [
+        143,
+        37
+      ],
+      "rotation_degrees": 270,
+      "clearance_radius_m": 2.7,
+      "height_m": 1.25,
+      "variant": 0
+    },
+    {
+      "id": "DETAIL_H31_trellis",
+      "building_id": "H31",
+      "sector": "S04",
+      "kind": "trellis",
+      "position": [
+        137,
+        35
+      ],
+      "rotation_degrees": 270,
+      "clearance_radius_m": 2.0,
+      "height_m": 2.4,
+      "variant": 0
+    },
+    {
+      "id": "DETAIL_H32_wash_station",
+      "building_id": "H32",
+      "sector": "S04",
+      "kind": "wash_station",
+      "position": [
+        199,
+        49
+      ],
+      "rotation_degrees": 270,
+      "clearance_radius_m": 1.35,
+      "height_m": 1.45,
+      "variant": 1
+    },
+    {
+      "id": "DETAIL_H32_clothesline",
+      "building_id": "H32",
+      "sector": "S04",
+      "kind": "clothesline",
+      "position": [
+        197,
+        41
+      ],
+      "rotation_degrees": 270,
+      "clearance_radius_m": 2.9,
+      "height_m": 2.25,
+      "variant": 1
+    },
+    {
+      "id": "DETAIL_H32_pot_cluster",
+      "building_id": "H32",
+      "sector": "S04",
+      "kind": "pot_cluster",
+      "position": [
+        203,
+        47
+      ],
+      "rotation_degrees": 270,
+      "clearance_radius_m": 1.2,
+      "height_m": 1.15,
+      "variant": 1
+    },
+    {
+      "id": "DETAIL_H32_log_stack",
+      "building_id": "H32",
+      "sector": "S04",
+      "kind": "log_stack",
+      "position": [
+        207,
+        47
+      ],
+      "rotation_degrees": 270,
+      "clearance_radius_m": 1.5,
+      "height_m": 1.3,
+      "variant": 1
+    },
+    {
+      "id": "DETAIL_H32_compost_bin",
+      "building_id": "H32",
+      "sector": "S04",
+      "kind": "compost_bin",
+      "position": [
+        209,
+        39
+      ],
+      "rotation_degrees": 270,
+      "clearance_radius_m": 1.25,
+      "height_m": 1.0,
+      "variant": 1
+    },
+    {
+      "id": "DETAIL_H32_kitchen_garden",
+      "building_id": "H32",
+      "sector": "S04",
+      "kind": "kitchen_garden",
+      "position": [
+        203,
+        39
+      ],
+      "rotation_degrees": 270,
+      "clearance_radius_m": 2.7,
+      "height_m": 1.25,
+      "variant": 1
+    },
+    {
+      "id": "DETAIL_H32_chicken_coop",
+      "building_id": "H32",
+      "sector": "S04",
+      "kind": "chicken_coop",
+      "position": [
+        189,
+        49
+      ],
+      "rotation_degrees": 270,
+      "clearance_radius_m": 2.45,
+      "height_m": 2.4,
+      "variant": 1
+    }
+  ],
+  "exclusions": [],
+  "placement_clearance_m": 0.65,
+  "material_policy": "Shared residential Z2 PBR textures; metric world projection on rigid props; modeled fabric and individual crop leaves."
+}

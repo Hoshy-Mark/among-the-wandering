@@ -1,0 +1,342 @@
+{
+  "schema": "e02.aparencia.r29.v1",
+  "body": "assets/corpo_articulado_r53.glb",
+  "body_sha256": "0fe4ce9d7d6b6bfe24bab10341a7d8be9d24b79f7bf3688d231d97436b01287a",
+  "head_socket_gltf": [
+    0,
+    1.6,
+    0
+  ],
+  "hair": [
+    {
+      "id": "franja_blocada",
+      "name": "Franja blocada",
+      "asset": "assets/hair/franja_blocada.glb",
+      "meshes": 1,
+      "triangles": 312,
+      "status": "candidato_visual_blocado"
+    },
+    {
+      "id": "medio_blocado",
+      "name": "Médio blocado",
+      "asset": "assets/hair/medio_revisado_r36.glb",
+      "meshes": 1,
+      "triangles": 312,
+      "status": "candidato_visual_blocado"
+    },
+    {
+      "id": "curto_blocado",
+      "name": "Curto blocado",
+      "asset": "assets/catalogo/hair/curto_blocado.glb",
+      "meshes": 1,
+      "triangles": 312
+    },
+    {
+      "id": "lateral_blocado",
+      "name": "Lateral blocado",
+      "asset": "assets/catalogo/hair/lateral_blocado.glb",
+      "meshes": 1,
+      "triangles": 312
+    },
+    {
+      "id": "topo_blocado",
+      "name": "Topo blocado",
+      "asset": "assets/catalogo/hair/topo_blocado.glb",
+      "meshes": 1,
+      "triangles": 312
+    }
+  ],
+  "beard": [
+    {
+      "id": "curta_ajustada",
+      "name": "Curta ajustada",
+      "asset": "assets/fala_emotiva/nariz_baixo_4mm/beard/curta_ajustada.glb",
+      "meshes": 1,
+      "triangles": 1087
+    },
+    {
+      "id": "cheia_blocada",
+      "name": "Cheia blocada",
+      "asset": "assets/fala_emotiva/nariz_baixo_4mm/beard/cheia_blocada.glb",
+      "meshes": 1,
+      "triangles": 1087
+    },
+    {
+      "id": "cavanhaque_blocado",
+      "name": "Cavanhaque blocado",
+      "asset": "assets/fala_emotiva/nariz_baixo_4mm/beard/cavanhaque_blocado.glb",
+      "meshes": 1,
+      "triangles": 401
+    },
+    {
+      "id": "media_blocada",
+      "name": "Média blocada",
+      "asset": "assets/catalogo/beard/media_blocada.glb",
+      "meshes": 1,
+      "triangles": 1087
+    },
+    {
+      "id": "longa_blocada",
+      "name": "Longa blocada",
+      "asset": "assets/catalogo/beard/longa_blocada.glb",
+      "meshes": 1,
+      "triangles": 1087
+    },
+    {
+      "id": "costeletas_blocadas",
+      "name": "Costeletas blocadas",
+      "asset": "assets/catalogo/beard/costeletas_blocadas.glb",
+      "meshes": 1,
+      "triangles": 604
+    }
+  ],
+  "mustache": [
+    {
+      "id": "labial_blocado",
+      "name": "Bigode junto ao lábio",
+      "asset": "assets/fala_emotiva/nariz_baixo_4mm/mustache/labial_blocado.glb",
+      "meshes": 1,
+      "triangles": 48
+    }
+  ],
+  "default": {
+    "hair_id": "medio_blocado",
+    "beard_id": "curta_ajustada",
+    "mustache_id": "labial_blocado",
+    "hair_color": "castanho",
+    "beard_color": "castanho",
+    "mustache_color": "castanho",
+    "skin_id": "original",
+    "iris_id": "original",
+    "brows_id": "original",
+    "shirt_id": "camiseta_oliva",
+    "pants_id": "calca_terra",
+    "boots_id": "botas_escuras",
+    "belt_id": "cinto_couro"
+  },
+  "colors": [
+    {
+      "id": "castanho",
+      "name": "Castanho",
+      "hex": "#563824"
+    },
+    {
+      "id": "preto",
+      "name": "Preto",
+      "hex": "#211e1c"
+    },
+    {
+      "id": "loiro",
+      "name": "Loiro",
+      "hex": "#b59a62"
+    },
+    {
+      "id": "ruivo",
+      "name": "Ruivo",
+      "hex": "#984a2d"
+    },
+    {
+      "id": "grisalho",
+      "name": "Grisalho",
+      "hex": "#85827c"
+    },
+    {
+      "id": "branco",
+      "name": "Branco",
+      "hex": "#c5c1b5"
+    }
+  ],
+  "variants": [
+    {
+      "id": "equilibrado_nariz_baixo_4mm",
+      "name": "Equilibrado · nariz -4 mm",
+      "body": "assets/rosto_corpo_r29.glb",
+      "body_sha256": "6e825003018e42eb4b2871f46d48c85ad38297dd62ea331b3b70537252bdad28",
+      "beard": [
+        {
+          "id": "curta_ajustada",
+          "name": "Curta ajustada",
+          "asset": "assets/fala_emotiva/nariz_baixo_4mm/beard/curta_ajustada.glb",
+          "meshes": 1,
+          "triangles": 1087
+        },
+        {
+          "id": "cheia_blocada",
+          "name": "Cheia blocada",
+          "asset": "assets/fala_emotiva/nariz_baixo_4mm/beard/cheia_blocada.glb",
+          "meshes": 1,
+          "triangles": 1087
+        },
+        {
+          "id": "cavanhaque_blocado",
+          "name": "Cavanhaque blocado",
+          "asset": "assets/fala_emotiva/nariz_baixo_4mm/beard/cavanhaque_blocado.glb",
+          "meshes": 1,
+          "triangles": 401
+        }
+      ],
+      "mustache": [
+        {
+          "id": "labial_blocado",
+          "name": "Bigode junto ao lábio",
+          "asset": "assets/fala_emotiva/nariz_baixo_4mm/mustache/labial_blocado.glb",
+          "meshes": 1,
+          "triangles": 48
+        }
+      ],
+      "eye_style": "equilibrado",
+      "nose_style": "nariz_baixo_4mm"
+    }
+  ],
+  "default_variant": "equilibrado_nariz_baixo_4mm",
+  "facial_life": true,
+  "brows": [
+    {
+      "id": "finas",
+      "name": "Finas",
+      "asset": "assets/brows/finas.glb"
+    },
+    {
+      "id": "cheias",
+      "name": "Cheias",
+      "asset": "assets/brows/cheias.glb"
+    }
+  ],
+  "options": {
+    "skin_id": [
+      {
+        "id": "original",
+        "name": "Pele aprovada",
+        "hex": "#ffffff"
+      },
+      {
+        "id": "oliva",
+        "name": "Oliva",
+        "hex": "#c7d4a6"
+      },
+      {
+        "id": "escura_quente",
+        "name": "Escura quente",
+        "hex": "#86654e"
+      },
+      {
+        "id": "escura_neutra",
+        "name": "Escura neutra",
+        "hex": "#635b54"
+      }
+    ],
+    "iris_id": [
+      {
+        "id": "original",
+        "name": "Castanha aprovada",
+        "hex": "#684b31"
+      },
+      {
+        "id": "avela",
+        "name": "Avelã",
+        "hex": "#7b683b"
+      },
+      {
+        "id": "verde",
+        "name": "Verde acinzentada",
+        "hex": "#5d7057"
+      },
+      {
+        "id": "azul",
+        "name": "Azul acinzentada",
+        "hex": "#536d7c"
+      }
+    ],
+    "brows_id": [
+      {
+        "id": "original",
+        "name": "Aprovadas"
+      },
+      {
+        "id": "finas",
+        "name": "Finas"
+      },
+      {
+        "id": "cheias",
+        "name": "Cheias"
+      }
+    ],
+    "shirt_id": [
+      {
+        "id": "none",
+        "name": "Sem"
+      },
+      {
+        "id": "camiseta_oliva",
+        "name": "Camiseta oliva"
+      },
+      {
+        "id": "camiseta_azul",
+        "name": "Camiseta azul"
+      },
+      {
+        "id": "camisa_xadrez_vinho",
+        "name": "Camisa xadrez vinho"
+      },
+      {
+        "id": "camisa_lisa_azul",
+        "name": "Camisa lisa azul"
+      },
+      {
+        "id": "moletom_cinza",
+        "name": "Moletom cinza"
+      },
+      {
+        "id": "moletom_azul",
+        "name": "Moletom azul"
+      },
+      {
+        "id": "paleto_carvao",
+        "name": "Paletó carvão"
+      },
+      {
+        "id": "paleto_areia",
+        "name": "Paletó areia"
+      }
+    ],
+    "pants_id": [
+      {
+        "id": "none",
+        "name": "Sem"
+      },
+      {
+        "id": "calca_terra",
+        "name": "Calça terra"
+      },
+      {
+        "id": "calca_carvao",
+        "name": "Calça carvão"
+      }
+    ],
+    "boots_id": [
+      {
+        "id": "none",
+        "name": "Sem"
+      },
+      {
+        "id": "botas_escuras",
+        "name": "Botas escuras"
+      },
+      {
+        "id": "botas_couro",
+        "name": "Botas de couro"
+      }
+    ],
+    "belt_id": [
+      {
+        "id": "none",
+        "name": "Sem"
+      },
+      {
+        "id": "cinto_couro",
+        "name": "Cinto de couro"
+      }
+    ]
+  },
+  "outfit": []
+}

@@ -1,0 +1,6 @@
+.godot/
+*.log
+*.tmp
+qa/
+previews/
+!*.import

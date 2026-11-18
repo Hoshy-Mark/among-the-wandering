@@ -1,0 +1,58 @@
+{
+  "hit_front": {
+    "duration": 0.75,
+    "next": "resume"
+  },
+  "hit_back": {
+    "duration": 0.75,
+    "next": "resume"
+  },
+  "hit_left": {
+    "duration": 0.75,
+    "next": "resume"
+  },
+  "hit_right": {
+    "duration": 0.75,
+    "next": "resume"
+  },
+  "stagger": {
+    "duration": 1.35,
+    "next": "resume"
+  },
+  "hit_front_armed": {
+    "duration": 0.75,
+    "next": "resume"
+  },
+  "hit_back_armed": {
+    "duration": 0.75,
+    "next": "resume"
+  },
+  "hit_left_armed": {
+    "duration": 0.75,
+    "next": "resume"
+  },
+  "hit_right_armed": {
+    "duration": 0.75,
+    "next": "resume"
+  },
+  "stagger_armed": {
+    "duration": 1.35,
+    "next": "resume"
+  },
+  "fall": {
+    "duration": 1.6,
+    "next": "down"
+  },
+  "down": {
+    "duration": 1.2,
+    "next": "down"
+  },
+  "get_up": {
+    "duration": 2.6,
+    "next": "resume"
+  },
+  "death": {
+    "duration": 1.8,
+    "next": "dead"
+  }
+}
