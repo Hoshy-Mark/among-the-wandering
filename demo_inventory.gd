@@ -36,7 +36,7 @@ func _ready() -> void:
     player.global_position=point
     player.velocity=Vector3.ZERO
     spawn=point
-    var doors=load("res://personagem/aberturas83.gd").new()
+    var doors=load("res://personagem/aberturas113.gd").new()
     add_child(doors)
     doors.setup(self)
     await get_tree().physics_frame

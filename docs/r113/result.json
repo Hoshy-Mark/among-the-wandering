@@ -1,0 +1,409 @@
+{
+  "checks": [
+    {
+      "message": "door request accepted from sweep H01/Hinge_BASE_PORTAL_D_Q1_LEAF_PIVOT open=true",
+      "passed": true
+    },
+    {
+      "message": "automatic collision-checked step starts",
+      "passed": true
+    },
+    {
+      "message": "save refuses unfinished door interaction",
+      "passed": true
+    },
+    {
+      "message": "pause freezes assisted step",
+      "passed": true
+    },
+    {
+      "message": "door finishes after retreat H01/Hinge_BASE_PORTAL_D_Q1_LEAF_PIVOT",
+      "passed": true
+    },
+    {
+      "message": "retreat is short and uses movement",
+      "passed": true
+    },
+    {
+      "message": "player controls restored",
+      "passed": true
+    },
+    {
+      "message": "capture 01_porta_aberta_com_recuo",
+      "passed": true
+    },
+    {
+      "message": "door request accepted from sweep H01/Hinge_BASE_PORTAL_D_Q1_LEAF_PIVOT open=false",
+      "passed": true
+    },
+    {
+      "message": "automatic collision-checked step starts",
+      "passed": true
+    },
+    {
+      "message": "save refuses unfinished door interaction",
+      "passed": true
+    },
+    {
+      "message": "pause freezes assisted step",
+      "passed": true
+    },
+    {
+      "message": "door finishes after retreat H01/Hinge_BASE_PORTAL_D_Q1_LEAF_PIVOT",
+      "passed": true
+    },
+    {
+      "message": "retreat is short and uses movement",
+      "passed": true
+    },
+    {
+      "message": "player controls restored",
+      "passed": true
+    },
+    {
+      "message": "door request accepted from sweep H01/Hinge_BASE_PORTAL_D_WC_LEAF_PIVOT open=true",
+      "passed": true
+    },
+    {
+      "message": "automatic collision-checked step starts",
+      "passed": true
+    },
+    {
+      "message": "save refuses unfinished door interaction",
+      "passed": true
+    },
+    {
+      "message": "pause freezes assisted step",
+      "passed": true
+    },
+    {
+      "message": "door finishes after retreat H01/Hinge_BASE_PORTAL_D_WC_LEAF_PIVOT",
+      "passed": true
+    },
+    {
+      "message": "retreat is short and uses movement",
+      "passed": true
+    },
+    {
+      "message": "player controls restored",
+      "passed": true
+    },
+    {
+      "message": "door request accepted from sweep H01/Hinge_BASE_PORTAL_D_WC_LEAF_PIVOT open=false",
+      "passed": true
+    },
+    {
+      "message": "automatic collision-checked step starts",
+      "passed": true
+    },
+    {
+      "message": "save refuses unfinished door interaction",
+      "passed": true
+    },
+    {
+      "message": "pause freezes assisted step",
+      "passed": true
+    },
+    {
+      "message": "door finishes after retreat H01/Hinge_BASE_PORTAL_D_WC_LEAF_PIVOT",
+      "passed": true
+    },
+    {
+      "message": "retreat is short and uses movement",
+      "passed": true
+    },
+    {
+      "message": "player controls restored",
+      "passed": true
+    },
+    {
+      "message": "door request accepted from sweep H01/Hinge_BASE_PORTAL_D_Q2_LEAF_PIVOT open=true",
+      "passed": true
+    },
+    {
+      "message": "automatic collision-checked step starts",
+      "passed": true
+    },
+    {
+      "message": "save refuses unfinished door interaction",
+      "passed": true
+    },
+    {
+      "message": "pause freezes assisted step",
+      "passed": true
+    },
+    {
+      "message": "door finishes after retreat H01/Hinge_BASE_PORTAL_D_Q2_LEAF_PIVOT",
+      "passed": true
+    },
+    {
+      "message": "retreat is short and uses movement",
+      "passed": true
+    },
+    {
+      "message": "player controls restored",
+      "passed": true
+    },
+    {
+      "message": "door request accepted from sweep H01/Hinge_BASE_PORTAL_D_Q2_LEAF_PIVOT open=false",
+      "passed": true
+    },
+    {
+      "message": "automatic collision-checked step starts",
+      "passed": true
+    },
+    {
+      "message": "save refuses unfinished door interaction",
+      "passed": true
+    },
+    {
+      "message": "pause freezes assisted step",
+      "passed": true
+    },
+    {
+      "message": "door finishes after retreat H01/Hinge_BASE_PORTAL_D_Q2_LEAF_PIVOT",
+      "passed": true
+    },
+    {
+      "message": "retreat is short and uses movement",
+      "passed": true
+    },
+    {
+      "message": "player controls restored",
+      "passed": true
+    },
+    {
+      "message": "furniture obstruction never forces a door or teleports player",
+      "passed": true
+    },
+    {
+      "message": "assist can start again after obstruction removed",
+      "passed": true
+    },
+    {
+      "message": "Escape cancels retreat without locking controls",
+      "passed": true
+    },
+    {
+      "message": "window starts H01/window/01 side=-1 fps=30",
+      "passed": true
+    },
+    {
+      "message": "complete traversal applies once",
+      "passed": true
+    },
+    {
+      "message": "landing restores standing capsule and controls",
+      "passed": true
+    },
+    {
+      "message": "route reservation restores window anchor",
+      "passed": true
+    },
+    {
+      "message": "window starts H01/window/01 side=1 fps=30",
+      "passed": true
+    },
+    {
+      "message": "complete traversal applies once",
+      "passed": true
+    },
+    {
+      "message": "landing restores standing capsule and controls",
+      "passed": true
+    },
+    {
+      "message": "route reservation restores window anchor",
+      "passed": true
+    },
+    {
+      "message": "window starts H01/window/01 side=-1 fps=60",
+      "passed": true
+    },
+    {
+      "message": "complete traversal applies once",
+      "passed": true
+    },
+    {
+      "message": "landing restores standing capsule and controls",
+      "passed": true
+    },
+    {
+      "message": "route reservation restores window anchor",
+      "passed": true
+    },
+    {
+      "message": "window starts H01/window/01 side=1 fps=60",
+      "passed": true
+    },
+    {
+      "message": "complete traversal applies once",
+      "passed": true
+    },
+    {
+      "message": "landing restores standing capsule and controls",
+      "passed": true
+    },
+    {
+      "message": "route reservation restores window anchor",
+      "passed": true
+    },
+    {
+      "message": "window starts H01/window/01 side=-1 fps=120",
+      "passed": true
+    },
+    {
+      "message": "complete traversal applies once",
+      "passed": true
+    },
+    {
+      "message": "landing restores standing capsule and controls",
+      "passed": true
+    },
+    {
+      "message": "route reservation restores window anchor",
+      "passed": true
+    },
+    {
+      "message": "window starts H01/window/01 side=1 fps=120",
+      "passed": true
+    },
+    {
+      "message": "complete traversal applies once",
+      "passed": true
+    },
+    {
+      "message": "landing restores standing capsule and controls",
+      "passed": true
+    },
+    {
+      "message": "route reservation restores window anchor",
+      "passed": true
+    },
+    {
+      "message": "window starts H01/window/04 side=-1 fps=30",
+      "passed": true
+    },
+    {
+      "message": "complete traversal applies once",
+      "passed": true
+    },
+    {
+      "message": "landing restores standing capsule and controls",
+      "passed": true
+    },
+    {
+      "message": "route reservation restores window anchor",
+      "passed": true
+    },
+    {
+      "message": "window starts H01/window/04 side=1 fps=30",
+      "passed": true
+    },
+    {
+      "message": "complete traversal applies once",
+      "passed": true
+    },
+    {
+      "message": "landing restores standing capsule and controls",
+      "passed": true
+    },
+    {
+      "message": "route reservation restores window anchor",
+      "passed": true
+    },
+    {
+      "message": "window starts H01/window/04 side=-1 fps=60",
+      "passed": true
+    },
+    {
+      "message": "capture 02_janela_saida",
+      "passed": true
+    },
+    {
+      "message": "complete traversal applies once",
+      "passed": true
+    },
+    {
+      "message": "landing restores standing capsule and controls",
+      "passed": true
+    },
+    {
+      "message": "route reservation restores window anchor",
+      "passed": true
+    },
+    {
+      "message": "window starts H01/window/04 side=1 fps=60",
+      "passed": true
+    },
+    {
+      "message": "capture 03_janela_entrada",
+      "passed": true
+    },
+    {
+      "message": "complete traversal applies once",
+      "passed": true
+    },
+    {
+      "message": "landing restores standing capsule and controls",
+      "passed": true
+    },
+    {
+      "message": "route reservation restores window anchor",
+      "passed": true
+    },
+    {
+      "message": "window starts H01/window/04 side=-1 fps=120",
+      "passed": true
+    },
+    {
+      "message": "complete traversal applies once",
+      "passed": true
+    },
+    {
+      "message": "landing restores standing capsule and controls",
+      "passed": true
+    },
+    {
+      "message": "route reservation restores window anchor",
+      "passed": true
+    },
+    {
+      "message": "window starts H01/window/04 side=1 fps=120",
+      "passed": true
+    },
+    {
+      "message": "complete traversal applies once",
+      "passed": true
+    },
+    {
+      "message": "landing restores standing capsule and controls",
+      "passed": true
+    },
+    {
+      "message": "route reservation restores window anchor",
+      "passed": true
+    },
+    {
+      "message": "arm articulation preserved in original and mirrored animations",
+      "passed": true
+    },
+    {
+      "message": "collision foot samples match animated feet",
+      "passed": true
+    },
+    {
+      "message": "inventory and manual positions unchanged",
+      "passed": true
+    },
+    {
+      "message": "fixed population and nine characters preserved",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "max_elbow_m": 0.0221002474427223,
+  "max_foot_error_m": 0.00600388646125793,
+  "max_wrist_m": 0.00379021698608994,
+  "passed": true
+}

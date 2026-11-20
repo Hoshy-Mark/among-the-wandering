@@ -1,0 +1,15 @@
+{
+  "demo_inventory.gd": "2bb9119d4d705b80bf28b90517692d54dc68e15b99082e77110c2171c3e9acd5",
+  "player/character.gd": "ce2fc9043640c52d2c2ac6df3022ddb9e1dbe437c651fb8a2d316b93e08bb74e",
+  "personagem/travessias77.gd": "b899baf4b7aa856107fce6623b3d7c80d8615cc35ae727a21f458d6474ac450d",
+  "personagem/cercamentos78.gd": "f721f3fb063a00f09a7007463182ab99e0fbde2ce37bdc1412c2eedf1d889de2",
+  "personagem/aberturas113.gd": "3e47a81ba35c04ccdc37e2e92bf592f65b769205f8920a3249c57860f82ce0c6",
+  "personagem/percurso_mapa113.gd": "0237f051fe3b027324fc16cb22a18f6f0c9beb3e81a1da4cddac72fc6a7fe07b",
+  "personagem/obstaculo_mapa113.gd": "cd2d2ef7ede246f4e87b2dc5aa0021ba43372caa49c7454e358cea4c09da9313",
+  "personagem/travessia_mapa113.gd": "331f3f7d0c90ea8638b7bbed0d274a9308e1a6feae8e069e36c32da03459113c",
+  "personagem/assets/motion/r113/window_mirrors.res": "369836685444c6dca7f3d57a14d8348fdeffc541b37b4ea5e01dec9467cf0ed9",
+  "tests/bake_mirror113.gd": "7463d9d236ef3110c0576489368fd3deaaaf55bfe4aa3f9c042e5f065d19ab47",
+  "tests/interactions113.gd": "bd0a4eb98d182a5eb082c6f4eb2a8f4f17abf8a1e4a308c8c41f086804bdfaf8",
+  "tests/interaction_guards113.gd": "6ab202b6cc2b39e7641d037908415c216411a1fecfcab476554d97e0c994d079",
+  "tests/interactions113_boot.gd": "32ffb0249c79c6b7388cde68e4517044924ccb2c0d9fed45a1e81e6378e75def"
+}

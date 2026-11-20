@@ -36,5 +36,5 @@ func setup(root_scene: Node3D) -> void:
         obstacles.append(adapter)
         old.queue_free()
         index+=1
-    scene.player.traversal=load("res://personagem/travessia_cercas78.gd").new()
+    scene.player.traversal=load("res://personagem/travessia_mapa113.gd").new()
     scene.player.traversal.setup(scene.player)

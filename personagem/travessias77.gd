@@ -8,7 +8,7 @@ func setup(root_scene: Node3D) -> void:
     for id in scene.player.map_doors.doors:
         var data: Dictionary=scene.player.map_doors.doors[id]
         if data.get("kind","")!="window":continue
-        var node=load("res://personagem/obstaculo_mapa77.gd").new()
+        var node=load("res://personagem/obstaculo_mapa113.gd").new()
         add_child(node)
         node.scene=scene
         node.opening=data

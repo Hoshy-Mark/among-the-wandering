@@ -1,0 +1,29 @@
+{
+  "checks": [
+    {
+      "message": "window cancellation releases route and reservation",
+      "passed": true
+    },
+    {
+      "message": "closed window remains impassable",
+      "passed": true
+    },
+    {
+      "message": "occupied landing cannot be bypassed by route selection",
+      "passed": true
+    },
+    {
+      "message": "existing low fence traversal retained",
+      "passed": true
+    },
+    {
+      "message": "existing high fence traversal retained",
+      "passed": true
+    },
+    {
+      "message": "low and high fence regressions covered",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

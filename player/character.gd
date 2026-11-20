@@ -84,6 +84,10 @@ func _ready() -> void:
     inventory_actions.setup(self)
 
 func _physics_process(delta: float) -> void:
+    if map_doors!=null and map_doors.has_method("yielding113") and map_doors.yielding113():
+        map_doors.advance_yield113(delta)
+        update_nearby();_update_equipment();_sync_dressing()
+        return
     _body_physics88(delta)
     update_nearby()
 
