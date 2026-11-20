@@ -2,11 +2,10 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bqkyr10dxu5eb"
-path.s3tc="res://.godot/imported/E07_SOLOZ2_P1_ASFALTO_VELHO_A_ORIGINAL_2.png-7db96824af1570ef288ace4df90b09a4.s3tc.ctex"
+uid="uid://cpthjcpxw0wkq"
+path="res://.godot/imported/E07_SOLOZ2_P1_ASFALTO_VELHO_A_ORIGINAL_2.png-7db96824af1570ef288ace4df90b09a4.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 generator_parameters={
 "md5": "c239f1032af550320b5bd410b674cfa4"
@@ -15,11 +14,11 @@ generator_parameters={
 [deps]
 
 source_file="res://main/world/terrain/library/e07/e07_z2_12_solo_otim_p4_lab/SOLO_Z2_P5_REV01/laboratorio_godot44/assets/E07_SOLOZ2_P1_ASFALTO_VELHO_A_ORIGINAL_2.png"
-dest_files=["res://.godot/imported/E07_SOLOZ2_P1_ASFALTO_VELHO_A_ORIGINAL_2.png-7db96824af1570ef288ace4df90b09a4.s3tc.ctex"]
+dest_files=["res://.godot/imported/E07_SOLOZ2_P1_ASFALTO_VELHO_A_ORIGINAL_2.png-7db96824af1570ef288ace4df90b09a4.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
@@ -35,4 +34,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=0
+detect_3d/compress_to=1

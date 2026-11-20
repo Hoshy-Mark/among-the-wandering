@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "main_promoted": false,
+  "gameplay_enabled": false,
+  "houses": {
+    "H07": {
+      "layout_corrections": [
+        {
+          "furniture_id": "H07_FURN_17",
+          "meshes": [
+            "H07_FURN_REV03_17_BALC_O_PIA_P06",
+            "H07_FURN_REV03_17_BALC_O_PIA_P05",
+            "H07_FURN_REV03_17_BALC_O_PIA_P04",
+            "H07_FURN_REV03_17_BALC_O_PIA_P03",
+            "H07_FURN_REV03_17_BALC_O_PIA_P02",
+            "H07_FURN_REV03_17_BALC_O_PIA_P01",
+            "H07_FURN_REV03_17_BALC_O_PIA_P00"
+          ],
+          "pivot": [
+            -0.9595000000000001,
+            0.8000000185519456,
+            3.879999999999999
+          ],
+          "yaw_degrees": -180.0,
+          "translation": [
+            0.1,
+            0,
+            0.0
+          ],
+          "reason": "Free both real sink-cabinet doors and preserve house-door swept clearance"
+        }
+      ]
+    },
+    "H12": {
+      "layout_corrections": [
+        {
+          "furniture_id": "H12_FURN_00",
+          "meshes": [
+            "H12_FURN_00_kitchen_sink__00__bica_torneira",
+            "H12_FURN_00_kitchen_sink__01__haste_torneira",
+            "H12_FURN_00_kitchen_sink__02__brilho_cuba",
+            "H12_FURN_00_kitchen_sink__03__cuba_rebaixada",
+            "H12_FURN_00_kitchen_sink__04__bancada",
+            "H12_FURN_00_kitchen_sink__05__portas",
+            "H12_FURN_00_kitchen_sink__06__base"
+          ],
+          "pivot": [
+            3.3842393921916765,
+            0.8260000185519458,
+            3.7891166399120912
+          ],
+          "yaw_degrees": 0.0,
+          "translation": [
+            0.0,
+            0,
+            0.1
+          ],
+          "reason": "Free both real sink-cabinet doors and preserve house-door swept clearance"
+        }
+      ]
+    },
+    "H14": {
+      "layout_corrections": [
+        {
+          "furniture_id": "H14_FURN_09",
+          "meshes": [
+            "H14_FURN_09_kitchen_sink__00__bica_torneira",
+            "H14_FURN_09_kitchen_sink__01__haste_torneira",
+            "H14_FURN_09_kitchen_sink__02__brilho_cuba",
+            "H14_FURN_09_kitchen_sink__03__cuba_rebaixada",
+            "H14_FURN_09_kitchen_sink__04__bancada",
+            "H14_FURN_09_kitchen_sink__05__portas",
+            "H14_FURN_09_kitchen_sink__06__base"
+          ],
+          "pivot": [
+            -3.274998187580895,
+            0.8260000185519458,
+            -5.5005000754085245
+          ],
+          "yaw_degrees": 0.0,
+          "translation": [
+            0.0,
+            0,
+            -0.1
+          ],
+          "reason": "Free both real sink-cabinet doors and preserve house-door swept clearance"
+        }
+      ]
+    },
+    "H17": {
+      "layout_corrections": [
+        {
+          "furniture_id": "H17_FURN_09",
+          "meshes": [
+            "H17_FURN_09_kitchen_sink__00__bica_torneira",
+            "H17_FURN_09_kitchen_sink__01__haste_torneira",
+            "H17_FURN_09_kitchen_sink__02__brilho_cuba",
+            "H17_FURN_09_kitchen_sink__03__cuba_rebaixada",
+            "H17_FURN_09_kitchen_sink__04__bancada",
+            "H17_FURN_09_kitchen_sink__05__portas",
+            "H17_FURN_09_kitchen_sink__06__base"
+          ],
+          "pivot": [
+            -0.8772222068574697,
+            0.8260000185519458,
+            4.552671679080014
+          ],
+          "yaw_degrees": 90.0,
+          "translation": [
+            0.2,
+            0,
+            -0.1
+          ],
+          "reason": "Free both real sink-cabinet doors and preserve house-door swept clearance"
+        }
+      ]
+    },
+    "H18": {
+      "layout_corrections": [
+        {
+          "furniture_id": "H18_FURN_01",
+          "meshes": [
+            "H18_FURN_01_kitchen_sink__00__bica_torneira",
+            "H18_FURN_01_kitchen_sink__01__haste_torneira",
+            "H18_FURN_01_kitchen_sink__02__brilho_cuba",
+            "H18_FURN_01_kitchen_sink__03__cuba_rebaixada",
+            "H18_FURN_01_kitchen_sink__04__bancada",
+            "H18_FURN_01_kitchen_sink__05__portas",
+            "H18_FURN_01_kitchen_sink__06__base"
+          ],
+          "pivot": [
+            2.9276029345107406,
+            0.8260000185519458,
+            2.1466287345886217
+          ],
+          "yaw_degrees": 0.0,
+          "translation": [
+            0.3,
+            0,
+            -0.1
+          ],
+          "reason": "Free both real sink-cabinet doors and preserve house-door swept clearance"
+        }
+      ]
+    },
+    "H19": {
+      "layout_corrections": [
+        {
+          "furniture_id": "H19_FURN_11",
+          "meshes": [
+            "H19_FURN_11_kitchen_sink__00__bica_torneira",
+            "H19_FURN_11_kitchen_sink__01__haste_torneira",
+            "H19_FURN_11_kitchen_sink__02__brilho_cuba",
+            "H19_FURN_11_kitchen_sink__03__cuba_rebaixada",
+            "H19_FURN_11_kitchen_sink__04__bancada",
+            "H19_FURN_11_kitchen_sink__05__portas",
+            "H19_FURN_11_kitchen_sink__06__base"
+          ],
+          "pivot": [
+            1.4203950226395223,
+            0.8260000185519458,
+            -6.09611663687892
+          ],
+          "yaw_degrees": 0.0,
+          "translation": [
+            0.0,
+            0,
+            -0.1
+          ],
+          "reason": "Free both real sink-cabinet doors and preserve house-door swept clearance"
+        }
+      ]
+    },
+    "H31": {
+      "layout_corrections": [
+        {
+          "furniture_id": "H31_FURN_08",
+          "meshes": [
+            "H31_FURN_08_kitchen_sink__00__bica_torneira",
+            "H31_FURN_08_kitchen_sink__01__haste_torneira",
+            "H31_FURN_08_kitchen_sink__02__brilho_cuba",
+            "H31_FURN_08_kitchen_sink__03__cuba_rebaixada",
+            "H31_FURN_08_kitchen_sink__04__bancada",
+            "H31_FURN_08_kitchen_sink__05__portas",
+            "H31_FURN_08_kitchen_sink__06__base"
+          ],
+          "pivot": [
+            0.1550000701155455,
+            0.8260000185519458,
+            -6.330499916848171
+          ],
+          "yaw_degrees": 0.0,
+          "translation": [
+            0.0,
+            0,
+            -0.2
+          ],
+          "reason": "Free both real sink-cabinet doors and preserve house-door swept clearance"
+        }
+      ]
+    },
+    "H35": {
+      "layout_corrections": [
+        {
+          "furniture_id": "H35_FURN_10",
+          "meshes": [
+            "H35_FURN_10_kitchen_sink__00__bica_torneira",
+            "H35_FURN_10_kitchen_sink__01__haste_torneira",
+            "H35_FURN_10_kitchen_sink__02__brilho_cuba",
+            "H35_FURN_10_kitchen_sink__03__cuba_rebaixada",
+            "H35_FURN_10_kitchen_sink__04__bancada",
+            "H35_FURN_10_kitchen_sink__05__portas",
+            "H35_FURN_10_kitchen_sink__06__base"
+          ],
+          "pivot": [
+            3.0750000557809503,
+            0.8260000185519458,
+            -5.785499935048999
+          ],
+          "yaw_degrees": 0.0,
+          "translation": [
+            0.0,
+            0,
+            -0.2
+          ],
+          "reason": "Free both real sink-cabinet doors and preserve house-door swept clearance"
+        }
+      ]
+    },
+    "H40": {
+      "layout_corrections": [
+        {
+          "furniture_id": "H40_FURN_08",
+          "meshes": [
+            "H40_FURN_08_kitchen_sink__00__bica_torneira",
+            "H40_FURN_08_kitchen_sink__01__haste_torneira",
+            "H40_FURN_08_kitchen_sink__02__brilho_cuba",
+            "H40_FURN_08_kitchen_sink__03__cuba_rebaixada",
+            "H40_FURN_08_kitchen_sink__04__bancada",
+            "H40_FURN_08_kitchen_sink__05__portas",
+            "H40_FURN_08_kitchen_sink__06__base"
+          ],
+          "pivot": [
+            2.710500075787345,
+            0.8260000185519458,
+            -0.8700000304501162
+          ],
+          "yaw_degrees": 90.0,
+          "translation": [
+            0.0,
+            0,
+            0.1
+          ],
+          "reason": "Free both real sink-cabinet doors and preserve house-door swept clearance"
+        }
+      ]
+    }
+  }
+}

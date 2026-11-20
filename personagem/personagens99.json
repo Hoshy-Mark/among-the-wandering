@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "source_sha256": "a25f991d2f85db6627f4253b269f54d3dcdb70adde390f885aa2d3f745800ffd",
+  "placement_status": "provisional_public_encounter_not_residence",
+  "characters": {
+    "jorge_luiz": {
+      "name": "Jorge Luiz",
+      "role": "Policial"
+    },
+    "josue_medeira": {
+      "name": "Josué Medeira",
+      "role": "Padre"
+    },
+    "renata_volker": {
+      "name": "Renata Volker",
+      "role": "Ex-jornalista"
+    },
+    "ricardo_medeiro": {
+      "name": "Ricardo Medeiro",
+      "role": "Médico"
+    },
+    "pietra_dos_santos": {
+      "name": "Pietra dos Santos",
+      "role": "Freira"
+    },
+    "ricardo_alberto": {
+      "name": "Ricardo Alberto",
+      "role": "Fazendeiro"
+    },
+    "gabriel_pimenta": {
+      "name": "Gabriel Pimenta",
+      "role": "Mecânico"
+    },
+    "ana_julia": {
+      "name": "Ana Julia",
+      "role": "Moradora"
+    },
+    "samuel_henrique": {
+      "name": "Samuel Henrique",
+      "role": "Viajante"
+    }
+  },
+  "encounters": {
+    "samuel_henrique": {
+      "public_space": "P01",
+      "candidate": [
+        173.0,
+        0.3,
+        115.0
+      ],
+      "appearance": {
+        "skin_id": "original",
+        "hair_id": "curto_blocado",
+        "beard_id": "none",
+        "mustache_id": "none",
+        "shirt_id": "moletom_cinza",
+        "pants_id": "calca_carvao",
+        "boots_id": "botas_escuras"
+      },
+      "introduction": "Sou Samuel Henrique.",
+      "about": "Voltei a Arroio há alguns meses.",
+      "dialogue_status": "candidate_public_facts_only"
+    }
+  }
+}

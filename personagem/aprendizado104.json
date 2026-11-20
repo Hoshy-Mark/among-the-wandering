@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "balance_status": "candidate_for_review",
+  "experiences_per_point": 3,
+  "max_rank": 6,
+  "trainable": [
+    "persuasion",
+    "perception",
+    "empathy",
+    "intimidation"
+  ],
+  "descriptions": {
+    "persuasion": "Ajuda a conduzir pedidos e tentativas de convencimento.",
+    "perception": "Ajuda a perceber reações durante uma conversa.",
+    "empathy": "Ajuda a conduzir conversas com atenção à outra pessoa.",
+    "intimidation": "Ajuda a sustentar uma abordagem de pressão na conversa."
+  },
+  "activities": {
+    "samuel_origin": {
+      "npc": "samuel_henrique",
+      "visited": "root/origin"
+    },
+    "samuel_privacy": {
+      "npc": "samuel_henrique",
+      "visited": "root/privacy"
+    },
+    "samuel_calm_attempt": {
+      "npc": "samuel_henrique",
+      "check": "calm_request"
+    },
+    "samuel_observation_attempt": {
+      "npc": "samuel_henrique",
+      "check": "observe"
+    },
+    "gabriel_occupation": {
+      "npc": "gabriel_pimenta",
+      "visited": "root/occupation"
+    },
+    "gabriel_privacy": {
+      "npc": "gabriel_pimenta",
+      "visited": "root/privacy"
+    },
+    "gabriel_observation_attempt": {
+      "npc": "gabriel_pimenta",
+      "check": "gabriel_observe"
+    },
+    "josue_occupation": {
+      "npc": "josue_medeira",
+      "visited": "root/occupation"
+    },
+    "josue_privacy": {
+      "npc": "josue_medeira",
+      "visited": "root/privacy"
+    },
+    "josue_calm_attempt": {
+      "npc": "josue_medeira",
+      "check": "josue_calm"
+    },
+    "jorge_occupation": {
+      "npc": "jorge_luiz",
+      "visited": "root/occupation"
+    },
+    "jorge_rules": {
+      "npc": "jorge_luiz",
+      "visited": "root/rules"
+    },
+    "jorge_acknowledged": {
+      "npc": "jorge_luiz",
+      "visited": "root/acknowledge"
+    },
+    "jorge_intimidation_attempt": {
+      "npc": "jorge_luiz",
+      "check": "jorge_intimidate"
+    },
+    "doctor_occupation": {
+      "npc": "ricardo_medeiro",
+      "visited": "root/occupation"
+    },
+    "doctor_origin": {
+      "npc": "ricardo_medeiro",
+      "visited": "root/origin"
+    },
+    "doctor_privacy": {
+      "npc": "ricardo_medeiro",
+      "visited": "root/privacy"
+    },
+    "doctor_empathy_attempt": {
+      "npc": "ricardo_medeiro",
+      "check": "doctor_empathy"
+    }
+  }
+}

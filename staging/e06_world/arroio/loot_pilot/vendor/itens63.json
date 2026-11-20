@@ -1,0 +1,126 @@
+{
+  "bandage": {
+    "name": "Bandagem",
+    "stack": 10,
+    "use": "bandage"
+  },
+  "food": {
+    "name": "Alimento",
+    "stack": 4,
+    "use": "eat"
+  },
+  "water": {
+    "name": "Garrafa de água",
+    "stack": 1,
+    "use": "drink"
+  },
+  "medicine": {
+    "name": "Remédio",
+    "stack": 10,
+    "use": "medicine"
+  },
+  "bag_school": {
+    "name": "Mochila escolar",
+    "stack": 1,
+    "slot": "backpack",
+    "capacity": 8,
+    "color": "#526a82"
+  },
+  "bag_canvas": {
+    "name": "Mochila de lona",
+    "stack": 1,
+    "slot": "backpack",
+    "capacity": 16,
+    "color": "#62715b"
+  },
+  "bag_hiking": {
+    "name": "Mochila de expedição",
+    "stack": 1,
+    "slot": "backpack",
+    "capacity": 24,
+    "color": "#8c6346"
+  },
+  "baton": {
+    "name": "Bastão",
+    "stack": 1,
+    "slot": "main_hand"
+  },
+  "camiseta_oliva": {
+    "name": "Camiseta oliva",
+    "stack": 1,
+    "slot": "shirt",
+    "clothing": "camiseta_oliva"
+  },
+  "camiseta_azul": {
+    "name": "Camiseta azul",
+    "stack": 1,
+    "slot": "shirt",
+    "clothing": "camiseta_azul"
+  },
+  "camisa_xadrez_vinho": {
+    "name": "Camisa xadrez vinho",
+    "stack": 1,
+    "slot": "shirt",
+    "clothing": "camisa_xadrez_vinho"
+  },
+  "camisa_lisa_azul": {
+    "name": "Camisa lisa azul",
+    "stack": 1,
+    "slot": "shirt",
+    "clothing": "camisa_lisa_azul"
+  },
+  "moletom_cinza": {
+    "name": "Moletom cinza",
+    "stack": 1,
+    "slot": "shirt",
+    "clothing": "moletom_cinza"
+  },
+  "moletom_azul": {
+    "name": "Moletom azul",
+    "stack": 1,
+    "slot": "shirt",
+    "clothing": "moletom_azul"
+  },
+  "paleto_carvao": {
+    "name": "Paletó carvão",
+    "stack": 1,
+    "slot": "shirt",
+    "clothing": "paleto_carvao"
+  },
+  "paleto_areia": {
+    "name": "Paletó areia",
+    "stack": 1,
+    "slot": "shirt",
+    "clothing": "paleto_areia"
+  },
+  "calca_terra": {
+    "name": "Calça terra",
+    "stack": 1,
+    "slot": "pants",
+    "clothing": "calca_terra"
+  },
+  "calca_carvao": {
+    "name": "Calça carvão",
+    "stack": 1,
+    "slot": "pants",
+    "clothing": "calca_carvao"
+  },
+  "botas_escuras": {
+    "name": "Botas escuras",
+    "stack": 1,
+    "slot": "boots",
+    "clothing": "botas_escuras"
+  },
+  "botas_couro": {
+    "name": "Botas de couro",
+    "stack": 1,
+    "slot": "boots",
+    "clothing": "botas_couro"
+  },
+  "cinto_couro": {
+    "name": "Cinto de couro",
+    "stack": 1,
+    "slot": "belt",
+    "clothing": "cinto_couro"
+  }
+}

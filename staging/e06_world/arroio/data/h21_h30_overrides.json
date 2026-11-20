@@ -1,0 +1,2409 @@
+{
+  "schema_version": 1,
+  "lots": {
+    "H21": {
+      "enabled": true,
+      "master_candidate": true,
+      "next_master_candidate": true,
+      "third_master_candidate": true,
+      "revision": "H21-ART-REV02",
+      "direction_approved": true,
+      "prototype_execution_authorized": true,
+      "visual_homologation": false,
+      "main_promotion_authorized": false,
+      "source_asset": "HAB_213",
+      "sector": "S03",
+      "base_snapshot": "4802e8c233f66a4ad377bcc7",
+      "building_position": [
+        240.5,
+        0,
+        226.9333333333333
+      ],
+      "building_yaw": 270,
+      "visual_offset": [
+        -0.0,
+        -0.0,
+        0.029999971389770508
+      ],
+      "visual_path": "res://staging/e06_world/arroio/assets/master_h21_h30_rev01/H21.gltf",
+      "body_bounds_xz": [
+        235.4400001049042,
+        222.18833354314162,
+        245.5599998950958,
+        232.0283331235
+      ],
+      "body_center_xz": [
+        240.5,
+        227.10833333332081
+      ],
+      "body_width_m": 10.119999790191628,
+      "body_depth_m": 9.83999958035838,
+      "gate_original": {
+        "center": [
+          245.88541574851607,
+          234.37666666666667
+        ],
+        "along": [
+          -1.0,
+          0.0
+        ],
+        "inward": [
+          -0.0,
+          -1.0
+        ],
+        "opening_width_m": 3.6,
+        "leaf_state": "open; no interaction script"
+      },
+      "gate_center": [
+        240.5,
+        234.3766666667
+      ],
+      "gate_width_m": 3.6,
+      "door_xz": [
+        240.5,
+        232.0283331235
+      ],
+      "front_direction": 1,
+      "floor_m": 0.28,
+      "eave_m": 2.95,
+      "ridge_m": 4.2,
+      "wall_color": [
+        0.39,
+        0.48,
+        0.51
+      ],
+      "wood_house": true,
+      "gray_roof": false,
+      "hip_roof": false,
+      "porch_depth_m": 0.5,
+      "porch_width_m": 1.8,
+      "candidate_translation_xyz": [
+        0,
+        0,
+        0
+      ],
+      "front_walls_to_recompose": [
+        "WALL_095",
+        "WALL_096"
+      ],
+      "access_path": [
+        [
+          240.5,
+          234.3766666667
+        ],
+        [
+          240.5,
+          232.0283331235
+        ]
+      ],
+      "access_width_m": 1.9,
+      "object_moves": [],
+      "extra_structures": [
+        {
+          "id": "H21_LENHEIRO",
+          "bounds": [
+            246.8,
+            208,
+            250.6,
+            212.8
+          ],
+          "kind": "wood_store",
+          "front_direction": 1,
+          "floor": 0.12,
+          "eave": 2.4,
+          "ridge": 2.85,
+          "door_xz": [
+            248.7,
+            212.8
+          ]
+        }
+      ],
+      "site_features": [],
+      "vehicle_gates": [],
+      "preserve_side_entry_reference": true,
+      "original_side_entry_reference": {
+        "mesh_name": "HAB_213_SOLEIRA_FRONTAL",
+        "local_center": [
+          -0.44999997317790985,
+          0.2800000011920929,
+          -5.0899999141693115
+        ],
+        "local_anchor_xyz": [
+          -0.44999997317790985,
+          0.2800000011920929,
+          -5.059999942779541
+        ],
+        "position": [
+          245.55999994277954,
+          226.4833333601554
+        ],
+        "approach": [
+          246.75999989509583,
+          226.4833333601554
+        ],
+        "status": "derived_from_current_Z2_threshold; hinge and gameplay still pending"
+      },
+      "narrative_is_canon": false,
+      "structural_damage_added": false,
+      "street_vegetation_changed": false,
+      "future_interior_built": false,
+      "service_path": [
+        [
+          240.5,
+          233.25
+        ],
+        [
+          247.5,
+          233.25
+        ],
+        [
+          247.5,
+          214.2
+        ],
+        [
+          248.5,
+          213.4
+        ]
+      ],
+      "service_width_m": 1.2,
+      "id": "H21",
+      "new_props": [
+        {
+          "id": "H21_VESTIGIOS_0",
+          "position_xz_m": [
+            243.5,
+            218.6
+          ],
+          "kind": "static_domestic_storage",
+          "narrative_is_canon": false
+        },
+        {
+          "id": "H21_VESTIGIOS_1",
+          "position_xz_m": [
+            241,
+            216.8
+          ],
+          "kind": "static_domestic_storage",
+          "narrative_is_canon": false
+        }
+      ],
+      "new_prop_families": [
+        "chairs",
+        "unfinished_bench",
+        "toolbox",
+        "hand_saw",
+        "crockery_crate"
+      ],
+      "triangles": 12780
+    },
+    "H22": {
+      "enabled": true,
+      "master_candidate": true,
+      "next_master_candidate": true,
+      "third_master_candidate": true,
+      "revision": "H22-ART-REV02",
+      "direction_approved": true,
+      "prototype_execution_authorized": true,
+      "visual_homologation": false,
+      "main_promotion_authorized": false,
+      "source_asset": "HAB_222",
+      "sector": "S03",
+      "base_snapshot": "4802e8c233f66a4ad377bcc7",
+      "building_position": [
+        264.66666666666663,
+        0,
+        226.29999999999998
+      ],
+      "building_yaw": 90,
+      "visual_offset": [
+        -0.0,
+        -0.0,
+        0.029999971389770508
+      ],
+      "visual_path": "res://staging/e06_world/arroio/assets/master_h21_h30_rev01/H22.gltf",
+      "body_bounds_xz": [
+        260.096666542689,
+        221.68000020980836,
+        269.2366667906443,
+        231.2699997902
+      ],
+      "body_center_xz": [
+        264.66666666666663,
+        226.47500000000417
+      ],
+      "body_width_m": 9.1400002479553,
+      "body_depth_m": 9.589999580391634,
+      "gate_original": {
+        "center": [
+          260.40401062006896,
+          233.64333333333332
+        ],
+        "along": [
+          -1.0,
+          0.0
+        ],
+        "inward": [
+          -0.0,
+          -1.0
+        ],
+        "opening_width_m": 3.6,
+        "leaf_state": "open; no interaction script"
+      },
+      "gate_center": [
+        264.667,
+        233.6433333333
+      ],
+      "gate_width_m": 3.6,
+      "door_xz": [
+        264.667,
+        231.2699997902
+      ],
+      "front_direction": 1,
+      "floor_m": 0.28,
+      "eave_m": 2.95,
+      "ridge_m": 4.2,
+      "wall_color": [
+        0.61,
+        0.32,
+        0.23
+      ],
+      "wood_house": false,
+      "gray_roof": false,
+      "hip_roof": false,
+      "porch_depth_m": 0.5,
+      "porch_width_m": 1.8,
+      "candidate_translation_xyz": [
+        0,
+        0,
+        0
+      ],
+      "front_walls_to_recompose": [
+        "WALL_093",
+        "WALL_094"
+      ],
+      "access_path": [
+        [
+          264.667,
+          233.6433333333
+        ],
+        [
+          264.667,
+          231.2699997902
+        ]
+      ],
+      "access_width_m": 1.9,
+      "object_moves": [],
+      "extra_structures": [
+        {
+          "id": "H22_GARAGEM",
+          "bounds": [
+            271.5,
+            220.4,
+            276.7,
+            227.2
+          ],
+          "kind": "carport",
+          "front_direction": 1,
+          "floor": 0.12,
+          "eave": 2.4,
+          "ridge": 2.85,
+          "door_xz": [
+            274.1,
+            227.2
+          ]
+        }
+      ],
+      "site_features": [],
+      "vehicle_gates": [
+        {
+          "id": "H22_VehicleGate",
+          "center": [
+            274.1,
+            233.6433333333
+          ],
+          "opening_width_m": 3.6,
+          "driveway_width_m": 3.3,
+          "along": [
+            1,
+            0
+          ],
+          "inward": [
+            0,
+            -1
+          ],
+          "leaf_length_m": 1.55,
+          "leaf_collision_height_m": 0.86,
+          "driveway_points": [
+            [
+              274.1,
+              233.6433333333
+            ],
+            [
+              274.1,
+              227.2
+            ]
+          ]
+        }
+      ],
+      "preserve_side_entry_reference": true,
+      "original_side_entry_reference": {
+        "mesh_name": "HAB_222_SOLEIRA_FRONTAL",
+        "local_center": [
+          -0.44999997317790985,
+          0.23999999463558197,
+          -4.6000001430511475
+        ],
+        "local_anchor_xyz": [
+          -0.44999997317790985,
+          0.23999999463558197,
+          -4.570000171661377
+        ],
+        "position": [
+          260.09666649500525,
+          226.7499999731779
+        ],
+        "approach": [
+          258.896666542689,
+          226.7499999731779
+        ],
+        "status": "derived_from_current_Z2_threshold; hinge and gameplay still pending"
+      },
+      "narrative_is_canon": false,
+      "structural_damage_added": false,
+      "street_vegetation_changed": false,
+      "future_interior_built": false,
+      "service_path": [
+        [
+          264.667,
+          232.5
+        ],
+        [
+          277.9,
+          232.5
+        ],
+        [
+          277.9,
+          219.4
+        ],
+        [
+          274.5,
+          219.4
+        ]
+      ],
+      "service_width_m": 1.2,
+      "geometry_adjustments": [
+        "Service route refined after actual Godot shape sweeps; stop outside closed utility doors and avoid posts/furniture. Received coordinates remain intact in the art contract."
+      ],
+      "id": "H22",
+      "new_props": [
+        {
+          "id": "H22_VESTIGIOS_0",
+          "position_xz_m": [
+            275.8,
+            217.6
+          ],
+          "kind": "static_domestic_storage",
+          "narrative_is_canon": false
+        },
+        {
+          "id": "H22_VESTIGIOS_1",
+          "position_xz_m": [
+            275.8,
+            223.7
+          ],
+          "kind": "static_domestic_storage",
+          "narrative_is_canon": false
+        }
+      ],
+      "new_prop_families": [
+        "spare_tires",
+        "tool_cart",
+        "spades",
+        "parts_shelf",
+        "storage_boxes"
+      ],
+      "triangles": 8212
+    },
+    "H23": {
+      "enabled": true,
+      "master_candidate": true,
+      "next_master_candidate": true,
+      "third_master_candidate": true,
+      "revision": "H23-ART-REV02",
+      "direction_approved": true,
+      "prototype_execution_authorized": true,
+      "visual_homologation": false,
+      "main_promotion_authorized": false,
+      "source_asset": "HAB_450",
+      "sector": "S04",
+      "base_snapshot": "4802e8c233f66a4ad377bcc7",
+      "building_position": [
+        37.5,
+        0,
+        78.43333333333334
+      ],
+      "building_yaw": 270,
+      "visual_offset": [
+        -0.0,
+        -0.0,
+        -0.019999980926513672
+      ],
+      "visual_path": "res://staging/e06_world/arroio/assets/master_h21_h30_rev01/H23.gltf",
+      "body_bounds_xz": [
+        30.450000095367432,
+        73.3233331998,
+        44.54999990463257,
+        83.19333346684775
+      ],
+      "body_center_xz": [
+        37.5,
+        78.25833333332388
+      ],
+      "body_width_m": 14.099999809265139,
+      "body_depth_m": 9.870000267047743,
+      "gate_original": {
+        "center": [
+          43.15128023708188,
+          70.87766666666666
+        ],
+        "along": [
+          1.0,
+          0.0
+        ],
+        "inward": [
+          -0.0,
+          1.0
+        ],
+        "opening_width_m": 3.6,
+        "leaf_state": "open; no interaction script"
+      },
+      "gate_center": [
+        39.15,
+        70.8776666667
+      ],
+      "gate_width_m": 3.6,
+      "door_xz": [
+        39.15,
+        73.3233331998
+      ],
+      "front_direction": -1,
+      "floor_m": 0.28,
+      "eave_m": 2.95,
+      "ridge_m": 4.2,
+      "wall_color": [
+        0.85,
+        0.85,
+        0.79
+      ],
+      "wood_house": false,
+      "gray_roof": true,
+      "hip_roof": false,
+      "porch_depth_m": 0.5,
+      "porch_width_m": 1.8,
+      "candidate_translation_xyz": [
+        0,
+        0,
+        0
+      ],
+      "front_walls_to_recompose": [
+        "WALL_021",
+        "WALL_022"
+      ],
+      "access_path": [
+        [
+          39.15,
+          70.8776666667
+        ],
+        [
+          39.15,
+          73.3233331998
+        ]
+      ],
+      "access_width_m": 1.9,
+      "object_moves": [],
+      "extra_structures": [
+        {
+          "id": "H23_ABRIGO_AGUA",
+          "bounds": [
+            38.4,
+            98,
+            41.6,
+            101
+          ],
+          "kind": "water_shed",
+          "front_direction": -1,
+          "floor": 0.12,
+          "eave": 2.4,
+          "ridge": 2.85,
+          "door_xz": [
+            40.0,
+            98
+          ]
+        }
+      ],
+      "site_features": [],
+      "vehicle_gates": [],
+      "preserve_side_entry_reference": true,
+      "original_side_entry_reference": {
+        "mesh_name": "HAB_450_ACESSO_SOLEIRA_FRENTE",
+        "local_center": [
+          -0.41999998688697815,
+          0.44999998807907104,
+          -5.704999923706055
+        ],
+        "local_anchor_xyz": [
+          -0.41999998688697815,
+          0.44999998807907104,
+          -5.724999904632568
+        ],
+        "position": [
+          43.22499990463257,
+          78.01333334644636
+        ],
+        "approach": [
+          45.74999990463257,
+          78.01333334644636
+        ],
+        "status": "derived_from_current_Z2_threshold; hinge and gameplay still pending"
+      },
+      "narrative_is_canon": false,
+      "structural_damage_added": false,
+      "street_vegetation_changed": false,
+      "future_interior_built": false,
+      "service_path": [
+        [
+          46.5,
+          83.55
+        ],
+        [
+          46.5,
+          85.1
+        ],
+        [
+          38,
+          85.1
+        ],
+        [
+          38,
+          97
+        ],
+        [
+          40,
+          97
+        ],
+        [
+          40,
+          97.1
+        ]
+      ],
+      "service_width_m": 1.2,
+      "geometry_adjustments": [
+        "Service route refined after actual Godot shape sweeps; stop outside closed utility doors and avoid posts/furniture. Received coordinates remain intact in the art contract."
+      ],
+      "id": "H23",
+      "new_props": [
+        {
+          "id": "H23_VESTIGIOS_0",
+          "position_xz_m": [
+            34.1,
+            87.4
+          ],
+          "kind": "static_domestic_storage",
+          "narrative_is_canon": false
+        },
+        {
+          "id": "H23_VESTIGIOS_1",
+          "position_xz_m": [
+            42.5,
+            100
+          ],
+          "kind": "static_domestic_storage",
+          "narrative_is_canon": false
+        }
+      ],
+      "new_prop_families": [
+        "three_watering_cans",
+        "coiled_hose",
+        "empty_container_crates",
+        "pots_and_tins"
+      ],
+      "triangles": 3196
+    },
+    "H24": {
+      "enabled": true,
+      "master_candidate": true,
+      "next_master_candidate": true,
+      "third_master_candidate": true,
+      "revision": "H24-ART-REV02",
+      "direction_approved": true,
+      "prototype_execution_authorized": true,
+      "visual_homologation": false,
+      "main_promotion_authorized": false,
+      "source_asset": "HAB_189",
+      "sector": "S04",
+      "base_snapshot": "4802e8c233f66a4ad377bcc7",
+      "building_position": [
+        65.0,
+        0,
+        76.79266666666666
+      ],
+      "building_yaw": 270,
+      "visual_offset": [
+        -0.0,
+        -0.0,
+        0.6200001239776611
+      ],
+      "visual_path": "res://staging/e06_world/arroio/assets/master_h21_h30_rev01/H24.gltf",
+      "body_bounds_xz": [
+        59.00000004768371,
+        74.0476665904,
+        70.99999995231629,
+        81.78766674296061
+      ],
+      "body_center_xz": [
+        65.0,
+        77.9176666666803
+      ],
+      "body_width_m": 11.999999904632574,
+      "body_depth_m": 7.7400001525606115,
+      "gate_original": {
+        "center": [
+          69.75542832261232,
+          70.71833333333332
+        ],
+        "along": [
+          1.0,
+          0.0
+        ],
+        "inward": [
+          -0.0,
+          1.0
+        ],
+        "opening_width_m": 3.6,
+        "leaf_state": "open; no interaction script"
+      },
+      "gate_center": [
+        65,
+        70.7183333333
+      ],
+      "gate_width_m": 3.6,
+      "door_xz": [
+        65,
+        74.0476665904
+      ],
+      "front_direction": -1,
+      "floor_m": 0.28,
+      "eave_m": 2.95,
+      "ridge_m": 4.2,
+      "wall_color": [
+        0.62,
+        0.6,
+        0.54
+      ],
+      "wood_house": false,
+      "gray_roof": false,
+      "hip_roof": false,
+      "porch_depth_m": 0.5,
+      "porch_width_m": 1.8,
+      "candidate_translation_xyz": [
+        0,
+        0,
+        1.3
+      ],
+      "front_walls_to_recompose": [
+        "WALL_019",
+        "WALL_020"
+      ],
+      "access_path": [
+        [
+          65,
+          70.7183333333
+        ],
+        [
+          65,
+          74.0476665904
+        ]
+      ],
+      "access_width_m": 1.9,
+      "object_moves": [
+        {
+          "id": "YARD_H24_decor_029",
+          "from_xz": [
+            64.87733333333334,
+            82.12466666666667
+          ],
+          "candidate_xz": [
+            56.6,
+            84.8
+          ],
+          "reason": "casa deslocada +1.3 m intersecta o raio do arbusto original",
+          "candidate_only": true
+        }
+      ],
+      "extra_structures": [
+        {
+          "id": "H24_PATIO",
+          "bounds": [
+            67.6,
+            95.3,
+            72.4,
+            98.7
+          ],
+          "kind": "social_shelter",
+          "front_direction": -1,
+          "floor": 0.12,
+          "eave": 2.4,
+          "ridge": 2.85,
+          "door_xz": [
+            68.3,
+            95.3
+          ]
+        }
+      ],
+      "site_features": [],
+      "vehicle_gates": [],
+      "preserve_side_entry_reference": true,
+      "original_side_entry_reference": {
+        "mesh_name": "HAB_189_SOLEIRA_FRONTAL",
+        "local_center": [
+          -0.44999997317790985,
+          0.2800000011920929,
+          -5.440000057220459
+        ],
+        "local_anchor_xyz": [
+          -0.44999997317790985,
+          0.2800000011920929,
+          -4.819999933242798
+        ],
+        "position": [
+          69.8199999332428,
+          76.34266669348875
+        ],
+        "approach": [
+          72.19999995231629,
+          76.34266669348875
+        ],
+        "status": "derived_from_current_Z2_threshold; hinge and gameplay still pending"
+      },
+      "narrative_is_canon": false,
+      "structural_damage_added": false,
+      "street_vegetation_changed": false,
+      "future_interior_built": false,
+      "service_path": [
+        [
+          73.6,
+          74.5
+        ],
+        [
+          73.6,
+          94.3
+        ],
+        [
+          68.3,
+          94.3
+        ]
+      ],
+      "service_width_m": 1.2,
+      "raise_legacy_objects_m": {
+        "SEATING_H24": 0.123
+      },
+      "geometry_adjustments": [
+        "Service route refined after actual Godot shape sweeps; stop outside closed utility doors and avoid posts/furniture. Received coordinates remain intact in the art contract."
+      ],
+      "id": "H24",
+      "new_props": [
+        {
+          "id": "H24_VESTIGIOS_0",
+          "position_xz_m": [
+            68.3,
+            98
+          ],
+          "kind": "static_domestic_storage",
+          "narrative_is_canon": false
+        },
+        {
+          "id": "H24_VESTIGIOS_1",
+          "position_xz_m": [
+            73.3,
+            99.4
+          ],
+          "kind": "static_domestic_storage",
+          "narrative_is_canon": false
+        }
+      ],
+      "new_prop_families": [
+        "domino_set",
+        "thermos",
+        "mugs",
+        "bench",
+        "forgotten_chair",
+        "pots"
+      ],
+      "triangles": 21000
+    },
+    "H25": {
+      "enabled": true,
+      "master_candidate": true,
+      "next_master_candidate": true,
+      "third_master_candidate": true,
+      "revision": "H25-ART-REV03",
+      "direction_approved": true,
+      "prototype_execution_authorized": true,
+      "visual_homologation": false,
+      "main_promotion_authorized": false,
+      "source_asset": "HAB_249",
+      "sector": "S04",
+      "base_snapshot": "4802e8c233f66a4ad377bcc7",
+      "building_position": [
+        108.16666666666666,
+        0,
+        75.42899988555908
+      ],
+      "building_yaw": 270,
+      "visual_offset": [
+        -0.0,
+        -0.0,
+        0.619999885559082
+      ],
+      "visual_path": "res://staging/e06_world/arroio/assets/master_h21_h30_rev01/H25.gltf",
+      "body_bounds_xz": [
+        102.46666666666663,
+        73.309,
+        113.86666666666663,
+        81.69899977111815
+      ],
+      "body_center_xz": [
+        108.16666666666663,
+        77.50399988555907
+      ],
+      "body_width_m": 11.400000000000006,
+      "body_depth_m": 8.389999771118156,
+      "gate_original": {
+        "center": [
+          112.51232349545444,
+          70.059
+        ],
+        "along": [
+          1.0,
+          0.0
+        ],
+        "inward": [
+          -0.0,
+          1.0
+        ],
+        "opening_width_m": 3.6,
+        "leaf_state": "open; no interaction script"
+      },
+      "gate_center": [
+        108.167,
+        70.059
+      ],
+      "gate_width_m": 3.6,
+      "door_xz": [
+        108.167,
+        73.309
+      ],
+      "front_direction": -1,
+      "floor_m": 0.28,
+      "eave_m": 2.95,
+      "ridge_m": 4.2,
+      "wall_color": [
+        0.78,
+        0.76,
+        0.63
+      ],
+      "wood_house": false,
+      "gray_roof": false,
+      "hip_roof": false,
+      "porch_depth_m": 0.5,
+      "porch_width_m": 1.8,
+      "candidate_translation_xyz": [
+        0,
+        0,
+        2.25
+      ],
+      "front_walls_to_recompose": [
+        "WALL_017",
+        "WALL_018"
+      ],
+      "access_path": [
+        [
+          108.167,
+          70.059
+        ],
+        [
+          108.167,
+          73.309
+        ]
+      ],
+      "access_width_m": 1.9,
+      "object_moves": [
+        {
+          "id": "DETAIL_H25_compost_bin",
+          "from_xz": [
+            118,
+            89
+          ],
+          "candidate_xz": [
+            116.2,
+            92.5
+          ],
+          "reason": "evitar bloqueio do novo caminho de serviço e manter composteira próxima da horta",
+          "candidate_only": true
+        }
+      ],
+      "extra_structures": [
+        {
+          "id": "H25_ABRIGO_FERRAMENTAS",
+          "bounds": [
+            115.5,
+            99.9,
+            119,
+            102.9
+          ],
+          "kind": "tool_store",
+          "front_direction": -1,
+          "floor": 0.12,
+          "eave": 2.4,
+          "ridge": 2.85,
+          "door_xz": [
+            117.25,
+            99.9
+          ]
+        }
+      ],
+      "site_features": [],
+      "vehicle_gates": [],
+      "preserve_side_entry_reference": true,
+      "original_side_entry_reference": {
+        "mesh_name": "HAB_249_SOLEIRA_FRONTAL",
+        "local_center": [
+          -0.44999997317790985,
+          0.2800000011920929,
+          -5.140000104904175
+        ],
+        "local_anchor_xyz": [
+          -0.44999997317790985,
+          0.2800000011920929,
+          -4.520000219345093
+        ],
+        "position": [
+          112.68666688601175,
+          74.97899991238117
+        ],
+        "approach": [
+          115.06666666666666,
+          74.97899991238117
+        ],
+        "status": "derived_from_current_Z2_threshold; hinge and gameplay still pending"
+      },
+      "narrative_is_canon": false,
+      "structural_damage_added": false,
+      "street_vegetation_changed": false,
+      "future_interior_built": false,
+      "service_path": [
+        [
+          118.7,
+          83.5
+        ],
+        [
+          118.7,
+          95.9
+        ],
+        [
+          117.25,
+          99.5
+        ]
+      ],
+      "service_width_m": 1.2,
+      "id": "H25",
+      "new_props": [
+        {
+          "id": "H25_VESTIGIOS_0",
+          "position_xz_m": [
+            117.9,
+            101.8
+          ],
+          "kind": "static_domestic_storage",
+          "narrative_is_canon": false
+        },
+        {
+          "id": "H25_VESTIGIOS_1",
+          "position_xz_m": [
+            100.3,
+            89.8
+          ],
+          "kind": "static_domestic_storage",
+          "narrative_is_canon": false
+        }
+      ],
+      "new_prop_families": [
+        "old_clothes",
+        "plant_labels",
+        "washing_basins",
+        "wheelbarrow",
+        "potting_bench",
+        "stored_tools"
+      ],
+      "triangles": 8950
+    },
+    "H26": {
+      "enabled": true,
+      "master_candidate": true,
+      "next_master_candidate": true,
+      "third_master_candidate": true,
+      "revision": "H26-ART-REV01",
+      "direction_approved": true,
+      "prototype_execution_authorized": true,
+      "visual_homologation": false,
+      "main_promotion_authorized": false,
+      "source_asset": "HAB_351",
+      "sector": "S04",
+      "base_snapshot": "4802e8c233f66a4ad377bcc7",
+      "building_position": [
+        136.0,
+        0,
+        77.40799999999999
+      ],
+      "building_yaw": 180,
+      "visual_offset": [
+        -0.0,
+        -0.0,
+        -0.20000004768371582
+      ],
+      "visual_path": "res://staging/e06_world/arroio/assets/master_h21_h30_rev01/H26.gltf",
+      "body_bounds_xz": [
+        132.20000009536744,
+        73.2080001431,
+        139.79999990463256,
+        85.65799985694885
+      ],
+      "body_center_xz": [
+        136.0,
+        79.43300000002442
+      ],
+      "body_width_m": 7.599999809265114,
+      "body_depth_m": 12.449999713848854,
+      "gate_original": {
+        "center": [
+          137.09642813041182,
+          69.75966666666666
+        ],
+        "along": [
+          1.0,
+          0.0
+        ],
+        "inward": [
+          -0.0,
+          1.0
+        ],
+        "opening_width_m": 3.6,
+        "leaf_state": "open; no interaction script"
+      },
+      "gate_center": [
+        137.0964281304,
+        69.7596666667
+      ],
+      "gate_width_m": 1.8,
+      "door_xz": [
+        136.3,
+        73.2080001431
+      ],
+      "front_direction": -1,
+      "floor_m": 0.28,
+      "eave_m": 2.95,
+      "ridge_m": 4.2,
+      "wall_color": [
+        0.83,
+        0.77,
+        0.49
+      ],
+      "wood_house": false,
+      "gray_roof": false,
+      "hip_roof": false,
+      "porch_depth_m": 0.5,
+      "porch_width_m": 1.8,
+      "candidate_translation_xyz": [
+        0,
+        0,
+        2.2
+      ],
+      "front_walls_to_recompose": [
+        "WALL_015",
+        "WALL_016"
+      ],
+      "access_path": [
+        [
+          137.0964281304,
+          69.7596666667
+        ],
+        [
+          136.3,
+          73.2080001431
+        ]
+      ],
+      "access_width_m": 1.5,
+      "object_moves": [
+        {
+          "id": "DETAIL_H26_pot_cluster",
+          "from_xz": [
+            133,
+            86
+          ],
+          "candidate_xz": [
+            130.0,
+            90.0
+          ],
+          "reason": "Vasos deslocados para desocupar a parede posterior, onde poderá haver futura ala de serviço.",
+          "candidate_only": true
+        },
+        {
+          "id": "DETAIL_H26_log_stack",
+          "from_xz": [
+            137,
+            88
+          ],
+          "candidate_xz": [
+            122.8,
+            83.7
+          ],
+          "reason": "Lenha deslocada para pátio seco, fora da reserva do futuro interior.",
+          "candidate_only": true
+        },
+        {
+          "id": "DETAIL_H26_compost_bin",
+          "from_xz": [
+            139,
+            94
+          ],
+          "candidate_xz": [
+            141.0,
+            98.0
+          ],
+          "reason": "Composteira além do galinheiro e próxima da horta, sem ocupar o recinto das aves.",
+          "candidate_only": true
+        },
+        {
+          "id": "DETAIL_H26_chicken_coop",
+          "from_xz": [
+            137,
+            76
+          ],
+          "candidate_xz": [
+            139.4,
+            92.0
+          ],
+          "reason": "O centro cadastrado [137,76] encontra-se dentro da projeção da casa; recriar no núcleo de criação traseiro.",
+          "candidate_only": true
+        },
+        {
+          "id": "RAIN_BARREL_H26",
+          "from_xz": [
+            135,
+            80
+          ],
+          "candidate_xz": [
+            130.0,
+            81.0
+          ],
+          "reason": "Barril cadastrado [135,80] atravessa a casa; novo apoio externo ao lado oeste.",
+          "candidate_only": true
+        },
+        {
+          "id": "FLOWER_BORDER_H26",
+          "from_xz": [
+            141,
+            88
+          ],
+          "candidate_xz": [
+            142.0,
+            102.0
+          ],
+          "reason": "Canteiro reconstruído no fundo para preservar a circulação lateral de serviço.",
+          "candidate_only": true
+        }
+      ],
+      "extra_structures": [
+        {
+          "id": "H26_GARAGEM",
+          "bounds": [
+            122.5,
+            73.4,
+            127.5,
+            79.6
+          ],
+          "kind": "carport",
+          "front_direction": -1,
+          "floor": 0.12,
+          "eave": 2.4,
+          "ridge": 2.85,
+          "door_xz": [
+            125.0,
+            73.4
+          ]
+        },
+        {
+          "id": "H26_GALINHEIRO",
+          "bounds": [
+            136.9,
+            90.1,
+            141.9,
+            93.9
+          ],
+          "kind": "coop",
+          "front_direction": -1,
+          "floor": 0.12,
+          "eave": 2.4,
+          "ridge": 2.85,
+          "door_xz": [
+            139.4,
+            90.1
+          ]
+        }
+      ],
+      "site_features": [],
+      "vehicle_gates": [
+        {
+          "id": "H26_VehicleGate",
+          "center": [
+            125,
+            69.7596666667
+          ],
+          "opening_width_m": 3.2,
+          "driveway_width_m": 2.85,
+          "along": [
+            1,
+            0
+          ],
+          "inward": [
+            0,
+            1
+          ],
+          "leaf_length_m": 1.48,
+          "leaf_collision_height_m": 0.86,
+          "driveway_points": [
+            [
+              125,
+              69.7596666667
+            ],
+            [
+              125,
+              73.4
+            ]
+          ]
+        }
+      ],
+      "preserve_side_entry_reference": true,
+      "original_side_entry_reference": {
+        "mesh_name": "HAB_351_ACESSO_SOLEIRA_FRENTE",
+        "local_center": [
+          -0.41999998688697815,
+          0.2800000011920929,
+          -5.4649999141693115
+        ],
+        "local_anchor_xyz": [
+          -0.41999998688697815,
+          0.2800000011920929,
+          -5.664999961853027
+        ],
+        "position": [
+          136.41999998688698,
+          83.07299996185301
+        ],
+        "approach": [
+          136.41999998688698,
+          84.70799985694885
+        ],
+        "status": "derived_from_current_Z2_threshold; hinge and gameplay still pending"
+      },
+      "narrative_is_canon": false,
+      "structural_damage_added": false,
+      "street_vegetation_changed": false,
+      "future_interior_built": false,
+      "service_path": [
+        [
+          136.42,
+          86.9
+        ],
+        [
+          142.7,
+          87.4
+        ],
+        [
+          142.7,
+          92
+        ],
+        [
+          142.7,
+          95.1
+        ]
+      ],
+      "service_width_m": 1.2,
+      "replace_legacy_object": "DETAIL_H26_chicken_coop",
+      "id": "H26",
+      "new_props": [
+        {
+          "id": "H26_VESTIGIOS_0",
+          "position_xz_m": [
+            123.8,
+            78.7
+          ],
+          "kind": "static_domestic_storage",
+          "narrative_is_canon": false
+        },
+        {
+          "id": "H26_VESTIGIOS_1",
+          "position_xz_m": [
+            140.8,
+            92.7
+          ],
+          "kind": "static_domestic_storage",
+          "narrative_is_canon": false
+        }
+      ],
+      "new_prop_families": [
+        "nest_boxes",
+        "roost",
+        "old_feeders",
+        "garden_tools"
+      ],
+      "triangles": 8692
+    },
+    "H27": {
+      "enabled": true,
+      "master_candidate": true,
+      "next_master_candidate": true,
+      "third_master_candidate": true,
+      "revision": "H27-ART-REV01",
+      "direction_approved": true,
+      "prototype_execution_authorized": true,
+      "visual_homologation": false,
+      "main_promotion_authorized": false,
+      "source_asset": "HAB_250",
+      "sector": "S04",
+      "base_snapshot": "4802e8c233f66a4ad377bcc7",
+      "building_position": [
+        214.5,
+        0,
+        83.12133333333333
+      ],
+      "building_yaw": 90,
+      "visual_offset": [
+        -0.08249998092651367,
+        -0.0,
+        -0.019999980926513672
+      ],
+      "visual_path": "res://staging/e06_world/arroio/assets/master_h21_h30_rev01/H27.gltf",
+      "body_bounds_xz": [
+        207.97000007629396,
+        78.3788,
+        221.02999992370604,
+        87.51383316167197
+      ],
+      "body_center_xz": [
+        214.5,
+        82.94631658083598
+      ],
+      "body_width_m": 13.059999847412087,
+      "body_depth_m": 9.13503316167197,
+      "gate_original": {
+        "center": [
+          211.16773459007595,
+          75.10300000000001
+        ],
+        "along": [
+          1.0,
+          0.0
+        ],
+        "inward": [
+          -0.0,
+          1.0
+        ],
+        "opening_width_m": 3.6,
+        "leaf_state": "open; no interaction script"
+      },
+      "gate_center": [
+        214.6,
+        75.103
+      ],
+      "gate_width_m": 1.8,
+      "door_xz": [
+        214.6,
+        78.3788
+      ],
+      "front_direction": -1,
+      "floor_m": 0.28,
+      "eave_m": 2.95,
+      "ridge_m": 4.2,
+      "wall_color": [
+        0.46,
+        0.6,
+        0.56
+      ],
+      "wood_house": false,
+      "gray_roof": true,
+      "hip_roof": false,
+      "porch_depth_m": 0.5,
+      "porch_width_m": 1.8,
+      "candidate_translation_xyz": [
+        0,
+        0,
+        0
+      ],
+      "front_walls_to_recompose": [
+        "WALL_023",
+        "WALL_024"
+      ],
+      "access_path": [
+        [
+          214.6,
+          75.103
+        ],
+        [
+          214.6,
+          78.3788
+        ]
+      ],
+      "access_width_m": 1.9,
+      "object_moves": [
+        {
+          "id": "DETAIL_H27_pot_cluster",
+          "from_xz": [
+            220,
+            90
+          ],
+          "candidate_xz": [
+            224.0,
+            90.0
+          ],
+          "reason": "Liberar a reserva de ampliação posterior da residência; manter vasos no pátio lateral, fora da circulação.",
+          "candidate_only": true
+        },
+        {
+          "id": "DETAIL_H27_log_stack",
+          "from_xz": [
+            212,
+            92
+          ],
+          "candidate_xz": [
+            224.6,
+            106.8
+          ],
+          "reason": "Manter a lenha em base seca no canto do ateliê, afastada da rota de serviço e da reserva de ampliação; verificar folgas reais com muro e beiral.",
+          "candidate_only": true
+        },
+        {
+          "id": "DETAIL_H27_compost_bin",
+          "from_xz": [
+            222,
+            98
+          ],
+          "candidate_xz": [
+            224.0,
+            100.0
+          ],
+          "reason": "Desobstruir passagem de serviço ao cômodo de costura; manter composteira na região da horta/treliça.",
+          "candidate_only": true
+        },
+        {
+          "id": "RAIN_BARREL_H27",
+          "from_xz": [
+            214,
+            88
+          ],
+          "candidate_xz": [
+            214.1,
+            89.4
+          ],
+          "reason": "Barril existente tem raio nominal que atravessa a projeção posterior da casa; recolocar a 1,54 m da parede, com apoio e descida de água candidata.",
+          "candidate_only": true
+        }
+      ],
+      "extra_structures": [
+        {
+          "id": "H27_ATELIER",
+          "bounds": [
+            218.6,
+            103,
+            222.6,
+            107.1
+          ],
+          "kind": "atelier",
+          "front_direction": -1,
+          "floor": 0.12,
+          "eave": 2.4,
+          "ridge": 2.85,
+          "door_xz": [
+            220.6,
+            103
+          ]
+        }
+      ],
+      "site_features": [],
+      "vehicle_gates": [],
+      "preserve_side_entry_reference": true,
+      "original_side_entry_reference": {
+        "mesh_name": "HAB_250_SOLEIRA_FRONTAL",
+        "local_center": [
+          0.0,
+          0.3499999940395355,
+          -5.329999923706055
+        ],
+        "local_anchor_xyz": [
+          -0.08249998092651367,
+          0.3499999940395355,
+          -5.349999904632568
+        ],
+        "position": [
+          209.15000009536743,
+          83.20383331425984
+        ],
+        "approach": [
+          206.77000007629394,
+          83.20383331425984
+        ],
+        "status": "derived_from_current_Z2_threshold; hinge and gameplay still pending"
+      },
+      "narrative_is_canon": false,
+      "structural_damage_added": false,
+      "street_vegetation_changed": false,
+      "future_interior_built": false,
+      "service_path": [
+        [
+          214.6,
+          75.103
+        ],
+        [
+          214.6,
+          76.35
+        ],
+        [
+          205,
+          76.35
+        ],
+        [
+          205,
+          89.4
+        ],
+        [
+          210.7,
+          89.9
+        ],
+        [
+          215.8,
+          95.6
+        ],
+        [
+          220.5,
+          97
+        ],
+        [
+          220.6,
+          101.8
+        ]
+      ],
+      "service_width_m": 1.1,
+      "geometry_adjustments": [
+        "Service route refined after actual Godot shape sweeps; stop outside closed utility doors and avoid posts/furniture. Received coordinates remain intact in the art contract."
+      ],
+      "id": "H27",
+      "new_props": [
+        {
+          "id": "H27_VESTIGIOS_0",
+          "position_xz_m": [
+            222,
+            106.5
+          ],
+          "kind": "static_domestic_storage",
+          "narrative_is_canon": false
+        },
+        {
+          "id": "H27_VESTIGIOS_1",
+          "position_xz_m": [
+            215,
+            105
+          ],
+          "kind": "static_domestic_storage",
+          "narrative_is_canon": false
+        }
+      ],
+      "deferred_sewing_machine": "Interior furnishing deferred with the approved interior reservation; no furnished playable room inferred.",
+      "new_prop_families": [
+        "fabric_workbench",
+        "textile_boxes",
+        "fabric_remnants"
+      ],
+      "triangles": 7012
+    },
+    "H28": {
+      "enabled": true,
+      "master_candidate": true,
+      "next_master_candidate": true,
+      "third_master_candidate": true,
+      "revision": "H28-ART-REV01",
+      "direction_approved": true,
+      "prototype_execution_authorized": true,
+      "visual_homologation": false,
+      "main_promotion_authorized": false,
+      "source_asset": "HAB_213",
+      "sector": "S04",
+      "base_snapshot": "4802e8c233f66a4ad377bcc7",
+      "building_position": [
+        38.5,
+        0,
+        52.969333333333324
+      ],
+      "building_yaw": 90,
+      "visual_offset": [
+        -0.0,
+        -0.0,
+        0.029999971389770508
+      ],
+      "visual_path": "res://staging/e06_world/arroio/assets/master_h21_h30_rev01/H28.gltf",
+      "body_bounds_xz": [
+        33.44000010490417,
+        48.224333543141675,
+        43.55999989509583,
+        58.0643
+      ],
+      "body_center_xz": [
+        38.5,
+        53.14431677157084
+      ],
+      "body_width_m": 10.119999790191656,
+      "body_depth_m": 9.839966456858328,
+      "gate_original": {
+        "center": [
+          33.515688859751194,
+          60.876666666666665
+        ],
+        "along": [
+          -1.0,
+          0.0
+        ],
+        "inward": [
+          -0.0,
+          -1.0
+        ],
+        "opening_width_m": 3.6,
+        "leaf_state": "open; no interaction script"
+      },
+      "gate_center": [
+        38.5,
+        60.8767
+      ],
+      "gate_width_m": 1.8,
+      "door_xz": [
+        38.5,
+        58.0643
+      ],
+      "front_direction": 1,
+      "floor_m": 0.28,
+      "eave_m": 2.95,
+      "ridge_m": 4.2,
+      "wall_color": [
+        0.66,
+        0.61,
+        0.48
+      ],
+      "wood_house": true,
+      "gray_roof": false,
+      "hip_roof": false,
+      "porch_depth_m": 0.5,
+      "porch_width_m": 1.8,
+      "candidate_translation_xyz": [
+        0,
+        0,
+        0
+      ],
+      "front_walls_to_recompose": [
+        "WALL_011",
+        "WALL_012"
+      ],
+      "access_path": [
+        [
+          38.5,
+          60.8767
+        ],
+        [
+          38.5,
+          58.0643
+        ]
+      ],
+      "access_width_m": 1.9,
+      "object_moves": [
+        {
+          "id": "RAIN_BARREL_H28",
+          "from_xz": [
+            31,
+            51
+          ],
+          "candidate_xz": [
+            28.45,
+            50.75
+          ],
+          "reason": "Shift water barrel 2.55m west to clear longitudinal rear service corridor; preserve object and relation to house drainage.",
+          "candidate_only": true
+        }
+      ],
+      "extra_structures": [
+        {
+          "id": "H28_OFICINA",
+          "bounds": [
+            28.4,
+            30.7,
+            32.9,
+            35.5
+          ],
+          "kind": "bike_shop",
+          "front_direction": 1,
+          "floor": 0.12,
+          "eave": 2.4,
+          "ridge": 2.85,
+          "door_xz": [
+            30.65,
+            35.5
+          ]
+        }
+      ],
+      "site_features": [],
+      "vehicle_gates": [],
+      "preserve_side_entry_reference": true,
+      "original_side_entry_reference": {
+        "mesh_name": "HAB_213_SOLEIRA_FRONTAL",
+        "local_center": [
+          -0.44999997317790985,
+          0.2800000011920929,
+          -5.0899999141693115
+        ],
+        "local_anchor_xyz": [
+          -0.44999997317790985,
+          0.2800000011920929,
+          -5.059999942779541
+        ],
+        "position": [
+          33.44000005722046,
+          53.419333306511234
+        ],
+        "approach": [
+          32.240000104904176,
+          53.419333306511234
+        ],
+        "status": "derived_from_current_Z2_threshold; hinge and gameplay still pending"
+      },
+      "narrative_is_canon": false,
+      "structural_damage_added": false,
+      "street_vegetation_changed": false,
+      "future_interior_built": false,
+      "service_path": [
+        [
+          38.5,
+          60.8767
+        ],
+        [
+          38.5,
+          59.85
+        ],
+        [
+          30.85,
+          59.85
+        ],
+        [
+          30.85,
+          35.5
+        ]
+      ],
+      "service_width_m": 1.12,
+      "id": "H28",
+      "new_props": [
+        {
+          "id": "H28_VESTIGIOS_0",
+          "position_xz_m": [
+            32.1,
+            31.3
+          ],
+          "kind": "static_domestic_storage",
+          "narrative_is_canon": false
+        },
+        {
+          "id": "H28_VESTIGIOS_1",
+          "position_xz_m": [
+            48.2,
+            39.5
+          ],
+          "kind": "static_domestic_storage",
+          "narrative_is_canon": false
+        }
+      ],
+      "new_prop_families": [
+        "bike_frame",
+        "child_bicycle",
+        "wheel_rack",
+        "parts_shelf",
+        "watering_can",
+        "shade_bench",
+        "buckets"
+      ],
+      "triangles": 13004
+    },
+    "H29": {
+      "enabled": true,
+      "master_candidate": true,
+      "next_master_candidate": true,
+      "third_master_candidate": true,
+      "revision": "H29-ART-REV01",
+      "direction_approved": true,
+      "prototype_execution_authorized": true,
+      "visual_homologation": false,
+      "main_promotion_authorized": false,
+      "source_asset": "HAB_191",
+      "sector": "S04",
+      "base_snapshot": "4802e8c233f66a4ad377bcc7",
+      "building_position": [
+        61.5,
+        0,
+        55.066
+      ],
+      "building_yaw": 90,
+      "visual_offset": [
+        -0.0,
+        -0.0,
+        0.6200001239776611
+      ],
+      "visual_path": "res://staging/e06_world/arroio/assets/master_h21_h30_rev01/H29.gltf",
+      "body_bounds_xz": [
+        55.07999997138977,
+        49.95099994277956,
+        67.92000002861023,
+        57.231
+      ],
+      "body_center_xz": [
+        61.5,
+        53.59099997138978
+      ],
+      "body_width_m": 12.840000057220465,
+      "body_depth_m": 7.280000057220441,
+      "gate_original": {
+        "center": [
+          56.309478055948944,
+          60.714
+        ],
+        "along": [
+          -1.0,
+          0.0
+        ],
+        "inward": [
+          -0.0,
+          -1.0
+        ],
+        "opening_width_m": 3.6,
+        "leaf_state": "open; no interaction script"
+      },
+      "gate_center": [
+        61.5,
+        60.714
+      ],
+      "gate_width_m": 1.8,
+      "door_xz": [
+        61.5,
+        57.231
+      ],
+      "front_direction": 1,
+      "floor_m": 0.28,
+      "eave_m": 2.95,
+      "ridge_m": 4.2,
+      "wall_color": [
+        0.76,
+        0.65,
+        0.4
+      ],
+      "wood_house": false,
+      "gray_roof": true,
+      "hip_roof": false,
+      "porch_depth_m": 0.5,
+      "porch_width_m": 1.8,
+      "candidate_translation_xyz": [
+        0,
+        0,
+        -1.65
+      ],
+      "front_walls_to_recompose": [
+        "WALL_009",
+        "WALL_010"
+      ],
+      "access_path": [
+        [
+          61.5,
+          60.714
+        ],
+        [
+          61.5,
+          57.231
+        ]
+      ],
+      "access_width_m": 1.8,
+      "object_moves": [
+        {
+          "id": "SEATING_H29",
+          "from_xz": [
+            74,
+            55
+          ],
+          "candidate_xz": [
+            74.0,
+            44.0
+          ],
+          "reason": "Recolocar a mesa de 74,55, que seria coberta pela garagem, para um pátio sombreado com as três árvores protegidas.",
+          "candidate_only": true
+        },
+        {
+          "id": "RAIN_BARREL_H29",
+          "from_xz": [
+            64,
+            49
+          ],
+          "candidate_xz": [
+            65.5,
+            46.4
+          ],
+          "reason": "Recuo da casa candidata invade o raio nominal do barril; reposicionar junto à drenagem posterior.",
+          "candidate_only": true
+        },
+        {
+          "id": "FLOWER_BORDER_H29",
+          "from_xz": [
+            68,
+            47
+          ],
+          "candidate_xz": [
+            63.0,
+            43.5
+          ],
+          "reason": "Afastar antigo canteiro do eixo secundário de serviço, reinterpretando-o como canteiro de temperos tomado por mato.",
+          "candidate_only": true
+        }
+      ],
+      "extra_structures": [
+        {
+          "id": "H29_GARAGEM",
+          "bounds": [
+            71.3,
+            52,
+            76.7,
+            58.8
+          ],
+          "kind": "carport",
+          "front_direction": 1,
+          "floor": 0.12,
+          "eave": 2.4,
+          "ridge": 2.85,
+          "door_xz": [
+            74.0,
+            58.8
+          ]
+        },
+        {
+          "id": "H29_SELECAO_FRUTAS",
+          "bounds": [
+            55.2,
+            38.4,
+            60.2,
+            42.6
+          ],
+          "kind": "fruit_shelter",
+          "front_direction": 1,
+          "floor": 0.12,
+          "eave": 2.4,
+          "ridge": 2.85,
+          "door_xz": [
+            57.7,
+            42.6
+          ]
+        }
+      ],
+      "site_features": [],
+      "vehicle_gates": [
+        {
+          "id": "H29_VehicleGate",
+          "center": [
+            74,
+            60.714
+          ],
+          "opening_width_m": 3.3,
+          "driveway_width_m": 3.0,
+          "along": [
+            1,
+            0
+          ],
+          "inward": [
+            0,
+            -1
+          ],
+          "leaf_length_m": 1.5299999999999998,
+          "leaf_collision_height_m": 0.86,
+          "driveway_points": [
+            [
+              74,
+              60.714
+            ],
+            [
+              74,
+              58.8
+            ]
+          ]
+        }
+      ],
+      "preserve_side_entry_reference": true,
+      "original_side_entry_reference": {
+        "mesh_name": "HAB_191_SOLEIRA_FRONTAL",
+        "local_center": [
+          -2.540000081062317,
+          0.4300000071525574,
+          -5.859999895095825
+        ],
+        "local_anchor_xyz": [
+          -2.540000081062317,
+          0.4300000071525574,
+          -5.239999771118164
+        ],
+        "position": [
+          56.260000228881836,
+          57.60600008106232
+        ],
+        "approach": [
+          53.87999997138977,
+          57.60600008106232
+        ],
+        "status": "derived_from_current_Z2_threshold; hinge and gameplay still pending"
+      },
+      "narrative_is_canon": false,
+      "structural_damage_added": false,
+      "street_vegetation_changed": false,
+      "future_interior_built": false,
+      "service_path": [
+        [
+          61.5,
+          60.714
+        ],
+        [
+          61.5,
+          59.25
+        ],
+        [
+          53.4,
+          59.25
+        ],
+        [
+          53.4,
+          40.5
+        ],
+        [
+          55.2,
+          40.5
+        ]
+      ],
+      "service_width_m": 1.1,
+      "id": "H29",
+      "new_props": [
+        {
+          "id": "H29_VESTIGIOS_0",
+          "position_xz_m": [
+            75.8,
+            53
+          ],
+          "kind": "static_domestic_storage",
+          "narrative_is_canon": false
+        },
+        {
+          "id": "H29_VESTIGIOS_1",
+          "position_xz_m": [
+            59.6,
+            39.1
+          ],
+          "kind": "static_domestic_storage",
+          "narrative_is_canon": false
+        }
+      ],
+      "new_prop_families": [
+        "fruit_sorting_bench",
+        "analog_scale",
+        "empty_jars",
+        "delivery_handcart",
+        "shelf",
+        "baskets",
+        "buckets",
+        "shade_bench",
+        "blank_old_sign"
+      ],
+      "triangles": 3488
+    },
+    "H30": {
+      "enabled": true,
+      "master_candidate": true,
+      "next_master_candidate": true,
+      "third_master_candidate": true,
+      "revision": "H30-ART-REV01",
+      "direction_approved": true,
+      "prototype_execution_authorized": true,
+      "visual_homologation": false,
+      "main_promotion_authorized": false,
+      "source_asset": "HAB_222",
+      "sector": "S04",
+      "base_snapshot": "4802e8c233f66a4ad377bcc7",
+      "building_position": [
+        108.66666666666666,
+        0,
+        54.06600020980835
+      ],
+      "building_yaw": 90,
+      "visual_offset": [
+        -0.0,
+        -0.0,
+        0.029999971389770508
+      ],
+      "visual_path": "res://staging/e06_world/arroio/assets/master_h21_h30_rev01/H30.gltf",
+      "body_bounds_xz": [
+        104.09666654268896,
+        47.8460004196167,
+        113.23666679064429,
+        57.436
+      ],
+      "body_center_xz": [
+        108.66666666666663,
+        52.641000209808354
+      ],
+      "body_width_m": 9.140000247955328,
+      "body_depth_m": 9.5899995803833,
+      "gate_original": {
+        "center": [
+          104.28173978622699,
+          60.036
+        ],
+        "along": [
+          -1.0,
+          0.0
+        ],
+        "inward": [
+          -0.0,
+          -1.0
+        ],
+        "opening_width_m": 3.6,
+        "leaf_state": "open; no interaction script"
+      },
+      "gate_center": [
+        108.6667,
+        60.036
+      ],
+      "gate_width_m": 1.8,
+      "door_xz": [
+        108.6667,
+        57.436
+      ],
+      "front_direction": 1,
+      "floor_m": 0.28,
+      "eave_m": 2.95,
+      "ridge_m": 4.2,
+      "wall_color": [
+        0.83,
+        0.8,
+        0.67
+      ],
+      "wood_house": false,
+      "gray_roof": false,
+      "hip_roof": false,
+      "porch_depth_m": 0.5,
+      "porch_width_m": 1.8,
+      "candidate_translation_xyz": [
+        0,
+        0,
+        -1.6
+      ],
+      "front_walls_to_recompose": [
+        "WALL_007",
+        "WALL_008"
+      ],
+      "access_path": [
+        [
+          108.6667,
+          60.036
+        ],
+        [
+          108.6667,
+          57.436
+        ]
+      ],
+      "access_width_m": 1.8,
+      "object_moves": [
+        {
+          "id": "DETAIL_H30_pot_cluster",
+          "from_xz": [
+            108,
+            45
+          ],
+          "candidate_xz": [
+            98.8,
+            44.8
+          ],
+          "reason": "Vasos originais em (108,45) entram na área reservada de futura despensa; mover para perto da sementeira sem fechar o corredor.",
+          "candidate_only": true
+        },
+        {
+          "id": "DETAIL_H30_kitchen_garden",
+          "from_xz": [
+            94,
+            45
+          ],
+          "candidate_xz": [
+            95.0,
+            47.0
+          ],
+          "reason": "Deslocamento mínimo da horta para abrir lugar ao telado sem desmontar o caráter do quintal.",
+          "candidate_only": true
+        },
+        {
+          "id": "RAIN_BARREL_H30",
+          "from_xz": [
+            110,
+            47
+          ],
+          "candidate_xz": [
+            115.8,
+            46.3
+          ],
+          "reason": "Original barril em (110,47) toca a projeção posterior após o recuo de 1,60 m. Mover para ao lado da drenagem externa, fora da casa.",
+          "candidate_only": true
+        },
+        {
+          "id": "FLOWER_BORDER_H30",
+          "from_xz": [
+            102,
+            47
+          ],
+          "candidate_xz": [
+            97.8,
+            51.0
+          ],
+          "reason": "Antigo canteiro próximo da circulação de serviço; levar para uma posição que não estreite a passagem lateral.",
+          "candidate_only": true
+        }
+      ],
+      "extra_structures": [
+        {
+          "id": "H30_TELADO",
+          "bounds": [
+            89,
+            41.3,
+            92.8,
+            44.3
+          ],
+          "kind": "shade_nursery",
+          "front_direction": 1,
+          "floor": 0.12,
+          "eave": 2.4,
+          "ridge": 2.85,
+          "door_xz": [
+            90.9,
+            44.3
+          ]
+        }
+      ],
+      "site_features": [],
+      "vehicle_gates": [],
+      "preserve_side_entry_reference": true,
+      "original_side_entry_reference": {
+        "mesh_name": "HAB_222_SOLEIRA_FRONTAL",
+        "local_center": [
+          -0.44999997317790985,
+          0.23999999463558197,
+          -4.6000001430511475
+        ],
+        "local_anchor_xyz": [
+          -0.44999997317790985,
+          0.23999999463558197,
+          -4.570000171661377
+        ],
+        "position": [
+          104.09666649500528,
+          54.51600018298626
+        ],
+        "approach": [
+          102.89666654268899,
+          54.51600018298626
+        ],
+        "status": "derived_from_current_Z2_threshold; hinge and gameplay still pending"
+      },
+      "narrative_is_canon": false,
+      "structural_damage_added": false,
+      "street_vegetation_changed": false,
+      "future_interior_built": false,
+      "service_path": [
+        [
+          108.6667,
+          60.036
+        ],
+        [
+          108.6667,
+          58.5
+        ],
+        [
+          101.1,
+          58.5
+        ],
+        [
+          101.1,
+          42
+        ],
+        [
+          93.7,
+          42
+        ],
+        [
+          93.7,
+          44.9
+        ],
+        [
+          90.9,
+          44.9
+        ]
+      ],
+      "service_width_m": 1.1,
+      "geometry_adjustments": [
+        "Service route refined after actual Godot shape sweeps; stop outside closed utility doors and avoid posts/furniture. Received coordinates remain intact in the art contract."
+      ],
+      "id": "H30",
+      "new_props": [
+        {
+          "id": "H30_VESTIGIOS_0",
+          "position_xz_m": [
+            90,
+            43.6
+          ],
+          "kind": "static_domestic_storage",
+          "narrative_is_canon": false
+        },
+        {
+          "id": "H30_VESTIGIOS_1",
+          "position_xz_m": [
+            91.9,
+            43.6
+          ],
+          "kind": "static_domestic_storage",
+          "narrative_is_canon": false
+        }
+      ],
+      "new_prop_families": [
+        "eight_seed_trays",
+        "two_side_benches",
+        "six_seed_tins",
+        "three_watering_cans",
+        "four_substrate_sacks",
+        "feeders",
+        "nest_boxes",
+        "wheelbarrow",
+        "broom",
+        "garden_stakes"
+      ],
+      "triangles": 9280
+    }
+  }
+}

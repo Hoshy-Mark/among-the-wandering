@@ -25,7 +25,7 @@ func _physics_process(delta: float) -> void:
     var running=command_run
     var sprinting=command_sprint
     if not scripted:
-        input=Vector2(float(Input.is_physical_key_pressed(KEY_D) or Input.is_physical_key_pressed(KEY_RIGHT))-float(Input.is_physical_key_pressed(KEY_A) or Input.is_physical_key_pressed(KEY_LEFT)),float(Input.is_physical_key_pressed(KEY_S) or Input.is_physical_key_pressed(KEY_DOWN))-float(Input.is_physical_key_pressed(KEY_W) or Input.is_physical_key_pressed(KEY_UP)))
+        input=Vector2(float(Input.is_physical_key_pressed(KEY_D) or (not quick_slots_enabled and Input.is_physical_key_pressed(KEY_RIGHT)))-float(Input.is_physical_key_pressed(KEY_A) or (not quick_slots_enabled and Input.is_physical_key_pressed(KEY_LEFT))),float(Input.is_physical_key_pressed(KEY_S) or (not quick_slots_enabled and Input.is_physical_key_pressed(KEY_DOWN)))-float(Input.is_physical_key_pressed(KEY_W) or (not quick_slots_enabled and Input.is_physical_key_pressed(KEY_UP))))
         running=Input.is_physical_key_pressed(KEY_SHIFT)
         sprinting=running and Input.is_physical_key_pressed(KEY_CTRL)
     var previous=global_position

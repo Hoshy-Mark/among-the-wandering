@@ -1,0 +1,4 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="PackedScene" path="res://staging/e06_world/arroio/assets/interiors_h21_h30_rev01/H27.gltf" id="1"]
+[node name="H27_Interior" type="Node3D"]
+[node name="Model" parent="." instance=ExtResource("1")]

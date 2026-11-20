@@ -1,0 +1,591 @@
+{
+  "version": 1,
+  "balance_status": "provisional_for_review",
+  "dimensions": {
+    "affection": [
+      -100,
+      100
+    ],
+    "trust": [
+      -100,
+      100
+    ],
+    "respect": [
+      -100,
+      100
+    ],
+    "fear": [
+      0,
+      100
+    ],
+    "dependence": [
+      0,
+      100
+    ],
+    "obligation": [
+      0,
+      100
+    ],
+    "cooperation": [
+      -100,
+      100
+    ],
+    "intimacy": [
+      0,
+      100
+    ]
+  },
+  "dimension_labels": {
+    "affection": "Afeto",
+    "trust": "Confiança",
+    "respect": "Respeito",
+    "fear": "Medo",
+    "dependence": "Dependência",
+    "obligation": "Obrigação",
+    "cooperation": "Cooperação",
+    "intimacy": "Intimidade"
+  },
+  "skills": {
+    "persuasion": {
+      "label": "Persuasão",
+      "initial": 2
+    },
+    "perception": {
+      "label": "Percepção",
+      "initial": 2
+    },
+    "empathy": {
+      "label": "Empatia",
+      "initial": 2
+    },
+    "intimidation": {
+      "label": "Intimidação",
+      "initial": 2
+    }
+  },
+  "facts": {
+    "samuel_returned": {
+      "known_by": [
+        "samuel_henrique"
+      ],
+      "label": "Samuel voltou a Arroio há alguns meses."
+    },
+    "jorge_crimes_sorriso_feliz": {
+      "known_by": [
+        "jorge_luiz",
+        "renata_volker"
+      ],
+      "private": true
+    },
+    "armacao_jean": {
+      "known_by": [
+        "jorge_luiz",
+        "josue_medeira",
+        "ricardo_alberto"
+      ],
+      "private": true
+    },
+    "ricardo_alberto_criminal_past": {
+      "known_by": [
+        "ricardo_alberto",
+        "samuel_henrique"
+      ],
+      "private": true
+    },
+    "gabriel_mechanic": {
+      "known_by": [
+        "gabriel_pimenta"
+      ],
+      "label": "Gabriel trabalha com mecânica.",
+      "source": "narrative section 02/07"
+    },
+    "gabriel_church_helper": {
+      "known_by": [
+        "gabriel_pimenta",
+        "josue_medeira"
+      ],
+      "label": "Gabriel ajuda na igreja.",
+      "source": "narrative section 02/07; candidate public confirmation by the priest"
+    },
+    "josue_priest": {
+      "known_by": [
+        "josue_medeira"
+      ],
+      "label": "Josué é o padre.",
+      "source": "narrative section 02/02"
+    }
+  },
+  "characters": {
+    "jorge_luiz": {},
+    "josue_medeira": {},
+    "renata_volker": {},
+    "ricardo_medeiro": {},
+    "pietra_dos_santos": {},
+    "ricardo_alberto": {},
+    "gabriel_pimenta": {},
+    "ana_julia": {},
+    "samuel_henrique": {}
+  },
+  "flags": [
+    "privacy_respected",
+    "calm_accepted",
+    "personal_boundary",
+    "gabriel_privacy",
+    "gabriel_observed",
+    "gabriel_boundary",
+    "josue_privacy",
+    "josue_open",
+    "josue_boundary"
+  ],
+  "checks": {
+    "calm_request": {
+      "npc": "samuel_henrique",
+      "skill": "persuasion",
+      "difficulty": 10,
+      "retry": "improved_context",
+      "modifiers": [
+        {
+          "id": "privacy",
+          "flag": "privacy_respected",
+          "value": 1,
+          "label": "Respeitou o espaço dele"
+        },
+        {
+          "id": "perceived",
+          "check_success": "observe",
+          "value": 1,
+          "label": "Observou sua reação"
+        },
+        {
+          "id": "trusted",
+          "relation": "trust",
+          "minimum": 2,
+          "value": 1,
+          "label": "Confiança conquistada"
+        }
+      ]
+    },
+    "observe": {
+      "npc": "samuel_henrique",
+      "skill": "perception",
+      "difficulty": 9,
+      "retry": "once",
+      "modifiers": []
+    },
+    "gabriel_observe": {
+      "npc": "gabriel_pimenta",
+      "skill": "perception",
+      "difficulty": 9,
+      "retry": "once",
+      "modifiers": []
+    },
+    "josue_calm": {
+      "npc": "josue_medeira",
+      "skill": "persuasion",
+      "difficulty": 10,
+      "retry": "improved_context",
+      "modifiers": [
+        {
+          "id": "privacy",
+          "flag": "josue_privacy",
+          "value": 1,
+          "label": "Respeitou o espaço dele"
+        }
+      ]
+    }
+  },
+  "dialogues": {
+    "samuel_henrique": {
+      "start": "root",
+      "writing_status": "candidate_non_secret_conversation_for_review",
+      "nodes": {
+        "root": {
+          "line": "Sou Samuel Henrique.",
+          "options": [
+            {
+              "id": "origin",
+              "text": "Você é daqui?",
+              "target": "origin",
+              "once": false,
+              "learn": "samuel_returned"
+            },
+            {
+              "id": "privacy",
+              "text": "Prefiro não insistir em assuntos pessoais.",
+              "target": "privacy",
+              "once": true,
+              "flag": "privacy_respected",
+              "effects": {
+                "respect": 2,
+                "trust": 1
+              }
+            },
+            {
+              "id": "calm",
+              "text": "Podemos conversar com mais calma?",
+              "check": "calm_request",
+              "success": "calm_yes",
+              "failure": "calm_no",
+              "requires_fact": "samuel_returned",
+              "hide_unmet": true
+            },
+            {
+              "id": "observe",
+              "text": "Observar sua reação.",
+              "check": "observe",
+              "success": "observe_yes",
+              "failure": "observe_no"
+            },
+            {
+              "id": "personal",
+              "text": "Podemos falar de algo mais pessoal?",
+              "target": "personal",
+              "once": true,
+              "requires_relations": {
+                "trust": 2,
+                "intimacy": 1
+              },
+              "flag": "personal_boundary"
+            },
+            {
+              "id": "farewell",
+              "text": "Conversar depois.",
+              "exit": true
+            }
+          ]
+        },
+        "origin": {
+          "line": "Voltei a Arroio há alguns meses.",
+          "options": [
+            {
+              "id": "back",
+              "text": "Continuar a conversa.",
+              "target": "root"
+            }
+          ]
+        },
+        "privacy": {
+          "line": "Tudo bem. Podemos nos conhecer aos poucos.",
+          "options": [
+            {
+              "id": "back",
+              "text": "Continuar a conversa.",
+              "target": "root"
+            }
+          ]
+        },
+        "calm_yes": {
+          "line": "Podemos. O que você quer saber?",
+          "on_enter": {
+            "flag": "calm_accepted",
+            "effects": {
+              "trust": 1,
+              "cooperation": 1,
+              "intimacy": 1
+            }
+          },
+          "options": [
+            {
+              "id": "back",
+              "text": "Continuar a conversa.",
+              "target": "root"
+            }
+          ]
+        },
+        "calm_no": {
+          "line": "Agora prefiro uma conversa breve.",
+          "options": [
+            {
+              "id": "back",
+              "text": "Continuar a conversa.",
+              "target": "root"
+            }
+          ]
+        },
+        "observe_yes": {
+          "line": "Ele parece disposto a ouvir, mas escolhe as palavras com cuidado.",
+          "kind": "narration",
+          "options": [
+            {
+              "id": "back",
+              "text": "Continuar a conversa.",
+              "target": "root"
+            }
+          ]
+        },
+        "observe_no": {
+          "line": "Não fica claro o que ele está pensando.",
+          "kind": "narration",
+          "options": [
+            {
+              "id": "back",
+              "text": "Continuar a conversa.",
+              "target": "root"
+            }
+          ]
+        },
+        "personal": {
+          "line": "Prefiro deixar esse assunto para outro momento.",
+          "options": [
+            {
+              "id": "back",
+              "text": "Continuar a conversa.",
+              "target": "root"
+            }
+          ]
+        }
+      }
+    },
+    "gabriel_pimenta": {
+      "start": "root",
+      "writing_status": "candidate_public_facts_and_non_secret_conversation_for_review",
+      "nodes": {
+        "root": {
+          "line": "Sou Gabriel Pimenta.",
+          "options": [
+            {
+              "id": "occupation",
+              "text": "Com o que você trabalha?",
+              "target": "occupation",
+              "learn": "gabriel_mechanic"
+            },
+            {
+              "id": "church",
+              "text": "Você ajuda na igreja?",
+              "target": "church",
+              "learn": "gabriel_church_helper"
+            },
+            {
+              "id": "privacy",
+              "text": "Não precisa falar de assuntos pessoais.",
+              "target": "privacy",
+              "once": true,
+              "flag": "gabriel_privacy",
+              "effects": {
+                "trust": 1,
+                "respect": 2
+              }
+            },
+            {
+              "id": "observe",
+              "text": "Observar sua reação.",
+              "check": "gabriel_observe",
+              "success": "observe_yes",
+              "failure": "observe_no"
+            },
+            {
+              "id": "personal",
+              "text": "Podemos falar de você?",
+              "target": "personal",
+              "once": true,
+              "requires_relations": {
+                "trust": 1
+              },
+              "flag": "gabriel_boundary"
+            },
+            {
+              "id": "farewell",
+              "text": "Conversar depois.",
+              "exit": true
+            }
+          ]
+        },
+        "occupation": {
+          "line": "Trabalho com mecânica.",
+          "options": [
+            {
+              "id": "back",
+              "text": "Continuar a conversa.",
+              "target": "root"
+            }
+          ]
+        },
+        "church": {
+          "line": "Também ajudo na igreja, quando é preciso.",
+          "options": [
+            {
+              "id": "back",
+              "text": "Continuar a conversa.",
+              "target": "root"
+            }
+          ]
+        },
+        "privacy": {
+          "line": "Obrigado. Prefiro ir com calma.",
+          "options": [
+            {
+              "id": "back",
+              "text": "Continuar a conversa.",
+              "target": "root"
+            }
+          ]
+        },
+        "observe_yes": {
+          "line": "Gabriel olha para a entrada da igreja antes de voltar a olhar para você.",
+          "options": [
+            {
+              "id": "back",
+              "text": "Continuar a conversa.",
+              "target": "root"
+            }
+          ],
+          "kind": "narration",
+          "on_enter": {
+            "flag": "gabriel_observed"
+          }
+        },
+        "observe_no": {
+          "line": "Você não percebe uma reação clara.",
+          "options": [
+            {
+              "id": "back",
+              "text": "Continuar a conversa.",
+              "target": "root"
+            }
+          ],
+          "kind": "narration"
+        },
+        "personal": {
+          "line": "Por enquanto, prefiro ficar no trabalho.",
+          "options": [
+            {
+              "id": "back",
+              "text": "Continuar a conversa.",
+              "target": "root"
+            }
+          ]
+        }
+      }
+    },
+    "josue_medeira": {
+      "start": "root",
+      "writing_status": "candidate_public_facts_and_non_secret_conversation_for_review",
+      "nodes": {
+        "root": {
+          "line": "Sou Josué Medeira, o padre.",
+          "options": [
+            {
+              "id": "occupation",
+              "text": "Você cuida da igreja?",
+              "target": "occupation",
+              "learn": "josue_priest"
+            },
+            {
+              "id": "gabriel",
+              "text": "Gabriel comentou que ajuda aqui.",
+              "target": "gabriel",
+              "requires_fact": "gabriel_church_helper",
+              "hide_unmet": true,
+              "learn": "gabriel_church_helper"
+            },
+            {
+              "id": "privacy",
+              "text": "Podemos deixar os assuntos pessoais para depois.",
+              "target": "privacy",
+              "once": true,
+              "flag": "josue_privacy",
+              "effects": {
+                "trust": 1,
+                "respect": 2
+              }
+            },
+            {
+              "id": "calm",
+              "text": "Podemos conversar com mais calma?",
+              "check": "josue_calm",
+              "success": "calm_yes",
+              "failure": "calm_no",
+              "requires_fact": "josue_priest",
+              "hide_unmet": true
+            },
+            {
+              "id": "personal",
+              "text": "Gostaria de falar sobre você.",
+              "target": "personal",
+              "once": true,
+              "requires_relations": {
+                "trust": 2,
+                "intimacy": 1
+              },
+              "flag": "josue_boundary"
+            },
+            {
+              "id": "farewell",
+              "text": "Conversar depois.",
+              "exit": true
+            }
+          ]
+        },
+        "occupation": {
+          "line": "Sim. Sou o padre. Vivo aqui perto da igreja.",
+          "options": [
+            {
+              "id": "back",
+              "text": "Continuar a conversa.",
+              "target": "root"
+            }
+          ]
+        },
+        "gabriel": {
+          "line": "Sim, Gabriel ajuda aqui.",
+          "options": [
+            {
+              "id": "back",
+              "text": "Continuar a conversa.",
+              "target": "root"
+            }
+          ]
+        },
+        "privacy": {
+          "line": "Certo. Vamos conversar aos poucos.",
+          "options": [
+            {
+              "id": "back",
+              "text": "Continuar a conversa.",
+              "target": "root"
+            }
+          ]
+        },
+        "calm_yes": {
+          "line": "Podemos. O que você quer perguntar?",
+          "options": [
+            {
+              "id": "back",
+              "text": "Continuar a conversa.",
+              "target": "root"
+            }
+          ],
+          "on_enter": {
+            "flag": "josue_open",
+            "effects": {
+              "trust": 1,
+              "cooperation": 1,
+              "intimacy": 1
+            }
+          }
+        },
+        "calm_no": {
+          "line": "Agora prefiro uma conversa breve.",
+          "options": [
+            {
+              "id": "back",
+              "text": "Continuar a conversa.",
+              "target": "root"
+            }
+          ]
+        },
+        "personal": {
+          "line": "Prefiro deixar isso para outra hora.",
+          "options": [
+            {
+              "id": "back",
+              "text": "Continuar a conversa.",
+              "target": "root"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "content_revision103": 1
+}

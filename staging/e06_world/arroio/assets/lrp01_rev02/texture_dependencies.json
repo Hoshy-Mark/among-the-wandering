@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/brick_normal_60695dc96254.png",
+      "sha256": "60695dc96254d969c1de063dfd4b28ad9f14a23987a51119ed614cca1271eac3"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/brick_roughness_613f52ead6a6.png",
+      "sha256": "613f52ead6a617ee795593e0824f96e4d53eaae35d28af9b8c6fc33791855bff"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/ceramic_normal_fe8cbdf13700.png",
+      "sha256": "fe8cbdf13700c771b27ba31e33ffaa97ee1e9a480baee7908d71415f0d468198"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/ceramic_roughness_4c090fe21151.png",
+      "sha256": "4c090fe21151c2fe29eb005f6cb1a8be6776b58e759497f92dd49d18ad118136"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/concrete_normal_95942dd65a66.png",
+      "sha256": "95942dd65a6670d8b249e7ebc0a533c69cc9334ab39cc0f316959765671a7af5"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/concrete_roughness_b2e211bdfdba.png",
+      "sha256": "b2e211bdfdbaab47a5f420961fe4a45732b4cc3b8b54d0592dd3cf2b8fdb91f3"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/fibro_normal_32878131887f.png",
+      "sha256": "32878131887fba7b1cb0929b890dab0a885690f3e46216d6bd108597a20b4fe6"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/fibro_roughness_64e6f8b8d5f9.png",
+      "sha256": "64e6f8b8d5f91748a406d13e1aa9bc78b673e974303de72d7a4ccbc6d53cdf34"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/glass_normal_9e2027b1629f.png",
+      "sha256": "9e2027b1629f69117bb0650fc8efb5a11344e0f8c8ab1cfd14404e70cdf8df4e"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/glass_roughness_131b42e45865.png",
+      "sha256": "131b42e4586556f39830766db3c02285d3703137186aa78f9113133af883b522"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/metal_normal_b04a6e15d899.png",
+      "sha256": "b04a6e15d8991a264485f9c2aec9636176776a314d47a48223a7e8044a80e479"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/metal_roughness_28a249d502f6.png",
+      "sha256": "28a249d502f60f8ccead72af50d46743925916ae80c7f0e36e5390dbc209e0ee"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/plaster_normal_743052b79ad1.png",
+      "sha256": "743052b79ad14e5693a58ec34a6e685f276d276686a8a155850fccbdb3fe7e8d"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/plaster_roughness_d30522446739.png",
+      "sha256": "d30522446739f7475c28a81fb011f73f78893f5b0a729e5d6c43b7112b1274b6"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/stone_normal_2b0e63075967.png",
+      "sha256": "2b0e6307596719851ccd51b4293f93f727c87bb9d27db543e2ad0791b01ec743"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/stone_roughness_fd447ff42d72.png",
+      "sha256": "fd447ff42d72cecf7a4ba683490414164032fd8e04644ef6de1cc729bb77a42d"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/timber_normal_0d410cc1a672.png",
+      "sha256": "0d410cc1a672134766f5e448eccf76ae34bf1069b87b4a769d5e6dd204c9ccc2"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/timber_roughness_bd8f78259573.png",
+      "sha256": "bd8f782595731c27333421d75120451527b908fbe7f1fbf12ba626929bd4c589"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/4e731b6ce58fc8e81271.png",
+      "sha256": "4e731b6ce58fc8e8127181b42635e6a2330a170a3e58819a86bd87790b7fd032"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/f24a34ab4600fb1e6bf3.png",
+      "sha256": "f24a34ab4600fb1e6bf3ed4f96d752b9ee182d49b75c9dad595da05339ea8869"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/2dc57cc793797a875e08.png",
+      "sha256": "2dc57cc793797a875e08b90af372552d5ca682b488d1d19ddac6e090a45e5ec9"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/albedos_unique/987c0000f558bff7a3cb.png",
+      "sha256": "987c0000f558bff7a3cbb71e5d532006312d5e025f5f06c377815f23fa2e29e7"
+    }
+  ]
+}

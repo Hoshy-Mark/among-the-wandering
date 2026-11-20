@@ -1,0 +1,1 @@
+{"version":1,"items":{"pistol":{"name":"Pistola compacta","stack":1,"slot":"main_hand","grid":[2,2],"weapon":{"type":"firearm","material":"Metal","damage":0.28,"cost":1.0,"reach":8.0,"capacity":6,"ammo":"ammo_pistol","cone_degrees":8.0}},"ammo_pistol":{"name":"Munição de pistola","stack":24,"grid":[1,1]}}}

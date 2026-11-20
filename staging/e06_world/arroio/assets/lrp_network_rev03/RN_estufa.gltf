@@ -1,0 +1,2472 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Arroio master exclusive staging prototypes REV01"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "estufa_MONTANTE",
+      "mesh": 0
+    },
+    {
+      "name": "estufa_TRAVESSA",
+      "mesh": 1
+    },
+    {
+      "name": "estufa_VIDRO_LATERAL",
+      "mesh": 2
+    },
+    {
+      "name": "estufa_VIDRO_FUNDO",
+      "mesh": 3
+    },
+    {
+      "name": "estufa_VIDRO_FRENTE",
+      "mesh": 4
+    },
+    {
+      "name": "estufa_TELHADO",
+      "mesh": 5
+    },
+    {
+      "name": "estufa_CANTEIRO",
+      "mesh": 6
+    },
+    {
+      "name": "estufa_SOLO",
+      "mesh": 7
+    }
+  ],
+  "meshes": [
+    {
+      "name": "estufa_MONTANTE",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "COLOR_0": 3
+          },
+          "indices": 4,
+          "material": 9
+        }
+      ]
+    },
+    {
+      "name": "estufa_TRAVESSA",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7,
+            "COLOR_0": 8
+          },
+          "indices": 9,
+          "material": 9
+        }
+      ]
+    },
+    {
+      "name": "estufa_VIDRO_LATERAL",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10,
+            "NORMAL": 11,
+            "TEXCOORD_0": 12,
+            "COLOR_0": 13
+          },
+          "indices": 14,
+          "material": 8
+        }
+      ]
+    },
+    {
+      "name": "estufa_VIDRO_FUNDO",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 15,
+            "NORMAL": 16,
+            "TEXCOORD_0": 17,
+            "COLOR_0": 18
+          },
+          "indices": 19,
+          "material": 8
+        }
+      ]
+    },
+    {
+      "name": "estufa_VIDRO_FRENTE",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 20,
+            "NORMAL": 21,
+            "TEXCOORD_0": 22,
+            "COLOR_0": 23
+          },
+          "indices": 24,
+          "material": 8
+        }
+      ]
+    },
+    {
+      "name": "estufa_TELHADO",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 25,
+            "NORMAL": 26,
+            "TEXCOORD_0": 27,
+            "COLOR_0": 28
+          },
+          "indices": 29,
+          "material": 8
+        }
+      ]
+    },
+    {
+      "name": "estufa_CANTEIRO",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 30,
+            "NORMAL": 31,
+            "TEXCOORD_0": 32,
+            "COLOR_0": 33
+          },
+          "indices": 34,
+          "material": 2
+        }
+      ]
+    },
+    {
+      "name": "estufa_SOLO",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 35,
+            "NORMAL": 36,
+            "TEXCOORD_0": 37,
+            "COLOR_0": 38
+          },
+          "indices": 39,
+          "material": 11
+        }
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "RN_estufa.bin",
+      "byteLength": 44064
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 2880
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2880,
+      "byteLength": 2880
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5760,
+      "byteLength": 1920
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7680,
+      "byteLength": 3840
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 11520,
+      "byteLength": 1440
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 12960,
+      "byteLength": 1440
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 14400,
+      "byteLength": 1440
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 15840,
+      "byteLength": 960
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 16800,
+      "byteLength": 1920
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 18720,
+      "byteLength": 720
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 19440,
+      "byteLength": 576
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 20016,
+      "byteLength": 576
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 20592,
+      "byteLength": 384
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 20976,
+      "byteLength": 768
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 21744,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 22032,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 22320,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 22608,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 22800,
+      "byteLength": 384
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 23184,
+      "byteLength": 144
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 23328,
+      "byteLength": 576
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 23904,
+      "byteLength": 576
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 24480,
+      "byteLength": 384
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 24864,
+      "byteLength": 768
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 25632,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 25920,
+      "byteLength": 576
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 26496,
+      "byteLength": 576
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 27072,
+      "byteLength": 384
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 27456,
+      "byteLength": 768
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 28224,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 28512,
+      "byteLength": 1728
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 30240,
+      "byteLength": 1728
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 31968,
+      "byteLength": 1152
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 33120,
+      "byteLength": 2304
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 35424,
+      "byteLength": 864
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 36288,
+      "byteLength": 1728
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 38016,
+      "byteLength": 1728
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 39744,
+      "byteLength": 1152
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 40896,
+      "byteLength": 2304
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 43200,
+      "byteLength": 864
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 240,
+      "type": "VEC3",
+      "min": [
+        -3.035,
+        0.0,
+        -5.035
+      ],
+      "max": [
+        3.035,
+        2.6,
+        5.035
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 240,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 240,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 240,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 360,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 120,
+      "type": "VEC3",
+      "min": [
+        -3.0,
+        2.565,
+        -5.035
+      ],
+      "max": [
+        3.0,
+        2.6350000000000002,
+        5.035
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 120,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 120,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 120,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5125,
+      "count": 180,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC3",
+      "min": [
+        -3.0125,
+        0.0,
+        -5.0
+      ],
+      "max": [
+        3.0125,
+        2.6,
+        5.0
+      ]
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5125,
+      "count": 72,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "min": [
+        -3.0,
+        0.0,
+        -5.0125
+      ],
+      "max": [
+        3.0,
+        2.6,
+        -4.9875
+      ]
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 20,
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC3",
+      "min": [
+        -3.0,
+        0.0,
+        4.9875
+      ],
+      "max": [
+        3.0,
+        2.6,
+        5.0125
+      ]
+    },
+    {
+      "bufferView": 21,
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 22,
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 23,
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 24,
+      "componentType": 5125,
+      "count": 72,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 25,
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC3",
+      "min": [
+        -3.1,
+        2.54,
+        -5.2
+      ],
+      "max": [
+        3.1,
+        3.6,
+        5.2
+      ]
+    },
+    {
+      "bufferView": 26,
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        -0.9517086177605507,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        0.9517086177605507,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 27,
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 28,
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 29,
+      "componentType": 5125,
+      "count": 72,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 30,
+      "componentType": 5126,
+      "count": 144,
+      "type": "VEC3",
+      "min": [
+        -2.5,
+        0.0,
+        -4.2
+      ],
+      "max": [
+        2.5,
+        0.3,
+        4.2
+      ]
+    },
+    {
+      "bufferView": 31,
+      "componentType": 5126,
+      "count": 144,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 32,
+      "componentType": 5126,
+      "count": 144,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 33,
+      "componentType": 5126,
+      "count": 144,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 34,
+      "componentType": 5125,
+      "count": 216,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 35,
+      "componentType": 5126,
+      "count": 144,
+      "type": "VEC3",
+      "min": [
+        -2.4,
+        0.28,
+        -4.1
+      ],
+      "max": [
+        2.4,
+        0.36,
+        4.1
+      ]
+    },
+    {
+      "bufferView": 36,
+      "componentType": 5126,
+      "count": 144,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 37,
+      "componentType": 5126,
+      "count": 144,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 38,
+      "componentType": 5126,
+      "count": 144,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 39,
+      "componentType": 5125,
+      "count": 216,
+      "type": "SCALAR"
+    }
+  ],
+  "materials": [
+    {
+      "name": "RN_estufa_reboco",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 18
+        },
+        "baseColorFactor": [
+          0.82,
+          0.79,
+          0.66,
+          1
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 20
+        }
+      },
+      "normalTexture": {
+        "index": 19,
+        "scale": 0.65
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "name": "RN_estufa_concreto",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 5
+        }
+      },
+      "normalTexture": {
+        "index": 4,
+        "scale": 0.65
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "name": "RN_estufa_timber",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 24
+        },
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 26
+        }
+      },
+      "normalTexture": {
+        "index": 25,
+        "scale": 0.75
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "name": "RN_estufa_timber",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 24
+        },
+        "baseColorFactor": [
+          0.27,
+          0.22,
+          0.16,
+          1
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 26
+        }
+      },
+      "normalTexture": {
+        "index": 25,
+        "scale": 0.75
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "name": "RN_estufa_timber",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 24
+        },
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 26
+        }
+      },
+      "normalTexture": {
+        "index": 25,
+        "scale": 0.75
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "name": "RN_estufa_timber",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 24
+        },
+        "baseColorFactor": [
+          0.82,
+          0.79,
+          0.66,
+          1
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 26
+        }
+      },
+      "normalTexture": {
+        "index": 25,
+        "scale": 0.75
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "name": "RN_estufa_ceramic",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1,
+        "scale": 0.8
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "name": "RN_estufa_fibro",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 114
+        },
+        "baseColorFactor": [
+          0.48,
+          0.49,
+          0.46,
+          1
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 116
+        }
+      },
+      "normalTexture": {
+        "index": 115,
+        "scale": 0.8
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "name": "RN_estufa_glass",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.64,
+          0.76,
+          0.7,
+          0.28
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 14
+        }
+      },
+      "normalTexture": {
+        "index": 13,
+        "scale": 0.75
+      },
+      "doubleSided": true,
+      "alphaMode": "BLEND"
+    },
+    {
+      "name": "RN_estufa_metal",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 15
+        },
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 0.08,
+        "metallicRoughnessTexture": {
+          "index": 17
+        }
+      },
+      "normalTexture": {
+        "index": 16,
+        "scale": 0.75
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "name": "RN_estufa_brick",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 60
+        },
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 62
+        }
+      },
+      "normalTexture": {
+        "index": 61,
+        "scale": 0.75
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "name": "RN_estufa_pedra",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "baseColorFactor": [
+          0.29,
+          0.28,
+          0.24,
+          1
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 5
+        }
+      },
+      "normalTexture": {
+        "index": 4,
+        "scale": 0.65
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    }
+  ],
+  "images": [
+    {
+      "name": "Z2_R11_HAB222_ceramic_148_077_062_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/92dcc9c89c06ea445d91.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_ceramic_148_077_062_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/ceramic_normal_fe8cbdf13700.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_ceramic_148_077_062_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/ceramic_roughness_4c090fe21151.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_concrete_150_144_131_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/f24a34ab4600fb1e6bf3.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_concrete_150_144_131_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/concrete_normal_95942dd65a66.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_concrete_150_144_131_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/concrete_roughness_b2e211bdfdba.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_concrete_234_221_191_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/49a01fc5d6f1bc5983b9.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_concrete_234_221_191_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/concrete_normal_95942dd65a66.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_concrete_234_221_191_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/concrete_roughness_b2e211bdfdba.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_fibro_105_092_083_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/bf9037fe5d5720690be2.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_fibro_105_092_083_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/fibro_normal_32878131887f.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_fibro_105_092_083_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/fibro_roughness_64e6f8b8d5f9.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_glass_111_160_176_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/7bc5a38481d0f652575c.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_glass_111_160_176_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/glass_normal_9e2027b1629f.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_glass_111_160_176_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/glass_roughness_131b42e45865.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_metal_120_128_130_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/987c0000f558bff7a3cb.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_metal_120_128_130_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/metal_normal_b04a6e15d899.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_metal_120_128_130_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/metal_roughness_28a249d502f6.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_plaster_203_195_179_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/3e8c1a317500ee360f66.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_plaster_203_195_179_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/plaster_normal_743052b79ad1.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_plaster_203_195_179_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/plaster_roughness_d30522446739.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_plaster_234_221_191_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/8b6b1f912c5a2a689fed.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_plaster_234_221_191_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/plaster_normal_743052b79ad1.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_plaster_234_221_191_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/plaster_roughness_d30522446739.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_timber_091_078_062_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/4e731b6ce58fc8e81271.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_timber_091_078_062_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/timber_normal_0d410cc1a672.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_timber_091_078_062_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/timber_roughness_bd8f78259573.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_timber_117_102_087_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/6cbb0d721bde503756d2.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_timber_117_102_087_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/timber_normal_0d410cc1a672.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_timber_117_102_087_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/timber_roughness_bd8f78259573.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_ceramic_148_077_062_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/92dcc9c89c06ea445d91.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_ceramic_148_077_062_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/ceramic_normal_fe8cbdf13700.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_ceramic_148_077_062_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/ceramic_roughness_4c090fe21151.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_concrete_150_144_131_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/f24a34ab4600fb1e6bf3.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_concrete_150_144_131_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/concrete_normal_95942dd65a66.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_concrete_150_144_131_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/concrete_roughness_b2e211bdfdba.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_concrete_234_221_191_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/49a01fc5d6f1bc5983b9.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_concrete_234_221_191_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/concrete_normal_95942dd65a66.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_concrete_234_221_191_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/concrete_roughness_b2e211bdfdba.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_fibro_105_092_083_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/bf9037fe5d5720690be2.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_fibro_105_092_083_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/fibro_normal_32878131887f.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_fibro_105_092_083_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/fibro_roughness_64e6f8b8d5f9.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_glass_111_160_176_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/7bc5a38481d0f652575c.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_glass_111_160_176_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/glass_normal_9e2027b1629f.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_glass_111_160_176_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/glass_roughness_131b42e45865.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_metal_120_128_130_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/987c0000f558bff7a3cb.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_metal_120_128_130_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/metal_normal_b04a6e15d899.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_metal_120_128_130_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/metal_roughness_28a249d502f6.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_plaster_203_195_179_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/3e8c1a317500ee360f66.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_plaster_203_195_179_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/plaster_normal_743052b79ad1.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_plaster_203_195_179_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/plaster_roughness_d30522446739.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_plaster_234_221_191_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/8b6b1f912c5a2a689fed.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_plaster_234_221_191_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/plaster_normal_743052b79ad1.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_plaster_234_221_191_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/plaster_roughness_d30522446739.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_timber_091_078_062_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/4e731b6ce58fc8e81271.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_timber_091_078_062_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/timber_normal_0d410cc1a672.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_timber_091_078_062_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/timber_roughness_bd8f78259573.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_timber_117_102_087_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/6cbb0d721bde503756d2.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_timber_117_102_087_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/timber_normal_0d410cc1a672.png"
+    },
+    {
+      "name": "Z2_R11_HAB222_timber_117_102_087_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/timber_roughness_bd8f78259573.png"
+    },
+    {
+      "name": "Z2_R08_HAB131_brick_155_087_071_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/b8fa9b21df3a22bdbf27.png"
+    },
+    {
+      "name": "Z2_SHARED_brick_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/brick_normal_60695dc96254.png"
+    },
+    {
+      "name": "Z2_SHARED_brick_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/brick_roughness_613f52ead6a6.png"
+    },
+    {
+      "name": "Z2_R08_HAB131_ceramic_136_066_045_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/b11afd90e0d513ecfee1.png"
+    },
+    {
+      "name": "Z2_SHARED_ceramic_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/ceramic_normal_fe8cbdf13700.png"
+    },
+    {
+      "name": "Z2_SHARED_ceramic_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/ceramic_roughness_4c090fe21151.png"
+    },
+    {
+      "name": "Z2_R08_HAB131_ceramic_138_068_047_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/2e30244717f849e5b4f0.png"
+    },
+    {
+      "name": "Z2_SHARED_ceramic_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/ceramic_normal_fe8cbdf13700.png"
+    },
+    {
+      "name": "Z2_SHARED_ceramic_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/ceramic_roughness_4c090fe21151.png"
+    },
+    {
+      "name": "Z2_R08_HAB131_ceramic_145_075_054_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/f782239142d3d6e65efd.png"
+    },
+    {
+      "name": "Z2_SHARED_ceramic_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/ceramic_normal_fe8cbdf13700.png"
+    },
+    {
+      "name": "Z2_SHARED_ceramic_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/ceramic_roughness_4c090fe21151.png"
+    },
+    {
+      "name": "Z2_R08_HAB131_ceramic_156_086_065_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/dc5f9f877e8ce93b0002.png"
+    },
+    {
+      "name": "Z2_SHARED_ceramic_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/ceramic_normal_fe8cbdf13700.png"
+    },
+    {
+      "name": "Z2_SHARED_ceramic_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/ceramic_roughness_4c090fe21151.png"
+    },
+    {
+      "name": "Z2_R08_HAB131_ceramic_165_095_074_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/d640bf4d8983dd144e2a.png"
+    },
+    {
+      "name": "Z2_SHARED_ceramic_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/ceramic_normal_fe8cbdf13700.png"
+    },
+    {
+      "name": "Z2_SHARED_ceramic_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/ceramic_roughness_4c090fe21151.png"
+    },
+    {
+      "name": "Z2_R08_HAB131_concrete_173_163_144_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/f05cfda09c8a6e794467.png"
+    },
+    {
+      "name": "Z2_SHARED_concrete_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/concrete_normal_95942dd65a66.png"
+    },
+    {
+      "name": "Z2_SHARED_concrete_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/concrete_roughness_b2e211bdfdba.png"
+    },
+    {
+      "name": "Z2_R08_HAB131_glass_106_147_156_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_masters/glass_neutro_5129cd3bb71f.png"
+    },
+    {
+      "name": "Z2_SHARED_glass_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/glass_normal_9e2027b1629f.png"
+    },
+    {
+      "name": "Z2_SHARED_glass_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/glass_roughness_131b42e45865.png"
+    },
+    {
+      "name": "Z2_R08_HAB131_glass_110_145_153_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_masters/glass_neutro_5129cd3bb71f.png"
+    },
+    {
+      "name": "Z2_SHARED_glass_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/glass_normal_9e2027b1629f.png"
+    },
+    {
+      "name": "Z2_SHARED_glass_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/glass_roughness_131b42e45865.png"
+    },
+    {
+      "name": "Z2_R08_HAB131_metal_092_096_094_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/461a1450f5abc77efac0.png"
+    },
+    {
+      "name": "Z2_SHARED_metal_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/metal_normal_b04a6e15d899.png"
+    },
+    {
+      "name": "Z2_SHARED_metal_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/metal_roughness_28a249d502f6.png"
+    },
+    {
+      "name": "Z2_R08_HAB131_plaster_169_100_076_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/04409e50827a3d3d2372.png"
+    },
+    {
+      "name": "Z2_SHARED_plaster_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/plaster_normal_743052b79ad1.png"
+    },
+    {
+      "name": "Z2_SHARED_plaster_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/plaster_roughness_d30522446739.png"
+    },
+    {
+      "name": "Z2_R08_HAB131_plaster_191_185_170_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/cd293facbcd432751b96.png"
+    },
+    {
+      "name": "Z2_SHARED_plaster_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/plaster_normal_743052b79ad1.png"
+    },
+    {
+      "name": "Z2_SHARED_plaster_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/plaster_roughness_d30522446739.png"
+    },
+    {
+      "name": "Z2_R08_HAB131_timber_092_072_054_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/b4b5d2d340d5af7e8fed.png"
+    },
+    {
+      "name": "Z2_SHARED_timber_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/timber_normal_0d410cc1a672.png"
+    },
+    {
+      "name": "Z2_SHARED_timber_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/timber_roughness_bd8f78259573.png"
+    },
+    {
+      "name": "Z2_R08_HAB131_timber_230_229_215_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/f6845b2110257260257a.png"
+    },
+    {
+      "name": "Z2_SHARED_timber_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/timber_normal_0d410cc1a672.png"
+    },
+    {
+      "name": "Z2_SHARED_timber_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/timber_roughness_bd8f78259573.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_concrete_112_103_087_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/d8f94765bfdaabf83483.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_concrete_112_103_087_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/concrete_normal_95942dd65a66.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_concrete_112_103_087_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/concrete_roughness_b2e211bdfdba.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_concrete_196_171_128_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/d30ed746835462dae249.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_concrete_196_171_128_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/concrete_normal_95942dd65a66.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_concrete_196_171_128_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/concrete_roughness_b2e211bdfdba.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_fibro_097_093_092_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/9098984bb0d6d150f4fb.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_fibro_097_093_092_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/fibro_normal_32878131887f.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_fibro_097_093_092_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/fibro_roughness_64e6f8b8d5f9.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_fibro_105_092_083_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/2d71800c8025ab525e50.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_fibro_105_092_083_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/fibro_normal_32878131887f.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_fibro_105_092_083_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/fibro_roughness_64e6f8b8d5f9.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_fibro_129_131_127_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/2dc57cc793797a875e08.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_fibro_129_131_127_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/fibro_normal_32878131887f.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_fibro_129_131_127_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/fibro_roughness_64e6f8b8d5f9.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_glass_111_160_176_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/1f9d0b581266e6efb0a8.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_glass_111_160_176_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/glass_normal_9e2027b1629f.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_glass_111_160_176_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/glass_roughness_131b42e45865.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_metal_120_128_130_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/00d420fa074c34bd76ca.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_metal_120_128_130_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/metal_normal_b04a6e15d899.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_metal_120_128_130_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/metal_roughness_28a249d502f6.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_timber_091_078_062_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/80093f04d0edb43de824.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_timber_091_078_062_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/timber_normal_0d410cc1a672.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_timber_091_078_062_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/timber_roughness_bd8f78259573.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_timber_103_079_059_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/9fd28d8da5c23c0eecca.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_timber_103_079_059_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/timber_normal_0d410cc1a672.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_timber_103_079_059_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/timber_roughness_bd8f78259573.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_timber_103_083_062_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/e3a83f4b5961e544bdba.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_timber_103_083_062_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/timber_normal_0d410cc1a672.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_timber_103_083_062_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/timber_roughness_bd8f78259573.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_timber_117_102_087_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/96e78791d8b72c48d062.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_timber_117_102_087_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/timber_normal_0d410cc1a672.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_timber_117_102_087_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/timber_roughness_bd8f78259573.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_timber_196_171_128_albedo",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/a4de088a68f8cabaed17.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_timber_196_171_128_normal",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/timber_normal_0d410cc1a672.png"
+    },
+    {
+      "name": "Z2_R12_HAB250_timber_196_171_128_roughness",
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/timber_roughness_bd8f78259573.png"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 1,
+      "source": 3
+    },
+    {
+      "sampler": 1,
+      "source": 4
+    },
+    {
+      "sampler": 1,
+      "source": 5
+    },
+    {
+      "sampler": 2,
+      "source": 6
+    },
+    {
+      "sampler": 2,
+      "source": 7
+    },
+    {
+      "sampler": 2,
+      "source": 8
+    },
+    {
+      "sampler": 3,
+      "source": 9
+    },
+    {
+      "sampler": 3,
+      "source": 10
+    },
+    {
+      "sampler": 3,
+      "source": 11
+    },
+    {
+      "sampler": 4,
+      "source": 12
+    },
+    {
+      "sampler": 4,
+      "source": 13
+    },
+    {
+      "sampler": 4,
+      "source": 14
+    },
+    {
+      "sampler": 5,
+      "source": 15
+    },
+    {
+      "sampler": 5,
+      "source": 16
+    },
+    {
+      "sampler": 5,
+      "source": 17
+    },
+    {
+      "sampler": 6,
+      "source": 18
+    },
+    {
+      "sampler": 6,
+      "source": 19
+    },
+    {
+      "sampler": 6,
+      "source": 20
+    },
+    {
+      "sampler": 7,
+      "source": 21
+    },
+    {
+      "sampler": 7,
+      "source": 22
+    },
+    {
+      "sampler": 7,
+      "source": 23
+    },
+    {
+      "sampler": 8,
+      "source": 24
+    },
+    {
+      "sampler": 8,
+      "source": 25
+    },
+    {
+      "sampler": 8,
+      "source": 26
+    },
+    {
+      "sampler": 9,
+      "source": 27
+    },
+    {
+      "sampler": 9,
+      "source": 28
+    },
+    {
+      "sampler": 9,
+      "source": 29
+    },
+    {
+      "sampler": 10,
+      "source": 30
+    },
+    {
+      "sampler": 10,
+      "source": 31
+    },
+    {
+      "sampler": 10,
+      "source": 32
+    },
+    {
+      "sampler": 11,
+      "source": 33
+    },
+    {
+      "sampler": 11,
+      "source": 34
+    },
+    {
+      "sampler": 11,
+      "source": 35
+    },
+    {
+      "sampler": 12,
+      "source": 36
+    },
+    {
+      "sampler": 12,
+      "source": 37
+    },
+    {
+      "sampler": 12,
+      "source": 38
+    },
+    {
+      "sampler": 13,
+      "source": 39
+    },
+    {
+      "sampler": 13,
+      "source": 40
+    },
+    {
+      "sampler": 13,
+      "source": 41
+    },
+    {
+      "sampler": 14,
+      "source": 42
+    },
+    {
+      "sampler": 14,
+      "source": 43
+    },
+    {
+      "sampler": 14,
+      "source": 44
+    },
+    {
+      "sampler": 15,
+      "source": 45
+    },
+    {
+      "sampler": 15,
+      "source": 46
+    },
+    {
+      "sampler": 15,
+      "source": 47
+    },
+    {
+      "sampler": 16,
+      "source": 48
+    },
+    {
+      "sampler": 16,
+      "source": 49
+    },
+    {
+      "sampler": 16,
+      "source": 50
+    },
+    {
+      "sampler": 17,
+      "source": 51
+    },
+    {
+      "sampler": 17,
+      "source": 52
+    },
+    {
+      "sampler": 17,
+      "source": 53
+    },
+    {
+      "sampler": 18,
+      "source": 54
+    },
+    {
+      "sampler": 18,
+      "source": 55
+    },
+    {
+      "sampler": 18,
+      "source": 56
+    },
+    {
+      "sampler": 19,
+      "source": 57
+    },
+    {
+      "sampler": 19,
+      "source": 58
+    },
+    {
+      "sampler": 19,
+      "source": 59
+    },
+    {
+      "sampler": 20,
+      "source": 60
+    },
+    {
+      "sampler": 20,
+      "source": 61
+    },
+    {
+      "sampler": 20,
+      "source": 62
+    },
+    {
+      "sampler": 21,
+      "source": 63
+    },
+    {
+      "sampler": 21,
+      "source": 64
+    },
+    {
+      "sampler": 21,
+      "source": 65
+    },
+    {
+      "sampler": 22,
+      "source": 66
+    },
+    {
+      "sampler": 22,
+      "source": 67
+    },
+    {
+      "sampler": 22,
+      "source": 68
+    },
+    {
+      "sampler": 23,
+      "source": 69
+    },
+    {
+      "sampler": 23,
+      "source": 70
+    },
+    {
+      "sampler": 23,
+      "source": 71
+    },
+    {
+      "sampler": 24,
+      "source": 72
+    },
+    {
+      "sampler": 24,
+      "source": 73
+    },
+    {
+      "sampler": 24,
+      "source": 74
+    },
+    {
+      "sampler": 25,
+      "source": 75
+    },
+    {
+      "sampler": 25,
+      "source": 76
+    },
+    {
+      "sampler": 25,
+      "source": 77
+    },
+    {
+      "sampler": 26,
+      "source": 78
+    },
+    {
+      "sampler": 26,
+      "source": 79
+    },
+    {
+      "sampler": 26,
+      "source": 80
+    },
+    {
+      "sampler": 27,
+      "source": 81
+    },
+    {
+      "sampler": 27,
+      "source": 82
+    },
+    {
+      "sampler": 27,
+      "source": 83
+    },
+    {
+      "sampler": 28,
+      "source": 84
+    },
+    {
+      "sampler": 28,
+      "source": 85
+    },
+    {
+      "sampler": 28,
+      "source": 86
+    },
+    {
+      "sampler": 29,
+      "source": 87
+    },
+    {
+      "sampler": 29,
+      "source": 88
+    },
+    {
+      "sampler": 29,
+      "source": 89
+    },
+    {
+      "sampler": 30,
+      "source": 90
+    },
+    {
+      "sampler": 30,
+      "source": 91
+    },
+    {
+      "sampler": 30,
+      "source": 92
+    },
+    {
+      "sampler": 31,
+      "source": 93
+    },
+    {
+      "sampler": 31,
+      "source": 94
+    },
+    {
+      "sampler": 31,
+      "source": 95
+    },
+    {
+      "sampler": 32,
+      "source": 96
+    },
+    {
+      "sampler": 32,
+      "source": 97
+    },
+    {
+      "sampler": 32,
+      "source": 98
+    },
+    {
+      "sampler": 33,
+      "source": 99
+    },
+    {
+      "sampler": 33,
+      "source": 100
+    },
+    {
+      "sampler": 33,
+      "source": 101
+    },
+    {
+      "sampler": 34,
+      "source": 102
+    },
+    {
+      "sampler": 34,
+      "source": 103
+    },
+    {
+      "sampler": 34,
+      "source": 104
+    },
+    {
+      "sampler": 35,
+      "source": 105
+    },
+    {
+      "sampler": 35,
+      "source": 106
+    },
+    {
+      "sampler": 35,
+      "source": 107
+    },
+    {
+      "sampler": 36,
+      "source": 108
+    },
+    {
+      "sampler": 36,
+      "source": 109
+    },
+    {
+      "sampler": 36,
+      "source": 110
+    },
+    {
+      "sampler": 37,
+      "source": 111
+    },
+    {
+      "sampler": 37,
+      "source": 112
+    },
+    {
+      "sampler": 37,
+      "source": 113
+    },
+    {
+      "sampler": 38,
+      "source": 114
+    },
+    {
+      "sampler": 38,
+      "source": 115
+    },
+    {
+      "sampler": 38,
+      "source": 116
+    },
+    {
+      "sampler": 39,
+      "source": 117
+    },
+    {
+      "sampler": 39,
+      "source": 118
+    },
+    {
+      "sampler": 39,
+      "source": 119
+    },
+    {
+      "sampler": 40,
+      "source": 120
+    },
+    {
+      "sampler": 40,
+      "source": 121
+    },
+    {
+      "sampler": 40,
+      "source": 122
+    },
+    {
+      "sampler": 41,
+      "source": 123
+    },
+    {
+      "sampler": 41,
+      "source": 124
+    },
+    {
+      "sampler": 41,
+      "source": 125
+    },
+    {
+      "sampler": 42,
+      "source": 126
+    },
+    {
+      "sampler": 42,
+      "source": 127
+    },
+    {
+      "sampler": 42,
+      "source": 128
+    },
+    {
+      "sampler": 43,
+      "source": 129
+    },
+    {
+      "sampler": 43,
+      "source": 130
+    },
+    {
+      "sampler": 43,
+      "source": 131
+    },
+    {
+      "sampler": 44,
+      "source": 132
+    },
+    {
+      "sampler": 44,
+      "source": 133
+    },
+    {
+      "sampler": 44,
+      "source": 134
+    },
+    {
+      "sampler": 45,
+      "source": 135
+    },
+    {
+      "sampler": 45,
+      "source": 136
+    },
+    {
+      "sampler": 45,
+      "source": 137
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 33071
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 33071
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 33071
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 33071
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 33071
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 33071
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 33071
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 33071
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 33071
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 33071
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 33071
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 33071
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 33071
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 33071
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 33071
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 33071
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 33071
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 33071
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 33071
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 33071
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 33071
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 33071
+    }
+  ]
+}

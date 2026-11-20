@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "items": {
+    "revolver": {
+      "name": "Revólver",
+      "stack": 1,
+      "slot": "main_hand",
+      "grid": [
+        2,
+        2
+      ],
+      "weapon": {
+        "type": "firearm",
+        "material": "Metal",
+        "damage": 0.32,
+        "cost": 1.3,
+        "reach": 8.0,
+        "capacity": 6,
+        "ammo": "ammo_pistol",
+        "pose": "compact",
+        "shot_seconds": 0.64,
+        "recoil_scale": 1.25,
+        "accuracy_scale": 1.1,
+        "bloom_scale": 1.25
+      }
+    },
+    "carbine": {
+      "name": "Carabina semiautomática",
+      "stack": 1,
+      "slot": "main_hand",
+      "grid": [
+        1,
+        4
+      ],
+      "weapon": {
+        "type": "firearm",
+        "material": "Metal",
+        "damage": 0.36,
+        "cost": 1.6,
+        "reach": 14.0,
+        "capacity": 8,
+        "ammo": "ammo_carbine",
+        "pose": "long",
+        "shot_seconds": 0.56,
+        "recoil_scale": 1.35,
+        "accuracy_scale": 0.8,
+        "bloom_scale": 1.15
+      }
+    },
+    "ammo_carbine": {
+      "name": "Munição de carabina",
+      "stack": 24,
+      "grid": [
+        1,
+        1
+      ]
+    }
+  }
+}

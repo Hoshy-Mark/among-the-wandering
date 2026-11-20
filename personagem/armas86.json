@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "items": {
+    "baton": {
+      "name": "Bastão",
+      "stack": 1,
+      "slot": "main_hand",
+      "grid": [
+        1,
+        3
+      ],
+      "weapon": {
+        "material": "Madeira",
+        "damage": 0.22,
+        "cost": 4.0,
+        "reach": 1.05
+      }
+    },
+    "metal_bar": {
+      "name": "Barra metálica",
+      "stack": 1,
+      "slot": "main_hand",
+      "grid": [
+        1,
+        3
+      ],
+      "weapon": {
+        "material": "Metal",
+        "damage": 0.26,
+        "cost": 5.0,
+        "reach": 1.0
+      }
+    }
+  }
+}

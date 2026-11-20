@@ -1,0 +1,169 @@
+{
+  "revision": 2,
+  "area": "Arroio/H01",
+  "profile": "user://demo_h01_inventory_r73.json",
+  "spawn_local": [
+    1.73,
+    0.275,
+    0.2
+  ],
+  "pockets": [
+    {
+      "definition": "bandage",
+      "count": 1,
+      "x": 0,
+      "y": 0
+    }
+  ],
+  "loot": [
+    {
+      "furniture": "H01_FURN_GUARDA_CASAL/storage/main",
+      "items": [
+        {
+          "definition": "bag_school",
+          "count": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "definition": "moletom_cinza",
+          "count": 1,
+          "x": 2,
+          "y": 2
+        },
+        {
+          "definition": "carbine",
+          "count": 1,
+          "x": 0,
+          "y": 4,
+          "rot": true
+        }
+      ]
+    },
+    {
+      "furniture": "H01_FURN_GELADEIRA/storage/cooler",
+      "items": [
+        {
+          "definition": "water",
+          "count": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "definition": "food",
+          "count": 2,
+          "x": 2,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "furniture": "H01_FURN_DESPENSA/storage/main",
+      "items": [
+        {
+          "definition": "food",
+          "count": 2,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "furniture": "H01_FURN_PIA_COZ/storage/main",
+      "items": [
+        {
+          "definition": "bandage",
+          "count": 2,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "furniture": "H01_FURN_COMODA_CASAL/storage/drawer_1",
+      "items": [
+        {
+          "definition": "medicine",
+          "count": 2,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "furniture": "H01_FURN_ROUPARIA/storage/drawer_1",
+      "items": [
+        {
+          "definition": "botas_escuras",
+          "count": 1,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "furniture": "H01_FURN_BALCAO_SERV/storage/drawer_1",
+      "items": [
+        {
+          "definition": "baton",
+          "count": 1,
+          "x": 0,
+          "y": 0,
+          "rot": true
+        },
+        {
+          "definition": "metal_bar",
+          "count": 1,
+          "x": 0,
+          "y": 1,
+          "rot": true
+        }
+      ]
+    },
+    {
+      "furniture": "H01_FURN_RACK01/storage/drawer_1",
+      "items": [
+        {
+          "definition": "pistol",
+          "count": 1,
+          "x": 0,
+          "y": 0,
+          "rot": false
+        },
+        {
+          "definition": "ammo_pistol",
+          "count": 18,
+          "x": 2,
+          "y": 0,
+          "rot": false
+        }
+      ]
+    },
+    {
+      "furniture": "H01_FURN_COMODA_CASAL/storage/drawer_2",
+      "items": [
+        {
+          "definition": "revolver",
+          "count": 1,
+          "x": 0,
+          "y": 0,
+          "rot": false
+        }
+      ]
+    },
+    {
+      "furniture": "H01_FURN_RACK01/storage/drawer_2",
+      "items": [
+        {
+          "definition": "ammo_carbine",
+          "count": 16,
+          "x": 0,
+          "y": 0,
+          "rot": false
+        }
+      ]
+    }
+  ],
+  "supply_revision112": 1,
+  "balance_status": "candidate physical sources; quantities retained from R109"
+}

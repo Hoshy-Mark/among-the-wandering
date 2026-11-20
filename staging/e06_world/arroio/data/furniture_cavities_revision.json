@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "main_promoted": false,
+  "gameplay_enabled": false,
+  "houses": {
+    "H02": {
+      "layout_corrections": [
+        {
+          "furniture_id": "H02_FURN_02_TV_RACK",
+          "meshes": [
+            "H02_FURN_02_TV_RACK__00",
+            "H02_FURN_02_TV_RACK__01",
+            "H02_FURN_02_TV_RACK__02",
+            "H02_FURN_02_TV_RACK__03",
+            "H02_FURN_02_TV_RACK__04",
+            "H02_FURN_02_TV_RACK__05",
+            "H02_FURN_02_TV_RACK__06",
+            "H02_FURN_02_TV_RACK__07"
+          ],
+          "pivot": [
+            -1.4800000000000002,
+            0.5865000083446503,
+            1.4
+          ],
+          "yaw_degrees": 0.0,
+          "translation": [
+            0.3,
+            0,
+            0.0
+          ],
+          "reason": "Clear complete furniture opening and player access; source model unchanged"
+        }
+      ]
+    }
+  },
+  "reason": "Correct actual legacy drawer fronts and preserve clearance of the complete drawer box"
+}

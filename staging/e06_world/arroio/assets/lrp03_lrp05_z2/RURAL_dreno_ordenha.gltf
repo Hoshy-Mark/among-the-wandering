@@ -1,0 +1,561 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Arroio master exclusive staging prototypes REV01"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "dreno_ordenha_BORDA",
+      "mesh": 0
+    },
+    {
+      "name": "dreno_ordenha_CANALETA",
+      "mesh": 1
+    },
+    {
+      "name": "dreno_ordenha_GRELHA",
+      "mesh": 2
+    }
+  ],
+  "meshes": [
+    {
+      "name": "dreno_ordenha_BORDA",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "COLOR_0": 3
+          },
+          "indices": 4,
+          "material": 2
+        }
+      ]
+    },
+    {
+      "name": "dreno_ordenha_CANALETA",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7,
+            "COLOR_0": 8
+          },
+          "indices": 9,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "dreno_ordenha_GRELHA",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10,
+            "NORMAL": 11,
+            "TEXCOORD_0": 12,
+            "COLOR_0": 13
+          },
+          "indices": 14,
+          "material": 1
+        }
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "RURAL_dreno_ordenha.bin",
+      "byteLength": 49248
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 576
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 576,
+      "byteLength": 576
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1152,
+      "byteLength": 384
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1536,
+      "byteLength": 768
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2304,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2592,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2880,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3168,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3360,
+      "byteLength": 384
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3744,
+      "byteLength": 144
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3888,
+      "byteLength": 10080
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 13968,
+      "byteLength": 10080
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 24048,
+      "byteLength": 6720
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 30768,
+      "byteLength": 13440
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 44208,
+      "byteLength": 5040
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC3",
+      "min": [
+        -0.26,
+        0.0,
+        -2.1
+      ],
+      "max": [
+        0.26,
+        0.08,
+        2.1
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 72,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "min": [
+        -0.2,
+        -0.07500000000000001,
+        -2.1
+      ],
+      "max": [
+        0.2,
+        0.0049999999999999975,
+        2.1
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 840,
+      "type": "VEC3",
+      "min": [
+        -0.21,
+        0.0375,
+        -2.02
+      ],
+      "max": [
+        0.21,
+        0.07250000000000001,
+        2.1
+      ]
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 840,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 840,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 840,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5125,
+      "count": 1260,
+      "type": "SCALAR"
+    }
+  ],
+  "materials": [
+    {
+      "name": "RURAL_dreno_ordenha_timber",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.36,
+          0.26,
+          0.17,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.82,
+        "metallicRoughnessTexture": {
+          "index": 5
+        },
+        "baseColorTexture": {
+          "index": 18
+        }
+      },
+      "doubleSided": false,
+      "normalTexture": {
+        "index": 4,
+        "scale": 0.65
+      }
+    },
+    {
+      "name": "RURAL_dreno_ordenha_metal",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.33,
+          0.37,
+          0.35,
+          1
+        ],
+        "metallicFactor": 0.6,
+        "roughnessFactor": 0.82,
+        "metallicRoughnessTexture": {
+          "index": 9
+        },
+        "baseColorTexture": {
+          "index": 19
+        }
+      },
+      "doubleSided": false,
+      "normalTexture": {
+        "index": 8,
+        "scale": 0.65
+      }
+    },
+    {
+      "name": "RURAL_dreno_ordenha_concreto",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.53,
+          0.52,
+          0.48,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.82,
+        "metallicRoughnessTexture": {
+          "index": 3
+        },
+        "baseColorTexture": {
+          "index": 20
+        }
+      },
+      "doubleSided": false,
+      "normalTexture": {
+        "index": 2,
+        "scale": 0.65
+      }
+    },
+    {
+      "name": "RURAL_dreno_ordenha_fibro",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.44,
+          0.46,
+          0.43,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.82,
+        "metallicRoughnessTexture": {
+          "index": 17
+        },
+        "baseColorTexture": {
+          "index": 21
+        }
+      },
+      "doubleSided": false,
+      "normalTexture": {
+        "index": 16,
+        "scale": 0.65
+      }
+    },
+    {
+      "name": "RURAL_dreno_ordenha_organic",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.45,
+          0.35,
+          0.2,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.95
+      },
+      "doubleSided": true
+    }
+  ],
+  "images": [
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/plaster_normal_743052b79ad1.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/plaster_roughness_d30522446739.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/concrete_normal_95942dd65a66.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/concrete_roughness_b2e211bdfdba.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/timber_normal_0d410cc1a672.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/timber_roughness_bd8f78259573.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/stone_normal_2b0e63075967.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/stone_roughness_fd447ff42d72.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/metal_normal_b04a6e15d899.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/metal_roughness_28a249d502f6.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/ceramic_normal_fe8cbdf13700.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/ceramic_roughness_4c090fe21151.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/glass_normal_9e2027b1629f.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/glass_roughness_131b42e45865.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/brick_normal_60695dc96254.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/brick_roughness_613f52ead6a6.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/fibro_normal_32878131887f.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/fibro_roughness_64e6f8b8d5f9.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/4e731b6ce58fc8e81271.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/987c0000f558bff7a3cb.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/f24a34ab4600fb1e6bf3.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/2dc57cc793797a875e08.png"
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    },
+    {
+      "source": 1
+    },
+    {
+      "source": 2
+    },
+    {
+      "source": 3
+    },
+    {
+      "source": 4
+    },
+    {
+      "source": 5
+    },
+    {
+      "source": 6
+    },
+    {
+      "source": 7
+    },
+    {
+      "source": 8
+    },
+    {
+      "source": 9
+    },
+    {
+      "source": 10
+    },
+    {
+      "source": 11
+    },
+    {
+      "source": 12
+    },
+    {
+      "source": 13
+    },
+    {
+      "source": 14
+    },
+    {
+      "source": 15
+    },
+    {
+      "source": 16
+    },
+    {
+      "source": 17
+    },
+    {
+      "source": 18
+    },
+    {
+      "source": 19
+    },
+    {
+      "source": 20
+    },
+    {
+      "source": 21
+    }
+  ],
+  "samplers": []
+}

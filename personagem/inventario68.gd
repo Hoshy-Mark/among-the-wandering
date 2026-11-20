@@ -235,7 +235,7 @@ func valid(staged: Variant) -> bool:
             return false
         if str(item.location).begins_with("slot:"):
             var slot: String=str(item.location).trim_prefix("slot:")
-            if slot not in SLOTS or catalog[item.definition].get("slot","")!=slot or equipment.has(slot):
+            if slot not in SLOTS or not fits_equipment(item.definition,slot) or equipment.has(slot):
                 return false
             equipment[slot]=uid
             continue

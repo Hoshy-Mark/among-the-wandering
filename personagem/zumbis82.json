@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "actors": [
+    {
+      "id": "arroio82_01",
+      "local": [
+        4,
+        0,
+        -11
+      ],
+      "yaw": 0.2,
+      "shirt": "camiseta_oliva",
+      "hair": "curto_blocado"
+    },
+    {
+      "id": "arroio82_02",
+      "local": [
+        -4,
+        0,
+        -16
+      ],
+      "yaw": -1.5,
+      "shirt": "moletom_cinza",
+      "hair": "none"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "assignments": {
+    "arroio82_01": "errante",
+    "arroio82_02": "alerta"
+  },
+  "profiles": {
+    "errante": {
+      "label": "Errante",
+      "speed": 0.75,
+      "attack_duration": 1.4,
+      "impact": 0.72,
+      "recovery": 1.2,
+      "hit_stun": 0.85,
+      "push_stun": 1.1,
+      "after_hit": 0.3,
+      "cross_rate": 1.5,
+      "skin": "#96a58a"
+    },
+    "alerta": {
+      "label": "Alerta",
+      "speed": 1.1,
+      "attack_duration": 1.05,
+      "impact": 0.48,
+      "recovery": 0.95,
+      "hit_stun": 0.65,
+      "push_stun": 0.95,
+      "after_hit": 0.25,
+      "cross_rate": 1.9,
+      "skin": "#b6b6a5"
+    }
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "version": 1,
+  "source_sha256": "a25f991d2f85db6627f4253b269f54d3dcdb70adde390f885aa2d3f745800ffd",
+  "placement_status": "candidate_public_encounters_not_residences",
+  "characters": {
+    "jorge_luiz": {
+      "name": "Jorge Luiz",
+      "role": "Policial"
+    },
+    "josue_medeira": {
+      "name": "Josué Medeira",
+      "role": "Padre"
+    },
+    "renata_volker": {
+      "name": "Renata Volker",
+      "role": "Ex-jornalista"
+    },
+    "ricardo_medeiro": {
+      "name": "Ricardo Medeiro",
+      "role": "Médico"
+    },
+    "pietra_dos_santos": {
+      "name": "Pietra dos Santos",
+      "role": "Freira"
+    },
+    "ricardo_alberto": {
+      "name": "Ricardo Alberto",
+      "role": "Fazendeiro"
+    },
+    "gabriel_pimenta": {
+      "name": "Gabriel Pimenta",
+      "role": "Mecânico"
+    },
+    "ana_julia": {
+      "name": "Ana Julia",
+      "role": "Moradora"
+    },
+    "samuel_henrique": {
+      "name": "Samuel Henrique",
+      "role": "Viajante"
+    }
+  },
+  "encounters": {
+    "samuel_henrique": {
+      "public_space": "P01",
+      "candidate": [
+        173.0,
+        0.3,
+        115.0
+      ],
+      "appearance": {
+        "skin_id": "original",
+        "hair_id": "curto_blocado",
+        "beard_id": "none",
+        "mustache_id": "none",
+        "shirt_id": "moletom_cinza",
+        "pants_id": "calca_carvao",
+        "boots_id": "botas_escuras"
+      },
+      "introduction": "Sou Samuel Henrique.",
+      "about": "Voltei a Arroio há alguns meses.",
+      "dialogue_status": "candidate_public_facts_only"
+    },
+    "gabriel_pimenta": {
+      "public_space": "EST01_frontage",
+      "candidate": [
+        325,
+        0.3,
+        158
+      ],
+      "appearance": {
+        "skin_id": "original",
+        "hair_id": "medio_blocado",
+        "beard_id": "curta_ajustada",
+        "mustache_id": "none",
+        "shirt_id": "camisa_lisa_azul",
+        "pants_id": "calca_carvao",
+        "boots_id": "botas_escuras"
+      },
+      "introduction": "Sou Gabriel Pimenta.",
+      "about": "Trabalho com mecânica. Também ajudo na igreja.",
+      "dialogue_status": "candidate_public_roles_and_boundaries_for_review",
+      "placement_basis": "public frontage of current EST01 church, outside its central door route; temporary encounter, not residence or routine"
+    },
+    "josue_medeira": {
+      "public_space": "EST01_frontage",
+      "candidate": [
+        338,
+        0.3,
+        158
+      ],
+      "appearance": {
+        "skin_id": "original",
+        "hair_id": "lateral_blocado",
+        "beard_id": "none",
+        "mustache_id": "none",
+        "shirt_id": "paleto_carvao",
+        "pants_id": "calca_carvao",
+        "boots_id": "botas_escuras"
+      },
+      "introduction": "Sou Josué Medeira, o padre.",
+      "about": "Vivo aqui perto da igreja.",
+      "dialogue_status": "candidate_public_roles_and_boundaries_for_review",
+      "placement_basis": "public frontage of current EST01 church, outside its central door route; temporary encounter, not residence or routine"
+    },
+    "jorge_luiz": {
+      "public_space": "P01",
+      "candidate": [
+        182,
+        0.3,
+        124
+      ],
+      "anchor_guard104": {
+        "rect": [
+          160,
+          103,
+          26,
+          26
+        ]
+      },
+      "appearance": {
+        "skin_id": "original",
+        "hair_id": "curto_blocado",
+        "beard_id": "costeletas_blocadas",
+        "mustache_id": "none",
+        "shirt_id": "paleto_carvao",
+        "pants_id": "calca_carvao",
+        "boots_id": "botas_escuras"
+      },
+      "introduction": "Jorge Luiz. Sou o policial.",
+      "about": "Não entre nas casas onde os infectados estão confinados. E não mate os infectados.",
+      "dialogue_status": "candidate_public_roles_rules_and_boundaries",
+      "placement_basis": "temporary public encounter; not residence, ownership, work shift or medical/shop service"
+    },
+    "ricardo_medeiro": {
+      "public_space": "EST07_frontage",
+      "candidate": [
+        61,
+        0.3,
+        194
+      ],
+      "anchor_guard104": {
+        "rect": [
+          41,
+          190,
+          24,
+          9
+        ],
+        "door_x": 53.72,
+        "clearance": 3
+      },
+      "appearance": {
+        "skin_id": "original",
+        "hair_id": "lateral_blocado",
+        "beard_id": "none",
+        "mustache_id": "none",
+        "shirt_id": "camisa_lisa_azul",
+        "pants_id": "calca_carvao",
+        "boots_id": "botas_escuras"
+      },
+      "introduction": "Sou Ricardo Medeiro. Sou médico.",
+      "about": "Vim de Sorriso Feliz, no começo do surto.",
+      "dialogue_status": "candidate_public_roles_rules_and_boundaries",
+      "placement_basis": "temporary public encounter; not residence, ownership, work shift or medical/shop service"
+    },
+    "ricardo_alberto": {
+      "public_space": "EST03_frontage",
+      "candidate": [
+        124,
+        0.3,
+        140
+      ],
+      "anchor_guard104": {
+        "rect": [
+          109,
+          137,
+          25,
+          8
+        ],
+        "door_x": 120.5,
+        "clearance": 3
+      },
+      "appearance": {
+        "skin_id": "original",
+        "hair_id": "topo_blocado",
+        "beard_id": "cheia_blocada",
+        "mustache_id": "labial_blocado",
+        "shirt_id": "paleto_areia",
+        "pants_id": "calca_carvao",
+        "boots_id": "botas_escuras"
+      },
+      "introduction": "Sou Ricardo Alberto.",
+      "about": "Trabalho com produção de alimentos. Nasci em Arroio.",
+      "dialogue_status": "candidate_public_role_and_attributed_position",
+      "placement_basis": "temporary public frontage encounter at market; not home, farm ownership, market ownership or trading service"
+    },
+    "renata_volker": {
+      "public_space": "EST07_frontage",
+      "candidate": [
+        64.5,
+        0.3,
+        194
+      ],
+      "anchor_guard104": {
+        "rect": [
+          41,
+          190,
+          24,
+          9
+        ],
+        "door_x": 53.72,
+        "clearance": 3
+      },
+      "avatar_scene": "res://personagem/personagem_feminina106.tscn",
+      "appearance": {
+        "skin_id": "original",
+        "hair_id": "coque_blocado106",
+        "beard_id": "none",
+        "mustache_id": "none",
+        "shirt_id": "paleto_areia",
+        "pants_id": "calca_carvao",
+        "boots_id": "botas_escuras",
+        "hair_color": "castanho"
+      },
+      "introduction": "Sou Renata Volker.",
+      "about": "Antes disso, eu era dona de casa.",
+      "dialogue_status": "R105 graph retained; candidate female visual R106",
+      "placement_basis": "provisional public encounter; not home, ownership, routine, medical or shop service"
+    },
+    "pietra_dos_santos": {
+      "public_space": "EST01_frontage",
+      "candidate": [
+        341,
+        0.3,
+        159
+      ],
+      "anchor_guard104": {
+        "rect": [
+          320,
+          154,
+          24,
+          9
+        ],
+        "door_x": 332,
+        "clearance": 2.5
+      },
+      "avatar_scene": "res://personagem/personagem_feminina106.tscn",
+      "appearance": {
+        "skin_id": "original",
+        "hair_id": "bob_lateral106",
+        "beard_id": "none",
+        "mustache_id": "none",
+        "shirt_id": "moletom_cinza",
+        "pants_id": "calca_carvao",
+        "boots_id": "botas_escuras",
+        "hair_color": "preto"
+      },
+      "introduction": "Sou Pietra dos Santos.",
+      "about": "Sou freira. Cultivo ervas.",
+      "dialogue_status": "R105 graph retained; candidate female visual R106",
+      "placement_basis": "provisional public encounter; not home, ownership, routine, medical or shop service"
+    },
+    "ana_julia": {
+      "public_space": "P01",
+      "candidate": [
+        165,
+        0.3,
+        124
+      ],
+      "anchor_guard104": {
+        "rect": [
+          160,
+          103,
+          26,
+          26
+        ]
+      },
+      "avatar_scene": "res://personagem/personagem_feminina106.tscn",
+      "appearance": {
+        "skin_id": "original",
+        "hair_id": "bob_blocado106",
+        "beard_id": "none",
+        "mustache_id": "none",
+        "shirt_id": "camiseta_oliva",
+        "pants_id": "calca_terra",
+        "boots_id": "botas_escuras",
+        "hair_color": "ruivo"
+      },
+      "introduction": "Sou Ana Julia.",
+      "about": "Estudava em Sorriso Feliz.",
+      "dialogue_status": "R105 graph retained; candidate female visual R106",
+      "placement_basis": "provisional public encounter; not home, ownership, routine, medical or shop service"
+    }
+  },
+  "content_revision103": 1,
+  "content_revision104": 1,
+  "content_revision105": 1,
+  "presentation105": {
+    "ricardo_alberto": {
+      "public_role": "Fazendeiro",
+      "visual_status": "existing approved body and clothing; candidate identity"
+    },
+    "renata_volker": {
+      "public_role": "Moradora",
+      "visual_status": "candidate dedicated female mesh R106 in scene",
+      "dialogue_status": "R105 graph installed for gameplay"
+    },
+    "pietra_dos_santos": {
+      "public_role": "Freira",
+      "visual_status": "candidate dedicated female mesh R106 in scene",
+      "dialogue_status": "R105 graph installed for gameplay"
+    },
+    "ana_julia": {
+      "public_role": "Moradora",
+      "visual_status": "candidate dedicated female mesh R106 in scene",
+      "dialogue_status": "R105 graph installed for gameplay"
+    }
+  },
+  "visual_revision106": 1
+}

@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "damage_scale": 3.0,
+  "impact_grace_seconds": 0.6,
+  "critical_integrity": 25.0
+}

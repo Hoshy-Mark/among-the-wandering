@@ -1,0 +1,193 @@
+{
+  "schema": "ea.clothing.definitions.v2",
+  "slots": [
+    "shirt",
+    "pants",
+    "boots",
+    "belt"
+  ],
+  "types": {
+    "camiseta": {
+      "name": "Camiseta manga curta",
+      "slot": "shirt",
+      "asset": "assets/female106/camiseta.glb",
+      "coverage": 1,
+      "fit_version": 7
+    },
+    "camisa": {
+      "name": "Camisa manga curta",
+      "slot": "shirt",
+      "asset": "assets/female106/camisa.glb",
+      "coverage": 1,
+      "fit_version": 7
+    },
+    "moletom": {
+      "name": "Moletom gola redonda",
+      "slot": "shirt",
+      "asset": "assets/female106/moletom.glb",
+      "coverage": 9,
+      "fit_version": 7
+    },
+    "paleto": {
+      "name": "Paletó curto",
+      "slot": "shirt",
+      "asset": "assets/female106/paleto.glb",
+      "coverage": 9,
+      "fit_version": 7
+    },
+    "calca": {
+      "name": "Calça",
+      "slot": "pants",
+      "asset": "assets/female106/calca.glb",
+      "coverage": 2,
+      "fit_version": 1
+    },
+    "botas": {
+      "name": "Botas",
+      "slot": "boots",
+      "asset": "assets/clothing/bases_r40/botas.glb",
+      "coverage": 4,
+      "fit_version": 1
+    },
+    "cinto": {
+      "name": "Cinto",
+      "slot": "belt",
+      "asset": "assets/female106/cinto.glb",
+      "coverage": 0,
+      "fit_version": 1
+    }
+  },
+  "items": [
+    {
+      "id": "camiseta_oliva",
+      "name": "Camiseta oliva",
+      "type_id": "camiseta",
+      "appearance": {
+        "pattern": "solid",
+        "color": "#778064"
+      },
+      "stackable": false
+    },
+    {
+      "id": "camiseta_azul",
+      "name": "Camiseta azul",
+      "type_id": "camiseta",
+      "appearance": {
+        "pattern": "solid",
+        "color": "#526e81"
+      },
+      "stackable": false
+    },
+    {
+      "id": "camisa_xadrez_vinho",
+      "name": "Camisa xadrez vinho",
+      "type_id": "camisa",
+      "appearance": {
+        "pattern": "plaid",
+        "color": "#74352e"
+      },
+      "stackable": false
+    },
+    {
+      "id": "camisa_lisa_azul",
+      "name": "Camisa lisa azul",
+      "type_id": "camisa",
+      "appearance": {
+        "pattern": "solid",
+        "color": "#7396ad"
+      },
+      "stackable": false
+    },
+    {
+      "id": "moletom_cinza",
+      "name": "Moletom cinza",
+      "type_id": "moletom",
+      "appearance": {
+        "pattern": "solid",
+        "color": "#777876"
+      },
+      "stackable": false
+    },
+    {
+      "id": "moletom_azul",
+      "name": "Moletom azul",
+      "type_id": "moletom",
+      "appearance": {
+        "pattern": "solid",
+        "color": "#344b68"
+      },
+      "stackable": false
+    },
+    {
+      "id": "paleto_carvao",
+      "name": "Paletó carvão",
+      "type_id": "paleto",
+      "appearance": {
+        "pattern": "solid",
+        "color": "#45464b"
+      },
+      "stackable": false
+    },
+    {
+      "id": "paleto_areia",
+      "name": "Paletó areia",
+      "type_id": "paleto",
+      "appearance": {
+        "pattern": "solid",
+        "color": "#9b8a70"
+      },
+      "stackable": false
+    },
+    {
+      "id": "calca_terra",
+      "name": "Calça terra",
+      "type_id": "calca",
+      "appearance": {
+        "pattern": "solid",
+        "color": "#6e5a45"
+      },
+      "stackable": false
+    },
+    {
+      "id": "calca_carvao",
+      "name": "Calça carvão",
+      "type_id": "calca",
+      "appearance": {
+        "pattern": "solid",
+        "color": "#48525a"
+      },
+      "stackable": false
+    },
+    {
+      "id": "botas_escuras",
+      "name": "Botas escuras",
+      "type_id": "botas",
+      "appearance": {
+        "pattern": "solid",
+        "color": "#37342f"
+      },
+      "stackable": false
+    },
+    {
+      "id": "botas_couro",
+      "name": "Botas de couro",
+      "type_id": "botas",
+      "appearance": {
+        "pattern": "solid",
+        "color": "#67432b"
+      },
+      "stackable": false
+    },
+    {
+      "id": "cinto_couro",
+      "name": "Cinto de couro",
+      "type_id": "cinto",
+      "appearance": {
+        "pattern": "solid",
+        "color": "#4b3524"
+      },
+      "stackable": false
+    }
+  ],
+  "body_mask_source": "assets/female106/segmented.glb"
+}

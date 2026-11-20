@@ -10,7 +10,7 @@ func _ready() -> void:
     world_items=load("res://personagem/mundo71.gd").new()
     add_child(world_items)
     world_items.setup(player,game_ui)
-    var house=load("res://personagem/casa71.gd").new()
+    var house=load("res://personagem/casa98.gd").new()
     add_child(house)
     await house.setup(self)
     player.update_nearby()

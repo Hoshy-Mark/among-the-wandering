@@ -206,6 +206,7 @@ func _process(_delta: float) -> void:
 				active=false
 				for unit in home.rule.units:
 					if unit.id==roof.get_meta("interior_unit","main"):active=_contains_unit(unit,home.model.to_local(target.global_position))
+			if camera!=null and camera.get_meta("solid_world89",false):active=false
 			roof.cast_shadow=GeometryInstance3D.SHADOW_CASTING_SETTING_SHADOWS_ONLY if active else roof.get_meta("interior_original_shadow")
 		for wall in home.walls:
 			var blocked := false
@@ -218,6 +219,7 @@ func _process(_delta: float) -> void:
 			elif active and camera!=null and is_instance_valid(target):
 				var inv: Transform3D=wall.global_transform.affine_inverse()
 				blocked=wall.mesh.get_aabb().grow(.04).intersects_segment(inv*camera.global_position,inv*(target.global_position+Vector3.UP*1.2))!=null
+			if camera!=null and camera.get_meta("solid_world89",false):blocked=false
 			wall.visible=true
 			wall.cast_shadow=GeometryInstance3D.SHADOW_CASTING_SETTING_SHADOWS_ONLY if blocked else wall.get_meta("interior_original_shadow",GeometryInstance3D.SHADOW_CASTING_SETTING_ON)
 

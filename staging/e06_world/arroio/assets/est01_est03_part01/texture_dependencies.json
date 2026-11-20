@@ -1,0 +1,288 @@
+{
+  "files": [
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/brick_normal_60695dc96254.png",
+      "sha256": "60695dc96254d969c1de063dfd4b28ad9f14a23987a51119ed614cca1271eac3"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/brick_roughness_613f52ead6a6.png",
+      "sha256": "613f52ead6a617ee795593e0824f96e4d53eaae35d28af9b8c6fc33791855bff"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/ceramic_normal_fe8cbdf13700.png",
+      "sha256": "fe8cbdf13700c771b27ba31e33ffaa97ee1e9a480baee7908d71415f0d468198"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/ceramic_roughness_4c090fe21151.png",
+      "sha256": "4c090fe21151c2fe29eb005f6cb1a8be6776b58e759497f92dd49d18ad118136"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/concrete_normal_95942dd65a66.png",
+      "sha256": "95942dd65a6670d8b249e7ebc0a533c69cc9334ab39cc0f316959765671a7af5"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/concrete_roughness_b2e211bdfdba.png",
+      "sha256": "b2e211bdfdbaab47a5f420961fe4a45732b4cc3b8b54d0592dd3cf2b8fdb91f3"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/fibro_normal_32878131887f.png",
+      "sha256": "32878131887fba7b1cb0929b890dab0a885690f3e46216d6bd108597a20b4fe6"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/fibro_roughness_64e6f8b8d5f9.png",
+      "sha256": "64e6f8b8d5f91748a406d13e1aa9bc78b673e974303de72d7a4ccbc6d53cdf34"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/glass_normal_9e2027b1629f.png",
+      "sha256": "9e2027b1629f69117bb0650fc8efb5a11344e0f8c8ab1cfd14404e70cdf8df4e"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/glass_roughness_131b42e45865.png",
+      "sha256": "131b42e4586556f39830766db3c02285d3703137186aa78f9113133af883b522"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/metal_normal_b04a6e15d899.png",
+      "sha256": "b04a6e15d8991a264485f9c2aec9636176776a314d47a48223a7e8044a80e479"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/metal_roughness_28a249d502f6.png",
+      "sha256": "28a249d502f60f8ccead72af50d46743925916ae80c7f0e36e5390dbc209e0ee"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/plaster_normal_743052b79ad1.png",
+      "sha256": "743052b79ad14e5693a58ec34a6e685f276d276686a8a155850fccbdb3fe7e8d"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/plaster_roughness_d30522446739.png",
+      "sha256": "d30522446739f7475c28a81fb011f73f78893f5b0a729e5d6c43b7112b1274b6"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/stone_normal_2b0e63075967.png",
+      "sha256": "2b0e6307596719851ccd51b4293f93f727c87bb9d27db543e2ad0791b01ec743"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/stone_roughness_fd447ff42d72.png",
+      "sha256": "fd447ff42d72cecf7a4ba683490414164032fd8e04644ef6de1cc729bb77a42d"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/timber_normal_0d410cc1a672.png",
+      "sha256": "0d410cc1a672134766f5e448eccf76ae34bf1069b87b4a769d5e6dd204c9ccc2"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/timber_roughness_bd8f78259573.png",
+      "sha256": "bd8f782595731c27333421d75120451527b908fbe7f1fbf12ba626929bd4c589"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/069fde61c404ca7363a4f3d5.png",
+      "sha256": "069fde61c404ca7363a4f3d5fcf26fbc192e9b94d3bbf79d883b857d04aa5979"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/0bb52068922df1039aa8c6b1.png",
+      "sha256": "0bb52068922df1039aa8c6b17cf5e2a29d7c040cdc67af84604952acff6f6a0c"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/18ddd2b940956834108fc3b5.png",
+      "sha256": "18ddd2b940956834108fc3b5b74ce7e6d8677b3b9ad4ff927a5db77e0b7b6afc"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/20c0244c067d556bb8ad763f.png",
+      "sha256": "20c0244c067d556bb8ad763f3edcd8c649674e594f18736dc73b960f9f79e373"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/2de87d93235092bba21b3b79.png",
+      "sha256": "2de87d93235092bba21b3b7926849d47d23e4a976b01c714dd18a65edc7675a7"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/2f9991166fd0d6cb4ce837b3.png",
+      "sha256": "2f9991166fd0d6cb4ce837b3ecb6179e492e4a711344b7eb5d9ee59daa7c782e"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/319d749932102a5773081932.png",
+      "sha256": "319d749932102a57730819325e591081b6f77789316c6ec0803653dab4e33322"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/3328943278d3c040eab9cba1.png",
+      "sha256": "3328943278d3c040eab9cba1013488ee03f65fa28c35da91508a29e76fdfcd8c"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/383de651428c3c81448c6df8.png",
+      "sha256": "383de651428c3c81448c6df88c14cb7426ec42c57d935662cdbcb89a7c8d9096"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/401daa963dab22fe0023b56e.png",
+      "sha256": "401daa963dab22fe0023b56ee82a9393ef7dca02fdc505514c0ff5c1fb8d7f51"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/45a7c6269e52a7d80c7323c6.png",
+      "sha256": "45a7c6269e52a7d80c7323c680f4205ea1436f894c8e8c4de6fd03e517b91985"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/52d5b8f027241a8637c0485b.png",
+      "sha256": "52d5b8f027241a8637c0485b7de0b1de29088bf1f2f013f45d3b102fd6bedc07"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/54cf4f87d2765bd60e18d161.png",
+      "sha256": "54cf4f87d2765bd60e18d161b3dc6a6baba8421d815718737d289c6d1d67f811"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/55b38fa9a93dc1816f917cee.png",
+      "sha256": "55b38fa9a93dc1816f917cee1a063df3364e81e37901c18fc39159c9b39c54e0"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/573befec9b9567680e28f1a1.png",
+      "sha256": "573befec9b9567680e28f1a1b2be10c15218aece2d3aeb1f516ab5281c3b8386"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/57d78d28a02853c82c7fb7c4.png",
+      "sha256": "57d78d28a02853c82c7fb7c4f3df17c28deec2fbf864ab68ec8fc76ccce0fdf9"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/5824272904bb313ab2497833.png",
+      "sha256": "5824272904bb313ab249783393b180e4d3d6a58490702d222082cb6d022f574b"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/5b114355a5505a0bc1ecc14a.png",
+      "sha256": "5b114355a5505a0bc1ecc14a7a6a4733f292af7597b5745b5429df5556187e51"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/5d88e420c2ddc8ea2d58466b.png",
+      "sha256": "5d88e420c2ddc8ea2d58466b88922f2f79ffd9865e99aaf09abacb20dc747547"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/611c75a9664270fb55e772a5.png",
+      "sha256": "611c75a9664270fb55e772a589a36890132dc086ad341e7e2f9f1555389ecdd3"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/65f34e2f7f3db5da6df74714.png",
+      "sha256": "65f34e2f7f3db5da6df74714aab6a88ed81361c5f3a039164985276e70516351"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/699a8f5e85a42b20fd95ff1f.png",
+      "sha256": "699a8f5e85a42b20fd95ff1f639cbe0857f345f6489f6fad9b3bb92e7cfc1098"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/726c352b0cc9c3a927113458.png",
+      "sha256": "726c352b0cc9c3a927113458485e8a2824c36d3c3158bcc467dc7018b4239d7c"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/740ef7b06183192b35c6b9b7.png",
+      "sha256": "740ef7b06183192b35c6b9b7fe0f04b788b6efc0f705120480dcf3f03242fa34"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/7455d85d19fc6c2bb54aa5e4.png",
+      "sha256": "7455d85d19fc6c2bb54aa5e462b3f500345c41168934ec5706a642cd3a3d884b"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/7523a388995190eecfaee2a4.png",
+      "sha256": "7523a388995190eecfaee2a4bde8ea31f7d34358629f866e89ca1b44e8363bdf"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/7872e218e770d7f3a1aebad7.png",
+      "sha256": "7872e218e770d7f3a1aebad7e187ddc8f7f59800f0ed024a1a91e8469f38dfb6"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/7a19510ec970b9544e330d35.png",
+      "sha256": "7a19510ec970b9544e330d35d6d41d78b10fa0439d51927576377b7cb7ec4cf3"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/7cb086e04325e69b946f5509.png",
+      "sha256": "7cb086e04325e69b946f550984db731e1c41a01d159fdd061dd19d1d18fde7f7"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/8d0278c4f9cb3892255e18d4.png",
+      "sha256": "8d0278c4f9cb3892255e18d4835c2a747d3ad5e7c4b118ad2f48816e832062b9"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/8ffead896b27c051680b8a42.png",
+      "sha256": "8ffead896b27c051680b8a42104a7f40d8ba56d9b55969f280eb10d81cc38ac5"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/90ff639d611e595b237bf41c.png",
+      "sha256": "90ff639d611e595b237bf41c59078bd9ff65c62e10eb75e7caa3cccb416816ca"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/94afaa330a1f3d1196f7892e.png",
+      "sha256": "94afaa330a1f3d1196f7892e07e70396a1f99cdb5a82ebfd6b3f5bfd7b665bb7"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/950bf48cf6f551ab46a82ef6.png",
+      "sha256": "950bf48cf6f551ab46a82ef66051343bd51308fbe87b3a88904b9c3ad2dc6dc5"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/9898b192034e792b217c611a.png",
+      "sha256": "9898b192034e792b217c611ad746acb1214e2f1270473e55f31fb511a5e634fb"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/99dc8d2146692651bae2d76c.png",
+      "sha256": "99dc8d2146692651bae2d76c9125ab0fd35d38b61144c467296a2a3e29e3e896"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/9ffe857c969b746c294ad832.png",
+      "sha256": "9ffe857c969b746c294ad8328e04a0a6a29f00fd9fcc4c967648df52ea16406a"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/a106eccff645ee7f887b76b9.png",
+      "sha256": "a106eccff645ee7f887b76b977c533c6095d32c2a52b32dd657b1f16e39cb5b9"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/a70ac7f5dc1e06d8fdc9714f.png",
+      "sha256": "a70ac7f5dc1e06d8fdc9714f3e07d64953e6301a959d5a13bc877618e6e35ef2"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/b19848cf8c951cb3d9c16de6.png",
+      "sha256": "b19848cf8c951cb3d9c16de6abc779023c0dffb2b8af7b7b3ad34ba44d1aba15"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/b43a6e1d732d87ab283c5c1e.png",
+      "sha256": "b43a6e1d732d87ab283c5c1e2fda7d4f163873b8e15741eb73d27215ee43976e"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/bf3f328b8b84c59915c8f98b.png",
+      "sha256": "bf3f328b8b84c59915c8f98b33b66f38acb8c1c7fbc82c712527364ebc29055f"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/c25ce9489e04d051e0a8bcaa.png",
+      "sha256": "c25ce9489e04d051e0a8bcaaba50d2edc76633800988563de907f0c0b5031e34"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/c3fcce661dea02f50484416f.png",
+      "sha256": "c3fcce661dea02f50484416f10664311e8797a8652f235c0b404bf5811cebafb"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/cc3051de0837ba46640e58bf.png",
+      "sha256": "cc3051de0837ba46640e58bf2b56610fa1d915ae952495c0ac6606f3f6c1f322"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/cc6f9a09c7d02bdbafea2d85.png",
+      "sha256": "cc6f9a09c7d02bdbafea2d8595812b5544695834ca0d0125009cff032c43aa6d"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/d3e4066d18971dbc003e8953.png",
+      "sha256": "d3e4066d18971dbc003e8953b184724f8cb365fd33335ef8e58262006259e2b6"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/d8ed1c2bbabeb38a703382de.png",
+      "sha256": "d8ed1c2bbabeb38a703382de6cf33614b631afa9025534825eed20b5edaa9956"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/de62fada2e697f56090eaeb1.png",
+      "sha256": "de62fada2e697f56090eaeb134d2250f69e874134acd9d2f0c9abd60ac19179f"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/e10dec3d9d68220bb73927ea.png",
+      "sha256": "e10dec3d9d68220bb73927ea053a8826b25e70060863bf85988e9331e27b399d"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/eab095d54f5355b29941ae57.png",
+      "sha256": "eab095d54f5355b29941ae57bc354e09f31d23f752acafc3e2e878856626a70d"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/eaf196bcd99d49db36487f60.png",
+      "sha256": "eaf196bcd99d49db36487f6039e1f3f45902e1134e553a3d847d841dae48094a"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est01_est03_part01/textures/fa76bf5ec3c8be23de95783e.png",
+      "sha256": "fa76bf5ec3c8be23de95783ebb30e5e36974095c87171f02036e80c2aff4fd66"
+    }
+  ]
+}

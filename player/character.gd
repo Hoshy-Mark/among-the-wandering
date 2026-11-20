@@ -1,4 +1,9 @@
 extends "res://player/character_base_r63.gd"
+var shoulder: Node3D
+var weapons: Node3D
+var session_save: Node3D
+var survival: Node3D
+var map_combat: Node3D
 var demo_mode=false
 var map_traversals: Node3D
 var map_doors: Node3D
@@ -6,6 +11,12 @@ var world_interaction: Node3D
 var inventory_actions: RefCounted
 
 func _unhandled_key_input(event: InputEvent) -> void:
+    if shoulder!=null and shoulder.is_firearm() and event is InputEventKey and event.physical_keycode in [KEY_Q,KEY_F]:
+        get_viewport().set_input_as_handled();return
+    if demo_mode and event is InputEventKey and event.pressed and not event.echo and event.physical_keycode==KEY_R and not hud_open and map_combat!=null and map_combat.has_method("reload_weapon"):
+        map_combat.reload_weapon()
+        get_viewport().set_input_as_handled()
+        return
     if demo_mode and event is InputEventKey:
         if event.pressed and not event.echo and map_traversals!=null and event.physical_keycode in [KEY_B,KEY_V]:
             if event.physical_keycode==KEY_B:map_traversals.request()
@@ -73,7 +84,7 @@ func _ready() -> void:
     inventory_actions.setup(self)
 
 func _physics_process(delta: float) -> void:
-    super._physics_process(delta)
+    _body_physics88(delta)
     update_nearby()
 
 func update_nearby() -> void:
@@ -103,6 +114,7 @@ func equip_item(uid: String) -> bool:
     return inventory_actions.begin({"kind":"equip","uid":uid})
 
 func load_condition() -> bool:
+    if session_save!=null:return session_save.load_game()
     var prepared: Dictionary={}
     if map_doors!=null:
         if action.state!="idle" or inventory_actions.busy() or map_doors.busy():return false
@@ -134,6 +146,10 @@ func rotate_item(uid: String) -> bool:
     return _stack_action_ready() and bag_inventory.rotate(uid)
 
 func save_condition() -> bool:
+    if session_save!=null:return session_save.save()
+    if map_combat!=null and (combat.guarding or combat.is_attacking() or reaction.is_active()):
+        inventory_message="Saia do combate e aguarde a reação antes de salvar"
+        return false
     if map_doors!=null and map_doors.busy():
         inventory_message="Conclua o movimento da porta antes de salvar"
         return false
@@ -163,3 +179,29 @@ func request_open(obstacle: Node3D=null) -> bool:
             if obstacle.opening.open:return false
             return map_doors.request(obstacle.opening_id)
     return super.request_open(obstacle)
+
+func request_attack(kind: String="") -> bool:
+    if map_combat!=null:return map_combat.request(kind)
+    return super.request_attack(kind)
+func toggle_guard() -> bool:
+    if map_combat!=null and not map_combat.ready_to_act():return false
+    return super.toggle_guard()
+func receive_combat_hit(event: Dictionary) -> bool:
+    return map_combat!=null and map_combat.receive(event)
+
+func use_item(uid: String) -> bool:
+    if survival!=null:return survival.use(uid)
+    return super.use_item(uid)
+
+func _present_hand_equipment() -> void:
+    if weapons!=null:weapons.present()
+    else:super._present_hand_equipment()
+
+func _body_physics88(delta: float) -> void:
+    if shoulder==null or not shoulder.holding:
+        super._physics_process(delta);return
+    # Classic RE4-style stationary aiming; no strained walking/aim blend.
+    var was_scripted=scripted;var previous_command=command;var previous_run=command_run
+    scripted=true;command=Vector2.ZERO;command_run=false;velocity.x=0;velocity.z=0
+    super._physics_process(delta)
+    scripted=was_scripted;command=previous_command;command_run=previous_run

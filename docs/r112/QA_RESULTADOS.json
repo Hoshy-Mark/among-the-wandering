@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "native_checks": 116,
+  "fresh_process_checks": 27,
+  "supply_model_checks": 32,
+  "social_regression_checks": 432,
+  "stocked_compartments": 10,
+  "stocked_furniture_groups": 8,
+  "initial_item_instances": 20,
+  "current_human_actors": 9,
+  "final_demo_human_target": 21,
+  "zombies": 480,
+  "preserved_personagem_files": 807,
+  "full_stage_2_complete": false,
+  "h01_full_geometry_migration": false,
+  "new_game_only_distribution": true
+}

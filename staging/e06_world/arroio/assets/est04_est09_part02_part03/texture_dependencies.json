@@ -1,0 +1,524 @@
+{
+  "files": [
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/brick_normal_60695dc96254.png",
+      "sha256": "60695dc96254d969c1de063dfd4b28ad9f14a23987a51119ed614cca1271eac3"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/brick_roughness_613f52ead6a6.png",
+      "sha256": "613f52ead6a617ee795593e0824f96e4d53eaae35d28af9b8c6fc33791855bff"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/ceramic_normal_fe8cbdf13700.png",
+      "sha256": "fe8cbdf13700c771b27ba31e33ffaa97ee1e9a480baee7908d71415f0d468198"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/ceramic_roughness_4c090fe21151.png",
+      "sha256": "4c090fe21151c2fe29eb005f6cb1a8be6776b58e759497f92dd49d18ad118136"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/concrete_normal_95942dd65a66.png",
+      "sha256": "95942dd65a6670d8b249e7ebc0a533c69cc9334ab39cc0f316959765671a7af5"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/concrete_roughness_b2e211bdfdba.png",
+      "sha256": "b2e211bdfdbaab47a5f420961fe4a45732b4cc3b8b54d0592dd3cf2b8fdb91f3"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/fibro_normal_32878131887f.png",
+      "sha256": "32878131887fba7b1cb0929b890dab0a885690f3e46216d6bd108597a20b4fe6"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/fibro_roughness_64e6f8b8d5f9.png",
+      "sha256": "64e6f8b8d5f91748a406d13e1aa9bc78b673e974303de72d7a4ccbc6d53cdf34"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/glass_normal_9e2027b1629f.png",
+      "sha256": "9e2027b1629f69117bb0650fc8efb5a11344e0f8c8ab1cfd14404e70cdf8df4e"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/glass_roughness_131b42e45865.png",
+      "sha256": "131b42e4586556f39830766db3c02285d3703137186aa78f9113133af883b522"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/metal_normal_b04a6e15d899.png",
+      "sha256": "b04a6e15d8991a264485f9c2aec9636176776a314d47a48223a7e8044a80e479"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/metal_roughness_28a249d502f6.png",
+      "sha256": "28a249d502f60f8ccead72af50d46743925916ae80c7f0e36e5390dbc209e0ee"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/plaster_normal_743052b79ad1.png",
+      "sha256": "743052b79ad14e5693a58ec34a6e685f276d276686a8a155850fccbdb3fe7e8d"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/plaster_roughness_d30522446739.png",
+      "sha256": "d30522446739f7475c28a81fb011f73f78893f5b0a729e5d6c43b7112b1274b6"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/stone_normal_2b0e63075967.png",
+      "sha256": "2b0e6307596719851ccd51b4293f93f727c87bb9d27db543e2ad0791b01ec743"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/stone_roughness_fd447ff42d72.png",
+      "sha256": "fd447ff42d72cecf7a4ba683490414164032fd8e04644ef6de1cc729bb77a42d"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/timber_normal_0d410cc1a672.png",
+      "sha256": "0d410cc1a672134766f5e448eccf76ae34bf1069b87b4a769d5e6dd204c9ccc2"
+    },
+    {
+      "path": "main/world/structures/residential/materials/z2_shared/maps/timber_roughness_bd8f78259573.png",
+      "sha256": "bd8f782595731c27333421d75120451527b908fbe7f1fbf12ba626929bd4c589"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/062ee82ddf0e1a12692e018e.png",
+      "sha256": "062ee82ddf0e1a12692e018e4a7949426919fbc9212e1cdba8d571aa6bbdf826"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/0bf1bea9ede056c56b4014e0.png",
+      "sha256": "0bf1bea9ede056c56b4014e0dc78c15a22af8dbd901f79e3c66cb318ec2df5f3"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/0c26f9df393624a8b9a081c4.png",
+      "sha256": "0c26f9df393624a8b9a081c4bb49dc885c1973723706b5293d0c9a2c147c969f"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/1039b0428bcdf94275942cb5.png",
+      "sha256": "1039b0428bcdf94275942cb56da2a494cc442c59943d6ceb201cebd70a0c1b4b"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/1b476a38bc0114079ba18e33.png",
+      "sha256": "1b476a38bc0114079ba18e33fd44bdc5ffc9be42692ca541aa2df422bed87350"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/1ba5531a24341d72cdf4e1c4.png",
+      "sha256": "1ba5531a24341d72cdf4e1c4af9e3d2e089635fb339dc05ea8d5b7ba26f0d6cc"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/1baa5f721ce4e71524e4bf40.png",
+      "sha256": "1baa5f721ce4e71524e4bf40854981cded3a083dc790b1c8c9a8784d0bbae591"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/1beed085e1f6ec36fe3afaa6.png",
+      "sha256": "1beed085e1f6ec36fe3afaa60042bc662837b608267101b4954435e8c1838f72"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/214991a760348a358746c872.png",
+      "sha256": "214991a760348a358746c87215183f98c8daa5610e085701fb78cf265b3b0e04"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/229a1036da97fc85cf873401.png",
+      "sha256": "229a1036da97fc85cf873401f33279f6a20d89bb65bd616ae454d7a842a06aee"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/22e14dacf84b90d2ab43cbcf.png",
+      "sha256": "22e14dacf84b90d2ab43cbcfb658d6472d236bb918a0ec7e5a0f7397022db622"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/240ee881096646f43339ca66.png",
+      "sha256": "240ee881096646f43339ca66c918cf94e8971b874feaa925de107f5c9a66e001"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/249c88e3093a72afa8b7302f.png",
+      "sha256": "249c88e3093a72afa8b7302f5bc2f161f09bbca3d539ca077caa67d693a4c7bc"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/24c27eaebc66e744d5277dc9.png",
+      "sha256": "24c27eaebc66e744d5277dc92ecdaa16b956d57c4a4e47e6621c0ca365b3d147"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/25f8d16762b2ebcd62f24773.png",
+      "sha256": "25f8d16762b2ebcd62f2477392dd5b5001ff98b6a7a52e5ef4d50c709de1dfec"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/281e46ad1f56608e28304975.png",
+      "sha256": "281e46ad1f56608e28304975b696308ad074dc4dd98e39ca2ea87a585bf6aec2"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/291d7f7e11c38591cb072f0e.png",
+      "sha256": "291d7f7e11c38591cb072f0e2c8297253c0c106955a76936610ba194574397e7"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/2a4cca0a2b87711154dcc049.png",
+      "sha256": "2a4cca0a2b87711154dcc049247dbeed38c967ec26865d6c4067a13484213890"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/322c72e397cfea151f2faeb0.png",
+      "sha256": "322c72e397cfea151f2faeb03921aabb88e4b657d17f93568fef9a9f9aa069e7"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/3501e2ed74398d6db4ef0574.png",
+      "sha256": "3501e2ed74398d6db4ef0574912bb33cfee944feefd553ed8ee0f4a51c012247"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/363a8a5b30107918d746329f.png",
+      "sha256": "363a8a5b30107918d746329f09ad8e35e452ab4da6fa5068cc01f5076bbce9a1"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/382d5bec13660eafce73f007.png",
+      "sha256": "382d5bec13660eafce73f00724bcfae676ac822c030e5b1a1894b01bc5d8a652"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/39052f8e8bb43de7453c6661.png",
+      "sha256": "39052f8e8bb43de7453c6661911acd3313223a279cdeb22f9d84377bad0af578"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/39faf3f7bb8ba286255a00bd.png",
+      "sha256": "39faf3f7bb8ba286255a00bdc6f0436879e98c857bda1475f83f144c253918a3"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/3caa091c71b7f561ad6ea081.png",
+      "sha256": "3caa091c71b7f561ad6ea0810094a739ad3a18b9050394495ecec8ecfb21e303"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/3caf399f1c2b47e1b94ca54c.png",
+      "sha256": "3caf399f1c2b47e1b94ca54c720751e1926c252eaa8344e68e73bc9151acdb91"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/41c119d2724543ba1811c362.png",
+      "sha256": "41c119d2724543ba1811c362dcd26948a16971e9e2b6372505dc063898d9acde"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/41fc63d887e60997fa05135a.png",
+      "sha256": "41fc63d887e60997fa05135a04a37113de203c337448f94397ce8571dd371b01"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/431bdd3112f04e0a9819c102.png",
+      "sha256": "431bdd3112f04e0a9819c102d5d1603973ead56bebfc7358b5d27838690e89fb"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/439ba36fa0691f462e3d1cc7.png",
+      "sha256": "439ba36fa0691f462e3d1cc7a65948c7aee46a705e779d8438899dbec0237cc5"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/47ce633f2507042136acc480.png",
+      "sha256": "47ce633f2507042136acc48085fc9fc85e6ef4aee3ee0bf0c620dbd2fff9280f"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/4b6b0467bd3c6c539c69dd8a.png",
+      "sha256": "4b6b0467bd3c6c539c69dd8a28bef9c0195db80094de94e43632d51a8609a4c5"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/4d2f1270addd3fb185790438.png",
+      "sha256": "4d2f1270addd3fb1857904383c92a6f03240cfa5d680d6ba6516c938296ea119"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/4d5d390d4d8f21768c1610c8.png",
+      "sha256": "4d5d390d4d8f21768c1610c891f76d516571485c9e6428867c12b3d96e3d292b"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/4fdfa33641c799a6a3c499ae.png",
+      "sha256": "4fdfa33641c799a6a3c499aed5bb9b0025cec77fdca4eec0f45b4c6581d6c605"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/5362639bca32ed4f7eb8315e.png",
+      "sha256": "5362639bca32ed4f7eb8315e35c0c4678a0b4fb2a33f4ec7598a720424b21566"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/551b2a7e32c6c09a7e25f747.png",
+      "sha256": "551b2a7e32c6c09a7e25f7474188449bcc94987a53071baabd2217bd22ab7597"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/55e70d0e633a5634e4f38d33.png",
+      "sha256": "55e70d0e633a5634e4f38d3368e974613ba8ecd3f92116198b8ab09fa67fa878"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/56957d8239a7153a1054fb87.png",
+      "sha256": "56957d8239a7153a1054fb87c18858a154ef82034eb3119d9f74ac27ff4e9369"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/64d2162894f06e3996ad90a1.png",
+      "sha256": "64d2162894f06e3996ad90a161702537367e70c67abd16648496ed92a2ff0e4b"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/67c22ff3db439039ff36d0cd.png",
+      "sha256": "67c22ff3db439039ff36d0cdf9ed91867649cc51a15a63698cea30a64bf4d74f"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/7373a8a4d562cefe12c9590c.png",
+      "sha256": "7373a8a4d562cefe12c9590c316ac72f40af842e5c64cee59fc00082711e3b6c"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/7ac2f1312fc79d4df0386457.png",
+      "sha256": "7ac2f1312fc79d4df0386457437c1c91171e98842fe469b754f5484ae9a07ca0"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/7bfa1d4f360d3b635a30c173.png",
+      "sha256": "7bfa1d4f360d3b635a30c1734e3c8455920d378684c69daa13ad52d69d5bb7c1"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/7d305a6c8b6a2beecd1589fd.png",
+      "sha256": "7d305a6c8b6a2beecd1589fd7eebc7234575dc17aee956850fb50d753dd6ae34"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/7f6e030b9128de4ee258d22e.png",
+      "sha256": "7f6e030b9128de4ee258d22e4df2564f35eb5120bc0fc9b8fe0f3e12a4ee3f52"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/7fa2cd756b65b622a43417dd.png",
+      "sha256": "7fa2cd756b65b622a43417dde1923590579aa1e72120fcf6f3cd98720ad043be"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/7fcd14fe14ed961a0ed49e1c.png",
+      "sha256": "7fcd14fe14ed961a0ed49e1c3b08dc5c1eac2223ba13e41559eac51d9126f0f5"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/86337630b50e2b1b4b76d18e.png",
+      "sha256": "86337630b50e2b1b4b76d18e932035ec2e42e71fffd5bfd3d3892c4ce7ad5faf"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/912f7bac6fef24f02d65dbae.png",
+      "sha256": "912f7bac6fef24f02d65dbae462cad55471f5b9d144d7deec6a073847c8e7deb"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/95232fcb72940f27f77d0e7b.png",
+      "sha256": "95232fcb72940f27f77d0e7b548b6d0a72868ae1da2f139043b85ca446dd674e"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/9b0e90996f3d82ffc6c9a1ee.png",
+      "sha256": "9b0e90996f3d82ffc6c9a1eea1928828e43f36ba6e770b818a0255e4c4294168"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/9c193e554440813145e1f514.png",
+      "sha256": "9c193e554440813145e1f51490ce9ad10f1f8ecf692dea5d7df36f9ef437d68b"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/9d4c5b1a864c2c243ed2e653.png",
+      "sha256": "9d4c5b1a864c2c243ed2e6535cd24176aa2ab2ed8d03309acf8652cc878c275a"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/9d641d40b89a455f088517ca.png",
+      "sha256": "9d641d40b89a455f088517ca0227e675f22e85bd40670246125c306986d59ab3"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/9f64eb27aba5590484dbbb59.png",
+      "sha256": "9f64eb27aba5590484dbbb597355f40ae91db84c1a960b140b9666937e31a8d1"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/9fef6a69a1c81a67f2f61bfe.png",
+      "sha256": "9fef6a69a1c81a67f2f61bfe5d262f53bdccd89f698c4fdb4b76e47a7592e668"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/a06aa8d2225dcd5a29655081.png",
+      "sha256": "a06aa8d2225dcd5a29655081776f4a9a7ee3fbe86571b6409cb8c11a44c811a1"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/a0a3b9ef3ffe307966e892ad.png",
+      "sha256": "a0a3b9ef3ffe307966e892ada0390d2170927c7a834d6ea3d93108daa52c2876"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/a1124fcf9088e0cedf9a0eb1.png",
+      "sha256": "a1124fcf9088e0cedf9a0eb105d893c7eb707757ad44a4d199576d97c93640ec"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/a2a71c6129b2c8b927b106be.png",
+      "sha256": "a2a71c6129b2c8b927b106bec476f3ece285f374ae608d0752d788e11d5a24fe"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/a449cca39a5c06f3ffbf5d85.png",
+      "sha256": "a449cca39a5c06f3ffbf5d8548493bfb97b0b89030e304c701a0e3b42cd89772"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/a48c69c35c019eac7f08224e.png",
+      "sha256": "a48c69c35c019eac7f08224e3d78cc0c5887fb01f30291332171c4005aacbe7a"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/a704d9b98a48ed9d75070ed4.png",
+      "sha256": "a704d9b98a48ed9d75070ed46e2ac509cc8f09b5d76606c7f2b87353f7cbf166"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/a7f81c8e19e967bfd305d942.png",
+      "sha256": "a7f81c8e19e967bfd305d9424bf2908eb7cb635dbe504aa7d2f8f34f662502d7"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/a8837f2294f9294bffb9aee2.png",
+      "sha256": "a8837f2294f9294bffb9aee273d82fbb42f1dee95e95822c5ef81940eda286b0"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/a96a507d13f74f9c28fce1eb.png",
+      "sha256": "a96a507d13f74f9c28fce1ebaa8b620fd38406e1b42b7568410bc493d891627c"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/aef565ea26b8ffb78d887196.png",
+      "sha256": "aef565ea26b8ffb78d887196cc182f98e1c3e7ec595321c6109ee93c531361b1"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/b088fab4775d30ab181c4d4f.png",
+      "sha256": "b088fab4775d30ab181c4d4ffe9549e6a8d6a3cf2b6ee3a2a275f6b1a84c3e94"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/b1a43457f5b7d4a9401791f1.png",
+      "sha256": "b1a43457f5b7d4a9401791f1ce9a88f084b4e84ff36651dc13ec76eab16746ea"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/b65eb465c01318a46e27540a.png",
+      "sha256": "b65eb465c01318a46e27540a595e1e1a7a9d1171ccd4b014ffe8ed5ce48099cd"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/b777096e35c39156f6d2ad28.png",
+      "sha256": "b777096e35c39156f6d2ad289f1b781c4cc031c41858551da6b6953b0ee9377d"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/b77bc835d82703a242af4868.png",
+      "sha256": "b77bc835d82703a242af48689c5da8a83651eb5a2b28942b88e9b3e7dcb29724"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/b82faf6140ccfd251b3e2b9c.png",
+      "sha256": "b82faf6140ccfd251b3e2b9c6b2aefae190ce0a4ffd6c65265bf35ce502fc522"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/b906e0031f09a275aa2dc703.png",
+      "sha256": "b906e0031f09a275aa2dc703a0a8e7f15a74f3f33c1e1af6525ce9e14e276b81"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/bc2feda3e0d0b5a55272e878.png",
+      "sha256": "bc2feda3e0d0b5a55272e8785d0df4791f1c1b8f306009982e8dbf56e803c12d"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/bd507b756cd5d731a5959033.png",
+      "sha256": "bd507b756cd5d731a5959033c260bfa9e0b0684ba9d2ea25e6b2d10fd8380dd4"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/be4e43401a188d5099759e2c.png",
+      "sha256": "be4e43401a188d5099759e2cdeb551492a4b2bf1da6c9e09a6347e335e64b947"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/bfe7ccc62bf6ee89abb3e700.png",
+      "sha256": "bfe7ccc62bf6ee89abb3e700bf36790f57587b9c2f22c83ebfdd3d1fb4722fe5"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/c2987318f5d95181e17ef35f.png",
+      "sha256": "c2987318f5d95181e17ef35fa9c51c01e6355381fc14bd60e93a93bcce9f7749"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/c4815b4e3dfb0c60f78676b3.png",
+      "sha256": "c4815b4e3dfb0c60f78676b32bf5b54fa21979ddbde7ff6ff5ef7eec456c2531"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/c636a644b8c8d885d9c52d3b.png",
+      "sha256": "c636a644b8c8d885d9c52d3b064d99c04b7be134ec9a1bca2a20590d4871c1db"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/c7aec21ef9cc0d021a939cff.png",
+      "sha256": "c7aec21ef9cc0d021a939cff292ee1ebbcb1dd2fe0bb506ca535141335aa48c8"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/ca280bab1d4924ac94853fcc.png",
+      "sha256": "ca280bab1d4924ac94853fccf5d305c5a95012ed3aeabc346fbe2d72fa90243e"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/ca39f670de1a4541b57a3156.png",
+      "sha256": "ca39f670de1a4541b57a315627d84937d604f137defa6c51399a5258a6b2e67b"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/cc2c276b06d2ac48c29ff5ee.png",
+      "sha256": "cc2c276b06d2ac48c29ff5ee224dbf6d48fa7b348aa3e7a045b756f22dbd29a9"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/cc39841da9badf2abf5988ae.png",
+      "sha256": "cc39841da9badf2abf5988ae6eea6d304eb3a6fbb324a961781582bdc81fcfbc"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/cc8f9c78b71ccd431cea28b3.png",
+      "sha256": "cc8f9c78b71ccd431cea28b3257e34bd9593053639778e5912182a9985aa97a7"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/cfc14f68bb4da94bfc359ec5.png",
+      "sha256": "cfc14f68bb4da94bfc359ec5985ed5d30239c12da58fd11df46816e28af2f98d"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/d2008be7506ba889ece833ed.png",
+      "sha256": "d2008be7506ba889ece833ed356f5155cff022f2f6594900c42b2d7137bc6d08"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/d60acd4d3738a2a2e95dc90c.png",
+      "sha256": "d60acd4d3738a2a2e95dc90c1ef5db3a0e563d36d5fc7eeb15bf6d04779981e9"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/d6eceb74e41842b8aee2ef4f.png",
+      "sha256": "d6eceb74e41842b8aee2ef4f5253a197663d48ee24a879e13687dd784111047f"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/d74e64ac6dba2d5df8bf7ed7.png",
+      "sha256": "d74e64ac6dba2d5df8bf7ed7ea6b4d72e45ed1b7c6eb3d92b77e397aba4bcc4b"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/d7bcfd0f7b07fd95bbdc9bcf.png",
+      "sha256": "d7bcfd0f7b07fd95bbdc9bcf262e4337f722548f92f5ed16ad5d82ba10479116"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/d851353dca34cd045329a9e1.png",
+      "sha256": "d851353dca34cd045329a9e1661bb768b92bc790369e8a017d82b75f32fa14f1"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/d8d1d3becc788264d3bff681.png",
+      "sha256": "d8d1d3becc788264d3bff6815e9a9f5b2738c088f74b9089e7d9a25265822d6b"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/ddb4e996156ae74ac4cd5a15.png",
+      "sha256": "ddb4e996156ae74ac4cd5a15f82438c7e8f15c67da13713e892620038ee02959"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/e3224638a321d5e1139de7e4.png",
+      "sha256": "e3224638a321d5e1139de7e4785fe7c523ea872b485d9edd7fc11469c2ba16ad"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/e614c5947a727b7ccde29614.png",
+      "sha256": "e614c5947a727b7ccde29614c7b02703cb41c9fb20cc6d24ab5bb3c491b44026"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/ea12f5d3e922e7a25d6d8ae2.png",
+      "sha256": "ea12f5d3e922e7a25d6d8ae23af720ae50e6e3b1af7b4c65703f058d7c8fc7e3"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/eb8f231b8de70416917732e7.png",
+      "sha256": "eb8f231b8de70416917732e7aee52d02b2f4c2eba6c227eb0a3f7aadb053412b"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/ecaf06c3bca004453b0cd066.png",
+      "sha256": "ecaf06c3bca004453b0cd0661b6dc13d7c693e72382ac6039218a1586551f426"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/ed24100290469fab6f1dc275.png",
+      "sha256": "ed24100290469fab6f1dc275d8bba39fc2ed03a29c0cc56c007f0d6dc22047af"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/ef2cd7ca9a285500167022f5.png",
+      "sha256": "ef2cd7ca9a285500167022f5c1e14772f9be00a63f431285e948fd487ab75520"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/f12e82efdf76ddd107fbc759.png",
+      "sha256": "f12e82efdf76ddd107fbc7595086f5e3e03bea9d5ba3363795f8eabf8453de13"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/f44d2de09364fb24df9af2d2.png",
+      "sha256": "f44d2de09364fb24df9af2d2da331849d54baec70c5927cc273fd7db5d443c7c"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/f54e145c220cce2a88211e63.png",
+      "sha256": "f54e145c220cce2a88211e63d52909057e04940deb9361ea4888eb6f8de073fe"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/f880b8637e9968e4b24d05cf.png",
+      "sha256": "f880b8637e9968e4b24d05cf4f703754b9ea4f5070330a3fe8cc4357da778a7f"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/fa70ec66936a790c703c92e1.png",
+      "sha256": "fa70ec66936a790c703c92e19c29f1d4b469af8867567303d7338473a1a3526d"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/fb0e5fdd3f02d03ebde8a9f8.png",
+      "sha256": "fb0e5fdd3f02d03ebde8a9f8efaefafdb873c92693002ccdf1c113c62de001de"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/ffd4d708364da0dcd9821729.png",
+      "sha256": "ffd4d708364da0dcd98217299dcd547a2255af326771e13b958c72feb6bf683b"
+    },
+    {
+      "path": "staging/e06_world/arroio/assets/est04_est09_part02_part03/textures/ffd7f7046d64791369f2f8af.png",
+      "sha256": "ffd7f7046d64791369f2f8af28e995f466b88e4a1f1757a4e8217fbd1fed5b8d"
+    }
+  ]
+}

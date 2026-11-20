@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "balance_status": "candidate_for_review",
+  "experiences_per_point": 3,
+  "max_rank": 6,
+  "trainable": [
+    "persuasion",
+    "perception"
+  ],
+  "descriptions": {
+    "persuasion": "Ajuda a conduzir pedidos e tentativas de convencimento.",
+    "perception": "Ajuda a perceber reações durante uma conversa."
+  },
+  "activities": {
+    "samuel_origin": {
+      "npc": "samuel_henrique",
+      "visited": "root/origin"
+    },
+    "samuel_privacy": {
+      "npc": "samuel_henrique",
+      "visited": "root/privacy"
+    },
+    "samuel_calm_attempt": {
+      "npc": "samuel_henrique",
+      "check": "calm_request"
+    },
+    "samuel_observation_attempt": {
+      "npc": "samuel_henrique",
+      "check": "observe"
+    },
+    "gabriel_occupation": {
+      "npc": "gabriel_pimenta",
+      "visited": "root/occupation"
+    },
+    "gabriel_privacy": {
+      "npc": "gabriel_pimenta",
+      "visited": "root/privacy"
+    },
+    "gabriel_observation_attempt": {
+      "npc": "gabriel_pimenta",
+      "check": "gabriel_observe"
+    },
+    "josue_occupation": {
+      "npc": "josue_medeira",
+      "visited": "root/occupation"
+    },
+    "josue_privacy": {
+      "npc": "josue_medeira",
+      "visited": "root/privacy"
+    },
+    "josue_calm_attempt": {
+      "npc": "josue_medeira",
+      "check": "josue_calm"
+    }
+  }
+}

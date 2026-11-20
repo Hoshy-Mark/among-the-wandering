@@ -1,0 +1,3127 @@
+{
+  "schema_version": 1,
+  "sites": {
+    "EST04": {
+      "name": "Bar do Entroncamento",
+      "revision": "R03",
+      "position": [
+        26,
+        0.025,
+        215
+      ],
+      "yaw_degrees": 180,
+      "bounds": [
+        14,
+        200,
+        38,
+        230
+      ],
+      "sector": "S03",
+      "road": "V12",
+      "replaces": "C06",
+      "triangles": 10240,
+      "visual_path": "res://staging/e06_world/arroio/assets/est04_est09_part02_part03/EST04.gltf",
+      "source_glb": "staging/e06_world/arroio/approvals/EST04_EST09_PART02_PART03_REV01/source/estabelecimentos_codex/EST04/MODELOS/EST04_BAR_R03_COMPOSTO_CANDIDATO.glb",
+      "source_sha256": "2e0c64086211b46afd2fd7f4ad108f405426dec607622a2f1955c291002472ed",
+      "source_meshes": 552,
+      "graves": 0,
+      "local_front_vector": [
+        0,
+        1
+      ],
+      "mesh_inventory_path": "res://staging/e06_world/arroio/assets/est04_est09_part02_part03/EST04_inventory.json",
+      "parcel_id": "EST04_NOVO_LOTE",
+      "artistic_status": "APROVADO_PELO_DIRETOR_EM_2026-11-09",
+      "collision_excluded_meshes": [],
+      "routes": [
+        {
+          "id": "entrada_bar",
+          "points": [
+            [
+              24.000000000000004,
+              193.5
+            ],
+            [
+              24.0,
+              202.4
+            ]
+          ]
+        }
+      ],
+      "navigation_targets": [
+        {
+          "id": "mesas_frente",
+          "local_position": [
+            -3,
+            0.1,
+            14
+          ]
+        },
+        {
+          "id": "passeio_lateral",
+          "local_position": [
+            11,
+            0.1,
+            5
+          ]
+        }
+      ],
+      "original_parcel_overlap_check": []
+    },
+    "EST05": {
+      "name": "Oficina da Figueira",
+      "revision": "R04",
+      "position": [
+        219,
+        0.025,
+        172
+      ],
+      "yaw_degrees": 180,
+      "bounds": [
+        202,
+        153,
+        236,
+        192
+      ],
+      "sector": "S01",
+      "road": "V01",
+      "replaces": "C04",
+      "triangles": 27222,
+      "visual_path": "res://staging/e06_world/arroio/assets/est04_est09_part02_part03/EST05.gltf",
+      "source_glb": "staging/e06_world/arroio/approvals/EST04_EST09_PART02_PART03_REV01/source/estabelecimentos_codex/EST05/MODELOS/EST05_R04_COMPLETO_CANDIDATO.glb",
+      "source_sha256": "028ddc519a3c4b7afa973b1a4205d4a14a6c16c142a0f87d050ff24474ed8636",
+      "source_meshes": 1133,
+      "graves": 0,
+      "local_front_vector": [
+        0,
+        1
+      ],
+      "mesh_inventory_path": "res://staging/e06_world/arroio/assets/est04_est09_part02_part03/EST05_inventory.json",
+      "parcel_id": "EST05_NOVO_LOTE",
+      "artistic_status": "APROVADO_PELO_DIRETOR_EM_2026-11-09",
+      "collision_excluded_meshes": [],
+      "routes": [
+        {
+          "id": "entrada_oficina",
+          "points": [
+            [
+              223.0,
+              148.0
+            ],
+            [
+              223.0,
+              160.5
+            ]
+          ]
+        }
+      ],
+      "navigation_targets": [
+        {
+          "id": "baia_esquerda",
+          "local_position": [
+            -4,
+            0.22,
+            8.8
+          ]
+        },
+        {
+          "id": "baia_direita",
+          "local_position": [
+            4,
+            0.22,
+            8.8
+          ]
+        },
+        {
+          "id": "escritorio",
+          "local_position": [
+            -11.1,
+            0.1,
+            6.8
+          ]
+        }
+      ],
+      "original_parcel_overlap_check": []
+    },
+    "EST06": {
+      "name": "Posto das Figueiras",
+      "revision": "R03",
+      "position": [
+        -36,
+        0.025,
+        167
+      ],
+      "yaw_degrees": 90,
+      "bounds": [
+        -59,
+        149,
+        -13,
+        185
+      ],
+      "sector": "S01",
+      "road": "V13",
+      "replaces": null,
+      "triangles": 23044,
+      "visual_path": "res://staging/e06_world/arroio/assets/est04_est09_part02_part03/EST06.gltf",
+      "source_glb": "staging/e06_world/arroio/approvals/EST04_EST09_PART02_PART03_REV01/source/estabelecimentos_codex/EST06/MODELOS/EST06_R03_COMPLETO_CANDIDATO.glb",
+      "source_sha256": "e43c35796361ef4994d5196796381600222b62e994cabe0049f7e639a6969bfe",
+      "source_meshes": 892,
+      "graves": 0,
+      "local_front_vector": [
+        0,
+        1
+      ],
+      "mesh_inventory_path": "res://staging/e06_world/arroio/assets/est04_est09_part02_part03/EST06_inventory.json",
+      "parcel_id": "EST06_NOVO_LOTE",
+      "artistic_status": "APROVADO_PELO_DIRETOR_EM_2026-11-09",
+      "collision_excluded_meshes": [],
+      "routes": [
+        {
+          "id": "entrada_posto",
+          "points": [
+            [
+              -5,
+              167
+            ],
+            [
+              -17,
+              167
+            ],
+            [
+              -23,
+              167
+            ]
+          ]
+        }
+      ],
+      "navigation_targets": [
+        {
+          "id": "abastecimento",
+          "local_position": [
+            0,
+            0.013,
+            10
+          ]
+        },
+        {
+          "id": "loja",
+          "local_position": [
+            0.15,
+            0.013,
+            -5.3
+          ]
+        }
+      ],
+      "original_parcel_overlap_check": []
+    },
+    "EST07": {
+      "name": "Farmácia das Figueiras",
+      "revision": "R03",
+      "position": [
+        53,
+        0.025,
+        215.5
+      ],
+      "yaw_degrees": 180,
+      "bounds": [
+        41,
+        200,
+        65,
+        232
+      ],
+      "sector": "S03",
+      "road": "V12",
+      "replaces": null,
+      "triangles": 33092,
+      "visual_path": "res://staging/e06_world/arroio/assets/est04_est09_part02_part03/EST07.gltf",
+      "source_glb": "staging/e06_world/arroio/approvals/EST04_EST09_PART02_PART03_REV01/source/estabelecimentos_codex/EST07/MODELOS/EST07_R03_COMPLETO_CANDIDATO.glb",
+      "source_sha256": "4c8880877144e6430d07b195be9eac0faa70e5a7b2378910ac68ee36ce782535",
+      "source_meshes": 2003,
+      "graves": 0,
+      "local_front_vector": [
+        0,
+        1
+      ],
+      "mesh_inventory_path": "res://staging/e06_world/arroio/assets/est04_est09_part02_part03/EST07_inventory.json",
+      "parcel_id": "EST07_NOVO_LOTE",
+      "artistic_status": "APROVADO_PELO_DIRETOR_EM_2026-11-09",
+      "collision_excluded_meshes": [],
+      "routes": [
+        {
+          "id": "entrada_farmacia",
+          "points": [
+            [
+              53.72,
+              193.5
+            ],
+            [
+              53.72,
+              206.5
+            ]
+          ]
+        }
+      ],
+      "navigation_targets": [
+        {
+          "id": "porta_principal",
+          "local_position": [
+            -0.72,
+            0.155,
+            6.9
+          ]
+        },
+        {
+          "id": "deposito",
+          "local_position": [
+            6,
+            0.1,
+            0.6
+          ]
+        }
+      ],
+      "original_parcel_overlap_check": []
+    },
+    "EST08": {
+      "name": "Escola Municipal Caminhos das Figueiras",
+      "revision": "R02",
+      "position": [
+        -35.5,
+        0.025,
+        103
+      ],
+      "yaw_degrees": 90,
+      "bounds": [
+        -58,
+        78,
+        -13,
+        128
+      ],
+      "sector": "S04",
+      "road": "V13",
+      "replaces": null,
+      "triangles": 6336,
+      "visual_path": "res://staging/e06_world/arroio/assets/est04_est09_part02_part03/EST08.gltf",
+      "source_glb": "staging/e06_world/arroio/approvals/EST04_EST09_PART02_PART03_REV01/source/estabelecimentos_codex/EST08/MODELOS/EST08_R02_COMPLETO_CANDIDATO.glb",
+      "source_sha256": "496d4f85910d53e26a196d760f8b83a2df5d28013642c4bb83a24cc10cf71481",
+      "source_meshes": 525,
+      "graves": 0,
+      "local_front_vector": [
+        0,
+        1
+      ],
+      "mesh_inventory_path": "res://staging/e06_world/arroio/assets/est04_est09_part02_part03/EST08_inventory.json",
+      "parcel_id": "EST08_NOVO_LOTE",
+      "artistic_status": "APROVADO_PELO_DIRETOR_EM_2026-11-09",
+      "collision_excluded_meshes": [
+        "PORTAO_entrada_folha_E",
+        "PORTAO_entrada_folha_D"
+      ],
+      "routes": [
+        {
+          "id": "entrada_escola",
+          "points": [
+            [
+              -5.5,
+              121.0
+            ],
+            [
+              -15.100000000000001,
+              121.0
+            ]
+          ]
+        }
+      ],
+      "navigation_targets": [
+        {
+          "id": "portao_interno",
+          "local_position": [
+            -18,
+            0.135,
+            16
+          ]
+        },
+        {
+          "id": "administracao",
+          "local_position": [
+            -18,
+            0.215,
+            -3.1
+          ]
+        },
+        {
+          "id": "sala_01",
+          "local_position": [
+            -10.5,
+            0.16,
+            -4.2
+          ]
+        },
+        {
+          "id": "quadra",
+          "local_position": [
+            5,
+            0.205,
+            10
+          ]
+        }
+      ],
+      "original_parcel_overlap_check": []
+    },
+    "EST09": {
+      "name": "Rodoviária das Figueiras",
+      "revision": "R02",
+      "position": [
+        -37,
+        0.025,
+        218
+      ],
+      "yaw_degrees": 90,
+      "bounds": [
+        -64,
+        194,
+        -12,
+        242
+      ],
+      "sector": "S03",
+      "road": "V13",
+      "replaces": null,
+      "triangles": 13680,
+      "visual_path": "res://staging/e06_world/arroio/assets/est04_est09_part02_part03/EST09.gltf",
+      "source_glb": "staging/e06_world/arroio/approvals/EST04_EST09_PART02_PART03_REV01/source/estabelecimentos_codex/EST09/MODELOS/EST09_R02_COMPLETO_CANDIDATO.glb",
+      "source_sha256": "a4dfcabad90894dab7425f81fcb16e5a591a96f5e13974021483e9e53d855199",
+      "source_meshes": 442,
+      "graves": 0,
+      "local_front_vector": [
+        0,
+        1
+      ],
+      "mesh_inventory_path": "res://staging/e06_world/arroio/assets/est04_est09_part02_part03/EST09_inventory.json",
+      "parcel_id": "EST09_NOVO_LOTE",
+      "artistic_status": "APROVADO_PELO_DIRETOR_EM_2026-11-09",
+      "collision_excluded_meshes": [],
+      "routes": [
+        {
+          "id": "entrada_rodoviaria",
+          "points": [
+            [
+              -3.0,
+              218.0
+            ],
+            [
+              -18.0,
+              218.0
+            ]
+          ]
+        }
+      ],
+      "navigation_targets": [
+        {
+          "id": "plataforma",
+          "local_position": [
+            0,
+            0.3,
+            -3
+          ]
+        },
+        {
+          "id": "terminal",
+          "local_position": [
+            0,
+            0.3,
+            -5.8
+          ]
+        }
+      ],
+      "original_parcel_overlap_check": []
+    }
+  },
+  "new_parcels": [
+    {
+      "type": "Feature",
+      "id": "EST04_NOVO_LOTE",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14,
+              200
+            ],
+            [
+              38,
+              200
+            ],
+            [
+              38,
+              230
+            ],
+            [
+              14,
+              230
+            ],
+            [
+              14,
+              200
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "class": "parcel",
+        "setor": "S03",
+        "via": "V12",
+        "kind": "EST04",
+        "approved_concept": true,
+        "metric_status": "STAGING_IMPLANTADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "EST05_NOVO_LOTE",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              202,
+              153
+            ],
+            [
+              236,
+              153
+            ],
+            [
+              236,
+              192
+            ],
+            [
+              202,
+              192
+            ],
+            [
+              202,
+              153
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "class": "parcel",
+        "setor": "S01",
+        "via": "V01",
+        "kind": "EST05",
+        "approved_concept": true,
+        "metric_status": "STAGING_IMPLANTADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "EST06_NOVO_LOTE",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -59,
+              149
+            ],
+            [
+              -13,
+              149
+            ],
+            [
+              -13,
+              185
+            ],
+            [
+              -59,
+              185
+            ],
+            [
+              -59,
+              149
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "class": "parcel",
+        "setor": "S01",
+        "via": "V13",
+        "kind": "EST06",
+        "approved_concept": true,
+        "metric_status": "STAGING_IMPLANTADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "EST07_NOVO_LOTE",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              41,
+              200
+            ],
+            [
+              65,
+              200
+            ],
+            [
+              65,
+              232
+            ],
+            [
+              41,
+              232
+            ],
+            [
+              41,
+              200
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "class": "parcel",
+        "setor": "S03",
+        "via": "V12",
+        "kind": "EST07",
+        "approved_concept": true,
+        "metric_status": "STAGING_IMPLANTADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "EST08_NOVO_LOTE",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58,
+              78
+            ],
+            [
+              -13,
+              78
+            ],
+            [
+              -13,
+              128
+            ],
+            [
+              -58,
+              128
+            ],
+            [
+              -58,
+              78
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "class": "parcel",
+        "setor": "S04",
+        "via": "V13",
+        "kind": "EST08",
+        "approved_concept": true,
+        "metric_status": "STAGING_IMPLANTADO"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "EST09_NOVO_LOTE",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -64,
+              194
+            ],
+            [
+              -12,
+              194
+            ],
+            [
+              -12,
+              242
+            ],
+            [
+              -64,
+              242
+            ],
+            [
+              -64,
+              194
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "class": "parcel",
+        "setor": "S03",
+        "via": "V13",
+        "kind": "EST09",
+        "approved_concept": true,
+        "metric_status": "STAGING_IMPLANTADO"
+      }
+    }
+  ],
+  "new_roads": [
+    {
+      "type": "Feature",
+      "id": "V12",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5,
+            193.5
+          ],
+          [
+            84,
+            194.66666666666666
+          ]
+        ]
+      },
+      "properties": {
+        "setor": "S03",
+        "road_width_m_proposed": 6,
+        "sidewalk_width_m_proposed": 1.5,
+        "metric_status": "STAGING_IMPLANTADO",
+        "source": "New streets explicitly authorized by the director on 2026-11-09",
+        "class": "road_centerline"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "V13",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.333333333333332,
+            66
+          ],
+          [
+            -5,
+            66
+          ],
+          [
+            -5,
+            142
+          ],
+          [
+            -5,
+            193.5
+          ],
+          [
+            -5,
+            247
+          ]
+        ]
+      },
+      "properties": {
+        "setor": "S04",
+        "road_width_m_proposed": 6,
+        "sidewalk_width_m_proposed": 1.5,
+        "metric_status": "STAGING_IMPLANTADO",
+        "source": "New streets explicitly authorized by the director on 2026-11-09",
+        "class": "road_centerline"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "V14",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5,
+            247
+          ],
+          [
+            60,
+            247
+          ],
+          [
+            66,
+            248
+          ]
+        ]
+      },
+      "properties": {
+        "setor": "S03",
+        "road_width_m_proposed": 5,
+        "sidewalk_width_m_proposed": 1.5,
+        "metric_status": "STAGING_IMPLANTADO",
+        "source": "New streets explicitly authorized by the director on 2026-11-09",
+        "class": "road_centerline"
+      }
+    }
+  ],
+  "v01_west_connection": [
+    -5,
+    142
+  ],
+  "extent_xz": [
+    -68,
+    -13.333333333333332,
+    426,
+    307
+  ],
+  "relocated_trees": [
+    {
+      "id": "Trunk_38",
+      "source_index": 38,
+      "source_position": [
+        221.00146664620877,
+        172.51341917412668
+      ],
+      "position": [
+        238.00146664620877,
+        172.51341917412668
+      ]
+    },
+    {
+      "id": "Trunk_41",
+      "source_index": 41,
+      "source_position": [
+        16.070257010769623,
+        213.57036218374742
+      ],
+      "position": [
+        11.74012999184743,
+        216.07036218374742
+      ]
+    },
+    {
+      "id": "Trunk_42",
+      "source_index": 42,
+      "source_position": [
+        26.598218268272053,
+        215.29925024434905
+      ],
+      "position": [
+        26.598218268272053,
+        232.29925024434905
+      ]
+    },
+    {
+      "id": "Trunk_45",
+      "source_index": 45,
+      "source_position": [
+        46.98967616667265,
+        225.47510735480466
+      ],
+      "position": [
+        52.48967616667265,
+        235.00138679643348
+      ]
+    },
+    {
+      "id": "Trunk_49",
+      "source_index": 49,
+      "source_position": [
+        -8.885968306424555,
+        171.56713945303744
+      ],
+      "position": [
+        -10.596069023052898,
+        176.265602556967
+      ]
+    },
+    {
+      "id": "Trunk_51",
+      "source_index": 51,
+      "source_position": [
+        202.69289870424961,
+        188.6856816641953
+      ],
+      "position": [
+        199.4789606558169,
+        192.5159038797902
+      ]
+    },
+    {
+      "id": "Trunk_53",
+      "source_index": 53,
+      "source_position": [
+        27.206951720339003,
+        243.14720015498978
+      ],
+      "position": [
+        22.28291295527796,
+        242.27895926665514
+      ]
+    },
+    {
+      "id": "Trunk_57",
+      "source_index": 57,
+      "source_position": [
+        208.59850012722856,
+        183.09437387590165
+      ],
+      "position": [
+        208.59850012722856,
+        194.09437387590165
+      ]
+    },
+    {
+      "id": "Trunk_76",
+      "source_index": 76,
+      "source_position": [
+        45.62056430129348,
+        196.89984306003896
+      ],
+      "position": [
+        45.62056430129348,
+        188.89984306003896
+      ]
+    },
+    {
+      "id": "Trunk_77",
+      "source_index": 77,
+      "source_position": [
+        58.74670982343301,
+        207.70443608174205
+      ],
+      "position": [
+        69.74670982343301,
+        207.70443608174205
+      ]
+    },
+    {
+      "id": "Trunk_79",
+      "source_index": 79,
+      "source_position": [
+        231.1023575185338,
+        171.8416428075502
+      ],
+      "position": [
+        238.61989848482108,
+        174.57780395415554
+      ]
+    },
+    {
+      "id": "Trunk_84",
+      "source_index": 84,
+      "source_position": [
+        39.495988862588064,
+        248.97473030606474
+      ],
+      "position": [
+        36.759827715982716,
+        241.45718933977747
+      ]
+    },
+    {
+      "id": "Trunk_86",
+      "source_index": 86,
+      "source_position": [
+        -7.432615483862491,
+        194.6627114189702
+      ],
+      "position": [
+        -11.262837699457382,
+        191.4487733705375
+      ]
+    },
+    {
+      "id": "Trunk_91",
+      "source_index": 91,
+      "source_position": [
+        21.387311374742378,
+        208.679775970797
+      ],
+      "position": [
+        11.861031933113555,
+        214.179775970797
+      ]
+    },
+    {
+      "id": "Trunk_103",
+      "source_index": 103,
+      "source_position": [
+        22.45299597386108,
+        196.73427267936856
+      ],
+      "position": [
+        15.382332267309145,
+        188.3077838050598
+      ]
+    },
+    {
+      "id": "Trunk_115",
+      "source_index": 115,
+      "source_position": [
+        15.65171332474605,
+        190.3024335242348
+      ],
+      "position": [
+        11.321586305823857,
+        187.8024335242348
+      ]
+    },
+    {
+      "id": "Trunk_131",
+      "source_index": 131,
+      "source_position": [
+        15.579623273825185,
+        242.65068111991292
+      ],
+      "position": [
+        10.655584508764143,
+        241.78244023157828
+      ]
+    },
+    {
+      "id": "Trunk_142",
+      "source_index": 142,
+      "source_position": [
+        -7.401957459724964,
+        208.4640266862614
+      ],
+      "position": [
+        0.5980425402750358,
+        208.4640266862614
+      ]
+    },
+    {
+      "id": "Trunk_146",
+      "source_index": 146,
+      "source_position": [
+        75.53167550545923,
+        196.810852871116
+      ],
+      "position": [
+        79.36189772105412,
+        200.0247909195487
+      ]
+    },
+    {
+      "id": "Trunk_148",
+      "source_index": 148,
+      "source_position": [
+        57.828059693176314,
+        242.7212601665457
+      ],
+      "position": [
+        53.49793267425412,
+        240.2212601665457
+      ]
+    },
+    {
+      "id": "Trunk_149",
+      "source_index": 149,
+      "source_position": [
+        34.61171738410176,
+        195.05319290318369
+      ],
+      "position": [
+        30.611717384101755,
+        188.12498967290819
+      ]
+    },
+    {
+      "id": "Trunk_150",
+      "source_index": 150,
+      "source_position": [
+        -6.809089378758587,
+        220.8962798249899
+      ],
+      "position": [
+        1.1909106212414127,
+        220.8962798249899
+      ]
+    },
+    {
+      "id": "Trunk_156",
+      "source_index": 156,
+      "source_position": [
+        4.726714189217127,
+        190.90335904699828
+      ],
+      "position": [
+        0.896491973622235,
+        187.6894209985656
+      ]
+    },
+    {
+      "id": "Trunk_167",
+      "source_index": 167,
+      "source_position": [
+        214.8089640301906,
+        166.13358991468175
+      ],
+      "position": [
+        198.83418947683015,
+        171.94793235121813
+      ]
+    },
+    {
+      "id": "Trunk_172",
+      "source_index": 172,
+      "source_position": [
+        58.18190943162933,
+        220.78155276418698
+      ],
+      "position": [
+        69.18190943162932,
+        220.78155276418698
+      ]
+    },
+    {
+      "id": "Trunk_179",
+      "source_index": 179,
+      "source_position": [
+        28.793854089987896,
+        207.9179917446845
+      ],
+      "position": [
+        11.793854089987896,
+        207.9179917446845
+      ]
+    },
+    {
+      "id": "Trunk_182",
+      "source_index": 182,
+      "source_position": [
+        46.63220650007301,
+        208.88754300898583
+      ],
+      "position": [
+        69.2827848193538,
+        212.88145109532522
+      ]
+    },
+    {
+      "id": "Trunk_187",
+      "source_index": 187,
+      "source_position": [
+        65.47455738670531,
+        220.0446700960269
+      ],
+      "position": [
+        69.80468440562751,
+        222.5446700960269
+      ]
+    },
+    {
+      "id": "Trunk_190",
+      "source_index": 190,
+      "source_position": [
+        63.05733188766924,
+        197.4277326550632
+      ],
+      "position": [
+        67.38745890659143,
+        199.9277326550632
+      ]
+    },
+    {
+      "id": "Trunk_191",
+      "source_index": 191,
+      "source_position": [
+        226.46468218042625,
+        158.8865774263131
+      ],
+      "position": [
+        240.46468218042625,
+        158.8865774263131
+      ]
+    },
+    {
+      "id": "Trunk_193",
+      "source_index": 193,
+      "source_position": [
+        45.70533605646465,
+        249.88055590968128
+      ],
+      "position": [
+        44.31615063512921,
+        242.0020938855836
+      ]
+    },
+    {
+      "id": "Trunk_203",
+      "source_index": 203,
+      "source_position": [
+        51.986184014353476,
+        213.58628733597843
+      ],
+      "position": [
+        68.727915815561,
+        216.53830635631624
+      ]
+    },
+    {
+      "id": "Trunk_204",
+      "source_index": 204,
+      "source_position": [
+        -1.6354466658400946,
+        227.14230216612162
+      ],
+      "position": [
+        3.3645533341599054,
+        227.14230216612162
+      ]
+    },
+    {
+      "id": "Trunk_207",
+      "source_index": 207,
+      "source_position": [
+        206.79436307896262,
+        172.21505202928444
+      ],
+      "position": [
+        199.86615984868712,
+        176.21505202928444
+      ]
+    },
+    {
+      "id": "Trunk_221",
+      "source_index": 221,
+      "source_position": [
+        49.983191056755174,
+        249.86382326620102
+      ],
+      "position": [
+        42.91252735020324,
+        241.43733439189228
+      ]
+    },
+    {
+      "id": "Trunk_223",
+      "source_index": 223,
+      "source_position": [
+        224.64623145948775,
+        182.61628701470707
+      ],
+      "position": [
+        238.64623145948775,
+        182.61628701470707
+      ]
+    },
+    {
+      "id": "Trunk_225",
+      "source_index": 225,
+      "source_position": [
+        28.842897384972986,
+        190.33253509826784
+      ],
+      "position": [
+        24.144434281043445,
+        188.6224343816395
+      ]
+    },
+    {
+      "id": "Trunk_233",
+      "source_index": 233,
+      "source_position": [
+        214.46526338298926,
+        178.17712788695403
+      ],
+      "position": [
+        220.27960581952564,
+        194.15190244031447
+      ]
+    },
+    {
+      "id": "Trunk_236",
+      "source_index": 236,
+      "source_position": [
+        52.06769555773765,
+        203.0989307080393
+      ],
+      "position": [
+        69.06769555773765,
+        203.0989307080393
+      ]
+    },
+    {
+      "id": "Trunk_242",
+      "source_index": 242,
+      "source_position": [
+        -8.96996021980186,
+        226.62520082228008
+      ],
+      "position": [
+        1.862925063332428,
+        228.53533077661632
+      ]
+    },
+    {
+      "id": "Trunk_249",
+      "source_index": 249,
+      "source_position": [
+        -7.913220366559275,
+        184.3114055909243
+      ],
+      "position": [
+        -10.413220366559274,
+        188.64153260984648
+      ]
+    },
+    {
+      "id": "Trunk_250",
+      "source_index": 250,
+      "source_position": [
+        64.22185308037369,
+        214.03796721728006
+      ],
+      "position": [
+        69.14589184543473,
+        214.9062081056147
+      ]
+    },
+    {
+      "id": "Trunk_253",
+      "source_index": 253,
+      "source_position": [
+        -2.278276465083071,
+        237.25854893651757
+      ],
+      "position": [
+        2.721723534916929,
+        237.25854893651757
+      ]
+    },
+    {
+      "id": "Trunk_269",
+      "source_index": 269,
+      "source_position": [
+        223.31030902604346,
+        154.35119715560023
+      ],
+      "position": [
+        216.31030902604346,
+        142.2268415026181
+      ]
+    },
+    {
+      "id": "Trunk_290",
+      "source_index": 290,
+      "source_position": [
+        35.48829396519443,
+        249.72749520360406
+      ],
+      "position": [
+        32.75213281858908,
+        242.2099542373168
+      ]
+    },
+    {
+      "id": "Trunk_302",
+      "source_index": 302,
+      "source_position": [
+        212.66487711776628,
+        155.39642430087468
+      ],
+      "position": [
+        198.87756857559538,
+        157.8274987882117
+      ]
+    },
+    {
+      "id": "Trunk_304",
+      "source_index": 304,
+      "source_position": [
+        226.88131214470633,
+        154.73907882844543
+      ],
+      "position": [
+        240.88131214470633,
+        154.73907882844543
+      ]
+    },
+    {
+      "id": "Trunk_307",
+      "source_index": 307,
+      "source_position": [
+        218.06424242650723,
+        154.667862766345
+      ],
+      "position": [
+        222.8525244330666,
+        141.5121660753423
+      ]
+    },
+    {
+      "id": "Trunk_315",
+      "source_index": 315,
+      "source_position": [
+        209.39517368068806,
+        161.70237938200646
+      ],
+      "position": [
+        199.86889423905924,
+        167.20237938200646
+      ]
+    },
+    {
+      "id": "Trunk_317",
+      "source_index": 317,
+      "source_position": [
+        221.77786763943217,
+        167.00189058501317
+      ],
+      "position": [
+        238.77786763943217,
+        167.00189058501317
+      ]
+    },
+    {
+      "id": "Trunk_318",
+      "source_index": 318,
+      "source_position": [
+        230.5177051003365,
+        164.56025623859844
+      ],
+      "position": [
+        238.5177051003365,
+        164.56025623859844
+      ]
+    },
+    {
+      "id": "Trunk_323",
+      "source_index": 323,
+      "source_position": [
+        52.83519469104595,
+        249.51006540798352
+      ],
+      "position": [
+        54.22438011238139,
+        241.63160338388585
+      ]
+    },
+    {
+      "id": "Trunk_358",
+      "source_index": 358,
+      "source_position": [
+        42.5804727834373,
+        249.52957702017466
+      ],
+      "position": [
+        39.844311636831954,
+        242.01203605388739
+      ]
+    },
+    {
+      "id": "Trunk_365",
+      "source_index": 365,
+      "source_position": [
+        47.7533728500232,
+        249.0694535019046
+      ],
+      "position": [
+        46.36418742868776,
+        241.19099147780693
+      ]
+    },
+    {
+      "id": "Trunk_370",
+      "source_index": 370,
+      "source_position": [
+        221.52315035344174,
+        161.62725252728612
+      ],
+      "position": [
+        238.26488215464929,
+        158.6752335069483
+      ]
+    },
+    {
+      "id": "Trunk_371",
+      "source_index": 371,
+      "source_position": [
+        224.38169533451594,
+        163.7916269385702
+      ],
+      "position": [
+        241.38169533451594,
+        163.7916269385702
+      ]
+    },
+    {
+      "id": "Trunk_397",
+      "source_index": 397,
+      "source_position": [
+        202.41750839357672,
+        161.68444306363455
+      ],
+      "position": [
+        199.20357034514402,
+        165.51466527922943
+      ]
+    },
+    {
+      "id": "Trunk_401",
+      "source_index": 401,
+      "source_position": [
+        28.60237369681763,
+        248.73800122627787
+      ],
+      "position": [
+        24.602373696817626,
+        241.80979799600237
+      ]
+    },
+    {
+      "id": "Trunk_405",
+      "source_index": 405,
+      "source_position": [
+        235.944269505689,
+        154.9938884904594
+      ],
+      "position": [
+        240.64273260961855,
+        156.70398920708774
+      ]
+    },
+    {
+      "id": "Trunk_412",
+      "source_index": 412,
+      "source_position": [
+        211.31842143054084,
+        169.83307973347442
+      ],
+      "position": [
+        198.16272473953813,
+        174.6213617400338
+      ]
+    },
+    {
+      "id": "Trunk_417",
+      "source_index": 417,
+      "source_position": [
+        235.62397897849416,
+        164.01748235468227
+      ],
+      "position": [
+        240.32244208242372,
+        165.72758307131062
+      ]
+    },
+    {
+      "id": "Trunk_419",
+      "source_index": 419,
+      "source_position": [
+        232.97461294289087,
+        167.5614266443442
+      ],
+      "position": [
+        240.97461294289087,
+        167.5614266443442
+      ]
+    },
+    {
+      "id": "Trunk_423",
+      "source_index": 423,
+      "source_position": [
+        227.4159084639549,
+        166.9092735511971
+      ],
+      "position": [
+        238.2487937470892,
+        168.81940350553333
+      ]
+    },
+    {
+      "id": "Trunk_432",
+      "source_index": 432,
+      "source_position": [
+        209.07831629162615,
+        178.85616441309827
+      ],
+      "position": [
+        199.55203684999734,
+        184.35616441309827
+      ]
+    },
+    {
+      "id": "Trunk_438",
+      "source_index": 438,
+      "source_position": [
+        212.2601663733507,
+        173.5771063859987
+      ],
+      "position": [
+        199.104469682348,
+        178.36538839255806
+      ]
+    },
+    {
+      "id": "Trunk_461",
+      "source_index": 461,
+      "source_position": [
+        206.0956708623319,
+        166.83580133259198
+      ],
+      "position": [
+        198.21720883823423,
+        168.22498675392742
+      ]
+    },
+    {
+      "id": "Trunk_475",
+      "source_index": 475,
+      "source_position": [
+        206.00550799612085,
+        181.32453183869936
+      ],
+      "position": [
+        199.87715245116902,
+        186.46683271619167
+      ]
+    },
+    {
+      "id": "Trunk_497",
+      "source_index": 497,
+      "source_position": [
+        44.420034793675875,
+        248.98775474484722
+      ],
+      "position": [
+        42.50990483933964,
+        238.15486946171293
+      ]
+    },
+    {
+      "id": "Trunk_509",
+      "source_index": 509,
+      "source_position": [
+        25.724641472836975,
+        249.77569892440556
+      ],
+      "position": [
+        27.113826894172416,
+        241.8972369003079
+      ]
+    },
+    {
+      "id": "Trunk_512",
+      "source_index": 512,
+      "source_position": [
+        41.652293305693256,
+        248.25562803261656
+      ],
+      "position": [
+        38.91613215908791,
+        240.73808706632929
+      ]
+    },
+    {
+      "id": "Trunk_520",
+      "source_index": 520,
+      "source_position": [
+        221.53212949143074,
+        158.4616448710816
+      ],
+      "position": [
+        238.2738612926383,
+        155.5096258507438
+      ]
+    },
+    {
+      "id": "Trunk_526",
+      "source_index": 526,
+      "source_position": [
+        37.02757690253464,
+        249.69340765636787
+      ],
+      "position": [
+        29.956913195982708,
+        241.26691878205912
+      ]
+    },
+    {
+      "id": "Trunk_527",
+      "source_index": 527,
+      "source_position": [
+        229.4943590023309,
+        158.68853428733735
+      ],
+      "position": [
+        240.32724428546518,
+        160.5986642416736
+      ]
+    },
+    {
+      "id": "Trunk_533",
+      "source_index": 533,
+      "source_position": [
+        27.26074435884396,
+        249.68701080565586
+      ],
+      "position": [
+        17.73446491721514,
+        255.18701080565586
+      ]
+    },
+    {
+      "id": "Trunk_541",
+      "source_index": 541,
+      "source_position": [
+        232.80747661567466,
+        178.33382884751396
+      ],
+      "position": [
+        240.80747661567466,
+        178.33382884751396
+      ]
+    },
+    {
+      "id": "Trunk_556",
+      "source_index": 556,
+      "source_position": [
+        43.51282777643263,
+        246.96410889855647
+      ],
+      "position": [
+        46.248988923037984,
+        239.4465679322692
+      ]
+    },
+    {
+      "id": "Trunk_568",
+      "source_index": 568,
+      "source_position": [
+        235.94642933438217,
+        173.10341777114743
+      ],
+      "position": [
+        240.94642933438217,
+        173.10341777114743
+      ]
+    },
+    {
+      "id": "Trunk_573",
+      "source_index": 573,
+      "source_position": [
+        214.2979347139825,
+        184.95979862864124
+      ],
+      "position": [
+        205.29890817837094,
+        195.68442083230693
+      ]
+    },
+    {
+      "id": "Trunk_593",
+      "source_index": 593,
+      "source_position": [
+        226.31329878086999,
+        185.1274674816354
+      ],
+      "position": [
+        240.31329878086999,
+        185.1274674816354
+      ]
+    },
+    {
+      "id": "Trunk_603",
+      "source_index": 603,
+      "source_position": [
+        233.52847912864024,
+        181.64712852063755
+      ],
+      "position": [
+        238.2269422325698,
+        179.9370278040092
+      ]
+    },
+    {
+      "id": "Trunk_605",
+      "source_index": 605,
+      "source_position": [
+        -4.637018721140227,
+        146.15668855257255
+      ],
+      "position": [
+        0.2870200439208128,
+        147.0249294409072
+      ]
+    },
+    {
+      "id": "Trunk_614",
+      "source_index": 614,
+      "source_position": [
+        226.69179184634513,
+        179.5293849694844
+      ],
+      "position": [
+        240.47910038851603,
+        181.9604594568214
+      ]
+    },
+    {
+      "id": "Trunk_625",
+      "source_index": 625,
+      "source_position": [
+        -0.3585401963811694,
+        127.56155859985425
+      ],
+      "position": [
+        4.64145980361883,
+        127.56155859985425
+      ]
+    },
+    {
+      "id": "Trunk_626",
+      "source_index": 626,
+      "source_position": [
+        214.66324886168894,
+        157.7556234890026
+      ],
+      "position": [
+        198.6884743083285,
+        163.56996592553898
+      ]
+    },
+    {
+      "id": "Trunk_658",
+      "source_index": 658,
+      "source_position": [
+        203.3997445675544,
+        176.32459120404081
+      ],
+      "position": [
+        198.25744369006208,
+        182.45294674899264
+      ]
+    },
+    {
+      "id": "Trunk_683",
+      "source_index": 683,
+      "source_position": [
+        211.31363888944352,
+        176.37825207476928
+      ],
+      "position": [
+        197.52633034727262,
+        178.8093265621063
+      ]
+    },
+    {
+      "id": "Trunk_697",
+      "source_index": 697,
+      "source_position": [
+        49.42342565772669,
+        242.75031364000176
+      ],
+      "position": [
+        47.71332494109835,
+        238.0518505360722
+      ]
+    },
+    {
+      "id": "Trunk_698",
+      "source_index": 698,
+      "source_position": [
+        218.59875266174757,
+        178.58091752836037
+      ],
+      "position": [
+        238.51733694878965,
+        190.08091752836037
+      ]
+    },
+    {
+      "id": "Trunk_703",
+      "source_index": 703,
+      "source_position": [
+        35.280357528729446,
+        242.35591110763045
+      ],
+      "position": [
+        30.950230509807255,
+        239.85591110763045
+      ]
+    },
+    {
+      "id": "Trunk_716",
+      "source_index": 716,
+      "source_position": [
+        232.49317630461724,
+        184.65452407162044
+      ],
+      "position": [
+        242.01945574624605,
+        190.15452407162044
+      ]
+    },
+    {
+      "id": "Trunk_724",
+      "source_index": 724,
+      "source_position": [
+        34.51812121898823,
+        248.46113016041798
+      ],
+      "position": [
+        33.12893579765279,
+        240.5826681363203
+      ]
+    },
+    {
+      "id": "Trunk_752",
+      "source_index": 752,
+      "source_position": [
+        -1.2425539719505594,
+        119.24118768150015
+      ],
+      "position": [
+        3.4559091319789834,
+        120.9512883981285
+      ]
+    },
+    {
+      "id": "Trunk_757",
+      "source_index": 757,
+      "source_position": [
+        212.23031454631834,
+        164.2308834439681
+      ],
+      "position": [
+        199.07461785531564,
+        159.44260143740874
+      ]
+    },
+    {
+      "id": "Trunk_769",
+      "source_index": 769,
+      "source_position": [
+        217.35301887359307,
+        167.27502152423259
+      ],
+      "position": [
+        197.6568638133489,
+        170.7479850775712
+      ]
+    },
+    {
+      "id": "Trunk_773",
+      "source_index": 773,
+      "source_position": [
+        47.77642901241231,
+        190.21184010766723
+      ],
+      "position": [
+        43.07796590848277,
+        188.50173939103888
+      ]
+    },
+    {
+      "id": "Trunk_785",
+      "source_index": 785,
+      "source_position": [
+        -9.793436947230584,
+        140.456119345421
+      ],
+      "position": [
+        -10.661677835565236,
+        145.38015811048203
+      ]
+    },
+    {
+      "id": "Trunk_801",
+      "source_index": 801,
+      "source_position": [
+        236.49598848402871,
+        158.57301546851477
+      ],
+      "position": [
+        239.70992653246142,
+        162.40323768410965
+      ]
+    },
+    {
+      "id": "Trunk_802",
+      "source_index": 802,
+      "source_position": [
+        218.37440876839088,
+        161.1977579394816
+      ],
+      "position": [
+        239.9873390464668,
+        169.06422123597196
+      ]
+    },
+    {
+      "id": "Trunk_803",
+      "source_index": 803,
+      "source_position": [
+        32.612232886839706,
+        248.3968044989766
+      ],
+      "position": [
+        35.34839403344506,
+        240.87926353268932
+      ]
+    },
+    {
+      "id": "Trunk_805",
+      "source_index": 805,
+      "source_position": [
+        217.84298926457834,
+        170.63168144333915
+      ],
+      "position": [
+        240.84298926457834,
+        170.63168144333915
+      ]
+    },
+    {
+      "id": "Trunk_810",
+      "source_index": 810,
+      "source_position": [
+        70.0177082271651,
+        249.2435172887157
+      ],
+      "position": [
+        75.0177082271651,
+        249.2435172887157
+      ]
+    },
+    {
+      "id": "Trunk_815",
+      "source_index": 815,
+      "source_position": [
+        203.7510775718724,
+        185.70169497130013
+      ],
+      "position": [
+        199.9208553562775,
+        188.91563301973284
+      ]
+    },
+    {
+      "id": "Trunk_823",
+      "source_index": 823,
+      "source_position": [
+        54.37114782517256,
+        249.74455286998895
+      ],
+      "position": [
+        55.760333246508,
+        241.86609084589128
+      ]
+    },
+    {
+      "id": "Trunk_844",
+      "source_index": 844,
+      "source_position": [
+        -3.8787689322323464,
+        127.40581589420461
+      ],
+      "position": [
+        1.1212310677676536,
+        127.40581589420461
+      ]
+    },
+    {
+      "id": "Trunk_845",
+      "source_index": 845,
+      "source_position": [
+        55.71300886508846,
+        248.55368228451204
+      ],
+      "position": [
+        57.1021942864239,
+        240.67522026041436
+      ]
+    },
+    {
+      "id": "Trunk_853",
+      "source_index": 853,
+      "source_position": [
+        215.12443789824016,
+        170.2616045518456
+      ],
+      "position": [
+        197.8039298225514,
+        160.2616045518456
+      ]
+    },
+    {
+      "id": "Trunk_858",
+      "source_index": 858,
+      "source_position": [
+        -6.736136693632262,
+        143.4859410572066
+      ],
+      "position": [
+        -11.736136693632261,
+        143.4859410572066
+      ]
+    },
+    {
+      "id": "Trunk_871",
+      "source_index": 871,
+      "source_position": [
+        220.75627317516046,
+        175.44088209612315
+      ],
+      "position": [
+        240.75627317516046,
+        175.44088209612315
+      ]
+    },
+    {
+      "id": "Trunk_873",
+      "source_index": 873,
+      "source_position": [
+        224.1358258376214,
+        173.28388004477227
+      ],
+      "position": [
+        241.45633391331017,
+        183.28388004477227
+      ]
+    },
+    {
+      "id": "Trunk_875",
+      "source_index": 875,
+      "source_position": [
+        51.20440173105591,
+        248.69488984199612
+      ],
+      "position": [
+        48.46824058445056,
+        241.17734887570884
+      ]
+    },
+    {
+      "id": "Trunk_879",
+      "source_index": 879,
+      "source_position": [
+        -0.9509622560699847,
+        134.46044889382563
+      ],
+      "position": [
+        4.049037743930016,
+        134.46044889382563
+      ]
+    },
+    {
+      "id": "Trunk_881",
+      "source_index": 881,
+      "source_position": [
+        212.06980632154034,
+        187.58994247810682
+      ],
+      "position": [
+        206.56980632154034,
+        197.11622191973564
+      ]
+    },
+    {
+      "id": "Trunk_898",
+      "source_index": 898,
+      "source_position": [
+        41.61510921414362,
+        230.12785068436708
+      ],
+      "position": [
+        44.11510921414362,
+        234.45797770328926
+      ]
+    },
+    {
+      "id": "Trunk_908",
+      "source_index": 908,
+      "source_position": [
+        202.48881522423792,
+        172.40068798591398
+      ],
+      "position": [
+        199.75265407763257,
+        179.91822895220125
+      ]
+    },
+    {
+      "id": "Trunk_923",
+      "source_index": 923,
+      "source_position": [
+        33.39174313028149,
+        249.962472558435
+      ],
+      "position": [
+        27.891743130281483,
+        240.43619311680618
+      ]
+    },
+    {
+      "id": "Trunk_938",
+      "source_index": 938,
+      "source_position": [
+        56.53125703216792,
+        190.88439683594842
+      ],
+      "position": [
+        52.20113001324573,
+        188.38439683594842
+      ]
+    },
+    {
+      "id": "Trunk_943",
+      "source_index": 943,
+      "source_position": [
+        55.78460357389054,
+        196.54107128613188
+      ],
+      "position": [
+        54.3954181525551,
+        188.6626092620342
+      ]
+    },
+    {
+      "id": "Trunk_972",
+      "source_index": 972,
+      "source_position": [
+        25.205597862602584,
+        200.10062299615254
+      ],
+      "position": [
+        11.205597862602584,
+        200.10062299615254
+      ]
+    },
+    {
+      "id": "Trunk_974",
+      "source_index": 974,
+      "source_position": [
+        214.946309963415,
+        172.98663707468347
+      ],
+      "position": [
+        197.3272877716785,
+        187.7707520974739
+      ]
+    },
+    {
+      "id": "Trunk_979",
+      "source_index": 979,
+      "source_position": [
+        208.46371784365357,
+        164.65621046904852
+      ],
+      "position": [
+        197.63083256051928,
+        166.56634042338476
+      ]
+    },
+    {
+      "id": "Trunk_987",
+      "source_index": 987,
+      "source_position": [
+        229.62082587602103,
+        184.72065109138393
+      ],
+      "position": [
+        240.45371115915532,
+        186.63078104572017
+      ]
+    },
+    {
+      "id": "Trunk_996",
+      "source_index": 996,
+      "source_position": [
+        53.52419957735673,
+        209.43383538937985
+      ],
+      "position": [
+        67.52419957735674,
+        209.43383538937985
+      ]
+    },
+    {
+      "id": "Trunk_1022",
+      "source_index": 1022,
+      "source_position": [
+        34.917392810973666,
+        191.0905083717989
+      ],
+      "position": [
+        32.417392810973666,
+        186.76038135287672
+      ]
+    },
+    {
+      "id": "Trunk_1032",
+      "source_index": 1032,
+      "source_position": [
+        -4.771887722604882,
+        172.93592852296678
+      ],
+      "position": [
+        0.22811227739511786,
+        172.93592852296678
+      ]
+    },
+    {
+      "id": "Trunk_1034",
+      "source_index": 1034,
+      "source_position": [
+        37.90923527458432,
+        230.03106014896906
+      ],
+      "position": [
+        40.40923527458432,
+        234.36118716789125
+      ]
+    },
+    {
+      "id": "Trunk_1048",
+      "source_index": 1048,
+      "source_position": [
+        -1.7597065966482521,
+        122.59113347450996
+      ],
+      "position": [
+        3.240293403351748,
+        122.59113347450996
+      ]
+    },
+    {
+      "id": "Trunk_1051",
+      "source_index": 1051,
+      "source_position": [
+        30.941698052367524,
+        249.92171555625373
+      ],
+      "position": [
+        25.44169805236752,
+        240.3954361146249
+      ]
+    },
+    {
+      "id": "Trunk_1052",
+      "source_index": 1052,
+      "source_position": [
+        35.344059964535774,
+        223.4724092577287
+      ],
+      "position": [
+        37.25418991887201,
+        234.305294540863
+      ]
+    },
+    {
+      "id": "Trunk_1078",
+      "source_index": 1078,
+      "source_position": [
+        203.76815835646545,
+        154.6722769477573
+      ],
+      "position": [
+        198.76815835646545,
+        154.6722769477573
+      ]
+    },
+    {
+      "id": "Trunk_1090",
+      "source_index": 1090,
+      "source_position": [
+        26.136173109555656,
+        208.63648771989077
+      ],
+      "position": [
+        10.161398556195214,
+        214.45083015642714
+      ]
+    },
+    {
+      "id": "Trunk_1102",
+      "source_index": 1102,
+      "source_position": [
+        37.8162771874611,
+        193.5393711631045
+      ],
+      "position": [
+        36.94803629912644,
+        188.61533239804348
+      ]
+    },
+    {
+      "id": "Trunk_1111",
+      "source_index": 1111,
+      "source_position": [
+        34.92229441160389,
+        211.30135670492922
+      ],
+      "position": [
+        38.916202497943296,
+        233.95193502421
+      ]
+    },
+    {
+      "id": "Trunk_1112",
+      "source_index": 1112,
+      "source_position": [
+        55.87041523658447,
+        203.30169667999766
+      ],
+      "position": [
+        69.65772377875538,
+        205.73277116733468
+      ]
+    },
+    {
+      "id": "Trunk_1124",
+      "source_index": 1124,
+      "source_position": [
+        41.582385643893474,
+        197.1941978706499
+      ],
+      "position": [
+        34.51172193734154,
+        188.76770899634116
+      ]
+    },
+    {
+      "id": "Trunk_1159",
+      "source_index": 1159,
+      "source_position": [
+        36.7314939461467,
+        246.3188142697146
+      ],
+      "position": [
+        33.99533279954135,
+        238.80127330342734
+      ]
+    },
+    {
+      "id": "Trunk_1167",
+      "source_index": 1167,
+      "source_position": [
+        41.02060298603508,
+        212.6920471705245
+      ],
+      "position": [
+        37.54763943269647,
+        232.38820223076866
+      ]
+    },
+    {
+      "id": "Trunk_1173",
+      "source_index": 1173,
+      "source_position": [
+        65.49925116852374,
+        232.21058667861172
+      ],
+      "position": [
+        69.82937818744594,
+        234.71058667861172
+      ]
+    },
+    {
+      "id": "Trunk_1174",
+      "source_index": 1174,
+      "source_position": [
+        23.50256359683883,
+        249.91564631981058
+      ],
+      "position": [
+        16.574360366563322,
+        253.91564631981058
+      ]
+    },
+    {
+      "id": "Trunk_1179",
+      "source_index": 1179,
+      "source_position": [
+        -0.6296988305704898,
+        109.67160694125845
+      ],
+      "position": [
+        4.37030116942951,
+        109.67160694125845
+      ]
+    },
+    {
+      "id": "Trunk_1184",
+      "source_index": 1184,
+      "source_position": [
+        50.161305685937705,
+        193.57961576180057
+      ],
+      "position": [
+        48.451204969309366,
+        188.881152657871
+      ]
+    },
+    {
+      "id": "Trunk_1188",
+      "source_index": 1188,
+      "source_position": [
+        227.7276000723074,
+        170.31891295712416
+      ],
+      "position": [
+        238.7276000723074,
+        170.31891295712416
+      ]
+    },
+    {
+      "id": "Trunk_1195",
+      "source_index": 1195,
+      "source_position": [
+        218.0898583920882,
+        184.98009169194384
+      ],
+      "position": [
+        238.0898583920882,
+        184.98009169194384
+      ]
+    }
+  ],
+  "new_poles": [
+    {
+      "id": "EST04_09_POLE_000",
+      "position": [
+        -3.0493248940481634,
+        197.27589282567976
+      ],
+      "sector": "S03",
+      "road_id": "V12",
+      "rotation_degrees": 0,
+      "chainage_m": 0,
+      "existing_lamp": false,
+      "crossarm_xz": [
+        -0.013107488112947197,
+        0.9999140931876943
+      ]
+    },
+    {
+      "id": "EST04_09_POLE_001",
+      "position": [
+        25.28412298170158,
+        197.6473050637514
+      ],
+      "sector": "S03",
+      "road_id": "V12",
+      "rotation_degrees": 0,
+      "chainage_m": 0,
+      "existing_lamp": false,
+      "crossarm_xz": [
+        -0.013107488112947197,
+        0.9999140931876943
+      ]
+    },
+    {
+      "id": "EST04_09_POLE_002",
+      "position": [
+        56.61731313701441,
+        198.05803976616184
+      ],
+      "sector": "S03",
+      "road_id": "V12",
+      "rotation_degrees": 0,
+      "chainage_m": 0,
+      "existing_lamp": false,
+      "crossarm_xz": [
+        -0.013107488112947197,
+        0.9999140931876943
+      ]
+    },
+    {
+      "id": "EST04_09_POLE_003",
+      "position": [
+        81.95101873320107,
+        198.39012953989462
+      ],
+      "sector": "S03",
+      "road_id": "V12",
+      "rotation_degrees": 0,
+      "chainage_m": 0,
+      "existing_lamp": false,
+      "crossarm_xz": [
+        -0.013107488112947197,
+        0.9999140931876943
+      ]
+    },
+    {
+      "id": "EST04_09_POLE_004",
+      "position": [
+        16.333333333333332,
+        62.25
+      ],
+      "sector": "S04",
+      "road_id": "V13",
+      "rotation_degrees": 0,
+      "chainage_m": 0,
+      "existing_lamp": false,
+      "crossarm_xz": [
+        -0.0,
+        -1.0
+      ]
+    },
+    {
+      "id": "EST04_09_POLE_005",
+      "position": [
+        -3.0,
+        62.25
+      ],
+      "sector": "S04",
+      "road_id": "V13",
+      "rotation_degrees": 0,
+      "chainage_m": 0,
+      "existing_lamp": false,
+      "crossarm_xz": [
+        -0.0,
+        -1.0
+      ]
+    },
+    {
+      "id": "EST04_09_POLE_006",
+      "position": [
+        -8.75,
+        68.0
+      ],
+      "sector": "S04",
+      "road_id": "V13",
+      "rotation_degrees": 0,
+      "chainage_m": 0,
+      "existing_lamp": false,
+      "crossarm_xz": [
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "id": "EST04_09_POLE_007",
+      "position": [
+        -8.75,
+        92.0
+      ],
+      "sector": "S04",
+      "road_id": "V13",
+      "rotation_degrees": 0,
+      "chainage_m": 0,
+      "existing_lamp": false,
+      "crossarm_xz": [
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "id": "EST04_09_POLE_008",
+      "position": [
+        -8.75,
+        116.0
+      ],
+      "sector": "S04",
+      "road_id": "V13",
+      "rotation_degrees": 0,
+      "chainage_m": 0,
+      "existing_lamp": false,
+      "crossarm_xz": [
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "id": "EST04_09_POLE_009",
+      "position": [
+        -8.75,
+        140.0
+      ],
+      "sector": "S04",
+      "road_id": "V13",
+      "rotation_degrees": 0,
+      "chainage_m": 0,
+      "existing_lamp": false,
+      "crossarm_xz": [
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "id": "EST04_09_POLE_010",
+      "position": [
+        -8.75,
+        144.0
+      ],
+      "sector": "S04",
+      "road_id": "V13",
+      "rotation_degrees": 0,
+      "chainage_m": 0,
+      "existing_lamp": false,
+      "crossarm_xz": [
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "id": "EST04_09_POLE_011",
+      "position": [
+        -8.75,
+        170.75
+      ],
+      "sector": "S04",
+      "road_id": "V13",
+      "rotation_degrees": 0,
+      "chainage_m": 0,
+      "existing_lamp": false,
+      "crossarm_xz": [
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "id": "EST04_09_POLE_012",
+      "position": [
+        -8.75,
+        191.5
+      ],
+      "sector": "S04",
+      "road_id": "V13",
+      "rotation_degrees": 0,
+      "chainage_m": 0,
+      "existing_lamp": false,
+      "crossarm_xz": [
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "id": "EST04_09_POLE_013",
+      "position": [
+        -8.75,
+        195.5
+      ],
+      "sector": "S04",
+      "road_id": "V13",
+      "rotation_degrees": 0,
+      "chainage_m": 0,
+      "existing_lamp": false,
+      "crossarm_xz": [
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "id": "EST04_09_POLE_014",
+      "position": [
+        -8.75,
+        220.25
+      ],
+      "sector": "S04",
+      "road_id": "V13",
+      "rotation_degrees": 0,
+      "chainage_m": 0,
+      "existing_lamp": false,
+      "crossarm_xz": [
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "id": "EST04_09_POLE_015",
+      "position": [
+        -8.75,
+        245.0
+      ],
+      "sector": "S04",
+      "road_id": "V13",
+      "rotation_degrees": 0,
+      "chainage_m": 0,
+      "existing_lamp": false,
+      "crossarm_xz": [
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "id": "EST04_09_POLE_016",
+      "position": [
+        -3.0,
+        250.25
+      ],
+      "sector": "S03",
+      "road_id": "V14",
+      "rotation_degrees": 0,
+      "chainage_m": 0,
+      "existing_lamp": false,
+      "crossarm_xz": [
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "EST04_09_POLE_017",
+      "position": [
+        17.333333333333332,
+        250.25
+      ],
+      "sector": "S03",
+      "road_id": "V14",
+      "rotation_degrees": 0,
+      "chainage_m": 0,
+      "existing_lamp": false,
+      "crossarm_xz": [
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "EST04_09_POLE_018",
+      "position": [
+        37.666666666666664,
+        250.25
+      ],
+      "sector": "S03",
+      "road_id": "V14",
+      "rotation_degrees": 0,
+      "chainage_m": 0,
+      "existing_lamp": false,
+      "crossarm_xz": [
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "EST04_09_POLE_019",
+      "position": [
+        58.0,
+        250.25
+      ],
+      "sector": "S03",
+      "road_id": "V14",
+      "rotation_degrees": 0,
+      "chainage_m": 0,
+      "existing_lamp": false,
+      "crossarm_xz": [
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "EST04_09_POLE_020",
+      "position": [
+        61.438491138921876,
+        250.5345782270652
+      ],
+      "sector": "S03",
+      "road_id": "V14",
+      "rotation_degrees": 0,
+      "chainage_m": 0,
+      "existing_lamp": false,
+      "crossarm_xz": [
+        -0.1643989873053573,
+        0.9863939238321437
+      ]
+    },
+    {
+      "id": "EST04_09_POLE_021",
+      "position": [
+        63.4929154435933,
+        250.87698227784375
+      ],
+      "sector": "S03",
+      "road_id": "V14",
+      "rotation_degrees": 0,
+      "chainage_m": 0,
+      "existing_lamp": false,
+      "crossarm_xz": [
+        -0.1643989873053573,
+        0.9863939238321437
+      ]
+    }
+  ],
+  "new_spans": [
+    {
+      "id": "EST04_09_WIRE_000",
+      "a": "EST04_09_POLE_000",
+      "b": "EST04_09_POLE_001",
+      "kind": "new_street",
+      "length_m": 28.33588212105663,
+      "sectors": [
+        "S03"
+      ],
+      "height_m": 6.4,
+      "sag_m": 0.5100458781790194,
+      "conductors": 3
+    },
+    {
+      "id": "EST04_09_WIRE_001",
+      "a": "EST04_09_POLE_001",
+      "b": "EST04_09_POLE_002",
+      "kind": "new_street",
+      "length_m": 31.335882121056642,
+      "sectors": [
+        "S03"
+      ],
+      "height_m": 6.4,
+      "sag_m": 0.5640458781790195,
+      "conductors": 3
+    },
+    {
+      "id": "EST04_09_WIRE_002",
+      "a": "EST04_09_POLE_002",
+      "b": "EST04_09_POLE_003",
+      "kind": "new_street",
+      "length_m": 25.335882121056628,
+      "sectors": [
+        "S03"
+      ],
+      "height_m": 6.4,
+      "sag_m": 0.45604587817901926,
+      "conductors": 3
+    },
+    {
+      "id": "EST04_09_WIRE_003",
+      "a": "EST04_09_POLE_003",
+      "b": "V02_LAMP_011",
+      "kind": "new_street",
+      "length_m": 6.484288533639869,
+      "sectors": [
+        "S03"
+      ],
+      "height_m": 6.4,
+      "sag_m": 0.11671719360551762,
+      "conductors": 3
+    },
+    {
+      "id": "EST04_09_WIRE_004",
+      "a": "EST04_09_POLE_004",
+      "b": "EST04_09_POLE_005",
+      "kind": "new_street",
+      "length_m": 19.333333333333332,
+      "sectors": [
+        "S04"
+      ],
+      "height_m": 6.4,
+      "sag_m": 0.348,
+      "conductors": 3
+    },
+    {
+      "id": "EST04_09_WIRE_005",
+      "a": "EST04_09_POLE_005",
+      "b": "EST04_09_POLE_006",
+      "kind": "new_street",
+      "length_m": 8.131727983645296,
+      "sectors": [
+        "S04"
+      ],
+      "height_m": 6.4,
+      "sag_m": 0.14637110370561532,
+      "conductors": 3
+    },
+    {
+      "id": "EST04_09_WIRE_006",
+      "a": "EST04_09_POLE_006",
+      "b": "EST04_09_POLE_007",
+      "kind": "new_street",
+      "length_m": 24.0,
+      "sectors": [
+        "S04"
+      ],
+      "height_m": 6.4,
+      "sag_m": 0.43199999999999994,
+      "conductors": 3
+    },
+    {
+      "id": "EST04_09_WIRE_007",
+      "a": "EST04_09_POLE_007",
+      "b": "EST04_09_POLE_008",
+      "kind": "new_street",
+      "length_m": 24.0,
+      "sectors": [
+        "S04"
+      ],
+      "height_m": 6.4,
+      "sag_m": 0.43199999999999994,
+      "conductors": 3
+    },
+    {
+      "id": "EST04_09_WIRE_008",
+      "a": "EST04_09_POLE_008",
+      "b": "EST04_09_POLE_009",
+      "kind": "new_street",
+      "length_m": 24.0,
+      "sectors": [
+        "S04"
+      ],
+      "height_m": 6.4,
+      "sag_m": 0.43199999999999994,
+      "conductors": 3
+    },
+    {
+      "id": "EST04_09_WIRE_009",
+      "a": "EST04_09_POLE_009",
+      "b": "EST04_09_POLE_010",
+      "kind": "new_street",
+      "length_m": 4.0,
+      "sectors": [
+        "S04"
+      ],
+      "height_m": 6.4,
+      "sag_m": 0.072,
+      "conductors": 3
+    },
+    {
+      "id": "EST04_09_WIRE_010",
+      "a": "EST04_09_POLE_010",
+      "b": "EST04_09_POLE_011",
+      "kind": "new_street",
+      "length_m": 26.75,
+      "sectors": [
+        "S04"
+      ],
+      "height_m": 6.4,
+      "sag_m": 0.4815,
+      "conductors": 3
+    },
+    {
+      "id": "EST04_09_WIRE_011",
+      "a": "EST04_09_POLE_011",
+      "b": "EST04_09_POLE_012",
+      "kind": "new_street",
+      "length_m": 20.75,
+      "sectors": [
+        "S04"
+      ],
+      "height_m": 6.4,
+      "sag_m": 0.3735,
+      "conductors": 3
+    },
+    {
+      "id": "EST04_09_WIRE_012",
+      "a": "EST04_09_POLE_012",
+      "b": "EST04_09_POLE_013",
+      "kind": "new_street",
+      "length_m": 4.0,
+      "sectors": [
+        "S04"
+      ],
+      "height_m": 6.4,
+      "sag_m": 0.072,
+      "conductors": 3
+    },
+    {
+      "id": "EST04_09_WIRE_013",
+      "a": "EST04_09_POLE_013",
+      "b": "EST04_09_POLE_014",
+      "kind": "new_street",
+      "length_m": 24.75,
+      "sectors": [
+        "S04"
+      ],
+      "height_m": 6.4,
+      "sag_m": 0.44549999999999995,
+      "conductors": 3
+    },
+    {
+      "id": "EST04_09_WIRE_014",
+      "a": "EST04_09_POLE_014",
+      "b": "EST04_09_POLE_015",
+      "kind": "new_street",
+      "length_m": 24.75,
+      "sectors": [
+        "S04"
+      ],
+      "height_m": 6.4,
+      "sag_m": 0.44549999999999995,
+      "conductors": 3
+    },
+    {
+      "id": "EST04_09_WIRE_015",
+      "a": "EST04_09_POLE_013",
+      "b": "EST04_09_POLE_000",
+      "kind": "new_street",
+      "length_m": 5.970887035601982,
+      "sectors": [
+        "S03",
+        "S04"
+      ],
+      "height_m": 6.4,
+      "sag_m": 0.10747596664083567,
+      "conductors": 3
+    },
+    {
+      "id": "EST04_09_WIRE_016",
+      "a": "EST04_09_POLE_016",
+      "b": "EST04_09_POLE_017",
+      "kind": "new_street",
+      "length_m": 20.333333333333332,
+      "sectors": [
+        "S03"
+      ],
+      "height_m": 6.4,
+      "sag_m": 0.36599999999999994,
+      "conductors": 3
+    },
+    {
+      "id": "EST04_09_WIRE_017",
+      "a": "EST04_09_POLE_017",
+      "b": "EST04_09_POLE_018",
+      "kind": "new_street",
+      "length_m": 20.333333333333332,
+      "sectors": [
+        "S03"
+      ],
+      "height_m": 6.4,
+      "sag_m": 0.36599999999999994,
+      "conductors": 3
+    },
+    {
+      "id": "EST04_09_WIRE_018",
+      "a": "EST04_09_POLE_018",
+      "b": "EST04_09_POLE_019",
+      "kind": "new_street",
+      "length_m": 20.333333333333336,
+      "sectors": [
+        "S03"
+      ],
+      "height_m": 6.4,
+      "sag_m": 0.366,
+      "conductors": 3
+    },
+    {
+      "id": "EST04_09_WIRE_019",
+      "a": "EST04_09_POLE_019",
+      "b": "EST04_09_POLE_020",
+      "kind": "new_street",
+      "length_m": 3.4502472490770613,
+      "sectors": [
+        "S03"
+      ],
+      "height_m": 6.4,
+      "sag_m": 0.0621044504833871,
+      "conductors": 3
+    },
+    {
+      "id": "EST04_09_WIRE_020",
+      "a": "EST04_09_POLE_020",
+      "b": "EST04_09_POLE_021",
+      "kind": "new_street",
+      "length_m": 2.0827625302982136,
+      "sectors": [
+        "S03"
+      ],
+      "height_m": 6.4,
+      "sag_m": 0.03748972554536784,
+      "conductors": 3
+    },
+    {
+      "id": "EST04_09_WIRE_021",
+      "a": "EST04_09_POLE_016",
+      "b": "EST04_09_POLE_015",
+      "kind": "new_street",
+      "length_m": 7.786205751198718,
+      "sectors": [
+        "S03",
+        "S04"
+      ],
+      "height_m": 6.4,
+      "sag_m": 0.1401517035215769,
+      "conductors": 3
+    }
+  ]
+}

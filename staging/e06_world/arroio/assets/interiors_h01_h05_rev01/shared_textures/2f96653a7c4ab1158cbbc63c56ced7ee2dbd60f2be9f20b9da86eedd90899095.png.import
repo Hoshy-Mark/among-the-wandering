@@ -2,27 +2,26 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bu3a4c27ptuox"
-path.s3tc="res://.godot/imported/2f96653a7c4ab1158cbbc63c56ced7ee2dbd60f2be9f20b9da86eedd90899095.png-21988a97567ed6abd91600df756b0fb2.s3tc.ctex"
+uid="uid://b1v3q2uoydcjw"
+path="res://.godot/imported/2f96653a7c4ab1158cbbc63c56ced7ee2dbd60f2be9f20b9da86eedd90899095.png-21988a97567ed6abd91600df756b0fb2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://staging/e06_world/arroio/assets/interiors_h01_h05_rev01/shared_textures/2f96653a7c4ab1158cbbc63c56ced7ee2dbd60f2be9f20b9da86eedd90899095.png"
-dest_files=["res://.godot/imported/2f96653a7c4ab1158cbbc63c56ced7ee2dbd60f2be9f20b9da86eedd90899095.png-21988a97567ed6abd91600df756b0fb2.s3tc.ctex"]
+dest_files=["res://.godot/imported/2f96653a7c4ab1158cbbc63c56ced7ee2dbd60f2be9f20b9da86eedd90899095.png-21988a97567ed6abd91600df756b0fb2.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
-mipmaps/generate=true
+mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
@@ -32,4 +31,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=0
+detect_3d/compress_to=1

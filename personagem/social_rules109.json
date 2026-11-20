@@ -1,0 +1,400 @@
+{
+  "version": 1,
+  "status": "candidate_balance",
+  "actors": [
+    "jorge_luiz",
+    "josue_medeira",
+    "renata_volker",
+    "ricardo_medeiro",
+    "pietra_dos_santos",
+    "ricardo_alberto",
+    "gabriel_pimenta",
+    "ana_julia",
+    "samuel_henrique",
+    "player"
+  ],
+  "seeds": [
+    {
+      "source": "renata_volker",
+      "target": "ricardo_medeiro",
+      "scores": {
+        "affection": 65,
+        "trust": 65,
+        "respect": 45,
+        "romance": 60,
+        "intimacy": 60
+      },
+      "bonds": [
+        "spouse"
+      ],
+      "source109": "narrative 02/03–04"
+    },
+    {
+      "source": "ricardo_medeiro",
+      "target": "renata_volker",
+      "scores": {
+        "affection": 70,
+        "trust": 70,
+        "respect": 45,
+        "romance": 65,
+        "intimacy": 65
+      },
+      "bonds": [
+        "spouse"
+      ],
+      "source109": "narrative 02/03–04"
+    },
+    {
+      "source": "renata_volker",
+      "target": "ana_julia",
+      "scores": {
+        "affection": 50,
+        "trust": 40,
+        "respect": 25
+      },
+      "bonds": [
+        "friend"
+      ],
+      "source109": "narrative 02/03–08"
+    },
+    {
+      "source": "ana_julia",
+      "target": "renata_volker",
+      "scores": {
+        "affection": 55,
+        "trust": 45,
+        "respect": 35
+      },
+      "bonds": [
+        "friend"
+      ],
+      "source109": "narrative 02/03–08"
+    },
+    {
+      "source": "samuel_henrique",
+      "target": "gabriel_pimenta",
+      "scores": {
+        "affection": 70,
+        "romance": 70,
+        "trust": 35,
+        "intimacy": 50
+      },
+      "bonds": [
+        "historic_love"
+      ],
+      "source109": "narrative 02/07–09; no automatic current consent"
+    },
+    {
+      "source": "gabriel_pimenta",
+      "target": "samuel_henrique",
+      "scores": {
+        "affection": 55,
+        "romance": 45,
+        "trust": 40,
+        "intimacy": 45
+      },
+      "bonds": [
+        "historic_love"
+      ],
+      "source109": "narrative 02/07–09; no automatic current consent"
+    },
+    {
+      "source": "gabriel_pimenta",
+      "target": "jorge_luiz",
+      "scores": {
+        "fear": 80,
+        "dependence": 60,
+        "resentment": 55,
+        "trust": -35
+      },
+      "bonds": [
+        "coerced_partner"
+      ],
+      "source109": "narrative 02/01–07; coercion is not consent"
+    },
+    {
+      "source": "jorge_luiz",
+      "target": "gabriel_pimenta",
+      "scores": {
+        "cooperation": 15,
+        "trust": -5
+      },
+      "bonds": [
+        "controlling_partner"
+      ],
+      "source109": "narrative 02/01–07"
+    },
+    {
+      "source": "pietra_dos_santos",
+      "target": "josue_medeira",
+      "scores": {
+        "trust": -75,
+        "resentment": 85,
+        "fear": 20
+      },
+      "bonds": [
+        "sibling",
+        "rupture"
+      ],
+      "source109": "narrative 02/02–05"
+    },
+    {
+      "source": "josue_medeira",
+      "target": "pietra_dos_santos",
+      "scores": {
+        "fear": 60,
+        "trust": -20,
+        "obligation": 35
+      },
+      "bonds": [
+        "sibling"
+      ],
+      "source109": "narrative 02/02–05"
+    },
+    {
+      "source": "pietra_dos_santos",
+      "target": "ricardo_alberto",
+      "scores": {
+        "trust": -90,
+        "resentment": 95,
+        "fear": 45
+      },
+      "bonds": [
+        "grievance"
+      ],
+      "source109": "narrative 02/05–06; no automatic revenge outcome"
+    },
+    {
+      "source": "ricardo_alberto",
+      "target": "pietra_dos_santos",
+      "scores": {
+        "fear": 40,
+        "trust": -40
+      },
+      "bonds": [
+        "exposure_risk"
+      ],
+      "source109": "narrative 02/05–06"
+    },
+    {
+      "source": "jorge_luiz",
+      "target": "ricardo_alberto",
+      "scores": {
+        "respect": 50,
+        "trust": -20,
+        "cooperation": 25
+      },
+      "bonds": [
+        "pragmatic_power"
+      ],
+      "source109": "narrative 02/01–06"
+    },
+    {
+      "source": "ricardo_alberto",
+      "target": "jorge_luiz",
+      "scores": {
+        "respect": 25,
+        "trust": -10,
+        "cooperation": 30
+      },
+      "bonds": [
+        "pragmatic_power"
+      ],
+      "source109": "narrative 02/01–06"
+    },
+    {
+      "source": "ricardo_medeiro",
+      "target": "jorge_luiz",
+      "scores": {
+        "fear": 40,
+        "dependence": 45,
+        "trust": -15
+      },
+      "bonds": [
+        "unequal_service"
+      ],
+      "source109": "narrative 02/04"
+    },
+    {
+      "source": "samuel_henrique",
+      "target": "ana_julia",
+      "scores": {
+        "affection": 55,
+        "trust": 40,
+        "obligation": 40
+      },
+      "bonds": [
+        "uncle"
+      ],
+      "source109": "narrative 02/08–09"
+    },
+    {
+      "source": "ana_julia",
+      "target": "samuel_henrique",
+      "scores": {
+        "affection": 50,
+        "trust": 30,
+        "resentment": 10
+      },
+      "bonds": [
+        "niece"
+      ],
+      "source109": "narrative 02/08–09; impatience"
+    },
+    {
+      "source": "josue_medeira",
+      "target": "jorge_luiz",
+      "scores": {
+        "fear": 40,
+        "cooperation": 35
+      },
+      "bonds": [
+        "compliance"
+      ],
+      "source109": "narrative 02/02"
+    }
+  ],
+  "npc_skills": {
+    "jorge_luiz": {
+      "persuasion": 2,
+      "perception": 3,
+      "empathy": 1,
+      "intimidation": 4
+    },
+    "josue_medeira": {
+      "persuasion": 4,
+      "perception": 2,
+      "empathy": 2,
+      "intimidation": 1
+    },
+    "renata_volker": {
+      "persuasion": 3,
+      "perception": 4,
+      "empathy": 2,
+      "intimidation": 1
+    },
+    "ricardo_medeiro": {
+      "persuasion": 2,
+      "perception": 3,
+      "empathy": 3,
+      "intimidation": 1
+    },
+    "pietra_dos_santos": {
+      "persuasion": 2,
+      "perception": 3,
+      "empathy": 2,
+      "intimidation": 2
+    },
+    "ricardo_alberto": {
+      "persuasion": 4,
+      "perception": 3,
+      "empathy": 1,
+      "intimidation": 3
+    },
+    "gabriel_pimenta": {
+      "persuasion": 2,
+      "perception": 3,
+      "empathy": 3,
+      "intimidation": 1
+    },
+    "ana_julia": {
+      "persuasion": 2,
+      "perception": 2,
+      "empathy": 3,
+      "intimidation": 1
+    },
+    "samuel_henrique": {
+      "persuasion": 3,
+      "perception": 3,
+      "empathy": 2,
+      "intimidation": 2
+    }
+  },
+  "interactions": {
+    "courteous_greeting": {
+      "once": true,
+      "gates": [
+        {
+          "type": "relation",
+          "source": "$source",
+          "target": "$target",
+          "dimension": "trust",
+          "minimum": -10
+        },
+        {
+          "type": "relation",
+          "source": "$source",
+          "target": "$target",
+          "dimension": "fear",
+          "maximum": 40
+        },
+        {
+          "type": "relation",
+          "source": "$source",
+          "target": "$target",
+          "dimension": "resentment",
+          "maximum": 40
+        }
+      ],
+      "effects": {
+        "respect": 1,
+        "trust": 1
+      },
+      "line": "Trocam um cumprimento breve."
+    },
+    "family_checkin": {
+      "once": true,
+      "gates": [
+        {
+          "type": "bond",
+          "source": "$source",
+          "target": "$target",
+          "bond": "spouse"
+        }
+      ],
+      "effects": {
+        "affection": 1,
+        "trust": 1
+      },
+      "line": "Conversam brevemente sobre como estão."
+    },
+    "listening_request": {
+      "once": true,
+      "gates": [
+        {
+          "type": "relation",
+          "source": "$target",
+          "target": "$source",
+          "dimension": "trust",
+          "minimum": 0
+        }
+      ],
+      "skill": "empathy",
+      "difficulty": 9,
+      "effects": {
+        "trust": 1,
+        "respect": 1
+      },
+      "line": "Conseguem conversar com atenção.",
+      "failure_line": "Preferem deixar a conversa para outro momento."
+    }
+  },
+  "ambient": [
+    {
+      "source": "renata_volker",
+      "target": "ricardo_medeiro",
+      "interaction": "family_checkin"
+    },
+    {
+      "source": "ricardo_medeiro",
+      "target": "renata_volker",
+      "interaction": "family_checkin"
+    },
+    {
+      "source": "ricardo_medeiro",
+      "target": "renata_volker",
+      "interaction": "public_context",
+      "fact": "ricardo_helped_confinement"
+    }
+  ]
+}

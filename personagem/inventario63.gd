@@ -1,7 +1,7 @@
 extends RefCounted
 signal changed
 
-const SLOTS=["shirt","pants","boots","belt","backpack","main_hand"]
+const SLOTS=["shirt","pants","boots","belt","backpack","main_hand","quick_left","quick_up","quick_right","quick_down"]
 var catalog: Dictionary
 var items: Dictionary={}
 var next_id=1
@@ -9,6 +9,14 @@ var message=""
 
 func _init() -> void:
     catalog=JSON.parse_string(FileAccess.get_file_as_string("res://personagem/itens63.json"))
+    if FileAccess.file_exists("res://personagem/armas92.json"):
+        catalog.merge(JSON.parse_string(FileAccess.get_file_as_string("res://personagem/armas92.json")).items,true)
+    if FileAccess.file_exists("res://personagem/armas87.json"):
+        var firearms=JSON.parse_string(FileAccess.get_file_as_string("res://personagem/armas87.json"))
+        catalog.merge(firearms.items,true)
+    if FileAccess.file_exists("res://personagem/armas86.json"):
+        var extra=JSON.parse_string(FileAccess.get_file_as_string("res://personagem/armas86.json"))
+        catalog.merge(extra.items,true)
 
 func equipped(slot: String) -> String:
     for uid in items:
@@ -154,3 +162,17 @@ func restore(data: Variant, notify: bool=true) -> bool:
     if notify:
         changed.emit()
     return true
+
+func quick_category(uid: String) -> String:
+    if not items.has(uid):return ""
+    return quick_definition(str(items[uid].definition))
+func quick_definition(id: String) -> String:
+    if not catalog.has(id):return ""
+    var data: Dictionary=catalog[id];var weapon=data.get("weapon",{})
+    if data.get("throwable",false) or weapon.get("type","")=="throwable":return "down"
+    if weapon.get("type","")=="firearm":return "up" if weapon.get("pose","")=="long" else "left"
+    if not weapon.is_empty() and data.get("slot","")=="main_hand":return "right"
+    return ""
+func fits_equipment(id: String,slot: String) -> bool:
+    if slot.begins_with("quick_"):return quick_definition(id)==slot.trim_prefix("quick_") and not quick_definition(id).is_empty()
+    return catalog[id].get("slot","")==slot

@@ -81,7 +81,8 @@ func run(scene: Node3D) -> void:
     await _idle(scene)
     assert(model.items[food].count==1)
     _close(ui,world)
-    assert(body.save_condition())
+    for frame in 100:await scene.get_tree().physics_frame
+    assert(body.save_condition(),body.inventory_message)
     var saved=model.snapshot()
     assert(model.restore(saved))
     body.update_nearby()

@@ -1,6 +1,10 @@
 .godot/
-*.log
-*.tmp
 qa/
 previews/
-!*.import
+*.log
+*.tmp
+*.bak
+__pycache__/
+*.pyc
+.env
+.env.*

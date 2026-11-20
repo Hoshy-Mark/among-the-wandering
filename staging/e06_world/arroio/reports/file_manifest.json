@@ -1,0 +1,565 @@
+{
+  "scope": "current reconstruction snapshot; excludes lab copies/cache, preserved local project.godot, self and unchanged official references",
+  "files": [
+    {
+      "path": ".gitignore",
+      "operation": "current_snapshot",
+      "sha256": "d0e43b1df67843dde38f336e1ba45f21e4bad007d193998202f248a7aae77aa0",
+      "bytes": 181
+    },
+    {
+      "path": ".gitattributes",
+      "operation": "current_snapshot",
+      "sha256": "2e585c586f4282364588c6716bdb8c9d27132dc261a41731f5b10efd08dcac09",
+      "bytes": 187
+    },
+    {
+      "path": "pipeline/e06/compose_urban.py",
+      "operation": "current_snapshot",
+      "sha256": "e14079fd66f61b72ad1a1bee03e1231e56422b9e242b4b84c5a93e0c2825f8f4",
+      "bytes": 15922
+    },
+    {
+      "path": "pipeline/e06/finalize_arroio.py",
+      "operation": "current_snapshot",
+      "sha256": "66eaf4d0e00c35e9e04bb7ccbbac2774bb446011c3d53cea0ffc66db85000eb3",
+      "bytes": 16882
+    },
+    {
+      "path": "pipeline/e06/rebuild_arroio.py",
+      "operation": "current_snapshot",
+      "sha256": "d25bc2d15dae79d508f37c58dcdf74c9bda671539d52f129c750811bd7773bee",
+      "bytes": 32043
+    },
+    {
+      "path": "pipeline/e06/record_urban_composition.py",
+      "operation": "current_snapshot",
+      "sha256": "2828c23e5c1fe5a9bf4de70019f7df2ce08c7e0ce4ee0e43e4b8fdc41ed2e950",
+      "bytes": 12484
+    },
+    {
+      "path": "pipeline/e06/record_visual_adjustments.py",
+      "operation": "current_snapshot",
+      "sha256": "11e71bb1281d652dff22ee4ba227e871c15c4a59797e6f1fe9101add07c5b8ba",
+      "bytes": 8948
+    },
+    {
+      "path": "docs/e06/ARROIO_AUDITORIA_IMPLANTACAO.md",
+      "operation": "current_snapshot",
+      "sha256": "a6c3c4b00420448a918895bd4b60ef24ea0e3ef5da152c228b5355a7594e1691",
+      "bytes": 3291
+    },
+    {
+      "path": "docs/e06/ARROIO_COMPOSICAO_URBANA.md",
+      "operation": "current_snapshot",
+      "sha256": "7c8c079b0c6635bf7d03308fab95766ca1b2117ff09e50a2fc6e70262df4552b",
+      "bytes": 6433
+    },
+    {
+      "path": "docs/e06/ARROIO_EXECUCAO_GODOT44.md",
+      "operation": "current_snapshot",
+      "sha256": "d50cdb7d1fa0f641640b900f19d9228a0b79b7eba5f52bd1986e59218a3d250b",
+      "bytes": 4766
+    },
+    {
+      "path": "staging/e06_world/arroio/data/asset_mapping.json",
+      "operation": "current_snapshot",
+      "sha256": "24ac595970e346c936eea29531a314c0aebc584066e3abc03b82e2b147bbfc76",
+      "bytes": 80087
+    },
+    {
+      "path": "staging/e06_world/arroio/data/buildings.json",
+      "operation": "current_snapshot",
+      "sha256": "2248afe768ecb513c1ad98daadc15cb39bbddc02c67abafe20b2eea7ab448ef7",
+      "bytes": 232400
+    },
+    {
+      "path": "staging/e06_world/arroio/data/city_master.json",
+      "operation": "current_snapshot",
+      "sha256": "834e6bcf051a78f09a15b1dc2874722d61e1048c502c22029cffb0863e85b04d",
+      "bytes": 5491
+    },
+    {
+      "path": "staging/e06_world/arroio/data/environment.json",
+      "operation": "current_snapshot",
+      "sha256": "d937064fa4b9b5894cc310394f84e3cde0a2632141231e62ef8badd2f283f516",
+      "bytes": 221989
+    },
+    {
+      "path": "staging/e06_world/arroio/data/parcels.json",
+      "operation": "current_snapshot",
+      "sha256": "3e5ebfd55046966aa28e4064dac637e328978d78c4ead1878590b64ccaf2cc30",
+      "bytes": 32160
+    },
+    {
+      "path": "staging/e06_world/arroio/data/public_spaces.json",
+      "operation": "current_snapshot",
+      "sha256": "bb1223f4efe24eba12c00826fbf206d120a9d03784f5734a1451aa214ca9042d",
+      "bytes": 13710
+    },
+    {
+      "path": "staging/e06_world/arroio/data/roads.json",
+      "operation": "current_snapshot",
+      "sha256": "517a29bf10723f4763aa549a20cd5ab08651ef7a5039003aba36df1f9dbf721e",
+      "bytes": 7991
+    },
+    {
+      "path": "staging/e06_world/arroio/data/sectors.json",
+      "operation": "current_snapshot",
+      "sha256": "60c80c95e84d4bece41897032051105d8fefe030ed4cb9295d9f27780a718a29",
+      "bytes": 2561
+    },
+    {
+      "path": "staging/e06_world/arroio/data/urban_dressing.json",
+      "operation": "current_snapshot",
+      "sha256": "8bca8d1c7b7ad6dd2dfd5e1088340ac473d774d42a2f69f6b92a5cc3b6e2bdfb",
+      "bytes": 217315
+    },
+    {
+      "path": "staging/e06_world/arroio/data/z2_inventory.json",
+      "operation": "current_snapshot",
+      "sha256": "a50538cdeceba51ed988b95a2288bdfa5e599c52d579943844dfaa7cb17da7ce",
+      "bytes": 299155
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/adjustment_import.log",
+      "operation": "current_snapshot",
+      "sha256": "f67b5e8f51928a757d0e6c980379e387bb7c0c3787e7fda10682ed8f7d503045",
+      "bytes": 1020
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/comparativo_visual.html",
+      "operation": "current_snapshot",
+      "sha256": "7a3d03c1d3b741f8446cafe3eff31b38b50afa470c924b9063ed95a5c64ab5b4",
+      "bytes": 3875
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/composition_import.log",
+      "operation": "current_snapshot",
+      "sha256": "812eea9b6f57c4df92511560883e9dcd7f277e4092b83f3bf9df3a3911686664",
+      "bytes": 2290
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/godot_runtime.json",
+      "operation": "current_snapshot",
+      "sha256": "4f264c044d42ec78cc98e58c33dc62f250c283fe3b5ae09058b6731700a33918",
+      "bytes": 2160
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/import.log",
+      "operation": "current_snapshot",
+      "sha256": "e83110e79262a3b1e89dde94de94d65618a2abec8b7ec17f486a757d30ec3abd",
+      "bytes": 4396
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/import_initial.log",
+      "operation": "current_snapshot",
+      "sha256": "3d4019f94756d608ce0da3c6a599fb7eeacf41f53d8731d2184815e489066932",
+      "bytes": 9621
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/library_integrity.json",
+      "operation": "current_snapshot",
+      "sha256": "273f0f1eb87b838f6e6acd2a4a0d8d3647498d8badcdc8abc427a25fe01f48d4",
+      "bytes": 106
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/offline.json",
+      "operation": "current_snapshot",
+      "sha256": "9c114e8a60fee350bdef038e6ca233ec4431321fa4f276ffab6b079b66ddc835",
+      "bytes": 5644
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/smoke.gd",
+      "operation": "current_snapshot",
+      "sha256": "59abebe15d0c91175f3adc518cdd2589d6aaafd424193f135431804f96e0c557",
+      "bytes": 9454
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/smoke.log",
+      "operation": "current_snapshot",
+      "sha256": "aa08a5e6dff44ff9392ad1c7aa01111e4b6ae101d6461068a097ddae94abcd96",
+      "bytes": 1962
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/source_package.json",
+      "operation": "current_snapshot",
+      "sha256": "36e8263799a80feaa0ea8de374c5b89077831dfae9a6f61f87813a776ce31f71",
+      "bytes": 13456
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/urban_composed/detail_HAB_189.png",
+      "operation": "current_snapshot",
+      "sha256": "1a707fec7bd134a53e13b632720e89f38de2ce5265e7f7c2a7da38195ce0776e",
+      "bytes": 1476281
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/urban_composed/detail_HAB_191.png",
+      "operation": "current_snapshot",
+      "sha256": "a650c92b432574505f99e9e9a7bf548a21b2ac47e2607e7ded2b6a1ab8d78a47",
+      "bytes": 1461652
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/urban_composed/detail_HAB_213.png",
+      "operation": "current_snapshot",
+      "sha256": "3cff2279cc9d3ca185d1dc9b3c2a3888b1aa7794c667f449fa3181b61c921a7e",
+      "bytes": 1484133
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/urban_composed/detail_HAB_222.png",
+      "operation": "current_snapshot",
+      "sha256": "0198e2d32c4ffaa39b054c88fcf4dea6afc7fe53cbd2ace0da78d8d556fa2578",
+      "bytes": 1461623
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/urban_composed/detail_HAB_249.png",
+      "operation": "current_snapshot",
+      "sha256": "22a417802ea1d5119b0914609eddea13bdc295ab7dbed6b3a30d5a5d7460b485",
+      "bytes": 1466400
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/urban_composed/detail_HAB_250.png",
+      "operation": "current_snapshot",
+      "sha256": "b16785506a4c8ed443ef4576f131ec24ebd3bc23467e4ff197583126b7fcdffb",
+      "bytes": 1539995
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/urban_composed/detail_HAB_351.png",
+      "operation": "current_snapshot",
+      "sha256": "e4a728c98bd62f312346cdbea3bb8411a73e7b9fa13c9bf9e990fd275eb66c58",
+      "bytes": 1429213
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/urban_composed/detail_HAB_450.png",
+      "operation": "current_snapshot",
+      "sha256": "c11e0568b3178ed6802a44bb9639a9b7552574fdbf3be463cd7b3ee18b8f25a9",
+      "bytes": 1453656
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/urban_composed/overview.png",
+      "operation": "current_snapshot",
+      "sha256": "e48e40f47e88ebb191f8def85883d11ebf5c7f6d205b690255016b50f5461eba",
+      "bytes": 997895
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/urban_composed/plaza_detail.png",
+      "operation": "current_snapshot",
+      "sha256": "2bfdc204cd4fca8284a0847087388241f3c40325529db2e64e746d02afb6c1f5",
+      "bytes": 1475548
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/urban_composed/render_metrics.json",
+      "operation": "current_snapshot",
+      "sha256": "6c925102e6328342d719eeb3703856ea81db6452e485df062d35e29da5a0256a",
+      "bytes": 4098
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/urban_composed/s01_houses.png",
+      "operation": "current_snapshot",
+      "sha256": "c1e07678d13dde5e6da2791a068ab4033548438f5e4c734d8f68d09544ade17c",
+      "bytes": 1655624
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/urban_composed/s02_public.png",
+      "operation": "current_snapshot",
+      "sha256": "fe87cd2cfef0771428174182de2647e79aa3aec3aaeebf045375d1bd4fc94aca",
+      "bytes": 1620631
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/urban_composed/s03_neighborhood.png",
+      "operation": "current_snapshot",
+      "sha256": "a3946b53491525e8a2f357321992d8e486a851983dde0cf267649785d9c7ebe0",
+      "bytes": 1656127
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/urban_composed/s04_yards.png",
+      "operation": "current_snapshot",
+      "sha256": "4e0f6aff443216cf971eed82577a7c1b1d540f854d57b7b79b26abb24512cef4",
+      "bytes": 1630951
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/urban_composed/s05_lakeside.png",
+      "operation": "current_snapshot",
+      "sha256": "f81b9059931827b184d3a1ec54f1080d0a55b30bfc96bda13493ac898d156c6d",
+      "bytes": 1501070
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/urban_composed/s06_rural.png",
+      "operation": "current_snapshot",
+      "sha256": "543f16d51ada9066e961c45f02267b04108d80d04cb0e7743b594a3b97888106",
+      "bytes": 1561827
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/urban_composed/visual_capture.log",
+      "operation": "current_snapshot",
+      "sha256": "ae09424cd0fdda42c7605068b1dde451b2b71fe0f0a11191afe6918595ed6719",
+      "bytes": 2288
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/urban_composed/yard_detail.png",
+      "operation": "current_snapshot",
+      "sha256": "e2d139bde12bc97c2a851c2bbcf64145f931a8262eab4f8e0cb299bb55b71c60",
+      "bytes": 1422255
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/URBAN_COMPOSITION.md",
+      "operation": "current_snapshot",
+      "sha256": "dac3aeb7d192285b3024e35ee2bec5c909b0ecd05b1d1647dc70013b1c7e1697",
+      "bytes": 6399
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/urban_composition_manifest.json",
+      "operation": "current_snapshot",
+      "sha256": "d1043a6ae5aa042835e6d778a15552f0707d3d12752d032ecc41ac2eec3ab6cf",
+      "bytes": 4133
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/visual/overview.png",
+      "operation": "current_snapshot",
+      "sha256": "9147b008c70b2aaa0760c3ae5cc955cc824a33ed2518f0ba5cd055a831955bb3",
+      "bytes": 46003
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/visual/s01_houses.png",
+      "operation": "current_snapshot",
+      "sha256": "822d5051fec7eaad9d193811ee870306b9b6eef1daf4ea27d1a3341bd2bbc2fb",
+      "bytes": 890656
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/visual/s02_public.png",
+      "operation": "current_snapshot",
+      "sha256": "1d7e1bf656b995efdae29f0056a15a59439cd73750e89d8fae016e4ca41cc577",
+      "bytes": 949095
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/visual/s03_neighborhood.png",
+      "operation": "current_snapshot",
+      "sha256": "ca665484a4581a5523df8760798f411a729ea0adb34e934fba1dce55f4ba3a34",
+      "bytes": 486414
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/visual/visual_capture.log",
+      "operation": "current_snapshot",
+      "sha256": "f62b436c8aaf98756b136e92fe97d48bc009cef338ccc557b58241d076cd239c",
+      "bytes": 680
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/visual_adjusted/detail_HAB_189.png",
+      "operation": "current_snapshot",
+      "sha256": "f072ff2ce3f9a1ebf959eb5ea60dac511d7ef2dd441f042ad61e11d0f508333a",
+      "bytes": 1409148
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/visual_adjusted/detail_HAB_191.png",
+      "operation": "current_snapshot",
+      "sha256": "6838e36c1124d041099d6facd5f7b592bbb9ae108236f8889942d6ce35b5a2fa",
+      "bytes": 1392458
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/visual_adjusted/detail_HAB_213.png",
+      "operation": "current_snapshot",
+      "sha256": "4117a3b565fabbfaa1d168d35edcc887061e078032729048a17cacdc07f3f1f8",
+      "bytes": 1418100
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/visual_adjusted/detail_HAB_222.png",
+      "operation": "current_snapshot",
+      "sha256": "f3ce22b47e0a79771dc3b64bbf7fd8e2dcdd27b89947023c4fb8008212af644d",
+      "bytes": 1391639
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/visual_adjusted/detail_HAB_249.png",
+      "operation": "current_snapshot",
+      "sha256": "1400cdacfad0c4a967a3b0e93630baee5d868e8b82123450fd135f9f41bb4006",
+      "bytes": 1409045
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/visual_adjusted/detail_HAB_250.png",
+      "operation": "current_snapshot",
+      "sha256": "857b4ed8f9c051cb6d1594fe6d7d525299c6df1eaf0b63310068042ccbaab4c9",
+      "bytes": 1427830
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/visual_adjusted/detail_HAB_351.png",
+      "operation": "current_snapshot",
+      "sha256": "e91109cec153b762ca3cea6607a03ceb66a511631f1d5bf9c4cd332b05d9e653",
+      "bytes": 1368802
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/visual_adjusted/detail_HAB_450.png",
+      "operation": "current_snapshot",
+      "sha256": "43f0466b6a26cda093328bc51b30dea77a77a244615d2e0bddfe923b8f608373",
+      "bytes": 1401532
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/visual_adjusted/overview.png",
+      "operation": "current_snapshot",
+      "sha256": "723aee1546add3bb3e5825da7642695b52e169104da27d83f769ecb1bd73b8e9",
+      "bytes": 966312
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/visual_adjusted/render_metrics.json",
+      "operation": "current_snapshot",
+      "sha256": "a476bfed98cc0b832f93d867481336b22d6be7afecf7b0718beff461e1fbac80",
+      "bytes": 3053
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/visual_adjusted/s01_houses.png",
+      "operation": "current_snapshot",
+      "sha256": "6ecf04af38f0ad480a558ea10c5640904ba1778f9cb708891fb3c82c71d55394",
+      "bytes": 1574305
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/visual_adjusted/s02_public.png",
+      "operation": "current_snapshot",
+      "sha256": "f9798fd6449d6161445756a0dd771f16e359b5b6fae6bdc989946fbadcf00df2",
+      "bytes": 1591250
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/visual_adjusted/s03_neighborhood.png",
+      "operation": "current_snapshot",
+      "sha256": "22e7dd7cdbbe7530d4442cd845a795b01ea6f808f0e819dbc6458046e451e56c",
+      "bytes": 1574970
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/visual_adjusted/visual_capture.log",
+      "operation": "current_snapshot",
+      "sha256": "ba6b44ca95830afb0bd62ba818705e4bd4194fbcfd40ec9eb8416b7937b6a29a",
+      "bytes": 1680
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/VISUAL_ADJUSTMENTS.md",
+      "operation": "current_snapshot",
+      "sha256": "79b83e3bd3d7309983ae2a21691423772a9d843f8973324f88eb6a96ae388744",
+      "bytes": 4972
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/visual_adjustments_manifest.json",
+      "operation": "current_snapshot",
+      "sha256": "18bcf5736df0f96bfb736a2c8e894d82ea64a26f39da2bc9a09041ac0855954c",
+      "bytes": 3139
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/visual_capture.gd",
+      "operation": "current_snapshot",
+      "sha256": "9a4d9304f85a6d804e56d63b688de093c2fdeb3d1f6007e11f61aa01f793399f",
+      "bytes": 3455
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/visual_manifest.json",
+      "operation": "current_snapshot",
+      "sha256": "4801ac7a4e436bfec55abf1fa87df1b92aa0f5a21295160838e6b5ed36b3fc8c",
+      "bytes": 1359
+    },
+    {
+      "path": "staging/e06_world/arroio/qa/VISUAL_REVIEW.md",
+      "operation": "current_snapshot",
+      "sha256": "1f81ed92c19eb63a64faaec20b9ce2dad1242b42935a2b2447dba289e42c7104",
+      "bytes": 3235
+    },
+    {
+      "path": "staging/e06_world/arroio/reports/dependencies.json",
+      "operation": "current_snapshot",
+      "sha256": "032066c66d59340a2c032bfc8771823a12123ef68be707ffd8db956acb4292fd",
+      "bytes": 27177
+    },
+    {
+      "path": "staging/e06_world/arroio/reports/DEPENDENCIES.md",
+      "operation": "current_snapshot",
+      "sha256": "4893b9fb5d991b764715c532134a25baf114051084064ae1deda3aa3b5480b5b",
+      "bytes": 1859
+    },
+    {
+      "path": "staging/e06_world/arroio/reports/implantacao_comparativo.svg",
+      "operation": "current_snapshot",
+      "sha256": "0913eabe4a8270a59585a0d46e49707fd6a297ec3d5d1e232416cc792f33d913",
+      "bytes": 35930
+    },
+    {
+      "path": "staging/e06_world/arroio/reports/PENDING_APPROVALS.md",
+      "operation": "current_snapshot",
+      "sha256": "829494d5a2e4c1aaac3fa1944f0d06c7ac8ba2148370338c728270442914cff6",
+      "bytes": 1433
+    },
+    {
+      "path": "staging/e06_world/arroio/reports/QA.md",
+      "operation": "current_snapshot",
+      "sha256": "b1ee281d86247097922296ecf05adafab9e639c7ec9acd10543efbde3822a714",
+      "bytes": 4391
+    },
+    {
+      "path": "staging/e06_world/arroio/scenes/arroio_reconstruction.tscn",
+      "operation": "current_snapshot",
+      "sha256": "7d7ce92c9dd12055d8650efd424f318dc0068b112e645d64ef89424cd304cefc",
+      "bytes": 2543
+    },
+    {
+      "path": "staging/e06_world/arroio/scenes/sectors/S01.tscn",
+      "operation": "current_snapshot",
+      "sha256": "f34c21d0f17e99e32541856bc19556b525708f089eaad2502bc6a1f739a7d3a7",
+      "bytes": 8615
+    },
+    {
+      "path": "staging/e06_world/arroio/scenes/sectors/S02.tscn",
+      "operation": "current_snapshot",
+      "sha256": "cab36cf7881367f1988312cc231539bd5d44f1d2a393345c5cf3cb60c9b479ec",
+      "bytes": 181
+    },
+    {
+      "path": "staging/e06_world/arroio/scenes/sectors/S03.tscn",
+      "operation": "current_snapshot",
+      "sha256": "ab6fe2912a01d031d815e586b291dd6648ddbb16be7621d47f26eb1c2bc74a93",
+      "bytes": 9520
+    },
+    {
+      "path": "staging/e06_world/arroio/scenes/sectors/S04.tscn",
+      "operation": "current_snapshot",
+      "sha256": "6818477dceb621da85b8926f3a5a728ce8398a19adfe1ab2e4eacaabc142c56f",
+      "bytes": 7228
+    },
+    {
+      "path": "staging/e06_world/arroio/scenes/sectors/S05.tscn",
+      "operation": "current_snapshot",
+      "sha256": "0e7d1dd60091d9f7f710893032aa5c5253384333f10d7217cd6a2d71bab9830c",
+      "bytes": 3126
+    },
+    {
+      "path": "staging/e06_world/arroio/scenes/sectors/S06.tscn",
+      "operation": "current_snapshot",
+      "sha256": "1d38e9137bd2c70a2a12a593b81c6c6e88dad9c4ddf262fc905e9e32de1ad005",
+      "bytes": 3126
+    },
+    {
+      "path": "staging/e06_world/arroio/scripts/building.gd",
+      "operation": "current_snapshot",
+      "sha256": "b49da439aad19c8f1ea19c21a187705f0a3a89b364f934f5ce66c3a2f823006e",
+      "bytes": 1043
+    },
+    {
+      "path": "staging/e06_world/arroio/scripts/city.gd",
+      "operation": "current_snapshot",
+      "sha256": "88eff06bc9c2f6a36574d7f07dc51b7d7daa97de22fc6e29108a8ac53720f6b8",
+      "bytes": 9589
+    },
+    {
+      "path": "staging/e06_world/arroio/scripts/ground.gdshader",
+      "operation": "current_snapshot",
+      "sha256": "a6bcd3083d279149c6346e16ac1c6d68a4cb475019441d281758b5ed01cd7d48",
+      "bytes": 1344
+    },
+    {
+      "path": "staging/e06_world/arroio/scripts/inspection_camera.gd",
+      "operation": "current_snapshot",
+      "sha256": "d59990bf4128729a9f01366561818d9e1b3c2495ffe5b5a40a455d5d771b0eb2",
+      "bytes": 1311
+    },
+    {
+      "path": "staging/e06_world/arroio/scripts/urban_components.gd",
+      "operation": "current_snapshot",
+      "sha256": "4d016c7377ce4020f8d23ba4760359f5552c287d3b9b4525feff657799c1dce6",
+      "bytes": 11110
+    }
+  ],
+  "unchanged_reference_package": "qa/source_package.json",
+  "unchanged_libraries": "reports/dependencies.json"
+}

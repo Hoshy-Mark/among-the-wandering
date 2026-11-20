@@ -38,10 +38,10 @@ func _physics_process(delta: float) -> void:
     var input:=command
     var run:=command_run
     if not scripted:
-        var right_pressed = Input.is_physical_key_pressed(KEY_D) or Input.is_physical_key_pressed(KEY_RIGHT)
-        var left_pressed = Input.is_physical_key_pressed(KEY_A) or Input.is_physical_key_pressed(KEY_LEFT)
-        var down_pressed = Input.is_physical_key_pressed(KEY_S) or Input.is_physical_key_pressed(KEY_DOWN)
-        var up_pressed = Input.is_physical_key_pressed(KEY_W) or Input.is_physical_key_pressed(KEY_UP)
+        var right_pressed = Input.is_physical_key_pressed(KEY_D) or (not quick_slots_enabled and Input.is_physical_key_pressed(KEY_RIGHT))
+        var left_pressed = Input.is_physical_key_pressed(KEY_A) or (not quick_slots_enabled and Input.is_physical_key_pressed(KEY_LEFT))
+        var down_pressed = Input.is_physical_key_pressed(KEY_S) or (not quick_slots_enabled and Input.is_physical_key_pressed(KEY_DOWN))
+        var up_pressed = Input.is_physical_key_pressed(KEY_W) or (not quick_slots_enabled and Input.is_physical_key_pressed(KEY_UP))
         input = Vector2(float(right_pressed) - float(left_pressed), float(down_pressed) - float(up_pressed))
         run=Input.is_physical_key_pressed(KEY_SHIFT)
     if not input.is_finite():

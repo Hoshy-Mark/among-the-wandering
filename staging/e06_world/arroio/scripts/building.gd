@@ -20,6 +20,7 @@ func _ready() -> void:
 			old.free()
 			add_child(replacement)
 			set_meta("lot_art_revision",rule.revision)
+			set_meta("next_master_candidate",rule.get("next_master_candidate",false))
 			if rule.get("master_candidate",false):_install_review_doors(replacement)
 	add_to_group("urban_buildings")
 	if not generate_collision or not has_node("Visual"):
@@ -32,6 +33,7 @@ func _ready() -> void:
 	body.name = "BuildingCollision"
 	body.collision_layer = 1
 	var shape := ConcavePolygonShape3D.new()
+	shape.backface_collision=get_meta("next_master_candidate",false)
 	shape.set_faces(faces)
 	var collider := CollisionShape3D.new()
 	collider.shape = shape
@@ -75,6 +77,7 @@ func set_review_doors_open(opened: bool) -> void:
 			if opened:child.global_basis=Basis(Vector3.UP,PI/2)*child.global_basis
 
 func _collect_faces(node: Node, faces: PackedVector3Array) -> void:
+	if str(node.name).begins_with("NEXT_SOFT_"):return
 	if node is MeshInstance3D and node.mesh != null:
 		var transform_to_anchor: Transform3D = global_transform.affine_inverse() * node.global_transform
 		for vertex in node.mesh.get_faces():

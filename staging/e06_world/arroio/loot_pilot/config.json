@@ -1,0 +1,322 @@
+{
+  "schema_version": 1,
+  "table_revision": 1,
+  "status": "isolated_playable_prototype",
+  "default_world_seed": "arroio_piloto_01",
+  "items": {
+    "pano": {
+      "name": "Pano gasto",
+      "stack": 4,
+      "grid": [
+        1,
+        1
+      ],
+      "can_rotate": false,
+      "prototype": true
+    },
+    "esponja": {
+      "name": "Esponja usada",
+      "stack": 2,
+      "grid": [
+        1,
+        1
+      ],
+      "can_rotate": false,
+      "prototype": true
+    },
+    "frasco_vazio": {
+      "name": "Frasco vazio",
+      "stack": 2,
+      "grid": [
+        1,
+        1
+      ],
+      "can_rotate": false,
+      "prototype": true
+    },
+    "pote_vazio": {
+      "name": "Pote vazio",
+      "stack": 2,
+      "grid": [
+        1,
+        1
+      ],
+      "can_rotate": false,
+      "prototype": true
+    },
+    "colher": {
+      "name": "Colher",
+      "stack": 4,
+      "grid": [
+        1,
+        1
+      ],
+      "can_rotate": false,
+      "prototype": true
+    },
+    "fita": {
+      "name": "Fita de reparo",
+      "stack": 2,
+      "grid": [
+        1,
+        1
+      ],
+      "can_rotate": false,
+      "prototype": true
+    },
+    "embalagem_deteriorada": {
+      "name": "Embalagem deteriorada",
+      "stack": 2,
+      "grid": [
+        1,
+        1
+      ],
+      "can_rotate": false,
+      "prototype": true
+    },
+    "parafuso": {
+      "name": "Parafuso",
+      "stack": 10,
+      "grid": [
+        1,
+        1
+      ],
+      "can_rotate": false,
+      "prototype": true
+    },
+    "arruela": {
+      "name": "Arruela",
+      "stack": 10,
+      "grid": [
+        1,
+        1
+      ],
+      "can_rotate": false,
+      "prototype": true
+    },
+    "filtro_oleo": {
+      "name": "Filtro de óleo usado",
+      "stack": 1,
+      "grid": [
+        1,
+        1
+      ],
+      "can_rotate": false,
+      "prototype": true
+    }
+  },
+  "profiles": {
+    "limpeza": [
+      {
+        "item": "pano",
+        "chance": 1,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "item": "esponja",
+        "chance": 0.45,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "item": "frasco_vazio",
+        "chance": 0.35,
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "gaveta_servico": [
+      {
+        "item": "colher",
+        "chance": 0.7,
+        "min": 1,
+        "max": 2
+      },
+      {
+        "item": "fita",
+        "chance": 0.35,
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "geladeira_sem_energia": [
+      {
+        "item": "embalagem_deteriorada",
+        "chance": 0.7,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "item": "pote_vazio",
+        "chance": 0.5,
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "freezer_sem_energia": [
+      {
+        "item": "embalagem_deteriorada",
+        "chance": 0.6,
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "bancada_oficina": [
+      {
+        "item": "parafuso",
+        "chance": 1,
+        "min": 1,
+        "max": 3
+      },
+      {
+        "item": "arruela",
+        "chance": 0.6,
+        "min": 1,
+        "max": 2
+      },
+      {
+        "item": "pano",
+        "chance": 0.3,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "item": "filtro_oleo",
+        "chance": 1,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  "containers": [
+    {
+      "id": "H01_FURN_PIA_COZ/storage/main",
+      "name": "Armário sob a pia",
+      "site": "H01",
+      "owner": "H01_FURN_PIA_COZ",
+      "parts": [
+        "H01_FURN_PIA_COZ/door_left",
+        "H01_FURN_PIA_COZ/door_right"
+      ],
+      "profile": "limpeza",
+      "grid": [
+        4,
+        3
+      ]
+    },
+    {
+      "id": "H01_FURN_BALCAO_SERV/storage/drawer_1",
+      "name": "Gaveta da área de serviço",
+      "site": "H01",
+      "owner": "H01_FURN_BALCAO_SERV",
+      "parts": [
+        "H01_FURN_BALCAO_SERV/drawer_1"
+      ],
+      "profile": "gaveta_servico",
+      "grid": [
+        4,
+        2
+      ]
+    },
+    {
+      "id": "H01_FURN_GELADEIRA/storage/cooler",
+      "name": "Geladeira — refrigerador",
+      "site": "H01",
+      "owner": "H01_FURN_GELADEIRA",
+      "parts": [
+        "H01_FURN_GELADEIRA/door_cooler"
+      ],
+      "profile": "geladeira_sem_energia",
+      "grid": [
+        4,
+        3
+      ]
+    },
+    {
+      "id": "H01_FURN_GELADEIRA/storage/freezer",
+      "name": "Geladeira — congelador",
+      "site": "H01",
+      "owner": "H01_FURN_GELADEIRA",
+      "parts": [
+        "H01_FURN_GELADEIRA/door_freezer"
+      ],
+      "profile": "freezer_sem_energia",
+      "grid": [
+        3,
+        2
+      ]
+    },
+    {
+      "id": "EST05_MEC05",
+      "name": "Bancada de mecânica 01",
+      "site": "EST05",
+      "owner": "EST05_MEC05",
+      "parts": [],
+      "profile": "bancada_oficina",
+      "grid": [
+        4,
+        3
+      ],
+      "excluded": [
+        "filtro_oleo"
+      ],
+      "source_contract": {
+        "id": "EST05_MEC05",
+        "titulo": "Bancada de mecanica 01",
+        "zona": "GALPAO",
+        "alvo_malha_existente": "R02_BANCADA_ESTRUTURA_0",
+        "ponto_interacao_xz_local_m": [
+          5.53,
+          3.5
+        ],
+        "ponto_visual_xyz_local_m": [
+          6.35,
+          1.11,
+          3.48
+        ],
+        "tempo_busca_segundos": 1.5,
+        "tabela_candidata": "bancada",
+        "estado_inicial": "NAO_VASCULHADO",
+        "raio_interacao_sugerido_m": 1.3,
+        "necessita_LoS": true,
+        "esgota_roll_apos_primeira_busca": true,
+        "repovoa": false,
+        "observacao": "Sem conteudo renovavel: tres anos de abandono; inventario gerado uma unica vez sob seed.",
+        "itens_visuais_ja_reservados": [
+          "filtro_oleo"
+        ],
+        "nao_duplicar_em_roll": [
+          "filtro_oleo"
+        ]
+      }
+    }
+  ],
+  "pickups": [
+    {
+      "id": "EST05_OBJ_01",
+      "item": "filtro_oleo",
+      "container_id": "EST05_MEC05",
+      "mesh_prefix": "LOOT_PICKUP__OBJ_01__filtro_oleo",
+      "source_contract": {
+        "id": "EST05_OBJ_01",
+        "item_candidato": "filtro_oleo",
+        "posicao_xyz_local_m": [
+          6.35,
+          1.06,
+          3.45
+        ],
+        "conteiner_vinculado": "EST05_MEC05",
+        "zona": "GALPAO",
+        "contexto_visual": "tampo da bancada original",
+        "estado_inicial": "DISPONIVEL",
+        "pick_manual": true,
+        "persistir_apos_retirada": true
+      }
+    }
+  ],
+  "notes": [
+    "Provisional grid sizes and item chances; not physical storage capacity approval",
+    "No source ledgers executed; one explicit existing pickup enabled in the isolated pilot only"
+  ]
+}

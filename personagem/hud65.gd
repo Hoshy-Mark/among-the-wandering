@@ -261,7 +261,7 @@ func refresh() -> void:
         button.equipment=true
         button.destination=slot
         button.uid=model.equipped(slot)
-        button.text=SLOT_LABELS[slot]+"\n"+("Vazio" if button.uid.is_empty() else model.catalog[model.items[button.uid].definition].name)
+        button.text=SLOT_LABELS.get(slot,slot)+"\n"+("Vazio" if button.uid.is_empty() else model.catalog[model.items[button.uid].definition].name)
         button.add_theme_font_size_override("font_size",12)
         button.custom_minimum_size.y=44
         var uid: String=button.uid

@@ -1,0 +1,846 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Arroio master exclusive staging prototypes REV01"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "reservatorio_elevado_POSTE",
+      "mesh": 0
+    },
+    {
+      "name": "reservatorio_elevado_PLATAFORMA",
+      "mesh": 1
+    },
+    {
+      "name": "reservatorio_elevado_TANQUE",
+      "mesh": 2
+    },
+    {
+      "name": "reservatorio_elevado_TAMPA",
+      "mesh": 3
+    },
+    {
+      "name": "reservatorio_elevado_CANO",
+      "mesh": 4
+    },
+    {
+      "name": "reservatorio_elevado_ESCADA",
+      "mesh": 5
+    }
+  ],
+  "meshes": [
+    {
+      "name": "reservatorio_elevado_POSTE",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "COLOR_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "reservatorio_elevado_PLATAFORMA",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7,
+            "COLOR_0": 8
+          },
+          "indices": 9,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "reservatorio_elevado_TANQUE",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10,
+            "NORMAL": 11,
+            "TEXCOORD_0": 12,
+            "COLOR_0": 13
+          },
+          "indices": 14,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "reservatorio_elevado_TAMPA",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 15,
+            "NORMAL": 16,
+            "TEXCOORD_0": 17,
+            "COLOR_0": 18
+          },
+          "indices": 19,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "reservatorio_elevado_CANO",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 20,
+            "NORMAL": 21,
+            "TEXCOORD_0": 22,
+            "COLOR_0": 23
+          },
+          "indices": 24,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "reservatorio_elevado_ESCADA",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 25,
+            "NORMAL": 26,
+            "TEXCOORD_0": 27,
+            "COLOR_0": 28
+          },
+          "indices": 29,
+          "material": 1
+        }
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "RURAL_reservatorio_elevado.bin",
+      "byteLength": 28944
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1152
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1152,
+      "byteLength": 1152
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2304,
+      "byteLength": 768
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3072,
+      "byteLength": 1536
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4608,
+      "byteLength": 576
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5184,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5472,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5760,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5952,
+      "byteLength": 384
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6336,
+      "byteLength": 144
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6480,
+      "byteLength": 960
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7440,
+      "byteLength": 960
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8400,
+      "byteLength": 640
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 9040,
+      "byteLength": 1280
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 10320,
+      "byteLength": 480
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 10800,
+      "byteLength": 576
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 11376,
+      "byteLength": 576
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 11952,
+      "byteLength": 384
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 12336,
+      "byteLength": 768
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 13104,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 13392,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 13680,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 13968,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 14160,
+      "byteLength": 384
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 14544,
+      "byteLength": 144
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 14688,
+      "byteLength": 3168
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 17856,
+      "byteLength": 3168
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 21024,
+      "byteLength": 2112
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 23136,
+      "byteLength": 4224
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 27360,
+      "byteLength": 1584
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 96,
+      "type": "VEC3",
+      "min": [
+        -1.1,
+        0.0,
+        -1.1
+      ],
+      "max": [
+        1.1,
+        3.2,
+        1.1
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 96,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 96,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 96,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 144,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "min": [
+        -1.35,
+        3.06,
+        -1.35
+      ],
+      "max": [
+        1.35,
+        3.2399999999999998,
+        1.35
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 80,
+      "type": "VEC3",
+      "min": [
+        -1.15,
+        3.2,
+        -1.15
+      ],
+      "max": [
+        1.15,
+        4.8,
+        1.15
+      ]
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 80,
+      "type": "VEC3",
+      "min": [
+        -0.9876883405951377,
+        0.0,
+        -0.9876883405951378
+      ],
+      "max": [
+        0.9876883405951378,
+        0.0,
+        0.9876883405951378
+      ]
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 80,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 80,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5125,
+      "count": 120,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC3",
+      "min": [
+        -1.125,
+        3.2,
+        -1.125
+      ],
+      "max": [
+        1.125,
+        4.8100000000000005,
+        1.125
+      ]
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5125,
+      "count": 72,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 20,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "min": [
+        1.06,
+        0.0,
+        -0.04
+      ],
+      "max": [
+        1.1400000000000001,
+        3.8,
+        0.04
+      ]
+    },
+    {
+      "bufferView": 21,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 22,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 23,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 24,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 25,
+      "componentType": 5126,
+      "count": 264,
+      "type": "VEC3",
+      "min": [
+        -0.35,
+        0.27999999999999997,
+        1.3
+      ],
+      "max": [
+        0.35,
+        3.32,
+        1.34
+      ]
+    },
+    {
+      "bufferView": 26,
+      "componentType": 5126,
+      "count": 264,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 27,
+      "componentType": 5126,
+      "count": 264,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 28,
+      "componentType": 5126,
+      "count": 264,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 29,
+      "componentType": 5125,
+      "count": 396,
+      "type": "SCALAR"
+    }
+  ],
+  "materials": [
+    {
+      "name": "RURAL_reservatorio_elevado_timber",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.36,
+          0.26,
+          0.17,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.82,
+        "metallicRoughnessTexture": {
+          "index": 5
+        },
+        "baseColorTexture": {
+          "index": 18
+        }
+      },
+      "doubleSided": false,
+      "normalTexture": {
+        "index": 4,
+        "scale": 0.65
+      }
+    },
+    {
+      "name": "RURAL_reservatorio_elevado_metal",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.33,
+          0.37,
+          0.35,
+          1
+        ],
+        "metallicFactor": 0.6,
+        "roughnessFactor": 0.82,
+        "metallicRoughnessTexture": {
+          "index": 9
+        },
+        "baseColorTexture": {
+          "index": 19
+        }
+      },
+      "doubleSided": false,
+      "normalTexture": {
+        "index": 8,
+        "scale": 0.65
+      }
+    },
+    {
+      "name": "RURAL_reservatorio_elevado_concreto",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.53,
+          0.52,
+          0.48,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.82,
+        "metallicRoughnessTexture": {
+          "index": 3
+        },
+        "baseColorTexture": {
+          "index": 20
+        }
+      },
+      "doubleSided": false,
+      "normalTexture": {
+        "index": 2,
+        "scale": 0.65
+      }
+    },
+    {
+      "name": "RURAL_reservatorio_elevado_fibro",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.44,
+          0.46,
+          0.43,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.82,
+        "metallicRoughnessTexture": {
+          "index": 17
+        },
+        "baseColorTexture": {
+          "index": 21
+        }
+      },
+      "doubleSided": false,
+      "normalTexture": {
+        "index": 16,
+        "scale": 0.65
+      }
+    },
+    {
+      "name": "RURAL_reservatorio_elevado_organic",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.45,
+          0.35,
+          0.2,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.95
+      },
+      "doubleSided": true
+    }
+  ],
+  "images": [
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/plaster_normal_743052b79ad1.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/plaster_roughness_d30522446739.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/concrete_normal_95942dd65a66.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/concrete_roughness_b2e211bdfdba.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/timber_normal_0d410cc1a672.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/timber_roughness_bd8f78259573.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/stone_normal_2b0e63075967.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/stone_roughness_fd447ff42d72.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/metal_normal_b04a6e15d899.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/metal_roughness_28a249d502f6.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/ceramic_normal_fe8cbdf13700.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/ceramic_roughness_4c090fe21151.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/glass_normal_9e2027b1629f.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/glass_roughness_131b42e45865.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/brick_normal_60695dc96254.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/brick_roughness_613f52ead6a6.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/fibro_normal_32878131887f.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/maps/fibro_roughness_64e6f8b8d5f9.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/4e731b6ce58fc8e81271.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/987c0000f558bff7a3cb.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/f24a34ab4600fb1e6bf3.png"
+    },
+    {
+      "uri": "../../../../../main/world/structures/residential/materials/z2_shared/albedos_unique/2dc57cc793797a875e08.png"
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    },
+    {
+      "source": 1
+    },
+    {
+      "source": 2
+    },
+    {
+      "source": 3
+    },
+    {
+      "source": 4
+    },
+    {
+      "source": 5
+    },
+    {
+      "source": 6
+    },
+    {
+      "source": 7
+    },
+    {
+      "source": 8
+    },
+    {
+      "source": 9
+    },
+    {
+      "source": 10
+    },
+    {
+      "source": 11
+    },
+    {
+      "source": 12
+    },
+    {
+      "source": 13
+    },
+    {
+      "source": 14
+    },
+    {
+      "source": 15
+    },
+    {
+      "source": 16
+    },
+    {
+      "source": 17
+    },
+    {
+      "source": 18
+    },
+    {
+      "source": 19
+    },
+    {
+      "source": 20
+    },
+    {
+      "source": 21
+    }
+  ],
+  "samplers": []
+}

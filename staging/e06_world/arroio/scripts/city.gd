@@ -8,6 +8,20 @@ signal city_ready
 @export var show_landscape: bool = true
 @export var apply_lot_overrides: bool = true
 @export var apply_master_candidates: bool = true
+@export var apply_h11_h20_candidates: bool = true
+@export var apply_h21_h30_candidates: bool = true
+@export var apply_h31_h40_candidates: bool = true
+@export var apply_current_h01_h20_revisions: bool = true
+@export var apply_est01_est03_models: bool = true
+@export var apply_est04_est09_models: bool = true
+@export var apply_civic_vegetation: bool = true
+@export var apply_lrp01: bool = true
+@export var apply_lrp02: bool = true
+@export var apply_rural_models: bool = true
+@export var apply_rural_network: bool = true
+@export var enable_ambience: bool = true
+@export var apply_residential_interiors: bool = true
+@export var apply_civic_interiors: bool = true
 @export_enum("A", "B") var h02_variant: String = "B"
 var static_batcher = preload("res://staging/e06_world/arroio/scripts/static_visual_batcher.gd").new()
 const DATA := "res://staging/e06_world/arroio/data/"
@@ -15,9 +29,26 @@ var ready_for_integration: bool = false
 var material_cache: Dictionary = {}
 
 func catalog(name: String) -> Variant:
-	if name=="lot_overrides":return preload("res://staging/e06_world/arroio/scripts/master_lot_layer.gd").rules(self)
+	if name=="lot_overrides":
+		var rules: Dictionary = preload("res://staging/e06_world/arroio/scripts/master_lot_layer.gd").rules(self)
+		if apply_h11_h20_candidates:rules.lots.merge(preload("res://staging/e06_world/arroio/scripts/h11_h20_layer.gd").rules().lots)
+		if apply_h21_h30_candidates:rules.lots.merge(preload("res://staging/e06_world/arroio/scripts/h21_h30_layer.gd").rules().lots)
+		if apply_h31_h40_candidates:rules.lots.merge(preload("res://staging/e06_world/arroio/scripts/h31_h40_layer.gd").rules().lots)
+		if apply_current_h01_h20_revisions:rules.lots.merge(preload("res://staging/e06_world/arroio/scripts/current_h01_h20_layer.gd").rules(self).lots,true)
+		return rules
 	var data: Variant = JSON.parse_string(FileAccess.get_file_as_string(DATA + name + ".json"))
-	return preload("res://staging/e06_world/arroio/scripts/master_lot_layer.gd").adjusted(self,name,data)
+	data=preload("res://staging/e06_world/arroio/scripts/master_lot_layer.gd").adjusted(self,name,data)
+	data=preload("res://staging/e06_world/arroio/scripts/h11_h20_layer.gd").adjusted(self,name,data)
+	data=preload("res://staging/e06_world/arroio/scripts/h21_h30_layer.gd").adjusted(self,name,data)
+	data=preload("res://staging/e06_world/arroio/scripts/h31_h40_layer.gd").adjusted(self,name,data)
+	data=preload("res://staging/e06_world/arroio/scripts/current_h01_h20_layer.gd").adjusted(self,name,data)
+	data=preload("res://staging/e06_world/arroio/scripts/est01_est03_layer.gd").adjusted(self,name,data)
+	data=preload("res://staging/e06_world/arroio/scripts/est04_est09_layer.gd").adjusted(self,name,data)
+	data=preload("res://staging/e06_world/arroio/scripts/civic_vegetation_layer.gd").adjusted(self,name,data)
+	data=preload("res://staging/e06_world/arroio/scripts/lrp01_layer.gd").adjusted(self,name,data)
+	data=preload("res://staging/e06_world/arroio/scripts/lrp02_layer.gd").adjusted(self,name,data)
+	data=preload("res://staging/e06_world/arroio/scripts/rural_layer.gd").adjusted(self,name,data)
+	return preload("res://staging/e06_world/arroio/scripts/rural_network_layer.gd").adjusted(self,name,data)
 
 func _ready() -> void:
 	var city: Dictionary = catalog("city_master")
@@ -168,7 +199,33 @@ func _ready() -> void:
 	if apply_lot_overrides and show_landscape and FileAccess.file_exists(DATA+"lot_overrides.json"):
 		preload("res://staging/e06_world/arroio/scripts/lot_art_overrides.gd").new().configure(self)
 		if apply_master_candidates:preload("res://staging/e06_world/arroio/scripts/master_lot_layer.gd").new().configure(self)
+		if apply_master_candidates and apply_h11_h20_candidates:preload("res://staging/e06_world/arroio/scripts/h11_h20_layer.gd").new().configure(self)
+		if apply_master_candidates and apply_h21_h30_candidates:preload("res://staging/e06_world/arroio/scripts/h21_h30_layer.gd").new().configure(self)
+		if apply_master_candidates and apply_h31_h40_candidates:preload("res://staging/e06_world/arroio/scripts/h31_h40_layer.gd").new().configure(self)
+		if apply_master_candidates and apply_current_h01_h20_revisions:preload("res://staging/e06_world/arroio/scripts/current_h01_h20_layer.gd").new().configure(self)
+	if apply_est01_est03_models:preload("res://staging/e06_world/arroio/scripts/est01_est03_layer.gd").new().configure(self)
+	if apply_est04_est09_models:preload("res://staging/e06_world/arroio/scripts/est04_est09_layer.gd").new().configure(self)
+	if apply_lrp01:preload("res://staging/e06_world/arroio/scripts/lrp01_layer.gd").new().configure(self)
+	if apply_lrp02:preload("res://staging/e06_world/arroio/scripts/lrp02_layer.gd").new().configure(self)
+	if apply_rural_models:preload("res://staging/e06_world/arroio/scripts/rural_layer.gd").new().configure(self)
+	if apply_rural_network:preload("res://staging/e06_world/arroio/scripts/rural_network_layer.gd").new().configure(self)
+	if apply_civic_interiors and FileAccess.file_exists(DATA+"civic_interiors_return.json"):
+		var civic_interiors = preload("res://staging/e06_world/arroio/scripts/civic_interiors.gd").new()
+		civic_interiors.name="CivicInteriors"
+		add_child(civic_interiors)
+		civic_interiors.configure(self)
+	if apply_rural_models:preload("res://staging/e06_world/arroio/scripts/z2_finish.gd").new().configure(self)
+	if apply_residential_interiors and apply_current_h01_h20_revisions and FileAccess.file_exists(DATA+"interiors_h01_h05.json"):
+		var interiors = preload("res://staging/e06_world/arroio/scripts/residential_interiors.gd").new()
+		interiors.name="ResidentialInteriors"
+		add_child(interiors)
+		interiors.configure(self)
 	set_static_render_batching(batch_static_visuals)
+	if enable_ambience and FileAccess.file_exists(DATA+"soundscape.json"):
+		var ambience = preload("res://staging/e06_world/arroio/scripts/soundscape.gd").new()
+		ambience.name="Soundscape"
+		add_child(ambience)
+		ambience.configure(self)
 	ready_for_integration = true
 	city_ready.emit()
 
@@ -236,6 +293,7 @@ func set_sector_enabled(sector_id: String, enabled: bool) -> bool:
 	if has_node("Landscape"): $Landscape.set_sector_enabled(sector_id,enabled)
 	if enabled and batch_static_visuals:
 		static_batcher.batch_tree($UrbanSectors.get_node(sector_id))
+	if has_node("ResidentialInteriors"):$ResidentialInteriors.configure(self)
 	return true
 
 func set_static_render_batching(enabled: bool) -> void:

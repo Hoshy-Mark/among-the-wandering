@@ -3,7 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://c73km0q8nydby"
+uid="uid://du4w1v0vawsnx"
 path="res://.godot/imported/E07_VEG01_ARBUSTO_ALTO_R3Z2_REV04.glb-121a83ecb6d10135e92e98397432829e.scn"
 
 [deps]
@@ -19,7 +19,7 @@ nodes/apply_root_scale=true
 nodes/root_scale=1.0
 nodes/import_as_skeleton_bones=false
 nodes/use_node_type_suffixes=true
-meshes/ensure_tangents=false
+meshes/ensure_tangents=true
 meshes/generate_lods=true
 meshes/create_shadow_meshes=true
 meshes/light_baking=1

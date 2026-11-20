@@ -1,0 +1,50 @@
+extends SceneTree
+var requested=[]
+func _initialize() -> void:call_deferred("run")
+func settle() -> void:
+    for tick in 5:await process_frame
+func run() -> void:
+    root.size=Vector2i(1280,720)
+    var host=Control.new();root.add_child(host)
+    var view=load("res://personagem/dialogue_hud_d02.gd").new();host.add_child(view)
+    var choices=[]
+    for n in 9:choices.append({"id":"qa_"+str(n),"text":"QA · texto extenso de resposta %d com várias palavras para verificar quebra de linha e navegação independente dentro da área de escolhas."%n,"available":n!=1})
+    view.begin_session({"npc_id":"qa","name":"QA · Layout"},[{"speaker":"QA","text":"Linha de interface, sem roteiro de produção."}],choices)
+    view.choice_requested.connect(func(id):requested.append(id))
+    await settle()
+    assert(view.selected_index==0)
+    view.move_selection(1);assert(view.selected_index==2)
+    view.request_choice(1);assert(requested.is_empty())
+    view.request_choice(8);assert(requested==["qa_8"])
+    await settle()
+    assert(view.choice_scroll.scroll_vertical>0)
+    var label=view.choices.get_child(8).get_child(1)
+    assert(label.size.y+.5>=label.get_minimum_size().y,str([label.size,label.get_minimum_size()]))
+    assert(label.get_line_count()>=3 and label.get_rect().end.x<=label.get_parent().size.x,"visible wrapped text bounded by choice")
+    if DisplayServer.get_name()!="headless":
+        await RenderingServer.frame_post_draw
+        root.get_texture().get_image().save_png("res://qa/dialogue_d02/view_only.png")
+    for n in 15:view.append_line({"speaker":"QA","text":"Linha longa para teste de rolagem e dimensionamento da interface, sem informação de história."})
+    await settle();assert(view.history_scroll.get_v_scroll_bar().max_value>view.history_scroll.size.y)
+    view.history_scroll.scroll_vertical=roundi(view.history_scroll.get_v_scroll_bar().max_value)
+    view.set_options([choices[0]]);await settle();view.set_options(choices);await settle()
+    var bar=view.history_scroll.get_v_scroll_bar()
+    assert(bar.value>=bar.max_value-bar.page-1,"tail survives changing response area height")
+    view.history_scroll.scroll_vertical=0;await settle()
+    view.append_line({"speaker":"QA","text":"Outra linha de teste."});await settle()
+    assert(view.history_scroll.scroll_vertical==0)
+    for dimensions in [Vector2i(1280,720),Vector2i(1366,768),Vector2i(1920,1080),Vector2i(960,600)]:
+        root.size=dimensions;await settle();view.layout_panel()
+        assert(Rect2(Vector2.ZERO,Vector2(dimensions)).encloses(view.get_global_rect()))
+    var original=InputMap.action_get_events("dialogue_choice_1")
+    InputMap.action_erase_events("dialogue_choice_1")
+    var remap=InputEventKey.new();remap.physical_keycode=KEY_F9;InputMap.action_add_event("dialogue_choice_1",remap)
+    view.set_options(choices)
+    assert(view.choices.get_child(0).get_child(0).text=="F9" and view.footer.text.begins_with("F9"))
+    InputMap.action_erase_events("dialogue_choice_1")
+    for event in original:InputMap.action_add_event("dialogue_choice_1",event)
+    view.set_exit_allowed(false);assert(view.close_button.disabled)
+    view.hide_session();assert(not view.visible)
+    host.queue_free();await settle()
+    print("D02_VIEW_OK responsive native controls, multiline choices, independent scrolling, reader position and focus")
+    quit()

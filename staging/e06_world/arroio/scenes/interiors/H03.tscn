@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://staging/e06_world/arroio/assets/interiors_h01_h05_rev01/H03.gltf" id="1"]
+
+[node name="H03_Interior" type="Node3D"]
+metadata/keep_individual_visual = true
+
+[node name="Model" parent="." instance=ExtResource("1")]

@@ -1,0 +1,70 @@
+{
+  "head": {
+    "name": "Cabeça",
+    "factor": 1.6
+  },
+  "neck": {
+    "name": "Pescoço",
+    "factor": 1.5
+  },
+  "chest": {
+    "name": "Tórax",
+    "factor": 1.2
+  },
+  "abdomen": {
+    "name": "Abdômen",
+    "factor": 1.1
+  },
+  "groin": {
+    "name": "Virilha",
+    "factor": 1.1
+  },
+  "upper_arm_left": {
+    "name": "Braço E",
+    "factor": 0.8
+  },
+  "forearm_left": {
+    "name": "Antebraço E",
+    "factor": 0.7
+  },
+  "hand_left": {
+    "name": "Mão E",
+    "factor": 0.6
+  },
+  "thigh_left": {
+    "name": "Coxa E",
+    "factor": 1.0
+  },
+  "shin_left": {
+    "name": "Canela E",
+    "factor": 0.9
+  },
+  "foot_left": {
+    "name": "Pé E",
+    "factor": 0.7
+  },
+  "upper_arm_right": {
+    "name": "Braço D",
+    "factor": 0.8
+  },
+  "forearm_right": {
+    "name": "Antebraço D",
+    "factor": 0.7
+  },
+  "hand_right": {
+    "name": "Mão D",
+    "factor": 0.6
+  },
+  "thigh_right": {
+    "name": "Coxa D",
+    "factor": 1.0
+  },
+  "shin_right": {
+    "name": "Canela D",
+    "factor": 0.9
+  },
+  "foot_right": {
+    "name": "Pé D",
+    "factor": 0.7
+  }
+}

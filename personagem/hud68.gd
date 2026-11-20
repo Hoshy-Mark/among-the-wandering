@@ -1,6 +1,6 @@
 extends Control
 
-const LABELS={"shirt":"Tronco","pants":"Pernas","boots":"Pés","belt":"Cinto","backpack":"Costas","main_hand":"Mão principal"}
+const LABELS={"shirt":"Tronco","pants":"Pernas","boots":"Pés","belt":"Cinto","backpack":"Costas","main_hand":"Mão principal","quick_left":"← Arma curta","quick_up":"↑ Arma longa","quick_right":"→ Arma branca","quick_down":"↓ Arremessável"}
 var player: CharacterBody3D
 var windows: Array=[]
 var personal: PanelContainer
@@ -61,8 +61,8 @@ func setup(body: CharacterBody3D) -> void:
     _label(toolbar,"—  ENTRE OS ANDARILHOS",11,Color("96a49b"))
     _button(toolbar,"I  Inventário",func():toggle(0))
     _button(toolbar,"H  Corpo",func():toggle(1))
-    _button(toolbar,"Salvar",func():_notify(player.save_condition(),"Estado salvo"))
-    _button(toolbar,"Carregar",func():_notify(player.load_condition(),"Estado carregado"))
+    _button(toolbar,"Salvar",func():_notify(player.save_condition(),player.inventory_message))
+    _button(toolbar,"Carregar",func():_notify(player.load_condition(),player.inventory_message))
     scroll=ScrollContainer.new()
     add_child(scroll)
     scroll.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
@@ -81,6 +81,12 @@ func setup(body: CharacterBody3D) -> void:
     storage=_column(main,Vector2(350,444))
     main.add_child(VSeparator.new())
     equipped=_column(main,Vector2(230,444))
+    var equipped_margin=equipped.get_parent();main.remove_child(equipped_margin)
+    var equipped_scroll=ScrollContainer.new();equipped_scroll.custom_minimum_size=Vector2(230,444)
+    equipped_scroll.horizontal_scroll_mode=ScrollContainer.SCROLL_MODE_DISABLED
+    equipped_scroll.vertical_scroll_mode=ScrollContainer.SCROLL_MODE_AUTO
+    main.add_child(equipped_scroll);equipped_scroll.add_child(equipped_margin)
+    equipped_margin.size_flags_horizontal=Control.SIZE_EXPAND_FILL
     column.add_child(HSeparator.new())
     var detail=_column(column,Vector2(0,88))
     _label(detail,"INSPEÇÃO",10,Color("96a49b"))
@@ -215,6 +221,7 @@ func _drop_source() -> String:
     return "drop_here"
 
 func refresh() -> void:
+    if not is_inside_tree():return
     if player==null or inspection==null:
         return
     var model: RefCounted=player.bag_inventory
@@ -242,6 +249,9 @@ func refresh() -> void:
         row.custom_minimum_size.y=49
         equipped.add_child(row)
         var uid: String=model.equipped(slot)
+        var quick_display=player.get_node_or_null("Atalhos93")
+        if quick_display!=null and str(slot).begins_with("quick_"):
+            uid=str(quick_display.bindings.get(str(slot).trim_prefix("quick_"),uid))
         var pic=TextureRect.new()
         pic.custom_minimum_size=Vector2(32,34)
         pic.expand_mode=TextureRect.EXPAND_IGNORE_SIZE
@@ -251,7 +261,7 @@ func refresh() -> void:
         var name=VBoxContainer.new()
         row.add_child(name)
         _label(name,LABELS[slot],10,Color("96a49b"))
-        var button=_button(name,"Vazio" if uid.is_empty() else str(model.catalog[model.items[uid].definition].name),func():select_item(uid))
+        var button=_button(name,"Vazio" if uid.is_empty() else str(model.catalog[model.items[uid].definition].name)+(" · na mão" if str(slot).begins_with("quick_") and uid==model.equipped("main_hand") else ""),func():select_item(uid))
         button.add_theme_font_size_override("font_size",11)
         button.alignment=HORIZONTAL_ALIGNMENT_LEFT
         button.add_theme_stylebox_override("normal",StyleBoxEmpty.new())
@@ -287,14 +297,29 @@ func _inspection() -> void:
     var item: Dictionary=model.items[selected_uid]
     var definition: Dictionary=model.catalog[item.definition]
     inspection.text=definition.name
+    if definition.has("weapon"):
+        inspection.text+="\n%s · Uma mão\nAlcance %.2f m · Fôlego %d"%[definition.weapon.material,definition.weapon.reach,definition.weapon.cost]
+    if definition.get("weapon",{}).get("type","")=="firearm" and player.weapons!=null:
+        inspection.text+="\nMunição %d/%d"%[player.weapons.loaded(selected_uid),int(definition.weapon.capacity)]
+        if item.location=="slot:main_hand" and pending_mode.is_empty():
+            _button(actions,"Recarregar · R",func():
+                personal.visible=false;nearby_wanted=false;refresh();player.set_hud_open(false)
+                _notify(player.map_combat.reload_weapon(),"Recarga iniciada"))
+    var quick=player.get_node_or_null("Atalhos93")
+    if quick!=null and pending_mode.is_empty():
+        var direction=model.quick_category(selected_uid)
+        if not direction.is_empty():
+            _button(actions,"Vincular "+quick.GLYPHS[direction]+" · "+quick.LABELS[direction],func():_notify(quick.bind(direction,selected_uid),"Preparando atalho..."))
+            if quick.bound_direction(selected_uid)!="":_button(actions,"Limpar vínculo",func():_notify(quick.unbind(direction),"Atalho removido"))
+            if selected_uid==model.equipped("main_hand") and quick.bound_direction(selected_uid)!="":_button(actions,"Guardar · "+quick.GLYPHS[direction],func():_notify(quick.activate(direction,true),"Guardando arma..."))
     if not pending_mode.is_empty():
         _button(actions,"Cancelar",cancel_pending)
         return
     var is_equipped=str(item.location).begins_with("slot:")
     if not is_equipped and model.owned(selected_uid) and definition.has("use"):
         _button(actions,"Usar",func():_notify(player.use_item(selected_uid),"Ação iniciada"))
-    if not is_equipped and definition.has("slot"):
-        _button(actions,"Equipar",func():_notify(player.equip_item(selected_uid),"Equipando peça..."))
+    if (not is_equipped or str(item.location).begins_with("slot:quick_")) and definition.has("slot"):
+        _button(actions,"Equipar",func():_notify(quick.activate(model.quick_category(selected_uid),true) if quick!=null and str(item.location).begins_with("slot:quick_") else player.equip_item(selected_uid),"Equipando item..."))
     if is_equipped:
         _button(actions,"Retirar",func():begin_pending("unequip"))
     elif model.form(item.definition).x!=model.form(item.definition).y and bool(definition.get("can_rotate",true)):
@@ -515,6 +540,7 @@ func sync_lock() -> void:
     player.set_hud_open(personal.visible or nearby.visible or windows[1].visible)
 
 func _layout() -> void:
+    if not is_inside_tree():return
     if personal==null:
         return
     var viewport=get_viewport_rect().size
@@ -551,8 +577,9 @@ func icon_type(definition: String) -> String:
         return "medicine"
     if definition=="moletom_cinza":
         return "hoodie"
-    if definition=="baton":
-        return "baton"
+    if definition in ["pistol","ammo_pistol"]:return definition
+    if definition in ["baton","metal_bar"]:
+        return "baton" if definition=="baton" else "metal_bar"
     var slot: String=player.bag_inventory.catalog[definition].get("slot","")
     return {"shirt":"shirt","pants":"pants","boots":"boots","belt":"belt","backpack":"bag"}.get(slot,"tools")
 

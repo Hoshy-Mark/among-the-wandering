@@ -302,7 +302,7 @@ func _process(_delta: float) -> void:
     var from=model.to_local(camera.global_position)
     var target=model.to_local(scene.player.global_position+Vector3.UP*1.25)
     for group in groups.values():
-        var faded=group.bounds.intersects_segment(from,target)!=null
+        var faded=not camera.get_meta("solid_world89",false) and group.bounds.intersects_segment(from,target)!=null
         if faded==group.faded:
             continue
         group.faded=faded

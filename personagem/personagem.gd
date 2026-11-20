@@ -1,5 +1,8 @@
 extends "personagem_base.gd"
 const CLOTHING_SLOTS: Array[String]=["shirt","pants","boots","belt"]
+var firearm_presentation: Node3D
+var shoulder_pitch=0.0
+var shoulder_pose_service: Node3D
 var state_motion: RefCounted
 var obstacle_path: RefCounted
 var arm_articulation: RefCounted
@@ -10,11 +13,17 @@ var fit_from: Dictionary={}
 var fit_enabled:=true
 
 func set_motion(id: String) -> bool:
+    var visible_pose: Array[Transform3D]=[]
+    if shoulder_pose_service!=null and motion in ["firearm_idle","firearm_shot","firearm_reload90"] and id not in ["firearm_idle","firearm_shot","firearm_reload90"] and id!=motion:
+        for bone in skeleton.get_bone_count():visible_pose.append(skeleton.get_bone_pose(bone))
     if motion!=id and clips.has(id):
         fit_from={}
         for key in weights:
             if str(key).begins_with("Fit_") and float(weights[key])>0:fit_from[key]=weights[key]
-    return super.set_motion(id)
+    var accepted=super.set_motion(id)
+    if accepted and not visible_pose.is_empty():
+        motion_source="";motion_from=visible_pose;base_motion_pose=visible_pose.duplicate()
+    return accepted
 
 func _apply_weights() -> void:
     super._apply_weights()
@@ -55,6 +64,7 @@ func _fit_at(id: String,seconds: float) -> Dictionary:
         return {"Fit_idle_00": 1.0}
     if id.begins_with("stagger"):
         return _fit_at("backward", seconds / 1.35 * player.get_animation(clips.backward).length)
+    if id in ["firearm_idle","firearm_shot","firearm_reload90"]:return {"Fit_idle_00":1.0}
     if id in ["push", "push_armed", "punch", "strike_onehand", "combat_idle", "combat_idle_armed"]:
         return {"Fit_idle_00": 1.0}
     if id in ["inventory_access","equip_item","store_item","eat","drink","medicine","bandage"]:return {"Fit_idle_00":1.0}
@@ -263,5 +273,16 @@ func _json(path: String) -> Dictionary:
 
 func advance(delta: float) -> void:
     super.advance(delta)
+    if absf(shoulder_pitch)>.00001 and motion in ["firearm_idle","firearm_shot"]:
+        for side in ["R","L"]:
+            var index=skeleton.find_bone("UpperArm."+side)
+            var parent=skeleton.get_bone_parent(index)
+            var world_axis=global_basis.x.normalized()
+            var local_axis=(skeleton.global_basis*skeleton.get_bone_global_pose(parent).basis).inverse()*world_axis
+            skeleton.set_bone_pose_rotation(index,Quaternion(local_axis.normalized(),-shoulder_pitch)*skeleton.get_bone_pose_rotation(index))
+            skeleton.force_update_all_bone_transforms()
+    if shoulder_pose_service!=null and motion in ["firearm_idle","firearm_shot"]:
+        shoulder_pose_service.align_pose(self)
+    if firearm_presentation!=null:firearm_presentation.apply(delta)
     if arm_articulation != null:
         arm_articulation.apply()

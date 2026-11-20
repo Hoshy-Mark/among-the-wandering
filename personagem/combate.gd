@@ -10,6 +10,7 @@ var weapon: Node3D
 var control_locked = false
 var guarding = false
 var armed = false
+var firearm_mode = false
 var state = "idle"
 var attack_id = ""
 var clip_id = ""
@@ -50,6 +51,7 @@ func _hands(right: String, left: String) -> void:
 
 
 func guard_motion(direction: Vector2 = Vector2.ZERO) -> String:
+    if firearm_mode and armed and direction.length()<.05:return "firearm_idle"
     var suffix = "_armed" if armed else ""
     if direction.length() < .05:
         return "combat_idle" + suffix
@@ -105,7 +107,7 @@ func begin(kind: String, callback: Callable) -> bool:
         return false
     if executing_effect or actor.motion_paused or is_attacking() or not callback.is_valid():
         return false
-    if kind not in ["push", "punch", "strike_onehand"]:
+    if kind not in ["push", "punch", "strike_onehand"] and not (kind=="firearm_shot" and firearm_mode):
         return false
     if (kind == "strike_onehand" and not armed) or (kind == "punch" and armed):
         return false

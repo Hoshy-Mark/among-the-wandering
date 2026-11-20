@@ -117,7 +117,7 @@ func _ready() -> void:
         assert(library_error==OK)
         donor.free()
     if ResourceLoader.exists(base_dir+"assets/motion/r50/body.res") and "--bake-base" not in OS.get_cmdline_user_args():
-        var library: AnimationLibrary=load(base_dir+"assets/motion/r50/body.res").duplicate(true)
+        var library: AnimationLibrary=_isolated_animation_library(base_dir+"assets/motion/r50/body.res")
         for id in library.get_animation_list():
             var animation:=library.get_animation(id)
             for track in animation.get_track_count():
@@ -129,7 +129,7 @@ func _ready() -> void:
         hand_layer=load(base_dir+"maos.gd").new()
         hand_layer.setup(self)
     if ResourceLoader.exists(base_dir+"assets/motion/r51/actions.res") and "--bake-actions" not in OS.get_cmdline_user_args():
-        var action_library: AnimationLibrary=load(base_dir+"assets/motion/r51/actions.res").duplicate(true)
+        var action_library: AnimationLibrary=_isolated_animation_library(base_dir+"assets/motion/r51/actions.res")
         for id in action_library.get_animation_list():
             var animation:=action_library.get_animation(id)
             for track in animation.get_track_count():
@@ -139,7 +139,7 @@ func _ready() -> void:
         for id in action_library.get_animation_list():
             clips[id]="Actions51/"+id
     if ResourceLoader.exists(base_dir + "assets/motion/r53/actions.res") and "--bake-consumption" not in OS.get_cmdline_user_args():
-        var consumption_library: AnimationLibrary = load(base_dir + "assets/motion/r53/actions.res").duplicate(true)
+        var consumption_library: AnimationLibrary = _isolated_animation_library(base_dir + "assets/motion/r53/actions.res")
         for id in consumption_library.get_animation_list():
             var animation = consumption_library.get_animation(id)
             for track in animation.get_track_count():
@@ -148,7 +148,7 @@ func _ready() -> void:
             clips[id] = "Consumption53/" + id
         assert(player.add_animation_library("Consumption53", consumption_library) == OK)
     if ResourceLoader.exists(base_dir + "assets/motion/r54/combat.res") and "--bake-combat" not in OS.get_cmdline_user_args():
-        var combat_library: AnimationLibrary = load(base_dir + "assets/motion/r54/combat.res").duplicate(true)
+        var combat_library: AnimationLibrary = _isolated_animation_library(base_dir + "assets/motion/r54/combat.res")
         for id in combat_library.get_animation_list():
             var animation = combat_library.get_animation(id)
             for track in animation.get_track_count():
@@ -157,7 +157,7 @@ func _ready() -> void:
             clips[id] = "Combat54/" + id
         assert(player.add_animation_library("Combat54", combat_library) == OK)
     if ResourceLoader.exists(base_dir + "assets/motion/r55/reactions.res") and "--bake-reactions" not in OS.get_cmdline_user_args():
-        var reaction_library: AnimationLibrary = load(base_dir + "assets/motion/r55/reactions.res").duplicate(true)
+        var reaction_library: AnimationLibrary = _isolated_animation_library(base_dir + "assets/motion/r55/reactions.res")
         for id in reaction_library.get_animation_list():
             var animation = reaction_library.get_animation(id)
             for track in animation.get_track_count():
@@ -170,7 +170,7 @@ func _ready() -> void:
             for item in _json("roupas.json").items:
                 floor_garments[item.id] = item.type_id
     if ResourceLoader.exists(base_dir + "assets/motion/r57/obstacles.res") and "--bake-obstacles" not in OS.get_cmdline_user_args():
-        var obstacle_library: AnimationLibrary = load(base_dir + "assets/motion/r57/obstacles.res").duplicate(true)
+        var obstacle_library: AnimationLibrary = _isolated_animation_library(base_dir + "assets/motion/r57/obstacles.res")
         for id in obstacle_library.get_animation_list():
             var animation = obstacle_library.get_animation(id)
             for track in animation.get_track_count():
@@ -181,7 +181,7 @@ func _ready() -> void:
         if FileAccess.file_exists(base_dir + "apoios_obstaculos.json"):
             floor_support.merge(JSON.parse_string(FileAccess.get_file_as_string(base_dir + "apoios_obstaculos.json")), true)
     if ResourceLoader.exists(base_dir + "assets/motion/r58/states.res"):
-        var state_library: AnimationLibrary = load(base_dir + "assets/motion/r58/states.res").duplicate(true)
+        var state_library: AnimationLibrary = _isolated_animation_library(base_dir + "assets/motion/r58/states.res")
         for id in state_library.get_animation_list():
             var animation = state_library.get_animation(id)
             for track in animation.get_track_count():
@@ -191,7 +191,7 @@ func _ready() -> void:
         assert(player.add_animation_library("States58", state_library) == OK)
         floor_support.merge(_json("apoios_estados.json"), true)
     if ResourceLoader.exists(base_dir + "assets/motion/r59/flow.res"):
-        var library: AnimationLibrary = load(base_dir + "assets/motion/r59/flow.res").duplicate(true)
+        var library: AnimationLibrary = _isolated_animation_library(base_dir + "assets/motion/r59/flow.res")
         for id in library.get_animation_list():
             var animation = library.get_animation(id)
             for track in animation.get_track_count():
@@ -207,6 +207,15 @@ func _ready() -> void:
     var appearance_ok:=set_appearance(selection)
     assert(appearance_ok)
     advance(0)
+
+func _isolated_animation_library(path: String) -> AnimationLibrary:
+    # Library.duplicate(true) retains Animation references held in its collection.
+    # Retargeting those references would change tracks in other avatar instances.
+    var source: AnimationLibrary=load(path)
+    var result=AnimationLibrary.new()
+    for id in source.get_animation_list():
+        assert(result.add_animation(id,source.get_animation(id).duplicate(true))==OK)
+    return result
 
 func _json(path: String) -> Dictionary:
     return JSON.parse_string(FileAccess.get_file_as_string(base_dir+path))

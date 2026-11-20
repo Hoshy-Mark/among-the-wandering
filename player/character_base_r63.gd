@@ -79,6 +79,9 @@ func _update_equipment() -> void:
     var rig: Skeleton3D=avatar.skeleton
     var index=rig.find_bone("Chest")
     backpack_visual.global_transform=rig.global_transform*rig.get_bone_global_pose(index)*rig.get_bone_global_rest(index).affine_inverse()*Transform3D(Basis.IDENTITY,Vector3(0,1.20,-.23))
+    _present_hand_equipment()
+
+func _present_hand_equipment() -> void:
     if not bag_inventory.equipped("main_hand").is_empty() and action.state=="idle":
         combat.weapon.attach(avatar)
         combat.weapon.visible=true
@@ -249,7 +252,7 @@ func load_condition() -> bool:
         return false
     var inventory_shadow=load("res://personagem/inventario69.gd").new()
     inventory_shadow.house_anchors=bag_inventory.house_anchors.duplicate(true)
-    var condition_shadow=load("res://personagem/ferimentos62.gd").new()
+    var condition_shadow=condition_state.get_script().new()
     var body_shadow=load("res://personagem/corpo63.gd").new()
     if not inventory_shadow.restore(data.get("inventory"),false) or not condition_shadow.restore(data.get("condition")) or not body_shadow.restore(data.get("body"),false):
         return false

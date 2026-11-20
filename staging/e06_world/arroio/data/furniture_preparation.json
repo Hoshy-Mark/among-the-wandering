@@ -1,0 +1,3844 @@
+{
+  "schema_version": 1,
+  "status": "passive_preparation_only",
+  "units": "m",
+  "scope": "H01-H05 staging; keep accepted closed appearance and collision",
+  "defaults": {
+    "gameplay_enabled": false,
+    "fraction": 0.0,
+    "inventory_backend": null,
+    "persistence_enabled": false
+  },
+  "lots": {
+    "H01": [
+      {
+        "id": "H01_FURN_BALCAO_SERV",
+        "family": "Z2_FURN_CABINET_TWO_DRAWERS_A",
+        "role": "cabinet_two_drawers",
+        "source_meshes": [
+          "H01_FURN_BALCAO_SERV__00__corpo",
+          "H01_FURN_BALCAO_SERV__01__tampo",
+          "H01_FURN_BALCAO_SERV__02__pe",
+          "H01_FURN_BALCAO_SERV__03__pe",
+          "H01_FURN_BALCAO_SERV__04__gaveta_frente",
+          "H01_FURN_BALCAO_SERV__05__puxador_gaveta",
+          "H01_FURN_BALCAO_SERV__06__gaveta_frente",
+          "H01_FURN_BALCAO_SERV__07__puxador_gaveta"
+        ],
+        "parts": [
+          {
+            "id": "H01_FURN_BALCAO_SERV/drawer_1",
+            "leaf_mesh": "H01_FURN_BALCAO_SERV__04__gaveta_frente",
+            "attached_meshes": [
+              "H01_FURN_BALCAO_SERV__05__puxador_gaveta"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H01_FURN_BALCAO_SERV/drawer_2",
+            "leaf_mesh": "H01_FURN_BALCAO_SERV__06__gaveta_frente",
+            "attached_meshes": [
+              "H01_FURN_BALCAO_SERV__07__puxador_gaveta"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [
+          {
+            "id": "H01_FURN_BALCAO_SERV/storage/drawer_1",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          },
+          {
+            "id": "H01_FURN_BALCAO_SERV/storage/drawer_2",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Only drawer fronts/handles exist: model drawer boxes and cabinet cavities before functional opening."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "6d19cb08923b0513bc67345ca8530b9da668843cd3cab5281bff8c3cbe5cf047"
+      },
+      {
+        "id": "H01_FURN_CADEIRA_C1",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H01_FURN_CADEIRA_C1__08__travessa_encosto",
+          "H01_FURN_CADEIRA_C1__07__montante_encosto",
+          "H01_FURN_CADEIRA_C1__06__montante_encosto",
+          "H01_FURN_CADEIRA_C1__05__encosto_travessa",
+          "H01_FURN_CADEIRA_C1__04__assento",
+          "H01_FURN_CADEIRA_C1__03__perna",
+          "H01_FURN_CADEIRA_C1__02__perna",
+          "H01_FURN_CADEIRA_C1__01__perna",
+          "H01_FURN_CADEIRA_C1__00__perna"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6d19cb08923b0513bc67345ca8530b9da668843cd3cab5281bff8c3cbe5cf047"
+      },
+      {
+        "id": "H01_FURN_CADEIRA_C2",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H01_FURN_CADEIRA_C2__08__travessa_encosto",
+          "H01_FURN_CADEIRA_C2__07__montante_encosto",
+          "H01_FURN_CADEIRA_C2__06__montante_encosto",
+          "H01_FURN_CADEIRA_C2__05__encosto_travessa",
+          "H01_FURN_CADEIRA_C2__04__assento",
+          "H01_FURN_CADEIRA_C2__03__perna",
+          "H01_FURN_CADEIRA_C2__02__perna",
+          "H01_FURN_CADEIRA_C2__01__perna",
+          "H01_FURN_CADEIRA_C2__00__perna"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6d19cb08923b0513bc67345ca8530b9da668843cd3cab5281bff8c3cbe5cf047"
+      },
+      {
+        "id": "H01_FURN_CADEIRA_C3",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H01_FURN_CADEIRA_C3__08__travessa_encosto",
+          "H01_FURN_CADEIRA_C3__07__montante_encosto",
+          "H01_FURN_CADEIRA_C3__06__montante_encosto",
+          "H01_FURN_CADEIRA_C3__05__encosto_travessa",
+          "H01_FURN_CADEIRA_C3__04__assento",
+          "H01_FURN_CADEIRA_C3__03__perna",
+          "H01_FURN_CADEIRA_C3__02__perna",
+          "H01_FURN_CADEIRA_C3__01__perna",
+          "H01_FURN_CADEIRA_C3__00__perna"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6d19cb08923b0513bc67345ca8530b9da668843cd3cab5281bff8c3cbe5cf047"
+      },
+      {
+        "id": "H01_FURN_CADEIRA_C4",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H01_FURN_CADEIRA_C4__08__travessa_encosto",
+          "H01_FURN_CADEIRA_C4__07__montante_encosto",
+          "H01_FURN_CADEIRA_C4__06__montante_encosto",
+          "H01_FURN_CADEIRA_C4__05__encosto_travessa",
+          "H01_FURN_CADEIRA_C4__04__assento",
+          "H01_FURN_CADEIRA_C4__03__perna",
+          "H01_FURN_CADEIRA_C4__02__perna",
+          "H01_FURN_CADEIRA_C4__01__perna",
+          "H01_FURN_CADEIRA_C4__00__perna"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6d19cb08923b0513bc67345ca8530b9da668843cd3cab5281bff8c3cbe5cf047"
+      },
+      {
+        "id": "H01_FURN_CAMA_CASAL",
+        "family": "Z2_FURN_BED_A",
+        "role": "bed",
+        "source_meshes": [
+          "H01_FURN_CAMA_CASAL__00__base_cama",
+          "H01_FURN_CAMA_CASAL__01__travessa",
+          "H01_FURN_CAMA_CASAL__02__travessa",
+          "H01_FURN_CAMA_CASAL__03__colchao",
+          "H01_FURN_CAMA_CASAL__04__cobertor",
+          "H01_FURN_CAMA_CASAL__05__cabeceira",
+          "H01_FURN_CAMA_CASAL__06__detalhe_cabeceira",
+          "H01_FURN_CAMA_CASAL__07__detalhe_cabeceira",
+          "H01_FURN_CAMA_CASAL__08__detalhe_cabeceira",
+          "H01_FURN_CAMA_CASAL__09__travesseiro",
+          "H01_FURN_CAMA_CASAL__10__travesseiro",
+          "H01_FURN_CAMA_CASAL__11__pe_cama",
+          "H01_FURN_CAMA_CASAL__12__pe_cama"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6d19cb08923b0513bc67345ca8530b9da668843cd3cab5281bff8c3cbe5cf047"
+      },
+      {
+        "id": "H01_FURN_CAMA_SOLTEIRO",
+        "family": "Z2_FURN_BED_A",
+        "role": "bed",
+        "source_meshes": [
+          "H01_FURN_CAMA_SOLTEIRO__00__base_cama",
+          "H01_FURN_CAMA_SOLTEIRO__01__travessa",
+          "H01_FURN_CAMA_SOLTEIRO__02__travessa",
+          "H01_FURN_CAMA_SOLTEIRO__03__colchao",
+          "H01_FURN_CAMA_SOLTEIRO__04__cobertor",
+          "H01_FURN_CAMA_SOLTEIRO__05__cabeceira",
+          "H01_FURN_CAMA_SOLTEIRO__06__detalhe_cabeceira",
+          "H01_FURN_CAMA_SOLTEIRO__07__detalhe_cabeceira",
+          "H01_FURN_CAMA_SOLTEIRO__08__travesseiro",
+          "H01_FURN_CAMA_SOLTEIRO__09__pe_cama",
+          "H01_FURN_CAMA_SOLTEIRO__10__pe_cama"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6d19cb08923b0513bc67345ca8530b9da668843cd3cab5281bff8c3cbe5cf047"
+      },
+      {
+        "id": "H01_FURN_CENTRO01",
+        "family": "Z2_FURN_SURFACE_A",
+        "role": "surface",
+        "source_meshes": [
+          "H01_FURN_CENTRO01__00__perna",
+          "H01_FURN_CENTRO01__01__perna",
+          "H01_FURN_CENTRO01__02__perna",
+          "H01_FURN_CENTRO01__03__perna",
+          "H01_FURN_CENTRO01__04__travessa_longa",
+          "H01_FURN_CENTRO01__05__travessa_curta",
+          "H01_FURN_CENTRO01__06__tabua_tampo",
+          "H01_FURN_CENTRO01__07__tabua_tampo",
+          "H01_FURN_CENTRO01__08__tabua_tampo"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6d19cb08923b0513bc67345ca8530b9da668843cd3cab5281bff8c3cbe5cf047"
+      },
+      {
+        "id": "H01_FURN_CHUVEIRO",
+        "family": "Z2_FURN_SHOWER_A",
+        "role": "shower",
+        "source_meshes": [
+          "H01_FURN_CHUVEIRO__00__base_box",
+          "H01_FURN_CHUVEIRO__01__tubo_parede",
+          "H01_FURN_CHUVEIRO__02__chuveiro_cabeca",
+          "H01_FURN_CHUVEIRO__03__ralo"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6d19cb08923b0513bc67345ca8530b9da668843cd3cab5281bff8c3cbe5cf047"
+      },
+      {
+        "id": "H01_FURN_COMODA_CASAL",
+        "family": "Z2_FURN_CABINET_THREE_DRAWERS_A",
+        "role": "cabinet_three_drawers",
+        "source_meshes": [
+          "H01_FURN_COMODA_CASAL__00__corpo",
+          "H01_FURN_COMODA_CASAL__01__tampo",
+          "H01_FURN_COMODA_CASAL__02__pe",
+          "H01_FURN_COMODA_CASAL__03__pe",
+          "H01_FURN_COMODA_CASAL__04__gaveta_frente",
+          "H01_FURN_COMODA_CASAL__05__puxador_gaveta",
+          "H01_FURN_COMODA_CASAL__06__gaveta_frente",
+          "H01_FURN_COMODA_CASAL__07__puxador_gaveta",
+          "H01_FURN_COMODA_CASAL__08__gaveta_frente",
+          "H01_FURN_COMODA_CASAL__09__puxador_gaveta"
+        ],
+        "parts": [
+          {
+            "id": "H01_FURN_COMODA_CASAL/drawer_1",
+            "leaf_mesh": "H01_FURN_COMODA_CASAL__04__gaveta_frente",
+            "attached_meshes": [
+              "H01_FURN_COMODA_CASAL__05__puxador_gaveta"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H01_FURN_COMODA_CASAL/drawer_2",
+            "leaf_mesh": "H01_FURN_COMODA_CASAL__06__gaveta_frente",
+            "attached_meshes": [
+              "H01_FURN_COMODA_CASAL__07__puxador_gaveta"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H01_FURN_COMODA_CASAL/drawer_3",
+            "leaf_mesh": "H01_FURN_COMODA_CASAL__08__gaveta_frente",
+            "attached_meshes": [
+              "H01_FURN_COMODA_CASAL__09__puxador_gaveta"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [
+          {
+            "id": "H01_FURN_COMODA_CASAL/storage/drawer_1",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          },
+          {
+            "id": "H01_FURN_COMODA_CASAL/storage/drawer_2",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          },
+          {
+            "id": "H01_FURN_COMODA_CASAL/storage/drawer_3",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Only drawer fronts/handles exist: model drawer boxes and cabinet cavities before functional opening."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "6d19cb08923b0513bc67345ca8530b9da668843cd3cab5281bff8c3cbe5cf047"
+      },
+      {
+        "id": "H01_FURN_DESPENSA",
+        "family": "Z2_FURN_SHELF_A",
+        "role": "shelf",
+        "source_meshes": [
+          "H01_FURN_DESPENSA__00__corpo",
+          "H01_FURN_DESPENSA__01__tampo",
+          "H01_FURN_DESPENSA__02__pe",
+          "H01_FURN_DESPENSA__03__pe",
+          "H01_FURN_DESPENSA__04__prateleira",
+          "H01_FURN_DESPENSA__05__prateleira",
+          "H01_FURN_DESPENSA__06__prateleira"
+        ],
+        "parts": [],
+        "compartments": [
+          {
+            "id": "H01_FURN_DESPENSA/storage/main",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Verify/model inner cavity and shelves; current cabinet body and whole-furniture collision remain solid."
+        ],
+        "use_anchor_only": true,
+        "source_model_sha256": "6d19cb08923b0513bc67345ca8530b9da668843cd3cab5281bff8c3cbe5cf047"
+      },
+      {
+        "id": "H01_FURN_ESCRIVANINHA",
+        "family": "Z2_FURN_SURFACE_A",
+        "role": "surface",
+        "source_meshes": [
+          "H01_FURN_ESCRIVANINHA__00__perna",
+          "H01_FURN_ESCRIVANINHA__01__perna",
+          "H01_FURN_ESCRIVANINHA__02__perna",
+          "H01_FURN_ESCRIVANINHA__03__perna",
+          "H01_FURN_ESCRIVANINHA__04__travessa_longa",
+          "H01_FURN_ESCRIVANINHA__05__travessa_curta",
+          "H01_FURN_ESCRIVANINHA__06__tabua_tampo",
+          "H01_FURN_ESCRIVANINHA__07__tabua_tampo",
+          "H01_FURN_ESCRIVANINHA__08__tabua_tampo"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6d19cb08923b0513bc67345ca8530b9da668843cd3cab5281bff8c3cbe5cf047"
+      },
+      {
+        "id": "H01_FURN_ESTANTE_Q2",
+        "family": "Z2_FURN_SHELF_A",
+        "role": "shelf",
+        "source_meshes": [
+          "H01_FURN_ESTANTE_Q2__00__corpo",
+          "H01_FURN_ESTANTE_Q2__01__tampo",
+          "H01_FURN_ESTANTE_Q2__02__pe",
+          "H01_FURN_ESTANTE_Q2__03__pe",
+          "H01_FURN_ESTANTE_Q2__04__prateleira",
+          "H01_FURN_ESTANTE_Q2__05__prateleira",
+          "H01_FURN_ESTANTE_Q2__06__prateleira",
+          "H01_FURN_ESTANTE_Q2__07__livro_lombada",
+          "H01_FURN_ESTANTE_Q2__08__livro_lombada",
+          "H01_FURN_ESTANTE_Q2__09__livro_lombada",
+          "H01_FURN_ESTANTE_Q2__10__livro_lombada"
+        ],
+        "parts": [],
+        "compartments": [
+          {
+            "id": "H01_FURN_ESTANTE_Q2/storage/main",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Verify/model inner cavity and shelves; current cabinet body and whole-furniture collision remain solid."
+        ],
+        "use_anchor_only": true,
+        "source_model_sha256": "6d19cb08923b0513bc67345ca8530b9da668843cd3cab5281bff8c3cbe5cf047"
+      },
+      {
+        "id": "H01_FURN_FOGAO",
+        "family": "Z2_FURN_STOVE_A",
+        "role": "stove",
+        "source_meshes": [
+          "H01_FURN_FOGAO__00__gabinete",
+          "H01_FURN_FOGAO__01__porta_forno",
+          "H01_FURN_FOGAO__02__visor",
+          "H01_FURN_FOGAO__03__mesa_fogao",
+          "H01_FURN_FOGAO__04__boca_queimador",
+          "H01_FURN_FOGAO__05__boca_queimador",
+          "H01_FURN_FOGAO__06__boca_queimador",
+          "H01_FURN_FOGAO__07__boca_queimador",
+          "H01_FURN_FOGAO__08__botao",
+          "H01_FURN_FOGAO__09__botao",
+          "H01_FURN_FOGAO__10__botao",
+          "H01_FURN_FOGAO__11__botao",
+          "H01_FURN_FOGAO__12__respaldo"
+        ],
+        "parts": [
+          {
+            "id": "H01_FURN_FOGAO/oven_door",
+            "leaf_mesh": "H01_FURN_FOGAO__01__porta_forno",
+            "attached_meshes": [
+              "H01_FURN_FOGAO__02__visor"
+            ],
+            "motion": "hinge_x",
+            "hinge_edge": "bottom",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Oven cavity, trays and heat/use behaviour are not implemented."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "6d19cb08923b0513bc67345ca8530b9da668843cd3cab5281bff8c3cbe5cf047"
+      },
+      {
+        "id": "H01_FURN_GELADEIRA",
+        "family": "Z2_FURN_FRIDGE_A",
+        "role": "fridge",
+        "source_meshes": [
+          "H01_FURN_GELADEIRA__00__gabinete",
+          "H01_FURN_GELADEIRA__01__porta_inferior",
+          "H01_FURN_GELADEIRA__02__porta_freezer",
+          "H01_FURN_GELADEIRA__03__puxador",
+          "H01_FURN_GELADEIRA__04__puxador",
+          "H01_FURN_GELADEIRA__05__ventilacao_base"
+        ],
+        "parts": [
+          {
+            "id": "H01_FURN_GELADEIRA/door_cooler",
+            "leaf_mesh": "H01_FURN_GELADEIRA__01__porta_inferior",
+            "attached_meshes": [
+              "H01_FURN_GELADEIRA__03__puxador"
+            ],
+            "motion": "hinge_y",
+            "hinge_edge": "opposite_handle",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H01_FURN_GELADEIRA/door_freezer",
+            "leaf_mesh": "H01_FURN_GELADEIRA__02__porta_freezer",
+            "attached_meshes": [
+              "H01_FURN_GELADEIRA__04__puxador"
+            ],
+            "motion": "hinge_y",
+            "hinge_edge": "opposite_handle",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [
+          {
+            "id": "H01_FURN_GELADEIRA/storage/cooler",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          },
+          {
+            "id": "H01_FURN_GELADEIRA/storage/freezer",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Verify/model inner cavity and shelves; current cabinet body and whole-furniture collision remain solid."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "6d19cb08923b0513bc67345ca8530b9da668843cd3cab5281bff8c3cbe5cf047"
+      },
+      {
+        "id": "H01_FURN_GUARDA_CASAL",
+        "family": "Z2_FURN_WARDROBE_A",
+        "role": "wardrobe",
+        "source_meshes": [
+          "H01_FURN_GUARDA_CASAL__00__corpo",
+          "H01_FURN_GUARDA_CASAL__01__rodape",
+          "H01_FURN_GUARDA_CASAL__02__porta_esquerda",
+          "H01_FURN_GUARDA_CASAL__03__porta_direita",
+          "H01_FURN_GUARDA_CASAL__04__puxador",
+          "H01_FURN_GUARDA_CASAL__05__puxador",
+          "H01_FURN_GUARDA_CASAL__06__topo"
+        ],
+        "parts": [
+          {
+            "id": "H01_FURN_GUARDA_CASAL/door_left",
+            "leaf_mesh": "H01_FURN_GUARDA_CASAL__02__porta_esquerda",
+            "attached_meshes": [
+              "H01_FURN_GUARDA_CASAL__04__puxador"
+            ],
+            "motion": "hinge_y",
+            "hinge_edge": "min",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H01_FURN_GUARDA_CASAL/door_right",
+            "leaf_mesh": "H01_FURN_GUARDA_CASAL__03__porta_direita",
+            "attached_meshes": [
+              "H01_FURN_GUARDA_CASAL__05__puxador"
+            ],
+            "motion": "hinge_y",
+            "hinge_edge": "max",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [
+          {
+            "id": "H01_FURN_GUARDA_CASAL/storage/main",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Verify/model inner cavity and shelves; current cabinet body and whole-furniture collision remain solid."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "6d19cb08923b0513bc67345ca8530b9da668843cd3cab5281bff8c3cbe5cf047"
+      },
+      {
+        "id": "H01_FURN_LAVATORIO",
+        "family": "Z2_FURN_WATER_FIXTURE_A",
+        "role": "water_fixture",
+        "source_meshes": [
+          "H01_FURN_LAVATORIO__00__coluna",
+          "H01_FURN_LAVATORIO__01__cuba",
+          "H01_FURN_LAVATORIO__02__bacia_interna",
+          "H01_FURN_LAVATORIO__03__base_torneira",
+          "H01_FURN_LAVATORIO__04__bica"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6d19cb08923b0513bc67345ca8530b9da668843cd3cab5281bff8c3cbe5cf047"
+      },
+      {
+        "id": "H01_FURN_MESA_REF",
+        "family": "Z2_FURN_SURFACE_A",
+        "role": "surface",
+        "source_meshes": [
+          "H01_FURN_MESA_REF__00__perna",
+          "H01_FURN_MESA_REF__01__perna",
+          "H01_FURN_MESA_REF__02__perna",
+          "H01_FURN_MESA_REF__03__perna",
+          "H01_FURN_MESA_REF__04__travessa_longa",
+          "H01_FURN_MESA_REF__05__travessa_curta",
+          "H01_FURN_MESA_REF__06__tabua_tampo",
+          "H01_FURN_MESA_REF__07__tabua_tampo",
+          "H01_FURN_MESA_REF__08__tabua_tampo",
+          "H01_FURN_MESA_REF__09__tabua_tampo"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6d19cb08923b0513bc67345ca8530b9da668843cd3cab5281bff8c3cbe5cf047"
+      },
+      {
+        "id": "H01_FURN_PIA_COZ",
+        "family": "Z2_FURN_SINK_CABINET_A",
+        "role": "sink_cabinet",
+        "source_meshes": [
+          "H01_FURN_PIA_COZ__00__base",
+          "H01_FURN_PIA_COZ__01__portas",
+          "H01_FURN_PIA_COZ__02__bancada",
+          "H01_FURN_PIA_COZ__03__cuba_rebaixada",
+          "H01_FURN_PIA_COZ__04__brilho_cuba",
+          "H01_FURN_PIA_COZ__05__haste_torneira",
+          "H01_FURN_PIA_COZ__06__bica_torneira"
+        ],
+        "parts": [],
+        "compartments": [
+          {
+            "id": "H01_FURN_PIA_COZ/storage/main",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "The door panel is a combined mesh: split/model independent leaves and cavity before opening.",
+          "Verify/model inner cavity and shelves; current cabinet body and whole-furniture collision remain solid."
+        ],
+        "use_anchor_only": true,
+        "source_model_sha256": "6d19cb08923b0513bc67345ca8530b9da668843cd3cab5281bff8c3cbe5cf047"
+      },
+      {
+        "id": "H01_FURN_RACK01",
+        "family": "Z2_FURN_CABINET_TWO_DRAWERS_A",
+        "role": "cabinet_two_drawers",
+        "source_meshes": [
+          "H01_FURN_RACK01__00__corpo",
+          "H01_FURN_RACK01__01__tampo",
+          "H01_FURN_RACK01__02__pe",
+          "H01_FURN_RACK01__03__pe",
+          "H01_FURN_RACK01__04__gaveta_frente",
+          "H01_FURN_RACK01__05__puxador_gaveta",
+          "H01_FURN_RACK01__06__gaveta_frente",
+          "H01_FURN_RACK01__07__puxador_gaveta"
+        ],
+        "parts": [
+          {
+            "id": "H01_FURN_RACK01/drawer_1",
+            "leaf_mesh": "H01_FURN_RACK01__04__gaveta_frente",
+            "attached_meshes": [
+              "H01_FURN_RACK01__05__puxador_gaveta"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H01_FURN_RACK01/drawer_2",
+            "leaf_mesh": "H01_FURN_RACK01__06__gaveta_frente",
+            "attached_meshes": [
+              "H01_FURN_RACK01__07__puxador_gaveta"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [
+          {
+            "id": "H01_FURN_RACK01/storage/drawer_1",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          },
+          {
+            "id": "H01_FURN_RACK01/storage/drawer_2",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Only drawer fronts/handles exist: model drawer boxes and cabinet cavities before functional opening."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "6d19cb08923b0513bc67345ca8530b9da668843cd3cab5281bff8c3cbe5cf047"
+      },
+      {
+        "id": "H01_FURN_ROUPARIA",
+        "family": "Z2_FURN_CABINET_TWO_DRAWERS_A",
+        "role": "cabinet_two_drawers",
+        "source_meshes": [
+          "H01_FURN_ROUPARIA__00__corpo",
+          "H01_FURN_ROUPARIA__01__tampo",
+          "H01_FURN_ROUPARIA__02__pe",
+          "H01_FURN_ROUPARIA__03__pe",
+          "H01_FURN_ROUPARIA__04__gaveta_frente",
+          "H01_FURN_ROUPARIA__05__puxador_gaveta",
+          "H01_FURN_ROUPARIA__06__gaveta_frente",
+          "H01_FURN_ROUPARIA__07__puxador_gaveta"
+        ],
+        "parts": [
+          {
+            "id": "H01_FURN_ROUPARIA/drawer_1",
+            "leaf_mesh": "H01_FURN_ROUPARIA__04__gaveta_frente",
+            "attached_meshes": [
+              "H01_FURN_ROUPARIA__05__puxador_gaveta"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H01_FURN_ROUPARIA/drawer_2",
+            "leaf_mesh": "H01_FURN_ROUPARIA__06__gaveta_frente",
+            "attached_meshes": [
+              "H01_FURN_ROUPARIA__07__puxador_gaveta"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [
+          {
+            "id": "H01_FURN_ROUPARIA/storage/drawer_1",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          },
+          {
+            "id": "H01_FURN_ROUPARIA/storage/drawer_2",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Only drawer fronts/handles exist: model drawer boxes and cabinet cavities before functional opening."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "6d19cb08923b0513bc67345ca8530b9da668843cd3cab5281bff8c3cbe5cf047"
+      },
+      {
+        "id": "H01_FURN_SOFA01",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H01_FURN_SOFA01__00__base_estrutura",
+          "H01_FURN_SOFA01__01__assento_base",
+          "H01_FURN_SOFA01__02__encosto",
+          "H01_FURN_SOFA01__03__braco_lateral",
+          "H01_FURN_SOFA01__04__braco_lateral",
+          "H01_FURN_SOFA01__05__almofada_assento",
+          "H01_FURN_SOFA01__06__almofada_assento",
+          "H01_FURN_SOFA01__07__almofada_assento",
+          "H01_FURN_SOFA01__08__almofada_encosto",
+          "H01_FURN_SOFA01__09__almofada_encosto",
+          "H01_FURN_SOFA01__10__almofada_encosto",
+          "H01_FURN_SOFA01__11__pe_sofa",
+          "H01_FURN_SOFA01__12__pe_sofa"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6d19cb08923b0513bc67345ca8530b9da668843cd3cab5281bff8c3cbe5cf047"
+      },
+      {
+        "id": "H01_FURN_TANQUE",
+        "family": "Z2_FURN_WATER_FIXTURE_A",
+        "role": "water_fixture",
+        "source_meshes": [
+          "H01_FURN_TANQUE__00__coluna",
+          "H01_FURN_TANQUE__01__tanque",
+          "H01_FURN_TANQUE__02__fundo_interno",
+          "H01_FURN_TANQUE__03__torneira"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6d19cb08923b0513bc67345ca8530b9da668843cd3cab5281bff8c3cbe5cf047"
+      },
+      {
+        "id": "H01_FURN_VASO",
+        "family": "Z2_FURN_TOILET_A",
+        "role": "toilet",
+        "source_meshes": [
+          "H01_FURN_VASO__00__caixa_acoplada",
+          "H01_FURN_VASO__01__pedestal",
+          "H01_FURN_VASO__02__assento",
+          "H01_FURN_VASO__03__abertura_assento"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6d19cb08923b0513bc67345ca8530b9da668843cd3cab5281bff8c3cbe5cf047"
+      }
+    ],
+    "H02": [
+      {
+        "id": "H02_FURN_01_SOFA_3P",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H02_FURN_01_SOFA_3P__00",
+          "H02_FURN_01_SOFA_3P__01",
+          "H02_FURN_01_SOFA_3P__02",
+          "H02_FURN_01_SOFA_3P__03",
+          "H02_FURN_01_SOFA_3P__04",
+          "H02_FURN_01_SOFA_3P__05",
+          "H02_FURN_01_SOFA_3P__06",
+          "H02_FURN_01_SOFA_3P__07",
+          "H02_FURN_01_SOFA_3P__08",
+          "H02_FURN_01_SOFA_3P__09",
+          "H02_FURN_01_SOFA_3P__10",
+          "H02_FURN_01_SOFA_3P__11",
+          "H02_FURN_01_SOFA_3P__12"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "097fa7039c1b33e62ce3219af9fbfe03e862abf71e2633fabb4a52d1c1b42212"
+      },
+      {
+        "id": "H02_FURN_02_TV_RACK",
+        "family": "Z2_FURN_CABINET_TWO_DRAWERS_A",
+        "role": "cabinet_two_drawers",
+        "source_meshes": [
+          "H02_FURN_02_TV_RACK__00",
+          "H02_FURN_02_TV_RACK__01",
+          "H02_FURN_02_TV_RACK__02",
+          "H02_FURN_02_TV_RACK__03",
+          "H02_FURN_02_TV_RACK__04",
+          "H02_FURN_02_TV_RACK__05",
+          "H02_FURN_02_TV_RACK__06",
+          "H02_FURN_02_TV_RACK__07"
+        ],
+        "parts": [
+          {
+            "id": "H02_FURN_02_TV_RACK/drawer_1",
+            "leaf_mesh": "H02_FURN_02_TV_RACK__04",
+            "attached_meshes": [
+              "H02_FURN_02_TV_RACK__05"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H02_FURN_02_TV_RACK/drawer_2",
+            "leaf_mesh": "H02_FURN_02_TV_RACK__06",
+            "attached_meshes": [
+              "H02_FURN_02_TV_RACK__07"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [
+          {
+            "id": "H02_FURN_02_TV_RACK/storage/drawer_1",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          },
+          {
+            "id": "H02_FURN_02_TV_RACK/storage/drawer_2",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Only drawer fronts/handles exist: model drawer boxes and cabinet cavities before functional opening."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "097fa7039c1b33e62ce3219af9fbfe03e862abf71e2633fabb4a52d1c1b42212"
+      },
+      {
+        "id": "H02_FURN_03_TABLE_DINING",
+        "family": "Z2_FURN_SURFACE_A",
+        "role": "surface",
+        "source_meshes": [
+          "H02_FURN_03_TABLE_DINING__00",
+          "H02_FURN_03_TABLE_DINING__01",
+          "H02_FURN_03_TABLE_DINING__02",
+          "H02_FURN_03_TABLE_DINING__03",
+          "H02_FURN_03_TABLE_DINING__04",
+          "H02_FURN_03_TABLE_DINING__05",
+          "H02_FURN_03_TABLE_DINING__06",
+          "H02_FURN_03_TABLE_DINING__07",
+          "H02_FURN_03_TABLE_DINING__08",
+          "H02_FURN_03_TABLE_DINING__09"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "097fa7039c1b33e62ce3219af9fbfe03e862abf71e2633fabb4a52d1c1b42212"
+      },
+      {
+        "id": "H02_FURN_04_CHAIR",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H02_FURN_04_CHAIR__00",
+          "H02_FURN_04_CHAIR__01",
+          "H02_FURN_04_CHAIR__02",
+          "H02_FURN_04_CHAIR__03",
+          "H02_FURN_04_CHAIR__04",
+          "H02_FURN_04_CHAIR__05",
+          "H02_FURN_04_CHAIR__06",
+          "H02_FURN_04_CHAIR__07",
+          "H02_FURN_04_CHAIR__08"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "097fa7039c1b33e62ce3219af9fbfe03e862abf71e2633fabb4a52d1c1b42212"
+      },
+      {
+        "id": "H02_FURN_05_CHAIR",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H02_FURN_05_CHAIR__00",
+          "H02_FURN_05_CHAIR__01",
+          "H02_FURN_05_CHAIR__02",
+          "H02_FURN_05_CHAIR__03",
+          "H02_FURN_05_CHAIR__04",
+          "H02_FURN_05_CHAIR__05",
+          "H02_FURN_05_CHAIR__06",
+          "H02_FURN_05_CHAIR__07",
+          "H02_FURN_05_CHAIR__08"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "097fa7039c1b33e62ce3219af9fbfe03e862abf71e2633fabb4a52d1c1b42212"
+      },
+      {
+        "id": "H02_FURN_06_CHAIR",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H02_FURN_06_CHAIR__00",
+          "H02_FURN_06_CHAIR__01",
+          "H02_FURN_06_CHAIR__02",
+          "H02_FURN_06_CHAIR__03",
+          "H02_FURN_06_CHAIR__04",
+          "H02_FURN_06_CHAIR__05",
+          "H02_FURN_06_CHAIR__06",
+          "H02_FURN_06_CHAIR__07",
+          "H02_FURN_06_CHAIR__08"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "097fa7039c1b33e62ce3219af9fbfe03e862abf71e2633fabb4a52d1c1b42212"
+      },
+      {
+        "id": "H02_FURN_07_CHAIR",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H02_FURN_07_CHAIR__00",
+          "H02_FURN_07_CHAIR__01",
+          "H02_FURN_07_CHAIR__02",
+          "H02_FURN_07_CHAIR__03",
+          "H02_FURN_07_CHAIR__04",
+          "H02_FURN_07_CHAIR__05",
+          "H02_FURN_07_CHAIR__06",
+          "H02_FURN_07_CHAIR__07",
+          "H02_FURN_07_CHAIR__08"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "097fa7039c1b33e62ce3219af9fbfe03e862abf71e2633fabb4a52d1c1b42212"
+      },
+      {
+        "id": "H02_FURN_08_WORK_TABLE",
+        "family": "Z2_FURN_SURFACE_A",
+        "role": "surface",
+        "source_meshes": [
+          "H02_FURN_08_WORK_TABLE__00",
+          "H02_FURN_08_WORK_TABLE__01",
+          "H02_FURN_08_WORK_TABLE__02",
+          "H02_FURN_08_WORK_TABLE__03",
+          "H02_FURN_08_WORK_TABLE__04",
+          "H02_FURN_08_WORK_TABLE__05",
+          "H02_FURN_08_WORK_TABLE__06",
+          "H02_FURN_08_WORK_TABLE__07",
+          "H02_FURN_08_WORK_TABLE__08",
+          "H02_FURN_08_WORK_TABLE__09"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "097fa7039c1b33e62ce3219af9fbfe03e862abf71e2633fabb4a52d1c1b42212"
+      },
+      {
+        "id": "H02_FURN_09_KITCHEN_SINK",
+        "family": "Z2_FURN_SINK_CABINET_A",
+        "role": "sink_cabinet",
+        "source_meshes": [
+          "H02_FURN_09_KITCHEN_SINK__00",
+          "H02_FURN_09_KITCHEN_SINK__01",
+          "H02_FURN_09_KITCHEN_SINK__02",
+          "H02_FURN_09_KITCHEN_SINK__03",
+          "H02_FURN_09_KITCHEN_SINK__04",
+          "H02_FURN_09_KITCHEN_SINK__05",
+          "H02_FURN_09_KITCHEN_SINK__06"
+        ],
+        "parts": [],
+        "compartments": [
+          {
+            "id": "H02_FURN_09_KITCHEN_SINK/storage/main",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "The door panel is a combined mesh: split/model independent leaves and cavity before opening.",
+          "Verify/model inner cavity and shelves; current cabinet body and whole-furniture collision remain solid."
+        ],
+        "use_anchor_only": true,
+        "source_model_sha256": "097fa7039c1b33e62ce3219af9fbfe03e862abf71e2633fabb4a52d1c1b42212"
+      },
+      {
+        "id": "H02_FURN_10_STOVE",
+        "family": "Z2_FURN_STOVE_A",
+        "role": "stove",
+        "source_meshes": [
+          "H02_FURN_10_STOVE__00",
+          "H02_FURN_10_STOVE__01",
+          "H02_FURN_10_STOVE__02",
+          "H02_FURN_10_STOVE__03",
+          "H02_FURN_10_STOVE__04",
+          "H02_FURN_10_STOVE__05",
+          "H02_FURN_10_STOVE__06",
+          "H02_FURN_10_STOVE__07",
+          "H02_FURN_10_STOVE__08",
+          "H02_FURN_10_STOVE__09",
+          "H02_FURN_10_STOVE__10",
+          "H02_FURN_10_STOVE__11",
+          "H02_FURN_10_STOVE__12"
+        ],
+        "parts": [
+          {
+            "id": "H02_FURN_10_STOVE/oven_door",
+            "leaf_mesh": "H02_FURN_10_STOVE__01",
+            "attached_meshes": [
+              "H02_FURN_10_STOVE__02"
+            ],
+            "motion": "hinge_x",
+            "hinge_edge": "bottom",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Oven cavity, trays and heat/use behaviour are not implemented."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "097fa7039c1b33e62ce3219af9fbfe03e862abf71e2633fabb4a52d1c1b42212"
+      },
+      {
+        "id": "H02_FURN_11_FRIDGE",
+        "family": "Z2_FURN_FRIDGE_A",
+        "role": "fridge",
+        "source_meshes": [
+          "H02_FURN_11_FRIDGE__00",
+          "H02_FURN_11_FRIDGE__01",
+          "H02_FURN_11_FRIDGE__02",
+          "H02_FURN_11_FRIDGE__03",
+          "H02_FURN_11_FRIDGE__04",
+          "H02_FURN_11_FRIDGE__05"
+        ],
+        "parts": [
+          {
+            "id": "H02_FURN_11_FRIDGE/door_cooler",
+            "leaf_mesh": "H02_FURN_11_FRIDGE__01",
+            "attached_meshes": [
+              "H02_FURN_11_FRIDGE__03"
+            ],
+            "motion": "hinge_y",
+            "hinge_edge": "opposite_handle",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H02_FURN_11_FRIDGE/door_freezer",
+            "leaf_mesh": "H02_FURN_11_FRIDGE__02",
+            "attached_meshes": [
+              "H02_FURN_11_FRIDGE__04"
+            ],
+            "motion": "hinge_y",
+            "hinge_edge": "opposite_handle",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [
+          {
+            "id": "H02_FURN_11_FRIDGE/storage/cooler",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          },
+          {
+            "id": "H02_FURN_11_FRIDGE/storage/freezer",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Verify/model inner cavity and shelves; current cabinet body and whole-furniture collision remain solid."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "097fa7039c1b33e62ce3219af9fbfe03e862abf71e2633fabb4a52d1c1b42212"
+      },
+      {
+        "id": "H02_FURN_12_LAUNDRY_SINK",
+        "family": "Z2_FURN_WATER_FIXTURE_A",
+        "role": "water_fixture",
+        "source_meshes": [
+          "H02_FURN_12_LAUNDRY_SINK__00",
+          "H02_FURN_12_LAUNDRY_SINK__01",
+          "H02_FURN_12_LAUNDRY_SINK__02",
+          "H02_FURN_12_LAUNDRY_SINK__03"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "097fa7039c1b33e62ce3219af9fbfe03e862abf71e2633fabb4a52d1c1b42212"
+      },
+      {
+        "id": "H02_FURN_14_TOILET",
+        "family": "Z2_FURN_TOILET_A",
+        "role": "toilet",
+        "source_meshes": [
+          "H02_FURN_14_TOILET__00",
+          "H02_FURN_14_TOILET__01",
+          "H02_FURN_14_TOILET__02",
+          "H02_FURN_14_TOILET__03"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "097fa7039c1b33e62ce3219af9fbfe03e862abf71e2633fabb4a52d1c1b42212"
+      },
+      {
+        "id": "H02_FURN_15_WASHBASIN",
+        "family": "Z2_FURN_WATER_FIXTURE_A",
+        "role": "water_fixture",
+        "source_meshes": [
+          "H02_FURN_15_WASHBASIN__00",
+          "H02_FURN_15_WASHBASIN__01",
+          "H02_FURN_15_WASHBASIN__02",
+          "H02_FURN_15_WASHBASIN__03",
+          "H02_FURN_15_WASHBASIN__04"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "097fa7039c1b33e62ce3219af9fbfe03e862abf71e2633fabb4a52d1c1b42212"
+      },
+      {
+        "id": "H02_FURN_16_SHOWER",
+        "family": "Z2_FURN_SHOWER_A",
+        "role": "shower",
+        "source_meshes": [
+          "H02_FURN_16_SHOWER__00",
+          "H02_FURN_16_SHOWER__01",
+          "H02_FURN_16_SHOWER__02",
+          "H02_FURN_16_SHOWER__03"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "097fa7039c1b33e62ce3219af9fbfe03e862abf71e2633fabb4a52d1c1b42212"
+      },
+      {
+        "id": "H02_FURN_17_BED_DOUBLE",
+        "family": "Z2_FURN_BED_A",
+        "role": "bed",
+        "source_meshes": [
+          "H02_FURN_17_BED_DOUBLE__00",
+          "H02_FURN_17_BED_DOUBLE__01",
+          "H02_FURN_17_BED_DOUBLE__02",
+          "H02_FURN_17_BED_DOUBLE__03",
+          "H02_FURN_17_BED_DOUBLE__04",
+          "H02_FURN_17_BED_DOUBLE__05",
+          "H02_FURN_17_BED_DOUBLE__06",
+          "H02_FURN_17_BED_DOUBLE__07",
+          "H02_FURN_17_BED_DOUBLE__08",
+          "H02_FURN_17_BED_DOUBLE__09",
+          "H02_FURN_17_BED_DOUBLE__10",
+          "H02_FURN_17_BED_DOUBLE__11",
+          "H02_FURN_17_BED_DOUBLE__12"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "097fa7039c1b33e62ce3219af9fbfe03e862abf71e2633fabb4a52d1c1b42212"
+      },
+      {
+        "id": "H02_FURN_18_WARDROBE",
+        "family": "Z2_FURN_WARDROBE_A",
+        "role": "wardrobe",
+        "source_meshes": [
+          "H02_FURN_18_WARDROBE__00",
+          "H02_FURN_18_WARDROBE__01",
+          "H02_FURN_18_WARDROBE__02",
+          "H02_FURN_18_WARDROBE__03",
+          "H02_FURN_18_WARDROBE__04",
+          "H02_FURN_18_WARDROBE__05",
+          "H02_FURN_18_WARDROBE__06"
+        ],
+        "parts": [
+          {
+            "id": "H02_FURN_18_WARDROBE/door_left",
+            "leaf_mesh": "H02_FURN_18_WARDROBE__02",
+            "attached_meshes": [
+              "H02_FURN_18_WARDROBE__04"
+            ],
+            "motion": "hinge_y",
+            "hinge_edge": "min",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H02_FURN_18_WARDROBE/door_right",
+            "leaf_mesh": "H02_FURN_18_WARDROBE__03",
+            "attached_meshes": [
+              "H02_FURN_18_WARDROBE__05"
+            ],
+            "motion": "hinge_y",
+            "hinge_edge": "max",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [
+          {
+            "id": "H02_FURN_18_WARDROBE/storage/main",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Verify/model inner cavity and shelves; current cabinet body and whole-furniture collision remain solid."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "097fa7039c1b33e62ce3219af9fbfe03e862abf71e2633fabb4a52d1c1b42212"
+      },
+      {
+        "id": "H02_FURN_19_DRESSER",
+        "family": "Z2_FURN_CABINET_THREE_DRAWERS_A",
+        "role": "cabinet_three_drawers",
+        "source_meshes": [
+          "H02_FURN_19_DRESSER__00",
+          "H02_FURN_19_DRESSER__01",
+          "H02_FURN_19_DRESSER__02",
+          "H02_FURN_19_DRESSER__03",
+          "H02_FURN_19_DRESSER__04",
+          "H02_FURN_19_DRESSER__05",
+          "H02_FURN_19_DRESSER__06",
+          "H02_FURN_19_DRESSER__07",
+          "H02_FURN_19_DRESSER__08",
+          "H02_FURN_19_DRESSER__09"
+        ],
+        "parts": [
+          {
+            "id": "H02_FURN_19_DRESSER/drawer_1",
+            "leaf_mesh": "H02_FURN_19_DRESSER__04",
+            "attached_meshes": [
+              "H02_FURN_19_DRESSER__05"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H02_FURN_19_DRESSER/drawer_2",
+            "leaf_mesh": "H02_FURN_19_DRESSER__06",
+            "attached_meshes": [
+              "H02_FURN_19_DRESSER__07"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H02_FURN_19_DRESSER/drawer_3",
+            "leaf_mesh": "H02_FURN_19_DRESSER__08",
+            "attached_meshes": [
+              "H02_FURN_19_DRESSER__09"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [
+          {
+            "id": "H02_FURN_19_DRESSER/storage/drawer_1",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          },
+          {
+            "id": "H02_FURN_19_DRESSER/storage/drawer_2",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          },
+          {
+            "id": "H02_FURN_19_DRESSER/storage/drawer_3",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Only drawer fronts/handles exist: model drawer boxes and cabinet cavities before functional opening."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "097fa7039c1b33e62ce3219af9fbfe03e862abf71e2633fabb4a52d1c1b42212"
+      },
+      {
+        "id": "H02_FURN_20_BED_SINGLE",
+        "family": "Z2_FURN_BED_A",
+        "role": "bed",
+        "source_meshes": [
+          "H02_FURN_20_BED_SINGLE__00",
+          "H02_FURN_20_BED_SINGLE__01",
+          "H02_FURN_20_BED_SINGLE__02",
+          "H02_FURN_20_BED_SINGLE__03",
+          "H02_FURN_20_BED_SINGLE__04",
+          "H02_FURN_20_BED_SINGLE__05",
+          "H02_FURN_20_BED_SINGLE__06",
+          "H02_FURN_20_BED_SINGLE__07",
+          "H02_FURN_20_BED_SINGLE__08",
+          "H02_FURN_20_BED_SINGLE__09",
+          "H02_FURN_20_BED_SINGLE__10"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "097fa7039c1b33e62ce3219af9fbfe03e862abf71e2633fabb4a52d1c1b42212"
+      },
+      {
+        "id": "H02_FURN_21_WARDROBE",
+        "family": "Z2_FURN_WARDROBE_A",
+        "role": "wardrobe",
+        "source_meshes": [
+          "H02_FURN_21_WARDROBE__00",
+          "H02_FURN_21_WARDROBE__01",
+          "H02_FURN_21_WARDROBE__02",
+          "H02_FURN_21_WARDROBE__03",
+          "H02_FURN_21_WARDROBE__04",
+          "H02_FURN_21_WARDROBE__05",
+          "H02_FURN_21_WARDROBE__06"
+        ],
+        "parts": [
+          {
+            "id": "H02_FURN_21_WARDROBE/door_left",
+            "leaf_mesh": "H02_FURN_21_WARDROBE__02",
+            "attached_meshes": [
+              "H02_FURN_21_WARDROBE__04"
+            ],
+            "motion": "hinge_y",
+            "hinge_edge": "min",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H02_FURN_21_WARDROBE/door_right",
+            "leaf_mesh": "H02_FURN_21_WARDROBE__03",
+            "attached_meshes": [
+              "H02_FURN_21_WARDROBE__05"
+            ],
+            "motion": "hinge_y",
+            "hinge_edge": "max",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [
+          {
+            "id": "H02_FURN_21_WARDROBE/storage/main",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Verify/model inner cavity and shelves; current cabinet body and whole-furniture collision remain solid."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "097fa7039c1b33e62ce3219af9fbfe03e862abf71e2633fabb4a52d1c1b42212"
+      },
+      {
+        "id": "H02_FURN_22_STUDY_DESK",
+        "family": "Z2_FURN_SURFACE_A",
+        "role": "surface",
+        "source_meshes": [
+          "H02_FURN_22_STUDY_DESK__00",
+          "H02_FURN_22_STUDY_DESK__01",
+          "H02_FURN_22_STUDY_DESK__02",
+          "H02_FURN_22_STUDY_DESK__03",
+          "H02_FURN_22_STUDY_DESK__04",
+          "H02_FURN_22_STUDY_DESK__05",
+          "H02_FURN_22_STUDY_DESK__06",
+          "H02_FURN_22_STUDY_DESK__07",
+          "H02_FURN_22_STUDY_DESK__08",
+          "H02_FURN_22_STUDY_DESK__09"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "097fa7039c1b33e62ce3219af9fbfe03e862abf71e2633fabb4a52d1c1b42212"
+      },
+      {
+        "id": "H02_FURN_LAVADORA",
+        "family": "Z2_FURN_WASHER_A",
+        "role": "washer",
+        "source_meshes": [
+          "H02_FURN_LAVADORA_CORPO",
+          "H02_FURN_LAVADORA_CONTROLES",
+          "H02_FURN_LAVADORA_PORTA_VISOR",
+          "H02_FURN_LAVADORA_ARO",
+          "H02_FURN_LAVADORA_VIDRO"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Front window/door is not a complete articulated assembly; model bezel, hinge, seal and drum before enabling it."
+        ],
+        "use_anchor_only": true,
+        "source_model_sha256": "097fa7039c1b33e62ce3219af9fbfe03e862abf71e2633fabb4a52d1c1b42212"
+      }
+    ],
+    "H03": [
+      {
+        "id": "H03_FURN_01_SOFA_3P",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H03_FURN_01_SOFA_3P__00",
+          "H03_FURN_01_SOFA_3P__01",
+          "H03_FURN_01_SOFA_3P__02",
+          "H03_FURN_01_SOFA_3P__03",
+          "H03_FURN_01_SOFA_3P__04",
+          "H03_FURN_01_SOFA_3P__05",
+          "H03_FURN_01_SOFA_3P__06",
+          "H03_FURN_01_SOFA_3P__07",
+          "H03_FURN_01_SOFA_3P__08",
+          "H03_FURN_01_SOFA_3P__09",
+          "H03_FURN_01_SOFA_3P__10",
+          "H03_FURN_01_SOFA_3P__11",
+          "H03_FURN_01_SOFA_3P__12"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "00a043503376ece77a8244c15184a48caebe4b4f1a09c5a7ffbc6367e15029e7"
+      },
+      {
+        "id": "H03_FURN_02_TV_RACK",
+        "family": "Z2_FURN_CABINET_TWO_DRAWERS_A",
+        "role": "cabinet_two_drawers",
+        "source_meshes": [
+          "H03_FURN_02_TV_RACK__00",
+          "H03_FURN_02_TV_RACK__01",
+          "H03_FURN_02_TV_RACK__02",
+          "H03_FURN_02_TV_RACK__03",
+          "H03_FURN_02_TV_RACK__04",
+          "H03_FURN_02_TV_RACK__05",
+          "H03_FURN_02_TV_RACK__06",
+          "H03_FURN_02_TV_RACK__07"
+        ],
+        "parts": [
+          {
+            "id": "H03_FURN_02_TV_RACK/drawer_1",
+            "leaf_mesh": "H03_FURN_02_TV_RACK__04",
+            "attached_meshes": [
+              "H03_FURN_02_TV_RACK__05"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H03_FURN_02_TV_RACK/drawer_2",
+            "leaf_mesh": "H03_FURN_02_TV_RACK__06",
+            "attached_meshes": [
+              "H03_FURN_02_TV_RACK__07"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [
+          {
+            "id": "H03_FURN_02_TV_RACK/storage/drawer_1",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          },
+          {
+            "id": "H03_FURN_02_TV_RACK/storage/drawer_2",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Only drawer fronts/handles exist: model drawer boxes and cabinet cavities before functional opening."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "00a043503376ece77a8244c15184a48caebe4b4f1a09c5a7ffbc6367e15029e7"
+      },
+      {
+        "id": "H03_FURN_03_SIDE_TABLE",
+        "family": "Z2_FURN_SURFACE_A",
+        "role": "surface",
+        "source_meshes": [
+          "H03_FURN_03_SIDE_TABLE__00",
+          "H03_FURN_03_SIDE_TABLE__01",
+          "H03_FURN_03_SIDE_TABLE__02",
+          "H03_FURN_03_SIDE_TABLE__03",
+          "H03_FURN_03_SIDE_TABLE__04",
+          "H03_FURN_03_SIDE_TABLE__05",
+          "H03_FURN_03_SIDE_TABLE__06",
+          "H03_FURN_03_SIDE_TABLE__07",
+          "H03_FURN_03_SIDE_TABLE__08",
+          "H03_FURN_03_SIDE_TABLE__09"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "00a043503376ece77a8244c15184a48caebe4b4f1a09c5a7ffbc6367e15029e7"
+      },
+      {
+        "id": "H03_FURN_04_DINING_TABLE",
+        "family": "Z2_FURN_SURFACE_A",
+        "role": "surface",
+        "source_meshes": [
+          "H03_FURN_04_DINING_TABLE__00",
+          "H03_FURN_04_DINING_TABLE__01",
+          "H03_FURN_04_DINING_TABLE__02",
+          "H03_FURN_04_DINING_TABLE__03",
+          "H03_FURN_04_DINING_TABLE__04",
+          "H03_FURN_04_DINING_TABLE__05",
+          "H03_FURN_04_DINING_TABLE__06",
+          "H03_FURN_04_DINING_TABLE__07",
+          "H03_FURN_04_DINING_TABLE__08",
+          "H03_FURN_04_DINING_TABLE__09"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "00a043503376ece77a8244c15184a48caebe4b4f1a09c5a7ffbc6367e15029e7"
+      },
+      {
+        "id": "H03_FURN_05_CHAIR_A",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H03_FURN_05_CHAIR_A__00",
+          "H03_FURN_05_CHAIR_A__01",
+          "H03_FURN_05_CHAIR_A__02",
+          "H03_FURN_05_CHAIR_A__03",
+          "H03_FURN_05_CHAIR_A__04",
+          "H03_FURN_05_CHAIR_A__05",
+          "H03_FURN_05_CHAIR_A__06",
+          "H03_FURN_05_CHAIR_A__07",
+          "H03_FURN_05_CHAIR_A__08"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "00a043503376ece77a8244c15184a48caebe4b4f1a09c5a7ffbc6367e15029e7"
+      },
+      {
+        "id": "H03_FURN_06_CHAIR_A",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H03_FURN_06_CHAIR_A__00",
+          "H03_FURN_06_CHAIR_A__01",
+          "H03_FURN_06_CHAIR_A__02",
+          "H03_FURN_06_CHAIR_A__03",
+          "H03_FURN_06_CHAIR_A__04",
+          "H03_FURN_06_CHAIR_A__05",
+          "H03_FURN_06_CHAIR_A__06",
+          "H03_FURN_06_CHAIR_A__07",
+          "H03_FURN_06_CHAIR_A__08"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "00a043503376ece77a8244c15184a48caebe4b4f1a09c5a7ffbc6367e15029e7"
+      },
+      {
+        "id": "H03_FURN_07_CHAIR_A",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H03_FURN_07_CHAIR_A__00",
+          "H03_FURN_07_CHAIR_A__01",
+          "H03_FURN_07_CHAIR_A__02",
+          "H03_FURN_07_CHAIR_A__03",
+          "H03_FURN_07_CHAIR_A__04",
+          "H03_FURN_07_CHAIR_A__05",
+          "H03_FURN_07_CHAIR_A__06",
+          "H03_FURN_07_CHAIR_A__07",
+          "H03_FURN_07_CHAIR_A__08"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "00a043503376ece77a8244c15184a48caebe4b4f1a09c5a7ffbc6367e15029e7"
+      },
+      {
+        "id": "H03_FURN_08_CHAIR_A",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H03_FURN_08_CHAIR_A__00",
+          "H03_FURN_08_CHAIR_A__01",
+          "H03_FURN_08_CHAIR_A__02",
+          "H03_FURN_08_CHAIR_A__03",
+          "H03_FURN_08_CHAIR_A__04",
+          "H03_FURN_08_CHAIR_A__05",
+          "H03_FURN_08_CHAIR_A__06",
+          "H03_FURN_08_CHAIR_A__07",
+          "H03_FURN_08_CHAIR_A__08"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "00a043503376ece77a8244c15184a48caebe4b4f1a09c5a7ffbc6367e15029e7"
+      },
+      {
+        "id": "H03_FURN_09_FRIDGE",
+        "family": "Z2_FURN_FRIDGE_A",
+        "role": "fridge",
+        "source_meshes": [
+          "H03_FURN_09_FRIDGE__00",
+          "H03_FURN_09_FRIDGE__01",
+          "H03_FURN_09_FRIDGE__02",
+          "H03_FURN_09_FRIDGE__03",
+          "H03_FURN_09_FRIDGE__04",
+          "H03_FURN_09_FRIDGE__05"
+        ],
+        "parts": [
+          {
+            "id": "H03_FURN_09_FRIDGE/door_cooler",
+            "leaf_mesh": "H03_FURN_09_FRIDGE__01",
+            "attached_meshes": [
+              "H03_FURN_09_FRIDGE__03"
+            ],
+            "motion": "hinge_y",
+            "hinge_edge": "opposite_handle",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H03_FURN_09_FRIDGE/door_freezer",
+            "leaf_mesh": "H03_FURN_09_FRIDGE__02",
+            "attached_meshes": [
+              "H03_FURN_09_FRIDGE__04"
+            ],
+            "motion": "hinge_y",
+            "hinge_edge": "opposite_handle",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [
+          {
+            "id": "H03_FURN_09_FRIDGE/storage/cooler",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          },
+          {
+            "id": "H03_FURN_09_FRIDGE/storage/freezer",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Verify/model inner cavity and shelves; current cabinet body and whole-furniture collision remain solid."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "00a043503376ece77a8244c15184a48caebe4b4f1a09c5a7ffbc6367e15029e7"
+      },
+      {
+        "id": "H03_FURN_10_SINK_CABINET",
+        "family": "Z2_FURN_SINK_CABINET_A",
+        "role": "sink_cabinet",
+        "source_meshes": [
+          "H03_FURN_10_SINK_CABINET__00",
+          "H03_FURN_10_SINK_CABINET__01",
+          "H03_FURN_10_SINK_CABINET__02",
+          "H03_FURN_10_SINK_CABINET__03",
+          "H03_FURN_10_SINK_CABINET__04",
+          "H03_FURN_10_SINK_CABINET__05",
+          "H03_FURN_10_SINK_CABINET__06"
+        ],
+        "parts": [],
+        "compartments": [
+          {
+            "id": "H03_FURN_10_SINK_CABINET/storage/main",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "The door panel is a combined mesh: split/model independent leaves and cavity before opening.",
+          "Verify/model inner cavity and shelves; current cabinet body and whole-furniture collision remain solid."
+        ],
+        "use_anchor_only": true,
+        "source_model_sha256": "00a043503376ece77a8244c15184a48caebe4b4f1a09c5a7ffbc6367e15029e7"
+      },
+      {
+        "id": "H03_FURN_11_STOVE",
+        "family": "Z2_FURN_STOVE_A",
+        "role": "stove",
+        "source_meshes": [
+          "H03_FURN_11_STOVE__00",
+          "H03_FURN_11_STOVE__01",
+          "H03_FURN_11_STOVE__02",
+          "H03_FURN_11_STOVE__03",
+          "H03_FURN_11_STOVE__04",
+          "H03_FURN_11_STOVE__05",
+          "H03_FURN_11_STOVE__06",
+          "H03_FURN_11_STOVE__07",
+          "H03_FURN_11_STOVE__08",
+          "H03_FURN_11_STOVE__09",
+          "H03_FURN_11_STOVE__10",
+          "H03_FURN_11_STOVE__11",
+          "H03_FURN_11_STOVE__12"
+        ],
+        "parts": [
+          {
+            "id": "H03_FURN_11_STOVE/oven_door",
+            "leaf_mesh": "H03_FURN_11_STOVE__01",
+            "attached_meshes": [
+              "H03_FURN_11_STOVE__02"
+            ],
+            "motion": "hinge_x",
+            "hinge_edge": "bottom",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Oven cavity, trays and heat/use behaviour are not implemented."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "00a043503376ece77a8244c15184a48caebe4b4f1a09c5a7ffbc6367e15029e7"
+      },
+      {
+        "id": "H03_FURN_13_CABINET",
+        "family": "Z2_FURN_CABINET_THREE_DRAWERS_A",
+        "role": "cabinet_three_drawers",
+        "source_meshes": [
+          "H03_FURN_13_CABINET__00",
+          "H03_FURN_13_CABINET__01",
+          "H03_FURN_13_CABINET__02",
+          "H03_FURN_13_CABINET__03",
+          "H03_FURN_13_CABINET__04",
+          "H03_FURN_13_CABINET__05",
+          "H03_FURN_13_CABINET__06",
+          "H03_FURN_13_CABINET__07",
+          "H03_FURN_13_CABINET__08",
+          "H03_FURN_13_CABINET__09"
+        ],
+        "parts": [
+          {
+            "id": "H03_FURN_13_CABINET/drawer_1",
+            "leaf_mesh": "H03_FURN_13_CABINET__04",
+            "attached_meshes": [
+              "H03_FURN_13_CABINET__05"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H03_FURN_13_CABINET/drawer_2",
+            "leaf_mesh": "H03_FURN_13_CABINET__06",
+            "attached_meshes": [
+              "H03_FURN_13_CABINET__07"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H03_FURN_13_CABINET/drawer_3",
+            "leaf_mesh": "H03_FURN_13_CABINET__08",
+            "attached_meshes": [
+              "H03_FURN_13_CABINET__09"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [
+          {
+            "id": "H03_FURN_13_CABINET/storage/drawer_1",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          },
+          {
+            "id": "H03_FURN_13_CABINET/storage/drawer_2",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          },
+          {
+            "id": "H03_FURN_13_CABINET/storage/drawer_3",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Only drawer fronts/handles exist: model drawer boxes and cabinet cavities before functional opening."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "00a043503376ece77a8244c15184a48caebe4b4f1a09c5a7ffbc6367e15029e7"
+      },
+      {
+        "id": "H03_FURN_14_SINGLE_BED",
+        "family": "Z2_FURN_BED_A",
+        "role": "bed",
+        "source_meshes": [
+          "H03_FURN_14_SINGLE_BED__00",
+          "H03_FURN_14_SINGLE_BED__01",
+          "H03_FURN_14_SINGLE_BED__02",
+          "H03_FURN_14_SINGLE_BED__03",
+          "H03_FURN_14_SINGLE_BED__04",
+          "H03_FURN_14_SINGLE_BED__05",
+          "H03_FURN_14_SINGLE_BED__06",
+          "H03_FURN_14_SINGLE_BED__07",
+          "H03_FURN_14_SINGLE_BED__08",
+          "H03_FURN_14_SINGLE_BED__09",
+          "H03_FURN_14_SINGLE_BED__10"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "00a043503376ece77a8244c15184a48caebe4b4f1a09c5a7ffbc6367e15029e7"
+      },
+      {
+        "id": "H03_FURN_15_WORK_DESK",
+        "family": "Z2_FURN_SURFACE_A",
+        "role": "surface",
+        "source_meshes": [
+          "H03_FURN_15_WORK_DESK__00",
+          "H03_FURN_15_WORK_DESK__01",
+          "H03_FURN_15_WORK_DESK__02",
+          "H03_FURN_15_WORK_DESK__03",
+          "H03_FURN_15_WORK_DESK__04",
+          "H03_FURN_15_WORK_DESK__05",
+          "H03_FURN_15_WORK_DESK__06",
+          "H03_FURN_15_WORK_DESK__07",
+          "H03_FURN_15_WORK_DESK__08",
+          "H03_FURN_15_WORK_DESK__09"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "00a043503376ece77a8244c15184a48caebe4b4f1a09c5a7ffbc6367e15029e7"
+      },
+      {
+        "id": "H03_FURN_16_DOUBLE_BED",
+        "family": "Z2_FURN_BED_A",
+        "role": "bed",
+        "source_meshes": [
+          "H03_FURN_16_DOUBLE_BED__00",
+          "H03_FURN_16_DOUBLE_BED__01",
+          "H03_FURN_16_DOUBLE_BED__02",
+          "H03_FURN_16_DOUBLE_BED__03",
+          "H03_FURN_16_DOUBLE_BED__04",
+          "H03_FURN_16_DOUBLE_BED__05",
+          "H03_FURN_16_DOUBLE_BED__06",
+          "H03_FURN_16_DOUBLE_BED__07",
+          "H03_FURN_16_DOUBLE_BED__08",
+          "H03_FURN_16_DOUBLE_BED__09",
+          "H03_FURN_16_DOUBLE_BED__10",
+          "H03_FURN_16_DOUBLE_BED__11",
+          "H03_FURN_16_DOUBLE_BED__12"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "00a043503376ece77a8244c15184a48caebe4b4f1a09c5a7ffbc6367e15029e7"
+      },
+      {
+        "id": "H03_FURN_17_WARDROBE",
+        "family": "Z2_FURN_WARDROBE_A",
+        "role": "wardrobe",
+        "source_meshes": [
+          "H03_FURN_17_WARDROBE__00",
+          "H03_FURN_17_WARDROBE__01",
+          "H03_FURN_17_WARDROBE__02",
+          "H03_FURN_17_WARDROBE__03",
+          "H03_FURN_17_WARDROBE__04",
+          "H03_FURN_17_WARDROBE__05",
+          "H03_FURN_17_WARDROBE__06"
+        ],
+        "parts": [
+          {
+            "id": "H03_FURN_17_WARDROBE/door_left",
+            "leaf_mesh": "H03_FURN_17_WARDROBE__02",
+            "attached_meshes": [
+              "H03_FURN_17_WARDROBE__04"
+            ],
+            "motion": "hinge_y",
+            "hinge_edge": "min",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H03_FURN_17_WARDROBE/door_right",
+            "leaf_mesh": "H03_FURN_17_WARDROBE__03",
+            "attached_meshes": [
+              "H03_FURN_17_WARDROBE__05"
+            ],
+            "motion": "hinge_y",
+            "hinge_edge": "max",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [
+          {
+            "id": "H03_FURN_17_WARDROBE/storage/main",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Verify/model inner cavity and shelves; current cabinet body and whole-furniture collision remain solid."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "00a043503376ece77a8244c15184a48caebe4b4f1a09c5a7ffbc6367e15029e7"
+      },
+      {
+        "id": "H03_FURN_18_SINGLE_BED",
+        "family": "Z2_FURN_BED_A",
+        "role": "bed",
+        "source_meshes": [
+          "H03_FURN_18_SINGLE_BED__00",
+          "H03_FURN_18_SINGLE_BED__01",
+          "H03_FURN_18_SINGLE_BED__02",
+          "H03_FURN_18_SINGLE_BED__03",
+          "H03_FURN_18_SINGLE_BED__04",
+          "H03_FURN_18_SINGLE_BED__05",
+          "H03_FURN_18_SINGLE_BED__06",
+          "H03_FURN_18_SINGLE_BED__07",
+          "H03_FURN_18_SINGLE_BED__08",
+          "H03_FURN_18_SINGLE_BED__09",
+          "H03_FURN_18_SINGLE_BED__10"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "00a043503376ece77a8244c15184a48caebe4b4f1a09c5a7ffbc6367e15029e7"
+      },
+      {
+        "id": "H03_FURN_19_DRESSER",
+        "family": "Z2_FURN_CABINET_THREE_DRAWERS_A",
+        "role": "cabinet_three_drawers",
+        "source_meshes": [
+          "H03_FURN_19_DRESSER__00",
+          "H03_FURN_19_DRESSER__01",
+          "H03_FURN_19_DRESSER__02",
+          "H03_FURN_19_DRESSER__03",
+          "H03_FURN_19_DRESSER__04",
+          "H03_FURN_19_DRESSER__05",
+          "H03_FURN_19_DRESSER__06",
+          "H03_FURN_19_DRESSER__07",
+          "H03_FURN_19_DRESSER__08",
+          "H03_FURN_19_DRESSER__09"
+        ],
+        "parts": [
+          {
+            "id": "H03_FURN_19_DRESSER/drawer_1",
+            "leaf_mesh": "H03_FURN_19_DRESSER__04",
+            "attached_meshes": [
+              "H03_FURN_19_DRESSER__05"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H03_FURN_19_DRESSER/drawer_2",
+            "leaf_mesh": "H03_FURN_19_DRESSER__06",
+            "attached_meshes": [
+              "H03_FURN_19_DRESSER__07"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H03_FURN_19_DRESSER/drawer_3",
+            "leaf_mesh": "H03_FURN_19_DRESSER__08",
+            "attached_meshes": [
+              "H03_FURN_19_DRESSER__09"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [
+          {
+            "id": "H03_FURN_19_DRESSER/storage/drawer_1",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          },
+          {
+            "id": "H03_FURN_19_DRESSER/storage/drawer_2",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          },
+          {
+            "id": "H03_FURN_19_DRESSER/storage/drawer_3",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Only drawer fronts/handles exist: model drawer boxes and cabinet cavities before functional opening."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "00a043503376ece77a8244c15184a48caebe4b4f1a09c5a7ffbc6367e15029e7"
+      },
+      {
+        "id": "H03_FURN_20_TOILET",
+        "family": "Z2_FURN_TOILET_A",
+        "role": "toilet",
+        "source_meshes": [
+          "H03_FURN_20_TOILET__00",
+          "H03_FURN_20_TOILET__01",
+          "H03_FURN_20_TOILET__02",
+          "H03_FURN_20_TOILET__03"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "00a043503376ece77a8244c15184a48caebe4b4f1a09c5a7ffbc6367e15029e7"
+      },
+      {
+        "id": "H03_FURN_21_BASIN",
+        "family": "Z2_FURN_WATER_FIXTURE_A",
+        "role": "water_fixture",
+        "source_meshes": [
+          "H03_FURN_21_BASIN__00",
+          "H03_FURN_21_BASIN__01",
+          "H03_FURN_21_BASIN__02",
+          "H03_FURN_21_BASIN__03",
+          "H03_FURN_21_BASIN__04"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "00a043503376ece77a8244c15184a48caebe4b4f1a09c5a7ffbc6367e15029e7"
+      },
+      {
+        "id": "H03_FURN_22_SHOWER",
+        "family": "Z2_FURN_SHOWER_A",
+        "role": "shower",
+        "source_meshes": [
+          "H03_FURN_22_SHOWER__00",
+          "H03_FURN_22_SHOWER__01",
+          "H03_FURN_22_SHOWER__02",
+          "H03_FURN_22_SHOWER__03"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "00a043503376ece77a8244c15184a48caebe4b4f1a09c5a7ffbc6367e15029e7"
+      },
+      {
+        "id": "H03_FURN_LAVADORA",
+        "family": "Z2_FURN_WASHER_A",
+        "role": "washer",
+        "source_meshes": [
+          "H03_FURN_LAVADORA_VIDRO",
+          "H03_FURN_LAVADORA_ARO",
+          "H03_FURN_LAVADORA_PORTA_VISOR",
+          "H03_FURN_LAVADORA_CONTROLES",
+          "H03_FURN_LAVADORA_CORPO"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Front window/door is not a complete articulated assembly; model bezel, hinge, seal and drum before enabling it."
+        ],
+        "use_anchor_only": true,
+        "source_model_sha256": "00a043503376ece77a8244c15184a48caebe4b4f1a09c5a7ffbc6367e15029e7"
+      }
+    ],
+    "H04": [
+      {
+        "id": "H04_FURN_00_sofa_3p",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H04_FURN_00_sofa_3p_00",
+          "H04_FURN_00_sofa_3p_01",
+          "H04_FURN_00_sofa_3p_02",
+          "H04_FURN_00_sofa_3p_03",
+          "H04_FURN_00_sofa_3p_04",
+          "H04_FURN_00_sofa_3p_05",
+          "H04_FURN_00_sofa_3p_06",
+          "H04_FURN_00_sofa_3p_07",
+          "H04_FURN_00_sofa_3p_08",
+          "H04_FURN_00_sofa_3p_09",
+          "H04_FURN_00_sofa_3p_10",
+          "H04_FURN_00_sofa_3p_11",
+          "H04_FURN_00_sofa_3p_12"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "566086d0fd553fb0faf7804b253938bcddf8c0d9cd4c34cbd5afbbf776c9102d"
+      },
+      {
+        "id": "H04_FURN_01_tv_rack",
+        "family": "Z2_FURN_CABINET_TWO_DRAWERS_A",
+        "role": "cabinet_two_drawers",
+        "source_meshes": [
+          "H04_FURN_01_tv_rack_00",
+          "H04_FURN_01_tv_rack_01",
+          "H04_FURN_01_tv_rack_02",
+          "H04_FURN_01_tv_rack_03",
+          "H04_FURN_01_tv_rack_04",
+          "H04_FURN_01_tv_rack_05",
+          "H04_FURN_01_tv_rack_06",
+          "H04_FURN_01_tv_rack_07"
+        ],
+        "parts": [
+          {
+            "id": "H04_FURN_01_tv_rack/drawer_1",
+            "leaf_mesh": "H04_FURN_01_tv_rack_04",
+            "attached_meshes": [
+              "H04_FURN_01_tv_rack_05"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H04_FURN_01_tv_rack/drawer_2",
+            "leaf_mesh": "H04_FURN_01_tv_rack_06",
+            "attached_meshes": [
+              "H04_FURN_01_tv_rack_07"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [
+          {
+            "id": "H04_FURN_01_tv_rack/storage/drawer_1",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          },
+          {
+            "id": "H04_FURN_01_tv_rack/storage/drawer_2",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Only drawer fronts/handles exist: model drawer boxes and cabinet cavities before functional opening."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "566086d0fd553fb0faf7804b253938bcddf8c0d9cd4c34cbd5afbbf776c9102d"
+      },
+      {
+        "id": "H04_FURN_02_armchair",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H04_FURN_02_armchair_00",
+          "H04_FURN_02_armchair_01",
+          "H04_FURN_02_armchair_02",
+          "H04_FURN_02_armchair_03"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "566086d0fd553fb0faf7804b253938bcddf8c0d9cd4c34cbd5afbbf776c9102d"
+      },
+      {
+        "id": "H04_FURN_03_table_dining",
+        "family": "Z2_FURN_SURFACE_A",
+        "role": "surface",
+        "source_meshes": [
+          "H04_FURN_03_table_dining_00",
+          "H04_FURN_03_table_dining_01",
+          "H04_FURN_03_table_dining_02",
+          "H04_FURN_03_table_dining_03",
+          "H04_FURN_03_table_dining_04",
+          "H04_FURN_03_table_dining_05",
+          "H04_FURN_03_table_dining_06",
+          "H04_FURN_03_table_dining_07",
+          "H04_FURN_03_table_dining_08",
+          "H04_FURN_03_table_dining_09"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "566086d0fd553fb0faf7804b253938bcddf8c0d9cd4c34cbd5afbbf776c9102d"
+      },
+      {
+        "id": "H04_FURN_04_chair",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H04_FURN_04_chair_00",
+          "H04_FURN_04_chair_01",
+          "H04_FURN_04_chair_02",
+          "H04_FURN_04_chair_03",
+          "H04_FURN_04_chair_04",
+          "H04_FURN_04_chair_05",
+          "H04_FURN_04_chair_06",
+          "H04_FURN_04_chair_07",
+          "H04_FURN_04_chair_08"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "566086d0fd553fb0faf7804b253938bcddf8c0d9cd4c34cbd5afbbf776c9102d"
+      },
+      {
+        "id": "H04_FURN_05_chair",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H04_FURN_05_chair_00",
+          "H04_FURN_05_chair_01",
+          "H04_FURN_05_chair_02",
+          "H04_FURN_05_chair_03",
+          "H04_FURN_05_chair_04",
+          "H04_FURN_05_chair_05",
+          "H04_FURN_05_chair_06",
+          "H04_FURN_05_chair_07",
+          "H04_FURN_05_chair_08"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "566086d0fd553fb0faf7804b253938bcddf8c0d9cd4c34cbd5afbbf776c9102d"
+      },
+      {
+        "id": "H04_FURN_06_chair",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H04_FURN_06_chair_00",
+          "H04_FURN_06_chair_01",
+          "H04_FURN_06_chair_02",
+          "H04_FURN_06_chair_03",
+          "H04_FURN_06_chair_04",
+          "H04_FURN_06_chair_05",
+          "H04_FURN_06_chair_06",
+          "H04_FURN_06_chair_07",
+          "H04_FURN_06_chair_08"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "566086d0fd553fb0faf7804b253938bcddf8c0d9cd4c34cbd5afbbf776c9102d"
+      },
+      {
+        "id": "H04_FURN_07_chair",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H04_FURN_07_chair_00",
+          "H04_FURN_07_chair_01",
+          "H04_FURN_07_chair_02",
+          "H04_FURN_07_chair_03",
+          "H04_FURN_07_chair_04",
+          "H04_FURN_07_chair_05",
+          "H04_FURN_07_chair_06",
+          "H04_FURN_07_chair_07",
+          "H04_FURN_07_chair_08"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "566086d0fd553fb0faf7804b253938bcddf8c0d9cd4c34cbd5afbbf776c9102d"
+      },
+      {
+        "id": "H04_FURN_08_fridge",
+        "family": "Z2_FURN_FRIDGE_A",
+        "role": "fridge",
+        "source_meshes": [
+          "H04_FURN_08_fridge_00",
+          "H04_FURN_08_fridge_01",
+          "H04_FURN_08_fridge_02",
+          "H04_FURN_08_fridge_03",
+          "H04_FURN_08_fridge_04",
+          "H04_FURN_08_fridge_05"
+        ],
+        "parts": [
+          {
+            "id": "H04_FURN_08_fridge/door_cooler",
+            "leaf_mesh": "H04_FURN_08_fridge_01",
+            "attached_meshes": [
+              "H04_FURN_08_fridge_03"
+            ],
+            "motion": "hinge_y",
+            "hinge_edge": "opposite_handle",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H04_FURN_08_fridge/door_freezer",
+            "leaf_mesh": "H04_FURN_08_fridge_02",
+            "attached_meshes": [
+              "H04_FURN_08_fridge_04"
+            ],
+            "motion": "hinge_y",
+            "hinge_edge": "opposite_handle",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [
+          {
+            "id": "H04_FURN_08_fridge/storage/cooler",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          },
+          {
+            "id": "H04_FURN_08_fridge/storage/freezer",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Verify/model inner cavity and shelves; current cabinet body and whole-furniture collision remain solid."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "566086d0fd553fb0faf7804b253938bcddf8c0d9cd4c34cbd5afbbf776c9102d"
+      },
+      {
+        "id": "H04_FURN_09_kitchen_sink",
+        "family": "Z2_FURN_SINK_CABINET_A",
+        "role": "sink_cabinet",
+        "source_meshes": [
+          "H04_FURN_09_kitchen_sink_00",
+          "H04_FURN_09_kitchen_sink_01",
+          "H04_FURN_09_kitchen_sink_02",
+          "H04_FURN_09_kitchen_sink_03",
+          "H04_FURN_09_kitchen_sink_04",
+          "H04_FURN_09_kitchen_sink_05",
+          "H04_FURN_09_kitchen_sink_06"
+        ],
+        "parts": [],
+        "compartments": [
+          {
+            "id": "H04_FURN_09_kitchen_sink/storage/main",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "The door panel is a combined mesh: split/model independent leaves and cavity before opening.",
+          "Verify/model inner cavity and shelves; current cabinet body and whole-furniture collision remain solid."
+        ],
+        "use_anchor_only": true,
+        "source_model_sha256": "566086d0fd553fb0faf7804b253938bcddf8c0d9cd4c34cbd5afbbf776c9102d"
+      },
+      {
+        "id": "H04_FURN_10_stove",
+        "family": "Z2_FURN_STOVE_A",
+        "role": "stove",
+        "source_meshes": [
+          "H04_FURN_10_stove_00",
+          "H04_FURN_10_stove_01",
+          "H04_FURN_10_stove_02",
+          "H04_FURN_10_stove_03",
+          "H04_FURN_10_stove_04",
+          "H04_FURN_10_stove_05",
+          "H04_FURN_10_stove_06",
+          "H04_FURN_10_stove_07",
+          "H04_FURN_10_stove_08",
+          "H04_FURN_10_stove_09",
+          "H04_FURN_10_stove_10",
+          "H04_FURN_10_stove_11",
+          "H04_FURN_10_stove_12"
+        ],
+        "parts": [
+          {
+            "id": "H04_FURN_10_stove/oven_door",
+            "leaf_mesh": "H04_FURN_10_stove_01",
+            "attached_meshes": [
+              "H04_FURN_10_stove_02"
+            ],
+            "motion": "hinge_x",
+            "hinge_edge": "bottom",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Oven cavity, trays and heat/use behaviour are not implemented."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "566086d0fd553fb0faf7804b253938bcddf8c0d9cd4c34cbd5afbbf776c9102d"
+      },
+      {
+        "id": "H04_FURN_11_washer",
+        "family": "Z2_FURN_WASHER_A",
+        "role": "washer",
+        "source_meshes": [
+          "H04_FURN_11_washer_00",
+          "H04_FURN_11_washer_01",
+          "H04_FURN_11_washer_02",
+          "H04_FURN_11_washer_03",
+          "H04_FURN_11_washer_04"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Front window/door is not a complete articulated assembly; model bezel, hinge, seal and drum before enabling it."
+        ],
+        "use_anchor_only": true,
+        "source_model_sha256": "566086d0fd553fb0faf7804b253938bcddf8c0d9cd4c34cbd5afbbf776c9102d"
+      },
+      {
+        "id": "H04_FURN_12_laundry_sink",
+        "family": "Z2_FURN_WATER_FIXTURE_A",
+        "role": "water_fixture",
+        "source_meshes": [
+          "H04_FURN_12_laundry_sink_00",
+          "H04_FURN_12_laundry_sink_01",
+          "H04_FURN_12_laundry_sink_02",
+          "H04_FURN_12_laundry_sink_03"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "566086d0fd553fb0faf7804b253938bcddf8c0d9cd4c34cbd5afbbf776c9102d"
+      },
+      {
+        "id": "H04_FURN_13_utility",
+        "family": "Z2_FURN_CABINET_TWO_DRAWERS_A",
+        "role": "cabinet_two_drawers",
+        "source_meshes": [
+          "H04_FURN_13_utility_00",
+          "H04_FURN_13_utility_01",
+          "H04_FURN_13_utility_02",
+          "H04_FURN_13_utility_03",
+          "H04_FURN_13_utility_04",
+          "H04_FURN_13_utility_05",
+          "H04_FURN_13_utility_06",
+          "H04_FURN_13_utility_07"
+        ],
+        "parts": [
+          {
+            "id": "H04_FURN_13_utility/drawer_1",
+            "leaf_mesh": "H04_FURN_13_utility_04",
+            "attached_meshes": [
+              "H04_FURN_13_utility_05"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H04_FURN_13_utility/drawer_2",
+            "leaf_mesh": "H04_FURN_13_utility_06",
+            "attached_meshes": [
+              "H04_FURN_13_utility_07"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [
+          {
+            "id": "H04_FURN_13_utility/storage/drawer_1",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          },
+          {
+            "id": "H04_FURN_13_utility/storage/drawer_2",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Only drawer fronts/handles exist: model drawer boxes and cabinet cavities before functional opening."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "566086d0fd553fb0faf7804b253938bcddf8c0d9cd4c34cbd5afbbf776c9102d"
+      },
+      {
+        "id": "H04_FURN_14_washbasin",
+        "family": "Z2_FURN_WATER_FIXTURE_A",
+        "role": "water_fixture",
+        "source_meshes": [
+          "H04_FURN_14_washbasin_00",
+          "H04_FURN_14_washbasin_01",
+          "H04_FURN_14_washbasin_02",
+          "H04_FURN_14_washbasin_03",
+          "H04_FURN_14_washbasin_04"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "566086d0fd553fb0faf7804b253938bcddf8c0d9cd4c34cbd5afbbf776c9102d"
+      },
+      {
+        "id": "H04_FURN_15_toilet",
+        "family": "Z2_FURN_TOILET_A",
+        "role": "toilet",
+        "source_meshes": [
+          "H04_FURN_15_toilet_00",
+          "H04_FURN_15_toilet_01",
+          "H04_FURN_15_toilet_02",
+          "H04_FURN_15_toilet_03"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "566086d0fd553fb0faf7804b253938bcddf8c0d9cd4c34cbd5afbbf776c9102d"
+      },
+      {
+        "id": "H04_FURN_16_shower",
+        "family": "Z2_FURN_SHOWER_A",
+        "role": "shower",
+        "source_meshes": [
+          "H04_FURN_16_shower_00",
+          "H04_FURN_16_shower_01",
+          "H04_FURN_16_shower_02",
+          "H04_FURN_16_shower_03"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "566086d0fd553fb0faf7804b253938bcddf8c0d9cd4c34cbd5afbbf776c9102d"
+      },
+      {
+        "id": "H04_FURN_17_bed_double",
+        "family": "Z2_FURN_BED_A",
+        "role": "bed",
+        "source_meshes": [
+          "H04_FURN_17_bed_double_00",
+          "H04_FURN_17_bed_double_01",
+          "H04_FURN_17_bed_double_02",
+          "H04_FURN_17_bed_double_03",
+          "H04_FURN_17_bed_double_04",
+          "H04_FURN_17_bed_double_05",
+          "H04_FURN_17_bed_double_06",
+          "H04_FURN_17_bed_double_07",
+          "H04_FURN_17_bed_double_08",
+          "H04_FURN_17_bed_double_09",
+          "H04_FURN_17_bed_double_10",
+          "H04_FURN_17_bed_double_11",
+          "H04_FURN_17_bed_double_12"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "566086d0fd553fb0faf7804b253938bcddf8c0d9cd4c34cbd5afbbf776c9102d"
+      },
+      {
+        "id": "H04_FURN_18_wardrobe",
+        "family": "Z2_FURN_WARDROBE_A",
+        "role": "wardrobe",
+        "source_meshes": [
+          "H04_FURN_18_wardrobe_00",
+          "H04_FURN_18_wardrobe_01",
+          "H04_FURN_18_wardrobe_02",
+          "H04_FURN_18_wardrobe_03",
+          "H04_FURN_18_wardrobe_04",
+          "H04_FURN_18_wardrobe_05",
+          "H04_FURN_18_wardrobe_06"
+        ],
+        "parts": [
+          {
+            "id": "H04_FURN_18_wardrobe/door_left",
+            "leaf_mesh": "H04_FURN_18_wardrobe_02",
+            "attached_meshes": [
+              "H04_FURN_18_wardrobe_04"
+            ],
+            "motion": "hinge_y",
+            "hinge_edge": "min",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H04_FURN_18_wardrobe/door_right",
+            "leaf_mesh": "H04_FURN_18_wardrobe_03",
+            "attached_meshes": [
+              "H04_FURN_18_wardrobe_05"
+            ],
+            "motion": "hinge_y",
+            "hinge_edge": "max",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [
+          {
+            "id": "H04_FURN_18_wardrobe/storage/main",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Verify/model inner cavity and shelves; current cabinet body and whole-furniture collision remain solid."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "566086d0fd553fb0faf7804b253938bcddf8c0d9cd4c34cbd5afbbf776c9102d"
+      },
+      {
+        "id": "H04_FURN_19_bed_single",
+        "family": "Z2_FURN_BED_A",
+        "role": "bed",
+        "source_meshes": [
+          "H04_FURN_19_bed_single_00",
+          "H04_FURN_19_bed_single_01",
+          "H04_FURN_19_bed_single_02",
+          "H04_FURN_19_bed_single_03",
+          "H04_FURN_19_bed_single_04",
+          "H04_FURN_19_bed_single_05",
+          "H04_FURN_19_bed_single_06",
+          "H04_FURN_19_bed_single_07",
+          "H04_FURN_19_bed_single_08",
+          "H04_FURN_19_bed_single_09",
+          "H04_FURN_19_bed_single_10"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "566086d0fd553fb0faf7804b253938bcddf8c0d9cd4c34cbd5afbbf776c9102d"
+      },
+      {
+        "id": "H04_FURN_20_wardrobe",
+        "family": "Z2_FURN_WARDROBE_A",
+        "role": "wardrobe",
+        "source_meshes": [
+          "H04_FURN_20_wardrobe_00",
+          "H04_FURN_20_wardrobe_01",
+          "H04_FURN_20_wardrobe_02",
+          "H04_FURN_20_wardrobe_03",
+          "H04_FURN_20_wardrobe_04",
+          "H04_FURN_20_wardrobe_05",
+          "H04_FURN_20_wardrobe_06"
+        ],
+        "parts": [
+          {
+            "id": "H04_FURN_20_wardrobe/door_left",
+            "leaf_mesh": "H04_FURN_20_wardrobe_02",
+            "attached_meshes": [
+              "H04_FURN_20_wardrobe_04"
+            ],
+            "motion": "hinge_y",
+            "hinge_edge": "min",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H04_FURN_20_wardrobe/door_right",
+            "leaf_mesh": "H04_FURN_20_wardrobe_03",
+            "attached_meshes": [
+              "H04_FURN_20_wardrobe_05"
+            ],
+            "motion": "hinge_y",
+            "hinge_edge": "max",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [
+          {
+            "id": "H04_FURN_20_wardrobe/storage/main",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Verify/model inner cavity and shelves; current cabinet body and whole-furniture collision remain solid."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "566086d0fd553fb0faf7804b253938bcddf8c0d9cd4c34cbd5afbbf776c9102d"
+      }
+    ],
+    "H05": [
+      {
+        "id": "H05_FURN_00_sofa_3p",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H05_FURN_00_sofa_3p_00",
+          "H05_FURN_00_sofa_3p_01",
+          "H05_FURN_00_sofa_3p_02",
+          "H05_FURN_00_sofa_3p_03",
+          "H05_FURN_00_sofa_3p_04",
+          "H05_FURN_00_sofa_3p_05",
+          "H05_FURN_00_sofa_3p_06",
+          "H05_FURN_00_sofa_3p_07",
+          "H05_FURN_00_sofa_3p_08",
+          "H05_FURN_00_sofa_3p_09",
+          "H05_FURN_00_sofa_3p_10",
+          "H05_FURN_00_sofa_3p_11",
+          "H05_FURN_00_sofa_3p_12"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6b59310450c5861a2ae6a3cefe775c11b05eace90702da603de881e272aa37b3"
+      },
+      {
+        "id": "H05_FURN_01_tv_rack",
+        "family": "Z2_FURN_CABINET_TWO_DRAWERS_A",
+        "role": "cabinet_two_drawers",
+        "source_meshes": [
+          "H05_FURN_01_tv_rack_00",
+          "H05_FURN_01_tv_rack_01",
+          "H05_FURN_01_tv_rack_02",
+          "H05_FURN_01_tv_rack_03",
+          "H05_FURN_01_tv_rack_04",
+          "H05_FURN_01_tv_rack_05",
+          "H05_FURN_01_tv_rack_06",
+          "H05_FURN_01_tv_rack_07"
+        ],
+        "parts": [
+          {
+            "id": "H05_FURN_01_tv_rack/drawer_1",
+            "leaf_mesh": "H05_FURN_01_tv_rack_04",
+            "attached_meshes": [
+              "H05_FURN_01_tv_rack_05"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H05_FURN_01_tv_rack/drawer_2",
+            "leaf_mesh": "H05_FURN_01_tv_rack_06",
+            "attached_meshes": [
+              "H05_FURN_01_tv_rack_07"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [
+          {
+            "id": "H05_FURN_01_tv_rack/storage/drawer_1",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          },
+          {
+            "id": "H05_FURN_01_tv_rack/storage/drawer_2",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Only drawer fronts/handles exist: model drawer boxes and cabinet cavities before functional opening."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "6b59310450c5861a2ae6a3cefe775c11b05eace90702da603de881e272aa37b3"
+      },
+      {
+        "id": "H05_FURN_02_armchair",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H05_FURN_02_armchair_00",
+          "H05_FURN_02_armchair_01",
+          "H05_FURN_02_armchair_02",
+          "H05_FURN_02_armchair_03"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6b59310450c5861a2ae6a3cefe775c11b05eace90702da603de881e272aa37b3"
+      },
+      {
+        "id": "H05_FURN_03_table_dining",
+        "family": "Z2_FURN_SURFACE_A",
+        "role": "surface",
+        "source_meshes": [
+          "H05_FURN_03_table_dining_00",
+          "H05_FURN_03_table_dining_01",
+          "H05_FURN_03_table_dining_02",
+          "H05_FURN_03_table_dining_03",
+          "H05_FURN_03_table_dining_04",
+          "H05_FURN_03_table_dining_05",
+          "H05_FURN_03_table_dining_06",
+          "H05_FURN_03_table_dining_07",
+          "H05_FURN_03_table_dining_08",
+          "H05_FURN_03_table_dining_09"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6b59310450c5861a2ae6a3cefe775c11b05eace90702da603de881e272aa37b3"
+      },
+      {
+        "id": "H05_FURN_04_chair",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H05_FURN_04_chair_00",
+          "H05_FURN_04_chair_01",
+          "H05_FURN_04_chair_02",
+          "H05_FURN_04_chair_03",
+          "H05_FURN_04_chair_04",
+          "H05_FURN_04_chair_05",
+          "H05_FURN_04_chair_06",
+          "H05_FURN_04_chair_07",
+          "H05_FURN_04_chair_08"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6b59310450c5861a2ae6a3cefe775c11b05eace90702da603de881e272aa37b3"
+      },
+      {
+        "id": "H05_FURN_05_chair",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H05_FURN_05_chair_00",
+          "H05_FURN_05_chair_01",
+          "H05_FURN_05_chair_02",
+          "H05_FURN_05_chair_03",
+          "H05_FURN_05_chair_04",
+          "H05_FURN_05_chair_05",
+          "H05_FURN_05_chair_06",
+          "H05_FURN_05_chair_07",
+          "H05_FURN_05_chair_08"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6b59310450c5861a2ae6a3cefe775c11b05eace90702da603de881e272aa37b3"
+      },
+      {
+        "id": "H05_FURN_06_chair",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H05_FURN_06_chair_00",
+          "H05_FURN_06_chair_01",
+          "H05_FURN_06_chair_02",
+          "H05_FURN_06_chair_03",
+          "H05_FURN_06_chair_04",
+          "H05_FURN_06_chair_05",
+          "H05_FURN_06_chair_06",
+          "H05_FURN_06_chair_07",
+          "H05_FURN_06_chair_08"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6b59310450c5861a2ae6a3cefe775c11b05eace90702da603de881e272aa37b3"
+      },
+      {
+        "id": "H05_FURN_07_chair",
+        "family": "Z2_FURN_SEAT_A",
+        "role": "seat",
+        "source_meshes": [
+          "H05_FURN_07_chair_00",
+          "H05_FURN_07_chair_01",
+          "H05_FURN_07_chair_02",
+          "H05_FURN_07_chair_03",
+          "H05_FURN_07_chair_04",
+          "H05_FURN_07_chair_05",
+          "H05_FURN_07_chair_06",
+          "H05_FURN_07_chair_07",
+          "H05_FURN_07_chair_08"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6b59310450c5861a2ae6a3cefe775c11b05eace90702da603de881e272aa37b3"
+      },
+      {
+        "id": "H05_FURN_08_bed_single",
+        "family": "Z2_FURN_BED_A",
+        "role": "bed",
+        "source_meshes": [
+          "H05_FURN_08_bed_single_00",
+          "H05_FURN_08_bed_single_01",
+          "H05_FURN_08_bed_single_02",
+          "H05_FURN_08_bed_single_03",
+          "H05_FURN_08_bed_single_04",
+          "H05_FURN_08_bed_single_05",
+          "H05_FURN_08_bed_single_06",
+          "H05_FURN_08_bed_single_07",
+          "H05_FURN_08_bed_single_08",
+          "H05_FURN_08_bed_single_09",
+          "H05_FURN_08_bed_single_10"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6b59310450c5861a2ae6a3cefe775c11b05eace90702da603de881e272aa37b3"
+      },
+      {
+        "id": "H05_FURN_09_wardrobe",
+        "family": "Z2_FURN_WARDROBE_A",
+        "role": "wardrobe",
+        "source_meshes": [
+          "H05_FURN_09_wardrobe_00",
+          "H05_FURN_09_wardrobe_01",
+          "H05_FURN_09_wardrobe_02",
+          "H05_FURN_09_wardrobe_03",
+          "H05_FURN_09_wardrobe_04",
+          "H05_FURN_09_wardrobe_05",
+          "H05_FURN_09_wardrobe_06"
+        ],
+        "parts": [
+          {
+            "id": "H05_FURN_09_wardrobe/door_left",
+            "leaf_mesh": "H05_FURN_09_wardrobe_02",
+            "attached_meshes": [
+              "H05_FURN_09_wardrobe_04"
+            ],
+            "motion": "hinge_y",
+            "hinge_edge": "min",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H05_FURN_09_wardrobe/door_right",
+            "leaf_mesh": "H05_FURN_09_wardrobe_03",
+            "attached_meshes": [
+              "H05_FURN_09_wardrobe_05"
+            ],
+            "motion": "hinge_y",
+            "hinge_edge": "max",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [
+          {
+            "id": "H05_FURN_09_wardrobe/storage/main",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Verify/model inner cavity and shelves; current cabinet body and whole-furniture collision remain solid."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "6b59310450c5861a2ae6a3cefe775c11b05eace90702da603de881e272aa37b3"
+      },
+      {
+        "id": "H05_FURN_10_washbasin",
+        "family": "Z2_FURN_WATER_FIXTURE_A",
+        "role": "water_fixture",
+        "source_meshes": [
+          "H05_FURN_10_washbasin_00",
+          "H05_FURN_10_washbasin_01",
+          "H05_FURN_10_washbasin_02",
+          "H05_FURN_10_washbasin_03",
+          "H05_FURN_10_washbasin_04"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6b59310450c5861a2ae6a3cefe775c11b05eace90702da603de881e272aa37b3"
+      },
+      {
+        "id": "H05_FURN_11_toilet",
+        "family": "Z2_FURN_TOILET_A",
+        "role": "toilet",
+        "source_meshes": [
+          "H05_FURN_11_toilet_00",
+          "H05_FURN_11_toilet_01",
+          "H05_FURN_11_toilet_02",
+          "H05_FURN_11_toilet_03"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6b59310450c5861a2ae6a3cefe775c11b05eace90702da603de881e272aa37b3"
+      },
+      {
+        "id": "H05_FURN_12_shower",
+        "family": "Z2_FURN_SHOWER_A",
+        "role": "shower",
+        "source_meshes": [
+          "H05_FURN_12_shower_00",
+          "H05_FURN_12_shower_01",
+          "H05_FURN_12_shower_02",
+          "H05_FURN_12_shower_03"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6b59310450c5861a2ae6a3cefe775c11b05eace90702da603de881e272aa37b3"
+      },
+      {
+        "id": "H05_FURN_13_bed_double",
+        "family": "Z2_FURN_BED_A",
+        "role": "bed",
+        "source_meshes": [
+          "H05_FURN_13_bed_double_00",
+          "H05_FURN_13_bed_double_01",
+          "H05_FURN_13_bed_double_02",
+          "H05_FURN_13_bed_double_03",
+          "H05_FURN_13_bed_double_04",
+          "H05_FURN_13_bed_double_05",
+          "H05_FURN_13_bed_double_06",
+          "H05_FURN_13_bed_double_07",
+          "H05_FURN_13_bed_double_08",
+          "H05_FURN_13_bed_double_09",
+          "H05_FURN_13_bed_double_10",
+          "H05_FURN_13_bed_double_11",
+          "H05_FURN_13_bed_double_12"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6b59310450c5861a2ae6a3cefe775c11b05eace90702da603de881e272aa37b3"
+      },
+      {
+        "id": "H05_FURN_14_wardrobe",
+        "family": "Z2_FURN_WARDROBE_A",
+        "role": "wardrobe",
+        "source_meshes": [
+          "H05_FURN_14_wardrobe_00",
+          "H05_FURN_14_wardrobe_01",
+          "H05_FURN_14_wardrobe_02",
+          "H05_FURN_14_wardrobe_03",
+          "H05_FURN_14_wardrobe_04",
+          "H05_FURN_14_wardrobe_05",
+          "H05_FURN_14_wardrobe_06"
+        ],
+        "parts": [
+          {
+            "id": "H05_FURN_14_wardrobe/door_left",
+            "leaf_mesh": "H05_FURN_14_wardrobe_02",
+            "attached_meshes": [
+              "H05_FURN_14_wardrobe_04"
+            ],
+            "motion": "hinge_y",
+            "hinge_edge": "min",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H05_FURN_14_wardrobe/door_right",
+            "leaf_mesh": "H05_FURN_14_wardrobe_03",
+            "attached_meshes": [
+              "H05_FURN_14_wardrobe_05"
+            ],
+            "motion": "hinge_y",
+            "hinge_edge": "max",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [
+          {
+            "id": "H05_FURN_14_wardrobe/storage/main",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Verify/model inner cavity and shelves; current cabinet body and whole-furniture collision remain solid."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "6b59310450c5861a2ae6a3cefe775c11b05eace90702da603de881e272aa37b3"
+      },
+      {
+        "id": "H05_FURN_15_fridge",
+        "family": "Z2_FURN_FRIDGE_A",
+        "role": "fridge",
+        "source_meshes": [
+          "H05_FURN_15_fridge_00",
+          "H05_FURN_15_fridge_01",
+          "H05_FURN_15_fridge_02",
+          "H05_FURN_15_fridge_03",
+          "H05_FURN_15_fridge_04",
+          "H05_FURN_15_fridge_05"
+        ],
+        "parts": [
+          {
+            "id": "H05_FURN_15_fridge/door_cooler",
+            "leaf_mesh": "H05_FURN_15_fridge_01",
+            "attached_meshes": [
+              "H05_FURN_15_fridge_03"
+            ],
+            "motion": "hinge_y",
+            "hinge_edge": "opposite_handle",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H05_FURN_15_fridge/door_freezer",
+            "leaf_mesh": "H05_FURN_15_fridge_02",
+            "attached_meshes": [
+              "H05_FURN_15_fridge_04"
+            ],
+            "motion": "hinge_y",
+            "hinge_edge": "opposite_handle",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [
+          {
+            "id": "H05_FURN_15_fridge/storage/cooler",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          },
+          {
+            "id": "H05_FURN_15_fridge/storage/freezer",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Verify/model inner cavity and shelves; current cabinet body and whole-furniture collision remain solid."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "6b59310450c5861a2ae6a3cefe775c11b05eace90702da603de881e272aa37b3"
+      },
+      {
+        "id": "H05_FURN_16_kitchen_sink",
+        "family": "Z2_FURN_SINK_CABINET_A",
+        "role": "sink_cabinet",
+        "source_meshes": [
+          "H05_FURN_16_kitchen_sink_00",
+          "H05_FURN_16_kitchen_sink_01",
+          "H05_FURN_16_kitchen_sink_02",
+          "H05_FURN_16_kitchen_sink_03",
+          "H05_FURN_16_kitchen_sink_04",
+          "H05_FURN_16_kitchen_sink_05",
+          "H05_FURN_16_kitchen_sink_06"
+        ],
+        "parts": [],
+        "compartments": [
+          {
+            "id": "H05_FURN_16_kitchen_sink/storage/main",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "The door panel is a combined mesh: split/model independent leaves and cavity before opening.",
+          "Verify/model inner cavity and shelves; current cabinet body and whole-furniture collision remain solid."
+        ],
+        "use_anchor_only": true,
+        "source_model_sha256": "6b59310450c5861a2ae6a3cefe775c11b05eace90702da603de881e272aa37b3"
+      },
+      {
+        "id": "H05_FURN_17_dresser",
+        "family": "Z2_FURN_CABINET_THREE_DRAWERS_A",
+        "role": "cabinet_three_drawers",
+        "source_meshes": [
+          "H05_FURN_17_dresser_00",
+          "H05_FURN_17_dresser_01",
+          "H05_FURN_17_dresser_02",
+          "H05_FURN_17_dresser_03",
+          "H05_FURN_17_dresser_04",
+          "H05_FURN_17_dresser_05",
+          "H05_FURN_17_dresser_06",
+          "H05_FURN_17_dresser_07",
+          "H05_FURN_17_dresser_08",
+          "H05_FURN_17_dresser_09"
+        ],
+        "parts": [
+          {
+            "id": "H05_FURN_17_dresser/drawer_1",
+            "leaf_mesh": "H05_FURN_17_dresser_04",
+            "attached_meshes": [
+              "H05_FURN_17_dresser_05"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H05_FURN_17_dresser/drawer_2",
+            "leaf_mesh": "H05_FURN_17_dresser_06",
+            "attached_meshes": [
+              "H05_FURN_17_dresser_07"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          },
+          {
+            "id": "H05_FURN_17_dresser/drawer_3",
+            "leaf_mesh": "H05_FURN_17_dresser_08",
+            "attached_meshes": [
+              "H05_FURN_17_dresser_09"
+            ],
+            "motion": "slide",
+            "hinge_edge": "none",
+            "preview_angle_degrees": 90,
+            "preview_travel_m": 0.3,
+            "mechanical_clearance": "not_validated",
+            "collision_enabled": false,
+            "default_fraction": 0.0
+          }
+        ],
+        "compartments": [
+          {
+            "id": "H05_FURN_17_dresser/storage/drawer_1",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          },
+          {
+            "id": "H05_FURN_17_dresser/storage/drawer_2",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          },
+          {
+            "id": "H05_FURN_17_dresser/storage/drawer_3",
+            "capacity": null,
+            "inventory_backend": null,
+            "loot_profile": null,
+            "anchor_only": true
+          }
+        ],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Only drawer fronts/handles exist: model drawer boxes and cabinet cavities before functional opening."
+        ],
+        "use_anchor_only": false,
+        "source_model_sha256": "6b59310450c5861a2ae6a3cefe775c11b05eace90702da603de881e272aa37b3"
+      },
+      {
+        "id": "H05_FURN_18_washer",
+        "family": "Z2_FURN_WASHER_A",
+        "role": "washer",
+        "source_meshes": [
+          "H05_FURN_18_washer_00",
+          "H05_FURN_18_washer_01",
+          "H05_FURN_18_washer_02",
+          "H05_FURN_18_washer_03",
+          "H05_FURN_18_washer_04"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [
+          "Front window/door is not a complete articulated assembly; model bezel, hinge, seal and drum before enabling it."
+        ],
+        "use_anchor_only": true,
+        "source_model_sha256": "6b59310450c5861a2ae6a3cefe775c11b05eace90702da603de881e272aa37b3"
+      },
+      {
+        "id": "H05_FURN_19_laundry_sink",
+        "family": "Z2_FURN_WATER_FIXTURE_A",
+        "role": "water_fixture",
+        "source_meshes": [
+          "H05_FURN_19_laundry_sink_00",
+          "H05_FURN_19_laundry_sink_01",
+          "H05_FURN_19_laundry_sink_02",
+          "H05_FURN_19_laundry_sink_03"
+        ],
+        "parts": [],
+        "compartments": [],
+        "default_state": "closed",
+        "gameplay_enabled": false,
+        "pending_model_work": [],
+        "use_anchor_only": true,
+        "source_model_sha256": "6b59310450c5861a2ae6a3cefe775c11b05eace90702da603de881e272aa37b3"
+      }
+    ]
+  }
+}

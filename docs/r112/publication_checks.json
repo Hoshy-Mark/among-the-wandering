@@ -1,0 +1,18 @@
+{
+  "checks": [
+    "isolated publication test supplied",
+    "R112 physical supply recipe starts from published project",
+    "complete inventory and authored cells valid",
+    "new game has physical sources without laboratory arsenals",
+    "nine actors and directed social network loaded",
+    "fixed population loaded",
+    "four skills and native menu loaded",
+    "weapon HUD R01 and dialogue D02 loaded",
+    "shoulder camera and weapon authority loaded",
+    "published project saves to isolated QA checkpoint",
+    "published project reloads complete campaign",
+    "save round trip preserves manual inventory",
+    "real renderer gameplay capture saved"
+  ],
+  "passed": true
+}

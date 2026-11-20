@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "source_sha256": "a25f991d2f85db6627f4253b269f54d3dcdb70adde390f885aa2d3f745800ffd",
+  "placement_status": "candidate_public_encounters_not_residences",
+  "characters": {
+    "jorge_luiz": {
+      "name": "Jorge Luiz",
+      "role": "Policial"
+    },
+    "josue_medeira": {
+      "name": "Josué Medeira",
+      "role": "Padre"
+    },
+    "renata_volker": {
+      "name": "Renata Volker",
+      "role": "Ex-jornalista"
+    },
+    "ricardo_medeiro": {
+      "name": "Ricardo Medeiro",
+      "role": "Médico"
+    },
+    "pietra_dos_santos": {
+      "name": "Pietra dos Santos",
+      "role": "Freira"
+    },
+    "ricardo_alberto": {
+      "name": "Ricardo Alberto",
+      "role": "Fazendeiro"
+    },
+    "gabriel_pimenta": {
+      "name": "Gabriel Pimenta",
+      "role": "Mecânico"
+    },
+    "ana_julia": {
+      "name": "Ana Julia",
+      "role": "Moradora"
+    },
+    "samuel_henrique": {
+      "name": "Samuel Henrique",
+      "role": "Viajante"
+    }
+  },
+  "encounters": {
+    "samuel_henrique": {
+      "public_space": "P01",
+      "candidate": [
+        173.0,
+        0.3,
+        115.0
+      ],
+      "appearance": {
+        "skin_id": "original",
+        "hair_id": "curto_blocado",
+        "beard_id": "none",
+        "mustache_id": "none",
+        "shirt_id": "moletom_cinza",
+        "pants_id": "calca_carvao",
+        "boots_id": "botas_escuras"
+      },
+      "introduction": "Sou Samuel Henrique.",
+      "about": "Voltei a Arroio há alguns meses.",
+      "dialogue_status": "candidate_public_facts_only"
+    },
+    "gabriel_pimenta": {
+      "public_space": "EST01_frontage",
+      "candidate": [
+        325,
+        0.3,
+        158
+      ],
+      "appearance": {
+        "skin_id": "original",
+        "hair_id": "medio_blocado",
+        "beard_id": "curta_ajustada",
+        "mustache_id": "none",
+        "shirt_id": "camisa_lisa_azul",
+        "pants_id": "calca_carvao",
+        "boots_id": "botas_escuras"
+      },
+      "introduction": "Sou Gabriel Pimenta.",
+      "about": "Trabalho com mecânica. Também ajudo na igreja.",
+      "dialogue_status": "candidate_public_roles_and_boundaries_for_review",
+      "placement_basis": "public frontage of current EST01 church, outside its central door route; temporary encounter, not residence or routine"
+    },
+    "josue_medeira": {
+      "public_space": "EST01_frontage",
+      "candidate": [
+        338,
+        0.3,
+        158
+      ],
+      "appearance": {
+        "skin_id": "original",
+        "hair_id": "lateral_blocado",
+        "beard_id": "none",
+        "mustache_id": "none",
+        "shirt_id": "paleto_carvao",
+        "pants_id": "calca_carvao",
+        "boots_id": "botas_escuras"
+      },
+      "introduction": "Sou Josué Medeira, o padre.",
+      "about": "Vivo aqui perto da igreja.",
+      "dialogue_status": "candidate_public_roles_and_boundaries_for_review",
+      "placement_basis": "public frontage of current EST01 church, outside its central door route; temporary encounter, not residence or routine"
+    }
+  },
+  "content_revision103": 1
+}

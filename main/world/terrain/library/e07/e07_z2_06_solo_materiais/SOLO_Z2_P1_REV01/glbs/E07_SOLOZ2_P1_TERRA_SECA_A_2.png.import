@@ -2,11 +2,10 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c2qxscgjk62yg"
-path.s3tc="res://.godot/imported/E07_SOLOZ2_P1_TERRA_SECA_A_2.png-b1b38489af9bfcfe07a3e0a2aee4331d.s3tc.ctex"
+uid="uid://dyudmrygd1sk7"
+path="res://.godot/imported/E07_SOLOZ2_P1_TERRA_SECA_A_2.png-b1b38489af9bfcfe07a3e0a2aee4331d.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 generator_parameters={
 "md5": "59e5ad6fbdca8afa520d7e9d20d4c917"
@@ -15,11 +14,11 @@ generator_parameters={
 [deps]
 
 source_file="res://main/world/terrain/library/e07/e07_z2_06_solo_materiais/SOLO_Z2_P1_REV01/glbs/E07_SOLOZ2_P1_TERRA_SECA_A_2.png"
-dest_files=["res://.godot/imported/E07_SOLOZ2_P1_TERRA_SECA_A_2.png-b1b38489af9bfcfe07a3e0a2aee4331d.s3tc.ctex"]
+dest_files=["res://.godot/imported/E07_SOLOZ2_P1_TERRA_SECA_A_2.png-b1b38489af9bfcfe07a3e0a2aee4331d.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
@@ -35,4 +34,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=0
+detect_3d/compress_to=1

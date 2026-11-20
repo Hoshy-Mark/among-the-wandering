@@ -47,7 +47,7 @@ func begin(data: Dictionary) -> bool:
     if not body.action.begin(_commit,"equip" if data.kind=="equip" else "store"):
         job.clear()
         return false
-    _feedback("Equipando peça..." if data.kind=="equip" else "Guardando peça...")
+    _feedback("Equipando item..." if data.kind=="equip" else "Guardando item...")
     return true
 
 func _commit() -> bool:
@@ -79,7 +79,7 @@ func _effect(kind: String, success: bool) -> void:
         ui.nearby_wanted=true
     if ui!=null:
         ui.refresh()
-    _feedback(("Peça equipada" if job.kind=="equip" else "Peça guardada") if success else body.inventory_message)
+    _feedback(("Item equipado" if job.kind=="equip" else "Item guardado") if success else body.inventory_message)
 
 func _finished() -> void:
     if busy():

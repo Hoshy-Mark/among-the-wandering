@@ -3,7 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://c5fio712nd3rv"
+uid="uid://hugruue1cxr2"
 path="res://.godot/imported/E07_FIGUEIRA_QUINTAL_PODADA_ESTRUTURAL_CANDIDATO_REV09.glb-972d5525309a8184479796870140c7ef.scn"
 
 [deps]
@@ -19,7 +19,7 @@ nodes/apply_root_scale=true
 nodes/root_scale=1.0
 nodes/import_as_skeleton_bones=false
 nodes/use_node_type_suffixes=true
-meshes/ensure_tangents=false
+meshes/ensure_tangents=true
 meshes/generate_lods=true
 meshes/create_shadow_meshes=true
 meshes/light_baking=1

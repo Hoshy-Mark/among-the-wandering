@@ -72,6 +72,7 @@ func configure(world: Node3D, catalog_data: Dictionary, environment: Dictionary)
 				_fence(_v(segment[0]),_v(segment[1]),plot.style,plot.fence_height_m)
 		if plot.gate != null:
 			_gate(plot.gate)
+			for extra_gate in plot.get("additional_gates",[]):_gate(extra_gate)
 			var marker := Marker3D.new()
 			marker.name = "PedestrianGate"
 			marker.position = _v(plot.gate.center)
@@ -252,16 +253,37 @@ func _gate(gate: Dictionary) -> void:
 	var center := _v(gate.center)
 	var along := Vector3(gate.along[0],0,gate.along[1])
 	var inward := Vector3(gate.inward[0],0,gate.inward[1])
+	if gate.has("inner_pedestrian_width_m"):
+		var inner: float = gate.inner_pedestrian_width_m
+		var outer: float = gate.opening_width_m
+		var along_yaw := atan2(-along.z,along.x)
+		for side in [-1.0,1.0]:
+			var post: Vector3 = center+along*side*outer/2
+			_part("masonry",post+Vector3.UP*.7,Vector3(.24,1.4,.24))
+			_collision(post+Vector3.UP*.7,Vector3(.24,1.4,.24))
+			var panel: Vector3 = center+along*side*(inner+outer)/4
+			_part("metal",panel+Vector3.UP*.65,Vector3((outer-inner)/2,.86,.055),along_yaw)
+			_collision(panel+Vector3.UP*.65,Vector3((outer-inner)/2,.86,.055),along_yaw)
+		var pedestrian: Dictionary = gate.duplicate(true)
+		pedestrian.erase("inner_pedestrian_width_m")
+		pedestrian.opening_width_m=inner;pedestrian.leaf_length_m=inner/2-.12
+		_gate(pedestrian)
+		return
 	var yaw := atan2(-inward.z,inward.x)
+	var leaf_length: float = gate.get("leaf_length_m",1.55)
 	for side in [-1.0,1.0]:
 		var post: Vector3 = center+along*side*gate.opening_width_m/2.0
 		_part("masonry",post+Vector3.UP*0.7,Vector3(0.24,1.4,0.24))
 		_collision(post+Vector3.UP*0.7,Vector3(0.24,1.4,0.24))
-		var leaf: Vector3 = post+inward*1.55/2.0
-		for level in [0.25,1.05]: _part("metal",leaf+Vector3.UP*level,Vector3(1.55,0.055,0.055),yaw)
-		for i in range(8): _part("metal",post+inward*(i*1.55/7)+Vector3.UP*0.65,Vector3(0.025,0.85,0.025),yaw)
-		_collision(leaf+Vector3.UP*0.65,Vector3(1.55,gate.get("leaf_collision_height_m",1.1),0.055),yaw)
+		var leaf_direction: Vector3 = along*side if gate.get("folded_open",false) else inward
+		var leaf_origin: Vector3 = post+inward*.125 if gate.get("folded_open",false) else post
+		var leaf_yaw := atan2(-leaf_direction.z,leaf_direction.x)
+		var leaf: Vector3 = leaf_origin+leaf_direction*leaf_length/2.0
+		for level in [0.25,1.05]: _part("metal",leaf+Vector3.UP*level,Vector3(leaf_length,0.055,0.055),leaf_yaw)
+		for i in range(8): _part("metal",leaf_origin+leaf_direction*(i*leaf_length/7)+Vector3.UP*0.65,Vector3(0.025,0.85,0.025),leaf_yaw)
+		_collision(leaf+Vector3.UP*0.65,Vector3(leaf_length,gate.get("leaf_collision_height_m",1.1),0.055),leaf_yaw)
 	var mailbox: Vector3 = center-along*(gate.opening_width_m/2.0+0.3)
+	mailbox+=inward*float(gate.get("mailbox_offset_m",0.0))
 	_part("metal",mailbox+Vector3.UP*0.7,Vector3(0.045,1.4,0.045))
 	_part("metal",mailbox+Vector3.UP*1.3,Vector3(0.32,0.22,0.24))
 

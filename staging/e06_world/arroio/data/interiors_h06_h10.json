@@ -1,0 +1,6699 @@
+{
+  "schema_version": 1,
+  "status": "staging_candidate",
+  "lots": {
+    "H06": {
+      "revision": "REV03",
+      "artistic_model_approved": true,
+      "source_glb_sha256": "549072e09725043f6949f75c2d0dc2cd9b3b626b6ce4a798d7d4b2f3ae74e99d",
+      "exterior_sha256": "61db13f45244da93dbb116a448436916e7a116d98d70f38839d31564d227a55a",
+      "scene": "res://staging/e06_world/arroio/scenes/interiors/H06.tscn",
+      "model": "res://staging/e06_world/arroio/assets/interiors_h06_h10_rev01/H06.gltf",
+      "floor_local_y": 0.2800000011920929,
+      "interior_bounds": [
+        [
+          -4.914999961853027,
+          -1.037500023841858,
+          -4.880000114440918
+        ],
+        [
+          4.565000057220459,
+          2.859999895095825,
+          4.880000114440918
+        ]
+      ],
+      "rooms": [
+        {
+          "id": "H06_FLOOR_REV03_08_PASSAGEM_SOCIAL",
+          "source_name": "H06_FLOOR_REV03_08_PASSAGEM_SOCIAL",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -1.3949999809265137,
+              4.880000114440918
+            ],
+            [
+              -0.014999999664723873,
+              4.880000114440918
+            ],
+            [
+              -0.014999999664723873,
+              2.390000104904175
+            ],
+            [
+              -1.3949999809265137,
+              2.390000104904175
+            ]
+          ],
+          "area_m2": 3.4361999665025618,
+          "floor_local_y": 0.2800000011920929,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H06_FLOOR_REV03_07_BANHEIRO",
+          "source_name": "H06_FLOOR_REV03_07_BANHEIRO",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              1.1050000190734863,
+              4.880000114440918
+            ],
+            [
+              4.565000057220459,
+              4.880000114440918
+            ],
+            [
+              4.565000057220459,
+              2.390000104904175
+            ],
+            [
+              1.1050000190734863,
+              2.390000104904175
+            ]
+          ],
+          "area_m2": 8.615400127983094,
+          "floor_local_y": 0.2800000011920929,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H06_FLOOR_REV03_06_DORM_02",
+          "source_name": "H06_FLOOR_REV03_06_DORM_02",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              1.1050000190734863,
+              2.390000104904175
+            ],
+            [
+              4.565000057220459,
+              2.390000104904175
+            ],
+            [
+              4.565000057220459,
+              -0.5799999833106995
+            ],
+            [
+              1.1050000190734863,
+              -0.5799999833106995
+            ]
+          ],
+          "area_m2": 10.276200418519977,
+          "floor_local_y": 0.2800000011920929,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H06_FLOOR_REV03_05_DORM_CASAL",
+          "source_name": "H06_FLOOR_REV03_05_DORM_CASAL",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              1.1050000190734863,
+              -0.5799999833106995
+            ],
+            [
+              4.565000057220459,
+              -0.5799999833106995
+            ],
+            [
+              4.565000057220459,
+              -4.880000114440918
+            ],
+            [
+              1.1050000190734863,
+              -4.880000114440918
+            ]
+          ],
+          "area_m2": 14.878000617742543,
+          "floor_local_y": 0.2800000011920929,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H06_FLOOR_REV03_04_APOIO_ACESSO_WC",
+          "source_name": "H06_FLOOR_REV03_04_APOIO_ACESSO_WC",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -0.014999999664723873,
+              4.880000114440918
+            ],
+            [
+              1.1050000190734863,
+              4.880000114440918
+            ],
+            [
+              1.1050000190734863,
+              2.390000104904175
+            ],
+            [
+              -0.014999999664723873,
+              2.390000104904175
+            ]
+          ],
+          "area_m2": 2.788800057339296,
+          "floor_local_y": 0.2800000011920929,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H06_FLOOR_REV03_03_REFEI_ES",
+          "source_name": "H06_FLOOR_REV03_03_REFEI_ES",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -1.3949999809265137,
+              2.390000104904175
+            ],
+            [
+              1.1050000190734863,
+              2.390000104904175
+            ],
+            [
+              1.1050000190734863,
+              -1.559999942779541
+            ],
+            [
+              -1.3949999809265137,
+              -1.559999942779541
+            ]
+          ],
+          "area_m2": 9.87500011920929,
+          "floor_local_y": 0.2800000011920929,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H06_FLOOR_REV03_02_COZINHA",
+          "source_name": "H06_FLOOR_REV03_02_COZINHA",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -1.3949999809265137,
+              -1.559999942779541
+            ],
+            [
+              1.1050000190734863,
+              -1.559999942779541
+            ],
+            [
+              1.1050000190734863,
+              -4.880000114440918
+            ],
+            [
+              -1.3949999809265137,
+              -4.880000114440918
+            ]
+          ],
+          "area_m2": 8.300000429153442,
+          "floor_local_y": 0.2800000011920929,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H06_FLOOR_REV03_01_REPAROS",
+          "source_name": "H06_FLOOR_REV03_01_REPAROS",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -4.914999961853027,
+              4.880000114440918
+            ],
+            [
+              -1.3949999809265137,
+              4.880000114440918
+            ],
+            [
+              -1.3949999809265137,
+              1.590000033378601
+            ],
+            [
+              -4.914999961853027,
+              1.590000033378601
+            ]
+          ],
+          "area_m2": 11.580800222587584,
+          "floor_local_y": 0.2800000011920929,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H06_FLOOR_REV03_00_SALA",
+          "source_name": "H06_FLOOR_REV03_00_SALA",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -4.914999961853027,
+              1.590000033378601
+            ],
+            [
+              -1.3949999809265137,
+              1.590000033378601
+            ],
+            [
+              -1.3949999809265137,
+              -4.880000114440918
+            ],
+            [
+              -4.914999961853027,
+              -4.880000114440918
+            ]
+          ],
+          "area_m2": 22.774400396919248,
+          "floor_local_y": 0.2800000011920929,
+          "access_mode": "enter_region"
+        }
+      ],
+      "doors": [
+        {
+          "mesh_name": "H06_DOOR_REV03_P06-01_HINGE_PIVOT",
+          "hinge": [
+            -3.5309999999999997,
+            0.30500000000000005,
+            1.5900000000000007
+          ],
+          "source_to_closed_degrees": 0,
+          "open_degrees": -90,
+          "attached_meshes": [],
+          "unit": "main",
+          "source_bounds": [
+            [
+              -3.5309999999999997,
+              0.30500000000000005,
+              1.5665000008046635
+            ],
+            [
+              -2.708999973297119,
+              2.4049999046325685,
+              1.613499999195338
+            ]
+          ],
+          "floor_local_y": 0.2800000011920929
+        },
+        {
+          "mesh_name": "H06_DOOR_REV03_P06-02_HINGE_PIVOT",
+          "hinge": [
+            1.1050000000000004,
+            0.30500000000000005,
+            -1.5059999999999998
+          ],
+          "source_to_closed_degrees": 0,
+          "open_degrees": 90,
+          "attached_meshes": [],
+          "unit": "main",
+          "source_bounds": [
+            [
+              1.0815000008046631,
+              0.30500000000000005,
+              -1.5059999999999998
+            ],
+            [
+              1.1284999991953377,
+              2.4049999046325685,
+              -0.7140000042915342
+            ]
+          ],
+          "floor_local_y": 0.2800000011920929
+        },
+        {
+          "mesh_name": "H06_DOOR_REV03_P06-03_HINGE_PIVOT",
+          "hinge": [
+            1.1050000000000004,
+            0.30500000000000005,
+            0.13400000000000034
+          ],
+          "source_to_closed_degrees": 0,
+          "open_degrees": 90,
+          "attached_meshes": [],
+          "unit": "main",
+          "source_bounds": [
+            [
+              1.0815000008046631,
+              0.30500000000000005,
+              0.13400000000000034
+            ],
+            [
+              1.1284999991953377,
+              2.4049999046325685,
+              0.9259999957084659
+            ]
+          ],
+          "floor_local_y": 0.2800000011920929
+        },
+        {
+          "mesh_name": "H06_DOOR_REV03_P06-04_HINGE_PIVOT",
+          "hinge": [
+            1.1050000000000004,
+            0.30500000000000005,
+            3.0940000000000003
+          ],
+          "source_to_closed_degrees": 0,
+          "open_degrees": 90,
+          "attached_meshes": [],
+          "unit": "main",
+          "source_bounds": [
+            [
+              1.0815000008046631,
+              0.30500000000000005,
+              3.0940000000000003
+            ],
+            [
+              1.1284999991953377,
+              2.4049999046325685,
+              3.885999995708466
+            ]
+          ],
+          "floor_local_y": 0.2800000011920929
+        }
+      ],
+      "units": [
+        {
+          "id": "main",
+          "bounds": [
+            [
+              -4.914999961853027,
+              0.1800000011920929,
+              -4.880000114440918
+            ],
+            [
+              4.565000057220459,
+              2.980000001192093,
+              4.880000114440918
+            ]
+          ],
+          "floor_local_y": 0.2800000011920929,
+          "entry_world": [
+            59.166667,
+            135.7196664568583
+          ],
+          "front_vector": [
+            0,
+            1
+          ],
+          "approach_world": [
+            59.166667,
+            137.95812962962964
+          ],
+          "independent_entry": true
+        }
+      ],
+      "qa_grid_step_m": 0.18,
+      "technical_adjustments": [
+        {
+          "prefix": "H06_FURN_REV03_19_CHUVEIRO_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            1.3225000250339507,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H06_FURN_REV03_18_VASO_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.7049999955296515,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H06_FURN_REV03_17_LAVAT_RIO_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.803499971628189,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H06_FURN_REV03_16_ARM_RIO_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.6724999892711638,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H06_FURN_REV03_15_CAMA_SOLTEIRO_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.7300000052154063,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H06_FURN_REV03_14_GUARDA_ROUPA_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            1.2925000536441802,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H06_FURN_REV03_13_CAMA_CASAL_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.7300000052154063,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H06_FURN_REV03_12_CADEIRA_D_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.7349999892711638,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H06_FURN_REV03_11_CADEIRA_C_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.7349999892711638,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H06_FURN_REV03_10_CADEIRA_B_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.7349999892711638,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H06_FURN_REV03_09_CADEIRA_A_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.7349999892711638,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H06_FURN_REV03_08_MESA_4L_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.670499998256564,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H06_FURN_REV03_07_BALC_O_PIA_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.8000000185519456,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H06_FURN_REV03_06_FOG_O_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.7199999998509883,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H06_FURN_REV03_05_GELADEIRA_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            1.1050000294297933,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H06_FURN_REV03_04_ARM_RIO_PE_AS_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            1.1150000254809855,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H06_FURN_REV03_03_BANCADA_REPAROS_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.6765000085532664,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H06_FURN_REV03_02_RACK_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.5575000095367432,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H06_FURN_REV03_01_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            -0.02999999642372131,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H06_FURN_REV03_00_SOF_2L_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.7050000085681676,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        }
+      ],
+      "exterior_open_degrees": 90,
+      "exterior_rule": {
+        "enabled": true,
+        "master_candidate": true,
+        "revision": "H06-ART-REV02",
+        "decision_id": "H06-ART-REV01",
+        "direction_approved": null,
+        "prototype_execution_authorized": true,
+        "visual_homologation": false,
+        "main_promotion_authorized": false,
+        "source_asset": "HAB_213",
+        "visual_path": "res://staging/e06_world/arroio/assets/current_h01_h20_rev01/H06.gltf",
+        "base_snapshot": "4802e8c233f66a4ad377bcc7",
+        "sector": "S01",
+        "building_position": [
+          59.166666666666664,
+          0,
+          130.62466666666666
+        ],
+        "building_yaw": 90,
+        "visual_offset": [
+          -0.0,
+          -0.0,
+          0.029999971389770508
+        ],
+        "gate_original": {
+          "center": [
+            54.01659196064152,
+            137.95812962962964
+          ],
+          "along": [
+            -1.0,
+            0.0
+          ],
+          "inward": [
+            -0.0,
+            -1.0
+          ],
+          "opening_width_m": 3.6,
+          "leaf_state": "open; no interaction script"
+        },
+        "gate_center": [
+          59.166667,
+          137.95812962962964
+        ],
+        "gate_width_m": 3.6,
+        "door_xz": [
+          59.166667,
+          135.7196664568583
+        ],
+        "front_direction": 1,
+        "floor_m": 0.28,
+        "eave_m": 2.9,
+        "ridge_m": 4.2,
+        "body_center_xz": [
+          59.16666666666666,
+          130.79966666666667
+        ],
+        "body_width_m": 10.11999979019165,
+        "body_depth_m": 9.839999580383306,
+        "body_bounds_xz": [
+          54.10666677157083,
+          125.879666876475,
+          64.22666656176249,
+          135.7196664568583
+        ],
+        "candidate_translation_xyz": [
+          0,
+          0,
+          0
+        ],
+        "front_walls_to_recompose": [
+          "WALL_047",
+          "WALL_048"
+        ],
+        "access_path": [
+          [
+            59.166667,
+            137.95812962962964
+          ],
+          [
+            59.166667,
+            135.7196664568583
+          ]
+        ],
+        "access_width_m": 1.9,
+        "wall_color": [
+          0.88,
+          0.83,
+          0.71
+        ],
+        "wood_house": false,
+        "hip_roof": false,
+        "gray_roof": false,
+        "porch_depth_m": 0.65,
+        "porch_width_m": 1.7,
+        "object_moves": [],
+        "extra_structures": [],
+        "triangles": 10590,
+        "id": "H06",
+        "identity": "Casa dos Pequenos Reparos",
+        "source_visual_path": "res://staging/e06_world/arroio/assets/master_h01_h10_rev01/H06.gltf",
+        "current_revision_candidate": true,
+        "front_axis": 1,
+        "front_vector": [
+          0,
+          1
+        ],
+        "front_view": 1,
+        "service_branches": [],
+        "new_props": [
+          {
+            "id": "H06-R02-C01",
+            "tipo": "cavalete de conserto",
+            "microarea": "area_da_mesa",
+            "posicao_xz_m": [
+              63.8,
+              119.7
+            ],
+            "raio_qa_nominal_m": 0.55,
+            "historia_material": "Madeira gasta; reparos de cadeiras",
+            "status": "candidato_sem_asset_3d",
+            "suporte": "solo_sujeito_a_qa",
+            "label": "cavalete de conserto",
+            "position_xz_m": [
+              63.8,
+              119.7
+            ],
+            "kind": "sawhorse",
+            "source_position_xz_m": [
+              63.8,
+              119.7
+            ],
+            "realized_position_xyz_m": [
+              63.8,
+              0,
+              119.7
+            ]
+          },
+          {
+            "id": "H06-R02-C02",
+            "tipo": "cavalete dobrado",
+            "microarea": "area_da_mesa",
+            "posicao_xz_m": [
+              64.1,
+              116.4
+            ],
+            "raio_qa_nominal_m": 0.55,
+            "historia_material": "Peças improvisadas; não oficina industrial",
+            "status": "candidato_sem_asset_3d",
+            "suporte": "solo_sujeito_a_qa",
+            "label": "cavalete dobrado",
+            "position_xz_m": [
+              64.1,
+              116.4
+            ],
+            "kind": "sawhorse",
+            "source_position_xz_m": [
+              64.1,
+              116.4
+            ],
+            "realized_position_xyz_m": [
+              64.1,
+              0,
+              116.4
+            ]
+          },
+          {
+            "id": "H06-R02-C03",
+            "tipo": "tábuas estreitas",
+            "microarea": "fundos_leste",
+            "posicao_xz_m": [
+              68.4,
+              114.9
+            ],
+            "raio_qa_nominal_m": 0.45,
+            "historia_material": "Madeira de reaproveitamento, sem edifício novo",
+            "status": "candidato_sem_asset_3d",
+            "suporte": "solo_sujeito_a_qa",
+            "label": "tábuas estreitas",
+            "position_xz_m": [
+              68.4,
+              114.9
+            ],
+            "kind": "stored_bundles",
+            "source_position_xz_m": [
+              68.4,
+              114.9
+            ],
+            "realized_position_xyz_m": [
+              68.4,
+              0,
+              114.9
+            ]
+          },
+          {
+            "id": "H06-R02-C04",
+            "tipo": "caixa de ferragens fechada",
+            "microarea": "fundos_oeste",
+            "posicao_xz_m": [
+              55.1,
+              117.7
+            ],
+            "raio_qa_nominal_m": 0.38,
+            "historia_material": "Metal oxidado e pequenas divisórias",
+            "status": "candidato_sem_asset_3d",
+            "suporte": "solo_sujeito_a_qa",
+            "label": "caixa de ferragens fechada",
+            "position_xz_m": [
+              55.1,
+              117.7
+            ],
+            "kind": "storage",
+            "source_position_xz_m": [
+              55.1,
+              117.7
+            ],
+            "realized_position_xyz_m": [
+              55.1,
+              0,
+              117.7
+            ]
+          },
+          {
+            "id": "H06-R02-C05",
+            "tipo": "banco antigo empilhado",
+            "microarea": "area_da_mesa",
+            "posicao_xz_m": [
+              54.7,
+              119.9
+            ],
+            "raio_qa_nominal_m": 0.5,
+            "historia_material": "Conserto interrompido",
+            "status": "candidato_sem_asset_3d",
+            "suporte": "solo_sujeito_a_qa",
+            "label": "banco antigo empilhado",
+            "position_xz_m": [
+              54.7,
+              119.9
+            ],
+            "kind": "seating",
+            "source_position_xz_m": [
+              54.7,
+              119.9
+            ],
+            "realized_position_xyz_m": [
+              54.7,
+              0,
+              119.9
+            ]
+          },
+          {
+            "id": "H06-R02-C06",
+            "tipo": "cadeira com encosto solto",
+            "microarea": "fundos_leste",
+            "posicao_xz_m": [
+              65.9,
+              116.0
+            ],
+            "raio_qa_nominal_m": 0.6,
+            "historia_material": "Marcas de uso sem destruição da casa",
+            "status": "candidato_sem_asset_3d",
+            "suporte": "solo_sujeito_a_qa",
+            "label": "cadeira com encosto solto",
+            "position_xz_m": [
+              65.9,
+              116.0
+            ],
+            "kind": "seating",
+            "source_position_xz_m": [
+              65.9,
+              116.0
+            ],
+            "realized_position_xyz_m": [
+              65.9,
+              0,
+              116.0
+            ]
+          },
+          {
+            "id": "H06-R02-C07",
+            "tipo": "balde de aparas",
+            "microarea": "fundos_leste",
+            "posicao_xz_m": [
+              67.3,
+              112.0
+            ],
+            "raio_qa_nominal_m": 0.42,
+            "historia_material": "Pequenos retalhos e pó de madeira endurecido",
+            "status": "candidato_sem_asset_3d",
+            "suporte": "solo_sujeito_a_qa",
+            "label": "balde de aparas",
+            "position_xz_m": [
+              67.3,
+              112.0
+            ],
+            "kind": "vessels",
+            "source_position_xz_m": [
+              67.3,
+              112.0
+            ],
+            "realized_position_xyz_m": [
+              67.3,
+              0,
+              112.0
+            ]
+          },
+          {
+            "id": "H06-R02-C08",
+            "tipo": "ferros de dobradiça",
+            "microarea": "fundos_leste",
+            "posicao_xz_m": [
+              66.6,
+              113.2
+            ],
+            "raio_qa_nominal_m": 0.38,
+            "historia_material": "Ferragens esquecidas",
+            "status": "candidato_sem_asset_3d",
+            "suporte": "solo_sujeito_a_qa",
+            "label": "ferros de dobradiça",
+            "position_xz_m": [
+              66.6,
+              113.2
+            ],
+            "kind": "storage",
+            "source_position_xz_m": [
+              66.6,
+              113.2
+            ],
+            "realized_position_xyz_m": [
+              66.6,
+              0,
+              113.2
+            ]
+          },
+          {
+            "id": "H06-R02-C09",
+            "tipo": "caixote de madeira",
+            "microarea": "fundos_centro",
+            "posicao_xz_m": [
+              58.4,
+              113.8
+            ],
+            "raio_qa_nominal_m": 0.5,
+            "historia_material": "Peças de reposição",
+            "status": "candidato_sem_asset_3d",
+            "suporte": "solo_sujeito_a_qa",
+            "label": "caixote de madeira",
+            "position_xz_m": [
+              58.4,
+              113.8
+            ],
+            "kind": "storage",
+            "source_position_xz_m": [
+              58.4,
+              113.8
+            ],
+            "realized_position_xyz_m": [
+              58.4,
+              0,
+              113.8
+            ]
+          },
+          {
+            "id": "H06-R02-C10",
+            "tipo": "pano encerado dobrado",
+            "microarea": "fundos_centro",
+            "posicao_xz_m": [
+              61.4,
+              115.3
+            ],
+            "raio_qa_nominal_m": 0.4,
+            "historia_material": "Proteção parcialmente desfeita pelo tempo",
+            "status": "candidato_sem_asset_3d",
+            "suporte": "solo_sujeito_a_qa",
+            "label": "pano encerado dobrado",
+            "position_xz_m": [
+              61.4,
+              115.3
+            ],
+            "kind": "rack",
+            "source_position_xz_m": [
+              61.4,
+              115.3
+            ],
+            "realized_position_xyz_m": [
+              61.4,
+              0,
+              115.3
+            ]
+          },
+          {
+            "id": "H06-R02-C11",
+            "tipo": "cesto de colheita",
+            "microarea": "pitangueira",
+            "posicao_xz_m": [
+              59.5,
+              109.0
+            ],
+            "raio_qa_nominal_m": 0.48,
+            "historia_material": "Conecta reparos à vida familiar e à fruta",
+            "status": "candidato_sem_asset_3d",
+            "suporte": "solo_sujeito_a_qa",
+            "label": "cesto de colheita",
+            "position_xz_m": [
+              59.5,
+              109.0
+            ],
+            "kind": "vessels",
+            "source_position_xz_m": [
+              59.5,
+              109.0
+            ],
+            "realized_position_xyz_m": [
+              59.5,
+              0,
+              109.0
+            ]
+          },
+          {
+            "id": "H06-R02-C12",
+            "tipo": "banquinho com perna solta",
+            "microarea": "fundos_oeste",
+            "posicao_xz_m": [
+              48.3,
+              120.1
+            ],
+            "raio_qa_nominal_m": 0.42,
+            "historia_material": "Reparo não concluído",
+            "status": "candidato_sem_asset_3d",
+            "suporte": "solo_sujeito_a_qa",
+            "label": "banquinho com perna solta",
+            "position_xz_m": [
+              48.3,
+              120.1
+            ],
+            "kind": "seating",
+            "source_position_xz_m": [
+              48.3,
+              120.1
+            ],
+            "realized_position_xyz_m": [
+              48.3,
+              0,
+              120.1
+            ]
+          },
+          {
+            "id": "H06-R02-C13",
+            "tipo": "vasos de barro antigos",
+            "microarea": "flores",
+            "posicao_xz_m": [
+              68.7,
+              133.5
+            ],
+            "raio_qa_nominal_m": 0.38,
+            "historia_material": "Rotina doméstica independente dos reparos",
+            "status": "candidato_sem_asset_3d",
+            "suporte": "solo_sujeito_a_qa",
+            "label": "vasos de barro antigos",
+            "position_xz_m": [
+              68.7,
+              133.5
+            ],
+            "kind": "vessels",
+            "source_position_xz_m": [
+              68.7,
+              133.5
+            ],
+            "realized_position_xyz_m": [
+              68.7,
+              0,
+              133.5
+            ]
+          },
+          {
+            "id": "H06-R02-C14",
+            "tipo": "canteiro auxiliar abandonado",
+            "microarea": "flores",
+            "posicao_xz_m": [
+              67.5,
+              126.0
+            ],
+            "raio_qa_nominal_m": 0.65,
+            "historia_material": "Flores e ervas sem nova estrutura rígida",
+            "status": "candidato_sem_asset_3d",
+            "suporte": "solo_sujeito_a_qa",
+            "label": "canteiro auxiliar abandonado",
+            "position_xz_m": [
+              67.5,
+              126.0
+            ],
+            "kind": "abandoned_beds",
+            "source_position_xz_m": [
+              67.5,
+              126.0
+            ],
+            "realized_position_xyz_m": [
+              67.5,
+              0,
+              126.0
+            ]
+          },
+          {
+            "id": "H06-R02-C15",
+            "tipo": "regador enferrujado",
+            "microarea": "flores",
+            "posicao_xz_m": [
+              69.2,
+              127.0
+            ],
+            "raio_qa_nominal_m": 0.35,
+            "historia_material": "Rega interrompida",
+            "status": "candidato_sem_asset_3d",
+            "suporte": "solo_sujeito_a_qa",
+            "label": "regador enferrujado",
+            "position_xz_m": [
+              69.2,
+              127.0
+            ],
+            "kind": "watering_can",
+            "source_position_xz_m": [
+              69.2,
+              127.0
+            ],
+            "realized_position_xyz_m": [
+              69.2,
+              0,
+              127.0
+            ]
+          },
+          {
+            "id": "H06-R02-C16",
+            "tipo": "escada de madeira deitada",
+            "microarea": "fundos_oeste",
+            "posicao_xz_m": [
+              47.9,
+              116.1
+            ],
+            "raio_qa_nominal_m": 0.42,
+            "historia_material": "Escada curta; evitar contato com divisa",
+            "status": "candidato_sem_asset_3d",
+            "suporte": "solo_sujeito_a_qa",
+            "label": "escada de madeira deitada",
+            "position_xz_m": [
+              47.9,
+              116.1
+            ],
+            "kind": "stored_ladder",
+            "source_position_xz_m": [
+              47.9,
+              116.1
+            ],
+            "realized_position_xyz_m": [
+              47.9,
+              0,
+              116.1
+            ]
+          },
+          {
+            "id": "H06-R02-C17",
+            "tipo": "carrinho de mão vazio",
+            "microarea": "fundos_leste",
+            "posicao_xz_m": [
+              69.2,
+              110.9
+            ],
+            "raio_qa_nominal_m": 0.52,
+            "historia_material": "Ferramenta doméstica, não oficina edificada",
+            "status": "candidato_sem_asset_3d",
+            "suporte": "solo_sujeito_a_qa",
+            "label": "carrinho de mão vazio",
+            "position_xz_m": [
+              69.2,
+              110.9
+            ],
+            "kind": "cart",
+            "source_position_xz_m": [
+              69.2,
+              110.9
+            ],
+            "realized_position_xyz_m": [
+              69.2,
+              0,
+              110.9
+            ]
+          },
+          {
+            "id": "H06-R02-C18",
+            "tipo": "caixa de ferramentas fechada",
+            "microarea": "lateral_oeste",
+            "posicao_xz_m": [
+              47.1,
+              131.0
+            ],
+            "raio_qa_nominal_m": 0.5,
+            "historia_material": "Ferros de desgaste e ferrugem",
+            "status": "candidato_sem_asset_3d",
+            "suporte": "solo_sujeito_a_qa",
+            "label": "caixa de ferramentas fechada",
+            "position_xz_m": [
+              47.1,
+              131.0
+            ],
+            "kind": "storage",
+            "source_position_xz_m": [
+              47.1,
+              131.0
+            ],
+            "realized_position_xyz_m": [
+              47.1,
+              0,
+              131.0
+            ]
+          },
+          {
+            "id": "H06-R02-C19",
+            "tipo": "bacia metálica antiga",
+            "microarea": "fundo_oeste",
+            "posicao_xz_m": [
+              47.7,
+              105.7
+            ],
+            "raio_qa_nominal_m": 0.4,
+            "historia_material": "Recipiente de lavagem de peças",
+            "status": "candidato_sem_asset_3d",
+            "suporte": "solo_sujeito_a_qa",
+            "label": "bacia metálica antiga",
+            "position_xz_m": [
+              47.7,
+              105.7
+            ],
+            "kind": "basin",
+            "source_position_xz_m": [
+              47.7,
+              105.7
+            ],
+            "realized_position_xyz_m": [
+              47.7,
+              0,
+              105.7
+            ]
+          },
+          {
+            "id": "H06-R02-C20",
+            "tipo": "martelo de cabo de madeira",
+            "microarea": "mesa_sobreposta",
+            "posicao_xz_m": null,
+            "raio_qa_nominal_m": null,
+            "historia_material": "Posição depende do tampo real do SEATING_H06",
+            "status": "candidato_sem_asset_3d",
+            "suporte": "SEATING_H06",
+            "label": "martelo de cabo de madeira",
+            "position_xz_m": null,
+            "kind": "measured_surface_accessory",
+            "support": {
+              "kind": "outdoor_table",
+              "position_xz": [
+                60.0,
+                120.0
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.8125,
+              "yaw_degrees": 90.0
+            },
+            "realized_position_xyz_m": [
+              59.82,
+              0.8205,
+              120.5
+            ]
+          },
+          {
+            "id": "H06-R02-C21",
+            "tipo": "régua de madeira",
+            "microarea": "mesa_sobreposta",
+            "posicao_xz_m": null,
+            "raio_qa_nominal_m": null,
+            "historia_material": "Detalhe pequeno; só instanciar após QA 3D",
+            "status": "candidato_sem_asset_3d",
+            "suporte": "SEATING_H06",
+            "label": "régua de madeira",
+            "position_xz_m": null,
+            "kind": "measured_surface_accessory",
+            "support": {
+              "kind": "outdoor_table",
+              "position_xz": [
+                60.0,
+                120.0
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.8125,
+              "yaw_degrees": 90.0
+            },
+            "realized_position_xyz_m": [
+              59.82,
+              0.8205,
+              120.0
+            ]
+          },
+          {
+            "id": "H06-R02-C22",
+            "tipo": "caixinha de pregos",
+            "microarea": "mesa_sobreposta",
+            "posicao_xz_m": null,
+            "raio_qa_nominal_m": null,
+            "historia_material": "Ferragens sem atravessar a mesa",
+            "status": "candidato_sem_asset_3d",
+            "suporte": "SEATING_H06",
+            "label": "caixinha de pregos",
+            "position_xz_m": null,
+            "kind": "measured_surface_accessory",
+            "support": {
+              "kind": "outdoor_table",
+              "position_xz": [
+                60.0,
+                120.0
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.8125,
+              "yaw_degrees": 90.0
+            },
+            "realized_position_xyz_m": [
+              59.82,
+              0.8205,
+              119.5
+            ]
+          },
+          {
+            "id": "H06-R02-C23",
+            "tipo": "caderno de pedidos protegido",
+            "microarea": "mesa_sobreposta",
+            "posicao_xz_m": null,
+            "raio_qa_nominal_m": null,
+            "historia_material": "Somente se proteção física plausível; papel exposto pode ter desaparecido",
+            "status": "candidato_sem_asset_3d",
+            "suporte": "SEATING_H06",
+            "label": "caderno de pedidos protegido",
+            "position_xz_m": null,
+            "kind": "measured_surface_accessory",
+            "support": {
+              "kind": "outdoor_table",
+              "position_xz": [
+                60.0,
+                120.0
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.8125,
+              "yaw_degrees": 90.0
+            },
+            "realized_position_xyz_m": [
+              60.18,
+              0.8205,
+              120.5
+            ]
+          },
+          {
+            "id": "H06-R02-C24",
+            "tipo": "uma pequena peça de cadeira",
+            "microarea": "mesa_sobreposta",
+            "posicao_xz_m": null,
+            "raio_qa_nominal_m": null,
+            "historia_material": "Demonstração de reparo interrompido",
+            "status": "candidato_sem_asset_3d",
+            "suporte": "SEATING_H06",
+            "label": "uma pequena peça de cadeira",
+            "position_xz_m": null,
+            "kind": "measured_surface_accessory",
+            "support": {
+              "kind": "outdoor_table",
+              "position_xz": [
+                60.0,
+                120.0
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.8125,
+              "yaw_degrees": 90.0
+            },
+            "realized_position_xyz_m": [
+              60.18,
+              0.8205,
+              120.0
+            ]
+          },
+          {
+            "id": "H06-R02-C25",
+            "tipo": "lixa e retalho de tecido",
+            "microarea": "mesa_sobreposta",
+            "posicao_xz_m": null,
+            "raio_qa_nominal_m": null,
+            "historia_material": "Material orgânico pode estar degradado",
+            "status": "candidato_sem_asset_3d",
+            "suporte": "SEATING_H06",
+            "label": "lixa e retalho de tecido",
+            "position_xz_m": null,
+            "kind": "measured_surface_accessory",
+            "support": {
+              "kind": "outdoor_table",
+              "position_xz": [
+                60.0,
+                120.0
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.8125,
+              "yaw_degrees": 90.0
+            },
+            "realized_position_xyz_m": [
+              60.18,
+              0.8205,
+              119.5
+            ]
+          }
+        ],
+        "deferred_props": [],
+        "site_features": [],
+        "vehicle_gates": [],
+        "preserve_side_entry_reference": false,
+        "geometry_adjustments": [],
+        "service_path": [
+          [
+            58.35,
+            136.75
+          ],
+          [
+            52.35,
+            136.75
+          ],
+          [
+            50.65,
+            134.9
+          ],
+          [
+            50.55,
+            132.1
+          ],
+          [
+            49.65,
+            129.3
+          ],
+          [
+            49.65,
+            125.7
+          ],
+          [
+            51.3,
+            123.4
+          ],
+          [
+            55.7,
+            121.45
+          ],
+          [
+            57.5,
+            120.9
+          ]
+        ],
+        "service_width_m": 1.1,
+        "new_prop_families": [
+          "abandoned_beds",
+          "basin",
+          "cart",
+          "measured_surface_accessory",
+          "rack",
+          "sawhorse",
+          "seating",
+          "storage",
+          "stored_bundles",
+          "stored_ladder",
+          "vessels",
+          "watering_can"
+        ]
+      },
+      "source_group_keys": [
+        "H06_FURN_REV03_19_CHUVEIRO",
+        "H06_FURN_REV03_18_VASO",
+        "H06_FURN_REV03_17_LAVAT_RIO",
+        "H06_FURN_REV03_16_ARM_RIO",
+        "H06_FURN_REV03_15_CAMA_SOLTEIRO",
+        "H06_FURN_REV03_14_GUARDA_ROUPA",
+        "H06_FURN_REV03_13_CAMA_CASAL",
+        "H06_FURN_REV03_12_CADEIRA_D",
+        "H06_FURN_REV03_11_CADEIRA_C",
+        "H06_FURN_REV03_10_CADEIRA_B",
+        "H06_FURN_REV03_09_CADEIRA_A",
+        "H06_FURN_REV03_08_MESA_4L",
+        "H06_FURN_REV03_07_BALC_O_PIA",
+        "H06_FURN_REV03_06_FOG_O",
+        "H06_FURN_REV03_05_GELADEIRA",
+        "H06_FURN_REV03_04_ARM_RIO_PE_AS",
+        "H06_FURN_REV03_03_BANCADA_REPAROS",
+        "H06_FURN_REV03_02_RACK",
+        "H06_FURN_REV03_01",
+        "H06_FURN_REV03_00_SOF_2L"
+      ]
+    },
+    "H07": {
+      "revision": "REV03",
+      "artistic_model_approved": true,
+      "source_glb_sha256": "6a8bab872ae8b945b313c90aef87897daa5d428f0d94cd2e7500308052dcae3b",
+      "exterior_sha256": "b9bd11c0c41ab54f85ec1a3a63b9d20e1589b1390505eac7630e1e1ee5e0b642",
+      "scene": "res://staging/e06_world/arroio/scenes/interiors/H07.tscn",
+      "model": "res://staging/e06_world/arroio/assets/interiors_h06_h10_rev01/H07.gltf",
+      "floor_local_y": 0.2800000011920929,
+      "interior_bounds": [
+        [
+          -4.125,
+          -1.037500023841858,
+          -6.349999904632568
+        ],
+        [
+          4.644999980926514,
+          2.859999895095825,
+          6.349999904632568
+        ]
+      ],
+      "rooms": [
+        {
+          "id": "H07_FLOOR_REV03_05_BANHEIRO",
+          "source_name": "H07_FLOOR_REV03_05_BANHEIRO",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -4.125,
+              6.349999904632568
+            ],
+            [
+              -1.274999976158142,
+              6.349999904632568
+            ],
+            [
+              -1.274999976158142,
+              3.0199999809265137
+            ],
+            [
+              -4.125,
+              3.0199999809265137
+            ]
+          ],
+          "area_m2": 9.49049986195564,
+          "floor_local_y": 0.2800000011920929,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H07_FLOOR_REV03_04_COZINHA_SERVI_O",
+          "source_name": "H07_FLOOR_REV03_04_COZINHA_SERVI_O",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -1.274999976158142,
+              6.349999904632568
+            ],
+            [
+              1.125,
+              6.349999904632568
+            ],
+            [
+              1.125,
+              3.0199999809265137
+            ],
+            [
+              -1.274999976158142,
+              3.0199999809265137
+            ]
+          ],
+          "area_m2": 7.991999737501146,
+          "floor_local_y": 0.2800000011920929,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H07_FLOOR_REV03_03_REFEI_ES_LEITURA",
+          "source_name": "H07_FLOOR_REV03_03_REFEI_ES_LEITURA",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -4.125,
+              3.0199999809265137
+            ],
+            [
+              1.125,
+              3.0199999809265137
+            ],
+            [
+              1.125,
+              -2.3299999237060547
+            ],
+            [
+              -4.125,
+              -2.3299999237060547
+            ]
+          ],
+          "area_m2": 28.087499499320984,
+          "floor_local_y": 0.2800000011920929,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H07_FLOOR_REV03_02_SALA",
+          "source_name": "H07_FLOOR_REV03_02_SALA",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              1.125,
+              6.349999904632568
+            ],
+            [
+              4.644999980926514,
+              6.349999904632568
+            ],
+            [
+              4.644999980926514,
+              -2.3299999237060547
+            ],
+            [
+              1.125,
+              -2.3299999237060547
+            ]
+          ],
+          "area_m2": 30.553599230194095,
+          "floor_local_y": 0.2800000011920929,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H07_FLOOR_REV03_01_DORM_CASAL",
+          "source_name": "H07_FLOOR_REV03_01_DORM_CASAL",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -4.125,
+              -2.3299999237060547
+            ],
+            [
+              1.125,
+              -2.3299999237060547
+            ],
+            [
+              1.125,
+              -6.349999904632568
+            ],
+            [
+              -4.125,
+              -6.349999904632568
+            ]
+          ],
+          "area_m2": 21.104999899864197,
+          "floor_local_y": 0.2800000011920929,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H07_FLOOR_REV03_00_QUARTO_02",
+          "source_name": "H07_FLOOR_REV03_00_QUARTO_02",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              1.125,
+              -2.3299999237060547
+            ],
+            [
+              4.644999980926514,
+              -2.3299999237060547
+            ],
+            [
+              4.644999980926514,
+              -6.349999904632568
+            ],
+            [
+              1.125,
+              -6.349999904632568
+            ]
+          ],
+          "area_m2": 14.150399856185913,
+          "floor_local_y": 0.2800000011920929,
+          "access_mode": "enter_region"
+        }
+      ],
+      "doors": [
+        {
+          "mesh_name": "H07_DOOR_REV03_P07-01_HINGE_PIVOT",
+          "hinge": [
+            3.1210000000000004,
+            0.30500000000000005,
+            -2.33
+          ],
+          "source_to_closed_degrees": 0,
+          "open_degrees": -90,
+          "attached_meshes": [],
+          "unit": "main",
+          "source_bounds": [
+            [
+              2.309000023365021,
+              0.30500000000000005,
+              -2.3534999991953374
+            ],
+            [
+              3.1210000000000004,
+              2.4049999046325685,
+              -2.3065000008046628
+            ]
+          ],
+          "floor_local_y": 0.2800000011920929
+        },
+        {
+          "mesh_name": "H07_DOOR_REV03_P07-02_HINGE_PIVOT",
+          "hinge": [
+            -0.3390000000000004,
+            0.30500000000000005,
+            -2.33
+          ],
+          "source_to_closed_degrees": 0,
+          "open_degrees": -90,
+          "attached_meshes": [],
+          "unit": "main",
+          "source_bounds": [
+            [
+              -1.1509999766349797,
+              0.30500000000000005,
+              -2.3534999991953374
+            ],
+            [
+              -0.3390000000000004,
+              2.4049999046325685,
+              -2.3065000008046628
+            ]
+          ],
+          "floor_local_y": 0.2800000011920929
+        },
+        {
+          "mesh_name": "H07_DOOR_REV03_P07-03_HINGE_PIVOT",
+          "hinge": [
+            -2.319,
+            0.30500000000000005,
+            3.0200000000000005
+          ],
+          "source_to_closed_degrees": 0,
+          "open_degrees": 90,
+          "attached_meshes": [],
+          "unit": "main",
+          "source_bounds": [
+            [
+              -3.130999976634979,
+              0.30500000000000005,
+              2.996500000804663
+            ],
+            [
+              -2.319,
+              2.4049999046325685,
+              3.0434999991953378
+            ]
+          ],
+          "floor_local_y": 0.2800000011920929
+        }
+      ],
+      "units": [
+        {
+          "id": "main",
+          "bounds": [
+            [
+              -4.125,
+              0.1800000011920929,
+              -6.349999904632568
+            ],
+            [
+              4.644999980926514,
+              2.980000001192093,
+              6.349999904632568
+            ]
+          ],
+          "floor_local_y": 0.2800000011920929,
+          "entry_world": [
+            369.16666666666663,
+            150.57516649500528
+          ],
+          "front_vector": [
+            0,
+            1
+          ],
+          "approach_world": [
+            369.16666666666663,
+            153.1660986168577
+          ],
+          "independent_entry": true
+        }
+      ],
+      "qa_grid_step_m": 0.18,
+      "technical_adjustments": [
+        {
+          "prefix": "H07_FURN_REV03_21_CHUVEIRO_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            1.3225000250339507,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H07_FURN_REV03_20_VASO_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.7049999955296515,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H07_FURN_REV03_19_LAVAT_RIO_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.803499971628189,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H07_FURN_REV03_18_LAVADORA_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.7150000083446504,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H07_FURN_REV03_17_BALC_O_PIA_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.8000000185519456,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H07_FURN_REV03_16_FOG_O_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.7199999998509883,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H07_FURN_REV03_15_GELADEIRA_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            1.1050000294297933,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H07_FURN_REV03_14_MESA_LEITURA_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.670499998256564,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H07_FURN_REV03_13_CADEIRA_D_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.7349999892711638,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H07_FURN_REV03_12_CADEIRA_C_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.7349999892711638,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H07_FURN_REV03_11_CADEIRA_B_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.7349999892711638,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H07_FURN_REV03_10_CADEIRA_A_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.7349999892711638,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H07_FURN_REV03_09_MESA_6L_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.670499998256564,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H07_FURN_REV03_08_RACK_TV_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.5575000095367432,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H07_FURN_REV03_07_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            -0.02999999642372131,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H07_FURN_REV03_06_SOF_3L_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.7050000085681676,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H07_FURN_REV03_05_C_MODA_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.6724999892711638,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H07_FURN_REV03_04_GUARDA_ROUPA_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            1.2925000536441802,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H07_FURN_REV03_03_CAMA_CASAL_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.7300000052154063,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H07_FURN_REV03_02_ARM_RIO_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.6724999892711638,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H07_FURN_REV03_01_MESA_ESTUDO_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.670499998256564,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        },
+        {
+          "prefix": "H07_FURN_REV03_00_CAMA_SOLTEIRO_P",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "yaw_degrees": 0,
+          "translation": [
+            0,
+            0.7300000052154063,
+            0
+          ],
+          "reason": "Source furniture centered on Y=0: place complete assembly on supplied floor, without changing XZ/shape."
+        }
+      ],
+      "exterior_open_degrees": -90,
+      "exterior_rule": {
+        "enabled": true,
+        "master_candidate": true,
+        "revision": "ART-REV02",
+        "decision_id": "H07-ART-REV01",
+        "direction_approved": null,
+        "prototype_execution_authorized": true,
+        "visual_homologation": false,
+        "main_promotion_authorized": false,
+        "source_asset": "HAB_250",
+        "visual_path": "res://staging/e06_world/arroio/assets/current_h01_h20_rev01/H07.gltf",
+        "base_snapshot": "4802e8c233f66a4ad377bcc7",
+        "sector": "S01",
+        "building_position": [
+          369.16666666666663,
+          0,
+          145.83266666666665
+        ],
+        "building_yaw": 270,
+        "visual_offset": [
+          -0.08249998092651367,
+          -0.0,
+          -0.019999980926513672
+        ],
+        "gate_original": {
+          "center": [
+            374.12214859756256,
+            153.1660986168577
+          ],
+          "along": [
+            -1.0,
+            0.0
+          ],
+          "inward": [
+            -0.0,
+            -1.0
+          ],
+          "opening_width_m": 3.6,
+          "leaf_state": "open; no interaction script"
+        },
+        "gate_center": [
+          369.16666666666663,
+          153.1660986168577
+        ],
+        "gate_width_m": 3.6,
+        "door_xz": [
+          369.16666666666663,
+          150.57516649500528
+        ],
+        "front_direction": 1,
+        "floor_m": 0.28,
+        "eave_m": 3.05,
+        "ridge_m": 4.2,
+        "body_center_xz": [
+          369.16666666666663,
+          146.00766666666664
+        ],
+        "body_width_m": 13.05999984741211,
+        "body_depth_m": 9.134999656677252,
+        "body_bounds_xz": [
+          362.6366667429606,
+          141.44016683832803,
+          375.6966665903727,
+          150.57516649500528
+        ],
+        "candidate_translation_xyz": [
+          0,
+          0,
+          0
+        ],
+        "front_walls_to_recompose": [
+          "WALL_057",
+          "WALL_058"
+        ],
+        "access_path": [
+          [
+            369.16666666666663,
+            153.1660986168577
+          ],
+          [
+            369.16666666666663,
+            150.57516649500528
+          ]
+        ],
+        "access_width_m": 1.9,
+        "wall_color": [
+          0.78,
+          0.74,
+          0.63
+        ],
+        "wood_house": true,
+        "hip_roof": false,
+        "gray_roof": true,
+        "porch_depth_m": 0.75,
+        "porch_width_m": 2.2,
+        "object_moves": [
+          {
+            "id": "RAIN_BARREL_H07",
+            "from_xz": [
+              369,
+              141
+            ],
+            "candidate_xz": [
+              369,
+              139.5
+            ],
+            "reason": "Godot shape query confirmed intersection with the new rear foundation; candidate tested within the same yard.",
+            "candidate_only": true
+          }
+        ],
+        "extra_structures": [],
+        "triangles": 8052,
+        "id": "H07",
+        "identity": "Casa dos Passarinhos",
+        "source_visual_path": "res://staging/e06_world/arroio/assets/master_h01_h10_rev01/H07.gltf",
+        "current_revision_candidate": true,
+        "front_axis": 1,
+        "front_vector": [
+          0,
+          1
+        ],
+        "front_view": 1,
+        "service_branches": [],
+        "new_props": [
+          {
+            "id": "H07-R02-01",
+            "code": "ALIM_A",
+            "label": "comedouro madeira vazio",
+            "position_xz_m": [
+              360.5,
+              134.0
+            ],
+            "clearance_radius_m": 0.35,
+            "zone": "observacao",
+            "narrative_function": "Suporte simples e pote sem alimento, junto à área sombreada",
+            "placement": "ground_candidate",
+            "status": "pending_3d_qa",
+            "kind": "empty_bird_feeder",
+            "source_position_xz_m": [
+              360.5,
+              134.0
+            ],
+            "realized_position_xyz_m": [
+              360.5,
+              0,
+              134.0
+            ]
+          },
+          {
+            "id": "H07-R02-02",
+            "code": "ALIM_B",
+            "label": "comedouro metal antigo",
+            "position_xz_m": [
+              378.2,
+              132.6
+            ],
+            "clearance_radius_m": 0.35,
+            "zone": "observacao",
+            "narrative_function": "Ferragem oxidada, sem alimento remanescente",
+            "placement": "ground_candidate",
+            "status": "pending_3d_qa",
+            "kind": "empty_bird_feeder",
+            "source_position_xz_m": [
+              378.2,
+              132.6
+            ],
+            "realized_position_xyz_m": [
+              378.2,
+              0,
+              132.6
+            ]
+          },
+          {
+            "id": "H07-R02-03",
+            "code": "BANHO",
+            "label": "banheira rasa de aves",
+            "position_xz_m": [
+              373.0,
+              129.1
+            ],
+            "clearance_radius_m": 0.45,
+            "zone": "observacao",
+            "narrative_function": "Bacia externa com água não pressuposta",
+            "placement": "ground_candidate",
+            "status": "pending_3d_qa",
+            "kind": "storage",
+            "source_position_xz_m": [
+              373.0,
+              129.1
+            ],
+            "realized_position_xyz_m": [
+              373.0,
+              0,
+              129.1
+            ]
+          },
+          {
+            "id": "H07-R02-04",
+            "code": "POSTE_NINHO_A",
+            "label": "suporte de ninho",
+            "position_xz_m": [
+              360.8,
+              122.1
+            ],
+            "clearance_radius_m": 0.38,
+            "zone": "refugio",
+            "narrative_function": "Madeira antiga, vestígio de fixação e abrigo pequeno",
+            "placement": "ground_candidate",
+            "status": "pending_3d_qa",
+            "kind": "empty_bird_feeder",
+            "source_position_xz_m": [
+              360.8,
+              122.1
+            ],
+            "realized_position_xyz_m": [
+              360.8,
+              0,
+              122.1
+            ]
+          },
+          {
+            "id": "H07-R02-05",
+            "code": "POSTE_NINHO_B",
+            "label": "suporte de ninho",
+            "position_xz_m": [
+              378.0,
+              117.9
+            ],
+            "clearance_radius_m": 0.38,
+            "zone": "refugio",
+            "narrative_function": "Pequeno suporte, sem estruturar novo galpão",
+            "placement": "ground_candidate",
+            "status": "pending_3d_qa",
+            "kind": "empty_bird_feeder",
+            "source_position_xz_m": [
+              378.0,
+              117.9
+            ],
+            "realized_position_xyz_m": [
+              378.0,
+              0,
+              117.9
+            ]
+          },
+          {
+            "id": "H07-R02-06",
+            "code": "CAIXA_SEMENTES",
+            "label": "caixa fechada",
+            "position_xz_m": [
+              364.6,
+              136.4
+            ],
+            "clearance_radius_m": 0.4,
+            "zone": "bancada",
+            "narrative_function": "Armazenamento doméstico abandonado",
+            "placement": "ground_candidate",
+            "status": "pending_3d_qa",
+            "kind": "storage",
+            "source_position_xz_m": [
+              364.6,
+              136.4
+            ],
+            "realized_position_xyz_m": [
+              364.6,
+              0,
+              136.4
+            ]
+          },
+          {
+            "id": "H07-R02-07",
+            "code": "CESTO_SISAL",
+            "label": "cesto velho",
+            "position_xz_m": [
+              366.2,
+              137.3
+            ],
+            "clearance_radius_m": 0.42,
+            "zone": "bancada",
+            "narrative_function": "Cesto que levava recipientes entre bancada e jardim",
+            "placement": "ground_candidate",
+            "status": "pending_3d_qa",
+            "kind": "vessels",
+            "source_position_xz_m": [
+              366.2,
+              137.3
+            ],
+            "realized_position_xyz_m": [
+              366.2,
+              0,
+              137.3
+            ]
+          },
+          {
+            "id": "H07-R02-08",
+            "code": "POLEIRO_GALHO",
+            "label": "galho de apoio",
+            "position_xz_m": [
+              365.0,
+              122.3
+            ],
+            "clearance_radius_m": 0.3,
+            "zone": "refugio",
+            "narrative_function": "Galho reaproveitado preso a suporte pequeno",
+            "placement": "ground_candidate",
+            "status": "pending_3d_qa",
+            "kind": "storage",
+            "source_position_xz_m": [
+              365.0,
+              122.3
+            ],
+            "realized_position_xyz_m": [
+              365.0,
+              0,
+              122.3
+            ]
+          },
+          {
+            "id": "H07-R02-09",
+            "code": "POTE_CERAMICO",
+            "label": "pote quebrado",
+            "position_xz_m": [
+              371.0,
+              122.4
+            ],
+            "clearance_radius_m": 0.32,
+            "zone": "refugio",
+            "narrative_function": "Pote antigo próximo à pitangueira",
+            "placement": "ground_candidate",
+            "status": "pending_3d_qa",
+            "kind": "vessels",
+            "source_position_xz_m": [
+              371.0,
+              122.4
+            ],
+            "realized_position_xyz_m": [
+              371.0,
+              0,
+              122.4
+            ]
+          },
+          {
+            "id": "H07-R02-10",
+            "code": "REGADOR",
+            "label": "regador enferrujado",
+            "position_xz_m": [
+              376.5,
+              133.2
+            ],
+            "clearance_radius_m": 0.37,
+            "zone": "cultivo",
+            "narrative_function": "Objeto resistente, sem pressupor rega recente",
+            "placement": "ground_candidate",
+            "status": "pending_3d_qa",
+            "kind": "watering_can",
+            "source_position_xz_m": [
+              376.5,
+              133.2
+            ],
+            "realized_position_xyz_m": [
+              376.5,
+              0,
+              133.2
+            ]
+          },
+          {
+            "id": "H07-R02-11",
+            "code": "VASSOURA",
+            "label": "vassoura de fibras",
+            "position_xz_m": [
+              360.1,
+              138.9
+            ],
+            "clearance_radius_m": 0.35,
+            "zone": "servico",
+            "narrative_function": "Material degradado junto ao canto de serviço",
+            "placement": "ground_candidate",
+            "status": "pending_3d_qa",
+            "kind": "storage",
+            "source_position_xz_m": [
+              360.1,
+              138.9
+            ],
+            "realized_position_xyz_m": [
+              360.1,
+              0,
+              138.9
+            ]
+          },
+          {
+            "id": "H07-R02-12",
+            "code": "LATA_VAZIA",
+            "label": "lata de sementes vazia",
+            "position_xz_m": [
+              368.0,
+              138.1
+            ],
+            "clearance_radius_m": 0.34,
+            "zone": "bancada",
+            "narrative_function": "Recipiente sem sementes preservadas após três anos",
+            "placement": "ground_candidate",
+            "status": "pending_3d_qa",
+            "kind": "small_metal_can",
+            "source_position_xz_m": [
+              368.0,
+              138.1
+            ],
+            "realized_position_xyz_m": [
+              368.0,
+              0,
+              138.1
+            ]
+          },
+          {
+            "id": "H07-R02-13",
+            "code": "BANDEJA_FOLHAS",
+            "label": "bandeja velha",
+            "position_xz_m": [
+              360.5,
+              129.4
+            ],
+            "clearance_radius_m": 0.33,
+            "zone": "observacao",
+            "narrative_function": "Bandeja deteriorada próxima da sombra",
+            "placement": "ground_candidate",
+            "status": "pending_3d_qa",
+            "kind": "storage",
+            "source_position_xz_m": [
+              360.5,
+              129.4
+            ],
+            "realized_position_xyz_m": [
+              360.5,
+              0,
+              129.4
+            ]
+          },
+          {
+            "id": "H07-R02-14",
+            "code": "PLACAS_AVES",
+            "label": "plaquinha de madeira",
+            "position_xz_m": [
+              368.3,
+              121.2
+            ],
+            "clearance_radius_m": 0.3,
+            "zone": "refugio",
+            "narrative_function": "Marcador escrito sem legibilidade obrigatória",
+            "placement": "ground_candidate",
+            "status": "pending_3d_qa",
+            "kind": "storage",
+            "source_position_xz_m": [
+              368.3,
+              121.2
+            ],
+            "realized_position_xyz_m": [
+              368.3,
+              0,
+              121.2
+            ]
+          },
+          {
+            "id": "H07-R02-15",
+            "code": "BALDE",
+            "label": "balde antigo",
+            "position_xz_m": [
+              377.0,
+              136.6
+            ],
+            "clearance_radius_m": 0.37,
+            "zone": "servico",
+            "narrative_function": "Recipiente junto à faixa lateral fora do eixo de serviço",
+            "placement": "ground_candidate",
+            "status": "pending_3d_qa",
+            "kind": "vessels",
+            "source_position_xz_m": [
+              377.0,
+              136.6
+            ],
+            "realized_position_xyz_m": [
+              377.0,
+              0,
+              136.6
+            ]
+          },
+          {
+            "id": "H07-R02-16",
+            "code": "TABUAS",
+            "label": "duas tábuas",
+            "position_xz_m": [
+              372.3,
+              138.2
+            ],
+            "clearance_radius_m": 0.44,
+            "zone": "bancada",
+            "narrative_function": "Sobras de suportes, sem nova oficina",
+            "placement": "ground_candidate",
+            "status": "pending_3d_qa",
+            "kind": "stored_bundles",
+            "source_position_xz_m": [
+              372.3,
+              138.2
+            ],
+            "realized_position_xyz_m": [
+              372.3,
+              0,
+              138.2
+            ]
+          },
+          {
+            "id": "H07-R02-17",
+            "code": "ROLINHO",
+            "label": "rolo de corda",
+            "position_xz_m": [
+              366.4,
+              119.0
+            ],
+            "clearance_radius_m": 0.33,
+            "zone": "refugio",
+            "narrative_function": "Fios envelhecidos e desgastados",
+            "placement": "ground_candidate",
+            "status": "pending_3d_qa",
+            "kind": "storage",
+            "source_position_xz_m": [
+              366.4,
+              119.0
+            ],
+            "realized_position_xyz_m": [
+              366.4,
+              0,
+              119.0
+            ]
+          },
+          {
+            "id": "H07-R02-18",
+            "code": "VASO",
+            "label": "vaso tombado",
+            "position_xz_m": [
+              379.1,
+              123.0
+            ],
+            "clearance_radius_m": 0.38,
+            "zone": "cultivo",
+            "narrative_function": "Borda do cultivo antigo, próximo à divisa sem tocá-la",
+            "placement": "ground_candidate",
+            "status": "pending_3d_qa",
+            "kind": "vessels",
+            "source_position_xz_m": [
+              379.1,
+              123.0
+            ],
+            "realized_position_xyz_m": [
+              379.1,
+              0,
+              123.0
+            ]
+          },
+          {
+            "id": "H07-R02-19",
+            "code": "CADERNETA",
+            "label": "caderneta de observação",
+            "attach_to": "SEATING_H07",
+            "position_xz_m": null,
+            "zone": "bancada",
+            "narrative_function": "Folhas danificadas por umidade; conteúdo não define cânone",
+            "placement": "tabletop_deferred",
+            "status": "pending_table_mesh_height",
+            "kind": "measured_surface_accessory",
+            "support": {
+              "kind": "workbench",
+              "position_xz": [
+                371.0,
+                135.0
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.949999988079071,
+              "yaw_degrees": 270.0
+            },
+            "realized_position_xyz_m": [
+              371.18,
+              0.957999988079071,
+              134.5
+            ]
+          },
+          {
+            "id": "H07-R02-20",
+            "code": "CAIXINHA",
+            "label": "caixa de madeira pequena",
+            "attach_to": "SEATING_H07",
+            "position_xz_m": null,
+            "zone": "bancada",
+            "narrative_function": "Guardava barbantes e suportes",
+            "placement": "tabletop_deferred",
+            "status": "pending_table_mesh_height",
+            "kind": "measured_surface_accessory",
+            "support": {
+              "kind": "workbench",
+              "position_xz": [
+                371.0,
+                135.0
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.949999988079071,
+              "yaw_degrees": 270.0
+            },
+            "realized_position_xyz_m": [
+              371.18,
+              0.957999988079071,
+              135.0
+            ]
+          },
+          {
+            "id": "H07-R02-21",
+            "code": "LUPA",
+            "label": "lupa danificada",
+            "attach_to": "SEATING_H07",
+            "position_xz_m": null,
+            "zone": "bancada",
+            "narrative_function": "Utensílio de observação, sem funcionalidade jogável",
+            "placement": "tabletop_deferred",
+            "status": "pending_table_mesh_height",
+            "kind": "measured_surface_accessory",
+            "support": {
+              "kind": "workbench",
+              "position_xz": [
+                371.0,
+                135.0
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.949999988079071,
+              "yaw_degrees": 270.0
+            },
+            "realized_position_xyz_m": [
+              371.18,
+              0.957999988079071,
+              135.5
+            ]
+          },
+          {
+            "id": "H07-R02-22",
+            "code": "ESCOVA",
+            "label": "escova de limpeza",
+            "attach_to": "SEATING_H07",
+            "position_xz_m": null,
+            "zone": "bancada",
+            "narrative_function": "Usada para limpar recipientes e comedouros",
+            "placement": "tabletop_deferred",
+            "status": "pending_table_mesh_height",
+            "kind": "measured_surface_accessory",
+            "support": {
+              "kind": "workbench",
+              "position_xz": [
+                371.0,
+                135.0
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.949999988079071,
+              "yaw_degrees": 270.0
+            },
+            "realized_position_xyz_m": [
+              370.82,
+              0.957999988079071,
+              134.5
+            ]
+          },
+          {
+            "id": "H07-R02-23",
+            "code": "POTE_TAMPA",
+            "label": "pote de sementes vazio",
+            "attach_to": "SEATING_H07",
+            "position_xz_m": null,
+            "zone": "bancada",
+            "narrative_function": "Tampa solta; alimento não permanece intacto",
+            "placement": "tabletop_deferred",
+            "status": "pending_table_mesh_height",
+            "kind": "measured_surface_accessory",
+            "support": {
+              "kind": "workbench",
+              "position_xz": [
+                371.0,
+                135.0
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.949999988079071,
+              "yaw_degrees": 270.0
+            },
+            "realized_position_xyz_m": [
+              370.82,
+              0.957999988079071,
+              135.0
+            ]
+          }
+        ],
+        "deferred_props": [],
+        "site_features": [],
+        "vehicle_gates": [],
+        "preserve_side_entry_reference": false,
+        "geometry_adjustments": [],
+        "service_path": [
+          [
+            369.17,
+            152.12
+          ],
+          [
+            378.65,
+            152.12
+          ],
+          [
+            378.65,
+            140.0
+          ],
+          [
+            378.65,
+            136.0
+          ]
+        ],
+        "service_width_m": 1.1,
+        "new_prop_families": [
+          "empty_bird_feeder",
+          "measured_surface_accessory",
+          "small_metal_can",
+          "storage",
+          "stored_bundles",
+          "vessels",
+          "watering_can"
+        ]
+      },
+      "source_group_keys": [
+        "H07_FURN_REV03_21_CHUVEIRO",
+        "H07_FURN_REV03_20_VASO",
+        "H07_FURN_REV03_19_LAVAT_RIO",
+        "H07_FURN_REV03_18_LAVADORA",
+        "H07_FURN_REV03_17_BALC_O_PIA",
+        "H07_FURN_REV03_16_FOG_O",
+        "H07_FURN_REV03_15_GELADEIRA",
+        "H07_FURN_REV03_14_MESA_LEITURA",
+        "H07_FURN_REV03_13_CADEIRA_D",
+        "H07_FURN_REV03_12_CADEIRA_C",
+        "H07_FURN_REV03_11_CADEIRA_B",
+        "H07_FURN_REV03_10_CADEIRA_A",
+        "H07_FURN_REV03_09_MESA_6L",
+        "H07_FURN_REV03_08_RACK_TV",
+        "H07_FURN_REV03_07",
+        "H07_FURN_REV03_06_SOF_3L",
+        "H07_FURN_REV03_05_C_MODA",
+        "H07_FURN_REV03_04_GUARDA_ROUPA",
+        "H07_FURN_REV03_03_CAMA_CASAL",
+        "H07_FURN_REV03_02_ARM_RIO",
+        "H07_FURN_REV03_01_MESA_ESTUDO",
+        "H07_FURN_REV03_00_CAMA_SOLTEIRO"
+      ]
+    },
+    "H08": {
+      "revision": "REV03",
+      "artistic_model_approved": false,
+      "source_glb_sha256": "a85f77b1305fd31b331ade2a9ded0c4af65d0e40c6dd681802884df9578c4582",
+      "exterior_sha256": "d7b7c10fe602df30848b56bf49cf94a60b32e0f917f88b75ff30dd13afb901e0",
+      "scene": "res://staging/e06_world/arroio/scenes/interiors/H08.tscn",
+      "model": "res://staging/e06_world/arroio/assets/interiors_h06_h10_rev01/H08.gltf",
+      "floor_local_y": 0.30600000026822094,
+      "interior_bounds": [
+        [
+          -3.470000014305115,
+          0.27999999973177914,
+          -5.820000038146972
+        ],
+        [
+          4.020000038146973,
+          2.8599999904632565,
+          6.020000038146971
+        ]
+      ],
+      "rooms": [
+        {
+          "id": "H08_FLOOR_06_SERVIÇO_/_DESPENSA",
+          "source_name": "H08_FLOOR_06_SERVIÇO_/_DESPENSA",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -3.4699999666213985,
+              6.020000038146971
+            ],
+            [
+              -0.6500000333786007,
+              6.020000038146971
+            ],
+            [
+              -0.6500000333786007,
+              2.349999961853026
+            ],
+            [
+              -3.4699999666213985,
+              2.349999961853026
+            ]
+          ],
+          "area_m2": 10.349399970149989,
+          "floor_local_y": 0.30600000026822094,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H08_FLOOR_05_BANHEIRO",
+          "source_name": "H08_FLOOR_05_BANHEIRO",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -3.470000014305115,
+              2.350000023841858
+            ],
+            [
+              -0.9999999856948856,
+              2.350000023841858
+            ],
+            [
+              -0.9999999856948856,
+              -0.3500000238418579
+            ],
+            [
+              -3.470000014305115,
+              -0.3500000238418579
+            ]
+          ],
+          "area_m2": 6.669000195026399,
+          "floor_local_y": 0.30600000026822094,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H08_FLOOR_04_ACESSO_ÍNTIMO",
+          "source_name": "H08_FLOOR_04_ACESSO_ÍNTIMO",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -0.9999999761581417,
+              2.350000023841858
+            ],
+            [
+              0.29999997615814245,
+              2.350000023841858
+            ],
+            [
+              0.29999997615814245,
+              -0.3500000238418579
+            ],
+            [
+              -0.9999999761581417,
+              -0.3500000238418579
+            ]
+          ],
+          "area_m2": 3.5099999332427956,
+          "floor_local_y": 0.30600000026822094,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H08_FLOOR_03_QUARTO_CASAL",
+          "source_name": "H08_FLOOR_03_QUARTO_CASAL",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -3.469999990463257,
+              -0.35000010490417477
+            ],
+            [
+              0.29999999046325687,
+              -0.35000010490417477
+            ],
+            [
+              0.29999999046325687,
+              -5.819999895095825
+            ],
+            [
+              -3.469999990463257,
+              -5.819999895095825
+            ]
+          ],
+          "area_m2": 20.621899104690556,
+          "floor_local_y": 0.30600000026822094,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H08_FLOOR_02_COZINHA_/_REFEIÇÕES",
+          "source_name": "H08_FLOOR_02_COZINHA_/_REFEIÇÕES",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -0.6500000381469722,
+              6.020000038146971
+            ],
+            [
+              4.020000038146973,
+              6.020000038146971
+            ],
+            [
+              4.020000038146973,
+              2.349999961853026
+            ],
+            [
+              -0.6500000381469722,
+              2.349999961853026
+            ]
+          ],
+          "area_m2": 17.13890063629151,
+          "floor_local_y": 0.30600000026822094,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H08_FLOOR_01_SALA",
+          "source_name": "H08_FLOOR_01_SALA",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              0.2999999856948854,
+              2.3499999999999996
+            ],
+            [
+              4.020000014305115,
+              2.3499999999999996
+            ],
+            [
+              4.020000014305115,
+              -2.1500000000000004
+            ],
+            [
+              0.2999999856948854,
+              -2.1500000000000004
+            ]
+          ],
+          "area_m2": 16.740000128746033,
+          "floor_local_y": 0.30600000026822094,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H08_FLOOR_00_QUARTO_02",
+          "source_name": "H08_FLOOR_00_QUARTO_02",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              0.2999999856948854,
+              -2.149999961853027
+            ],
+            [
+              4.020000014305115,
+              -2.149999961853027
+            ],
+            [
+              4.020000014305115,
+              -5.820000038146972
+            ],
+            [
+              0.2999999856948854,
+              -5.820000038146972
+            ]
+          ],
+          "area_m2": 13.65240038881302,
+          "floor_local_y": 0.30600000026822094,
+          "access_mode": "enter_region"
+        }
+      ],
+      "doors": [
+        {
+          "mesh_name": "H08_D01_quarto_02_PIVOT",
+          "hinge": [
+            1.6500000000000004,
+            0.28,
+            -2.15
+          ],
+          "source_to_closed_degrees": 0,
+          "open_degrees": -90,
+          "attached_meshes": [],
+          "unit": "main",
+          "source_bounds": [
+            [
+              0.9099999904632572,
+              0.28,
+              -2.1730000000447034
+            ],
+            [
+              1.6500000000000004,
+              2.3399999427795413,
+              -2.1269999999552964
+            ]
+          ],
+          "floor_local_y": 0.30600000026822094
+        },
+        {
+          "mesh_name": "H08_D02_casal_PIVOT",
+          "hinge": [
+            0.30000000000000027,
+            0.28,
+            -1.7199999999999998
+          ],
+          "source_to_closed_degrees": 0,
+          "open_degrees": -90,
+          "attached_meshes": [],
+          "unit": "main",
+          "source_bounds": [
+            [
+              0.2769999999552968,
+              0.28,
+              -1.7199999999999998
+            ],
+            [
+              0.32300000004470375,
+              2.3399999427795413,
+              -0.9600000095367429
+            ]
+          ],
+          "floor_local_y": 0.30600000026822094
+        },
+        {
+          "mesh_name": "H08_D03_banheiro_PIVOT",
+          "hinge": [
+            -1.0,
+            0.28,
+            0.5199999999999996
+          ],
+          "source_to_closed_degrees": 0,
+          "open_degrees": -90,
+          "attached_meshes": [],
+          "unit": "main",
+          "source_bounds": [
+            [
+              -1.0230000000447035,
+              0.28,
+              0.5199999999999996
+            ],
+            [
+              -0.9769999999552965,
+              2.3399999427795413,
+              1.2600000095367427
+            ]
+          ],
+          "floor_local_y": 0.30600000026822094
+        },
+        {
+          "mesh_name": "H08_D04_serviço_PIVOT",
+          "hinge": [
+            -0.6499999999999995,
+            0.28,
+            3.630000000000001
+          ],
+          "source_to_closed_degrees": 0,
+          "open_degrees": -90,
+          "attached_meshes": [],
+          "unit": "main",
+          "source_bounds": [
+            [
+              -0.673000000044703,
+              0.28,
+              3.630000000000001
+            ],
+            [
+              -0.626999999955296,
+              2.3399999427795413,
+              4.370000009536744
+            ]
+          ],
+          "floor_local_y": 0.30600000026822094
+        }
+      ],
+      "units": [
+        {
+          "id": "main",
+          "bounds": [
+            [
+              -3.470000014305115,
+              0.20600000026822093,
+              -5.820000038146972
+            ],
+            [
+              4.020000038146973,
+              3.0060000002682212,
+              6.020000038146971
+            ]
+          ],
+          "floor_local_y": 0.30600000026822094,
+          "entry_world": [
+            390.8333333333333,
+            150.61066657129922
+          ],
+          "front_vector": [
+            0,
+            1
+          ],
+          "approach_world": [
+            390.8333333333333,
+            153.84407041454259
+          ],
+          "independent_entry": true
+        }
+      ],
+      "qa_grid_step_m": 0.09,
+      "technical_adjustments": [
+        {
+          "prefix": "H08_FURN_01_tv_rack_",
+          "pivot": [
+            1.31,
+            0,
+            -0.98
+          ],
+          "yaw_degrees": 90,
+          "translation": [
+            0,
+            0,
+            0.3
+          ],
+          "reason": "Align TV rack with sofa and move it 0.30 m away from the bedroom partition to clear both bedroom approaches."
+        }
+      ],
+      "exterior_open_degrees": -90,
+      "exterior_rule": {
+        "enabled": true,
+        "master_candidate": true,
+        "revision": "ART-REV02",
+        "decision_id": "H08-ART-REV01",
+        "direction_approved": null,
+        "prototype_execution_authorized": true,
+        "visual_homologation": false,
+        "main_promotion_authorized": false,
+        "source_asset": "HAB_351",
+        "visual_path": "res://staging/e06_world/arroio/assets/current_h01_h20_rev01/H08.gltf",
+        "base_snapshot": "4802e8c233f66a4ad377bcc7",
+        "sector": "S01",
+        "building_position": [
+          390.8333333333333,
+          0,
+          146.51066666666665
+        ],
+        "building_yaw": 270,
+        "visual_offset": [
+          -0.0,
+          -0.0,
+          -0.20000004768371582
+        ],
+        "gate_original": {
+          "center": [
+            396.4187781280271,
+            153.84407041454259
+          ],
+          "along": [
+            -1.0,
+            0.0
+          ],
+          "inward": [
+            -0.0,
+            -1.0
+          ],
+          "opening_width_m": 3.6,
+          "leaf_state": "open; no interaction script"
+        },
+        "gate_center": [
+          390.8333333333333,
+          153.84407041454259
+        ],
+        "gate_width_m": 3.6,
+        "door_xz": [
+          390.8333333333333,
+          150.61066657129922
+        ],
+        "front_direction": 1,
+        "floor_m": 0.28,
+        "eave_m": 2.9,
+        "ridge_m": 4.2,
+        "body_center_xz": [
+          390.83333333333326,
+          146.68566666666663
+        ],
+        "body_width_m": 12.199999713897705,
+        "body_depth_m": 7.849999809265142,
+        "body_bounds_xz": [
+          384.7333334763844,
+          142.76066676203408,
+          396.9333331902821,
+          150.61066657129922
+        ],
+        "candidate_translation_xyz": [
+          0,
+          0,
+          0
+        ],
+        "front_walls_to_recompose": [
+          "WALL_059",
+          "WALL_060"
+        ],
+        "access_path": [
+          [
+            390.8333333333333,
+            153.84407041454259
+          ],
+          [
+            390.8333333333333,
+            150.61066657129922
+          ]
+        ],
+        "access_width_m": 1.9,
+        "wall_color": [
+          0.3,
+          0.48,
+          0.62
+        ],
+        "wood_house": false,
+        "hip_roof": false,
+        "gray_roof": false,
+        "porch_depth_m": 0.65,
+        "porch_width_m": 1.7,
+        "object_moves": [],
+        "extra_structures": [],
+        "triangles": 11148,
+        "id": "H08",
+        "identity": "Casa das Compotas",
+        "source_visual_path": "res://staging/e06_world/arroio/assets/master_h01_h10_rev01/H08.gltf",
+        "current_revision_candidate": true,
+        "front_axis": 1,
+        "front_vector": [
+          0,
+          1
+        ],
+        "front_view": 1,
+        "service_branches": [],
+        "new_props": [
+          {
+            "id": "H08-R02-01",
+            "code": "CAIXOTE_POTES",
+            "label": "caixote de frascos vazios",
+            "position_xz_m": [
+              396.2,
+              130.7
+            ],
+            "clearance_radius_m": 0.48,
+            "zone": "armazenagem",
+            "narrative_function": "Caixote de madeira para transportar frascos usados",
+            "placement": "ground_candidate",
+            "status": "pending_mesh_qa",
+            "kind": "storage",
+            "source_position_xz_m": [
+              396.2,
+              130.7
+            ],
+            "realized_position_xyz_m": [
+              396.2,
+              0,
+              130.7
+            ]
+          },
+          {
+            "id": "H08-R02-02",
+            "code": "CAIXA_TAMPAS",
+            "label": "caixa de tampas oxidadas",
+            "position_xz_m": [
+              396.7,
+              132.2
+            ],
+            "clearance_radius_m": 0.4,
+            "zone": "armazenagem",
+            "narrative_function": "Tampas separadas para reutilização",
+            "placement": "ground_candidate",
+            "status": "pending_mesh_qa",
+            "kind": "storage",
+            "source_position_xz_m": [
+              396.7,
+              132.2
+            ],
+            "realized_position_xyz_m": [
+              396.7,
+              0,
+              132.2
+            ]
+          },
+          {
+            "id": "H08-R02-03",
+            "code": "ESCORREDOR",
+            "label": "escorredor antigo",
+            "position_xz_m": [
+              394.5,
+              126.4
+            ],
+            "clearance_radius_m": 0.4,
+            "zone": "preparo",
+            "narrative_function": "Utensílio de secagem em área de serviço",
+            "placement": "ground_candidate",
+            "status": "pending_mesh_qa",
+            "kind": "storage",
+            "source_position_xz_m": [
+              394.5,
+              126.4
+            ],
+            "realized_position_xyz_m": [
+              394.5,
+              0,
+              126.4
+            ]
+          },
+          {
+            "id": "H08-R02-04",
+            "code": "BIDON",
+            "label": "bidão metálico vazio",
+            "position_xz_m": [
+              396.2,
+              123.8
+            ],
+            "clearance_radius_m": 0.44,
+            "zone": "preparo",
+            "narrative_function": "Recipiente esvaziado pelo tempo",
+            "placement": "ground_candidate",
+            "status": "pending_mesh_qa",
+            "kind": "storage",
+            "source_position_xz_m": [
+              396.2,
+              123.8
+            ],
+            "realized_position_xyz_m": [
+              396.2,
+              0,
+              123.8
+            ]
+          },
+          {
+            "id": "H08-R02-05",
+            "code": "CESTO_A",
+            "label": "cesto de vime ressecado",
+            "position_xz_m": [
+              384.4,
+              134.3
+            ],
+            "clearance_radius_m": 0.45,
+            "zone": "preparo",
+            "narrative_function": "Cestos de transporte de frutas compradas ou trocadas",
+            "placement": "ground_candidate",
+            "status": "pending_mesh_qa",
+            "kind": "vessels",
+            "source_position_xz_m": [
+              384.4,
+              134.3
+            ],
+            "realized_position_xyz_m": [
+              384.4,
+              0,
+              134.3
+            ]
+          },
+          {
+            "id": "H08-R02-06",
+            "code": "CESTO_B",
+            "label": "cesto pequeno rachado",
+            "position_xz_m": [
+              383.3,
+              131.9
+            ],
+            "clearance_radius_m": 0.35,
+            "zone": "preparo",
+            "narrative_function": "Cesto deteriorado sem fruta preservada",
+            "placement": "ground_candidate",
+            "status": "pending_mesh_qa",
+            "kind": "vessels",
+            "source_position_xz_m": [
+              383.3,
+              131.9
+            ],
+            "realized_position_xyz_m": [
+              383.3,
+              0,
+              131.9
+            ]
+          },
+          {
+            "id": "H08-R02-07",
+            "code": "PRATELEIRA_BAIXA",
+            "label": "prateleira baixa tombada",
+            "position_xz_m": [
+              396.6,
+              119.3
+            ],
+            "clearance_radius_m": 0.45,
+            "zone": "armazenagem",
+            "narrative_function": "Móvel leve abandonado, sem volume edificado",
+            "placement": "ground_candidate",
+            "status": "pending_mesh_qa",
+            "kind": "shelf",
+            "source_position_xz_m": [
+              396.6,
+              119.3
+            ],
+            "realized_position_xyz_m": [
+              396.6,
+              0,
+              119.3
+            ]
+          },
+          {
+            "id": "H08-R02-08",
+            "code": "CAIXOTES_LADOS",
+            "label": "caixotes empilhados baixos",
+            "position_xz_m": [
+              383.4,
+              125.5
+            ],
+            "clearance_radius_m": 0.46,
+            "zone": "armazenagem",
+            "narrative_function": "Caixas de vidro e ferramentas familiares",
+            "placement": "ground_candidate",
+            "status": "pending_mesh_qa",
+            "kind": "storage",
+            "source_position_xz_m": [
+              383.4,
+              125.5
+            ],
+            "realized_position_xyz_m": [
+              383.4,
+              0,
+              125.5
+            ]
+          },
+          {
+            "id": "H08-R02-09",
+            "code": "REGADOR",
+            "label": "regador de jardim",
+            "position_xz_m": [
+              382.9,
+              137.0
+            ],
+            "clearance_radius_m": 0.35,
+            "zone": "canteiro",
+            "narrative_function": "Regador abandonado junto à horta ornamental",
+            "placement": "ground_candidate",
+            "status": "pending_mesh_qa",
+            "kind": "watering_can",
+            "source_position_xz_m": [
+              382.9,
+              137.0
+            ],
+            "realized_position_xyz_m": [
+              382.9,
+              0,
+              137.0
+            ]
+          },
+          {
+            "id": "H08-R02-10",
+            "code": "VASO",
+            "label": "vaso cerâmico tombado",
+            "position_xz_m": [
+              384.2,
+              138.1
+            ],
+            "clearance_radius_m": 0.34,
+            "zone": "canteiro",
+            "narrative_function": "Vaso quebrado na antiga área de cultivo",
+            "placement": "ground_candidate",
+            "status": "pending_mesh_qa",
+            "kind": "vessels",
+            "source_position_xz_m": [
+              384.2,
+              138.1
+            ],
+            "realized_position_xyz_m": [
+              384.2,
+              0,
+              138.1
+            ]
+          },
+          {
+            "id": "H08-R02-11",
+            "code": "BALDE",
+            "label": "balde vazio",
+            "position_xz_m": [
+              395.9,
+              137.1
+            ],
+            "clearance_radius_m": 0.34,
+            "zone": "servico",
+            "narrative_function": "Recipiente próximo à circulação de serviço",
+            "placement": "ground_candidate",
+            "status": "pending_mesh_qa",
+            "kind": "vessels",
+            "source_position_xz_m": [
+              395.9,
+              137.1
+            ],
+            "realized_position_xyz_m": [
+              395.9,
+              0,
+              137.1
+            ]
+          },
+          {
+            "id": "H08-R02-12",
+            "code": "FUNIL",
+            "label": "funil de metal",
+            "position_xz_m": [
+              397.1,
+              126.4
+            ],
+            "clearance_radius_m": 0.32,
+            "zone": "preparo",
+            "narrative_function": "Peça resistente do preparo de compotas",
+            "placement": "ground_candidate",
+            "status": "pending_mesh_qa",
+            "kind": "storage",
+            "source_position_xz_m": [
+              397.1,
+              126.4
+            ],
+            "realized_position_xyz_m": [
+              397.1,
+              0,
+              126.4
+            ]
+          },
+          {
+            "id": "H08-R02-13",
+            "code": "GARRAFOES",
+            "label": "garrafões antigos",
+            "position_xz_m": [
+              383.1,
+              128.8
+            ],
+            "clearance_radius_m": 0.38,
+            "zone": "armazenagem",
+            "narrative_function": "Recipientes de vidro grossos, vazios",
+            "placement": "ground_candidate",
+            "status": "pending_mesh_qa",
+            "kind": "storage",
+            "source_position_xz_m": [
+              383.1,
+              128.8
+            ],
+            "realized_position_xyz_m": [
+              383.1,
+              0,
+              128.8
+            ]
+          },
+          {
+            "id": "H08-R02-14",
+            "code": "TAQUARAS",
+            "label": "vara e estacas",
+            "position_xz_m": [
+              395.0,
+              121.0
+            ],
+            "clearance_radius_m": 0.35,
+            "zone": "armazenagem",
+            "narrative_function": "Apoio de jardim reusado entre caixas",
+            "placement": "ground_candidate",
+            "status": "pending_mesh_qa",
+            "kind": "storage",
+            "source_position_xz_m": [
+              395.0,
+              121.0
+            ],
+            "realized_position_xyz_m": [
+              395.0,
+              0,
+              121.0
+            ]
+          },
+          {
+            "id": "H08-R02-15",
+            "code": "TAMPA_LATA",
+            "label": "pote e tampa separados",
+            "position_xz_m": [
+              396.3,
+              135.0
+            ],
+            "clearance_radius_m": 0.32,
+            "zone": "armazenagem",
+            "narrative_function": "Pote antigo sem alimento conservado",
+            "placement": "ground_candidate",
+            "status": "pending_mesh_qa",
+            "kind": "vessels",
+            "source_position_xz_m": [
+              396.3,
+              135.0
+            ],
+            "realized_position_xyz_m": [
+              396.3,
+              0,
+              135.0
+            ]
+          },
+          {
+            "id": "H08-R02-16",
+            "code": "BANCO",
+            "label": "banco extra gasto",
+            "position_xz_m": [
+              382.8,
+              122.8
+            ],
+            "clearance_radius_m": 0.4,
+            "zone": "convivencia",
+            "narrative_function": "Assento familiar distante da mesa central",
+            "placement": "ground_candidate",
+            "status": "pending_mesh_qa",
+            "kind": "seating",
+            "source_position_xz_m": [
+              382.8,
+              122.8
+            ],
+            "realized_position_xyz_m": [
+              382.8,
+              0,
+              122.8
+            ]
+          },
+          {
+            "id": "H08-R02-17",
+            "code": "LATA_TINTA",
+            "label": "lata vazia e tampa",
+            "position_xz_m": [
+              395.5,
+              128.6
+            ],
+            "clearance_radius_m": 0.3,
+            "zone": "preparo",
+            "narrative_function": "Recipiente velho sem uso ativo",
+            "placement": "ground_candidate",
+            "status": "pending_mesh_qa",
+            "kind": "small_metal_can",
+            "source_position_xz_m": [
+              395.5,
+              128.6
+            ],
+            "realized_position_xyz_m": [
+              395.5,
+              0,
+              128.6
+            ]
+          },
+          {
+            "id": "H08-R02-18",
+            "code": "TALAS",
+            "label": "tábuas curtas",
+            "position_xz_m": [
+              382.7,
+              140.1
+            ],
+            "clearance_radius_m": 0.32,
+            "zone": "canteiro",
+            "narrative_function": "Sobras de caixas antigas; não levantar galpão",
+            "placement": "ground_candidate",
+            "status": "pending_mesh_qa",
+            "kind": "stored_bundles",
+            "source_position_xz_m": [
+              382.7,
+              140.1
+            ],
+            "realized_position_xyz_m": [
+              382.7,
+              0,
+              140.1
+            ]
+          },
+          {
+            "id": "H08-R02-19",
+            "code": "FRASCOS",
+            "label": "três frascos vazios",
+            "attach_to": "SEATING_H08",
+            "position_xz_m": null,
+            "zone": "mesa",
+            "narrative_function": "Vidro espesso sem alimento intacto",
+            "placement": "tabletop_deferred",
+            "status": "pending_real_table_surface",
+            "kind": "measured_surface_accessory",
+            "support": {
+              "kind": "outdoor_table",
+              "position_xz": [
+                391.0,
+                135.0
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.8125,
+              "yaw_degrees": 270.0
+            },
+            "realized_position_xyz_m": [
+              391.18,
+              0.8205,
+              134.5
+            ]
+          },
+          {
+            "id": "H08-R02-20",
+            "code": "CADERNO",
+            "label": "caderno de receitas ilegível",
+            "attach_to": "SEATING_H08",
+            "position_xz_m": null,
+            "zone": "mesa",
+            "narrative_function": "Páginas com umidade; não revela enredo obrigatório",
+            "placement": "tabletop_deferred",
+            "status": "pending_real_table_surface",
+            "kind": "measured_surface_accessory",
+            "support": {
+              "kind": "outdoor_table",
+              "position_xz": [
+                391.0,
+                135.0
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.8125,
+              "yaw_degrees": 270.0
+            },
+            "realized_position_xyz_m": [
+              391.18,
+              0.8205,
+              135.0
+            ]
+          },
+          {
+            "id": "H08-R02-21",
+            "code": "PENEIRA",
+            "label": "peneira antiga",
+            "attach_to": "SEATING_H08",
+            "position_xz_m": null,
+            "zone": "mesa",
+            "narrative_function": "Vestígio de preparo e filtragem",
+            "placement": "tabletop_deferred",
+            "status": "pending_real_table_surface",
+            "kind": "measured_surface_accessory",
+            "support": {
+              "kind": "outdoor_table",
+              "position_xz": [
+                391.0,
+                135.0
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.8125,
+              "yaw_degrees": 270.0
+            },
+            "realized_position_xyz_m": [
+              391.18,
+              0.8205,
+              135.5
+            ]
+          },
+          {
+            "id": "H08-R02-22",
+            "code": "COLHER",
+            "label": "colher grande de metal",
+            "attach_to": "SEATING_H08",
+            "position_xz_m": null,
+            "zone": "mesa",
+            "narrative_function": "Utensílio oxidado abandonado",
+            "placement": "tabletop_deferred",
+            "status": "pending_real_table_surface",
+            "kind": "measured_surface_accessory",
+            "support": {
+              "kind": "outdoor_table",
+              "position_xz": [
+                391.0,
+                135.0
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.8125,
+              "yaw_degrees": 270.0
+            },
+            "realized_position_xyz_m": [
+              390.82,
+              0.8205,
+              134.5
+            ]
+          },
+          {
+            "id": "H08-R02-23",
+            "code": "PAPEL",
+            "label": "rótulos apagados",
+            "attach_to": "SEATING_H08",
+            "position_xz_m": null,
+            "zone": "mesa",
+            "narrative_function": "Fragmentos descoloridos e úmidos",
+            "placement": "tabletop_deferred",
+            "status": "pending_real_table_surface",
+            "kind": "measured_surface_accessory",
+            "support": {
+              "kind": "outdoor_table",
+              "position_xz": [
+                391.0,
+                135.0
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.8125,
+              "yaw_degrees": 270.0
+            },
+            "realized_position_xyz_m": [
+              390.82,
+              0.8205,
+              135.0
+            ]
+          },
+          {
+            "id": "H08-R02-24",
+            "code": "TOALHA",
+            "label": "tecido desgastado",
+            "attach_to": "SEATING_H08",
+            "position_xz_m": null,
+            "zone": "mesa",
+            "narrative_function": "Pedaço de pano antigo, parcialmente deteriorado",
+            "placement": "tabletop_deferred",
+            "status": "pending_real_table_surface",
+            "kind": "measured_surface_accessory",
+            "support": {
+              "kind": "outdoor_table",
+              "position_xz": [
+                391.0,
+                135.0
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.8125,
+              "yaw_degrees": 270.0
+            },
+            "realized_position_xyz_m": [
+              390.82,
+              0.8205,
+              135.5
+            ]
+          }
+        ],
+        "deferred_props": [],
+        "site_features": [],
+        "vehicle_gates": [],
+        "preserve_side_entry_reference": false,
+        "geometry_adjustments": [],
+        "service_path": [
+          [
+            398.72,
+            152.25
+          ],
+          [
+            398.72,
+            139.1
+          ],
+          [
+            395.55,
+            139.1
+          ],
+          [
+            395.55,
+            138.15
+          ]
+        ],
+        "service_width_m": 0.9,
+        "new_prop_families": [
+          "measured_surface_accessory",
+          "seating",
+          "shelf",
+          "small_metal_can",
+          "storage",
+          "stored_bundles",
+          "vessels",
+          "watering_can"
+        ]
+      },
+      "source_group_keys": [
+        "H08_FURN_22_shower",
+        "H08_FURN_21_toilet",
+        "H08_FURN_20_washbasin",
+        "H08_FURN_19_dresser",
+        "H08_FURN_18_shelf",
+        "H08_FURN_17_laundry_sink",
+        "H08_FURN_16_washer",
+        "H08_FURN_15_chair",
+        "H08_FURN_14_chair",
+        "H08_FURN_13_chair",
+        "H08_FURN_12_chair",
+        "H08_FURN_11_table_dining",
+        "H08_FURN_10_stove",
+        "H08_FURN_09_kitchen_sink",
+        "H08_FURN_08_fridge",
+        "H08_FURN_07_dresser",
+        "H08_FURN_06_wardrobe",
+        "H08_FURN_05_bed_double",
+        "H08_FURN_04_wardrobe",
+        "H08_FURN_03_bed_single",
+        "H08_FURN_02_dresser",
+        "H08_FURN_01_tv_rack",
+        "H08_FURN_00_sofa_3p"
+      ]
+    },
+    "H09": {
+      "revision": "REV03",
+      "artistic_model_approved": false,
+      "source_glb_sha256": "5702d9b5077c6124495ef648086042bfdc9c2f0109b419edf0904562ed0952d4",
+      "exterior_sha256": "5466fc01cda2d6db4ba04488be9547776b4ae5c2a3c13810894c8e10d73134ee",
+      "scene": "res://staging/e06_world/arroio/scenes/interiors/H09.tscn",
+      "model": "res://staging/e06_world/arroio/assets/interiors_h06_h10_rev01/H09.gltf",
+      "floor_local_y": 0.30600000026822094,
+      "interior_bounds": [
+        [
+          -6.140000066757203,
+          0.27999999973177914,
+          -4.520000085830689
+        ],
+        [
+          3.0900000286102296,
+          2.8599999904632565,
+          4.260000066757202
+        ]
+      ],
+      "rooms": [
+        {
+          "id": "H09_FLOOR_05_BANHEIRO",
+          "source_name": "H09_FLOOR_05_BANHEIRO",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -6.1400000190734865,
+              4.2599999833107
+            ],
+            [
+              -2.679999980926514,
+              4.2599999833107
+            ],
+            [
+              -2.679999980926514,
+              2.600000016689301
+            ],
+            [
+              -6.1400000190734865,
+              2.600000016689301
+            ]
+          ],
+          "area_m2": 5.743599947834014,
+          "floor_local_y": 0.30600000026822094,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H09_FLOOR_04_QUARTO_CASAL",
+          "source_name": "H09_FLOOR_04_QUARTO_CASAL",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -6.1400000190734865,
+              2.5999999761581423
+            ],
+            [
+              -2.679999980926514,
+              2.5999999761581423
+            ],
+            [
+              -2.679999980926514,
+              -0.4499999761581419
+            ],
+            [
+              -6.1400000190734865,
+              -0.4499999761581419
+            ]
+          ],
+          "area_m2": 10.552999951362608,
+          "floor_local_y": 0.30600000026822094,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H09_FLOOR_03_COZINHA_/_SERVIÇO",
+          "source_name": "H09_FLOOR_03_COZINHA_/_SERVIÇO",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -6.140000066757203,
+              -0.44999991416931184
+            ],
+            [
+              -1.2799999332427983,
+              -0.44999991416931184
+            ],
+            [
+              -1.2799999332427983,
+              -4.520000085830689
+            ],
+            [
+              -6.140000066757203,
+              -4.520000085830689
+            ]
+          ],
+          "area_m2": 19.78020137767794,
+          "floor_local_y": 0.30600000026822094,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H09_FLOOR_02_SALA_+_JANTAR_2",
+          "source_name": "H09_FLOOR_02_SALA_+_JANTAR_2",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -2.679999988079071,
+              4.260000019073487
+            ],
+            [
+              -1.280000011920929,
+              4.260000019073487
+            ],
+            [
+              -1.280000011920929,
+              -0.4500000190734861
+            ],
+            [
+              -2.679999988079071,
+              -0.4500000190734861
+            ]
+          ],
+          "area_m2": 6.59399994111061,
+          "floor_local_y": 0.30600000026822094,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H09_FLOOR_01_SALA_+_JANTAR",
+          "source_name": "H09_FLOOR_01_SALA_+_JANTAR",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -1.2799999427795408,
+              4.260000066757202
+            ],
+            [
+              3.0899999427795413,
+              4.260000066757202
+            ],
+            [
+              3.0899999427795413,
+              -1.350000066757202
+            ],
+            [
+              -1.2799999427795408,
+              -1.350000066757202
+            ]
+          ],
+          "area_m2": 24.51569994144438,
+          "floor_local_y": 0.30600000026822094,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H09_FLOOR_00_QUARTO_02",
+          "source_name": "H09_FLOOR_00_QUARTO_02",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -1.2799999427795408,
+              -1.3499999618530274
+            ],
+            [
+              3.0899999427795413,
+              -1.3499999618530274
+            ],
+            [
+              3.0899999427795413,
+              -4.520000038146973
+            ],
+            [
+              -1.2799999427795408,
+              -4.520000038146973
+            ]
+          ],
+          "area_m2": 13.852899970626824,
+          "floor_local_y": 0.30600000026822094,
+          "access_mode": "enter_region"
+        }
+      ],
+      "doors": [
+        {
+          "mesh_name": "H09_D01_quarto_02_PIVOT",
+          "hinge": [
+            0.6499999999999999,
+            0.28,
+            -1.35
+          ],
+          "source_to_closed_degrees": 0,
+          "open_degrees": -90,
+          "attached_meshes": [],
+          "unit": "main",
+          "source_bounds": [
+            [
+              -0.1299999713897706,
+              0.28,
+              -1.3730000000447036
+            ],
+            [
+              0.6499999999999999,
+              2.3399999427795413,
+              -1.3269999999552966
+            ]
+          ],
+          "floor_local_y": 0.30600000026822094
+        },
+        {
+          "mesh_name": "H09_D02_casal_PIVOT",
+          "hinge": [
+            -2.68,
+            0.28,
+            0.22999999999999954
+          ],
+          "source_to_closed_degrees": 0,
+          "open_degrees": -90,
+          "attached_meshes": [],
+          "unit": "main",
+          "source_bounds": [
+            [
+              -2.7030000000447036,
+              0.28,
+              0.22999999999999954
+            ],
+            [
+              -2.6569999999552967,
+              2.3399999427795413,
+              0.9700000095367427
+            ]
+          ],
+          "floor_local_y": 0.30600000026822094
+        },
+        {
+          "mesh_name": "H09_D03_banheiro_PIVOT",
+          "hinge": [
+            -2.68,
+            0.28,
+            3.0699999999999994
+          ],
+          "source_to_closed_degrees": 0,
+          "open_degrees": -90,
+          "attached_meshes": [],
+          "unit": "main",
+          "source_bounds": [
+            [
+              -2.7030000000447036,
+              0.28,
+              3.0699999999999994
+            ],
+            [
+              -2.6569999999552967,
+              2.3399999427795413,
+              3.7699999880790704
+            ]
+          ],
+          "floor_local_y": 0.30600000026822094
+        }
+      ],
+      "units": [
+        {
+          "id": "main",
+          "bounds": [
+            [
+              -6.140000066757203,
+              0.20600000026822093,
+              -4.520000085830689
+            ],
+            [
+              3.0899999427795413,
+              3.0060000002682212,
+              4.260000066757202
+            ]
+          ],
+          "floor_local_y": 0.30600000026822094,
+          "entry_world": [
+            104.25,
+            242.096666876475
+          ],
+          "front_vector": [
+            0,
+            -1
+          ],
+          "approach_world": [
+            104.25,
+            238.64666666666668
+          ],
+          "independent_entry": true
+        }
+      ],
+      "qa_grid_step_m": 0.18,
+      "technical_adjustments": [],
+      "exterior_open_degrees": 90,
+      "exterior_rule": {
+        "enabled": true,
+        "master_candidate": true,
+        "revision": "H09-ART-REV03",
+        "decision_id": "H09-ART-REV02",
+        "direction_approved": null,
+        "prototype_execution_authorized": true,
+        "visual_homologation": false,
+        "main_promotion_authorized": false,
+        "source_asset": "HAB_222",
+        "visual_path": "res://staging/e06_world/arroio/assets/current_h01_h20_rev01/H09.gltf",
+        "base_snapshot": "4802e8c233f66a4ad377bcc7",
+        "sector": "S03",
+        "building_position": [
+          104.5,
+          0,
+          245.26666666666665
+        ],
+        "building_yaw": 90,
+        "visual_offset": [
+          -0.0,
+          -0.0,
+          0.029999971389770508
+        ],
+        "gate_original": {
+          "center": [
+            100.18058237308877,
+            238.64666666666668
+          ],
+          "along": [
+            1.0,
+            0.0
+          ],
+          "inward": [
+            -0.0,
+            1.0
+          ],
+          "opening_width_m": 3.6,
+          "leaf_state": "open; no interaction script"
+        },
+        "gate_center": [
+          104.25,
+          238.64666666666668
+        ],
+        "gate_width_m": 3.6,
+        "door_xz": [
+          104.25,
+          242.096666876475
+        ],
+        "front_direction": -1,
+        "floor_m": 0.28,
+        "eave_m": 2.9,
+        "ridge_m": 4.2,
+        "body_center_xz": [
+          104.5,
+          246.89166666666665
+        ],
+        "body_width_m": 9.140000247955323,
+        "body_depth_m": 9.589999580383306,
+        "body_bounds_xz": [
+          99.92999987602234,
+          242.096666876475,
+          109.07000012397766,
+          251.68666645685832
+        ],
+        "candidate_translation_xyz": [
+          0,
+          0,
+          1.8
+        ],
+        "front_walls_to_recompose": [
+          "WALL_097",
+          "WALL_098"
+        ],
+        "access_path": [
+          [
+            104.25,
+            238.64666666666668
+          ],
+          [
+            104.25,
+            242.096666876475
+          ]
+        ],
+        "access_width_m": 1.9,
+        "wall_color": [
+          0.72,
+          0.46,
+          0.39
+        ],
+        "wood_house": false,
+        "hip_roof": false,
+        "gray_roof": false,
+        "porch_depth_m": 1.0,
+        "porch_width_m": 2.2,
+        "object_moves": [],
+        "extra_structures": [
+          {
+            "id": "H09_GALPAO",
+            "bounds": [
+              95.5,
+              274,
+              100.5,
+              280
+            ],
+            "wood": true,
+            "gray": true,
+            "ridge": 3.35,
+            "eave": 2.35,
+            "lean_to": 1.5,
+            "kind": "utility",
+            "floor": 0.12,
+            "front_direction": -1,
+            "front_vector": [
+              0,
+              -1
+            ],
+            "front_view": -1,
+            "door_xz": [
+              98.0,
+              273.9849999109904
+            ]
+          }
+        ],
+        "service_path": [
+          [
+            95.0,
+            252.5
+          ],
+          [
+            94.5,
+            260.5
+          ],
+          [
+            95.0,
+            265.5
+          ],
+          [
+            97.5,
+            270.0
+          ],
+          [
+            98.0,
+            272.5
+          ]
+        ],
+        "triangles": 16568,
+        "id": "H09",
+        "identity": "Casa do Lenheiro",
+        "source_visual_path": "res://staging/e06_world/arroio/assets/master_h01_h10_rev01/H09.gltf",
+        "current_revision_candidate": true,
+        "front_axis": 1,
+        "front_vector": [
+          0,
+          -1
+        ],
+        "front_view": -1,
+        "service_branches": [],
+        "new_props": [
+          {
+            "id": "H09-R03-O01",
+            "name": "Pilha de lenha seca A",
+            "zone": "lenheiro",
+            "type": "ground_dressing",
+            "position_xz_m": [
+              96.25,
+              273.08
+            ],
+            "collision_radius_candidate_m": 0.47,
+            "note": "sob puxadinho; afastar dos postes e do eixo da porta",
+            "status": "candidate_not_instanced",
+            "label": "Pilha de lenha seca A",
+            "kind": "stored_bundles",
+            "source_position_xz_m": [
+              96.25,
+              273.08
+            ],
+            "realized_position_xyz_m": [
+              96.25,
+              0,
+              273.08
+            ]
+          },
+          {
+            "id": "H09-R03-O02",
+            "name": "Pilha de lenha seca B",
+            "zone": "lenheiro",
+            "type": "ground_dressing",
+            "position_xz_m": [
+              99.78,
+              273.08
+            ],
+            "collision_radius_candidate_m": 0.42,
+            "note": "sob puxadinho; preservar acesso central",
+            "status": "candidate_not_instanced",
+            "label": "Pilha de lenha seca B",
+            "kind": "stored_bundles",
+            "source_position_xz_m": [
+              99.78,
+              273.08
+            ],
+            "realized_position_xyz_m": [
+              99.78,
+              0,
+              273.08
+            ]
+          },
+          {
+            "id": "H09-R03-O03",
+            "name": "Banco de corte antigo",
+            "zone": "trabalho",
+            "type": "ground_dressing",
+            "position_xz_m": [
+              102.25,
+              268.7
+            ],
+            "collision_radius_candidate_m": 0.7,
+            "note": "antes de galpao; testar interferencia com pitangueira",
+            "status": "candidate_not_instanced",
+            "label": "Banco de corte antigo",
+            "kind": "seating",
+            "source_position_xz_m": [
+              102.25,
+              268.7
+            ],
+            "realized_position_xyz_m": [
+              102.25,
+              0,
+              268.7
+            ]
+          },
+          {
+            "id": "H09-R03-O04",
+            "name": "Cavalete para serrar lenha",
+            "zone": "trabalho",
+            "type": "ground_dressing",
+            "position_xz_m": [
+              103.65,
+              265.1
+            ],
+            "collision_radius_candidate_m": 0.58,
+            "note": "sem lamina ativa",
+            "status": "candidate_not_instanced",
+            "label": "Cavalete para serrar lenha",
+            "kind": "sawhorse",
+            "source_position_xz_m": [
+              103.65,
+              265.1
+            ],
+            "realized_position_xyz_m": [
+              103.65,
+              0,
+              265.1
+            ]
+          },
+          {
+            "id": "H09-R03-O05",
+            "name": "Carrinho de mao vazio",
+            "zone": "trabalho",
+            "type": "ground_dressing",
+            "position_xz_m": [
+              110.25,
+              267.8
+            ],
+            "collision_radius_candidate_m": 0.55,
+            "note": "alcas elevadas requerem QA 3D",
+            "status": "candidate_not_instanced",
+            "label": "Carrinho de mao vazio",
+            "kind": "cart",
+            "source_position_xz_m": [
+              110.25,
+              267.8
+            ],
+            "realized_position_xyz_m": [
+              110.25,
+              0,
+              267.8
+            ]
+          },
+          {
+            "id": "H09-R03-O06",
+            "name": "Toras rachadas",
+            "zone": "trabalho",
+            "type": "ground_dressing",
+            "position_xz_m": [
+              108.75,
+              280.5
+            ],
+            "collision_radius_candidate_m": 0.5,
+            "note": "sobre terra compactada",
+            "status": "candidate_not_instanced",
+            "label": "Toras rachadas",
+            "kind": "storage",
+            "source_position_xz_m": [
+              108.75,
+              280.5
+            ],
+            "realized_position_xyz_m": [
+              108.75,
+              0,
+              280.5
+            ]
+          },
+          {
+            "id": "H09-R03-O07",
+            "name": "Feixe de gravetos",
+            "zone": "trabalho",
+            "type": "ground_dressing",
+            "position_xz_m": [
+              111.0,
+              282.7
+            ],
+            "collision_radius_candidate_m": 0.34,
+            "note": "fragmentos de galhos secos",
+            "status": "candidate_not_instanced",
+            "label": "Feixe de gravetos",
+            "kind": "storage",
+            "source_position_xz_m": [
+              111.0,
+              282.7
+            ],
+            "realized_position_xyz_m": [
+              111.0,
+              0,
+              282.7
+            ]
+          },
+          {
+            "id": "H09-R03-O08",
+            "name": "Caixote de achas",
+            "zone": "trabalho",
+            "type": "ground_dressing",
+            "position_xz_m": [
+              106.9,
+              284.8
+            ],
+            "collision_radius_candidate_m": 0.42,
+            "note": "degradacao superficial leve",
+            "status": "candidate_not_instanced",
+            "label": "Caixote de achas",
+            "kind": "storage",
+            "source_position_xz_m": [
+              106.9,
+              284.8
+            ],
+            "realized_position_xyz_m": [
+              106.9,
+              0,
+              284.8
+            ]
+          },
+          {
+            "id": "H09-R03-O09",
+            "name": "Lona envelhecida dobrada",
+            "zone": "trabalho",
+            "type": "ground_dressing",
+            "position_xz_m": [
+              94.3,
+              270.8
+            ],
+            "collision_radius_candidate_m": 0.38,
+            "note": "nao obstruir corredor de servico",
+            "status": "candidate_not_instanced",
+            "label": "Lona envelhecida dobrada",
+            "kind": "storage",
+            "source_position_xz_m": [
+              94.3,
+              270.8
+            ],
+            "realized_position_xyz_m": [
+              94.3,
+              0,
+              270.8
+            ]
+          },
+          {
+            "id": "H09-R03-O10",
+            "name": "Restos de casca",
+            "zone": "trabalho",
+            "type": "ground_dressing",
+            "position_xz_m": [
+              93.9,
+              282.1
+            ],
+            "collision_radius_candidate_m": 0.38,
+            "note": "solo escurecido e folhas",
+            "status": "candidate_not_instanced",
+            "label": "Restos de casca",
+            "kind": "storage",
+            "source_position_xz_m": [
+              93.9,
+              282.1
+            ],
+            "realized_position_xyz_m": [
+              93.9,
+              0,
+              282.1
+            ]
+          },
+          {
+            "id": "H09-R03-O11",
+            "name": "Caixa de acendedores vazia",
+            "zone": "servico",
+            "type": "ground_dressing",
+            "position_xz_m": [
+              111.1,
+              259.9
+            ],
+            "collision_radius_candidate_m": 0.3,
+            "note": "sem conteudo inflamavel funcional",
+            "status": "candidate_not_instanced",
+            "label": "Caixa de acendedores vazia",
+            "kind": "storage",
+            "source_position_xz_m": [
+              111.1,
+              259.9
+            ],
+            "realized_position_xyz_m": [
+              111.1,
+              0,
+              259.9
+            ]
+          },
+          {
+            "id": "H09-R03-O12",
+            "name": "Balde metalico antigo",
+            "zone": "servico",
+            "type": "ground_dressing",
+            "position_xz_m": [
+              110.8,
+              255.6
+            ],
+            "collision_radius_candidate_m": 0.35,
+            "note": "nao modificar barril original",
+            "status": "candidate_not_instanced",
+            "label": "Balde metalico antigo",
+            "kind": "vessels",
+            "source_position_xz_m": [
+              110.8,
+              255.6
+            ],
+            "realized_position_xyz_m": [
+              110.8,
+              0,
+              255.6
+            ]
+          },
+          {
+            "id": "H09-R03-O13",
+            "name": "Cesto de juta gasto",
+            "zone": "servico",
+            "type": "ground_dressing",
+            "position_xz_m": [
+              105.9,
+              257.8
+            ],
+            "collision_radius_candidate_m": 0.39,
+            "note": "ao lado do terreiro",
+            "status": "candidate_not_instanced",
+            "label": "Cesto de juta gasto",
+            "kind": "vessels",
+            "source_position_xz_m": [
+              105.9,
+              257.8
+            ],
+            "realized_position_xyz_m": [
+              105.9,
+              0,
+              257.8
+            ]
+          },
+          {
+            "id": "H09-R03-O14",
+            "name": "Tabuas reaproveitadas",
+            "zone": "servico",
+            "type": "ground_dressing",
+            "position_xz_m": [
+              93.5,
+              264.1
+            ],
+            "collision_radius_candidate_m": 0.38,
+            "note": "encostadas no solo fora do caminho",
+            "status": "candidate_not_instanced",
+            "label": "Tabuas reaproveitadas",
+            "placement_adjustment": "Lot-local clearance adjustment for the measured utility entrance.",
+            "kind": "stored_bundles",
+            "source_position_xz_m": [
+              94.1,
+              264.1
+            ],
+            "realized_position_xyz_m": [
+              93.5,
+              0,
+              264.1
+            ]
+          },
+          {
+            "id": "H09-R03-O15",
+            "name": "Ferragens em lata",
+            "zone": "servico",
+            "type": "ground_dressing",
+            "position_xz_m": [
+              110.9,
+              264.0
+            ],
+            "collision_radius_candidate_m": 0.3,
+            "note": "sem loot de gameplay",
+            "status": "candidate_not_instanced",
+            "label": "Ferragens em lata",
+            "kind": "small_metal_can",
+            "source_position_xz_m": [
+              110.9,
+              264.0
+            ],
+            "realized_position_xyz_m": [
+              110.9,
+              0,
+              264.0
+            ]
+          },
+          {
+            "id": "H09-R03-O16",
+            "name": "Saco de serragem rasgado",
+            "zone": "servico",
+            "type": "ground_dressing",
+            "position_xz_m": [
+              109.5,
+              289.1
+            ],
+            "collision_radius_candidate_m": 0.39,
+            "note": "perto dos fundos, vegetacao de borda",
+            "status": "candidate_not_instanced",
+            "label": "Saco de serragem rasgado",
+            "kind": "storage",
+            "source_position_xz_m": [
+              109.5,
+              289.1
+            ],
+            "realized_position_xyz_m": [
+              109.5,
+              0,
+              289.1
+            ]
+          },
+          {
+            "id": "H09-R03-O17",
+            "name": "Pau de medicao antigo",
+            "zone": "servico",
+            "type": "ground_dressing",
+            "position_xz_m": [
+              110.3,
+              273.4
+            ],
+            "collision_radius_candidate_m": 0.25,
+            "note": "objeto estatico, sem interacao",
+            "status": "candidate_not_instanced",
+            "label": "Pau de medicao antigo",
+            "kind": "storage",
+            "source_position_xz_m": [
+              110.3,
+              273.4
+            ],
+            "realized_position_xyz_m": [
+              110.3,
+              0,
+              273.4
+            ]
+          },
+          {
+            "id": "H09-R03-O18",
+            "name": "Ripas abandonadas",
+            "zone": "servico",
+            "type": "ground_dressing",
+            "position_xz_m": [
+              94.2,
+              285.7
+            ],
+            "collision_radius_candidate_m": 0.31,
+            "note": "separadas do muro",
+            "status": "candidate_not_instanced",
+            "label": "Ripas abandonadas",
+            "kind": "stored_bundles",
+            "source_position_xz_m": [
+              94.2,
+              285.7
+            ],
+            "realized_position_xyz_m": [
+              94.2,
+              0,
+              285.7
+            ]
+          },
+          {
+            "id": "H09-R03-O19",
+            "name": "Vaso quebrado",
+            "zone": "memoria",
+            "type": "ground_dressing",
+            "position_xz_m": [
+              112.15,
+              248.2
+            ],
+            "collision_radius_candidate_m": 0.25,
+            "note": "junto a borda de jardim",
+            "status": "candidate_not_instanced",
+            "label": "Vaso quebrado",
+            "kind": "vessels",
+            "source_position_xz_m": [
+              112.15,
+              248.2
+            ],
+            "realized_position_xyz_m": [
+              112.15,
+              0,
+              248.2
+            ]
+          },
+          {
+            "id": "H09-R03-O20",
+            "name": "Banqueta exterior antiga",
+            "zone": "memoria",
+            "type": "ground_dressing",
+            "position_xz_m": [
+              106.3,
+              262.1
+            ],
+            "collision_radius_candidate_m": 0.46,
+            "note": "testar folga da mesa e do percurso",
+            "status": "candidate_not_instanced",
+            "label": "Banqueta exterior antiga",
+            "kind": "seating",
+            "source_position_xz_m": [
+              106.3,
+              262.1
+            ],
+            "realized_position_xyz_m": [
+              106.3,
+              0,
+              262.1
+            ]
+          },
+          {
+            "id": "H09-R03-O21",
+            "name": "Caderno de anotacoes de inverno",
+            "zone": "mesa",
+            "type": "support_attached_candidate",
+            "support_object": "SEATING_H09",
+            "offset_on_support_xz_m": [
+              -0.35,
+              -0.2
+            ],
+            "height": "to_be_measured_in_godot",
+            "status": "candidate_not_instanced",
+            "label": "Caderno de anotacoes de inverno",
+            "position_xz_m": null,
+            "kind": "measured_surface_accessory",
+            "support": {
+              "kind": "outdoor_table",
+              "position_xz": [
+                99.0,
+                257.0
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.8125,
+              "yaw_degrees": 90.0
+            },
+            "realized_position_xyz_m": [
+              98.8,
+              0.8205,
+              257.35
+            ]
+          },
+          {
+            "id": "H09-R03-O22",
+            "name": "Fita metrica enferrujada",
+            "zone": "mesa",
+            "type": "support_attached_candidate",
+            "support_object": "SEATING_H09",
+            "offset_on_support_xz_m": [
+              0.35,
+              -0.15
+            ],
+            "height": "to_be_measured_in_godot",
+            "status": "candidate_not_instanced",
+            "label": "Fita metrica enferrujada",
+            "position_xz_m": null,
+            "kind": "measured_surface_accessory",
+            "support": {
+              "kind": "outdoor_table",
+              "position_xz": [
+                99.0,
+                257.0
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.8125,
+              "yaw_degrees": 90.0
+            },
+            "realized_position_xyz_m": [
+              98.85,
+              0.8205,
+              256.65
+            ]
+          },
+          {
+            "id": "H09-R03-O23",
+            "name": "Garrafa termica",
+            "zone": "mesa",
+            "type": "support_attached_candidate",
+            "support_object": "SEATING_H09",
+            "offset_on_support_xz_m": [
+              0.0,
+              0.22
+            ],
+            "height": "to_be_measured_in_godot",
+            "status": "candidate_not_instanced",
+            "label": "Garrafa termica",
+            "position_xz_m": null,
+            "kind": "measured_surface_accessory",
+            "support": {
+              "kind": "outdoor_table",
+              "position_xz": [
+                99.0,
+                257.0
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.8125,
+              "yaw_degrees": 90.0
+            },
+            "realized_position_xyz_m": [
+              99.22,
+              0.8205,
+              257.0
+            ]
+          },
+          {
+            "id": "H09-R03-O24",
+            "name": "Luvas velhas",
+            "zone": "mesa",
+            "type": "support_attached_candidate",
+            "support_object": "SEATING_H09",
+            "offset_on_support_xz_m": [
+              -0.42,
+              0.21
+            ],
+            "height": "to_be_measured_in_godot",
+            "status": "candidate_not_instanced",
+            "label": "Luvas velhas",
+            "position_xz_m": null,
+            "kind": "measured_surface_accessory",
+            "support": {
+              "kind": "outdoor_table",
+              "position_xz": [
+                99.0,
+                257.0
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.8125,
+              "yaw_degrees": 90.0
+            },
+            "realized_position_xyz_m": [
+              99.21,
+              0.8205,
+              257.42
+            ]
+          },
+          {
+            "id": "H09-R03-O25",
+            "name": "Caixa de fosforos vazia",
+            "zone": "mesa",
+            "type": "support_attached_candidate",
+            "support_object": "SEATING_H09",
+            "offset_on_support_xz_m": [
+              0.45,
+              0.23
+            ],
+            "height": "to_be_measured_in_godot",
+            "status": "candidate_not_instanced",
+            "label": "Caixa de fosforos vazia",
+            "position_xz_m": null,
+            "kind": "measured_surface_accessory",
+            "support": {
+              "kind": "outdoor_table",
+              "position_xz": [
+                99.0,
+                257.0
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.8125,
+              "yaw_degrees": 90.0
+            },
+            "realized_position_xyz_m": [
+              99.23,
+              0.8205,
+              256.55
+            ]
+          },
+          {
+            "id": "H09-R03-O26",
+            "name": "Caneca esmaltada",
+            "zone": "mesa",
+            "type": "support_attached_candidate",
+            "support_object": "SEATING_H09",
+            "offset_on_support_xz_m": [
+              0.08,
+              -0.4
+            ],
+            "height": "to_be_measured_in_godot",
+            "status": "candidate_not_instanced",
+            "label": "Caneca esmaltada",
+            "position_xz_m": null,
+            "kind": "measured_surface_accessory",
+            "support": {
+              "kind": "outdoor_table",
+              "position_xz": [
+                99.0,
+                257.0
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.8125,
+              "yaw_degrees": 90.0
+            },
+            "realized_position_xyz_m": [
+              98.75,
+              0.8205,
+              256.92
+            ]
+          }
+        ],
+        "deferred_props": [],
+        "site_features": [],
+        "vehicle_gates": [],
+        "preserve_side_entry_reference": false,
+        "geometry_adjustments": [],
+        "service_width_m": 1.2,
+        "new_prop_families": [
+          "cart",
+          "measured_surface_accessory",
+          "sawhorse",
+          "seating",
+          "small_metal_can",
+          "storage",
+          "stored_bundles",
+          "vessels"
+        ]
+      },
+      "source_group_keys": [
+        "H09_FURN_20_shower",
+        "H09_FURN_19_toilet",
+        "H09_FURN_18_washbasin",
+        "H09_FURN_17_wardrobe",
+        "H09_FURN_16_bed_double",
+        "H09_FURN_15_shelf",
+        "H09_FURN_14_laundry_sink",
+        "H09_FURN_13_washer",
+        "H09_FURN_12_kitchen_sink",
+        "H09_FURN_11_stove",
+        "H09_FURN_10_fridge",
+        "H09_FURN_09_chair",
+        "H09_FURN_08_chair",
+        "H09_FURN_07_chair",
+        "H09_FURN_06_chair",
+        "H09_FURN_05_table_dining",
+        "H09_FURN_04_tv_rack",
+        "H09_FURN_03_sofa_3p",
+        "H09_FURN_02_dresser",
+        "H09_FURN_01_wardrobe",
+        "H09_FURN_00_bed_single"
+      ]
+    },
+    "H10": {
+      "revision": "REV03",
+      "artistic_model_approved": true,
+      "source_glb_sha256": "1c130cef88e482713646f37c5bb8103bcb29834c291da2887e26e43f22b15058",
+      "exterior_sha256": "0fa3c333f4f629278286d6eb0aebf628a04321cb83b71ef375d23eba8230e361",
+      "scene": "res://staging/e06_world/arroio/scenes/interiors/H10.tscn",
+      "model": "res://staging/e06_world/arroio/assets/interiors_h06_h10_rev01/H10.gltf",
+      "floor_local_y": 0.3199999998807907,
+      "interior_bounds": [
+        [
+          -16.23300002384186,
+          0.1760000001192093,
+          -6.720000047683715
+        ],
+        [
+          2.145000023841858,
+          2.7600000286102295,
+          6.813000047683716
+        ]
+      ],
+      "rooms": [
+        {
+          "id": "H10_H10-A-R03_PISO",
+          "source_name": "H10_H10-A-R03_PISO",
+          "unit": "wing",
+          "polygon_xz": [
+            [
+              -10.96299997138977,
+              6.633000047683716
+            ],
+            [
+              -5.653000028610229,
+              6.633000047683716
+            ],
+            [
+              -5.653000028610229,
+              3.732999952316284
+            ],
+            [
+              -10.96299997138977,
+              3.732999952316284
+            ]
+          ],
+          "area_m2": 15.399000340461726,
+          "floor_local_y": 0.21999999988079072,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H10_H10-A-R02_PISO",
+          "source_name": "H10_H10-A-R02_PISO",
+          "unit": "wing",
+          "polygon_xz": [
+            [
+              -16.063000019073485,
+              6.633000047683716
+            ],
+            [
+              -11.102999980926514,
+              6.633000047683716
+            ],
+            [
+              -11.102999980926514,
+              3.732999952316284
+            ],
+            [
+              -16.063000019073485,
+              3.732999952316284
+            ]
+          ],
+          "area_m2": 14.38400058364868,
+          "floor_local_y": 0.21999999988079072,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H10_H10-A-R01_PISO",
+          "source_name": "H10_H10-A-R01_PISO",
+          "unit": "wing",
+          "polygon_xz": [
+            [
+              -16.062999923706055,
+              3.593000114440918
+            ],
+            [
+              -5.653000076293946,
+              3.593000114440918
+            ],
+            [
+              -5.653000076293946,
+              -0.4170001144409181
+            ],
+            [
+              -16.062999923706055,
+              -0.4170001144409181
+            ]
+          ],
+          "area_m2": 41.744101770782436,
+          "floor_local_y": 0.21999999988079072,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H10_H10-M-R06_PISO",
+          "source_name": "H10_H10-M-R06_PISO",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -5.625000052452087,
+              5.309999995231627
+            ],
+            [
+              -2.7349999475479123,
+              5.309999995231627
+            ],
+            [
+              -2.7349999475479123,
+              1.8000000047683704
+            ],
+            [
+              -5.625000052452087,
+              1.8000000047683704
+            ]
+          ],
+          "area_m2": 10.143900340652465,
+          "floor_local_y": 0.3199999998807907,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H10_H10-M-R05_PISO",
+          "source_name": "H10_H10-M-R05_PISO",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -2.5849999713897707,
+              5.309999995231627
+            ],
+            [
+              1.9749999713897703,
+              5.309999995231627
+            ],
+            [
+              1.9749999713897703,
+              1.8000000047683704
+            ],
+            [
+              -2.5849999713897707,
+              1.8000000047683704
+            ]
+          ],
+          "area_m2": 16.00559975566864,
+          "floor_local_y": 0.3199999998807907,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H10_H10-M-R04_PISO",
+          "source_name": "H10_H10-M-R04_PISO",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -5.624999966621399,
+              1.6600000476837167
+            ],
+            [
+              -1.8050000333786005,
+              1.6600000476837167
+            ],
+            [
+              -1.8050000333786005,
+              -2.990000047683715
+            ],
+            [
+              -5.624999966621399,
+              -2.990000047683715
+            ]
+          ],
+          "area_m2": 17.763000053882596,
+          "floor_local_y": 0.3199999998807907,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H10_H10-M-R03_PISO",
+          "source_name": "H10_H10-M-R03_PISO",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -1.7350000190734862,
+              1.6600000476837167
+            ],
+            [
+              1.9750000190734864,
+              1.6600000476837167
+            ],
+            [
+              1.9750000190734864,
+              -2.990000047683715
+            ],
+            [
+              -1.7350000190734862,
+              -2.990000047683715
+            ]
+          ],
+          "area_m2": 17.251500531196598,
+          "floor_local_y": 0.3199999998807907,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H10_H10-M-R02_PISO",
+          "source_name": "H10_H10-M-R02_PISO",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -5.624999976158142,
+              -3.1399999570846555
+            ],
+            [
+              -1.825000023841858,
+              -3.1399999570846555
+            ],
+            [
+              -1.825000023841858,
+              -6.550000042915344
+            ],
+            [
+              -5.624999976158142,
+              -6.550000042915344
+            ]
+          ],
+          "area_m2": 12.95800016355514,
+          "floor_local_y": 0.3199999998807907,
+          "access_mode": "enter_region"
+        },
+        {
+          "id": "H10_H10-M-R01_PISO",
+          "source_name": "H10_H10-M-R01_PISO",
+          "unit": "main",
+          "polygon_xz": [
+            [
+              -1.6850000429153442,
+              -3.1399999570846555
+            ],
+            [
+              1.9750000429153443,
+              -3.1399999570846555
+            ],
+            [
+              1.9750000429153443,
+              -6.550000042915344
+            ],
+            [
+              -1.6850000429153442,
+              -6.550000042915344
+            ]
+          ],
+          "area_m2": 12.480600606822975,
+          "floor_local_y": 0.3199999998807907,
+          "access_mode": "enter_region"
+        }
+      ],
+      "doors": [
+        {
+          "mesh_name": "H10_M_PORTA_Quarto_02_PIVO_FOLHA",
+          "hinge": [
+            0.19500000000000006,
+            0.32,
+            -3.07
+          ],
+          "source_to_closed_degrees": 0,
+          "open_degrees": -90,
+          "attached_meshes": [
+            "H10_M_PORTA_Quarto_02_PIVO_PUXADOR"
+          ],
+          "unit": "main",
+          "source_bounds": [
+            [
+              -0.6700000047683716,
+              0.3200000143051147,
+              -3.0974999998509882
+            ],
+            [
+              0.1950000047683716,
+              2.349999985694885,
+              -3.0425000001490115
+            ]
+          ],
+          "floor_local_y": 0.3199999998807907
+        },
+        {
+          "mesh_name": "H10_M_PORTA_Quarto_01_PIVO_FOLHA",
+          "hinge": [
+            -3.2049999999999996,
+            0.32,
+            -3.07
+          ],
+          "source_to_closed_degrees": 0,
+          "open_degrees": -90,
+          "attached_meshes": [
+            "H10_M_PORTA_Quarto_01_PIVO_PUXADOR"
+          ],
+          "unit": "main",
+          "source_bounds": [
+            [
+              -4.070000004768371,
+              0.3200000143051147,
+              -3.0974999998509882
+            ],
+            [
+              -3.204999995231628,
+              2.349999985694885,
+              -3.0425000001490115
+            ]
+          ],
+          "floor_local_y": 0.3199999998807907
+        },
+        {
+          "mesh_name": "H10_M_PORTA_Banheiro_PIVO_FOLHA",
+          "hinge": [
+            -3.105,
+            0.32,
+            1.7299999999999995
+          ],
+          "source_to_closed_degrees": 0,
+          "open_degrees": 90,
+          "attached_meshes": [
+            "H10_M_PORTA_Banheiro_PIVO_PUXADOR"
+          ],
+          "unit": "main",
+          "source_bounds": [
+            [
+              -3.9700000047683717,
+              0.3200000143051147,
+              1.7025000001490112
+            ],
+            [
+              -3.1049999952316285,
+              2.349999985694885,
+              1.757499999850988
+            ]
+          ],
+          "floor_local_y": 0.3199999998807907
+        },
+        {
+          "mesh_name": "H10_A_PORTA_Passadoria_PIVO_FOLHA",
+          "hinge": [
+            -14.283000000000001,
+            0.22,
+            3.6630000000000003
+          ],
+          "source_to_closed_degrees": 0,
+          "open_degrees": -90,
+          "attached_meshes": [
+            "H10_A_PORTA_Passadoria_PIVO_PUXADOR"
+          ],
+          "unit": "wing",
+          "source_bounds": [
+            [
+              -14.283000004768374,
+              0.22000001430511462,
+              3.635500000149012
+            ],
+            [
+              -13.41799999523163,
+              2.249999985694885,
+              3.6904999998509886
+            ]
+          ],
+          "floor_local_y": 0.21999999988079072
+        },
+        {
+          "mesh_name": "H10_A_PORTA_Depósito_PIVO_FOLHA",
+          "hinge": [
+            -8.933,
+            0.22,
+            3.6630000000000003
+          ],
+          "source_to_closed_degrees": 0,
+          "open_degrees": -90,
+          "attached_meshes": [
+            "H10_A_PORTA_Depósito_PIVO_PUXADOR"
+          ],
+          "unit": "wing",
+          "source_bounds": [
+            [
+              -8.933000004768372,
+              0.22000001430511462,
+              3.635500000149012
+            ],
+            [
+              -8.067999995231629,
+              2.249999985694885,
+              3.6904999998509886
+            ]
+          ],
+          "floor_local_y": 0.21999999988079072
+        }
+      ],
+      "units": [
+        {
+          "id": "main",
+          "bounds": [
+            [
+              -5.625000052452087,
+              0.2199999998807907,
+              -6.550000042915344
+            ],
+            [
+              1.9750000429153443,
+              3.019999999880791,
+              5.309999995231627
+            ]
+          ],
+          "floor_local_y": 0.3199999998807907,
+          "entry_world": [
+            121.667,
+            242.82166659037279
+          ],
+          "front_vector": [
+            0,
+            -1
+          ],
+          "approach_world": [
+            121.667,
+            239.08333333333331
+          ],
+          "independent_entry": true
+        },
+        {
+          "id": "wing",
+          "bounds": [
+            [
+              -16.063000019073485,
+              0.11999999988079071,
+              -0.4170001144409181
+            ],
+            [
+              -5.653000028610229,
+              2.919999999880791,
+              6.633000047683716
+            ]
+          ],
+          "floor_local_y": 0.21999999988079072,
+          "entry_world": [
+            121.78499999145666,
+            255.27499996821086
+          ],
+          "front_vector": [
+            -1,
+            0
+          ],
+          "approach_world": [
+            120.38499999145665,
+            255.27499996821086
+          ],
+          "independent_entry": true
+        }
+      ],
+      "qa_grid_step_m": 0.09,
+      "technical_adjustments": [],
+      "exterior_open_degrees": 90,
+      "exterior_rule": {
+        "enabled": true,
+        "master_candidate": true,
+        "revision": "H10-ART-REV04",
+        "decision_id": "H10-ART-REV03",
+        "direction_approved": null,
+        "prototype_execution_authorized": true,
+        "visual_homologation": false,
+        "main_promotion_authorized": false,
+        "source_asset": "HAB_189",
+        "visual_path": "res://staging/e06_world/arroio/assets/current_h01_h20_rev01/H10.gltf",
+        "base_snapshot": "4802e8c233f66a4ad377bcc7",
+        "sector": "S03",
+        "building_position": [
+          121.66666666666666,
+          0,
+          244.86666666666667
+        ],
+        "building_yaw": 90,
+        "visual_offset": [
+          -0.0,
+          -0.0,
+          0.6200001239776611
+        ],
+        "gate_original": {
+          "center": [
+            117.08020253393485,
+            239.08333333333331
+          ],
+          "along": [
+            1.0,
+            0.0
+          ],
+          "inward": [
+            -0.0,
+            1.0
+          ],
+          "opening_width_m": 3.6,
+          "leaf_state": "open; no interaction script"
+        },
+        "gate_center": [
+          121.667,
+          239.08333333333331
+        ],
+        "gate_width_m": 3.6,
+        "door_xz": [
+          121.667,
+          242.82166659037279
+        ],
+        "front_direction": -1,
+        "floor_m": 0.28,
+        "eave_m": 2.9,
+        "ridge_m": 4.2,
+        "body_center_xz": [
+          121.66666666666663,
+          246.69166666666672
+        ],
+        "body_width_m": 11.999999904632569,
+        "body_depth_m": 7.740000152587896,
+        "body_bounds_xz": [
+          115.66666671435034,
+          242.82166659037279,
+          127.66666661898292,
+          250.56166674296068
+        ],
+        "candidate_translation_xyz": [
+          0,
+          0,
+          2
+        ],
+        "front_walls_to_recompose": [
+          "WALL_099",
+          "WALL_100"
+        ],
+        "access_path": [
+          [
+            121.667,
+            239.08333333333331
+          ],
+          [
+            121.667,
+            242.82166659037279
+          ]
+        ],
+        "access_width_m": 1.9,
+        "wall_color": [
+          0.68,
+          0.65,
+          0.57
+        ],
+        "wood_house": false,
+        "hip_roof": false,
+        "gray_roof": false,
+        "porch_depth_m": 0.65,
+        "porch_width_m": 1.7,
+        "object_moves": [
+          {
+            "id": "SEATING_H10",
+            "from_xz": [
+              126.0,
+              256.0
+            ],
+            "candidate_xz": [
+              117.0,
+              264.5
+            ],
+            "reason": "liberar área da nova ala e manter área de trabalho próxima ao pátio interno"
+          },
+          {
+            "id": "FLOWER_BORDER_H10",
+            "from_xz": [
+              124.0,
+              262.0
+            ],
+            "candidate_xz": [
+              129.8,
+              265.0
+            ],
+            "reason": "evitar colisão com circulação entre ala e oficina"
+          },
+          {
+            "id": "YARD_H10_decor_011",
+            "from_xz": [
+              122.462,
+              250.14066666666668
+            ],
+            "candidate_xz": [
+              116.9,
+              253.0
+            ],
+            "reason": "conflito com recuo e com encontro das alas"
+          },
+          {
+            "id": "RAIN_BARREL_H10",
+            "from_xz": [
+              130.0,
+              242.0
+            ],
+            "candidate_xz": [
+              130.3,
+              252.1
+            ],
+            "reason": "associar à área de serviço da casa ampliada"
+          }
+        ],
+        "extra_structures": [
+          {
+            "id": "H10_ALA_L",
+            "bounds": [
+              121.8,
+              250.45,
+              129.0,
+              261.0
+            ],
+            "wood": false,
+            "gray": false,
+            "ridge": 3.95,
+            "eave": 2.9,
+            "lean_to": 0,
+            "kind": "utility",
+            "floor": 0.12,
+            "front_direction": -1,
+            "front_vector": [
+              -1,
+              0
+            ],
+            "front_view": 2,
+            "door_xz": [
+              121.78499999145666,
+              255.27499996821086
+            ]
+          },
+          {
+            "id": "H10_OFICINA",
+            "bounds": [
+              115.7,
+              273.0,
+              121.7,
+              280.0
+            ],
+            "wood": true,
+            "gray": true,
+            "ridge": 3.4,
+            "eave": 2.55,
+            "lean_to": 0.8,
+            "kind": "utility",
+            "floor": 0.12,
+            "front_direction": -1,
+            "front_vector": [
+              0,
+              -1
+            ],
+            "front_view": -1,
+            "door_xz": [
+              118.70000008742014,
+              272.9849995295207
+            ]
+          }
+        ],
+        "service_porch_bounds": [
+          119.6,
+          252.8,
+          121.8,
+          257.8
+        ],
+        "service_path": [
+          [
+            118.9,
+            257.9
+          ],
+          [
+            119.7,
+            261.4
+          ],
+          [
+            120.7,
+            267.9
+          ],
+          [
+            123.0,
+            269.2
+          ],
+          [
+            123.0,
+            275.2
+          ]
+        ],
+        "triangles": 27918,
+        "id": "H10",
+        "identity": "Casa das Colchas",
+        "source_visual_path": "res://staging/e06_world/arroio/assets/master_h01_h10_rev01/H10.gltf",
+        "current_revision_candidate": true,
+        "front_axis": 1,
+        "front_vector": [
+          0,
+          -1
+        ],
+        "front_view": -1,
+        "service_branches": [
+          [
+            [
+              123,
+              269.2
+            ],
+            [
+              118.7,
+              269.2
+            ],
+            [
+              118.7,
+              271.8
+            ]
+          ]
+        ],
+        "new_props": [
+          {
+            "id": "H10-R04-O01",
+            "label": "Cesto de retalhos",
+            "zone": "patio",
+            "kind": "vessels",
+            "position_xz_m": [
+              117.3,
+              258.661
+            ],
+            "collision_radius_candidate_m": 0.34,
+            "note": "fibras umidas, sem materiais de valor",
+            "status": "proposta_nao_instanciada",
+            "placement_adjustment": "Lot-local clearance adjustment for the measured utility entrance.",
+            "source_position_xz_m": [
+              117.845,
+              258.661
+            ],
+            "realized_position_xyz_m": [
+              117.3,
+              0,
+              258.661
+            ]
+          },
+          {
+            "id": "H10-R04-O02",
+            "label": "Bacia de lavagem vazia",
+            "zone": "patio",
+            "kind": "basin",
+            "position_xz_m": [
+              115.383,
+              267.851
+            ],
+            "collision_radius_candidate_m": 0.42,
+            "note": "proxima a ala de servico",
+            "status": "proposta_nao_instanciada",
+            "source_position_xz_m": [
+              115.383,
+              267.851
+            ],
+            "realized_position_xyz_m": [
+              115.383,
+              0,
+              267.851
+            ]
+          },
+          {
+            "id": "H10-R04-O03",
+            "label": "Varal antigo caido",
+            "zone": "patio",
+            "kind": "clothesline_remnant",
+            "position_xz_m": [
+              115.877,
+              270.142
+            ],
+            "collision_radius_candidate_m": 0.65,
+            "note": "tecido desfeito; sem obstruir passagem",
+            "status": "proposta_nao_instanciada",
+            "source_position_xz_m": [
+              115.877,
+              270.142
+            ],
+            "realized_position_xyz_m": [
+              115.877,
+              0,
+              270.142
+            ]
+          },
+          {
+            "id": "H10-R04-O04",
+            "label": "Banquinho de madeira",
+            "zone": "patio",
+            "kind": "seating",
+            "position_xz_m": [
+              115.004,
+              261.662
+            ],
+            "collision_radius_candidate_m": 0.37,
+            "note": "assento deteriorado",
+            "status": "proposta_nao_instanciada",
+            "source_position_xz_m": [
+              115.004,
+              261.662
+            ],
+            "realized_position_xyz_m": [
+              115.004,
+              0,
+              261.662
+            ]
+          },
+          {
+            "id": "H10-R04-O05",
+            "label": "Caixa de roupas gastas",
+            "zone": "patio",
+            "kind": "storage",
+            "position_xz_m": [
+              116.318,
+              268.441
+            ],
+            "collision_radius_candidate_m": 0.46,
+            "note": "panos antigos em ambiente seco ou molhado",
+            "status": "proposta_nao_instanciada",
+            "source_position_xz_m": [
+              116.318,
+              268.441
+            ],
+            "realized_position_xyz_m": [
+              116.318,
+              0,
+              268.441
+            ]
+          },
+          {
+            "id": "H10-R04-O06",
+            "label": "Pote de pregadores",
+            "zone": "patio",
+            "kind": "watering_can",
+            "position_xz_m": [
+              116.431,
+              256.253
+            ],
+            "collision_radius_candidate_m": 0.25,
+            "note": "tampa enferrujada",
+            "status": "proposta_nao_instanciada",
+            "source_position_xz_m": [
+              116.431,
+              256.253
+            ],
+            "realized_position_xyz_m": [
+              116.431,
+              0,
+              256.253
+            ]
+          },
+          {
+            "id": "H10-R04-O07",
+            "label": "Cesto de vime tombado",
+            "zone": "patio",
+            "kind": "vessels",
+            "position_xz_m": [
+              115.368,
+              260.634
+            ],
+            "collision_radius_candidate_m": 0.36,
+            "note": "vestigio de lavagem",
+            "status": "proposta_nao_instanciada",
+            "source_position_xz_m": [
+              115.368,
+              260.634
+            ],
+            "realized_position_xyz_m": [
+              115.368,
+              0,
+              260.634
+            ]
+          },
+          {
+            "id": "H10-R04-O08",
+            "label": "Caixote de linhas",
+            "zone": "workedge",
+            "kind": "storage",
+            "position_xz_m": [
+              122.345,
+              281.159
+            ],
+            "collision_radius_candidate_m": 0.39,
+            "note": "sem instanciar loot",
+            "status": "proposta_nao_instanciada",
+            "source_position_xz_m": [
+              122.345,
+              281.159
+            ],
+            "realized_position_xyz_m": [
+              122.345,
+              0,
+              281.159
+            ]
+          },
+          {
+            "id": "H10-R04-O09",
+            "label": "Caixa de bobinas vazias",
+            "zone": "workedge",
+            "kind": "storage",
+            "position_xz_m": [
+              130.241,
+              267.553
+            ],
+            "collision_radius_candidate_m": 0.33,
+            "note": "armazenagem artesanal",
+            "status": "proposta_nao_instanciada",
+            "source_position_xz_m": [
+              130.241,
+              267.553
+            ],
+            "realized_position_xyz_m": [
+              130.241,
+              0,
+              267.553
+            ]
+          },
+          {
+            "id": "H10-R04-O10",
+            "label": "Mesa dobravel estragada",
+            "zone": "workedge",
+            "kind": "storage",
+            "position_xz_m": [
+              128.06,
+              269.968
+            ],
+            "collision_radius_candidate_m": 0.62,
+            "note": "apoio eventual de costura",
+            "status": "proposta_nao_instanciada",
+            "source_position_xz_m": [
+              128.06,
+              269.968
+            ],
+            "realized_position_xyz_m": [
+              128.06,
+              0,
+              269.968
+            ]
+          },
+          {
+            "id": "H10-R04-O11",
+            "label": "Rolo de tecido deteriorado",
+            "zone": "workedge",
+            "kind": "rack",
+            "position_xz_m": [
+              124.773,
+              276.53
+            ],
+            "collision_radius_candidate_m": 0.42,
+            "note": "tecido exposto ao tempo",
+            "status": "proposta_nao_instanciada",
+            "source_position_xz_m": [
+              124.773,
+              276.53
+            ],
+            "realized_position_xyz_m": [
+              124.773,
+              0,
+              276.53
+            ]
+          },
+          {
+            "id": "H10-R04-O12",
+            "label": "Moldura de madeira",
+            "zone": "workedge",
+            "kind": "storage",
+            "position_xz_m": [
+              125.168,
+              280.292
+            ],
+            "collision_radius_candidate_m": 0.45,
+            "note": "suporte utilitario",
+            "status": "proposta_nao_instanciada",
+            "source_position_xz_m": [
+              125.168,
+              280.292
+            ],
+            "realized_position_xyz_m": [
+              125.168,
+              0,
+              280.292
+            ]
+          },
+          {
+            "id": "H10-R04-O13",
+            "label": "Cadeira de costura antiga",
+            "zone": "workedge",
+            "kind": "seating",
+            "position_xz_m": [
+              130.427,
+              275.688
+            ],
+            "collision_radius_candidate_m": 0.46,
+            "note": "sem duplicar bancada original",
+            "status": "proposta_nao_instanciada",
+            "source_position_xz_m": [
+              130.427,
+              275.688
+            ],
+            "realized_position_xyz_m": [
+              130.427,
+              0,
+              275.688
+            ]
+          },
+          {
+            "id": "H10-R04-O14",
+            "label": "Caixote de cobertores",
+            "zone": "back",
+            "kind": "storage",
+            "position_xz_m": [
+              117.742,
+              285.912
+            ],
+            "collision_radius_candidate_m": 0.48,
+            "note": "cobertores danificados, sem estado de loot",
+            "status": "proposta_nao_instanciada",
+            "source_position_xz_m": [
+              117.742,
+              285.912
+            ],
+            "realized_position_xyz_m": [
+              117.742,
+              0,
+              285.912
+            ]
+          },
+          {
+            "id": "H10-R04-O15",
+            "label": "Cesto de armazenagem",
+            "zone": "back",
+            "kind": "vessels",
+            "position_xz_m": [
+              129.312,
+              285.84
+            ],
+            "collision_radius_candidate_m": 0.4,
+            "note": "vestigios dispersos",
+            "status": "proposta_nao_instanciada",
+            "source_position_xz_m": [
+              129.312,
+              285.84
+            ],
+            "realized_position_xyz_m": [
+              129.312,
+              0,
+              285.84
+            ]
+          },
+          {
+            "id": "H10-R04-O16",
+            "label": "Tampa de baú solta",
+            "zone": "back",
+            "kind": "storage",
+            "position_xz_m": [
+              115.369,
+              288.448
+            ],
+            "collision_radius_candidate_m": 0.38,
+            "note": "sem criar baú interativo",
+            "status": "proposta_nao_instanciada",
+            "source_position_xz_m": [
+              115.369,
+              288.448
+            ],
+            "realized_position_xyz_m": [
+              115.369,
+              0,
+              288.448
+            ]
+          },
+          {
+            "id": "H10-R04-O17",
+            "label": "Armacao de secagem",
+            "zone": "back",
+            "kind": "storage",
+            "position_xz_m": [
+              126.195,
+              282.834
+            ],
+            "collision_radius_candidate_m": 0.62,
+            "note": "pequena estrutura movel, nao edificacao",
+            "status": "proposta_nao_instanciada",
+            "source_position_xz_m": [
+              126.195,
+              282.834
+            ],
+            "realized_position_xyz_m": [
+              126.195,
+              0,
+              282.834
+            ]
+          },
+          {
+            "id": "H10-R04-O18",
+            "label": "Pilha de sarrafos",
+            "zone": "back",
+            "kind": "storage",
+            "position_xz_m": [
+              126.626,
+              288.753
+            ],
+            "collision_radius_candidate_m": 0.43,
+            "note": "materiais para manutencao",
+            "status": "proposta_nao_instanciada",
+            "source_position_xz_m": [
+              126.626,
+              288.753
+            ],
+            "realized_position_xyz_m": [
+              126.626,
+              0,
+              288.753
+            ]
+          },
+          {
+            "id": "H10-R04-O19",
+            "label": "Caixa de garrafas vazias",
+            "zone": "back",
+            "kind": "storage",
+            "position_xz_m": [
+              118.453,
+              284.07
+            ],
+            "collision_radius_candidate_m": 0.4,
+            "note": "ocupacao da antiga rotina",
+            "status": "proposta_nao_instanciada",
+            "source_position_xz_m": [
+              118.453,
+              284.07
+            ],
+            "realized_position_xyz_m": [
+              118.453,
+              0,
+              284.07
+            ]
+          },
+          {
+            "id": "H10-R04-O20",
+            "label": "Balde de zinco vazio",
+            "zone": "back",
+            "kind": "vessels",
+            "position_xz_m": [
+              122.535,
+              290.726
+            ],
+            "collision_radius_candidate_m": 0.34,
+            "note": "ferrugem e chuva",
+            "status": "proposta_nao_instanciada",
+            "source_position_xz_m": [
+              122.535,
+              290.726
+            ],
+            "realized_position_xyz_m": [
+              122.535,
+              0,
+              290.726
+            ]
+          },
+          {
+            "id": "H10-R04-O21",
+            "label": "Vaso ceramico rachado",
+            "zone": "back",
+            "kind": "vessels",
+            "position_xz_m": [
+              120.612,
+              287.815
+            ],
+            "collision_radius_candidate_m": 0.32,
+            "note": "vegetacao espontanea ao redor",
+            "status": "proposta_nao_instanciada",
+            "source_position_xz_m": [
+              120.612,
+              287.815
+            ],
+            "realized_position_xyz_m": [
+              120.612,
+              0,
+              287.815
+            ]
+          },
+          {
+            "id": "H10-R04-O22",
+            "label": "Caderneta de medidas",
+            "zone": "bancada",
+            "kind": "measured_surface_accessory",
+            "support_object": "SEATING_H10",
+            "offset_on_support_xz_m": [
+              -0.05,
+              -0.06
+            ],
+            "height_m": "depends_on_actual_mesh",
+            "status": "proposta_nao_instanciada",
+            "position_xz_m": null,
+            "support": {
+              "kind": "workbench",
+              "position_xz": [
+                117.0,
+                264.5
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.949999988079071,
+              "yaw_degrees": 90.0
+            },
+            "realized_position_xyz_m": [
+              116.94,
+              0.957999988079071,
+              264.55
+            ]
+          },
+          {
+            "id": "H10-R04-O23",
+            "label": "Caixa de agulhas fechada",
+            "zone": "bancada",
+            "kind": "measured_surface_accessory",
+            "support_object": "SEATING_H10",
+            "offset_on_support_xz_m": [
+              -0.47,
+              -0.11
+            ],
+            "height_m": "depends_on_actual_mesh",
+            "status": "proposta_nao_instanciada",
+            "position_xz_m": null,
+            "support": {
+              "kind": "workbench",
+              "position_xz": [
+                117.0,
+                264.5
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.949999988079071,
+              "yaw_degrees": 90.0
+            },
+            "realized_position_xyz_m": [
+              116.89,
+              0.957999988079071,
+              264.97
+            ]
+          },
+          {
+            "id": "H10-R04-O24",
+            "label": "Carretel gasto de linha",
+            "zone": "bancada",
+            "kind": "measured_surface_accessory",
+            "support_object": "SEATING_H10",
+            "offset_on_support_xz_m": [
+              -0.02,
+              -0.28
+            ],
+            "height_m": "depends_on_actual_mesh",
+            "status": "proposta_nao_instanciada",
+            "position_xz_m": null,
+            "support": {
+              "kind": "workbench",
+              "position_xz": [
+                117.0,
+                264.5
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.949999988079071,
+              "yaw_degrees": 90.0
+            },
+            "realized_position_xyz_m": [
+              116.75,
+              0.957999988079071,
+              264.52
+            ]
+          },
+          {
+            "id": "H10-R04-O25",
+            "label": "Molde de papel umido",
+            "zone": "bancada",
+            "kind": "measured_surface_accessory",
+            "support_object": "SEATING_H10",
+            "offset_on_support_xz_m": [
+              0.48,
+              0.35
+            ],
+            "height_m": "depends_on_actual_mesh",
+            "status": "proposta_nao_instanciada",
+            "position_xz_m": null,
+            "support": {
+              "kind": "workbench",
+              "position_xz": [
+                117.0,
+                264.5
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.949999988079071,
+              "yaw_degrees": 90.0
+            },
+            "realized_position_xyz_m": [
+              117.25,
+              0.957999988079071,
+              264.02
+            ]
+          },
+          {
+            "id": "H10-R04-O26",
+            "label": "Tesoura antiga fechada",
+            "zone": "bancada",
+            "kind": "measured_surface_accessory",
+            "support_object": "SEATING_H10",
+            "offset_on_support_xz_m": [
+              -0.36,
+              0.17
+            ],
+            "height_m": "depends_on_actual_mesh",
+            "status": "proposta_nao_instanciada",
+            "position_xz_m": null,
+            "support": {
+              "kind": "workbench",
+              "position_xz": [
+                117.0,
+                264.5
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.949999988079071,
+              "yaw_degrees": 90.0
+            },
+            "realized_position_xyz_m": [
+              117.17,
+              0.957999988079071,
+              264.86
+            ]
+          },
+          {
+            "id": "H10-R04-O27",
+            "label": "Caneca esmaltada",
+            "zone": "bancada",
+            "kind": "measured_surface_accessory",
+            "support_object": "SEATING_H10",
+            "offset_on_support_xz_m": [
+              -0.15,
+              0.27
+            ],
+            "height_m": "depends_on_actual_mesh",
+            "status": "proposta_nao_instanciada",
+            "position_xz_m": null,
+            "support": {
+              "kind": "workbench",
+              "position_xz": [
+                117.0,
+                264.5
+              ],
+              "source": "Rendered MultiMesh box geometry in active Godot scene",
+              "top_y_m": 0.949999988079071,
+              "yaw_degrees": 90.0
+            },
+            "realized_position_xyz_m": [
+              117.25,
+              0.957999988079071,
+              264.65
+            ]
+          }
+        ],
+        "deferred_props": [
+          {
+            "id": "H10-R04-O28",
+            "label": "Maquina de costura de pedal desativada",
+            "zone": "oficina_interiores_futuros",
+            "kind": "future_interior_placeholder",
+            "candidate_zone_xz_m": [
+              115.7,
+              273.0,
+              121.7,
+              280.0
+            ],
+            "world_position": null,
+            "reason": "oficina ainda nao modelada; sem posicao no plano nem autorizacao de interiores",
+            "status": "reserva_conceitual_nao_instanciada",
+            "position_xz_m": null,
+            "resolution": "Retained in future-interior reservation."
+          },
+          {
+            "id": "H10-R04-O29",
+            "label": "Mesa para cortar tecido",
+            "zone": "oficina_interiores_futuros",
+            "kind": "future_interior_placeholder",
+            "candidate_zone_xz_m": [
+              115.7,
+              273.0,
+              121.7,
+              280.0
+            ],
+            "world_position": null,
+            "reason": "oficina ainda nao modelada; sem posicao no plano nem autorizacao de interiores",
+            "status": "reserva_conceitual_nao_instanciada",
+            "position_xz_m": null,
+            "resolution": "Retained in future-interior reservation."
+          },
+          {
+            "id": "H10-R04-O30",
+            "label": "Estante de moldes e tecidos",
+            "zone": "oficina_interiores_futuros",
+            "kind": "future_interior_placeholder",
+            "candidate_zone_xz_m": [
+              115.7,
+              273.0,
+              121.7,
+              280.0
+            ],
+            "world_position": null,
+            "reason": "oficina ainda nao modelada; sem posicao no plano nem autorizacao de interiores",
+            "status": "reserva_conceitual_nao_instanciada",
+            "position_xz_m": null,
+            "resolution": "Retained in future-interior reservation."
+          }
+        ],
+        "site_features": [],
+        "vehicle_gates": [],
+        "preserve_side_entry_reference": false,
+        "geometry_adjustments": [],
+        "service_width_m": 1.2,
+        "new_prop_families": [
+          "basin",
+          "clothesline_remnant",
+          "measured_surface_accessory",
+          "rack",
+          "seating",
+          "storage",
+          "vessels",
+          "watering_can"
+        ]
+      },
+      "source_group_keys": [
+        "H10_MOB_35_FURN_WORKTABLE",
+        "H10_MOB_34_FURN_SHELF",
+        "H10_MOB_33_FURN_SHELF",
+        "H10_MOB_32_FURN_SHELF",
+        "H10_MOB_31_FURN_UTILITY_CABINET",
+        "H10_MOB_30_FURN_IRONING_TABLE",
+        "H10_MOB_29_FURN_CHAIR",
+        "H10_MOB_28_FURN_CHAIR",
+        "H10_MOB_27_FURN_CHAIR",
+        "H10_MOB_26_FURN_CUTTING_TABLE",
+        "H10_MOB_25_FURN_SEWING_TABLE",
+        "H10_MOB_24_FURN_SEWING_TABLE",
+        "H10_MOB_23_FURN_SEWING_TABLE",
+        "H10_MOB_22_FIX_BASIN",
+        "H10_MOB_21_FIX_TOILET",
+        "H10_MOB_20_FIX_SHOWER",
+        "H10_MOB_19_FURN_UTILITY_CABINET",
+        "H10_MOB_18_APPL_WASHER",
+        "H10_MOB_17_FURN_LOW_CABINET",
+        "H10_MOB_16_APPL_STOVE",
+        "H10_MOB_15_FURN_KITCHEN_SINK",
+        "H10_MOB_14_APPL_FRIDGE",
+        "H10_MOB_13_FURN_CHAIR",
+        "H10_MOB_12_FURN_CHAIR",
+        "H10_MOB_11_FURN_CHAIR",
+        "H10_MOB_10_FURN_CHAIR",
+        "H10_MOB_09_FURN_DINING_TABLE",
+        "H10_MOB_08_FURN_TV_RACK",
+        "H10_MOB_07_FURN_ARMCHAIR",
+        "H10_MOB_06_FURN_SOFA",
+        "H10_MOB_05_FURN_DRESSER",
+        "H10_MOB_04_FURN_WARDROBE",
+        "H10_MOB_03_FURN_BED_DOUBLE",
+        "H10_MOB_02_FURN_DESK",
+        "H10_MOB_01_FURN_WARDROBE",
+        "H10_MOB_00_FURN_BED_SINGLE"
+      ]
+    }
+  }
+}

@@ -13,6 +13,8 @@ uniform float terrain_variation = 1.0;
 uniform float parcel_tone = 0.0;
 uniform int boundary_count = 0;
 uniform vec2 boundary[32];
+uniform bool exclude_lake_terrain = false;
+uniform vec4 lake_terrain_rect;
 varying vec3 world_position;
 
 float hash21(vec2 p) {
@@ -35,6 +37,7 @@ vec3 sample_surface(float kind, vec2 p, vec3 dirt) {
 }
 void fragment() {
 	vec2 p=world_position.xz;
+	if (exclude_lake_terrain && p.x>lake_terrain_rect.x && p.y>lake_terrain_rect.y && p.x<lake_terrain_rect.z && p.y<lake_terrain_rect.w) { discard; }
 	vec3 grass=texture(grass_texture,p/4.5).rgb;
 	vec3 dirt=texture(dirt_texture,p/5.0).rgb;
 	float macro=noise21(p/24.0);

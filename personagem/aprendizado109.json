@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "balance_status": "candidate_for_review",
+  "experiences_per_point": 3,
+  "max_rank": 6,
+  "trainable": [
+    "persuasion",
+    "perception",
+    "empathy",
+    "intimidation"
+  ],
+  "descriptions": {
+    "persuasion": "Ajuda a conduzir pedidos e tentativas de convencimento.",
+    "perception": "Ajuda a perceber reações durante uma conversa.",
+    "empathy": "Ajuda a conduzir conversas com atenção à outra pessoa.",
+    "intimidation": "Ajuda a sustentar uma abordagem de pressão na conversa."
+  },
+  "activities": {
+    "samuel_origin": {
+      "npc": "samuel_henrique",
+      "visited": "root/origin"
+    },
+    "samuel_privacy": {
+      "npc": "samuel_henrique",
+      "visited": "root/privacy"
+    },
+    "samuel_calm_attempt": {
+      "npc": "samuel_henrique",
+      "check": "calm_request"
+    },
+    "samuel_observation_attempt": {
+      "npc": "samuel_henrique",
+      "check": "observe"
+    },
+    "gabriel_occupation": {
+      "npc": "gabriel_pimenta",
+      "visited": "root/occupation"
+    },
+    "gabriel_privacy": {
+      "npc": "gabriel_pimenta",
+      "visited": "root/privacy"
+    },
+    "gabriel_observation_attempt": {
+      "npc": "gabriel_pimenta",
+      "check": "gabriel_observe"
+    },
+    "josue_occupation": {
+      "npc": "josue_medeira",
+      "visited": "root/occupation"
+    },
+    "josue_privacy": {
+      "npc": "josue_medeira",
+      "visited": "root/privacy"
+    },
+    "josue_calm_attempt": {
+      "npc": "josue_medeira",
+      "check": "josue_calm"
+    },
+    "jorge_occupation": {
+      "npc": "jorge_luiz",
+      "visited": "root/occupation"
+    },
+    "jorge_rules": {
+      "npc": "jorge_luiz",
+      "visited": "root/rules"
+    },
+    "jorge_acknowledged": {
+      "npc": "jorge_luiz",
+      "visited": "root/acknowledge"
+    },
+    "jorge_intimidation_attempt": {
+      "npc": "jorge_luiz",
+      "check": "jorge_intimidate"
+    },
+    "doctor_occupation": {
+      "npc": "ricardo_medeiro",
+      "visited": "root/occupation"
+    },
+    "doctor_origin": {
+      "npc": "ricardo_medeiro",
+      "visited": "root/origin"
+    },
+    "doctor_privacy": {
+      "npc": "ricardo_medeiro",
+      "visited": "root/privacy"
+    },
+    "doctor_empathy_attempt": {
+      "npc": "ricardo_medeiro",
+      "check": "doctor_empathy"
+    },
+    "farmer_occupation": {
+      "npc": "ricardo_alberto",
+      "visited": "root/occupation"
+    },
+    "farmer_origin": {
+      "npc": "ricardo_alberto",
+      "visited": "root/origin"
+    },
+    "farmer_cure_position": {
+      "npc": "ricardo_alberto",
+      "visited": "root/cure"
+    },
+    "farmer_privacy": {
+      "npc": "ricardo_alberto",
+      "visited": "root/privacy"
+    },
+    "farmer_calm_attempt": {
+      "npc": "ricardo_alberto",
+      "check": "farmer_calm"
+    },
+    "renata_public_identity": {
+      "npc": "renata_volker",
+      "visited": "root/occupation"
+    },
+    "renata_privacy": {
+      "npc": "renata_volker",
+      "visited": "root/privacy"
+    },
+    "pietra_occupation": {
+      "npc": "pietra_dos_santos",
+      "visited": "root/occupation"
+    },
+    "pietra_herbs": {
+      "npc": "pietra_dos_santos",
+      "visited": "root/herbs"
+    },
+    "pietra_privacy": {
+      "npc": "pietra_dos_santos",
+      "visited": "root/privacy"
+    },
+    "ana_school": {
+      "npc": "ana_julia",
+      "visited": "root/school"
+    },
+    "ana_privacy": {
+      "npc": "ana_julia",
+      "visited": "root/privacy"
+    },
+    "r109_renata_volker_ana109": {
+      "npc": "renata_volker",
+      "visited": "root/ana109"
+    },
+    "r109_samuel_henrique_sorriso109": {
+      "npc": "samuel_henrique",
+      "visited": "root/sorriso109"
+    },
+    "r109_ana_julia_igor109": {
+      "npc": "ana_julia",
+      "visited": "root/igor109"
+    },
+    "r109_ricardo_medeiro_renata109": {
+      "npc": "ricardo_medeiro",
+      "visited": "root/renata109"
+    },
+    "r109_samuel_henrique_gabriel109": {
+      "npc": "samuel_henrique",
+      "visited": "root/gabriel109"
+    },
+    "r109_gabriel_pimenta_safe109": {
+      "npc": "gabriel_pimenta",
+      "check": "r109_gabriel_pimenta_safe109"
+    },
+    "r109_gabriel_pimenta_leave109": {
+      "npc": "gabriel_pimenta",
+      "visited": "root/leave109"
+    }
+  }
+}

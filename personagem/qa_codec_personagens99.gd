@@ -1,0 +1,17 @@
+extends SceneTree
+func _initialize() -> void:
+    var config=JSON.parse_string(FileAccess.get_file_as_string("res://personagem/personagens99.json"))
+    var registry=load("res://personagem/registro_personagens99.gd").new()
+    assert(registry.configure(config) and registry.definitions.size()==9)
+    assert(config.encounters.size()==1 and config.encounters.has("samuel_henrique"))
+    var initial=registry.snapshot();assert(registry.validate(null)==initial)
+    registry.met.samuel_henrique=true;var state=registry.snapshot()
+    assert(registry.restore(initial) and not registry.met.samuel_henrique)
+    assert(registry.restore(state) and registry.met.samuel_henrique)
+    var broken=state.duplicate(true);broken.met.samuel_henrique="true";assert(registry.validate(broken).is_empty())
+    broken=state.duplicate(true);broken.met.erase("ana_julia");assert(registry.validate(broken).is_empty())
+    broken=state.duplicate(true);broken.met.unknown=true;assert(registry.validate(broken).is_empty())
+    broken=state.duplicate(true);broken.version=2;assert(registry.validate(broken).is_empty())
+    assert(registry.snapshot()==state)
+    print("R99_CODEC_OK nine stable identities, optional legacy block, exact bool schema, no mutation on invalid input")
+    quit()
