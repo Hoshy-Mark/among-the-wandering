@@ -1,0 +1,160 @@
+{
+  "samples": [
+    {
+      "demo_state": "alive",
+      "draw_calls": 1098.0,
+      "frame": {
+        "fps_from_mean": 11.8106899933043,
+        "mean_ms": 84.6690583333334,
+        "median_ms": 84.053,
+        "p95_ms": 98.106
+      },
+      "humans": 9,
+      "label": "baseline",
+      "live_zombies": 0,
+      "physics": {
+        "fps_from_mean": 31.0318236523525,
+        "mean_ms": 32.2249833333333,
+        "median_ms": 32.149,
+        "p95_ms": 35.108
+      },
+      "primitives": 1919735.0,
+      "process": {
+        "fps_from_mean": 47.4602253648801,
+        "mean_ms": 21.070275,
+        "median_ms": 20.768,
+        "p95_ms": 26.116
+      }
+    },
+    {
+      "demo_state": "alive",
+      "draw_calls": 1098.0,
+      "frame": {
+        "fps_from_mean": 43.0384422953119,
+        "mean_ms": 23.2350416666667,
+        "median_ms": 21.327,
+        "p95_ms": 38.677
+      },
+      "humans": 9,
+      "label": "diagnostic_human_poses_frozen",
+      "live_zombies": 0,
+      "physics": {
+        "fps_from_mean": 38.7400821354308,
+        "mean_ms": 25.8130583333333,
+        "median_ms": 24.805,
+        "p95_ms": 35.397
+      },
+      "primitives": 1919735.0,
+      "process": {
+        "fps_from_mean": 11.9172442723241,
+        "mean_ms": 83.9120166666667,
+        "median_ms": 25.554,
+        "p95_ms": 349.298
+      }
+    },
+    {
+      "demo_state": "alive",
+      "draw_calls": 1098.0,
+      "frame": {
+        "fps_from_mean": 18.8873761499658,
+        "mean_ms": 52.9454166666667,
+        "median_ms": 51.66,
+        "p95_ms": 67.099
+      },
+      "humans": 9,
+      "label": "diagnostic_population_simulation_frozen",
+      "live_zombies": 0,
+      "physics": {
+        "fps_from_mean": 70.9883170977136,
+        "mean_ms": 14.086825,
+        "median_ms": 14.279,
+        "p95_ms": 16.134
+      },
+      "primitives": 1919735.0,
+      "process": {
+        "fps_from_mean": 43.44495307221,
+        "mean_ms": 23.0176333333333,
+        "median_ms": 22.771,
+        "p95_ms": 26.767
+      }
+    },
+    {
+      "demo_state": "alive",
+      "draw_calls": 1098.0,
+      "frame": {
+        "fps_from_mean": 20.6347276620045,
+        "mean_ms": 48.4619916666667,
+        "median_ms": 45.767,
+        "p95_ms": 65.979
+      },
+      "humans": 9,
+      "label": "diagnostic_interior_updates_frozen",
+      "live_zombies": 0,
+      "physics": {
+        "fps_from_mean": 31.5726328418527,
+        "mean_ms": 31.673,
+        "median_ms": 30.974,
+        "p95_ms": 35.772
+      },
+      "primitives": 1919735.0,
+      "process": {
+        "fps_from_mean": 77.1181462854117,
+        "mean_ms": 12.9671166666667,
+        "median_ms": 12.684,
+        "p95_ms": 14.59
+      }
+    },
+    {
+      "demo_state": "alive",
+      "draw_calls": 66.0,
+      "frame": {
+        "fps_from_mean": 13.2675630748241,
+        "mean_ms": 75.3717916666667,
+        "median_ms": 74.156,
+        "p95_ms": 92.146
+      },
+      "humans": 9,
+      "label": "diagnostic_city_rendering_hidden",
+      "live_zombies": 0,
+      "physics": {
+        "fps_from_mean": 30.7379411214738,
+        "mean_ms": 32.5330833333333,
+        "median_ms": 31.808,
+        "p95_ms": 35.789
+      },
+      "primitives": 15645.0,
+      "process": {
+        "fps_from_mean": 53.8383369337721,
+        "mean_ms": 18.574125,
+        "median_ms": 18.769,
+        "p95_ms": 22.494
+      }
+    },
+    {
+      "demo_state": "alive",
+      "draw_calls": 1098.0,
+      "frame": {
+        "fps_from_mean": 11.4807080573618,
+        "mean_ms": 87.1026416666666,
+        "median_ms": 87.143,
+        "p95_ms": 108.411
+      },
+      "humans": 9,
+      "label": "baseline_repeat",
+      "live_zombies": 0,
+      "physics": {
+        "fps_from_mean": 30.9403228210148,
+        "mean_ms": 32.3202833333334,
+        "median_ms": 32.112,
+        "p95_ms": 39.963
+      },
+      "primitives": 1919735.0,
+      "process": {
+        "fps_from_mean": 48.5624502993673,
+        "mean_ms": 20.5920416666667,
+        "median_ms": 21.028,
+        "p95_ms": 21.967
+      }
+    }
+  ]
+}

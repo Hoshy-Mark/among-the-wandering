@@ -18,6 +18,15 @@ func index_population() -> void:
         var key=_cell(point(registry.states[id].position))
         if not cells.has(key):cells[key]=[]
         cells[key].append(id)
+func sync_position115(id: String,before: Vector3,was_alive: bool,after: Vector3,alive: bool) -> void:
+    var old=_cell(before);var next=_cell(after)
+    if old==next and was_alive==alive:return
+    if was_alive and cells.has(old):
+        cells[old].erase(id)
+        if cells[old].is_empty():cells.erase(old)
+    if alive:
+        if not cells.has(next):cells[next]=[]
+        if not cells[next].has(id):cells[next].append(id)
 func ambient_point(id: String,delta: float) -> Vector3:
     var s=registry.states[id];var current=point(s.position)
     if s.mode in ["confined","dead"]:return current

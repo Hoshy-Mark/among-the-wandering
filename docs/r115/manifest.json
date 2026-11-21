@@ -1,0 +1,22 @@
+{
+  "algorithm": "sha256",
+  "text_normalization": "UTF-8 without BOM; CRLF normalized to LF, independently of checkout platform",
+  "baseline_commit": "f352d164c6a7719f32bd5318209c30d97a20c1cd",
+  "files": {
+    "personagem/humano99.gd": "bc32cc18198ed7a638f0800bd79d0106aff3338fdf75228f53f6ecff80033e12",
+    "personagem/motor_populacao98.gd": "de943b308b42d62a352666bb13682dafe45478d61bc90fcf3e9a9bfc967efce4",
+    "personagem/zumbis98.gd": "bef4beab75fba33cc6a04457492d5744f6ccbce6d5983f9eab04e05283bbaafa",
+    "staging/e06_world/arroio/scripts/residential_interiors.gd": "52c9c5a5f502b718dd8b6e2fdd2060f560835a2bed639fbfdee86cc1e3753f0d",
+    "personagem/visual_budget115.gd": "ee1f7b0e19dc97a74289d682d435e081dcb1bfbe0d16a90723f5ac796ccf642b",
+    "tests/fps115.gd": "c4fce2e9fd05faea3d12a92ba7d4cd5b0c916a2bed689b70442df0b9a676ec99",
+    "tests/performance115.gd": "d1ffc6c40b33bdb0fb4ac5338f7c40cb4902fd4cc053a78331b667b947018726",
+    "tests/woodland115.gd": "6c120b64ac84b1228e44142e73c62e0d4ee9fbbcad93d6b118ffb4534b067ab5",
+    "tests/budget115.gd": "c326357514a152f7dcf577f4aeb4d93692bbb31f6213c5f507b04c9d4d8d163f",
+    "tests/unit115.gd": "f031db2a20c9476aae949bc8f60e324d3f6a59d44f2ae636ea85b3adc91c2a9f",
+    "tests/regression115.gd": "b18db49ddffc5286452cc8fccf21afe70fbc27016d918ab8d93f07710aa1ff5e",
+    "tests/fixtures115/humano99_r114.txt": "28d4956bc777af91122a3b8c20fdb7190c2f41094e7b33941cc890f792d7dacc",
+    "tests/fixtures115/motor_populacao98_r114.txt": "9f18f0643cf07cbc048a3e7f3ee7ba4efd77d5f9e27257df171a86b7e784283b",
+    "tests/fixtures115/residential_interiors_r114.txt": "055cf6daddd55f70f9a837982d8e1919151c1e5c37c18429e91da4a081a38016",
+    "tests/fixtures115/zumbis98_r114.txt": "4d1ece6669af3ae0346bfa2c519165e30f0b07504dfc1ae2b8fe22a2fef8eab2"
+  }
+}

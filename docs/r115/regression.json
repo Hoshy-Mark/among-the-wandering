@@ -1,0 +1,922 @@
+{
+  "checks": [
+    {
+      "message": "2751 scheduler/spatial unit checks",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 0",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 1",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 2",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 3",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 4",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 5",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 6",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 7",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 8",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 9",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 10",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 11",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 12",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 13",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 14",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 15",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 16",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 17",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 18",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 19",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 20",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 21",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 22",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 23",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 24",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 25",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 26",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 27",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 28",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 29",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 30",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 31",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 32",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 33",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 34",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 35",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 36",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 37",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 38",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 39",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 40",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 41",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 CivicDoorAndOcclusionController scenario 42",
+      "passed": true
+    },
+    {
+      "message": "explicit cutaway refresh matches R114 CivicDoorAndOcclusionController",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 0",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 1",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 2",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 3",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 4",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 5",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 6",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 7",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 8",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 9",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 10",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 11",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 12",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 13",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 14",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 15",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 16",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 17",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 18",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 19",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 20",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 21",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 22",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 23",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 24",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 25",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 26",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 27",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 28",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 29",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 30",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 31",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 32",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 33",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 34",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 35",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 36",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 37",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 38",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 39",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 40",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 41",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 42",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 43",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 44",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 45",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 46",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 47",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 48",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 49",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 50",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 51",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 52",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 53",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 54",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 55",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 56",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 57",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 58",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 59",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 60",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 61",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 62",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 63",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 64",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 65",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 66",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 67",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 68",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 69",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 70",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 71",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 72",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 73",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 74",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 75",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 76",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 77",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 78",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 79",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 80",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 81",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 82",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 83",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 84",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 85",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 86",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 87",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 88",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 89",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 90",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 91",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 92",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 93",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 94",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 95",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 96",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 97",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 98",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 99",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 100",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 101",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 102",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 103",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 104",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 105",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 106",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 107",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 108",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 109",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 110",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 111",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 112",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 113",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 114",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 115",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 116",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 117",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 118",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 119",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 120",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 121",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 122",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 123",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 124",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 125",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 126",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 127",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 128",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 129",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 130",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 131",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 132",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 133",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 134",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 135",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 136",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 137",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 138",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 139",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 140",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 141",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 142",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 143",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 144",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 145",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 146",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 147",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 148",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 149",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 150",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 151",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 152",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 153",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 154",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 155",
+      "passed": true
+    },
+    {
+      "message": "cutaway matches R114 ResidentialInteriors scenario 156",
+      "passed": true
+    },
+    {
+      "message": "explicit cutaway refresh matches R114 ResidentialInteriors",
+      "passed": true
+    },
+    {
+      "message": "live actor cell sync 0",
+      "passed": true
+    },
+    {
+      "message": "live actor cell sync 1",
+      "passed": true
+    },
+    {
+      "message": "live actor cell sync 2",
+      "passed": true
+    },
+    {
+      "message": "live actor cell sync 3",
+      "passed": true
+    },
+    {
+      "message": "live actor cell sync 4",
+      "passed": true
+    },
+    {
+      "message": "live actor cell sync 5",
+      "passed": true
+    },
+    {
+      "message": "live actor cell sync 6",
+      "passed": true
+    },
+    {
+      "message": "live actor cell sync 7",
+      "passed": true
+    },
+    {
+      "message": "live actor cell sync 8",
+      "passed": true
+    },
+    {
+      "message": "live actor cell sync 9",
+      "passed": true
+    },
+    {
+      "message": "live actor cell sync 10",
+      "passed": true
+    },
+    {
+      "message": "live actor cell sync 11",
+      "passed": true
+    },
+    {
+      "message": "live actor cell sync 12",
+      "passed": true
+    },
+    {
+      "message": "live actor cell sync 13",
+      "passed": true
+    },
+    {
+      "message": "live actor cell sync 14",
+      "passed": true
+    },
+    {
+      "message": "live actor cell sync 15",
+      "passed": true
+    },
+    {
+      "message": "live actor cell sync 16",
+      "passed": true
+    },
+    {
+      "message": "live actor cell sync 17",
+      "passed": true
+    },
+    {
+      "message": "live actor cell sync 18",
+      "passed": true
+    },
+    {
+      "message": "live actor cell sync 19",
+      "passed": true
+    },
+    {
+      "message": "dead actor leaves separation grid",
+      "passed": true
+    },
+    {
+      "message": "all fixed population data restores after movement/death test",
+      "passed": true
+    },
+    {
+      "message": "active dialogue immediately updates full pose and pending time",
+      "passed": true
+    },
+    {
+      "message": "visual budgeting preserves collider and social state",
+      "passed": true
+    },
+    {
+      "message": "pause does not accumulate delayed animation",
+      "passed": true
+    },
+    {
+      "message": "save/load, doors, windows, fences and joint guards",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "unit_checks": 2769
+}

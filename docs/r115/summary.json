@@ -1,0 +1,60 @@
+{
+  "revision": 115,
+  "rows": [
+    {
+      "scene": "Início H01",
+      "before": {
+        "fps_from_mean": 11.9255547246315,
+        "mean_ms": 83.8535416666667,
+        "median_ms": 80.648,
+        "p95_ms": 98.267
+      },
+      "after": {
+        "fps_from_mean": 106.757386721516,
+        "mean_ms": 9.36703333333333,
+        "median_ms": 9.266,
+        "p95_ms": 14.722
+      },
+      "live_zombies": 0
+    },
+    {
+      "scene": "Perto de Renata e Ricardo",
+      "before": {
+        "fps_from_mean": 9.72985805866845,
+        "mean_ms": 102.776422222222,
+        "median_ms": 98.89,
+        "p95_ms": 136.751
+      },
+      "after": {
+        "fps_from_mean": 85.3566818633174,
+        "mean_ms": 11.7155444444444,
+        "median_ms": 11.714,
+        "p95_ms": 30.915
+      },
+      "live_zombies": 1
+    },
+    {
+      "scene": "Mata: seis zumbis ativos",
+      "before": {
+        "fps_from_mean": 6.85361329969829,
+        "mean_ms": 145.908436363636,
+        "median_ms": 146.513,
+        "p95_ms": 161.273
+      },
+      "after": {
+        "fps_from_mean": 74.688792534518,
+        "mean_ms": 13.388889632107,
+        "median_ms": 13.204,
+        "p95_ms": 28.298
+      },
+      "live_zombies": 6
+    }
+  ],
+  "fixed_population": 480,
+  "humans": 9,
+  "headless_unit_checks": 2751,
+  "native_unit_checks": 2769,
+  "native_integration_checks": 229,
+  "legacy_regression_checks": 111,
+  "development_focus": "optimization_only"
+}

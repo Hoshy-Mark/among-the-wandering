@@ -56,7 +56,9 @@ func _activate(id: String) -> void:
     activations+=1;peak_live=maxi(peak_live,actors.size())
 func sync_actor(actor: CharacterBody3D) -> void:
     var id=actor.identity;var entry=actor.snapshot();entry.ambient98=ambient(id);saved[id]=entry
-    var s=model.states[id];s.position=entry.position.duplicate();s.health=entry.health
+    var s=model.states[id]
+    motor.sync_position115(id,motor.point(s.position),s.mode!="dead",motor.point(entry.position),entry.health>.0001)
+    s.position=entry.position.duplicate();s.health=entry.health
     s.mode="dead" if entry.health<=.0001 else "confined" if model.definitions[id].cohort=="house_residents" else "patrol"
 func _retire(id: String) -> void:
     var actor=actors[id];sync_actor(actor);actor.clear_route();actors.erase(id);_refresh_rids()
@@ -80,7 +82,8 @@ func _physics_process(delta: float) -> void:
     if demo!=null and demo.state!="alive":return
     model.clock+=delta
     for actor in actors.values():sync_actor(actor)
-    motor.index_population();accumulator+=delta
+    # The ambient step rebuilds once at 5 Hz; live actors update their cells on sync.
+    accumulator+=delta
     if accumulator<.2:return
     var step=minf(accumulator,.4);accumulator=0
     var ids=[]
@@ -98,11 +101,6 @@ func wander_live(actor: CharacterBody3D,delta: float) -> void:
     var direction=actor.global_position-before;direction.y=0
     if direction.length()>.0001:actor.avatar.rotation.y=lerp_angle(actor.avatar.rotation.y,atan2(direction.x,direction.z),minf(1,delta*4))
     sync_actor(actor)
-    var old=motor._cell(before);var next=motor._cell(actor.global_position)
-    if old!=next:
-        if motor.cells.has(old):motor.cells[old].erase(actor.identity)
-        if not motor.cells.has(next):motor.cells[next]=[]
-        motor.cells[next].append(actor.identity)
 func settled() -> bool:
     for actor in actors.values():
         if actor.crossing.is_active() or actor.state in ["attack","hit","dying","crossing"]:return false

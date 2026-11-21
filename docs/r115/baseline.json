@@ -1,0 +1,91 @@
+{
+  "memory_bytes": 1694058844.0,
+  "population": 480,
+  "renderer": "gl_compatibility",
+  "resolution": [
+    1280,
+    720
+  ],
+  "samples": [
+    {
+      "demo_state": "alive",
+      "draw_calls": 1098.0,
+      "frame": {
+        "fps_from_mean": 11.9255547246315,
+        "mean_ms": 83.8535416666667,
+        "median_ms": 80.648,
+        "p95_ms": 98.267
+      },
+      "humans": 9,
+      "label": "H01",
+      "live_zombies": 0,
+      "physics": {
+        "fps_from_mean": 32.3077028698259,
+        "mean_ms": 30.9523708333334,
+        "median_ms": 30.329,
+        "p95_ms": 34.073
+      },
+      "primitives": 1919735.0,
+      "process": {
+        "fps_from_mean": 49.2491151575643,
+        "mean_ms": 20.3049333333334,
+        "median_ms": 20.104,
+        "p95_ms": 26.5
+      }
+    },
+    {
+      "demo_state": "alive",
+      "draw_calls": 675.0,
+      "frame": {
+        "fps_from_mean": 9.72985805866845,
+        "mean_ms": 102.776422222222,
+        "median_ms": 98.89,
+        "p95_ms": 136.751
+      },
+      "humans": 9,
+      "label": "near_humans",
+      "live_zombies": 1,
+      "physics": {
+        "fps_from_mean": 24.0646569202132,
+        "mean_ms": 41.5547166666667,
+        "median_ms": 32.825,
+        "p95_ms": 37.904
+      },
+      "primitives": 1599882.0,
+      "process": {
+        "fps_from_mean": 50.8734404464201,
+        "mean_ms": 19.6566222222222,
+        "median_ms": 19.262,
+        "p95_ms": 25.357
+      }
+    },
+    {
+      "demo_state": "alive",
+      "draw_calls": 291.0,
+      "frame": {
+        "fps_from_mean": 6.89516370919049,
+        "mean_ms": 145.029188888889,
+        "median_ms": 145.46,
+        "p95_ms": 158.318
+      },
+      "humans": 9,
+      "label": "woodland",
+      "live_zombies": 6,
+      "physics": {
+        "fps_from_mean": 31.8456350072696,
+        "mean_ms": 31.4014777777778,
+        "median_ms": 30.954,
+        "p95_ms": 34.282
+      },
+      "primitives": 439365.0,
+      "process": {
+        "fps_from_mean": 57.0715629840184,
+        "mean_ms": 17.5218611111111,
+        "median_ms": 17.564,
+        "p95_ms": 18.7
+      }
+    }
+  ],
+  "startup_ms": 37292.065,
+  "variant": "baseline"
+}

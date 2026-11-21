@@ -209,6 +209,10 @@ func _process(_delta: float) -> void:
 		if not is_instance_valid(home.instance) or not home.instance.is_inside_tree():continue
 		var inside: bool=lot==forced_home or (is_instance_valid(target) and contains_point(lot,target.global_position))
 		home.inside=inside
+		# Exterior homes already have their canonical shadows. Revisit on entry,
+		# exit, or an explicit zero-delta refresh used by civic/review adapters.
+		if not inside and home.get("cutaway_outside115",false) and _delta>0:continue
+		home.cutaway_outside115=not inside
 		for roof in home.roofs:
 			# Camera cutaway must not turn the physical roof into an opening
 			# for sunlight. Retain its shadow while excluding it from the view.
