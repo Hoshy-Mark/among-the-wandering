@@ -9,6 +9,8 @@ var message=""
 
 func _init() -> void:
     catalog=JSON.parse_string(FileAccess.get_file_as_string("res://personagem/itens63.json"))
+    if FileAccess.file_exists("res://personagem/map117/items.json"):
+        catalog.merge(JSON.parse_string(FileAccess.get_file_as_string("res://personagem/map117/items.json")),false)
     if FileAccess.file_exists("res://personagem/armas92.json"):
         catalog.merge(JSON.parse_string(FileAccess.get_file_as_string("res://personagem/armas92.json")).items,true)
     if FileAccess.file_exists("res://personagem/armas87.json"):

@@ -1,0 +1,14 @@
+{
+  "normalization": "UTF-8 without BOM, CRLF to LF",
+  "files": {
+    "demo_inventory.gd": "c5f96e7f1d8f93add84f220ecec2e86564ed96df455731bf321581afc5820469",
+    "personagem/aberturas113.gd": "3e2d43854b14bbdf34c3d515afd53c641d10dcd72bdb73a6978a984f021d629c",
+    "personagem/fluxo59.gd": "5f56eb2f66830bc8780a4f8a1197ab007408ffac85f8f90e27b1798319221137",
+    "personagem/map117/world.gd": "ccdbe91d0c4d022a58ec4f33bafd7cb08ec48db48d9f33f6e31ea7e18ca81646",
+    "personagem/map117/session.gd": "3cc1d7afc53fa5772b453aa00ce87e3d8097f13da5fb66f4f8a3989442a7d61b",
+    "staging/e06_world/arroio/scripts/residential_interiors.gd": "06273bf4d778810e4bad8eca15427629cb91191d81a11f05b60464be262db96d",
+    "staging/e06_world/arroio/scripts/civic_door_controller.gd": "e2a634d6b7c00f02a83a342cb7c9c14c85dee0a1f90cf689e0c524b2c75c4245",
+    "tests/map118.gd": "7cc7220dd9f890f617e8c77c459474221ead467fcfc1e26e7bd89fd5e743aeff",
+    "tests/exploration118.gd": "bafdf5157d50155200501293872d32ec8af2db70c2a56aded96d67e7f6bc6768"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "active": "world:arroio:H01_FURN_GUARDA_CASAL/storage/main",
+  "doors": [
+    {
+      "angles": [
+        [
+          0.95,
+          true
+        ],
+        [
+          0.9,
+          true
+        ],
+        [
+          0.85,
+          true
+        ],
+        [
+          0.8,
+          true
+        ]
+      ],
+      "centre": "(33.31274, 1.2835, 154.4053)",
+      "hit": {
+        "clear": true
+      },
+      "id": "H01/Hinge_BASE_PORTAL_D_Q1_LEAF_PIVOT",
+      "world_clear": true
+    },
+    {
+      "angles": [
+        [
+          0.95,
+          true
+        ],
+        [
+          0.9,
+          true
+        ],
+        [
+          0.85,
+          true
+        ],
+        [
+          0.8,
+          true
+        ]
+      ],
+      "centre": "(35.50974, 1.2835, 156.9014)",
+      "hit": {
+        "clear": true
+      },
+      "id": "H01/Hinge_BASE_PORTAL_D_WC_LEAF_PIVOT",
+      "world_clear": true
+    },
+    {
+      "angles": [
+        [
+          0.95,
+          true
+        ],
+        [
+          0.9,
+          true
+        ],
+        [
+          0.85,
+          true
+        ],
+        [
+          0.8,
+          true
+        ]
+      ],
+      "centre": "(33.09174, 1.2835, 159.9043)",
+      "hit": {
+        "clear": true
+      },
+      "id": "H01/Hinge_BASE_PORTAL_D_Q2_LEAF_PIVOT",
+      "world_clear": true
+    },
+    {
+      "angles": [
+        [
+          0.95,
+          true
+        ],
+        [
+          0.9,
+          true
+        ],
+        [
+          0.85,
+          true
+        ],
+        [
+          0.8,
+          true
+        ]
+      ],
+      "centre": "(27.76865, 1.28, 150.1738)",
+      "hit": {
+        "clear": true
+      },
+      "id": "H01/ReviewDoor_H01_PORTA_FOLHA",
+      "world_clear": true
+    }
+  ],
+  "hud": true,
+  "items": 3,
+  "message": "Arraste os itens para organizar a mochila e os bolsos.",
+  "opened": true,
+  "pending": "",
+  "save_reason": "invalid",
+  "searched": true
+}

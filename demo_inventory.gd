@@ -15,7 +15,7 @@ func _ready() -> void:
     var current_supplies112=not Array(args).any(func(arg):return str(arg).begins_with("--qa") or str(arg).begins_with("--capture")) or "--qa-demo95" in args or "--capture-demo95" in args or "--qa-population98" in args or "--capture-population98" in args
     demo_data=JSON.parse_string(FileAccess.get_file_as_string("res://personagem/demo_supplies112.json" if current_supplies112 else "res://personagem/demo_h01_73.json"))
     player.demo_mode=true
-    demo_data.profile="user://demo_population_r98.json"
+    demo_data.profile="user://demo_population_map117.json" if city.get_meta("spatial_revision_enabled",false) else "user://demo_population_r98.json"
     player.condition_path=demo_data.profile
     if not _new_inventory():
         push_error("Invalid H01 inventory configuration")
@@ -30,7 +30,7 @@ func _ready() -> void:
     player.combat_target=null
     hud.visible=false
     var house: Node3D=world_items.house
-    var spawn_values: Array=demo_data.spawn_local
+    var spawn_values: Array=house.spawn_local117 if city.get_meta("spatial_revision_enabled",false) else demo_data.spawn_local
     var point: Vector3=house.home.model.to_global(Vector3(spawn_values[0],spawn_values[1],spawn_values[2]))
     assert(house.standing_clear(point-Vector3.UP*.02))
     player.global_position=point
@@ -39,8 +39,10 @@ func _ready() -> void:
     var doors=load("res://personagem/aberturas113.gd").new()
     add_child(doors)
     doors.setup(self)
+    if city.get_meta("spatial_revision_enabled",false):world_items.configure_windows117()
     await get_tree().physics_frame
     await get_tree().physics_frame
+    doors.calibrate_map118()
     if not ("--qa-doors" in args or "--capture-doors" in args or "--qa-windows" in args or "--capture-windows" in args or "--qa-variants" in args or "--capture-variants" in args):
         var traversals=load("res://personagem/travessias77.gd").new()
         add_child(traversals)
@@ -68,7 +70,7 @@ func _ready() -> void:
     if weapon_mode:
         var weapons=load("res://personagem/armas92.gd" if arsenal_mode else "res://personagem/armas90.gd" if pose_mode else "res://personagem/armas87.gd" if firearm_mode else "res://personagem/armas86.gd").new();add_child(weapons);weapons.setup(self)
         var initial=player.bag_inventory.get_script().new();initial.house_anchors=player.bag_inventory.house_anchors.duplicate(true)
-        var seeded=initial.restore(player.bag_inventory.snapshot(),false) and weapons.seed(initial)
+        var seeded=initial.restore(player.bag_inventory.snapshot(),false) and (city.get_meta("spatial_revision_enabled",false) or weapons.seed(initial))
         if not seeded:push_error("Could not seed melee items");return
         player.bag_inventory.restore(initial.snapshot(),false);player.bag_inventory.changed.emit()
     if shoulder_mode:
@@ -87,10 +89,13 @@ func _ready() -> void:
         var quick=load("res://personagem/atalhos_hud_r01.gd").new();quick.name="Atalhos93";player.add_child(quick);quick.setup(self)
     if final_mode:
         var characters=load("res://personagem/personagens109.gd").new();characters.name="Characters99";add_child(characters);characters.setup(self)
-    var session_save=load("res://personagem/partida107.gd" if final_mode else "res://personagem/partida93.gd" if quick_mode else "res://personagem/partida92.gd" if arsenal_mode else "res://personagem/partida87.gd" if firearm_mode else "res://personagem/partida86.gd" if weapon_mode else "res://personagem/partida82.gd" if with_enemies else "res://personagem/partida81.gd").new()
+    var session_save=load("res://personagem/map117/session.gd" if city.get_meta("spatial_revision_enabled",false) else "res://personagem/partida107.gd" if final_mode else "res://personagem/partida93.gd" if quick_mode else "res://personagem/partida92.gd" if arsenal_mode else "res://personagem/partida87.gd" if firearm_mode else "res://personagem/partida86.gd" if weapon_mode else "res://personagem/partida82.gd" if with_enemies else "res://personagem/partida81.gd").new()
     if with_enemies:session_save.enemies=zombie_world
     add_child(session_save)
     session_save.setup(self)
+    if city.get_meta("spatial_revision_enabled",false):
+        await get_tree().physics_frame
+        session_save.reconcile_population117()
     if final_mode:
         var demo=load("res://personagem/demo95.gd").new();demo.name="Demo95";player.add_child(demo);demo.setup(self)
     player.update_nearby()
@@ -120,8 +125,8 @@ func _ready() -> void:
         var override95=str(get_tree().get_meta("demo95_profile_override",""))
         if not override95.is_empty():player.condition_path=override95
     if supplies_preview112:player.condition_path="user://preview_supplies112.json"
-    if final_mode and not verification and not fresh95 and not supplies_preview112 and not FileAccess.file_exists(player.condition_path):
-        var legacy_path="user://demo_h01_inventory_r73.json"
+    if final_mode and not verification and not fresh95 and not supplies_preview112 and not "--map117-test" in args and not FileAccess.file_exists(player.condition_path):
+        var legacy_path="user://demo_population_r98.json" if city.get_meta("spatial_revision_enabled",false) else "user://demo_h01_inventory_r73.json"
         for candidate in [legacy_path,legacy_path+".bak"]:
             if not FileAccess.file_exists(candidate):continue
             if session_save.prepare(session_save._read(candidate)).is_empty():continue
@@ -147,6 +152,8 @@ func _ready() -> void:
             if clear:print("KITCHEN_GAP ",x/100.0)
         get_tree().quit()
         return
+    if "--map117-test" in args:
+        var qa=load("res://personagem/map117/qa.gd").new();add_child(qa);qa.run(self);return
     if "--supplies112-test" in args:
         var qa=load("res://personagem/qa_supplies112.gd").new();add_child(qa);qa.run(self)
         return
@@ -259,6 +266,7 @@ func _ready() -> void:
         await load("res://personagem/revisao73.gd").new().run(self)
 
 func _new_inventory() -> bool:
+    if city.get_meta("spatial_revision_enabled",false):return world_items.bootstrap(demo_data)
     var model: RefCounted=player.bag_inventory
     var service=load("res://personagem/abastecimento112.gd").new()
     var prepared=service.prepare(model,demo_data)

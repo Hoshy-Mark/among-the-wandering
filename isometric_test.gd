@@ -7,10 +7,10 @@ func _ready() -> void:
     player.bag_inventory.configure(player.global_position)
     for entry in [["water",1],["food",3],["medicine",2]]:
         player.bag_inventory.add(entry[0],entry[1],"world:cabinet")
-    world_items=load("res://personagem/mundo71.gd").new()
+    world_items=load("res://personagem/map117/world.gd" if city.get_meta("spatial_revision_enabled",false) else "res://personagem/mundo71.gd").new()
     add_child(world_items)
     world_items.setup(player,game_ui)
-    var house=load("res://personagem/casa98.gd").new()
+    var house=load("res://personagem/map117/house.gd" if city.get_meta("spatial_revision_enabled",false) else "res://personagem/casa98.gd").new()
     add_child(house)
     await house.setup(self)
     player.update_nearby()

@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-21",
+  "godot": "4.4.1 Standard",
+  "mode": "headless",
+  "command": "godot --headless --path . --script res://tests/map118.gd -- --full118",
+  "passed": true,
+  "integration_checks_passed": 13,
+  "walking_both_directions_passed": true,
+  "walking": [
+    {
+      "blocked": false,
+      "distance": 1.98248863220215,
+      "end": "(27.77028, 0.012, 149.0076)",
+      "side": -1,
+      "start": "(27.76863, 0.265, 150.9738)"
+    },
+    {
+      "blocked": false,
+      "distance": 1.91006028652191,
+      "end": "(27.77504, 0.265, 151.2773)",
+      "side": 1,
+      "start": "(27.76863, 0.106084, 149.3738)"
+    }
+  ],
+  "script_errors": [],
+  "known_warning": "shore_depth.png loaded as image; pre-existing export/import warning",
+  "new_visual_captures": false,
+  "full_container_matrix_completed": false,
+  "log_sha256": "12cb43976a0447ef17432b499b987a4f7b93d74398fc530aefcad15e4d96cc97"
+}

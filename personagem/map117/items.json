@@ -1,0 +1,3857 @@
+{
+  "arroz": {
+    "name": "Arroz",
+    "stack": 1,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_secos",
+    "planned_function": "Cozinhar refeição com água e calor",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "feijao": {
+    "name": "Feijão",
+    "stack": 1,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_secos",
+    "planned_function": "Cozinhar refeição com água e calor",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "lentilha": {
+    "name": "Lentilha",
+    "stack": 1,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_secos",
+    "planned_function": "Cozinhar refeição com água e calor",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "macarrao": {
+    "name": "Macarrão",
+    "stack": 2,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_secos",
+    "planned_function": "Cozinhar refeição",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "farinha_de_trigo": {
+    "name": "Farinha de trigo",
+    "stack": 1,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_secos",
+    "planned_function": "Preparar receitas",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "farinha_de_milho": {
+    "name": "Farinha de milho",
+    "stack": 1,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_secos",
+    "planned_function": "Preparar receitas",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "aveia": {
+    "name": "Aveia",
+    "stack": 1,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_secos",
+    "planned_function": "Preparar refeição",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "acucar": {
+    "name": "Açúcar",
+    "stack": 1,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_secos",
+    "planned_function": "Ingrediente culinário",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "sal": {
+    "name": "Sal",
+    "stack": 1,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_secos",
+    "planned_function": "Tempero e recurso para receitas de conservação",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "cafe": {
+    "name": "Café",
+    "stack": 1,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_secos",
+    "planned_function": "Preparar bebida quente",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "erva_mate": {
+    "name": "Erva-mate",
+    "stack": 1,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_secos",
+    "planned_function": "Preparar mate com água e utensílios",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "cha_seco": {
+    "name": "Chá seco",
+    "stack": 1,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_secos",
+    "planned_function": "Preparar infusão",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "oleo_de_cozinha": {
+    "name": "Óleo de cozinha",
+    "stack": 1,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_secos",
+    "planned_function": "Ingrediente de receitas",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "vinagre": {
+    "name": "Vinagre",
+    "stack": 1,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_secos",
+    "planned_function": "Ingrediente de receitas",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "leite_em_po": {
+    "name": "Leite em pó",
+    "stack": 1,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_secos",
+    "planned_function": "Ingrediente se embalagem íntegra e estado permitir",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "biscoitos_secos": {
+    "name": "Biscoitos secos",
+    "stack": 2,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_secos",
+    "planned_function": "Consumir se conservação permitir",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "sardinha_em_lata": {
+    "name": "Sardinha em lata",
+    "stack": 2,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_secos",
+    "planned_function": "Consumir se conservação permitir",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "milho_em_conserva": {
+    "name": "Milho em conserva",
+    "stack": 2,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_secos",
+    "planned_function": "Consumir se conservação permitir",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "ervilha_em_conserva": {
+    "name": "Ervilha em conserva",
+    "stack": 2,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_secos",
+    "planned_function": "Consumir se conservação permitir",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "extrato_de_tomate": {
+    "name": "Extrato de tomate",
+    "stack": 2,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_secos",
+    "planned_function": "Ingrediente se conservação permitir",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "compota_de_fruta": {
+    "name": "Compota de fruta",
+    "stack": 1,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_secos",
+    "planned_function": "Consumir se conservação permitir",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "carne_enlatada": {
+    "name": "Carne enlatada",
+    "stack": 1,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_secos",
+    "planned_function": "Consumir se conservação permitir",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "carne": {
+    "name": "Carne — impróprio",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_pereciveis",
+    "planned_function": "Ingrediente; no estoque abandonado nasce imprópria",
+    "condition_policy": "abandoned_perishable_unusable",
+    "functional_use_enabled": false
+  },
+  "peixe": {
+    "name": "Peixe — impróprio",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_pereciveis",
+    "planned_function": "Ingrediente; no estoque abandonado nasce impróprio",
+    "condition_policy": "abandoned_perishable_unusable",
+    "functional_use_enabled": false
+  },
+  "leite": {
+    "name": "Leite — impróprio",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_pereciveis",
+    "planned_function": "Ingrediente; no estoque abandonado nasce impróprio",
+    "condition_policy": "abandoned_perishable_unusable",
+    "functional_use_enabled": false
+  },
+  "queijo": {
+    "name": "Queijo — impróprio",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_pereciveis",
+    "planned_function": "Alimento; no estoque abandonado nasce impróprio",
+    "condition_policy": "abandoned_perishable_unusable",
+    "functional_use_enabled": false
+  },
+  "ovos": {
+    "name": "Ovos — impróprio",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_pereciveis",
+    "planned_function": "Ingrediente; no estoque abandonado nasce impróprio",
+    "condition_policy": "abandoned_perishable_unusable",
+    "functional_use_enabled": false
+  },
+  "manteiga": {
+    "name": "Manteiga — impróprio",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_pereciveis",
+    "planned_function": "Ingrediente; no estoque abandonado nasce imprópria",
+    "condition_policy": "abandoned_perishable_unusable",
+    "functional_use_enabled": false
+  },
+  "pao": {
+    "name": "Pão — impróprio",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_pereciveis",
+    "planned_function": "Alimento; no estoque abandonado nasce impróprio",
+    "condition_policy": "abandoned_perishable_unusable",
+    "functional_use_enabled": false
+  },
+  "legumes": {
+    "name": "Legumes — impróprio",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_pereciveis",
+    "planned_function": "Ingrediente; no estoque abandonado nasce impróprio",
+    "condition_policy": "abandoned_perishable_unusable",
+    "functional_use_enabled": false
+  },
+  "frutas": {
+    "name": "Frutas — impróprio",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "alimentos_pereciveis",
+    "planned_function": "Alimento; no estoque abandonado nasce impróprio",
+    "condition_policy": "abandoned_perishable_unusable",
+    "functional_use_enabled": false
+  },
+  "water": {
+    "name": "Garrafa de água lacrada",
+    "stack": 2,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "agua_bebidas",
+    "planned_function": "Beber somente se estado permitir; recipiente reutilizável",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "agua_de_origem_desconhecida": {
+    "name": "Água de origem desconhecida",
+    "stack": 1,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "agua_bebidas",
+    "planned_function": "Recurso a avaliar/tratar no sistema de água",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "refrigerante": {
+    "name": "Refrigerante",
+    "stack": 2,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "agua_bebidas",
+    "planned_function": "Bebida se estado permitir; recipiente reutilizável",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "suco_industrializado": {
+    "name": "Suco industrializado",
+    "stack": 1,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "agua_bebidas",
+    "planned_function": "Bebida se estado permitir",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "cerveja": {
+    "name": "Cerveja",
+    "stack": 2,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "agua_bebidas",
+    "planned_function": "Bebida no sistema de necessidades; sem função médica",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "vinho": {
+    "name": "Vinho",
+    "stack": 1,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "agua_bebidas",
+    "planned_function": "Bebida no sistema de necessidades; sem função médica",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "destilado_comercial": {
+    "name": "Destilado comercial",
+    "stack": 1,
+    "grid": [
+      1,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "agua_bebidas",
+    "planned_function": "Bebida; não substitui antisséptico",
+    "condition_policy": "food_integrity_and_storage",
+    "functional_use_enabled": false
+  },
+  "colher": {
+    "name": "Colher",
+    "stack": 4,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "prototype": true,
+    "loot_category": "utensilios",
+    "planned_function": "Utensílio de alimentação e receitas",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "garfo": {
+    "name": "Garfo",
+    "stack": 3,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "utensilios",
+    "planned_function": "Utensílio de alimentação",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "faca_de_mesa": {
+    "name": "Faca de mesa",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "utensilios",
+    "planned_function": "Utensílio de alimentação",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "faca_de_cozinha": {
+    "name": "Faca de cozinha",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "utensilios",
+    "planned_function": "Preparar ingredientes; ferramenta cortante",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "abridor_de_latas": {
+    "name": "Abridor de latas",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "utensilios",
+    "planned_function": "Abrir conservas compatíveis",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "abridor_de_garrafas": {
+    "name": "Abridor de garrafas",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "utensilios",
+    "planned_function": "Abrir garrafas compatíveis",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "panela": {
+    "name": "Panela",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "utensilios",
+    "planned_function": "Cozinhar com fonte de calor compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "frigideira": {
+    "name": "Frigideira",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "utensilios",
+    "planned_function": "Preparar receitas com calor",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "chaleira": {
+    "name": "Chaleira",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "utensilios",
+    "planned_function": "Aquecer água",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "caneca": {
+    "name": "Caneca",
+    "stack": 2,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "utensilios",
+    "planned_function": "Recipiente para bebidas",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "prato": {
+    "name": "Prato",
+    "stack": 2,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "utensilios",
+    "planned_function": "Utensílio de alimentação",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "tigela": {
+    "name": "Tigela",
+    "stack": 2,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "utensilios",
+    "planned_function": "Recipiente de preparo e alimentação",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "garrafa_termica": {
+    "name": "Garrafa térmica",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "utensilios",
+    "planned_function": "Guardar bebida; isolamento depende do estado",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "cuia": {
+    "name": "Cuia",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "utensilios",
+    "planned_function": "Utensílio para mate",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "bomba_de_chimarrao": {
+    "name": "Bomba de chimarrão",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "utensilios",
+    "planned_function": "Utensílio para mate",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "pote_vazio": {
+    "name": "Pote vazio",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "prototype": true,
+    "loot_category": "utensilios",
+    "planned_function": "Guardar conteúdo compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "frasco_vazio": {
+    "name": "Frasco vazio",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "prototype": true,
+    "loot_category": "utensilios",
+    "planned_function": "Guardar líquido compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "garrafa_plastica_vazia": {
+    "name": "Garrafa plástica vazia",
+    "stack": 2,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "utensilios",
+    "planned_function": "Guardar água; capacidade própria",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "garrafa_de_vidro_vazia": {
+    "name": "Garrafa de vidro vazia",
+    "stack": 2,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "utensilios",
+    "planned_function": "Guardar líquido compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "lata_vazia": {
+    "name": "Lata vazia",
+    "stack": 3,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "utensilios",
+    "planned_function": "Sucata e receitas compatíveis",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "balde": {
+    "name": "Balde",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "utensilios",
+    "planned_function": "Transportar líquido ou materiais compatíveis",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "bacia": {
+    "name": "Bacia",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "utensilios",
+    "planned_function": "Lavagem e preparo compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "coador_de_cafe": {
+    "name": "Coador de café",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "utensilios",
+    "planned_function": "Preparar café",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "garrafa_termica_de_pressao": {
+    "name": "Garrafa térmica de pressão",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "utensilios",
+    "planned_function": "Reservatório de bebida para bases",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "sabonete": {
+    "name": "Sabonete",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "higiene",
+    "planned_function": "Higiene corporal",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "sabao_em_barra": {
+    "name": "Sabão em barra",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "higiene",
+    "planned_function": "Lavagem de roupas e objetos",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "detergente": {
+    "name": "Detergente",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "higiene",
+    "planned_function": "Limpeza de utensílios",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "sabao_em_po": {
+    "name": "Sabão em pó",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "higiene",
+    "planned_function": "Lavagem de roupas",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "agua_sanitaria": {
+    "name": "Água sanitária",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "higiene",
+    "planned_function": "Limpeza conforme sistema próprio; não potabiliza por uso genérico",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "desinfetante": {
+    "name": "Desinfetante",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "higiene",
+    "planned_function": "Limpeza de superfícies",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "escova_de_dentes": {
+    "name": "Escova de dentes",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "higiene",
+    "planned_function": "Higiene bucal",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "creme_dental": {
+    "name": "Creme dental",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "higiene",
+    "planned_function": "Consumível de higiene bucal",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "papel_higienico": {
+    "name": "Papel higiênico",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "higiene",
+    "planned_function": "Consumível de higiene",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "absorvente": {
+    "name": "Absorvente",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "higiene",
+    "planned_function": "Consumível de higiene",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "toalha": {
+    "name": "Toalha",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "higiene",
+    "planned_function": "Secagem; tecido para reaproveitamento",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "pano": {
+    "name": "Pano gasto",
+    "stack": 4,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "prototype": true,
+    "loot_category": "higiene",
+    "planned_function": "Limpeza e reaproveitamento têxtil",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "esponja": {
+    "name": "Esponja usada",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "prototype": true,
+    "loot_category": "higiene",
+    "planned_function": "Limpeza; condição limita uso",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "escova_de_limpeza": {
+    "name": "Escova de limpeza",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "higiene",
+    "planned_function": "Limpeza de superfícies",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "saco_de_lixo": {
+    "name": "Saco de lixo",
+    "stack": 3,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "higiene",
+    "planned_function": "Acondicionar resíduos; não mochila equipada",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "luva_de_limpeza": {
+    "name": "Luva de limpeza",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "higiene",
+    "planned_function": "Proteção em tarefas de limpeza",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "pente": {
+    "name": "Pente",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "higiene",
+    "planned_function": "Higiene pessoal",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "aparelho_de_barbear": {
+    "name": "Aparelho de barbear",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "higiene",
+    "planned_function": "Higiene; lâmina reaproveitável quando compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "bandage": {
+    "name": "Bandagem",
+    "stack": 10,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "saude",
+    "planned_function": "Curativo conforme sistema de ferimentos",
+    "condition_policy": "medical_expiry_and_seal",
+    "functional_use_enabled": false
+  },
+  "gaze_esteril": {
+    "name": "Gaze estéril",
+    "stack": 3,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "saude",
+    "planned_function": "Componente de curativo; exige lacre íntegro",
+    "condition_policy": "medical_expiry_and_seal",
+    "functional_use_enabled": false
+  },
+  "esparadrapo": {
+    "name": "Esparadrapo",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "saude",
+    "planned_function": "Fixar curativos",
+    "condition_policy": "medical_expiry_and_seal",
+    "functional_use_enabled": false
+  },
+  "atadura": {
+    "name": "Atadura",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "saude",
+    "planned_function": "Componente de suporte e curativo",
+    "condition_policy": "medical_expiry_and_seal",
+    "functional_use_enabled": false
+  },
+  "curativo_adesivo": {
+    "name": "Curativo adesivo",
+    "stack": 3,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "saude",
+    "planned_function": "Curativo pequeno no sistema de ferimentos",
+    "condition_policy": "medical_expiry_and_seal",
+    "functional_use_enabled": false
+  },
+  "algodao": {
+    "name": "Algodão",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "saude",
+    "planned_function": "Componente de higiene e curativo compatível",
+    "condition_policy": "medical_expiry_and_seal",
+    "functional_use_enabled": false
+  },
+  "antisseptico_proprio": {
+    "name": "Antisséptico próprio",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "saude",
+    "planned_function": "Consumível do sistema de ferimentos",
+    "condition_policy": "medical_expiry_and_seal",
+    "functional_use_enabled": false
+  },
+  "soro_fisiologico": {
+    "name": "Soro fisiológico",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "saude",
+    "planned_function": "Consumível médico com validade e lacre",
+    "condition_policy": "medical_expiry_and_seal",
+    "functional_use_enabled": false
+  },
+  "analgesico": {
+    "name": "Analgésico",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "saude",
+    "planned_function": "Efeito temporário no sistema de dor",
+    "condition_policy": "medical_expiry_and_seal",
+    "functional_use_enabled": false
+  },
+  "antitermico": {
+    "name": "Antitérmico",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "saude",
+    "planned_function": "Efeito no sistema de febre",
+    "condition_policy": "medical_expiry_and_seal",
+    "functional_use_enabled": false
+  },
+  "anti_inflamatorio": {
+    "name": "Anti-inflamatório",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "saude",
+    "planned_function": "Efeito médico específico a implementar",
+    "condition_policy": "medical_expiry_and_seal",
+    "functional_use_enabled": false
+  },
+  "antibiotico": {
+    "name": "Antibiótico",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "saude",
+    "planned_function": "Tratamento específico a implementar; validade obrigatória",
+    "condition_policy": "medical_expiry_and_seal",
+    "functional_use_enabled": false
+  },
+  "antialergico": {
+    "name": "Antialérgico",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "saude",
+    "planned_function": "Efeito médico específico a implementar",
+    "condition_policy": "medical_expiry_and_seal",
+    "functional_use_enabled": false
+  },
+  "sais_de_reidratacao": {
+    "name": "Sais de reidratação",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "saude",
+    "planned_function": "Consumível de reidratação no jogo",
+    "condition_policy": "medical_expiry_and_seal",
+    "functional_use_enabled": false
+  },
+  "luvas_descartaveis": {
+    "name": "Luvas descartáveis",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "saude",
+    "planned_function": "Proteção em procedimento compatível",
+    "condition_policy": "medical_expiry_and_seal",
+    "functional_use_enabled": false
+  },
+  "mascara_descartavel": {
+    "name": "Máscara descartável",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "saude",
+    "planned_function": "Proteção conforme exposição modelada",
+    "condition_policy": "medical_expiry_and_seal",
+    "functional_use_enabled": false
+  },
+  "pinca": {
+    "name": "Pinça",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "saude",
+    "planned_function": "Ferramenta para interação médica compatível",
+    "condition_policy": "medical_expiry_and_seal",
+    "functional_use_enabled": false
+  },
+  "tesoura_de_primeiros_socorros": {
+    "name": "Tesoura de primeiros socorros",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "saude",
+    "planned_function": "Ferramenta para curativos",
+    "condition_policy": "medical_expiry_and_seal",
+    "functional_use_enabled": false
+  },
+  "termometro": {
+    "name": "Termômetro",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "saude",
+    "planned_function": "Consultar temperatura corporal",
+    "condition_policy": "medical_expiry_and_seal",
+    "functional_use_enabled": false
+  },
+  "tala": {
+    "name": "Tala",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "saude",
+    "planned_function": "Componente para suporte de lesões",
+    "condition_policy": "medical_expiry_and_seal",
+    "functional_use_enabled": false
+  },
+  "bolsa_de_primeiros_socorros_vazia": {
+    "name": "Bolsa de primeiros socorros vazia",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "saude",
+    "planned_function": "Organizador; conteúdo sorteado e contado separadamente",
+    "condition_policy": "medical_expiry_and_seal",
+    "functional_use_enabled": false
+  },
+  "camiseta": {
+    "name": "Camiseta",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "roupas",
+    "planned_function": "Equipar no tronco",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "camisa": {
+    "name": "Camisa",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "roupas",
+    "planned_function": "Equipar no tronco",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "moletom": {
+    "name": "Moletom",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "roupas",
+    "planned_function": "Proteção térmica no tronco",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "casaco": {
+    "name": "Casaco",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "roupas",
+    "planned_function": "Proteção térmica no tronco",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "capa_de_chuva": {
+    "name": "Capa de chuva",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "roupas",
+    "planned_function": "Proteção contra chuva conforme estado",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "calca": {
+    "name": "Calça",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "roupas",
+    "planned_function": "Equipar nas pernas; bolsos dependem do modelo",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "bermuda": {
+    "name": "Bermuda",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "roupas",
+    "planned_function": "Equipar nas pernas",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "meias": {
+    "name": "Meias",
+    "stack": 2,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "roupas",
+    "planned_function": "Proteção dos pés",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "tenis": {
+    "name": "Tênis",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "roupas",
+    "planned_function": "Equipar nos pés",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "botas": {
+    "name": "Botas",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "roupas",
+    "planned_function": "Equipar nos pés; proteção depende do modelo",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "botas_de_borracha": {
+    "name": "Botas de borracha",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "roupas",
+    "planned_function": "Proteção em terreno molhado",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "cinto": {
+    "name": "Cinto",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "roupas",
+    "planned_function": "Equipar na cintura",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "bone": {
+    "name": "Boné",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "roupas",
+    "planned_function": "Equipar na cabeça",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "chapeu_de_palha": {
+    "name": "Chapéu de palha",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "roupas",
+    "planned_function": "Equipar na cabeça",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "gorro": {
+    "name": "Gorro",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "roupas",
+    "planned_function": "Proteção térmica da cabeça",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "luvas_de_trabalho": {
+    "name": "Luvas de trabalho",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "roupas",
+    "planned_function": "Proteção das mãos",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "oculos_de_protecao": {
+    "name": "Óculos de proteção",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "roupas",
+    "planned_function": "Proteção dos olhos em tarefas compatíveis",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "mascara_filtrante": {
+    "name": "Máscara filtrante",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "roupas",
+    "planned_function": "Proteção depende de filtro e vedação",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "uniforme_de_trabalho": {
+    "name": "Uniforme de trabalho",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "roupas",
+    "planned_function": "Vestuário contextual",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "uniforme_prisional": {
+    "name": "Uniforme prisional",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "roupas",
+    "planned_function": "Vestuário exclusivo de contexto prisional",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "bag_school": {
+    "name": "Mochila escolar",
+    "stack": 1,
+    "slot": "backpack",
+    "capacity": 8,
+    "color": "#526a82",
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "bolsas",
+    "planned_function": "Equipar nas costas; grade existente de 8 células",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "bag_canvas": {
+    "name": "Mochila de lona",
+    "stack": 1,
+    "slot": "backpack",
+    "capacity": 16,
+    "color": "#62715b",
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "bolsas",
+    "planned_function": "Equipar nas costas; grade existente de 16 células",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "bag_hiking": {
+    "name": "Mochila de expedição",
+    "stack": 1,
+    "slot": "backpack",
+    "capacity": 24,
+    "color": "#8c6346",
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "bolsas",
+    "planned_function": "Equipar nas costas; grade existente de 24 células",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "bolsa_de_mao": {
+    "name": "Bolsa de mão",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "bolsas",
+    "planned_function": "Transportar itens; sistema de bolsas adicionais pendente",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "sacola_de_tecido": {
+    "name": "Sacola de tecido",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "bolsas",
+    "planned_function": "Transportar itens; capacidade a validar",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "mala_de_viagem": {
+    "name": "Mala de viagem",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "bolsas",
+    "planned_function": "Transportar itens; tamanho e transporte a validar",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "caixa_de_ferramentas_vazia": {
+    "name": "Caixa de ferramentas vazia",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "bolsas",
+    "planned_function": "Organizador; ferramentas contadas separadamente",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "estojo_escolar_vazio": {
+    "name": "Estojo escolar vazio",
+    "stack": 1,
+    "grid": [
+      2,
+      2
+    ],
+    "can_rotate": true,
+    "loot_category": "bolsas",
+    "planned_function": "Organizador de objetos pequenos",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "martelo": {
+    "name": "Martelo",
+    "stack": 1,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "ferramentas",
+    "planned_function": "Construção e desmontagem compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "alicate": {
+    "name": "Alicate",
+    "stack": 1,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "ferramentas",
+    "planned_function": "Manutenção e receitas",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "chave_de_fenda": {
+    "name": "Chave de fenda",
+    "stack": 1,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "ferramentas",
+    "planned_function": "Desmontagem e manutenção",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "chave_phillips": {
+    "name": "Chave Phillips",
+    "stack": 1,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "ferramentas",
+    "planned_function": "Desmontagem e manutenção",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "chave_inglesa": {
+    "name": "Chave inglesa",
+    "stack": 1,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "ferramentas",
+    "planned_function": "Manutenção mecânica",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "chave_combinada": {
+    "name": "Chave combinada",
+    "stack": 1,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "ferramentas",
+    "planned_function": "Manutenção de fixadores compatíveis",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "jogo_de_soquetes": {
+    "name": "Jogo de soquetes",
+    "stack": 1,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "ferramentas",
+    "planned_function": "Ferramenta especializada de manutenção",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "serrote": {
+    "name": "Serrote",
+    "stack": 1,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "ferramentas",
+    "planned_function": "Cortar madeira",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "arco_de_serra": {
+    "name": "Arco de serra",
+    "stack": 1,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "ferramentas",
+    "planned_function": "Cortar materiais compatíveis com lâmina",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "machadinha": {
+    "name": "Machadinha",
+    "stack": 1,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "ferramentas",
+    "planned_function": "Processar madeira; ferramenta cortante",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "machado": {
+    "name": "Machado",
+    "stack": 1,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "ferramentas",
+    "planned_function": "Processar madeira; ferramenta pesada",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "pe_de_cabra": {
+    "name": "Pé de cabra",
+    "stack": 1,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "ferramentas",
+    "planned_function": "Alavanca para acessos e desmontagem compatíveis",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "lima": {
+    "name": "Lima",
+    "stack": 1,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "ferramentas",
+    "planned_function": "Acabamento e manutenção de ferramentas",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "tesoura": {
+    "name": "Tesoura",
+    "stack": 1,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "ferramentas",
+    "planned_function": "Cortar tecido e materiais leves",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "estilete": {
+    "name": "Estilete",
+    "stack": 1,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "ferramentas",
+    "planned_function": "Cortar materiais leves; lâmina consumível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "trena": {
+    "name": "Trena",
+    "stack": 1,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "ferramentas",
+    "planned_function": "Ferramenta de construção",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "pa": {
+    "name": "Pá",
+    "stack": 1,
+    "grid": [
+      1,
+      4
+    ],
+    "can_rotate": true,
+    "loot_category": "ferramentas",
+    "planned_function": "Escavar e trabalhar solo",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "enxada": {
+    "name": "Enxada",
+    "stack": 1,
+    "grid": [
+      1,
+      4
+    ],
+    "can_rotate": true,
+    "loot_category": "ferramentas",
+    "planned_function": "Preparar solo agrícola",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "ancinho": {
+    "name": "Ancinho",
+    "stack": 1,
+    "grid": [
+      1,
+      4
+    ],
+    "can_rotate": true,
+    "loot_category": "ferramentas",
+    "planned_function": "Limpar e preparar solo",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "foice": {
+    "name": "Foice",
+    "stack": 1,
+    "grid": [
+      1,
+      4
+    ],
+    "can_rotate": true,
+    "loot_category": "ferramentas",
+    "planned_function": "Manejo de vegetação",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "tesoura_de_poda": {
+    "name": "Tesoura de poda",
+    "stack": 1,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "ferramentas",
+    "planned_function": "Manejo de plantas",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "furadeira_manual": {
+    "name": "Furadeira manual",
+    "stack": 1,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "ferramentas",
+    "planned_function": "Perfuração sem energia elétrica",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "parafuso": {
+    "name": "Parafuso",
+    "stack": 10,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "prototype": true,
+    "loot_category": "materiais",
+    "planned_function": "Fixador para reparos",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "arruela": {
+    "name": "Arruela",
+    "stack": 10,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "prototype": true,
+    "loot_category": "materiais",
+    "planned_function": "Fixador para reparos",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "porca": {
+    "name": "Porca",
+    "stack": 8,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "materiais",
+    "planned_function": "Fixador para reparos",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "prego": {
+    "name": "Prego",
+    "stack": 10,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "materiais",
+    "planned_function": "Fixador para construção",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "arame": {
+    "name": "Arame",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "materiais",
+    "planned_function": "Amarração e reparos",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "fita": {
+    "name": "Fita de reparo",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "prototype": true,
+    "loot_category": "materiais",
+    "planned_function": "Reparo provisório compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "fita_isolante": {
+    "name": "Fita isolante",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "materiais",
+    "planned_function": "Insumo de manutenção elétrica",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "barbante": {
+    "name": "Barbante",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "materiais",
+    "planned_function": "Amarração e receitas",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "corda": {
+    "name": "Corda",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "materiais",
+    "planned_function": "Amarração e construção compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "cola": {
+    "name": "Cola",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "materiais",
+    "planned_function": "Adesivo; condição limita uso",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "agulha_de_costura": {
+    "name": "Agulha de costura",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "materiais",
+    "planned_function": "Ferramenta de reparo têxtil",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "linha_de_costura": {
+    "name": "Linha de costura",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "materiais",
+    "planned_function": "Consumível de reparo têxtil",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "retalho_de_tecido": {
+    "name": "Retalho de tecido",
+    "stack": 4,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "materiais",
+    "planned_function": "Reparo e receitas têxteis",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "couro_reaproveitado": {
+    "name": "Couro reaproveitado",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "materiais",
+    "planned_function": "Reparo e receitas",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "tabua_reaproveitada": {
+    "name": "Tábua reaproveitada",
+    "stack": 2,
+    "grid": [
+      1,
+      4
+    ],
+    "can_rotate": true,
+    "loot_category": "materiais",
+    "planned_function": "Material volumoso; transporte a validar",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "ripa_de_madeira": {
+    "name": "Ripa de madeira",
+    "stack": 2,
+    "grid": [
+      1,
+      4
+    ],
+    "can_rotate": true,
+    "loot_category": "materiais",
+    "planned_function": "Material de construção",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "chapa_metalica_pequena": {
+    "name": "Chapa metálica pequena",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "materiais",
+    "planned_function": "Material de reparo; arestas e tamanho próprios",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "tubo_metalico": {
+    "name": "Tubo metálico",
+    "stack": 1,
+    "grid": [
+      1,
+      4
+    ],
+    "can_rotate": true,
+    "loot_category": "materiais",
+    "planned_function": "Material de construção e manutenção",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "mangueira": {
+    "name": "Mangueira",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "materiais",
+    "planned_function": "Transferir líquido compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "lona": {
+    "name": "Lona",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "materiais",
+    "planned_function": "Cobertura e construção",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "lixa": {
+    "name": "Lixa",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "materiais",
+    "planned_function": "Consumível de acabamento",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "peca_plastica_reaproveitada": {
+    "name": "Peça plástica reaproveitada",
+    "stack": 3,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "materiais",
+    "planned_function": "Insumo de reparo",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "sucata_metalica": {
+    "name": "Sucata metálica",
+    "stack": 3,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "materiais",
+    "planned_function": "Insumo de reaproveitamento",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "lanterna": {
+    "name": "Lanterna",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "eletrica",
+    "planned_function": "Iluminar; exige fonte compatível e carga",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "lanterna_de_cabeca": {
+    "name": "Lanterna de cabeça",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "eletrica",
+    "planned_function": "Iluminar; equipagem e bateria próprias",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "pilha_aa": {
+    "name": "Pilha AA",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "eletrica",
+    "planned_function": "Fonte de energia; química e carga registradas",
+    "condition_policy": "battery_charge_and_health",
+    "functional_use_enabled": false
+  },
+  "pilha_aaa": {
+    "name": "Pilha AAA",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "eletrica",
+    "planned_function": "Fonte de energia; incompatível com soquete AA",
+    "condition_policy": "battery_charge_and_health",
+    "functional_use_enabled": false
+  },
+  "bateria_de_9_v": {
+    "name": "Bateria de 9 V",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "eletrica",
+    "planned_function": "Fonte de energia compatível",
+    "condition_policy": "battery_charge_and_health",
+    "functional_use_enabled": false
+  },
+  "bateria_recarregavel": {
+    "name": "Bateria recarregável",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "eletrica",
+    "planned_function": "Fonte de energia; exige carregador compatível",
+    "condition_policy": "battery_charge_and_health",
+    "functional_use_enabled": false
+  },
+  "carregador_de_pilhas": {
+    "name": "Carregador de pilhas",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "eletrica",
+    "planned_function": "Recarregar células compatíveis com energia",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "radio_portatil": {
+    "name": "Rádio portátil",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "eletrica",
+    "planned_function": "Receber transmissões; exige energia",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "radio_comunicador": {
+    "name": "Rádio comunicador",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "eletrica",
+    "planned_function": "Comunicação em frequência compatível; exige energia",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "fone_de_ouvido": {
+    "name": "Fone de ouvido",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "eletrica",
+    "planned_function": "Acessório para áudio compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "fio_eletrico": {
+    "name": "Fio elétrico",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "eletrica",
+    "planned_function": "Manutenção de circuitos",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "fusivel": {
+    "name": "Fusível",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "eletrica",
+    "planned_function": "Substituir proteção compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "lampada": {
+    "name": "Lâmpada",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "eletrica",
+    "planned_function": "Substituir lâmpada de soquete e tensão compatíveis",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "interruptor_de_reposicao": {
+    "name": "Interruptor de reposição",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "eletrica",
+    "planned_function": "Manutenção futura das instalações",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "tomada_de_reposicao": {
+    "name": "Tomada de reposição",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "eletrica",
+    "planned_function": "Manutenção futura das instalações",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "multimetro": {
+    "name": "Multímetro",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "eletrica",
+    "planned_function": "Diagnóstico elétrico; depende de estado e bateria",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "extensao_eletrica": {
+    "name": "Extensão elétrica",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "eletrica",
+    "planned_function": "Conectar energia conforme alcance e capacidade",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "vela": {
+    "name": "Vela",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "eletrica",
+    "planned_function": "Iluminação consumível com chama",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "caixa_de_fosforos": {
+    "name": "Caixa de fósforos",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "eletrica",
+    "planned_function": "Fonte de ignição; quantidade interna finita",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "isqueiro": {
+    "name": "Isqueiro",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "eletrica",
+    "planned_function": "Fonte de ignição; combustível e mecanismo finitos",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "filtro_oleo": {
+    "name": "Filtro de óleo usado",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "prototype": true,
+    "loot_category": "mecanica",
+    "planned_function": "Peça contextual; manutenção depende de compatibilidade e condição",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "filtro_de_oleo_novo": {
+    "name": "Filtro de óleo novo",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "mecanica",
+    "planned_function": "Peça de manutenção compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "filtro_de_ar": {
+    "name": "Filtro de ar",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "mecanica",
+    "planned_function": "Peça de manutenção compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "vela_de_ignicao": {
+    "name": "Vela de ignição",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "mecanica",
+    "planned_function": "Peça de motor compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "correia_automotiva": {
+    "name": "Correia automotiva",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "mecanica",
+    "planned_function": "Peça de motor compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "rolamento": {
+    "name": "Rolamento",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "mecanica",
+    "planned_function": "Peça de manutenção compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "fusivel_automotivo": {
+    "name": "Fusível automotivo",
+    "stack": 3,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "mecanica",
+    "planned_function": "Proteção elétrica compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "cabo_de_bateria": {
+    "name": "Cabo de bateria",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "mecanica",
+    "planned_function": "Manutenção elétrica veicular",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "bateria_automotiva": {
+    "name": "Bateria automotiva",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "mecanica",
+    "planned_function": "Fonte pesada; carga e saúde após abandono",
+    "condition_policy": "battery_charge_and_health",
+    "functional_use_enabled": false
+  },
+  "oleo_lubrificante": {
+    "name": "Óleo lubrificante",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "mecanica",
+    "planned_function": "Consumível de manutenção",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "graxa": {
+    "name": "Graxa",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "mecanica",
+    "planned_function": "Consumível de manutenção",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "fluido_de_freio": {
+    "name": "Fluido de freio",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "mecanica",
+    "planned_function": "Consumível específico; conservação obrigatória",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "camara_de_pneu": {
+    "name": "Câmara de pneu",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "mecanica",
+    "planned_function": "Reparo compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "kit_de_remendo": {
+    "name": "Kit de remendo",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "mecanica",
+    "planned_function": "Consumível para reparo de câmara",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "bomba_de_ar_manual": {
+    "name": "Bomba de ar manual",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "mecanica",
+    "planned_function": "Encher pneus compatíveis",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "macaco_mecanico": {
+    "name": "Macaco mecânico",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "mecanica",
+    "planned_function": "Elevar veículo em ponto compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "chave_de_roda": {
+    "name": "Chave de roda",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "mecanica",
+    "planned_function": "Ferramenta para roda compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "galao_homologado_vazio": {
+    "name": "Galão homologado vazio",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "mecanica",
+    "planned_function": "Reservatório específico para combustível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "gasolina_remanescente": {
+    "name": "Gasolina remanescente",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "mecanica",
+    "planned_function": "Recurso degradável; não nasce garantidamente utilizável",
+    "condition_policy": "aged_fuel",
+    "functional_use_enabled": false
+  },
+  "oleo_diesel_remanescente": {
+    "name": "Óleo diesel remanescente",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "mecanica",
+    "planned_function": "Recurso degradável; não nasce garantidamente utilizável",
+    "condition_policy": "aged_fuel",
+    "functional_use_enabled": false
+  },
+  "corrente_de_bicicleta": {
+    "name": "Corrente de bicicleta",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "mecanica",
+    "planned_function": "Peça de manutenção compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "cabo_de_freio_de_bicicleta": {
+    "name": "Cabo de freio de bicicleta",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "mecanica",
+    "planned_function": "Peça de manutenção compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "sementes_de_feijao": {
+    "name": "Sementes de feijão",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "rural",
+    "planned_function": "Plantio se viabilidade permitir",
+    "condition_policy": "seed_viability",
+    "functional_use_enabled": false
+  },
+  "sementes_de_milho": {
+    "name": "Sementes de milho",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "rural",
+    "planned_function": "Plantio se viabilidade permitir",
+    "condition_policy": "seed_viability",
+    "functional_use_enabled": false
+  },
+  "sementes_de_abobora": {
+    "name": "Sementes de abóbora",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "rural",
+    "planned_function": "Plantio se viabilidade permitir",
+    "condition_policy": "seed_viability",
+    "functional_use_enabled": false
+  },
+  "sementes_de_hortalicas": {
+    "name": "Sementes de hortaliças",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "rural",
+    "planned_function": "Plantio; espécie definida na instância",
+    "condition_policy": "seed_viability",
+    "functional_use_enabled": false
+  },
+  "regador": {
+    "name": "Regador",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "rural",
+    "planned_function": "Irrigação manual",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "adubo_ensacado": {
+    "name": "Adubo ensacado",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "rural",
+    "planned_function": "Insumo agrícola; composição e conservação próprias",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "racao_antiga": {
+    "name": "Ração antiga",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "rural",
+    "planned_function": "Vestígio; uso depende de conservação e espécie",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "saco_de_estopa": {
+    "name": "Saco de estopa",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "rural",
+    "planned_function": "Acondicionar materiais; capacidade a validar",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "tela_de_arame": {
+    "name": "Tela de arame",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "rural",
+    "planned_function": "Construção de cercas e proteção",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "mourao_reaproveitado": {
+    "name": "Mourão reaproveitado",
+    "stack": 1,
+    "grid": [
+      1,
+      4
+    ],
+    "can_rotate": true,
+    "loot_category": "rural",
+    "planned_function": "Construção rural; item volumoso",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "arame_farpado": {
+    "name": "Arame farpado",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "rural",
+    "planned_function": "Reparo de cercas; transporte próprio",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "balde_de_ordenha": {
+    "name": "Balde de ordenha",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "rural",
+    "planned_function": "Recipiente específico; higiene e integridade próprias",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "latao_de_leite_vazio": {
+    "name": "Latão de leite vazio",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "rural",
+    "planned_function": "Reservatório pesado; capacidade própria",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "peca_de_ordenhadeira": {
+    "name": "Peça de ordenhadeira",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "rural",
+    "planned_function": "Reposição específica, sem máquina completa implícita",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "escova_de_trato": {
+    "name": "Escova de trato",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "rural",
+    "planned_function": "Cuidado animal quando sistema existir",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "cabresto": {
+    "name": "Cabresto",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "rural",
+    "planned_function": "Manejo animal quando sistema existir",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "ferradura": {
+    "name": "Ferradura",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "rural",
+    "planned_function": "Peça contextual de manejo animal",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "pedra_de_afiar": {
+    "name": "Pedra de afiar",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "rural",
+    "planned_function": "Manutenção de ferramentas compatíveis",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "vara_de_pesca": {
+    "name": "Vara de pesca",
+    "stack": 1,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "pesca",
+    "planned_function": "Ferramenta de pesca; exige montagem compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "carretilha": {
+    "name": "Carretilha",
+    "stack": 1,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "pesca",
+    "planned_function": "Componente de vara compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "linha_de_pesca": {
+    "name": "Linha de pesca",
+    "stack": 1,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "pesca",
+    "planned_function": "Consumível de montagem e reparo",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "anzol": {
+    "name": "Anzol",
+    "stack": 3,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "pesca",
+    "planned_function": "Consumível de montagem",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "boia_de_pesca": {
+    "name": "Boia de pesca",
+    "stack": 2,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "pesca",
+    "planned_function": "Componente de montagem",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "chumbada": {
+    "name": "Chumbada",
+    "stack": 3,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "pesca",
+    "planned_function": "Componente de montagem",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "isca_artificial": {
+    "name": "Isca artificial",
+    "stack": 1,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "pesca",
+    "planned_function": "Insumo de pesca compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "passagua": {
+    "name": "Passaguá",
+    "stack": 1,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "pesca",
+    "planned_function": "Ferramenta de apoio à pesca",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "caixa_termica_vazia": {
+    "name": "Caixa térmica vazia",
+    "stack": 1,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "pesca",
+    "planned_function": "Reservatório; não conserva sem fonte térmica",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "colete_salva_vidas": {
+    "name": "Colete salva-vidas",
+    "stack": 1,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "pesca",
+    "planned_function": "Equipamento de flutuação; condição obrigatória",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "remo": {
+    "name": "Remo",
+    "stack": 1,
+    "grid": [
+      1,
+      4
+    ],
+    "can_rotate": true,
+    "loot_category": "pesca",
+    "planned_function": "Ferramenta para embarcação compatível; volumoso",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "rede_de_pesca": {
+    "name": "Rede de pesca",
+    "stack": 1,
+    "grid": [
+      1,
+      3
+    ],
+    "can_rotate": true,
+    "loot_category": "pesca",
+    "planned_function": "Equipamento de pesca; implantação e desgaste próprios",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "caderno": {
+    "name": "Caderno",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "papelaria",
+    "planned_function": "Anotações e papel reaproveitável",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "papel_avulso": {
+    "name": "Papel avulso",
+    "stack": 4,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "papelaria",
+    "planned_function": "Anotações e receitas compatíveis",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "lapis": {
+    "name": "Lápis",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "papelaria",
+    "planned_function": "Escrever enquanto houver recurso",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "caneta": {
+    "name": "Caneta",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "papelaria",
+    "planned_function": "Escrever se tinta permitir",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "borracha": {
+    "name": "Borracha",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "papelaria",
+    "planned_function": "Apagar escrita compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "apontador": {
+    "name": "Apontador",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "papelaria",
+    "planned_function": "Manter lápis",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "giz": {
+    "name": "Giz",
+    "stack": 3,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "papelaria",
+    "planned_function": "Marcação de superfícies compatíveis",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "regua": {
+    "name": "Régua",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "papelaria",
+    "planned_function": "Papelaria e medição pequena",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "livro_escolar": {
+    "name": "Livro escolar",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "papelaria",
+    "planned_function": "Leitura contextual; efeito depende de conteúdo",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "manual_de_manutencao": {
+    "name": "Manual de manutenção",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "papelaria",
+    "planned_function": "Conhecimento específico no sistema futuro",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "livro_de_receitas": {
+    "name": "Livro de receitas",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "papelaria",
+    "planned_function": "Conhecimento culinário no sistema futuro",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "mapa_regional": {
+    "name": "Mapa regional",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "papelaria",
+    "planned_function": "Consultar geografia; conteúdo deve corresponder ao atlas",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "mapa_rodoviario": {
+    "name": "Mapa rodoviário",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "papelaria",
+    "planned_function": "Consultar rotas; conteúdo deve corresponder ao mundo",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "folheto_turistico": {
+    "name": "Folheto turístico",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "papelaria",
+    "planned_function": "Referência local e narrativa",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "jornal_antigo": {
+    "name": "Jornal antigo",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "papelaria",
+    "planned_function": "Narrativa datada e papel reaproveitável",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "agenda": {
+    "name": "Agenda",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "papelaria",
+    "planned_function": "Narrativa e anotações",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "registro_de_estoque": {
+    "name": "Registro de estoque",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "papelaria",
+    "planned_function": "Documento contextual, sem criar mercadoria automaticamente",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "fotografia": {
+    "name": "Fotografia",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "papelaria",
+    "planned_function": "Narrativa local; conteúdo autoral pendente",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "livro_religioso": {
+    "name": "Livro religioso",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "contextuais",
+    "planned_function": "Leitura e narrativa contextual",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "rosario": {
+    "name": "Rosário",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "contextuais",
+    "planned_function": "Objeto pessoal contextual",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "castical_portatil": {
+    "name": "Castiçal portátil",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "contextuais",
+    "planned_function": "Suporte para vela; vela contada separadamente",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "pano_liturgico": {
+    "name": "Pano litúrgico",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "contextuais",
+    "planned_function": "Objeto têxtil contextual",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "livro_de_registros_da_igreja": {
+    "name": "Livro de registros da igreja",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "contextuais",
+    "planned_function": "Documento contextual",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "registro_do_cemiterio": {
+    "name": "Registro do cemitério",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "contextuais",
+    "planned_function": "Documento da zeladoria; sem loot em sepulturas por padrão",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "bilhete_de_onibus_antigo": {
+    "name": "Bilhete de ônibus antigo",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "contextuais",
+    "planned_function": "Narrativa de deslocamento",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "dinheiro_antigo": {
+    "name": "Dinheiro antigo",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "contextuais",
+    "planned_function": "Vestígio; sem valor de compra automático",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "chave_residencial": {
+    "name": "Chave residencial",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "contextuais",
+    "planned_function": "Abrir apenas fechadura vinculada ao mesmo imóvel",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "chave_de_cadeado": {
+    "name": "Chave de cadeado",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "contextuais",
+    "planned_function": "Abrir apenas cadeado vinculado",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "chave_de_veiculo": {
+    "name": "Chave de veículo",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "contextuais",
+    "planned_function": "Abrir apenas veículo vinculado",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "chave_de_area_restrita": {
+    "name": "Chave de área restrita",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "contextuais",
+    "planned_function": "Acesso local específico; nunca chave universal",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "cadeado": {
+    "name": "Cadeado",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "contextuais",
+    "planned_function": "Fechamento compatível; chave precisa de vínculo",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "prancheta": {
+    "name": "Prancheta",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "contextuais",
+    "planned_function": "Suporte de documentos",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "apito": {
+    "name": "Apito",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "contextuais",
+    "planned_function": "Emitir som para sinalização; pode atrair ameaças",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "algemas": {
+    "name": "Algemas",
+    "stack": 1,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "contextuais",
+    "planned_function": "Objeto prisional; uso funcional depende de sistema próprio",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "baton": {
+    "name": "Bastão",
+    "stack": 1,
+    "slot": "main_hand",
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "contextuais",
+    "planned_function": "Equipamento de mão do catálogo existente; combate fora desta entrega",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "embalagem_deteriorada": {
+    "name": "Embalagem deteriorada",
+    "stack": 3,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "prototype": true,
+    "loot_category": "vestigios",
+    "planned_function": "Vestígio; material recuperável só quando compatível",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "papelao_seco": {
+    "name": "Papelão seco",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "vestigios",
+    "planned_function": "Material reaproveitável; umidade limita uso",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "vidro_quebrado": {
+    "name": "Vidro quebrado",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "vestigios",
+    "planned_function": "Sucata; não recipiente funcional",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "pilha_esgotada": {
+    "name": "Pilha esgotada",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "vestigios",
+    "planned_function": "Resíduo ou insumo específico; carga zero",
+    "condition_policy": "battery_charge_and_health",
+    "functional_use_enabled": false
+  },
+  "peca_mecanica_quebrada": {
+    "name": "Peça mecânica quebrada",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "vestigios",
+    "planned_function": "Vestígio e possível fonte parcial de material",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "tecido_mofado": {
+    "name": "Tecido mofado",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "vestigios",
+    "planned_function": "Vestígio; não curativo pronto",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "lata_perfurada": {
+    "name": "Lata perfurada",
+    "stack": 2,
+    "grid": [
+      1,
+      1
+    ],
+    "can_rotate": true,
+    "loot_category": "vestigios",
+    "planned_function": "Sucata; não alimento nem recipiente estanque",
+    "condition_policy": "durable_wear",
+    "functional_use_enabled": false
+  },
+  "camiseta_oliva": {
+    "name": "Camiseta oliva",
+    "stack": 1,
+    "slot": "shirt",
+    "clothing": "camiseta_oliva",
+    "functional_use_enabled": false
+  },
+  "camiseta_azul": {
+    "name": "Camiseta azul",
+    "stack": 1,
+    "slot": "shirt",
+    "clothing": "camiseta_azul",
+    "functional_use_enabled": false
+  },
+  "camisa_xadrez_vinho": {
+    "name": "Camisa xadrez vinho",
+    "stack": 1,
+    "slot": "shirt",
+    "clothing": "camisa_xadrez_vinho",
+    "functional_use_enabled": false
+  },
+  "camisa_lisa_azul": {
+    "name": "Camisa lisa azul",
+    "stack": 1,
+    "slot": "shirt",
+    "clothing": "camisa_lisa_azul",
+    "functional_use_enabled": false
+  },
+  "moletom_cinza": {
+    "name": "Moletom cinza",
+    "stack": 1,
+    "slot": "shirt",
+    "clothing": "moletom_cinza",
+    "functional_use_enabled": false
+  },
+  "moletom_azul": {
+    "name": "Moletom azul",
+    "stack": 1,
+    "slot": "shirt",
+    "clothing": "moletom_azul",
+    "functional_use_enabled": false
+  },
+  "paleto_carvao": {
+    "name": "Paletó carvão",
+    "stack": 1,
+    "slot": "shirt",
+    "clothing": "paleto_carvao",
+    "functional_use_enabled": false
+  },
+  "paleto_areia": {
+    "name": "Paletó areia",
+    "stack": 1,
+    "slot": "shirt",
+    "clothing": "paleto_areia",
+    "functional_use_enabled": false
+  },
+  "calca_terra": {
+    "name": "Calça terra",
+    "stack": 1,
+    "slot": "pants",
+    "clothing": "calca_terra",
+    "functional_use_enabled": false
+  },
+  "calca_carvao": {
+    "name": "Calça carvão",
+    "stack": 1,
+    "slot": "pants",
+    "clothing": "calca_carvao",
+    "functional_use_enabled": false
+  },
+  "botas_escuras": {
+    "name": "Botas escuras",
+    "stack": 1,
+    "slot": "boots",
+    "clothing": "botas_escuras",
+    "functional_use_enabled": false
+  },
+  "botas_couro": {
+    "name": "Botas de couro",
+    "stack": 1,
+    "slot": "boots",
+    "clothing": "botas_couro",
+    "functional_use_enabled": false
+  },
+  "cinto_couro": {
+    "name": "Cinto de couro",
+    "stack": 1,
+    "slot": "belt",
+    "clothing": "cinto_couro",
+    "functional_use_enabled": false
+  }
+}

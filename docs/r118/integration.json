@@ -1,0 +1,61 @@
+{
+  "checks": [
+    {
+      "message": "wardrobe shows real inventory after gesture",
+      "passed": true
+    },
+    {
+      "message": "equip backpack from revised wardrobe",
+      "passed": true
+    },
+    {
+      "message": "ground item opens nearby HUD",
+      "passed": true
+    },
+    {
+      "message": "ground item transfers through approved quick pickup",
+      "passed": true
+    },
+    {
+      "message": "outside H01 door accepted H02",
+      "passed": true
+    },
+    {
+      "message": "outside H01 door completes H02",
+      "passed": true
+    },
+    {
+      "message": "outside H01 door accepted H10",
+      "passed": true
+    },
+    {
+      "message": "outside H01 door completes H10",
+      "passed": true
+    },
+    {
+      "message": "outside H01 door accepted H40",
+      "passed": true
+    },
+    {
+      "message": "outside H01 door completes H40",
+      "passed": true
+    },
+    {
+      "message": "foreign doors do not alter legacy H01 save keys",
+      "passed": true
+    },
+    {
+      "message": "revised map with independent leaves saves",
+      "passed": true
+    },
+    {
+      "message": "revised map with independent leaves reloads",
+      "passed": true
+    }
+  ],
+  "containers": 590,
+  "controlled_windows": 7,
+  "houses": 40,
+  "passed": true,
+  "window_scope": "H01 only; other houses require window integration"
+}

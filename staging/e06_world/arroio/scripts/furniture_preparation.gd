@@ -56,11 +56,20 @@ func configure(home: Dictionary,lot: String) -> void:
 			var override:Dictionary=part_overrides.get(part.id,{}).duplicate()
 			if definition.get("binding_resolved",false):override.erase("attached_meshes")
 			part.merge(override,true)
+			part.hinge_edge=model.get_meta("wardrobe_hinges",{}).get(part.id,part.hinge_edge)
 			var leaf: MeshInstance3D=meshes[part.leaf_mesh];var box: AABB=leaf.mesh.get_aabb()
 			var pivot := Node3D.new();pivot.name=str(part.id).get_file();moving.add_child(pivot)
 			var local := box.get_center()
 			var width_x: bool=box.size.x>=box.size.z
 			var edge: String=part.hinge_edge
+			if definition.id in model.get_meta("wardrobe_fronts_corrected",[]):
+				var tangent:Vector3=(leaf.global_basis.x if width_x else leaf.global_basis.z).normalized()
+				var panel_position:Vector3=leaf.global_transform*box.get_center()
+				var pair_center=Vector3.ZERO
+				for panel_part in definition.parts:
+					var panel_mesh:MeshInstance3D=meshes[panel_part.leaf_mesh];pair_center+=panel_mesh.global_transform*panel_mesh.mesh.get_aabb().get_center()
+				pair_center/=definition.parts.size()
+				edge="min" if (panel_position-pair_center).dot(tangent)<0 else "max"
 			if edge=="opposite_handle" and not part.attached_meshes.is_empty():
 				var handle: MeshInstance3D=meshes[part.attached_meshes[0]]
 				var handle_local := leaf.to_local(handle.global_transform*handle.mesh.get_aabb().get_center())

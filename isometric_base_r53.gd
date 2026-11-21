@@ -16,8 +16,10 @@ var item_choice: OptionButton
 var ready_for_tests:=false
 
 func _ready() -> void:
+    if "--map117-test" in OS.get_cmdline_user_args():get_tree().set_meta("demo95_profile_override","user://qa_map117_boot_"+str(OS.get_process_id())+".json")
     city=load("res://staging/e06_world/arroio/scenes/arroio_reconstruction.tscn").instantiate()
     city.name="Arroio"
+    if load("res://personagem/map117/mode.gd").enabled():city.set_meta("spatial_revision_enabled",true)
     var inspection: Camera3D=city.get_node("InspectionCamera")
     inspection.set_script(null)
     inspection.current=false

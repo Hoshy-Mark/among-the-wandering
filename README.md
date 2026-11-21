@@ -1,6 +1,23 @@
-# Entre os Andarilhos — Demo técnica Godot · R116
+# Entre os Andarilhos — Demo técnica Godot · R118
 
 Versão de desenvolvimento de Arroio das Figueiras: exploração isométrica, inventário modular, combate com câmera no ombro, população persistente de zumbis e nove personagens com diálogos e progressão social. A demo final está prevista com **21 personagens**; os doze restantes aguardam autoria. Esta versão ainda não representa a demo concluída.
+
+## Acessos e revisão dos interiores R118
+
+Inclui as correções de passagem pela soleira da H01, recuo para abrir portas e HUD de móveis/itens no chão no mapa revisado. A validação registrada cobre casos específicos: **o mapa inteiro ainda não está homologado**. O rack da H01 tem relato pendente de HUD, a revisão integral dos 590 recipientes ainda precisa ser executada e as sete janelas controladas da demo continuam restritas à H01.
+
+- [Correções, evidências e limites R118](docs/r118/REVISAO_R118.md)
+- [Capturas reais R118](docs/r118/comparativo_visual.html)
+- [Roadmap de interiores, loot e acabamentos](docs/revisao_interiores/ROADMAP.md)
+- [Tarefa paralela para ChatGPT web: auditoria e proposta visual](docs/revisao_interiores/TAREFA_CHATGPT_WEB.md)
+
+## Mapa revisado e loot R117
+
+A demonstração agora usa as 40 casas revisadas, com quartos ampliados, armários corrigidos e recorte de paredes para a visão isométrica. O personagem, a HUD aprovada, combate, câmera no ombro, 480 identidades de zumbis e os personagens sociais continuam na demo.
+
+São 590 pontos de loot no mapa. A busca usa geração controlada por semente, limites por local e raridade, sem reposição ao reabrir ou carregar. Os móveis da H01 preservam o estoque inicial aprovado. A campanha revisada usa `user://demo_population_map117.json` e pode importar a campanha anterior sem apagar o arquivo original. Os novos itens ainda mantêm funções futuras indicadas no catálogo; os usos existentes continuam ativos.
+
+Abra este `project.godot` no Godot 4.4.1 e pressione **F5**. O nome histórico da pasta R78 não indica a revisão atual. [Capturas, testes e limites da integração R117](docs/r117/comparativo_visual.html).
 
 ## Disparo, mira e atalhos R116
 
@@ -63,7 +80,7 @@ Explore portas, janelas e cercamentos, pratique combate ou evite os zumbis. Há 
 
 ## Salvar e carregar
 
-Use os botões **Salvar** e **Carregar** da barra. A campanha atual usa `user://demo_population_r98.json`, com backup. Preferências ficam em `user://preferences107.json`.
+Use os botões **Salvar** e **Carregar** da barra. A campanha atual usa `user://demo_population_map117.json`, com backup. A campanha anterior `demo_population_r98.json` é preservada durante a migração. Preferências ficam em `user://preferences107.json`.
 
 O diretório de dados público da versão R78 foi mantido para permitir a leitura da campanha anterior: `Entre_os_Andarilhos_Demo_R78`. O nome da pasta de dados não indica a versão do código. O jogo tenta importar o perfil legado compatível quando ainda não existe campanha atual. Seus saves não são enviados ao GitHub.
 
@@ -73,7 +90,7 @@ Para localizar os dados, use **Projeto → Abrir pasta de dados do usuário** no
 
 Inclui inventário C05, HUD de armas R01, diálogos D02, menu revisado, quatro habilidades e seis dimensões sociais centrais, incluindo Romance e Ressentimento. A R112 corrige a montagem parcial do inventário e distribui os estoques em móveis físicos.
 
-Ainda pendentes: integração completa do interior H01 com o controlador atual do mapa, novo início exterior seguro, balanceamento e percursos longos, desempenho em outras máquinas, os doze personagens em autoria e o fechamento narrativo da demo. Há um aviso conhecido sobre o carregamento da textura de profundidade do lago. Não se trata de uma build final homologada.
+Ainda pendentes: revisão funcional integral da H01 e dos demais imóveis, integração das janelas fora da H01, teste de todos os recipientes e do loot, diferenciação visual dos acabamentos, balanceamento e percursos longos, desempenho em outras máquinas, os doze personagens em autoria e o fechamento narrativo da demo. Há um aviso conhecido sobre o carregamento da textura de profundidade do lago. Não se trata de uma build final homologada.
 
 - [Relatório R112](docs/r112/REVISAO_R112.md)
 - [Resultados dos testes de origem](docs/r112/QA_RESULTADOS.json)

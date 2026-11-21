@@ -1,0 +1,109 @@
+{
+  "checks": [
+    {
+      "id": "real_character_preserved",
+      "passed": true
+    },
+    {
+      "id": "social_and_population_preserved",
+      "passed": true
+    },
+    {
+      "id": "all_40_revised_homes",
+      "passed": true
+    },
+    {
+      "id": "whole_map_registry",
+      "passed": true
+    },
+    {
+      "id": "H01_not_legacy_replacement",
+      "passed": true
+    },
+    {
+      "id": "approved_hud_preserved",
+      "passed": true
+    },
+    {
+      "id": "no_legacy_weapon_caches",
+      "passed": true
+    },
+    {
+      "id": "spawn_clear",
+      "passed": true
+    },
+    {
+      "id": "complete_session_validates",
+      "passed": true
+    },
+    {
+      "id": "complete_session_saves",
+      "passed": true
+    },
+    {
+      "id": "world_loot_search_commits",
+      "passed": true
+    },
+    {
+      "id": "same_container_no_refill",
+      "passed": true
+    },
+    {
+      "id": "full_save_load_preserves_loot",
+      "passed": true
+    },
+    {
+      "id": "legacy_profile_migrates_without_refill",
+      "passed": true
+    },
+    {
+      "id": "H02_real_open_and_search",
+      "passed": true
+    },
+    {
+      "id": "approved_HUD_collects_world_loot",
+      "passed": true
+    },
+    {
+      "id": "outside_H01_save",
+      "passed": true
+    },
+    {
+      "id": "outside_H01_load",
+      "passed": true
+    },
+    {
+      "id": "test_power_key_remains_available",
+      "passed": true
+    },
+    {
+      "id": "workshop_search",
+      "passed": true
+    },
+    {
+      "id": "reserved_pickup_removed_after_collect",
+      "passed": true
+    },
+    {
+      "id": "workshop_pickup_save_load",
+      "passed": true
+    },
+    {
+      "id": "reserved_workshop_item_is_unique",
+      "passed": true
+    },
+    {
+      "id": "legacy_campaign_load_preserves_inventory",
+      "passed": true
+    },
+    {
+      "id": "legacy_campaign_saves_revised_format",
+      "passed": true
+    }
+  ],
+  "container_count": 590,
+  "errors": [],
+  "houses": 40,
+  "moving_parts": 595,
+  "status": "passed"
+}

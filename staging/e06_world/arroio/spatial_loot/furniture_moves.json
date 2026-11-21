@@ -1,0 +1,702 @@
+{
+  "H01_FURN_COMODA_CASAL": {
+    "home": "H01",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      75.3774795532226,
+      0.0,
+      302.522583007812
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H01_FURN_DESPENSA": {
+    "home": "H01",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      64.4354858398438,
+      0.0,
+      323.292663574218
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H02_FURN_19_DRESSER": {
+    "home": "H02",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      119.215316772461,
+      0.0,
+      332.381927490234
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H03_FURN_09_FRIDGE": {
+    "home": "H03",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      516.375793457032,
+      0.0,
+      317.366668701172
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H03_FURN_17_WARDROBE": {
+    "home": "H03",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      505.224635012448,
+      0.0,
+      333.07254029894
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H04_FURN_01_tv_rack": {
+    "home": "H04",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      554.266296386718,
+      0.0,
+      321.380798339844
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H04_FURN_08_fridge": {
+    "home": "H04",
+    "world_pivot": [
+      285.147338867188,
+      1.10000002384186,
+      159.653045654297
+    ],
+    "world_translation": [
+      -0.199999988079071,
+      0.0,
+      0.120000027120113
+    ],
+    "yaw_degrees": 0.0
+  },
+  "H04_FURN_09_kitchen_sink": {
+    "home": "H04",
+    "world_pivot": [
+      285.91455078125,
+      0.795000076293945,
+      161.227905273438
+    ],
+    "world_translation": [
+      -0.200000002980232,
+      0.0,
+      -0.11999998986721
+    ],
+    "yaw_degrees": 0.0
+  },
+  "H05_FURN_01_tv_rack": {
+    "home": "H05",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      63.9728050231934,
+      0.0,
+      266.676635742188
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H05_FURN_14_wardrobe": {
+    "home": "H05",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      -90.3263680636887,
+      0.0,
+      160.532801806927
+    ],
+    "yaw_degrees": 90.0
+  },
+  "H07_FURN_02": {
+    "home": "H07",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      746.497253417968,
+      0.0,
+      293.311340332032
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H07_FURN_05": {
+    "home": "H07",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      752.3212890625,
+      0.0,
+      279.38833618164
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H08_FURN_02": {
+    "home": "H08",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      777.480651855468,
+      0.0,
+      299.16732788086
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H08_FURN_08": {
+    "home": "H08",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      767.5947265625,
+      0.0,
+      299.4013671875
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H08_FURN_19": {
+    "home": "H08",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      774.100708007812,
+      0.0,
+      286.453338623046
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H09_FURN_02": {
+    "home": "H09",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      199.607986450195,
+      0.0,
+      494.177307128906
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H09_FURN_13": {
+    "home": "H09",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      198.983993530273,
+      0.0,
+      506.709350585938
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H10_FURN_14": {
+    "home": "H10",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      257.512481689454,
+      0.0,
+      487.346160888672
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H10_FURN_17": {
+    "home": "H10",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      252.582427978516,
+      0.0,
+      487.333251953126
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H10_FURN_18": {
+    "home": "H10",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      4.8082526404869e-08,
+      0.0,
+      1.10000002384186
+    ],
+    "yaw_degrees": 0.0
+  },
+  "H10_FURN_19": {
+    "home": "H10",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      0.700000047683716,
+      0.0,
+      0.899999916553497
+    ],
+    "yaw_degrees": 0.0
+  },
+  "H10_FURN_32": {
+    "home": "H10",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      261.305877685546,
+      0.0,
+      530.50439453125
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H10_FURN_33": {
+    "home": "H10",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      261.425837405026,
+      0.0,
+      508.548553482532
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H12_FURN_10": {
+    "home": "H12",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      4.8082526404869e-08,
+      0.0,
+      1.10000002384186
+    ],
+    "yaw_degrees": 0.0
+  },
+  "H13_FURN_08": {
+    "home": "H13",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      442.523034632205,
+      0.0,
+      513.857905328274
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H14_FURN_07": {
+    "home": "H14",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      489.461883544922,
+      0.0,
+      512.683654785156
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H16_FURN_09": {
+    "home": "H16",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      219.62791442871,
+      0.0,
+      445.223419189454
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H16_FURN_20": {
+    "home": "H16",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      -105.549865715981,
+      0.0,
+      330.654393307865
+    ],
+    "yaw_degrees": 90.0
+  },
+  "H17_FURN_09": {
+    "home": "H17",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      239.93784789741,
+      0.0,
+      447.049687504768
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H17_FURN_21": {
+    "home": "H17",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      -93.60799407959,
+      0.0,
+      342.366004943848
+    ],
+    "yaw_degrees": 90.0
+  },
+  "H18_FURN_22": {
+    "home": "H18",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      -79.6734924116109,
+      0.0,
+      356.453322768211
+    ],
+    "yaw_degrees": 90.0
+  },
+  "H19_FURN_14": {
+    "home": "H19",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      1.31173694128961e-08,
+      0.0,
+      1.10000002384186
+    ],
+    "yaw_degrees": 0.0
+  },
+  "H21_FURN_18": {
+    "home": "H21",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      456.467550091446,
+      0.0,
+      -16.093444824219
+    ],
+    "yaw_degrees": -90.0
+  },
+  "H22_FURN_08": {
+    "home": "H22",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      519.613952636718,
+      0.0,
+      450.149475097656
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H24_FURN_10": {
+    "home": "H24",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      116.730484008789,
+      0.0,
+      157.740997314453
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H25_FURN_21": {
+    "home": "H25",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      202.637100219726,
+      0.0,
+      166.377990722656
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H26_FURN_16": {
+    "home": "H26",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      227.818466186524,
+      0.0,
+      -51.9445037841801
+    ],
+    "yaw_degrees": -90.0
+  },
+  "H26_FURN_18": {
+    "home": "H26",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      279.190948486328,
+      0.0,
+      177.831985473633
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H27_FURN_14": {
+    "home": "H27",
+    "world_pivot": [
+      214.404998779297,
+      1.31850016117096,
+      88.3693313598633
+    ],
+    "world_translation": [
+      -0.120000012218952,
+      0.0,
+      -0.400000005960464
+    ],
+    "yaw_degrees": 0.0
+  },
+  "H30_FURN_21": {
+    "home": "H30",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      209.447311401368,
+      0.0,
+      91.6020050048828
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H31_FURN_23": {
+    "home": "H31",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      290.510009765626,
+      0.0,
+      89.3783340454102
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H32_FURN_23": {
+    "home": "H32",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      422.428009033204,
+      0.0,
+      100.509330749512
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H34_FURN_12": {
+    "home": "H34",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      510.268853753806,
+      0.0,
+      257.024683877825
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H37_FURN_00": {
+    "home": "H37",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      665.312438964844,
+      0.0,
+      521.449096679688
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H37_FURN_05": {
+    "home": "H37",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      0.200000002980232,
+      0.0,
+      0.11999998986721
+    ],
+    "yaw_degrees": 0.0
+  },
+  "H37_FURN_10": {
+    "home": "H37",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      665.715454101562,
+      0.0,
+      534.037963867188
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H37_FURN_14": {
+    "home": "H37",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      0.119999952614307,
+      0.0,
+      -1.0
+    ],
+    "yaw_degrees": 0.0
+  },
+  "H38_FURN_00": {
+    "home": "H38",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      709.741577148438,
+      0.0,
+      520.313781738282
+    ],
+    "yaw_degrees": 180.0
+  },
+  "H38_FURN_22": {
+    "home": "H38",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      617.670933835209,
+      0.0,
+      -77.2064392119652
+    ],
+    "yaw_degrees": -90.0
+  },
+  "H40_FURN_16": {
+    "home": "H40",
+    "world_pivot": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "world_translation": [
+      798.49658203125,
+      0.0,
+      406.262969970704
+    ],
+    "yaw_degrees": 180.0
+  }
+}

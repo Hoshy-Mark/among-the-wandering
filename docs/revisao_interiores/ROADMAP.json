@@ -1,0 +1,64 @@
+{
+  "schema": "ea.interior_roadmap.v1",
+  "created_on": "2026-11-21",
+  "scope": "Current entire map: residential and civic interiors, access, furniture, loot, HUD, persistence and finishes",
+  "priority_case": "H01 rack, both registered drawers; failure reported, not yet reproduced",
+  "matrix": "MATRIZ_RECIPIENTES.json",
+  "registered_containers": 590,
+  "unique_site_owner_pairs": 548,
+  "coverage_not_homologated": true,
+  "runtime_revision_unchanged": 118,
+  "stages": [
+    {
+      "id": "IR-01",
+      "title": "Inventário de acessos e recipientes",
+      "done_when": "Cada porta, janela, móvel e compartimento tem ID, imóvel, alvo, colisão e vínculo com HUD/loot; divergências entre cena e cadastro ficam listadas.",
+      "status": "in_progress"
+    },
+    {
+      "id": "IR-02",
+      "title": "H01 funcional completa, começando pelo rack",
+      "done_when": "Todos os móveis e compartimentos da H01 passam nos casos aplicáveis, incluindo as duas gavetas do rack; entrada e saída e os sete acessos de janela recebem regressão.",
+      "status": "planned"
+    },
+    {
+      "id": "IR-03",
+      "title": "Identidade visual piloto da H01",
+      "done_when": "Paredes, pisos, batentes, portas e móveis são distinguíveis na câmera de jogo; portas têm atribuição própria de material/textura; comparativo real e medição de custo registrados.",
+      "status": "planned"
+    },
+    {
+      "id": "IR-04",
+      "title": "Portas, janelas e circulação de todo o mapa",
+      "done_when": "Cada imóvel tem entradas utilizáveis, janelas integradas ao abrir/fechar/atravessar, saídas nos dois sentidos e corredores/colisões verificados; nada é aprovado apenas por estar cadastrado.",
+      "status": "planned"
+    },
+    {
+      "id": "IR-05",
+      "title": "Revisão integral de móveis, HUD e loot",
+      "done_when": "Todos os recipientes e compartimentos passam na matriz ou têm exceção fundamentada; loot vazio mostra HUD vazio; repetição e salvar/carregar não duplicam ou apagam estoque.",
+      "status": "planned"
+    },
+    {
+      "id": "IR-06",
+      "title": "Acabamentos visuais em todos os imóveis",
+      "done_when": "Paletas por casa/cômodo e texturas por porta aplicadas; UV, lados internos/externos, folhas móveis, batentes, iluminação e corte de paredes conferidos.",
+      "status": "planned"
+    },
+    {
+      "id": "IR-07",
+      "title": "Percurso de homologação, persistência e desempenho",
+      "done_when": "Percurso contínuo entre imóveis, teste em processo novo, saves R117/R118, inventário manual, acessos, concentração de zumbis e métricas de FPS/memória aprovados com pendências explícitas.",
+      "status": "planned"
+    }
+  ],
+  "visual_rules": [
+    "Maintain approved polygonal geometry and camera cutaway",
+    "Separate wall/floor/trim/door/moving furniture finishes",
+    "Each physical door has its own finish/texture assignment; appearance includes wood grain or painted surface, not only a flat tint",
+    "Use room/house palettes, restrained value contrast and appropriate texture scale",
+    "Reuse textures/atlases and cached equivalent materials; do not mutate a globally shared material to recolor one instance"
+  ],
+  "review_gate": "No source is marked passed solely because it is registered or one representative of its type passed",
+  "performance_gate": "Measure frame time, draw calls, primitives and memory before/after each visual batch; investigate regressions before expansion"
+}

@@ -24,8 +24,14 @@ func _install_windows() -> void:
     glass.visible=false
     var mullions: MeshInstance3D=visual.find_child("H01_MONTANTES",true,false)
     mullions.visible=false
+    if scene.city.get_meta("spatial_revision_enabled",false):house.home.walls.erase(glass);house.home.walls.erase(mullions)
     var config: Dictionary=JSON.parse_string(FileAccess.get_file_as_string("res://personagem/janelas_h01_75.json"))
-    for definition in config.windows:
+    for original in config.windows:
+        var definition:Dictionary=original.duplicate(true)
+        if scene.city.get_meta("spatial_revision_enabled",false):
+            var rule:Dictionary=JSON.parse_string(FileAccess.get_file_as_string("res://staging/e06_world/arroio/spatial_loot/layouts.json")).houses.H01;var f:float=rule.factor_xz;var a:Array=rule.anchor_xz
+            definition.center[0]=a[0]+(definition.center[0]-a[0])*f;definition.center[2]=a[1]+(definition.center[2]-a[1])*f;definition.size[0]*=f;definition.size[2]*=f
+            if definition.has("positive_width_inset"):definition.positive_width_inset*=f
         var center=Vector3(definition.center[0],definition.center[1],definition.center[2])
         var source_size=Vector3(definition.size[0],definition.size[1],definition.size[2])
         var normal=Vector3(definition.normal[0],definition.normal[1],definition.normal[2])
@@ -102,7 +108,7 @@ func _install_windows() -> void:
     scene.city.static_batcher.batch_tree(visual)
 
 func _static_faces(node: Node, excluded: Node, faces: PackedVector3Array) -> void:
-    if node==excluded or str(node.name)=="H01_MONTANTES":return
+    if node==excluded or str(node.name) in ["H01_MONTANTES","_StaticRender","ReadableWallBase"]:return
     if node is MeshInstance3D:
         var pose: Transform3D=scene.world_items.house.home.building.global_transform.affine_inverse()*node.global_transform
         for vertex in node.mesh.get_faces():faces.append(pose*vertex)

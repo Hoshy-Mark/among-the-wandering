@@ -1,0 +1,486 @@
+{
+  "version": 1,
+  "houses": {
+    "H01": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        4.970030235253915,
+        -3.5946902754817422
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 9,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H02": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        -0.3689322518505094,
+        5.0999906918939075
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 8,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H03": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        3.815026879383339,
+        -5.015337222763179
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 8,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H04": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        4.370003081768772,
+        -4.235563460608546
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 9,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H05": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        4.045037099843455,
+        -5.342648672751366
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 7,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H06": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        -5.095002148905962,
+        -0.029999940238916167
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 9,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H07": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        4.824998648087046,
+        0.019978898683916668
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 6,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H08": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        4.100000675358984,
+        0.20002242844969942
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 7,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H09": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        3.1699957334201088,
+        -0.2799986407320887
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 6,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H10": {
+      "factor_xz": 1.29,
+      "anchor_xz": [
+        2.045002137885689,
+        -0.6196667807271155
+      ],
+      "area_gain_percent": 66.4,
+      "parcel_containment_verified": true,
+      "room_count": 9,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H11": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        4.369992746730617,
+        0.4133333209014438
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 6,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H12": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        3.8149990656580144,
+        -0.5866667033580768
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 7,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H13": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        2.609995122870572,
+        -0.1300017169685077
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 8,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H14": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        0.016458478959492595,
+        4.3299990827698025
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 9,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H15": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        -0.046289972328338536,
+        2.340000323370191
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 6,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H16": {
+      "factor_xz": 1.16,
+      "anchor_xz": [
+        4.099997867743099,
+        0.19999547125499362
+      ],
+      "area_gain_percent": 34.6,
+      "parcel_containment_verified": true,
+      "room_count": 7,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H17": {
+      "factor_xz": 1.21,
+      "anchor_xz": [
+        2.370005989354496,
+        -0.020002718319972246
+      ],
+      "area_gain_percent": 46.4,
+      "parcel_containment_verified": true,
+      "room_count": 9,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H18": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        4.04500720449542,
+        -0.6200001551807759
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 9,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H19": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        3.814995995653277,
+        -0.6203233187646617
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 9,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H20": {
+      "factor_xz": 1.15,
+      "anchor_xz": [
+        3.0249979970067784,
+        0.019977892517715645
+      ],
+      "area_gain_percent": 32.2,
+      "parcel_containment_verified": true,
+      "room_count": 11,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H21": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        5.0949987732717545,
+        -0.029998718539729907
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 6,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H22": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        -4.9699967371457205,
+        -0.02965549068346718
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 7,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H23": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        -5.110001131348341,
+        -1.6299996031724504
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 8,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H24": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        -2.7449969764253552,
+        -0.6200027793157545
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 8,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H25": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        -2.120000847094744,
+        -0.6203386483277598
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 7,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H26": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        -0.3000003846596826,
+        4.39999391026295
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 7,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H27": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        4.825026899051338,
+        0.12000448336959835
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 8,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H28": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        -5.094966350007105,
+        -0.02999900200495631
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 7,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H29": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        -2.164998080809184,
+        -0.6199990265198778
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 7,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H30": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        -3.3699981066004767,
+        -0.029963050139301117
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 8,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H31": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        3.6099998687902897,
+        0.01999821199382268
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 8,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H32": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        4.045001223010168,
+        -0.6199950689508569
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 9,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H33": {
+      "factor_xz": 1.14,
+      "anchor_xz": [
+        -0.4166642022392324,
+        6.600001886485558
+      ],
+      "area_gain_percent": 30.0,
+      "parcel_containment_verified": true,
+      "room_count": 8,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H34": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        -4.370002421297272,
+        -0.6200053418253333
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 8,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H35": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        4.82500918618922,
+        0.019989224579887832
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 8,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H36": {
+      "factor_xz": 1.4,
+      "anchor_xz": [
+        3.8149998609288076,
+        3.1815780163853447
+      ],
+      "area_gain_percent": 96.0,
+      "parcel_containment_verified": true,
+      "room_count": 8,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0,
+      "reason": "Additional bedroom clearance, verified inside the existing parcel."
+    },
+    "H37": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        5.095000138061721,
+        -3.1584830267091206
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 10,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H38": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        4.970009964029089,
+        -0.03000873457671105
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 10,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H39": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        5.110000132641119,
+        0.019979064510437183
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 9,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    },
+    "H40": {
+      "factor_xz": 1.3,
+      "anchor_xz": [
+        -0.5000000677335095,
+        5.680015001692595
+      ],
+      "area_gain_percent": 69.0,
+      "parcel_containment_verified": true,
+      "room_count": 8,
+      "status": "candidate_pending_native_circulation",
+      "furniture_scale": 1.0
+    }
+  }
+}

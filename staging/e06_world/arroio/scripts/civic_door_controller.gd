@@ -14,6 +14,7 @@ func _unhandled_key_input(event: InputEvent) -> void:
 			d=minf(d,Vector2(closed_center.x-target.global_position.x,closed_center.z-target.global_position.z).length())
 			if d<distance:best=door;distance=d
 	if best.is_empty():return
+	if _route_demo_door118(best):return
 	if _player_in_swing(best):
 		last_door_result={"name":str(best.hinge.name),"blocked_by_actor":true}
 		return

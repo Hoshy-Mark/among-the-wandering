@@ -55,7 +55,8 @@ func _load_catalog114(name: String) -> Variant:
 	data=preload("res://staging/e06_world/arroio/scripts/lrp01_layer.gd").adjusted(self,name,data)
 	data=preload("res://staging/e06_world/arroio/scripts/lrp02_layer.gd").adjusted(self,name,data)
 	data=preload("res://staging/e06_world/arroio/scripts/rural_layer.gd").adjusted(self,name,data)
-	return preload("res://staging/e06_world/arroio/scripts/rural_network_layer.gd").adjusted(self,name,data)
+	data=preload("res://staging/e06_world/arroio/scripts/rural_network_layer.gd").adjusted(self,name,data)
+	return preload("res://staging/e06_world/arroio/spatial_loot/site_clearance.gd").adjust(self,name,data)
 
 func _ready() -> void:
 	var city: Dictionary = catalog("city_master")

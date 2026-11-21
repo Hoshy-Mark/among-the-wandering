@@ -179,7 +179,11 @@ func sweep(id:String,next:float)->String:
 			if not shape is CollisionShape3D or shape.disabled:continue
 			var query=PhysicsShapeQueryParameters3D.new();query.shape=shape.shape;query.transform=shape.global_transform;query.collision_mask=3;query.margin=.0002;query.exclude=[body.get_rid()]
 			var hits=get_world_3d().direct_space_state.intersect_shape(query,1)
-			if not hits.is_empty():result=str(hits[0].collider.name);break
+			if not hits.is_empty():
+				result=str(hits[0].collider.name);last_access={"sweep":id,"collider_path":str(hits[0].collider.get_path())}
+				if result=="FutureMovingCollision":
+					var other:CollisionShape3D=hits[0].collider.get_child(0);var a:AABB=query.transform*AABB(-shape.shape.size*.5,shape.shape.size);var b:AABB=other.global_transform*AABB(-other.shape.size*.5,other.shape.size);last_access["probe"]=str(a);last_access["other"]=str(b);last_access["aabb_overlap"]=a.intersects(b)
+				break
 		if not result.is_empty():break
 	m.prep.set_review_fraction(id,old);return result
 func toggle_part(id:String)->bool:
@@ -218,7 +222,7 @@ func _input(event:InputEvent):
 	get_viewport().set_input_as_handled()
 func _build_ui():
 	ui=CanvasLayer.new();ui.layer=20;add_child(ui);hud=load(BASE+"loot_pilot/vendor/hud68.gd").new();ui.add_child(hud);hud.setup(actor);hud.personal.visible=false;hud.nearby_wanted=false;hud.nearby.visible=false;hud.windows[1].visible=false;hud.refresh();feedback=hud.feedback
-	var navigation=HBoxContainer.new();navigation.theme=hud.theme;navigation.position=Vector2(550,12);ui.add_child(navigation);var choices=OptionButton.new();choices.custom_minimum_size.x=200;navigation.add_child(choices)
+	var navigation=HBoxContainer.new();navigation.theme=hud.theme;navigation.position=Vector2(550,12);ui.add_child(navigation);var choices=OptionButton.new();choices.fit_to_longest_item=false;choices.custom_minimum_size.x=200;navigation.add_child(choices)
 	for row in config.containers:choices.add_item(row.name);choices.set_item_metadata(choices.item_count-1,row.id)
 	var go=Button.new();go.text="Ir";go.pressed.connect(func():teleport(str(choices.get_item_metadata(choices.selected))));navigation.add_child(go)
 	var reload=Button.new();reload.text="Recarregar área";reload.pressed.connect(func():await reload_region());navigation.add_child(reload)

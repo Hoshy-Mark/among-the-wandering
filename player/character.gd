@@ -9,6 +9,7 @@ var map_traversals: Node3D
 var map_doors: Node3D
 var world_interaction: Node3D
 var inventory_actions: RefCounted
+var world_map117:Node
 
 func _unhandled_key_input(event: InputEvent) -> void:
     if shoulder!=null and shoulder.is_firearm() and event is InputEventKey and event.physical_keycode in [KEY_Q,KEY_F]:
@@ -17,6 +18,8 @@ func _unhandled_key_input(event: InputEvent) -> void:
         map_combat.reload_weapon()
         get_viewport().set_input_as_handled()
         return
+    if demo_mode and is_instance_valid(world_map117) and event is InputEventKey and event.pressed and not event.echo and event.physical_keycode==KEY_L:
+        world_map117.toggle_test_power117(event);get_viewport().set_input_as_handled();return
     if demo_mode and event is InputEventKey:
         if event.pressed and not event.echo and map_traversals!=null and event.physical_keycode in [KEY_B,KEY_V]:
             if event.physical_keycode==KEY_B:map_traversals.request()
@@ -92,6 +95,7 @@ func _physics_process(delta: float) -> void:
     update_nearby()
 
 func update_nearby() -> void:
+    if is_instance_valid(world_map117) and world_map117.ready_map:world_map117.refresh_access();return
     var ids: Array[String]=[]
     var origin=global_position+Vector3.UP*.65
     for id in bag_inventory.world_containers:

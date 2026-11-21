@@ -76,6 +76,12 @@ func advance(delta: float) -> void:
         if not floor_hit.is_empty() and floor_hit.normal.y>.8:
             desired.y=floor_hit.position.y+.01
         var collision=body.move_and_collide(desired-body.global_position)
+        if collision!=null and collision.get_normal().y>.8:
+            # At a descending threshold the rear of the capsule can still rest
+            # on the upper floor. Keep the horizontal remainder instead of
+            # cancelling the gait because the entire descent has not finished.
+            var slide=collision.get_remainder().slide(collision.get_normal())
+            collision=body.move_and_collide(slide) if slide.length_squared()>.00000001 else null
         if collision!=null and not (collision.get_normal().y>.8 and body.global_position.distance_to(desired)<.03):
             blocked=true
             queue.clear()

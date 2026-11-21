@@ -10,6 +10,8 @@ var forced_home := ""
 var review_cut := false
 var review_focus: Node3D
 var last_door_result := {}
+var layout_revision=preload("res://staging/e06_world/arroio/spatial_loot/layout_revision.gd").new()
+var readable_cutaway=preload("res://staging/e06_world/arroio/spatial_loot/room_cutaway.gd").new()
 var services:Node3D
 
 func configure(owner_city: Node3D) -> void:
@@ -43,6 +45,9 @@ func configure(owner_city: Node3D) -> void:
 			for mesh in model.find_children(str(correction.prefix)+"*","MeshInstance3D",true,false):
 				mesh.global_transform=model.global_transform*pose*model.global_transform.affine_inverse()*mesh.global_transform
 		if is_instance_valid(services):services.apply_layout(model,lot)
+		if city.get_meta("spatial_revision_enabled",false):
+			layout_revision.expand(city,rule,lot,building,exterior,model,services)
+			preload("res://staging/e06_world/arroio/spatial_loot/wardrobe_fronts.gd").new().apply(model,rule,lot)
 		var home := {"rule":rule,"building":building,"instance":instance,"model":model,"roofs":[],"walls":[],"doors":[],"inside":false}
 		homes[lot]=home
 		for mesh in model.find_children("*","MeshInstance3D",true,false):
@@ -101,8 +106,8 @@ func configure(owner_city: Node3D) -> void:
 			proxy.shape=box;proxy.position=bounds.get_center();static_body.add_child(proxy)
 		for mesh in exterior.find_children("*","MeshInstance3D",true,false):
 			var title := str(mesh.name).to_upper()
-			var roof := "TELHAS" in title or "CUMEEIRA" in title or "BEIRAIS" in title or "OITOES" in title or "CHAPAS_ONDULADAS" in title
-			var wall := "FACHADA" in title or "FUNDOS" in title or "LATERAIS" in title or "LATERAL" in title
+			var roof := "TELHAS" in title or "CUMEEIRA" in title or "BEIRAIS" in title or "OITOES" in title or "CHAPAS_ONDULADAS" in title or "CALHA" in title or "CONDUTOR_PLUVIAL" in title
+			var wall := "FACHADA" in title or "FUNDOS" in title or "LATERAIS" in title or "LATERAL" in title or "CAIXILHO" in title or "VIDROS_RECUADOS" in title or "MONTANTES" in title or "PEITORIS" in title or "VERGA" in title
 			if roof or wall:
 				var unit := _unit_for_mesh(home,mesh)
 				if unit=="outside":continue
@@ -208,9 +213,8 @@ func _process(_delta: float) -> void:
 		var home: Dictionary=homes[lot]
 		if not is_instance_valid(home.instance) or not home.instance.is_inside_tree():continue
 		var inside: bool=lot==forced_home or (is_instance_valid(target) and contains_point(lot,target.global_position))
+		inside=inside and not (camera!=null and camera.get_meta("solid_world89",false))
 		home.inside=inside
-		# Exterior homes already have their canonical shadows. Revisit on entry,
-		# exit, or an explicit zero-delta refresh used by civic/review adapters.
 		if not inside and home.get("cutaway_outside115",false) and _delta>0:continue
 		home.cutaway_outside115=not inside
 		for roof in home.roofs:
@@ -230,12 +234,7 @@ func _process(_delta: float) -> void:
 				active=false
 				for unit in home.rule.units:
 					if unit.id==wall.get_meta("interior_unit","main"):active=_contains_unit(unit,home.model.to_local(target.global_position))
-			if active and review_cut:blocked=true
-			elif active and camera!=null and is_instance_valid(target):
-				var inv: Transform3D=wall.global_transform.affine_inverse()
-				blocked=wall.mesh.get_aabb().grow(.04).intersects_segment(inv*camera.global_position,inv*(target.global_position+Vector3.UP*1.2))!=null
-			wall.visible=true
-			wall.cast_shadow=GeometryInstance3D.SHADOW_CASTING_SETTING_SHADOWS_ONLY if blocked else wall.get_meta("interior_original_shadow",GeometryInstance3D.SHADOW_CASTING_SETTING_ON)
+			readable_cutaway.update(home,wall,active,target,camera,active and review_cut)
 
 func _unhandled_key_input(event: InputEvent) -> void:
 	if not event is InputEventKey or not event.pressed or event.echo or event.physical_keycode!=KEY_E:return
@@ -250,6 +249,7 @@ func _unhandled_key_input(event: InputEvent) -> void:
 			var d: float=Vector2(center.x-target.global_position.x,center.z-target.global_position.z).length()
 			if d<distance:best=door;distance=d
 	if best.is_empty():return
+	if _route_demo_door118(best):return
 	if _player_in_swing(best):
 		last_door_result={"name":str(best.hinge.name),"blocked_by_actor":true}
 		return
@@ -277,3 +277,9 @@ func _player_in_swing(door: Dictionary) -> bool:
 			door.hinge.basis=old;return true
 	door.hinge.basis=old
 	return false
+
+func _route_demo_door118(door: Dictionary) -> bool:
+	var player=get_tree().get_first_node_in_group("player")
+	if not is_instance_valid(player) or not "map_doors" in player or player.map_doors==null or not player.map_doors.has_method("request_external118"):return false
+	if not city.get_meta("spatial_revision_enabled",false):return false
+	player.map_doors.request_external118(door);get_viewport().set_input_as_handled();return true

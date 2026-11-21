@@ -25,7 +25,7 @@ func _key(id:String)->String:return "world:"+id
 func initialize(settings:Dictionary,path:String,positions:Dictionary,access:Callable)->bool:
 	config=settings.duplicate(true);save_path=path;guard=access;registry={};descriptors={};ledger={};claimed={};ready_state=false;world_seed=str(config.default_world_seed)
 	for row in config.containers:
-		row.grid=[int(row.grid[0]),int(row.grid[1])];descriptors[row.id]=row;registry[_key(row.id)]={"name":row.name,"kind":"cabinet","capacity":int(row.grid[0])*int(row.grid[1]),"position":positions.get(row.id,[0.0,0.0,0.0]),"pilot_id":row.id}
+		row.grid=[int(row.grid[0]),int(row.grid[1])];descriptors[row.id]=row;registry[_key(row.id)]={"name":str(row.name).substr(0,80),"kind":"cabinet","capacity":int(row.grid[0])*int(row.grid[1]),"position":positions.get(row.id,[0.0,0.0,0.0]),"pilot_id":row.id}
 	inventory=_fresh();history={};actor_context={};minted=_counts(inventory.items)
 	for uid in inventory.items:history[uid]=inventory.items[uid].definition
 	var actual=path if FileAccess.file_exists(path) else path+".bak" if FileAccess.file_exists(path+".bak") else ""
@@ -136,7 +136,7 @@ func _valid(body:Variant)->bool:
 	if totals.size()!=body.minted.size():return false
 	for definition in body.minted:
 		if not _integer(body.minted[definition]) or int(body.minted[definition])<1 or int(totals.get(definition,0))!=int(body.minted[definition]):return false
-	if int(body.minted.get("calca_terra",0))!=1 or int(body.minted.get("bag_school",0))!=1:return false
+	if int(body.minted.get("calca_terra",0))<1 or int(body.minted.get("bag_school",0))<1:return false
 	var tracked={}
 	for id in body.ledger:
 		if not descriptors.has(id) or not body.ledger[id] is Dictionary:return false
