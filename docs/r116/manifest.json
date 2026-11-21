@@ -1,0 +1,27 @@
+{
+  "algorithm": "sha256",
+  "text_normalization": "UTF-8 without BOM; CRLF normalized to LF, independently of checkout platform",
+  "baseline_commit": "9a51c95e31b814815fc5beae8fc552ea6fe8bfe3",
+  "files": {
+    "personagem/hud68.gd": "e31adb32d2f0492d8fca9861ea0b92847869082622d22fff85d0742a4084133b",
+    "personagem/grid68.gd": "27414a97e3ea8d4ec8c0baba3ae77f4331cf32b2dee30061ad9f89f9e3012676",
+    "personagem/personagem.gd": "fd012aaef06850f84fd17ba69f0f5c88c5845724195aaaa0a206d8ea334ee758",
+    "personagem/postura_armas92.gd": "6ec808ad24a70fccf5bffcc8db1877757ea5bab16aac3bfdeff064631229a7b4",
+    "personagem/mira_ombro88.gd": "1a9428f909f3c0ce2b252a1cddbcf52d8d46d5724d768003f7d3bc802c1e25ee",
+    "personagem/mira_ambiente89.gd": "5ef1c6457f8aafec774fddd5111b5d6cbbc18884b140a1995c116353702b1625",
+    "personagem/combate_mapa92.gd": "c4dc1965bf552a3a5f6affde64cb45bbbe2456ab916fc60e33a175431831f750",
+    "personagem/atalhos_inventario116.gd": "a9c89cc2fd44a12bb4e2dd8e80dd79555da47202231c659511d162af34f65707",
+    "tests/diagnostic116.gd": "da96e09007d5fd1f73c184fd5ce1d2d6ad7ca35871316213f2b1aaaf4c17b15b",
+    "tests/review116.gd": "7c75e33975ff995ef99e3b9b68ccd4f3cec64505cdcf01b54cbf7a252d0dd6c7",
+    "tests/performance116.gd": "cd1ffe3012b678ed656e3b84e0fe7ba03d1d7f7cbd843cc9f903fa3b3f94401c",
+    "personagem/atalhos_inventario116.gd.uid": "c74f007bda2e5415b89f9a7fd9fac5660a451ca0f2b70e61f530cb686bd28717",
+    "tests/diagnostic116.gd.uid": "e589af1b432864f9f0e59cbdb2cd0d5c94f3f570ac92fdda13e2dfb9a7267276",
+    "tests/review116.gd.uid": "ab08262a9ee24e96b3808830e5e9be303088f3e70b2f60a6d42204a61bda3063",
+    "tests/performance116.gd.uid": "24cdea1adb5eb1e008a333869b0c5d500f3b49c4f6c7dbdf194957a5fafe3a5e",
+    "tests/fixtures116/combate_mapa92_r115.txt": "9cc495d954ff1ed29b3af492dfe8a1dd04996b86e27b33f0efb62e6244a7728f",
+    "tests/fixtures116/mira_ambiente89_r115.txt": "f70a21bfa5f2fafbc3076419a0083ceabd897c7bad728b1f205a3fc357b3ccd4",
+    "tests/fixtures116/mira_ombro88_r115.txt": "b5cff508c6289266ba372767260f6f94671663f84b7ee16237bbba2765d23ee8",
+    "tests/fixtures116/personagem_r115.txt": "a854cfcef9d9891f5ccc47d42d764bc120533d3cc8c762c9472fb2b685f8a3ae",
+    "tests/fixtures116/postura_armas92_r115.txt": "24352dbdf404b1d732c1e5222d61e8cd60f0af8064bf1b665132935ab0adbde7"
+  }
+}

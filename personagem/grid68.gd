@@ -75,7 +75,10 @@ func _gui_input(event: InputEvent) -> void:
                 hud.commit_target(self,cell_at(event.position))
             accept_event()
         else:
+            var clicked=pressed_uid
             pressed_uid=""
+            if not clicked.is_empty() and clicked==item_at(event.position) and hud.drag_uid.is_empty() and not hud.player.bag_inventory.owned(clicked):
+                hud.quick_pickup.call_deferred(clicked)
     elif event is InputEventMouseMotion and not pressed_uid.is_empty() and event.button_mask&MOUSE_BUTTON_MASK_LEFT:
         if event.position.distance_to(pressed_at)>5 and hud.drag_uid.is_empty():
             hud.start_drag(pressed_uid,grip)

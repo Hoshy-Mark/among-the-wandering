@@ -13,6 +13,7 @@ var last_position: Variant=null
 var previewing=false
 var view_blocked=false
 var goal_distance=0.0
+var solid_state116: Variant=null
 func setup(root_scene: Node3D) -> void:
     super.setup(root_scene)
     original_cull_mask=scene.camera.cull_mask
@@ -97,14 +98,25 @@ func solve_position(head: Vector3,right: Vector3,forward: Vector3,delta: float) 
     collision_fraction=result.distance_to(head)/Vector2(.65,1.65).length()
     return result
 func barrel_obstructed() -> bool:
-    var point: Vector3=aim_ray().position
+    var hit=aim_ray();var point: Vector3=hit.position
+    var receiver=hit.get("collider")
+    # An enemy touching the weapon is a valid target, not a solid wall.
+    if is_instance_valid(receiver) and receiver.is_in_group("combat_receivers79") and not str(hit.get("zone","")).is_empty():return false
     var muzzle=scene.player.weapons.visual.muzzle_position()
     return point.distance_to(scene.player.global_position+Vector3.UP*1.3)<.75 or (point-muzzle).dot(-scene.camera.global_basis.z)<.08
+func pose_target116() -> Vector3:
+    var hit=aim_ray();var receiver=hit.get("collider");var muzzle=scene.player.weapons.visual.muzzle_position()
+    var forward=-scene.camera.global_basis.z
+    if is_instance_valid(receiver) and receiver.is_in_group("combat_receivers79") and (hit.position-muzzle).dot(forward)<.12:
+        return muzzle+forward*5
+    return hit.position
 func ready_to_fire() -> bool:return super.ready_to_fire() and camera_distance>=.5 and not barrel_obstructed() and not view_blocked
 func align_pose(actor: Node3D) -> void:
     if holding and progress>.8 and barrel_obstructed():return
     super.align_pose(actor)
 func _solid(value: bool) -> void:
+    if solid_state116==value:return
+    solid_state116=value
     scene.camera.set_meta("solid_world89",value)
     for owner in [scene.world_items,scene.player.map_doors,scene.player.map_traversals]:
         if owner==null:continue

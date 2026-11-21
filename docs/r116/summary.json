@@ -1,0 +1,83 @@
+{
+  "revision": 116,
+  "passed": true,
+  "native_checks": 208,
+  "legacy_checks": 111,
+  "aim_cycles": 150,
+  "weapons": [
+    "pistol",
+    "revolver",
+    "carbine"
+  ],
+  "simulation_fps": [
+    30,
+    60,
+    120
+  ],
+  "max_scale_error": 5.36441802978516e-07,
+  "max_elbow_m": 0.0220306199043989,
+  "max_wrist_m": 0.00379000185057521,
+  "baseline_scale_error_80_cycles": 1.1809631695030984,
+  "baseline_close_ranges": [
+    {
+      "barrel": true,
+      "collider": "arr96_house_001:<CharacterBody3D#4385816110016>",
+      "distance": 0.6,
+      "ready": false,
+      "view_blocked": false,
+      "zone": "upper_arm_left"
+    },
+    {
+      "barrel": true,
+      "collider": "arr96_house_001:<CharacterBody3D#4385816110016>",
+      "distance": 0.9,
+      "ready": false,
+      "view_blocked": false,
+      "zone": "chest"
+    },
+    {
+      "barrel": false,
+      "collider": "arr96_house_001:<CharacterBody3D#4385816110016>",
+      "distance": 1.2,
+      "ready": true,
+      "view_blocked": false,
+      "zone": "chest"
+    },
+    {
+      "barrel": false,
+      "collider": "arr96_house_001:<CharacterBody3D#4385816110016>",
+      "distance": 2.0,
+      "ready": true,
+      "view_blocked": false,
+      "zone": "chest"
+    },
+    {
+      "barrel": false,
+      "collider": "arr96_house_001:<CharacterBody3D#4385816110016>",
+      "distance": 3.0,
+      "ready": true,
+      "view_blocked": false,
+      "zone": "chest"
+    }
+  ],
+  "fixed_population": 480,
+  "humans": 9,
+  "human_damage_policy": "protected",
+  "controls": {
+    "external_item_click_or_F": "pickup into free backpack cells; pockets if no backpack",
+    "inventory_E": "equip hovered or selected item",
+    "drag": "manual chosen cells preserved"
+  },
+  "shoulder_performance": {
+    "uncached_fps": 63.7430599743453,
+    "cached_fps": 66.3961066920537,
+    "draw_calls": 1733.0,
+    "primitives": 8082172.0,
+    "consistent_fps_gain_established": false,
+    "resolution": [
+      1280,
+      720
+    ],
+    "vsync_and_cap_disabled_only_for_benchmark": true
+  }
+}

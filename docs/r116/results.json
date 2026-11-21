@@ -1,0 +1,842 @@
+{
+  "checks": [
+    {
+      "message": "open physical source world:arroio:H01_FURN_GUARDA_CASAL/storage/main",
+      "passed": true
+    },
+    {
+      "message": "physical source accessible world:arroio:H01_FURN_GUARDA_CASAL/storage/main",
+      "passed": true
+    },
+    {
+      "message": "E equips backpack directly from wardrobe",
+      "passed": true
+    },
+    {
+      "message": "open physical source world:arroio:H01_FURN_GELADEIRA/storage/cooler",
+      "passed": true
+    },
+    {
+      "message": "physical source accessible world:arroio:H01_FURN_GELADEIRA/storage/cooler",
+      "passed": true
+    },
+    {
+      "message": "source grid exists",
+      "passed": true
+    },
+    {
+      "message": "single click picks up water into backpack",
+      "passed": true
+    },
+    {
+      "message": "quick pickup never rearranges other cells",
+      "passed": true
+    },
+    {
+      "message": "F picks up selected food into backpack",
+      "passed": true
+    },
+    {
+      "message": "pickup is immediate without an equipment job",
+      "passed": true
+    },
+    {
+      "message": "repeated pickup cannot duplicate owned items",
+      "passed": true
+    },
+    {
+      "message": "manual drag grids available",
+      "passed": true
+    },
+    {
+      "message": "drag threshold retains item operation",
+      "passed": true
+    },
+    {
+      "message": "manual drag can return food to source",
+      "passed": true
+    },
+    {
+      "message": "manual drag grids available",
+      "passed": true
+    },
+    {
+      "message": "drag threshold retains item operation",
+      "passed": true
+    },
+    {
+      "message": "external drag keeps chosen cells without triggering click pickup",
+      "passed": true
+    },
+    {
+      "message": "capture 01_clique_e_f_mochila",
+      "passed": true
+    },
+    {
+      "message": "open physical source world:arroio:H01_FURN_GUARDA_CASAL/storage/main",
+      "passed": true
+    },
+    {
+      "message": "physical source accessible world:arroio:H01_FURN_GUARDA_CASAL/storage/main",
+      "passed": true
+    },
+    {
+      "message": "oversized item leaves full source and backpack intact",
+      "passed": true
+    },
+    {
+      "message": "E equips long gun directly from wardrobe",
+      "passed": true
+    },
+    {
+      "message": "capture 02_e_equipar_armario",
+      "passed": true
+    },
+    {
+      "message": "closed source cannot be looted via shortcut",
+      "passed": true
+    },
+    {
+      "message": "QA pistol equips",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/0",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/1",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/2",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/3",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/4",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/5",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/6",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/7",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/8",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/9",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/10",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/11",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/12",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/13",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/14",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/15",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/16",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/17",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/18",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/19",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/20",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/21",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/22",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/23",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/24",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/25",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/26",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/27",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/28",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 30/29",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/0",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/1",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/2",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/3",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/4",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/5",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/6",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/7",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/8",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/9",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/10",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/11",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/12",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/13",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/14",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/15",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/16",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/17",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/18",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/19",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/20",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/21",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/22",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/23",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/24",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/25",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/26",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/27",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/28",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 60/29",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/0",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/1",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/2",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/3",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/4",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/5",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/6",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/7",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/8",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/9",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/10",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/11",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/12",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/13",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/14",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/15",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/16",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/17",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/18",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/19",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/20",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/21",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/22",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/23",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/24",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/25",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/26",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/27",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/28",
+      "passed": true
+    },
+    {
+      "message": "repeat aim enters 120/29",
+      "passed": true
+    },
+    {
+      "message": "repeated aim has no residual scale/shear",
+      "passed": true
+    },
+    {
+      "message": "elbow and wrist seams remain coherent",
+      "passed": true
+    },
+    {
+      "message": "capture 04_bracos_apos_90_transicoes",
+      "passed": true
+    },
+    {
+      "message": "aim enters at distance 0.6",
+      "passed": true
+    },
+    {
+      "message": "close zombie never acts as barrel obstruction 0.6",
+      "passed": true
+    },
+    {
+      "message": "shot accepted 0.6",
+      "passed": true
+    },
+    {
+      "message": "shot damages zombie and consumes one round 0.6",
+      "passed": true
+    },
+    {
+      "message": "shot effect occurs once 0.6",
+      "passed": true
+    },
+    {
+      "message": "aim enters at distance 0.9",
+      "passed": true
+    },
+    {
+      "message": "close zombie never acts as barrel obstruction 0.9",
+      "passed": true
+    },
+    {
+      "message": "shot accepted 0.9",
+      "passed": true
+    },
+    {
+      "message": "shot damages zombie and consumes one round 0.9",
+      "passed": true
+    },
+    {
+      "message": "shot effect occurs once 0.9",
+      "passed": true
+    },
+    {
+      "message": "capture 03_tiro_zumbi_proximo",
+      "passed": true
+    },
+    {
+      "message": "aim enters at distance 1.2",
+      "passed": true
+    },
+    {
+      "message": "close zombie never acts as barrel obstruction 1.2",
+      "passed": true
+    },
+    {
+      "message": "shot accepted 1.2",
+      "passed": true
+    },
+    {
+      "message": "shot damages zombie and consumes one round 1.2",
+      "passed": true
+    },
+    {
+      "message": "shot effect occurs once 1.2",
+      "passed": true
+    },
+    {
+      "message": "aim enters at distance 3.0",
+      "passed": true
+    },
+    {
+      "message": "close zombie never acts as barrel obstruction 3.0",
+      "passed": true
+    },
+    {
+      "message": "shot accepted 3.0",
+      "passed": true
+    },
+    {
+      "message": "shot damages zombie and consumes one round 3.0",
+      "passed": true
+    },
+    {
+      "message": "shot effect occurs once 3.0",
+      "passed": true
+    },
+    {
+      "message": "aim can target protected human",
+      "passed": true
+    },
+    {
+      "message": "human intercepts ray without a damage region",
+      "passed": true
+    },
+    {
+      "message": "firing toward protected human is accepted",
+      "passed": true
+    },
+    {
+      "message": "protected human blocks damage and penetration to zombie",
+      "passed": true
+    },
+    {
+      "message": "wall scenario enters aim",
+      "passed": true
+    },
+    {
+      "message": "shot against distant wall is allowed",
+      "passed": true
+    },
+    {
+      "message": "solid wall still intercepts bullet",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 0",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 1",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 2",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 3",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 4",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 5",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 6",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 7",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 8",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 9",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 10",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 11",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 12",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 13",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 14",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 15",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 16",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 17",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 18",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 19",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 20",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 21",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 22",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 23",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 24",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 25",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 26",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 27",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 28",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim revolver 29",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 0",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 1",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 2",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 3",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 4",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 5",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 6",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 7",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 8",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 9",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 10",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 11",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 12",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 13",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 14",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 15",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 16",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 17",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 18",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 19",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 20",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 21",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 22",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 23",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 24",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 25",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 26",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 27",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 28",
+      "passed": true
+    },
+    {
+      "message": "arsenal repeated aim carbine 29",
+      "passed": true
+    },
+    {
+      "message": "three firearm types preserve scale and arm seams",
+      "passed": true
+    },
+    {
+      "message": "previous doors/windows/fences/save regression",
+      "passed": true
+    }
+  ],
+  "humans": 9,
+  "max_elbow_m": 0.0220306199043989,
+  "max_scale_error": 0.000000536441802978516,
+  "max_wrist_m": 0.00379000185057521,
+  "passed": true,
+  "population": 480
+}

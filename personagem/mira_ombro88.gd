@@ -136,7 +136,7 @@ func muzzle_ray(point: Vector3) -> Dictionary:
 func align_pose(actor: Node3D) -> void:
     if not holding or progress<.25:return
     var rig=actor.skeleton;var visual=scene.player.weapons.visual
-    var point: Vector3=aim_ray().position
+    var point: Vector3=pose_target116()
     var upper=rig.find_bone("UpperArm.R");var hand=rig.find_bone("Hand.R")
     var parent=rig.get_bone_parent(upper)
     for iteration in 3:
@@ -152,3 +152,4 @@ func align_pose(actor: Node3D) -> void:
         var parent_rotation=(rig.global_basis*rig.get_bone_global_pose(parent).basis).orthonormalized().get_rotation_quaternion()
         var local=parent_rotation.inverse()*rotation*parent_rotation
         rig.set_bone_pose_rotation(upper,local*rig.get_bone_pose_rotation(upper));rig.force_update_all_bone_transforms()
+func pose_target116() -> Vector3:return aim_ray().position

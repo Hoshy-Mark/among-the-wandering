@@ -31,9 +31,11 @@ var scroll: ScrollContainer
 var workspace: Control
 var cell_size=54
 var icon_cache: Dictionary={}
+var quick_inventory=preload("res://personagem/atalhos_inventario116.gd").new()
 
 func setup(body: CharacterBody3D) -> void:
     player=body
+    quick_inventory.player=body
     set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
     mouse_filter=Control.MOUSE_FILTER_IGNORE
     var theme_ui=Theme.new()
@@ -108,7 +110,7 @@ func setup(body: CharacterBody3D) -> void:
     near_body.add_child(nearby_storage)
     near_column.add_child(HSeparator.new())
     var near_foot=_column(near_column,Vector2(0,45))
-    _label(near_foot,"Arraste um objeto para a mochila ou os bolsos.",11,Color("96a49b"))
+    _label(near_foot,"Clique ou F: pegar · E: equipar · Arraste para organizar.",11,Color("96a49b"))
     reopen=Button.new()
     reopen.text="PRÓXIMO  —  Objetos ao alcance  +"
     reopen.pressed.connect(open_nearby)
@@ -316,10 +318,12 @@ func _inspection() -> void:
         _button(actions,"Cancelar",cancel_pending)
         return
     var is_equipped=str(item.location).begins_with("slot:")
+    if not model.owned(selected_uid):
+        _button(actions,"Pegar · F",func():quick_pickup(selected_uid))
     if not is_equipped and model.owned(selected_uid) and definition.has("use"):
         _button(actions,"Usar",func():_notify(player.use_item(selected_uid),"Ação iniciada"))
     if (not is_equipped or str(item.location).begins_with("slot:quick_")) and definition.has("slot"):
-        _button(actions,"Equipar",func():_notify(quick.activate(model.quick_category(selected_uid),true) if quick!=null and str(item.location).begins_with("slot:quick_") else player.equip_item(selected_uid),"Equipando item..."))
+        _button(actions,"Equipar · E",func():quick_equip(selected_uid))
     if is_equipped:
         _button(actions,"Retirar",func():begin_pending("unequip"))
     elif model.form(item.definition).x!=model.form(item.definition).y and bool(definition.get("can_rotate",true)):
@@ -339,6 +343,27 @@ func select_item(uid: String) -> void:
                 tile.selected=tile.uid==uid
                 tile.queue_redraw()
     _inspection()
+
+func quick_pickup(uid: String) -> void:
+    if not pending_mode.is_empty() or not drag_uid.is_empty():return
+    _notify(quick_inventory.pickup(uid),"Item guardado na mochila" if not player.bag_inventory.equipped("backpack").is_empty() else "Item guardado nos bolsos")
+
+func quick_equip(uid: String) -> void:
+    if not pending_mode.is_empty() or not drag_uid.is_empty() or player.paused:return
+    var model=player.bag_inventory
+    if not model.can_touch(uid):feedback.text="Item fora do alcance";return
+    if not model.catalog[model.items[uid].definition].has("slot"):
+        feedback.text="Este item não pode ser equipado";return
+    var quick=player.get_node_or_null("Atalhos93")
+    _notify(quick.activate(model.quick_category(uid),true) if quick!=null and str(model.items[uid].location).begins_with("slot:quick_") else player.equip_item(uid),"Equipando item...")
+
+func item_under_pointer116() -> String:
+    var point=get_viewport().get_mouse_position()
+    if not scroll.get_global_rect().has_point(point):return ""
+    for grid in grids:
+        if is_instance_valid(grid) and grid.is_visible_in_tree() and grid.get_global_rect().has_point(point) and grid.get_parent().get_global_rect().has_point(point):
+            return grid.item_at(grid.get_global_transform().affine_inverse()*point)
+    return ""
 
 func begin_pending(mode: String) -> void:
     if player.inventory_actions.busy():
@@ -463,6 +488,13 @@ func _input(event: InputEvent) -> void:
         var focus=get_viewport().gui_get_focus_owner()
         if focus is LineEdit or focus is TextEdit:
             return
+        if event.physical_keycode in [KEY_F,KEY_E]:
+            var uid=item_under_pointer116()
+            if uid.is_empty():uid=selected_uid
+            if not uid.is_empty():
+                if event.physical_keycode==KEY_F:quick_pickup(uid)
+                else:quick_equip(uid)
+                get_viewport().set_input_as_handled();return
         if event.physical_keycode==KEY_R and not selected_uid.is_empty():
             rotate_selected()
             get_viewport().set_input_as_handled()

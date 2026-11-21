@@ -1,0 +1,21 @@
+{
+  "draw_calls": 1733.0,
+  "frame": {
+    "fps_from_mean": 66.3961066920537,
+    "mean_ms": 15.0611240601504,
+    "median_ms": 13.783,
+    "p95_ms": 31.84
+  },
+  "holding": true,
+  "live_zombies": 0,
+  "player": [
+    17.3633346557617,
+    -0.0039335023611784,
+    167.163330078125
+  ],
+  "population": 480,
+  "primitives": 8082172.0,
+  "progress": 1.0,
+  "samples": 532,
+  "variant": "cached"
+}

@@ -1,6 +1,10 @@
-# Entre os Andarilhos — Demo técnica Godot · R115
+# Entre os Andarilhos — Demo técnica Godot · R116
 
 Versão de desenvolvimento de Arroio das Figueiras: exploração isométrica, inventário modular, combate com câmera no ombro, população persistente de zumbis e nove personagens com diálogos e progressão social. A demo final está prevista com **21 personagens**; os doze restantes aguardam autoria. Esta versão ainda não representa a demo concluída.
+
+## Disparo, mira e atalhos R116
+
+Tiros próximos agora acertam os zumbis sem tratá-los como paredes junto ao cano; humanos continuam protegidos e obstáculos sólidos ainda interceptam os disparos. As trocas repetidas de câmera e caminhada deixam de acumular escala nos braços. No inventário externo, **clique simples ou F** guarda o item em espaço livre da mochila e **E** equipa o item sob o cursor ou selecionado. Sem mochila, a coleta tenta os bolsos. O arraste continua escolhendo as células manualmente; os itens já guardados não são reorganizados. [Testes e capturas R116](docs/r116/comparativo_visual.html).
 
 ## FPS R115
 
@@ -32,6 +36,8 @@ O projeto usa o renderizador Compatibility. A primeira importação e a montagem
 | I / H | Inventário / corpo e saúde |
 | P | Menu de habilidades, personagens, mapa e configurações |
 | E | Interagir com móvel, porta ou personagem próximo |
+| Clique simples ou F, sobre item externo no inventário | Guardar na mochila; sem mochila, tentar os bolsos |
+| E, sobre item ou seleção no inventário | Equipar diretamente |
 | J | Escolher gaveta do móvel acessado |
 | V / B | Abrir ou fechar janela próxima / atravessar janela aberta ou cercamento |
 | Botão direito do mouse | Segurar para mirar com arma de fogo; câmera passa ao ombro |
@@ -49,7 +55,7 @@ Vincule os equipamentos aos atalhos pelo inventário antes de usá-los. Os núme
 
 ## Primeiro percurso
 
-O início atual continua na área de teste da H01. Procure a mochila e o moletom no guarda-roupa; armas e suprimentos ocupam **dez compartimentos de oito móveis**. Abra as gavetas individualmente. Água e comida estão na geladeira e na despensa. A colocação dos itens na mochila é manual, sem organização automática.
+O início atual continua na área de teste da H01. Procure a mochila e o moletom no guarda-roupa; armas e suprimentos ocupam **dez compartimentos de oito móveis**. Abra as gavetas individualmente. Água e comida estão na geladeira e na despensa. Clique ou F usa espaço livre para guardar o item; o arraste permite escolher sua célula. Os demais objetos mantêm a organização escolhida.
 
 Os recursos são finitos: consumir, recarregar, reabrir um móvel ou carregar a partida não repõe o estoque. As novas posições são usadas em partidas novas; campanhas antigas conservam seus itens e fontes originais.
 

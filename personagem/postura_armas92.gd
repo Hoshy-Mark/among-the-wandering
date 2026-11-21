@@ -62,7 +62,9 @@ func _about(name: String,rotation: Quaternion,pivot: Vector3) -> void:
     var world=rig.global_transform*rig.get_bone_global_pose(index)
     world=Transform3D(Basis(rotation),pivot-Basis(rotation)*pivot)*world
     var parent_world=rig.global_transform*rig.get_bone_global_pose(parent)
-    rig.set_bone_pose(index,parent_world.affine_inverse()*world);rig.force_update_all_bone_transforms()
+    var pose=parent_world.affine_inverse()*world
+    pose.basis=pose.basis.orthonormalized()
+    rig.set_bone_pose(index,pose);rig.force_update_all_bone_transforms()
 func _hand_orientation(side: String,desired: Quaternion) -> void:
     var name="Hand."+side
     _about(name,desired*_rotation(name).inverse(),_joint(name,side,"wrist"))
@@ -119,7 +121,7 @@ func apply(_delta: float) -> void:
         if not loading and body.shoulder!=null and body.shoulder.holding and not body.shoulder.barrel_obstructed():
             var grip=_grip();var barrel=(grip.basis*Vector3(0,0,1).rotated(Vector3.UP,body.weapons.visual.BARREL_YAW)).normalized()
             var muzzle=grip*body.weapons.visual.tip.rotated(Vector3.UP,body.weapons.visual.BARREL_YAW)
-            var direction=(body.shoulder.aim_ray().position-muzzle).normalized()
+            var direction=(body.shoulder.pose_target116()-muzzle).normalized()
             _about("Hand.R",Quaternion(barrel,direction),_joint("Hand.R","R","wrist"))
         actor.arm_blend.correct(reference,reference,1)
     var grip=_grip();var gun_basis=grip.basis*Basis(Vector3.UP,body.weapons.visual.BARREL_YAW)

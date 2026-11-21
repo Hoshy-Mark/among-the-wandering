@@ -11,6 +11,18 @@ var segmented_body: ArrayMesh
 var body_masks: Dictionary={}
 var fit_from: Dictionary={}
 var fit_enabled:=true
+var rigid_arm_bones116: Array[int]=[]
+
+func _sample_motion(id: String,seconds: float) -> void:
+    if rigid_arm_bones116.is_empty():
+        for side in ["L","R"]:
+            for bone_name in ["Clavicle.","UpperArm.","Forearm.","Hand."]:
+                var index=skeleton.find_bone(bone_name+side)
+                if index>=0:rigid_arm_bones116.append(index)
+    # These clips author rotations/positions, but omit scale tracks. A previous
+    # procedural aiming pose must not become the next animation's scale input.
+    for index in rigid_arm_bones116:skeleton.set_bone_pose_scale(index,Vector3.ONE)
+    super._sample_motion(id,seconds)
 
 func set_motion(id: String) -> bool:
     var visible_pose: Array[Transform3D]=[]
@@ -22,6 +34,7 @@ func set_motion(id: String) -> bool:
             if str(key).begins_with("Fit_") and float(weights[key])>0:fit_from[key]=weights[key]
     var accepted=super.set_motion(id)
     if accepted and not visible_pose.is_empty():
+        for index in rigid_arm_bones116:visible_pose[index].basis=visible_pose[index].basis.orthonormalized()
         motion_source="";motion_from=visible_pose;base_motion_pose=visible_pose.duplicate()
     return accepted
 

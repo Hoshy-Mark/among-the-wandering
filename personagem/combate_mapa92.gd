@@ -23,7 +23,11 @@ func request(kind: String="") -> bool:
         var camera_hit=shot_trace(camera_origin,camera_origin+direction*50)
         var origin: Vector3=service.visual.muzzle_position();var towards: Vector3=camera_hit.position-origin
         var point=origin+towards.normalized()*minf(float(spec.reach),towards.length()+.02)
-        var hit=shot_trace(origin,point);var receiver=hit.get("collider");var zone=str(hit.get("zone",""))
+        # Check the short path to the muzzle as well: a very close target may
+        # intersect the barrel, while a wall must still intercept the shot.
+        var clearance=shot_trace(p.global_position+Vector3.UP*1.3,origin)
+        var hit=clearance if clearance.get("collider")!=null else shot_trace(origin,point)
+        var receiver=hit.get("collider");var zone=str(hit.get("zone",""))
         service.rounds[uid]=service.loaded(uid)-1;service.flash();_noise();aim.note_shot()
         var amount=minf(1,float(spec.damage)*float(config.damage_factors.get(zone,0)))
         var event={"id":event_id,"action":"firearm_shot","kind":"bullet","zone":zone,"amount":amount,"source_position":p.global_position,"weapon_uid":uid,"position":hit.position,"normal":hit.normal}
