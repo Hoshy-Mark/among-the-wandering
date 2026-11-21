@@ -1,0 +1,236 @@
+{
+  "batching": {
+    "cache_hits": 73,
+    "geometry_checks": 180,
+    "models_batched": 180,
+    "render_surfaces": 2855,
+    "render_triangles": 1001104,
+    "source_meshes": 18035,
+    "source_surfaces": 18035,
+    "source_triangles": 1001104
+  },
+  "demo_state": "alive",
+  "draw_calls": {
+    "mean": 1098.0,
+    "median": 1098.0,
+    "p95": 1098.0
+  },
+  "frame_ms": {
+    "mean": 93.5132249999999,
+    "median": 92.18,
+    "p95": 113.139
+  },
+  "humans": 9,
+  "label": "baseline",
+  "live_zombies": 0,
+  "node_count": 80606.0,
+  "physics_ms": {
+    "mean": 31.9194916666667,
+    "median": 31.578,
+    "p95": 34.807
+  },
+  "population": 480,
+  "primitives": {
+    "mean": 1919735.0,
+    "median": 1919735.0,
+    "p95": 1919735.0
+  },
+  "process_ms": {
+    "mean": 20.4259916666667,
+    "median": 19.93,
+    "p95": 23.608
+  },
+  "resolution": [
+    1280,
+    720
+  ],
+  "stages": {
+    "city.gd/_ready": {
+      "calls": 1,
+      "max_usec": 132146552,
+      "usec": 132146552
+    },
+    "city.gd/catalog[city_master]": {
+      "calls": 2,
+      "max_usec": 136927,
+      "usec": 260938
+    },
+    "city.gd/catalog[civic_infrastructure]": {
+      "calls": 1,
+      "max_usec": 12655,
+      "usec": 12655
+    },
+    "city.gd/catalog[environment]": {
+      "calls": 5,
+      "max_usec": 14039,
+      "usec": 65731
+    },
+    "city.gd/catalog[ground_cover]": {
+      "calls": 2,
+      "max_usec": 268874,
+      "usec": 536277
+    },
+    "city.gd/catalog[landscape]": {
+      "calls": 429,
+      "max_usec": 252478,
+      "usec": 87955631
+    },
+    "city.gd/catalog[lot_overrides]": {
+      "calls": 89,
+      "max_usec": 42450,
+      "usec": 1302307
+    },
+    "city.gd/catalog[parcels]": {
+      "calls": 139,
+      "max_usec": 15174,
+      "usec": 1605717
+    },
+    "city.gd/catalog[public_spaces]": {
+      "calls": 1,
+      "max_usec": 10492,
+      "usec": 10492
+    },
+    "city.gd/catalog[roads]": {
+      "calls": 4,
+      "max_usec": 12509,
+      "usec": 43404
+    },
+    "city.gd/catalog[urban_dressing]": {
+      "calls": 719,
+      "max_usec": 37022,
+      "usec": 15274584
+    },
+    "city.gd/catalog[yard_details]": {
+      "calls": 121,
+      "max_usec": 20432,
+      "usec": 1737496
+    },
+    "city.gd/set_static_render_batching": {
+      "calls": 1,
+      "max_usec": 663819,
+      "usec": 663819
+    },
+    "civic_interiors.gd/_process": {
+      "calls": 240,
+      "max_usec": 120,
+      "usec": 11661
+    },
+    "civic_interiors.gd/configure": {
+      "calls": 1,
+      "max_usec": 1011097,
+      "usec": 1011097
+    },
+    "current_h01_h20_layer.gd/configure": {
+      "calls": 1,
+      "max_usec": 1236723,
+      "usec": 1236723
+    },
+    "ground_cover.gd/configure": {
+      "calls": 1,
+      "max_usec": 690738,
+      "usec": 690738
+    },
+    "h11_h20_layer.gd/configure": {
+      "calls": 1,
+      "max_usec": 555173,
+      "usec": 555173
+    },
+    "h21_h30_layer.gd/configure": {
+      "calls": 1,
+      "max_usec": 557355,
+      "usec": 557355
+    },
+    "h31_h40_layer.gd/configure": {
+      "calls": 1,
+      "max_usec": 810114,
+      "usec": 810114
+    },
+    "humano99.gd/_physics_process": {
+      "calls": 12123,
+      "max_usec": 2825,
+      "usec": 10978174
+    },
+    "landscape_layer.gd/_process": {
+      "calls": 240,
+      "max_usec": 32,
+      "usec": 2639
+    },
+    "landscape_layer.gd/configure": {
+      "calls": 1,
+      "max_usec": 29996239,
+      "usec": 29996239
+    },
+    "lot_art_overrides.gd/configure": {
+      "calls": 1,
+      "max_usec": 50129,
+      "usec": 50129
+    },
+    "lrp01_layer.gd/configure": {
+      "calls": 1,
+      "max_usec": 1878825,
+      "usec": 1878825
+    },
+    "lrp02_layer.gd/configure": {
+      "calls": 1,
+      "max_usec": 2268905,
+      "usec": 2268905
+    },
+    "master_lot_layer.gd/configure": {
+      "calls": 1,
+      "max_usec": 43244890,
+      "usec": 43244890
+    },
+    "personagem_base.gd/advance": {
+      "calls": 13470,
+      "max_usec": 2844,
+      "usec": 12433812
+    },
+    "residential_interiors.gd/_process": {
+      "calls": 480,
+      "max_usec": 5581,
+      "usec": 1645099
+    },
+    "residential_interiors.gd/configure": {
+      "calls": 1,
+      "max_usec": 7201572,
+      "usec": 7201572
+    },
+    "residential_services.gd/_process": {
+      "calls": 240,
+      "max_usec": 2309,
+      "usec": 304105
+    },
+    "rural_layer.gd/configure": {
+      "calls": 1,
+      "max_usec": 546097,
+      "usec": 546097
+    },
+    "rural_network_layer.gd/configure": {
+      "calls": 1,
+      "max_usec": 166158,
+      "usec": 166158
+    },
+    "static_visual_batcher.gd/_prepare": {
+      "calls": 107,
+      "max_usec": 71819,
+      "usec": 1802871
+    },
+    "urban_components.gd/configure": {
+      "calls": 1,
+      "max_usec": 37674265,
+      "usec": 37674265
+    },
+    "z2_finish.gd/configure": {
+      "calls": 1,
+      "max_usec": 819961,
+      "usec": 819961
+    },
+    "zumbis98.gd/_physics_process": {
+      "calls": 1347,
+      "max_usec": 25498,
+      "usec": 3438073
+    }
+  },
+  "startup_ms": 140387.759,
+  "static_memory_bytes": 1582363244.0
+}

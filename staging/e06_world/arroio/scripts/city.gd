@@ -27,8 +27,15 @@ var static_batcher = preload("res://staging/e06_world/arroio/scripts/static_visu
 const DATA := "res://staging/e06_world/arroio/data/"
 var ready_for_integration: bool = false
 var material_cache: Dictionary = {}
+var catalog_cache114=preload("res://staging/e06_world/arroio/scripts/catalog_cache114.gd").new()
 
 func catalog(name: String) -> Variant:
+	return catalog_cache114.fetch(self,name,_load_catalog114)
+
+func invalidate_catalogs114() -> void:
+	catalog_cache114.clear()
+
+func _load_catalog114(name: String) -> Variant:
 	if name=="lot_overrides":
 		var rules: Dictionary = preload("res://staging/e06_world/arroio/scripts/master_lot_layer.gd").rules(self)
 		if apply_h11_h20_candidates:rules.lots.merge(preload("res://staging/e06_world/arroio/scripts/h11_h20_layer.gd").rules().lots)

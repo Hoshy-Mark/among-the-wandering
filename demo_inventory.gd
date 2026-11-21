@@ -136,6 +136,8 @@ func _ready() -> void:
     if loading_cover!=null:
         loading_cover.queue_free()
     demo_ready=true
+    # Catalog snapshots accelerate assembly; gameplay owns the returned copies.
+    if city.has_method("invalidate_catalogs114"):city.invalidate_catalogs114()
     if "--probe-route" in args:
         await get_tree().physics_frame
         for x in range(-280,90,10):

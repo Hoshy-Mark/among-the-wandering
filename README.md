@@ -1,6 +1,10 @@
-# Entre os Andarilhos — Demo técnica R112 com correções R113
+# Entre os Andarilhos — Demo técnica Godot · R114
 
 Versão de desenvolvimento de Arroio das Figueiras: exploração isométrica, inventário modular, combate com câmera no ombro, população persistente de zumbis e nove personagens com diálogos e progressão social. A demo final está prevista com **21 personagens**; os doze restantes aguardam autoria. Esta versão ainda não representa a demo concluída.
+
+## Otimização R114
+
+No teste local, a montagem do mapa após a importação caiu de 140 para 37 segundos, com memória praticamente igual. O cache dos catálogos é liberado ao iniciar a partida, e as poses das mãos reaproveitam conversões sem reduzir a frequência de animação. O FPS nesta cena permaneceu praticamente igual; física, animação e renderização continuam como próximos alvos. [Medições, capturas e limites](docs/r114/comparativo_visual.html).
 
 ## Correções R113
 

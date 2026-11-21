@@ -1,0 +1,12 @@
+{
+  "demo_inventory.gd": "3678ace487b0e2ed6e742f17d488cf1b098c780e5b8c92766586f84b09f74cc4",
+  "personagem/maos.gd": "2121581e4c6f7a9378a9d5585e316cf67e7dfe4dcb6c433e5260668d5dd85201",
+  "staging/e06_world/arroio/scripts/city.gd": "5febdd000cd820d49b8785e0b9d17dcc19636f7ce8aa30743b79147e19f40a16",
+  "staging/e06_world/arroio/scripts/catalog_cache114.gd": "104f15f3ec5158f11c38f08c252eb65544c661700b1996b9052d457daa06444b",
+  "tests/performance114.gd": "bcb12faac008d5724ea3a27e317993a6ef740479aa2efb1282d9e28fdd3322f7",
+  "tests/equivalence114.gd": "f8b4efa887e984884b4976d4ae0bfb5174c212e0c99efefdc23e7dd1bb29fc28",
+  "tests/regression114.gd": "0f07d8924e59eb368a3bd79c5bc5f6ffabc5625da11db1402d5537996225825c",
+  "tests/fixtures114/city_before.gd": "cb408c142c807a484af51eff905a2453df4ca591bec4e9a43b3a7f77f0b7ff86",
+  "tests/fixtures114/hands_before.gd": "ff49fb5bdeee40fc5a510559737a29a1c82bbf54907dcb7dead616f49aed13e6",
+  "tests/fixtures114/publication_r112.json": "443ac2c9ba173c1a7f79cb6e196144968f677185b46639f194e90990123ed5ff"
+}

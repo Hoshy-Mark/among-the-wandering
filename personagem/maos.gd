@@ -9,6 +9,7 @@ var label:="Relaxed"
 var clip: Animation
 var clock:=0.0
 var blend_time:=.12
+var decoded_poses114: Dictionary={}
 
 func setup(npc: Node3D) -> void:
     actor=npc
@@ -28,6 +29,7 @@ func decode(data: Dictionary) -> Dictionary:
 func set_pose(id: String) -> bool:
     if not poses.has(id):
         return false
+    decoded_poses114.erase(id)
     outgoing=current.duplicate()
     label=id
     clip=null
@@ -44,7 +46,9 @@ func play(id: String) -> bool:
 
 func advance(delta: float) -> void:
     clock+=delta
-    var target:=decode(poses[label])
+    if not decoded_poses114.has(label):decoded_poses114[label]=decode(poses[label])
+    # Animation, callers and current may modify this dictionary, not its template.
+    var target: Dictionary=decoded_poses114[label].duplicate()
     if clip!=null:
         for track in clip.get_track_count():
             var name:=str(clip.track_get_path(track).get_subname(0))

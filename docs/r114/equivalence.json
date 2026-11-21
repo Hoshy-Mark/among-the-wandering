@@ -1,0 +1,20 @@
+{
+  "checks": 18428,
+  "failures": [],
+  "max_skeleton_error": 0.000000599760141994921,
+  "microbench": {
+    "res://personagem/personagem.tscn": {
+      "new_hands_usec": 25177,
+      "old_hands_usec": 45837
+    },
+    "res://personagem/personagem_feminina106.tscn": {
+      "new_hands_usec": 24930,
+      "old_hands_usec": 47129
+    }
+  },
+  "passed": true,
+  "poses": {
+    "res://personagem/personagem.tscn": 522,
+    "res://personagem/personagem_feminina106.tscn": 522
+  }
+}

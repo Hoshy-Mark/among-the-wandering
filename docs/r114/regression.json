@@ -1,0 +1,27 @@
+{
+  "guard_checks": 6,
+  "interaction_checks": 100,
+  "passed": true,
+  "save_checks": [
+    {
+      "message": "optimized campaign saves",
+      "passed": true
+    },
+    {
+      "message": "optimized campaign reloads",
+      "passed": true
+    },
+    {
+      "message": "manual inventory and social data survive round trip",
+      "passed": true
+    },
+    {
+      "message": "previous R112 campaign remains loadable",
+      "passed": true
+    },
+    {
+      "message": "current campaign restores after legacy load",
+      "passed": true
+    }
+  ]
+}
